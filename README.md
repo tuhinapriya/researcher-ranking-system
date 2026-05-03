@@ -4,11 +4,11 @@ This guide explains how to rebuild the container image, update the existing Clou
 
 ## Project Details
 
-- **Project ID:** project-d84d7c5a-c91d-497b-b78
+- **Project ID:** <YOUR_GCP_PROJECT_ID>
 - **Region:** us-central1
 - **Existing Cloud Run Job:** researcher-ingestion
-- **Artifact Registry Image:** us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ingestion
-- **Cloud SQL Instance:** project-d84d7c5a-c91d-497b-b78:us-central1:researcher-mysql
+- **Artifact Registry Image:** us-central1-docker.pkg.dev/<YOUR_GCP_PROJECT_ID>/researcher-repo/researcher-ingestion
+- **Cloud SQL Instance:** <YOUR_GCP_PROJECT_ID>:us-central1:researcher-mysql
 - **Cloud SQL DB Name:** researcher_db
 - **Cloud SQL User:** researcher_user
 
@@ -24,7 +24,7 @@ This README explains how to build the Docker image for the researcher backend, s
 - Set the active project:
 
 ```bash
-gcloud config set project project-d84d7c5a-c91d-497b-b78
+gcloud config set project <YOUR_GCP_PROJECT_ID>
 ```
 
 ## Prerequisites
@@ -33,7 +33,7 @@ gcloud config set project project-d84d7c5a-c91d-497b-b78
 - Set the active project:
 
 ```bash
-gcloud config set project project-d84d7c5a-c91d-497b-b78
+gcloud config set project <YOUR_GCP_PROJECT_ID>
 ```
 
 - Enable required APIs if not already enabled:
@@ -62,7 +62,7 @@ Build and push the container image to Artifact Registry using Cloud Build (taggi
 
 ```bash
 gcloud builds submit . \
-  --tag us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ingestion
+  --tag us-central1-docker.pkg.dev/<YOUR_GCP_PROJECT_ID>/researcher-repo/researcher-ingestion
 ```
 
 What it does:
@@ -75,7 +75,7 @@ Update the job to use the newly pushed image and set runtime options (timeout, m
 
 ```bash
 gcloud run jobs update researcher-ingestion \
-  --image us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ingestion \
+  --image us-central1-docker.pkg.dev/<YOUR_GCP_PROJECT_ID>/researcher-repo/researcher-ingestion \
   --region us-central1 \
   --task-timeout=24h \
   --memory=8Gi
@@ -156,12 +156,12 @@ Run from the repository root:
 ```bash
 gcloud builds submit . \
   --config cloudbuild.rank.yaml \
-  --project project-d84d7c5a-c91d-497b-b78
+  --project <YOUR_GCP_PROJECT_ID>
 ```
 
 This creates and pushes the image to Artifact Registry (example path used by the repo):
 
-`us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ranking:latest`
+`us-central1-docker.pkg.dev/<YOUR_GCP_PROJECT_ID>/researcher-repo/researcher-ranking:latest`
 
 **Deploy or update the Cloud Run _service_ (ranking)**
 
@@ -169,14 +169,14 @@ Make sure the runtime service account has these roles: `roles/cloudsql.client`, 
 
 ```bash
 gcloud run deploy researcher-ranking \
-  --image us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ranking:latest \
+  --image us-central1-docker.pkg.dev/<YOUR_GCP_PROJECT_ID>/researcher-repo/researcher-ranking:latest \
   --region us-central1 \
   --platform managed \
   --allow-unauthenticated \
-  --service-account=researcher-run-sa@project-d84d7c5a-c91d-497b-b78.iam.gserviceaccount.com \
-  --add-cloudsql-instances=project-d84d7c5a-c91d-497b-b78:us-central1:researcher-mysql \
+  --service-account=<YOUR_RUNTIME_SERVICE_ACCOUNT_EMAIL> \
+  --add-cloudsql-instances=<YOUR_GCP_PROJECT_ID>:us-central1:researcher-mysql \
   --set-secrets DB_PASSWORD=db-password:latest,PINECONE_API_KEY=pinecone-key:latest \
-  --set-env-vars DB_HOST=/cloudsql/project-d84d7c5a-c91d-497b-b78:us-central1:researcher-mysql,DB_USER=researcher_user,DB_NAME=researcher_db,DB_PORT=3306,GOOGLE_CLOUD_PROJECT=project-d84d7c5a-c91d-497b-b78,VERTEX_LOCATION=us-central1
+  --set-env-vars DB_HOST=/cloudsql/<YOUR_GCP_PROJECT_ID>:us-central1:researcher-mysql,DB_USER=researcher_user,DB_NAME=researcher_db,DB_PORT=3306,GOOGLE_CLOUD_PROJECT=<YOUR_GCP_PROJECT_ID>,VERTEX_LOCATION=us-central1
 ```
 
 Notes:
@@ -192,7 +192,7 @@ If you prefer to bind secrets separately (or after initial deploy), use:
 gcloud run services update researcher-ranking \
   --region us-central1 \
   --set-secrets DB_PASSWORD=db-password:latest,PINECONE_API_KEY=pinecone-key:latest \
-  --update-env-vars DB_HOST=/cloudsql/project-d84d7c5a-c91d-497b-b78:us-central1:researcher-mysql,DB_USER=researcher_user,DB_NAME=researcher_db,DB_PORT=3306
+  --update-env-vars DB_HOST=/cloudsql/<YOUR_GCP_PROJECT_ID>:us-central1:researcher-mysql,DB_USER=researcher_user,DB_NAME=researcher_db,DB_PORT=3306
 ```
 
 This updates the live service revision without rebuilding the image.
@@ -202,10 +202,10 @@ This updates the live service revision without rebuilding the image.
 If you change the ingestion image or code (job), rebuild the image and update the job:
 
 ```bash
-gcloud builds submit . --tag us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ingestion
+gcloud builds submit . --tag us-central1-docker.pkg.dev/<YOUR_GCP_PROJECT_ID>/researcher-repo/researcher-ingestion
 
 gcloud run jobs update researcher-ingestion \
-  --image us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ingestion \
+  --image us-central1-docker.pkg.dev/<YOUR_GCP_PROJECT_ID>/researcher-repo/researcher-ingestion \
   --region us-central1 \
   --task-timeout=24h --memory=8Gi
 ```
@@ -225,7 +225,7 @@ The job keeps its previous secret and Cloud SQL configuration unless you explici
 - Default cap (service default, e.g. 25):
 
 ```bash
-curl -s -X POST https://researcher-ranking-843231871344.us-central1.run.app/rank \
+curl -s -X POST <YOUR_CLOUD_RUN_SERVICE_URL>/rank \
   -H "Content-Type: application/json" \
   -d '{"query":"robotics","use_mock_data":false}'
 ```
@@ -233,7 +233,7 @@ curl -s -X POST https://researcher-ranking-843231871344.us-central1.run.app/rank
 - Explicit `limit` (return up to 100 results):
 
 ```bash
-curl -s -X POST https://researcher-ranking-843231871344.us-central1.run.app/rank \
+curl -s -X POST <YOUR_CLOUD_RUN_SERVICE_URL>/rank \
   -H "Content-Type: application/json" \
   -d '{"query":"robotics","use_mock_data":false,"limit":100}'
 ```
