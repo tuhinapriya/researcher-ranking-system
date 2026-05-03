@@ -1,67 +1,117 @@
-# Researcher Ranking System
+# AI Researcher Ranking System
 
-A two-part system for finding and ranking researchers for a topic.
+An end-to-end system that identifies and ranks researchers for a topic using semantic search plus a custom scoring pipeline.
 
-## 1. Project Summary
+Built for a practical use case: helping teams find relevant academic experts for collaboration, hiring, and research partnerships.
 
-This project does two things:
+## What Problem This Solves
 
-1. Builds a researcher knowledge base from public scholarly sources.
-2. Ranks researchers for a user query using semantic relevance and profile strength.
+Citation-heavy discovery tools often return famous researchers who are not the best match for a specific query.
 
-In short: it helps answer questions like "Who are the strongest researchers in quantum computing for this query?"
+This system optimizes for both:
 
-## 2. Core Idea
+1. Query relevance to current need
+2. Research impact signal for credibility
 
-Most APIs give raw papers or raw profiles. This system combines both:
+Result: a ranked list that is more useful for decision-making than citation-only sorting.
 
-- Researcher profile signals (h-index, citations, institution quality, seniority)
-- Query relevance signals (paper-level semantic match to user query)
+## What The System Does
 
-Then it produces ranked results with reasons.
+Given a query like "quantum computing" or "robotics", the system:
 
-## 3. How It Works
+1. Retrieves semantically relevant papers from Pinecone
+2. Maps those papers to researchers
+3. Computes per-researcher relevance score (Q)
+4. Computes per-researcher impact score (H)
+5. Produces an explainable final ranking with top supporting papers
 
-### Phase 1: Build the Knowledge Base (Batch Pipeline)
+## End-to-End Architecture
 
-The pipeline in [researcher-kb-pipeline](researcher-kb-pipeline) runs in stages:
+The platform has two production-oriented phases.
+
+### Phase 1: Data and Knowledge Base Pipeline
+
+Pipeline location: [researcher-kb-pipeline](researcher-kb-pipeline)
 
 1. Discover papers from OpenAlex by topic/query
 2. Extract and deduplicate researchers
-3. Enrich researcher + institution + collaborator data
-4. Assemble final structured outputs
+3. Enrich profiles with metrics, collaborators, and institution context
+4. Assemble final researcher knowledge base artifacts
 
-Main outputs:
+Primary artifacts:
 
 - [researcher-kb-pipeline/data/knowledge_base.json](researcher-kb-pipeline/data/knowledge_base.json)
 - [researcher-kb-pipeline/data/knowledge_base_summary_schema.json](researcher-kb-pipeline/data/knowledge_base_summary_schema.json)
 
-### Phase 2: Serve Rankings (Online API)
+### Phase 2: Online Ranking API
 
-The ranking service accepts a query and returns top researchers with explanation fields:
+Service entrypoint: [researcher-kb-pipeline/rank_service.py](researcher-kb-pipeline/rank_service.py)
 
-- Endpoint: POST /rank
-- Health check: GET /health
-- App file: [researcher-kb-pipeline/rank_service.py](researcher-kb-pipeline/rank_service.py)
+- `POST /rank` returns ranked researchers and scoring breakdown
+- `GET /health` verifies service liveness
 
-## 4. Repository Layout
+Ranking and query logic:
 
-- [researcher-kb-pipeline/pipeline.py](researcher-kb-pipeline/pipeline.py): stage orchestrator
-- [researcher-kb-pipeline/stage1_discover.py](researcher-kb-pipeline/stage1_discover.py): paper discovery
-- [researcher-kb-pipeline/stage2_extract.py](researcher-kb-pipeline/stage2_extract.py): author extraction
-- [researcher-kb-pipeline/stage3_enrich.py](researcher-kb-pipeline/stage3_enrich.py): enrichment
-- [researcher-kb-pipeline/stage4_assemble.py](researcher-kb-pipeline/stage4_assemble.py): assembly
-- [researcher-kb-pipeline/search.py](researcher-kb-pipeline/search.py): ranking/search logic
-- [researcher-kb-pipeline/rank_service.py](researcher-kb-pipeline/rank_service.py): FastAPI service
+- [researcher-kb-pipeline/search.py](researcher-kb-pipeline/search.py)
+- [researcher-kb-pipeline/ranking.py](researcher-kb-pipeline/ranking.py)
 
-## 5. Local Setup
+## Scoring Model
+
+The default mode is intentionally simple and explainable.
+
+### Q Score (Relevance)
+
+Average similarity of top 20 matched papers per researcher (zero-padded if fewer than 20 matches).
+
+```text
+Q = avg(top 20 paper similarity scores)
+```
+
+### H Score (Impact)
+
+Normalized h-index cap.
+
+```text
+H = min(h_index / 100, 1.0)
+```
+
+### Final Score
+
+Weighted combination of relevance and impact.
+
+```text
+Final = wQ * Q + wH * H
+```
+
+Default weights are controlled in [researcher-kb-pipeline/config.py](researcher-kb-pipeline/config.py) (`Q_WEIGHT`, `H_WEIGHT`, both default to `0.5`).
+
+## Tech Stack
+
+Backend:
+
+- Python
+- FastAPI
+
+Data and retrieval:
+
+- OpenAlex
+- Semantic Scholar
+- MySQL (structured records)
+- Pinecone (vector retrieval)
+
+Infrastructure:
+
+- Docker
+- Google Cloud Run
+
+## Local Setup
 
 ### Prerequisites
 
 - Python 3.11+
 - pip
-- Optional: Docker (for containerized runs)
-- Optional: gcloud CLI (for Cloud Run deployment)
+- Optional: Docker
+- Optional: gcloud CLI
 
 ### Install
 
@@ -89,13 +139,13 @@ export DB_PORT="3306"
 export PINECONE_API_KEY="<pinecone-api-key>"
 export PINECONE_INDEX="researcher-papers"
 
-# Optional if using OpenAI embeddings in your flow
+# Optional depending on embedding configuration
 export OPENAI_API_KEY="<openai-api-key>"
 ```
 
-## 6. Run Locally
+## Run The System
 
-### Run Phase 1 (Pipeline)
+### Run Phase 1 Pipeline
 
 ```bash
 cd researcher-kb-pipeline
@@ -110,31 +160,48 @@ python pipeline.py --stage 1
 python pipeline.py --stage 3a --force
 ```
 
-### Run Phase 2 (Ranking API)
+### Run Phase 2 Ranking API
 
 ```bash
 cd researcher-kb-pipeline
 uvicorn rank_service:app --host 0.0.0.0 --port 8080
 ```
 
-Test API:
+### Test API
 
 ```bash
 curl -s -X POST "http://127.0.0.1:8080/rank" \
   -H "Content-Type: application/json" \
-  -d '{"query":"quantum computing","use_mock_data":true,"limit":25}'
+  -d '{"query":"quantum computing","use_mock_data":true,"limit":10}'
 ```
 
-## 7. Deploy Setup (Cloud, High-Level)
+## API Contract
 
-### Ingestion Job Image
+### `POST /rank` request example
+
+```json
+{
+  "query": "quantum computing",
+  "limit": 10
+}
+```
+
+Response includes:
+
+- Ranked researchers
+- `Q`, `H`, and `final_score`
+- Reason summary and top supporting papers
+
+## Deployment Setup (High-Level)
+
+### Build ingestion job image
 
 ```bash
 gcloud builds submit . \
   --tag us-central1-docker.pkg.dev/<YOUR_GCP_PROJECT_ID>/researcher-repo/researcher-ingestion
 ```
 
-### Ranking Service Image
+### Build ranking service image
 
 ```bash
 gcloud builds submit . \
@@ -142,7 +209,7 @@ gcloud builds submit . \
   --project <YOUR_GCP_PROJECT_ID>
 ```
 
-### Deploy Ranking Service
+### Deploy ranking service
 
 ```bash
 gcloud run deploy researcher-ranking \
@@ -152,16 +219,33 @@ gcloud run deploy researcher-ranking \
   --allow-unauthenticated
 ```
 
-Add Cloud SQL and Secret Manager bindings as needed for your environment.
+Add Cloud SQL and Secret Manager bindings for your environment.
 
-## 8. Typical Usage Flow
+## Design Decisions and Tradeoffs
 
-1. Run Phase 1 pipeline to refresh researcher data.
-2. Ensure database/vector index is populated.
-3. Run Phase 2 API.
-4. Send query to /rank and consume ranked results.
+1. Prioritize relevance first, not just fame
+2. Keep scoring explainable for stakeholder trust
+3. Use configurable weights so product behavior can be tuned
+4. Maintain a simple default mode and an advanced weighted mode for experimentation
 
-## 9. Notes
+## Current Focus
 
-- This README is setup-first and environment-agnostic.
+1. Improving ranking quality and evaluation metrics
+2. Handling sparse-profile and noisy-match edge cases
+3. Expanding benchmarking across more query categories
+
+## Repository Guide
+
+- [researcher-kb-pipeline/pipeline.py](researcher-kb-pipeline/pipeline.py): stage orchestrator
+- [researcher-kb-pipeline/stage1_discover.py](researcher-kb-pipeline/stage1_discover.py): paper discovery
+- [researcher-kb-pipeline/stage2_extract.py](researcher-kb-pipeline/stage2_extract.py): researcher extraction
+- [researcher-kb-pipeline/stage3_enrich.py](researcher-kb-pipeline/stage3_enrich.py): profile enrichment
+- [researcher-kb-pipeline/stage4_assemble.py](researcher-kb-pipeline/stage4_assemble.py): final assembly
+- [researcher-kb-pipeline/search.py](researcher-kb-pipeline/search.py): retrieval and ranking integration
+- [researcher-kb-pipeline/ranking.py](researcher-kb-pipeline/ranking.py): scoring functions
+- [researcher-kb-pipeline/rank_service.py](researcher-kb-pipeline/rank_service.py): FastAPI service
+
+## Notes
+
+- This README is environment-agnostic.
 - No real project IDs, service account emails, or secret values are stored here.
