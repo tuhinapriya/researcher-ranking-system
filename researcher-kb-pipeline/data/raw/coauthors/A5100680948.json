@@ -1,0 +1,134 @@
+{
+  "author_id": "A5100680948",
+  "total_recent_works_analysed": 100,
+  "total_unique_collaborators": 327,
+  "estimated_mentee_count": 10,
+  "likely_mentees": [
+    {
+      "name": "Nicholas J. Ose",
+      "id": "A5045175443",
+      "works_count": 20,
+      "shared_papers": 5
+    },
+    {
+      "name": "Tracy Vu",
+      "id": "A5112447770",
+      "works_count": 14,
+      "shared_papers": 4
+    },
+    {
+      "name": "Glen Stecher",
+      "id": "A5067791761",
+      "works_count": 16,
+      "shared_papers": 3
+    },
+    {
+      "name": "Olumide Oladeinde",
+      "id": "A5073133952",
+      "works_count": 4,
+      "shared_papers": 3
+    },
+    {
+      "name": "Vivian Aly",
+      "id": "A5055340228",
+      "works_count": 4,
+      "shared_papers": 3
+    },
+    {
+      "name": "Michael Suleski",
+      "id": "A5088065545",
+      "works_count": 9,
+      "shared_papers": 2
+    },
+    {
+      "name": "John B. Allard",
+      "id": "A5086474584",
+      "works_count": 14,
+      "shared_papers": 2
+    },
+    {
+      "name": "Jiamin Deng",
+      "id": "A5086645000",
+      "works_count": 7,
+      "shared_papers": 2
+    },
+    {
+      "name": "Adrienne E Kasprowicz",
+      "id": "A5028989535",
+      "works_count": 6,
+      "shared_papers": 1
+    },
+    {
+      "name": "Michael Li",
+      "id": "A5100724530",
+      "works_count": 7,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.43,
+    "corresponding_author_ratio": 0.34
+  },
+  "top_collaborators": [
+    {
+      "name": "Maxwell Sanderford",
+      "id": "A5033569885",
+      "shared_papers": 11,
+      "same_institution": true
+    },
+    {
+      "name": "Qiqing Tao",
+      "id": "A5016751952",
+      "shared_papers": 11,
+      "same_institution": true
+    },
+    {
+      "name": "Sayaka Miura",
+      "id": "A5062480014",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Sudip Sharma",
+      "id": "A5020357256",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Jose Barba‐Montoya",
+      "id": "A5000997109",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Ambrish Maurya",
+      "id": "A5077053732",
+      "shared_papers": 8,
+      "same_institution": false
+    },
+    {
+      "name": "Koichiro Tamura",
+      "id": "A5007823743",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "S. Banu Ozkan",
+      "id": "A5050843177",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Jack M. Craig",
+      "id": "A5091689845",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "S. Blair Hedges",
+      "id": "A5056603005",
+      "shared_papers": 5,
+      "same_institution": true
+    }
+  ]
+}

@@ -1,0 +1,1042 @@
+{
+  "id": "https://openalex.org/I83024425",
+  "ror": "https://ror.org/021njs178",
+  "display_name": "Universidad Intercontinental",
+  "country_code": "MX",
+  "type": "education",
+  "type_id": "https://openalex.org/institution-types/education",
+  "lineage": [
+    "https://openalex.org/I83024425"
+  ],
+  "homepage_url": "http://www.uic.edu.mx/",
+  "image_url": null,
+  "image_thumbnail_url": null,
+  "display_name_acronyms": [
+    "UIC"
+  ],
+  "display_name_alternatives": [
+    "Intercontinental University",
+    "Universidad Intercontinental"
+  ],
+  "repositories": [],
+  "works_count": 788,
+  "cited_by_count": 11229,
+  "summary_stats": {
+    "2yr_mean_citedness": 14.415525114155251,
+    "h_index": 48,
+    "i10_index": 200
+  },
+  "ids": {
+    "openalex": "https://openalex.org/I83024425",
+    "ror": "https://ror.org/021njs178",
+    "grid": "grid.441055.1",
+    "wikipedia": "http://en.wikipedia.org/wiki/Universidad_Intercontinental",
+    "wikidata": "https://www.wikidata.org/wiki/Q7894274"
+  },
+  "geo": {
+    "city": "Mexico City",
+    "geonames_city_id": "3530597",
+    "region": null,
+    "country_code": "MX",
+    "country": "Mexico",
+    "latitude": 19.280000686645508,
+    "longitude": -99.1709976196289
+  },
+  "international": {},
+  "associated_institutions": [],
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 20,
+      "oa_works_count": 15,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "works_count": 85,
+      "oa_works_count": 73,
+      "cited_by_count": 1540
+    },
+    {
+      "year": 2024,
+      "works_count": 45,
+      "oa_works_count": 41,
+      "cited_by_count": 181
+    },
+    {
+      "year": 2023,
+      "works_count": 28,
+      "oa_works_count": 24,
+      "cited_by_count": 59
+    },
+    {
+      "year": 2022,
+      "works_count": 30,
+      "oa_works_count": 20,
+      "cited_by_count": 92
+    },
+    {
+      "year": 2021,
+      "works_count": 45,
+      "oa_works_count": 33,
+      "cited_by_count": 346
+    },
+    {
+      "year": 2020,
+      "works_count": 24,
+      "oa_works_count": 22,
+      "cited_by_count": 211
+    },
+    {
+      "year": 2019,
+      "works_count": 24,
+      "oa_works_count": 19,
+      "cited_by_count": 167
+    },
+    {
+      "year": 2018,
+      "works_count": 26,
+      "oa_works_count": 16,
+      "cited_by_count": 481
+    },
+    {
+      "year": 2017,
+      "works_count": 17,
+      "oa_works_count": 6,
+      "cited_by_count": 96
+    },
+    {
+      "year": 2016,
+      "works_count": 33,
+      "oa_works_count": 22,
+      "cited_by_count": 101
+    },
+    {
+      "year": 2015,
+      "works_count": 22,
+      "oa_works_count": 9,
+      "cited_by_count": 71
+    },
+    {
+      "year": 2014,
+      "works_count": 17,
+      "oa_works_count": 11,
+      "cited_by_count": 92
+    },
+    {
+      "year": 2013,
+      "works_count": 21,
+      "oa_works_count": 9,
+      "cited_by_count": 60
+    },
+    {
+      "year": 2012,
+      "works_count": 9,
+      "oa_works_count": 3,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2011,
+      "works_count": 18,
+      "oa_works_count": 13,
+      "cited_by_count": 240
+    },
+    {
+      "year": 2010,
+      "works_count": 29,
+      "oa_works_count": 14,
+      "cited_by_count": 154
+    }
+  ],
+  "roles": [
+    {
+      "role": "institution",
+      "id": "https://openalex.org/I83024425",
+      "works_count": 788
+    }
+  ],
+  "topics": [
+    {
+      "id": "https://openalex.org/T13823",
+      "display_name": "Religious and Theological Studies",
+      "count": 42,
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10356",
+      "display_name": "Orthodontics and Dentofacial Orthopedics",
+      "count": 28,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3505",
+        "display_name": "Orthodontics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/35",
+        "display_name": "Dentistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10437",
+      "display_name": "Educational theories and practices",
+      "count": 26,
+      "score": 0.9904999732971191,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13624",
+      "display_name": "Social Sciences and Policies",
+      "count": 26,
+      "score": 0.9907000064849854,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3300",
+        "display_name": "General Social Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13118",
+      "display_name": "Psychological Treatments and Disorders",
+      "count": 25,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10026",
+      "display_name": "Galaxies: Formation, Evolution, Phenomena",
+      "count": 22,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14198",
+      "display_name": "Philosophical Thought and Analysis",
+      "count": 22,
+      "score": 0.9950000047683716,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3300",
+        "display_name": "General Social Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10985",
+      "display_name": "Sleep and Wakefulness Research",
+      "count": 21,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13861",
+      "display_name": "Health and Lifestyle Studies",
+      "count": 21,
+      "score": 0.9962999820709229,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10826",
+      "display_name": "Behavioral and Psychological Studies",
+      "count": 20,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3204",
+        "display_name": "Developmental and Educational Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13147",
+      "display_name": "Ethics and bioethics in healthcare",
+      "count": 20,
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14277",
+      "display_name": "Social Skills and Education",
+      "count": 19,
+      "score": 0.9851999878883362,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12704",
+      "display_name": "Stress and Burnout Research",
+      "count": 17,
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10414",
+      "display_name": "Cannabis and Cannabinoid Research",
+      "count": 15,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2736",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14483",
+      "display_name": "Education and Teacher Training",
+      "count": 15,
+      "score": 0.984499990940094,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10113",
+      "display_name": "Dental materials and restorations",
+      "count": 14,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3505",
+        "display_name": "Orthodontics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/35",
+        "display_name": "Dentistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12395",
+      "display_name": "Educational Innovations and Technology",
+      "count": 14,
+      "score": 0.9955999851226807,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10095",
+      "display_name": "Cosmology and Gravitation Theories",
+      "count": 13,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10316",
+      "display_name": "Sleep and related disorders",
+      "count": 13,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10359",
+      "display_name": "Dental Implant Techniques and Outcomes",
+      "count": 13,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3504",
+        "display_name": "Oral Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/35",
+        "display_name": "Dentistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10852",
+      "display_name": "Temporomandibular Joint Disorders",
+      "count": 13,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3603",
+        "display_name": "Complementary and Manual Therapy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11919",
+      "display_name": "dental development and anomalies",
+      "count": 13,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12275",
+      "display_name": "Gender and Feminist Studies",
+      "count": 13,
+      "score": 0.9926999807357788,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3318",
+        "display_name": "Gender Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13589",
+      "display_name": "Literary and Cultural Studies",
+      "count": 13,
+      "score": 0.9977999925613403,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10056",
+      "display_name": "Neurotransmitter Receptor Influence on Behavior",
+      "count": 12,
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T13823",
+      "display_name": "Religious and Theological Studies",
+      "value": 0.0012317,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13462",
+      "display_name": "Spanish Philosophy and Literature",
+      "value": 0.0010851,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13809",
+      "display_name": "Philosophy, Health, and Society",
+      "value": 0.0010576,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2736",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13118",
+      "display_name": "Psychological Treatments and Disorders",
+      "value": 0.0009442,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14198",
+      "display_name": "Philosophical Thought and Analysis",
+      "value": 0.000831,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3300",
+        "display_name": "General Social Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13635",
+      "display_name": "Philosophy and Education Pedagogy",
+      "value": 0.0007894,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14264",
+      "display_name": "Law, Ethics, and AI Impact",
+      "value": 0.0006145,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10437",
+      "display_name": "Educational theories and practices",
+      "value": 0.0006032,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14277",
+      "display_name": "Social Skills and Education",
+      "value": 0.00058,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12726",
+      "display_name": "Philosophical and Cultural Analysis",
+      "value": 0.0005347,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12275",
+      "display_name": "Gender and Feminist Studies",
+      "value": 0.0005304,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3318",
+        "display_name": "Gender Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12558",
+      "display_name": "Wittgensteinian philosophy and applications",
+      "value": 0.0004747,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13403",
+      "display_name": "Higher Education in Latin America",
+      "value": 0.0004641,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13284",
+      "display_name": "Psychology Research and Bibliometrics",
+      "value": 0.0004408,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12680",
+      "display_name": "Cultural and Mythological Studies",
+      "value": 0.0004256,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1200",
+        "display_name": "General Arts and Humanities"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13043",
+      "display_name": "Youth Culture and Social Dynamics",
+      "value": 0.0004253,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13929",
+      "display_name": "Educational Outcomes and Influences",
+      "value": 0.0004128,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14035",
+      "display_name": "Literature, Culture, and Aesthetics",
+      "value": 0.000401,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13448",
+      "display_name": "Indigenous Cultures and Socio-Education",
+      "value": 0.0003786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13147",
+      "display_name": "Ethics and bioethics in healthcare",
+      "value": 0.0003705,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12723",
+      "display_name": "Hannah Arendt's Political Philosophy",
+      "value": 0.0003622,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13589",
+      "display_name": "Literary and Cultural Studies",
+      "value": 0.0003593,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13624",
+      "display_name": "Social Sciences and Policies",
+      "value": 0.0003463,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3300",
+        "display_name": "General Social Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13507",
+      "display_name": "Literature, Politics, and Exile Studies",
+      "value": 0.0003273,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12704",
+      "display_name": "Stress and Burnout Research",
+      "value": 0.0003209,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "is_super_system": false,
+  "status": "active",
+  "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I83024425",
+  "updated_date": "2026-04-12T05:59:47",
+  "created_date": "2016-06-24T00:00:00"
+}

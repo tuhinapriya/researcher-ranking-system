@@ -1,0 +1,1361 @@
+{
+  "id": "https://openalex.org/I8961855",
+  "ror": "https://ror.org/01tmp8f25",
+  "display_name": "Universidad Nacional Autónoma de México",
+  "country_code": "MX",
+  "type": "education",
+  "type_id": "https://openalex.org/institution-types/education",
+  "lineage": [
+    "https://openalex.org/I8961855"
+  ],
+  "homepage_url": "http://www.unam.mx",
+  "image_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Escudo-UNAM-escalable.svg",
+  "image_thumbnail_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Escudo-UNAM-escalable.svg&width=300",
+  "display_name_acronyms": [
+    "UNAM"
+  ],
+  "display_name_alternatives": [
+    "National Autonomous University of Mexico",
+    "Universidad Nacional Autónoma de México"
+  ],
+  "repositories": [
+    {
+      "id": "https://openalex.org/S4306400132",
+      "display_name": "Repositorio Institucional",
+      "host_organization": "https://openalex.org/I8961855",
+      "host_organization_name": "Universidad Nacional Autónoma de México",
+      "host_organization_lineage": [
+        "https://openalex.org/I8961855"
+      ]
+    },
+    {
+      "id": "https://openalex.org/S4306400772",
+      "display_name": "Facultad de Filosofía y Letras (Universidad Nacional Autónoma de México)",
+      "host_organization": "https://openalex.org/I8961855",
+      "host_organization_name": "Universidad Nacional Autónoma de México",
+      "host_organization_lineage": [
+        "https://openalex.org/I8961855"
+      ]
+    },
+    {
+      "id": "https://openalex.org/S4306402318",
+      "display_name": "Repositorio Universitario RU-Económicas (Universidad Nacional Autónoma de México)",
+      "host_organization": "https://openalex.org/I8961855",
+      "host_organization_name": "Universidad Nacional Autónoma de México",
+      "host_organization_lineage": [
+        "https://openalex.org/I8961855"
+      ]
+    },
+    {
+      "id": "https://openalex.org/S4306402489",
+      "display_name": "Repositorio Institucional Históricas-UNAM (Universidad Nacional Autónoma de México. Instituto de Investigaciones Históricas)",
+      "host_organization": "https://openalex.org/I8961855",
+      "host_organization_name": "Universidad Nacional Autónoma de México",
+      "host_organization_lineage": [
+        "https://openalex.org/I8961855"
+      ]
+    },
+    {
+      "id": "https://openalex.org/S4377196744",
+      "display_name": "Repository of the Faculty of Philosophy and Letters (Universidad Nacional Autónoma de México)",
+      "host_organization": "https://openalex.org/I8961855",
+      "host_organization_name": "Universidad Nacional Autónoma de México",
+      "host_organization_lineage": [
+        "https://openalex.org/I8961855"
+      ]
+    }
+  ],
+  "works_count": 241916,
+  "cited_by_count": 8543095,
+  "summary_stats": {
+    "2yr_mean_citedness": 1.847720004411116,
+    "h_index": 615,
+    "i10_index": 158794
+  },
+  "ids": {
+    "openalex": "https://openalex.org/I8961855",
+    "ror": "https://ror.org/01tmp8f25",
+    "grid": "grid.9486.3",
+    "wikipedia": "https://es.wikipedia.org/wiki/Universidad_Nacional_Aut%C3%B3noma_de_M%C3%A9xico",
+    "wikidata": "Q222738"
+  },
+  "geo": {
+    "city": "Mexico City",
+    "geonames_city_id": "3530597",
+    "region": "Mexico City",
+    "country_code": "MX",
+    "country": "Mexico",
+    "latitude": 19.42847,
+    "longitude": -99.12766
+  },
+  "international": {},
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I2802421035",
+      "ror": "https://ror.org/01php1d31",
+      "display_name": "Hospital General de México",
+      "country_code": "MX",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4396570616",
+      "ror": "https://ror.org/05afdpg81",
+      "display_name": "Centro Regional de Investigaciones Multidisciplinarias",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4402554212",
+      "ror": "https://ror.org/03kkrza17",
+      "display_name": "Centro de Investigaciones Interdisciplinarias en Ciencias y Humanidades",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405252642",
+      "ror": "https://ror.org/00szdrw29",
+      "display_name": "Facultad de Estudios Superiores Aragón",
+      "country_code": "MX",
+      "type": "education",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405252903",
+      "ror": "https://ror.org/003eyrc02",
+      "display_name": "Instituto de Geología",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405253134",
+      "ror": "https://ror.org/00bd1zn20",
+      "display_name": "Instituto de Investigaciones Jurídicas",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405253899",
+      "ror": "https://ror.org/016m4az54",
+      "display_name": "Programa Universitario de Estudios del Desarrollo",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405253976",
+      "ror": "https://ror.org/0193j3v20",
+      "display_name": "Centro de Investigaciones y Estudios de Género",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405253978",
+      "ror": "https://ror.org/0194egz44",
+      "display_name": "Centro de Investigaciones Multidisciplinarias sobre Chiapas y la Frontera Sur",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254162",
+      "ror": "https://ror.org/01g470z66",
+      "display_name": "Instituto de Investigaciones Antropológicas",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254382",
+      "ror": "https://ror.org/01rbbya36",
+      "display_name": "Instituto de Investigaciones Filosóficas",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254602",
+      "ror": "https://ror.org/020e7ee92",
+      "display_name": "Instituto de Investigaciones Económicas",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254809",
+      "ror": "https://ror.org/028ngjx88",
+      "display_name": "Centro de Investigaciones en Geografía Ambiental",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405255209",
+      "ror": "https://ror.org/02r2ga890",
+      "display_name": "Instituto de Geografía",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405255947",
+      "ror": "https://ror.org/03kv1ct34",
+      "display_name": "Centro de Enseñanza para Extranjeros",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256058",
+      "ror": "https://ror.org/03qc4m595",
+      "display_name": "Unidad de Investigación sobre Representaciones Culturales y Sociales",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256097",
+      "ror": "https://ror.org/03rwcxx67",
+      "display_name": "Centro Cultural Universitario Tlatelolco",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256261",
+      "ror": "https://ror.org/03zeev498",
+      "display_name": "Instituto de Ciencias de la Atmósfera y Cambio Climático",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256343",
+      "ror": "https://ror.org/041ke1609",
+      "display_name": "Instituto de Investigaciones Bibliotecológicas y de la Información",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256529",
+      "ror": "https://ror.org/048zxff28",
+      "display_name": "Instituto de Investigaciones Históricas",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256720",
+      "ror": "https://ror.org/04fac6491",
+      "display_name": "Instituto de Investigaciones sobre la Universidad y la Educación",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256809",
+      "ror": "https://ror.org/04jan8q76",
+      "display_name": "Dirección General de Bibliotecas y Servicios Digitales de Información",
+      "country_code": "MX",
+      "type": "other",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256811",
+      "ror": "https://ror.org/04jexp049",
+      "display_name": "Dirección General de Publicaciones y Fomento Editorial",
+      "country_code": "MX",
+      "type": "other",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256952",
+      "ror": "https://ror.org/04q88r129",
+      "display_name": "Instituto de Geofísica",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257263",
+      "ror": "https://ror.org/052tpj472",
+      "display_name": "Instituto de Ingeniería",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257549",
+      "ror": "https://ror.org/05czf9j81",
+      "display_name": "Escuela Nacional de Lenguas, Lingüística y Traducción",
+      "country_code": "MX",
+      "type": "education",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257709",
+      "ror": "https://ror.org/05k6dh252",
+      "display_name": "Centro Peninsular en Humanidades y Ciencias Sociales",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257756",
+      "ror": "https://ror.org/05mk2jr28",
+      "display_name": "Instituto de Investigaciones Sociales",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257769",
+      "ror": "https://ror.org/05n86fa68",
+      "display_name": "Centro de Investigaciones sobre América del Norte",
+      "country_code": "MX",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405258436",
+      "ror": "https://ror.org/00n9d5724",
+      "display_name": "Facultad de Estudios Superiores Cuautitlán",
+      "country_code": "MX",
+      "type": "education",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405258481",
+      "ror": "https://ror.org/00qxc1v02",
+      "display_name": "Facultad de Estudios Superiores Acatlán",
+      "country_code": "MX",
+      "type": "education",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405263606",
+      "ror": "https://ror.org/03nj8sb85",
+      "display_name": "Instituto de Geociencias",
+      "country_code": "MX",
+      "type": "education",
+      "relationship": "child"
+    }
+  ],
+  "counts_by_year": [
+    {
+      "year": 2027,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2026,
+      "works_count": 3603,
+      "oa_works_count": 3080,
+      "cited_by_count": 179
+    },
+    {
+      "year": 2025,
+      "works_count": 13799,
+      "oa_works_count": 11610,
+      "cited_by_count": 12961
+    },
+    {
+      "year": 2024,
+      "works_count": 14925,
+      "oa_works_count": 12685,
+      "cited_by_count": 34523
+    },
+    {
+      "year": 2023,
+      "works_count": 15949,
+      "oa_works_count": 13397,
+      "cited_by_count": 66131
+    },
+    {
+      "year": 2022,
+      "works_count": 14012,
+      "oa_works_count": 11041,
+      "cited_by_count": 88545
+    },
+    {
+      "year": 2021,
+      "works_count": 14369,
+      "oa_works_count": 10898,
+      "cited_by_count": 133932
+    },
+    {
+      "year": 2020,
+      "works_count": 12931,
+      "oa_works_count": 9295,
+      "cited_by_count": 174724
+    },
+    {
+      "year": 2019,
+      "works_count": 10293,
+      "oa_works_count": 6665,
+      "cited_by_count": 159625
+    },
+    {
+      "year": 2018,
+      "works_count": 10052,
+      "oa_works_count": 6478,
+      "cited_by_count": 148990
+    },
+    {
+      "year": 2017,
+      "works_count": 9345,
+      "oa_works_count": 5828,
+      "cited_by_count": 155373
+    },
+    {
+      "year": 2016,
+      "works_count": 8742,
+      "oa_works_count": 5202,
+      "cited_by_count": 158149
+    },
+    {
+      "year": 2015,
+      "works_count": 8107,
+      "oa_works_count": 4762,
+      "cited_by_count": 140478
+    },
+    {
+      "year": 2014,
+      "works_count": 7740,
+      "oa_works_count": 4227,
+      "cited_by_count": 134272
+    },
+    {
+      "year": 2013,
+      "works_count": 7753,
+      "oa_works_count": 4272,
+      "cited_by_count": 132808
+    },
+    {
+      "year": 2012,
+      "works_count": 7078,
+      "oa_works_count": 3740,
+      "cited_by_count": 132098
+    },
+    {
+      "year": 2011,
+      "works_count": 6803,
+      "oa_works_count": 3305,
+      "cited_by_count": 128447
+    },
+    {
+      "year": 2010,
+      "works_count": 5627,
+      "oa_works_count": 2437,
+      "cited_by_count": 124928
+    }
+  ],
+  "roles": [
+    {
+      "role": "funder",
+      "id": "https://openalex.org/F4320335100",
+      "works_count": 21680
+    },
+    {
+      "role": "institution",
+      "id": "https://openalex.org/I8961855",
+      "works_count": 241916
+    },
+    {
+      "role": "publisher",
+      "id": "https://openalex.org/P4310319658",
+      "works_count": 42200
+    }
+  ],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10039",
+      "display_name": "Stellar, planetary, and galactic studies",
+      "count": 3785,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14452",
+      "display_name": "Mexican Socioeconomic and Environmental Dynamics",
+      "count": 3540,
+      "score": 0.9988999962806702,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10487",
+      "display_name": "Plant and animal studies",
+      "count": 3477,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10477",
+      "display_name": "Astrophysics and Star Formation Studies",
+      "count": 3080,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12283",
+      "display_name": "Latin American history and culture",
+      "count": 2919,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1213",
+        "display_name": "Visual Arts and Performing Arts"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12917",
+      "display_name": "Astronomy and Astrophysical Research",
+      "count": 2851,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3105",
+        "display_name": "Instrumentation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12637",
+      "display_name": "Scarabaeidae Beetle Taxonomy and Biogeography",
+      "count": 2711,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1911",
+        "display_name": "Paleontology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13460",
+      "display_name": "Historical Studies in Latin America",
+      "count": 2633,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10001",
+      "display_name": "Geological and Geochemical Analysis",
+      "count": 2611,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10895",
+      "display_name": "Species Distribution and Climate Change",
+      "count": 2574,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2302",
+        "display_name": "Ecological Modeling"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10026",
+      "display_name": "Galaxies: Formation, Evolution, Phenomena",
+      "count": 2495,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13624",
+      "display_name": "Social Sciences and Policies",
+      "count": 2463,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3300",
+        "display_name": "General Social Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10005",
+      "display_name": "Ecology and Vegetation Dynamics Studies",
+      "count": 2330,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2309",
+        "display_name": "Nature and Landscape Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12636",
+      "display_name": "Regional Development and Innovation",
+      "count": 2316,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3303",
+        "display_name": "Development"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12332",
+      "display_name": "Comparative constitutional jurisprudence studies",
+      "count": 2281,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10385",
+      "display_name": "Plant Diversity and Evolution",
+      "count": 2136,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13684",
+      "display_name": "Political Dynamics in Latin America",
+      "count": 2125,
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13404",
+      "display_name": "Geological and Tectonic Studies in Latin America",
+      "count": 1989,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12902",
+      "display_name": "Public Policy and Governance",
+      "count": 1950,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "count": 1949,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12157",
+      "display_name": "Geochemistry and Geologic Mapping",
+      "count": 1940,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10332",
+      "display_name": "Amphibian and Reptile Biology",
+      "count": 1931,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10017",
+      "display_name": "Geology and Paleoclimatology Research",
+      "count": 1904,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10015",
+      "display_name": "Genomics and Phylogenetic Studies",
+      "count": 1900,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10325",
+      "display_name": "Astro and Planetary Science",
+      "count": 1881,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T14452",
+      "display_name": "Mexican Socioeconomic and Environmental Dynamics",
+      "value": 0.1262662,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13684",
+      "display_name": "Political Dynamics in Latin America",
+      "value": 0.0829689,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13403",
+      "display_name": "Higher Education in Latin America",
+      "value": 0.0812159,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13448",
+      "display_name": "Indigenous Cultures and Socio-Education",
+      "value": 0.0619942,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13404",
+      "display_name": "Geological and Tectonic Studies in Latin America",
+      "value": 0.0618797,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12902",
+      "display_name": "Public Policy and Governance",
+      "value": 0.0615822,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12637",
+      "display_name": "Scarabaeidae Beetle Taxonomy and Biogeography",
+      "value": 0.0608694,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1911",
+        "display_name": "Paleontology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12283",
+      "display_name": "Latin American history and culture",
+      "value": 0.0589102,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1213",
+        "display_name": "Visual Arts and Performing Arts"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13460",
+      "display_name": "Historical Studies in Latin America",
+      "value": 0.053772,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13291",
+      "display_name": "Political Theory and Democracy",
+      "value": 0.0526703,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13492",
+      "display_name": "Science, Technology, and Education in Latin America",
+      "value": 0.049922,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13011",
+      "display_name": "Latin American rural development",
+      "value": 0.0470029,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1100",
+        "display_name": "General Agricultural and Biological Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12969",
+      "display_name": "Economic and Social Development",
+      "value": 0.0466619,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12636",
+      "display_name": "Regional Development and Innovation",
+      "value": 0.0438396,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3303",
+        "display_name": "Development"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14386",
+      "display_name": "Libraries, Manuscripts, and Books",
+      "value": 0.0432462,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13911",
+      "display_name": "Employment, Labor, and Gender Studies",
+      "value": 0.0427119,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3311",
+        "display_name": "Safety Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13762",
+      "display_name": "Education and Labor Relations",
+      "value": 0.0401403,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12680",
+      "display_name": "Cultural and Mythological Studies",
+      "value": 0.0389935,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1200",
+        "display_name": "General Arts and Humanities"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14310",
+      "display_name": "Botany and Geology in Latin America and Caribbean",
+      "value": 0.0385202,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13617",
+      "display_name": "Gender, Violence, Rights in Latin America",
+      "value": 0.0384459,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14466",
+      "display_name": "Migration, Health, Geopolitics, Historical Geography",
+      "value": 0.0380115,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14198",
+      "display_name": "Philosophical Thought and Analysis",
+      "value": 0.0378499,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3300",
+        "display_name": "General Social Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13268",
+      "display_name": "Photographic and Visual Arts",
+      "value": 0.0369855,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1209",
+        "display_name": "Museology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13284",
+      "display_name": "Psychology Research and Bibliometrics",
+      "value": 0.0359677,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12498",
+      "display_name": "Latin American Cultural Politics",
+      "value": 0.0351948,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "is_super_system": false,
+  "status": "active",
+  "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I8961855",
+  "updated_date": "2026-04-12T05:59:47",
+  "created_date": "2016-06-24T00:00:00"
+}

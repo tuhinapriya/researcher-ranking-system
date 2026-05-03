@@ -1,0 +1,73 @@
+{
+  "author_id": "A5027320968",
+  "total_recent_works_analysed": 400,
+  "total_unique_collaborators": 1861,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.27,
+    "corresponding_author_ratio": 0.18
+  },
+  "top_collaborators": [
+    {
+      "name": "David Stückler",
+      "id": "A5071024354",
+      "shared_papers": 39,
+      "same_institution": true
+    },
+    {
+      "name": "Dina Balabanova",
+      "id": "A5022005351",
+      "shared_papers": 36,
+      "same_institution": true
+    },
+    {
+      "name": "May CI van Schalkwyk",
+      "id": "A5019346431",
+      "shared_papers": 26,
+      "same_institution": true
+    },
+    {
+      "name": "Eleanor Hutchinson",
+      "id": "A5050291581",
+      "shared_papers": 20,
+      "same_institution": true
+    },
+    {
+      "name": "Salim Yusuf",
+      "id": "A5018419311",
+      "shared_papers": 15,
+      "same_institution": false
+    },
+    {
+      "name": "Benjamin Palafox",
+      "id": "A5058199464",
+      "shared_papers": 15,
+      "same_institution": true
+    },
+    {
+      "name": "Lucinda Hiam",
+      "id": "A5001785199",
+      "shared_papers": 14,
+      "same_institution": true
+    },
+    {
+      "name": "Lia M. Palileo‐Villanueva",
+      "id": "A5028075279",
+      "shared_papers": 13,
+      "same_institution": false
+    },
+    {
+      "name": "Maureen Seguin",
+      "id": "A5011316890",
+      "shared_papers": 13,
+      "same_institution": true
+    },
+    {
+      "name": "Trisha Greenhalgh",
+      "id": "A5059176055",
+      "shared_papers": 12,
+      "same_institution": false
+    }
+  ]
+}

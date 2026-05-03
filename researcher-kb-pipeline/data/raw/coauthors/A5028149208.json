@@ -1,0 +1,134 @@
+{
+  "author_id": "A5028149208",
+  "total_recent_works_analysed": 172,
+  "total_unique_collaborators": 387,
+  "estimated_mentee_count": 10,
+  "likely_mentees": [
+    {
+      "name": "Ainhoa Osa-Sanchez",
+      "id": "A5056491444",
+      "works_count": 20,
+      "shared_papers": 20
+    },
+    {
+      "name": "Oscar Jossa-Bastidas",
+      "id": "A5064801992",
+      "works_count": 11,
+      "shared_papers": 11
+    },
+    {
+      "name": "Zabit Hameed",
+      "id": "A5059235837",
+      "works_count": 10,
+      "shared_papers": 7
+    },
+    {
+      "name": "Cyrille YetuYetu Kesiku",
+      "id": "A5024034298",
+      "works_count": 9,
+      "shared_papers": 7
+    },
+    {
+      "name": "Sofia Zahia",
+      "id": "A5067419719",
+      "works_count": 16,
+      "shared_papers": 6
+    },
+    {
+      "name": "Asma Baccouche",
+      "id": "A5020120514",
+      "works_count": 9,
+      "shared_papers": 6
+    },
+    {
+      "name": "Danyal Maheshwari",
+      "id": "A5003826225",
+      "works_count": 17,
+      "shared_papers": 5
+    },
+    {
+      "name": "Serhii Shapoval",
+      "id": "A5102904512",
+      "works_count": 6,
+      "shared_papers": 5
+    },
+    {
+      "name": "Iñaki Bartolomé",
+      "id": "A5040389487",
+      "works_count": 4,
+      "shared_papers": 4
+    },
+    {
+      "name": "Elena Urizar",
+      "id": "A5009424461",
+      "works_count": 14,
+      "shared_papers": 3
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.44,
+    "corresponding_author_ratio": 0.13
+  },
+  "top_collaborators": [
+    {
+      "name": "Amaia Méndez Zorrilla",
+      "id": "A5005791763",
+      "shared_papers": 32,
+      "same_institution": true
+    },
+    {
+      "name": "Mazin Abed Mohammed",
+      "id": "A5091151166",
+      "shared_papers": 29,
+      "same_institution": true
+    },
+    {
+      "name": "Karrar Hameed Abdulkareem",
+      "id": "A5089923255",
+      "shared_papers": 23,
+      "same_institution": false
+    },
+    {
+      "name": "Ainhoa Osa-Sanchez",
+      "id": "A5056491444",
+      "shared_papers": 20,
+      "same_institution": true
+    },
+    {
+      "name": "Isabel de la Torre Díez",
+      "id": "A5046258353",
+      "shared_papers": 17,
+      "same_institution": false
+    },
+    {
+      "name": "Mario Jojoa",
+      "id": "A5080108832",
+      "shared_papers": 15,
+      "same_institution": true
+    },
+    {
+      "name": "Adel Elmaghraby",
+      "id": "A5045337673",
+      "shared_papers": 13,
+      "same_institution": false
+    },
+    {
+      "name": "Ibon Ruiz",
+      "id": "A5024120512",
+      "shared_papers": 12,
+      "same_institution": true
+    },
+    {
+      "name": "Mashael Maashi",
+      "id": "A5009368063",
+      "shared_papers": 11,
+      "same_institution": false
+    },
+    {
+      "name": "Oscar Jossa-Bastidas",
+      "id": "A5064801992",
+      "shared_papers": 11,
+      "same_institution": true
+    }
+  ]
+}

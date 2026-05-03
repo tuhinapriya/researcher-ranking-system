@@ -1,0 +1,790 @@
+{
+  "author_id": "A5017540864",
+  "openalex": {
+    "id": "https://openalex.org/A5017540864",
+    "orcid": "https://orcid.org/0000-0001-5410-6984",
+    "display_name": "Kerstin G. Blank",
+    "raw_author_names": [
+      "Blank, Kerstin",
+      "Blank, Kerstin G.",
+      "Blank, Kurt",
+      "K Blank",
+      "K. Blank",
+      "Kerstin Blank",
+      "Kerstin G. Blank",
+      "Konstantin Blank"
+    ],
+    "full_name": "Blank, Kerstin G.",
+    "works_count": 107,
+    "cited_by_count": 3009,
+    "summary_stats": {
+      "2yr_mean_citedness": 3.3846153846153846,
+      "h_index": 33,
+      "i10_index": 57
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5017540864",
+      "orcid": "https://orcid.org/0000-0001-5410-6984"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I121883995",
+          "ror": "https://ror.org/052r2xn60",
+          "display_name": "Johannes Kepler University of Linz",
+          "country_code": "AT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121883995"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I122228004",
+          "ror": "https://ror.org/01xzwj424",
+          "display_name": "HTW Berlin - University of Applied Sciences",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I122228004"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I145872427",
+          "ror": "https://ror.org/016xsfp80",
+          "display_name": "Radboud University Nijmegen",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        },
+        "years": [
+          2020,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2011,
+          2010,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I189554337",
+          "ror": "https://ror.org/032hzb643",
+          "display_name": "Center for Integrated Protein Science Munich",
+          "country_code": "DE",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I189554337",
+            "https://openalex.org/I62916508",
+            "https://openalex.org/I8204097"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I197323543",
+          "ror": "https://ror.org/023b0x485",
+          "display_name": "Johannes Gutenberg University Mainz",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I197323543"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I202697423",
+          "ror": "https://ror.org/02crff812",
+          "display_name": "University of Zurich",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801304276",
+          "ror": "https://ror.org/002epp671",
+          "display_name": "Center for NanoScience",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2801304276",
+            "https://openalex.org/I8204097"
+          ]
+        },
+        "years": [
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802934949",
+          "ror": "https://ror.org/05wg1m734",
+          "display_name": "Radboud University Medical Center",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2802934949"
+          ]
+        },
+        "years": [
+          2020,
+          2018,
+          2017,
+          2016,
+          2015,
+          2011,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210091658",
+          "ror": "https://ror.org/0046rz373",
+          "display_name": "Institute of Experimental Physics of the Slovak Academy of Sciences",
+          "country_code": "SK",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I207624831",
+            "https://openalex.org/I4210091658"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210092306",
+          "ror": "https://ror.org/00pwgnh47",
+          "display_name": "Max Planck Institute of Colloids and Interfaces",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210092306"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210095283",
+          "ror": "https://ror.org/00xts7d02",
+          "display_name": "Institut de Science et d'Ingénierie Supramoléculaires",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210095283",
+            "https://openalex.org/I4210128300",
+            "https://openalex.org/I68947357"
+          ]
+        },
+        "years": [
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210100978",
+          "ror": "https://ror.org/014743444",
+          "display_name": "Forschungsinstitut für Wärmeschutz München",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210100978"
+          ]
+        },
+        "years": [
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210109357",
+          "ror": "https://ror.org/01yb10j39",
+          "display_name": "Radboud Institute for Molecular Life Sciences",
+          "country_code": "NL",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I4210109357"
+          ]
+        },
+        "years": [
+          2020,
+          2018,
+          2017,
+          2016,
+          2015,
+          2011,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210129227",
+          "ror": "https://ror.org/03792qf33",
+          "display_name": "Chinese Academy of Agricultural Mechanization Sciences",
+          "country_code": "CN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210129227"
+          ]
+        },
+        "years": [
+          2019,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210149061",
+          "ror": "https://ror.org/03nyzw632",
+          "display_name": "Novo Nordisk (Germany)",
+          "country_code": "DE",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I189090001",
+            "https://openalex.org/I2801134892",
+            "https://openalex.org/I4210149061",
+            "https://openalex.org/I4210159963"
+          ]
+        },
+        "years": [
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210157095",
+          "ror": "https://ror.org/04npmfz39",
+          "display_name": "Ortho Clinical Diagnostics (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210157095"
+          ]
+        },
+        "years": [
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I8204097",
+          "ror": "https://ror.org/05591te55",
+          "display_name": "Ludwig-Maximilians-Universität München",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I8204097"
+          ]
+        },
+        "years": [
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I99464096",
+          "ror": "https://ror.org/05f950310",
+          "display_name": "KU Leuven",
+          "country_code": "BE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I99464096"
+          ]
+        },
+        "years": [
+          2011,
+          2009,
+          2008
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I121883995",
+        "ror": "https://ror.org/052r2xn60",
+        "display_name": "Johannes Kepler University of Linz",
+        "country_code": "AT",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I121883995"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210092306",
+        "ror": "https://ror.org/00pwgnh47",
+        "display_name": "Max Planck Institute of Colloids and Interfaces",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I149899117",
+          "https://openalex.org/I4210092306"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10923",
+        "display_name": "Force Microscopy Techniques and Applications",
+        "count": 22,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10913",
+        "display_name": "Molecular Junctions and Nanostructures",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10540",
+        "display_name": "Advanced Fluorescence Microscopy Techniques",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1304",
+          "display_name": "Biophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11419",
+        "display_name": "Supramolecular Self-Assembly in Materials",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10207",
+        "display_name": "Advanced biosensing and bioanalysis techniques",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11419",
+        "display_name": "Supramolecular Self-Assembly in Materials",
+        "value": 0.0001179,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10540",
+        "display_name": "Advanced Fluorescence Microscopy Techniques",
+        "value": 9.44e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1304",
+          "display_name": "Biophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10923",
+        "display_name": "Force Microscopy Techniques and Applications",
+        "value": 9.24e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10343",
+        "display_name": "Hydrogels: synthesis, properties, applications",
+        "value": 6.13e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1313",
+          "display_name": "Molecular Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10379",
+        "display_name": "Cellular Mechanics and Interactions",
+        "value": 5.64e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1307",
+          "display_name": "Cell Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9328113198280334
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.8119862079620361
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.6389222145080566
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.6301723122596741
+      },
+      {
+        "id": "55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "score": 0.5322734117507935
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1970,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 1986,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1994,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2002,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 89
+      },
+      {
+        "year": 2003,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 242
+      },
+      {
+        "year": 2004,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 34
+      },
+      {
+        "year": 2005,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 49
+      },
+      {
+        "year": 2006,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 117
+      },
+      {
+        "year": 2007,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 212
+      },
+      {
+        "year": 2008,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 214
+      },
+      {
+        "year": 2009,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 104
+      },
+      {
+        "year": 2010,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 385
+      },
+      {
+        "year": 2011,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 85
+      },
+      {
+        "year": 2012,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 49
+      },
+      {
+        "year": 2013,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 155
+      },
+      {
+        "year": 2014,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 89
+      },
+      {
+        "year": 2015,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 155
+      },
+      {
+        "year": 2016,
+        "works_count": 7,
+        "oa_works_count": 1,
+        "cited_by_count": 190
+      },
+      {
+        "year": 2017,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 76
+      },
+      {
+        "year": 2018,
+        "works_count": 8,
+        "oa_works_count": 7,
+        "cited_by_count": 250
+      },
+      {
+        "year": 2019,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 248
+      },
+      {
+        "year": 2020,
+        "works_count": 8,
+        "oa_works_count": 8,
+        "cited_by_count": 76
+      },
+      {
+        "year": 2021,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 87
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2023,
+        "works_count": 15,
+        "oa_works_count": 15,
+        "cited_by_count": 47
+      },
+      {
+        "year": 2024,
+        "works_count": 5,
+        "oa_works_count": 2,
+        "cited_by_count": 22
+      },
+      {
+        "year": 2025,
+        "works_count": 6,
+        "oa_works_count": 5,
+        "cited_by_count": 22
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Blank, Kerstin",
+      "Blank, Kerstin G.",
+      "Blank, Kurt",
+      "K Blank",
+      "K. Blank",
+      "Kerstin Blank",
+      "Kerstin G. Blank",
+      "Konstantin Blank"
+    ],
+    "block_key": "k blank",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5017540864",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "145520065",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/145520065",
+    "name": "Kerstin G. Blank",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 81,
+    "citationCount": 2507,
+    "hIndex": 30
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "author_id": "A5027259643",
+  "openalex": {
+    "id": "https://openalex.org/A5027259643",
+    "orcid": "https://orcid.org/0000-0002-3498-3936",
+    "display_name": "Thomas P. Darlington",
+    "raw_author_names": [
+      "Darlington, Thomas",
+      "Darlington, Thomas P.",
+      "T. P. Darlington",
+      "Thomas Darlington",
+      "Thomas P Darlington",
+      "Thomas P. Darlington"
+    ],
+    "full_name": "Darlington, Thomas P.",
+    "works_count": 59,
+    "cited_by_count": 877,
+    "summary_stats": {
+      "2yr_mean_citedness": 8.272727272727273,
+      "h_index": 14,
+      "i10_index": 16
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5027259643",
+      "orcid": "https://orcid.org/0000-0002-3498-3936"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I148283060",
+          "ror": "https://ror.org/02jbv0t02",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        "years": [
+          2025,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I161318765",
+          "ror": "https://ror.org/046rm7j60",
+          "display_name": "University of California, Los Angeles",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210102046",
+          "ror": "https://ror.org/01hr4k271",
+          "display_name": "Health Commission of Anhui Province",
+          "country_code": "CN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210102046"
+          ]
+        },
+        "years": [
+          1908,
+          1905
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210132549",
+          "ror": "https://ror.org/03qcxsn76",
+          "display_name": "Mental Health Commission",
+          "country_code": "IE",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210132549"
+          ]
+        },
+        "years": [
+          1908,
+          1905
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I78577930",
+          "ror": "https://ror.org/00hj8s172",
+          "display_name": "Columbia University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I95457486",
+          "ror": "https://ror.org/01an7q238",
+          "display_name": "University of California, Berkeley",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        },
+        "years": [
+          2020,
+          2019,
+          2017
+        ]
+      }
+    ],
+    "last_known_institutions": null,
+    "topics": [
+      {
+        "id": "https://openalex.org/T10275",
+        "display_name": "2D Materials and Applications",
+        "count": 30,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10083",
+        "display_name": "Graphene research and applications",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10247",
+        "display_name": "Perovskite Materials and Applications",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12612",
+        "display_name": "Strong Light-Matter Interactions",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10295",
+        "display_name": "Plasmonic and Surface Plasmon Research",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10275",
+        "display_name": "2D Materials and Applications",
+        "value": 0.0002253,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12612",
+        "display_name": "Strong Light-Matter Interactions",
+        "value": 0.0002145,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10295",
+        "display_name": "Plasmonic and Surface Plasmon Research",
+        "value": 6.18e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11272",
+        "display_name": "Nanowire Synthesis and Applications",
+        "value": 5.15e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10247",
+        "display_name": "Perovskite Materials and Applications",
+        "value": 5.08e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.892231822013855
+      },
+      {
+        "id": "26873012",
+        "wikidata": "https://www.wikidata.org/wiki/Q214781",
+        "display_name": "Condensed matter physics",
+        "score": 0.7404079437255859
+      },
+      {
+        "id": "49040817",
+        "wikidata": "https://www.wikidata.org/wiki/Q193091",
+        "display_name": "Optoelectronics",
+        "score": 0.6316169500350952
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.5962953567504883
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.5466679334640503
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1905,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1908,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1930,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2007,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2010,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2012,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2017,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 97
+      },
+      {
+        "year": 2018,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2019,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 102
+      },
+      {
+        "year": 2020,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 48
+      },
+      {
+        "year": 2021,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2022,
+        "works_count": 6,
+        "oa_works_count": 4,
+        "cited_by_count": 53
+      },
+      {
+        "year": 2023,
+        "works_count": 10,
+        "oa_works_count": 8,
+        "cited_by_count": 389
+      },
+      {
+        "year": 2024,
+        "works_count": 7,
+        "oa_works_count": 6,
+        "cited_by_count": 91
+      },
+      {
+        "year": 2025,
+        "works_count": 13,
+        "oa_works_count": 7,
+        "cited_by_count": 91
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Darlington, Thomas",
+      "Darlington, Thomas P.",
+      "T. P. Darlington",
+      "Thomas Darlington",
+      "Thomas P Darlington",
+      "Thomas P. Darlington"
+    ],
+    "block_key": "t darlington",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5027259643",
+    "updated_date": "2026-04-09T12:26:41",
+    "created_date": "2020-07-16T00:00:00"
+  },
+  "semantic_scholar": null
+}

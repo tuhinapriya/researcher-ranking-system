@@ -1,0 +1,314 @@
+{
+  "author_id": "A5022208970",
+  "openalex": {
+    "id": "https://openalex.org/A5022208970",
+    "orcid": "https://orcid.org/0009-0005-8404-7598",
+    "display_name": "Maddison I. Segal",
+    "raw_author_names": [
+      "Maddison I. Segal",
+      "Maddison Segal"
+    ],
+    "full_name": "Maddison I. Segal",
+    "works_count": 9,
+    "cited_by_count": 63,
+    "summary_stats": {
+      "2yr_mean_citedness": 7.25,
+      "h_index": 5,
+      "i10_index": 4
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5022208970",
+      "orcid": "https://orcid.org/0009-0005-8404-7598"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I110152177",
+          "ror": "https://ror.org/02kyckx55",
+          "display_name": "University of Akron",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110152177"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I170897317",
+          "ror": "https://ror.org/00py81415",
+          "display_name": "Duke University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I170897317"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I170897317",
+        "ror": "https://ror.org/00py81415",
+        "display_name": "Duke University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I170897317"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10783",
+        "display_name": "Additive Manufacturing and 3D Printing Technologies",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2203",
+          "display_name": "Automotive Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10405",
+        "display_name": "Advanced Polymer Synthesis and Characterization",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10661",
+        "display_name": "biodegradable polymer synthesis and properties",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10810",
+        "display_name": "Polymer composites and self-healing",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2507",
+          "display_name": "Polymers and Plastics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11190",
+        "display_name": "3D Printing in Biomedical Research",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12570",
+        "display_name": "Photopolymerization techniques and applications",
+        "value": 2.49e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10810",
+        "display_name": "Polymer composites and self-healing",
+        "value": 1.92e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2507",
+          "display_name": "Polymers and Plastics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10405",
+        "display_name": "Advanced Polymer Synthesis and Characterization",
+        "value": 1.69e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10783",
+        "display_name": "Additive Manufacturing and 3D Printing Technologies",
+        "value": 1.44e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2203",
+          "display_name": "Automotive Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10704",
+        "display_name": "Advancements in Transdermal Drug Delivery",
+        "value": 1.16e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3003",
+          "display_name": "Pharmaceutical Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/30",
+          "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.7056794762611389
+      },
+      {
+        "id": "188027245",
+        "wikidata": "https://www.wikidata.org/wiki/Q750446",
+        "display_name": "Polymer chemistry",
+        "score": 0.603422999382019
+      },
+      {
+        "id": "42360764",
+        "wikidata": "https://www.wikidata.org/wiki/Q83588",
+        "display_name": "Chemical engineering",
+        "score": 0.4540286362171173
+      },
+      {
+        "id": "159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "score": 0.40870076417922974
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.07725927233695984
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2023,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2024,
+        "works_count": 6,
+        "oa_works_count": 6,
+        "cited_by_count": 43
+      },
+      {
+        "year": 2025,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 15
+      }
+    ],
+    "display_name_alternatives": [
+      "Maddison I. Segal",
+      "Maddison Segal"
+    ],
+    "block_key": "m segal",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5022208970",
+    "updated_date": null,
+    "created_date": "2024-06-20T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2315374320",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2315374320",
+    "name": "Maddison I. Segal",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 1,
+    "citationCount": 1,
+    "hIndex": 1
+  }
+}

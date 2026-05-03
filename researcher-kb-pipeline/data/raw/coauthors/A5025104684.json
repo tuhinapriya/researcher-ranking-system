@@ -1,0 +1,73 @@
+{
+  "author_id": "A5025104684",
+  "total_recent_works_analysed": 192,
+  "total_unique_collaborators": 837,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.23,
+    "corresponding_author_ratio": 0.16
+  },
+  "top_collaborators": [
+    {
+      "name": "Zuoren Nie",
+      "id": "A5015167913",
+      "shared_papers": 23,
+      "same_institution": false
+    },
+    {
+      "name": "Wu Wei",
+      "id": "A5018279936",
+      "shared_papers": 17,
+      "same_institution": false
+    },
+    {
+      "name": "Shengping Wen",
+      "id": "A5061761452",
+      "shared_papers": 17,
+      "same_institution": false
+    },
+    {
+      "name": "Bolong Li",
+      "id": "A5090418950",
+      "shared_papers": 15,
+      "same_institution": false
+    },
+    {
+      "name": "Kunyuan Gao",
+      "id": "A5060470018",
+      "shared_papers": 13,
+      "same_institution": false
+    },
+    {
+      "name": "Hui Huang",
+      "id": "A5101992515",
+      "shared_papers": 13,
+      "same_institution": false
+    },
+    {
+      "name": "Xiaolan Wu",
+      "id": "A5020920178",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "Xiaomei Zhong",
+      "id": "A5102008086",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "Yuping Ning",
+      "id": "A5025285333",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "Tongbo Wang",
+      "id": "A5102888607",
+      "shared_papers": 11,
+      "same_institution": false
+    }
+  ]
+}

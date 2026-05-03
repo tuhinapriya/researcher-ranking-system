@@ -1,0 +1,95 @@
+Category,Topic ID,Topic Name
+Semiconductors,T10022,Semiconductor Quantum Structures and Devices
+Semiconductors,T10099,GaN-based semiconductor devices and materials
+Semiconductors,T10187,Radio Frequency Integrated Circuit Design
+Semiconductors,T10361,Silicon Carbide Semiconductor Technologies
+Semiconductors,T10472,Semiconductor materials and devices
+Semiconductors,T10558,Advancements in Semiconductor Devices and Circuit Design
+Semiconductors,T10590,Chalcogenide Semiconductor Thin Films
+Semiconductors,T10623,Thin-Film Transistor Technologies
+Semiconductors,T10781,Plasma Diagnostics and Applications
+Semiconductors,T11429,Semiconductor Lasers and Optical Devices
+Semiconductors,T11637,Advanced Semiconductor Detectors and Materials
+Semiconductors,T11853,Semiconductor materials and interfaces
+Semiconductors,T13889,Advanced Materials and Semiconductor Technologies
+Semiconductors,T14117,Integrated Circuits and Semiconductor Failure Analysis
+Semiconductor processes,T10623,Thin-Film Transistor Technologies
+Semiconductor materials,T10022,Semiconductor Quantum Structures and Devices
+Semiconductor materials,T10099,GaN-based semiconductor devices and materials
+Semiconductor materials,T10247,Perovskite Materials and Applications
+Semiconductor materials,T10275,2D Materials and Applications
+Semiconductor materials,T10361,Silicon Carbide Semiconductor Technologies
+Semiconductor materials,T10461,Gas Sensing Nanomaterials and Sensors
+Semiconductor materials,T10472,Semiconductor materials and devices
+Semiconductor materials,T10590,Chalcogenide Semiconductor Thin Films
+Semiconductor materials,T10607,Magnetic and transport properties of perovskites and related materials
+Semiconductor materials,T10623,Thin-Film Transistor Technologies
+Semiconductor materials,T11637,Advanced Semiconductor Detectors and Materials
+Semiconductor materials,T11853,Semiconductor materials and interfaces
+Semiconductor materials,T12529,Ga2O3 and related materials
+Semiconductor materials,T13889,Advanced Materials and Semiconductor Technologies
+Semiconductor materials,T14363,Optical properties and cooling technologies in crystalline materials
+Semiconductor devices,T10022,Semiconductor Quantum Structures and Devices
+Semiconductor devices,T10099,GaN-based semiconductor devices and materials
+Semiconductor devices,T10299,Photonic and Optical Devices
+Semiconductor devices,T10361,Silicon Carbide Semiconductor Technologies
+Semiconductor devices,T10472,Semiconductor materials and devices
+Semiconductor devices,T10558,Advancements in Semiconductor Devices and Circuit Design
+Semiconductor devices,T10590,Chalcogenide Semiconductor Thin Films
+Semiconductor devices,T10623,Thin-Film Transistor Technologies
+Semiconductor devices,T11429,Semiconductor Lasers and Optical Devices
+Semiconductor devices,T13889,Advanced Materials and Semiconductor Technologies
+Semiconductor devices,T14117,Integrated Circuits and Semiconductor Failure Analysis
+Photonics,T10205,Advanced Fiber Optic Sensors
+Photonics,T10245,Metamaterials and Metasurfaces Applications
+Photonics,T10299,Photonic and Optical Devices
+Photonics,T10666,Photonic Crystals and Applications
+Photonics,T10846,Photonic Crystal and Fiber Optics
+Photonics,T10988,Advanced Fiber Laser Technologies
+Photonics,T11429,Semiconductor Lasers and Optical Devices
+Photonics,T11575,Nonlinear Photonic Systems
+Photonics,T11723,Optical Coatings and Gratings
+Photonics,T12510,Magneto-Optical Properties and Applications
+Photonics,T14158,Optical Systems and Laser Technology
+Plasma science,T10781,Plasma Diagnostics and Applications
+Real-time plasma diagnostics,T10384,Laser-Plasma Interactions and Diagnostics
+Real-time plasma diagnostics,T10642,Plasma Applications and Diagnostics
+Real-time plasma diagnostics,T10781,Plasma Diagnostics and Applications
+Novel logic devices,T13182,Quantum-Dot Cellular Automata
+Novel memory devices,T10502,Advanced Memory and Neural Computing
+Novel memory devices,T11315,Phase-change materials and chalcogenides
+Novel materials for electronics,T10107,Ferroelectric and Piezoelectric Materials
+Novel materials for electronics,T10886,Multiferroics and related materials
+Novel materials for electronics,T11608,Dielectric materials and actuators
+Cleaning and surface treatments,T12106,Surface Treatment and Residual Stress
+Cleaning and surface treatments,T12161,Plant Surface Properties and Treatments
+Cleaning and surface treatments,T13470,Surface Treatment and Coatings
+High kappa thermal conductivity materials,T11277,Thermal properties of materials
+3D integration,T11527,3D IC and TSV technologies
+Robotics,T10040,Adaptive Control of Nonlinear Systems
+Robotics,T10191,Robotics and Sensor-Based Localization
+Robotics,T10249,Distributed Control Multi-Agent Systems
+Robotics,T10462,Reinforcement Learning in Robotics
+Robotics,T10571,Robotic Mechanisms and Dynamics
+Robotics,T10586,Robotic Path Planning Algorithms
+Robotics,T10653,Robot Manipulation and Learning
+Robotics,T10709,Social Robot Interaction and HRI
+Robotics,T10868,Soft Robotics and Applications
+Robotics,T10879,Robotic Locomotion and Control
+Robotics,T11023,Prosthetics and Rehabilitation Robotics
+Robotics,T11486,Micro and Nano Robotics
+Robotics,T11615,Control and Dynamics of Mobile Robots
+Robotics,T11687,Teleoperation and Haptic Systems
+Robotics,T11749,Iterative Learning Control Systems
+Robotics,T12128,AI in Service Interactions
+Robotics,T12784,Modular Robots and Swarm Intelligence
+Robotics,T12794,Adaptive Dynamic Programming Control
+Robotics,T13287,Robotic Process Automation Applications
+Robotics,T13382,Robotics and Automated Systems
+Robotics,T13715,Power Line Inspection Robots
+Robotics,T14335,Educational Robotics and Engineering
+Equipment automation,T13287,Robotic Process Automation Applications
+AI artificial intelligence for semiconductors,T12111,Industrial Vision Systems and Defect Detection
+Quantum computing,T10382,Quantum and electron transport phenomena
+Quantum computing,T10682,Quantum Computing Algorithms and Architecture
+Quantum computing,T13182,Quantum-Dot Cellular Automata

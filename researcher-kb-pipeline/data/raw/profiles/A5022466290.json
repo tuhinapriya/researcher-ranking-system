@@ -1,0 +1,925 @@
+{
+  "author_id": "A5022466290",
+  "openalex": {
+    "id": "https://openalex.org/A5022466290",
+    "orcid": "https://orcid.org/0000-0001-6877-0093",
+    "display_name": "Kassoum Kayentao",
+    "raw_author_names": [
+      "K Kayentao",
+      "K. Kayentao",
+      "KASSOUM KAYENTAO",
+      "Kassoum Kayentao",
+      "Kassoun Kayentao",
+      "Kayentao K",
+      "Kayentao Kassoum",
+      "Kayentao, Kassoum"
+    ],
+    "full_name": "KASSOUM KAYENTAO",
+    "works_count": 214,
+    "cited_by_count": 8718,
+    "summary_stats": {
+      "2yr_mean_citedness": 4.462962962962963,
+      "h_index": 46,
+      "i10_index": 96
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5022466290",
+      "orcid": "https://orcid.org/0000-0001-6877-0093"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I110357561",
+          "ror": "https://ror.org/048gmay44",
+          "display_name": "University of the Sciences",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110357561"
+          ]
+        },
+        "years": [
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I126744593",
+          "ror": "https://ror.org/04rq5mt64",
+          "display_name": "University of Maryland, Baltimore",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126744593"
+          ]
+        },
+        "years": [
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1299303238",
+          "ror": "https://ror.org/01cwqze88",
+          "display_name": "National Institutes of Health",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        },
+        "years": [
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I15057530",
+          "ror": "https://ror.org/057qpr032",
+          "display_name": "Université de Bordeaux",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I15057530"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I154526488",
+          "ror": "https://ror.org/02vjkv261",
+          "display_name": "Inserm",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I194839184",
+          "ror": "https://ror.org/03svjbs84",
+          "display_name": "Liverpool School of Tropical Medicine",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I194839184"
+          ]
+        },
+        "years": [
+          2018,
+          2016,
+          2015,
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I204250578",
+          "ror": "https://ror.org/04gyf1771",
+          "display_name": "University of California, Irvine",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204250578"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2799966111",
+          "ror": "https://ror.org/00j73mn11",
+          "display_name": "Ministère de la Santé et de l'Hygiène Publique",
+          "country_code": "ML",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2799966111"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802948906",
+          "ror": "https://ror.org/03nzj6y61",
+          "display_name": "Health Net",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802948906"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I28166907",
+          "ror": "https://ror.org/056d84691",
+          "display_name": "Karolinska Institutet",
+          "country_code": "SE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I34942010",
+          "ror": "https://ror.org/05rrz2q74",
+          "display_name": "University of Kinshasa",
+          "country_code": "CD",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I34942010"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I41343362",
+          "ror": "https://ror.org/02s6w8y22",
+          "display_name": "University of Bamako",
+          "country_code": "ML",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I41343362"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2004,
+          2003,
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210088739",
+          "ror": "https://ror.org/009xkka62",
+          "display_name": "Sema Construction (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210088739"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210088869",
+          "ror": "https://ror.org/005haay02",
+          "display_name": "Institut National de Recherche en Santé Publique",
+          "country_code": "ML",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210088869"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210089966",
+          "ror": "https://ror.org/00a0jsq62",
+          "display_name": "London School of Hygiene & Tropical Medicine",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I4210089966"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210098826",
+          "ror": "https://ror.org/00y8acb95",
+          "display_name": "Service de la Santé Publique",
+          "country_code": "CH",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210098826"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210112095",
+          "ror": "https://ror.org/023rbaw78",
+          "display_name": "Université des Sciences, des Techniques et des Technologies de Bamako",
+          "country_code": "ML",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210112095"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210119482",
+          "ror": "https://ror.org/02gp6p739",
+          "display_name": "Mali-Folkecenter",
+          "country_code": "ML",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210119482"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2021,
+          2018,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210134534",
+          "ror": "https://ror.org/043z4tv69",
+          "display_name": "National Institute of Allergy and Infectious Diseases",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210134534"
+          ]
+        },
+        "years": [
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210140884",
+          "ror": "https://ror.org/040gcmg81",
+          "display_name": "National Cancer Institute",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210140884"
+          ]
+        },
+        "years": [
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210148332",
+          "ror": "https://ror.org/03hjgt059",
+          "display_name": "Barcelona Institute for Global Health",
+          "country_code": "ES",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210148332",
+            "https://openalex.org/I4387153040"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210151833",
+          "ror": "https://ror.org/05grdyy37",
+          "display_name": "Amsterdam University Medical Centers",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210151833"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210163846",
+          "ror": "https://ror.org/05m88q091",
+          "display_name": "Institut de Recherche en Sciences de la Santé",
+          "country_code": "BF",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210116536",
+            "https://openalex.org/I4210163846"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210166444",
+          "ror": "https://ror.org/05q3vnk25",
+          "display_name": "Institut de Recherche pour le Développement",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1327553481",
+            "https://openalex.org/I154202486",
+            "https://openalex.org/I2799535048",
+            "https://openalex.org/I2802818602",
+            "https://openalex.org/I4210088668",
+            "https://openalex.org/I4210090127",
+            "https://openalex.org/I4210113730",
+            "https://openalex.org/I4210131494",
+            "https://openalex.org/I4210166444",
+            "https://openalex.org/I4405257220"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I47508984",
+          "ror": "https://ror.org/041kmwe10",
+          "display_name": "Imperial College London",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I47508984"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I71999127",
+          "ror": "https://ror.org/021018s57",
+          "display_name": "Universitat de Barcelona",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I71999127"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I76782289",
+          "ror": "https://ror.org/031vxrj29",
+          "display_name": "National Institute of Malaria Research",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I37048141",
+            "https://openalex.org/I76782289"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I887064364",
+          "ror": "https://ror.org/04dkp9463",
+          "display_name": "University of Amsterdam",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I887064364"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I41343362",
+        "ror": "https://ror.org/02s6w8y22",
+        "display_name": "University of Bamako",
+        "country_code": "ML",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I41343362"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210112095",
+        "ror": "https://ror.org/023rbaw78",
+        "display_name": "Université des Sciences, des Techniques et des Technologies de Bamako",
+        "country_code": "ML",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210112095"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10091",
+        "display_name": "Malaria Research and Control",
+        "count": 136,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10166",
+        "display_name": "Mosquito-borne diseases and control",
+        "count": 63,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10209",
+        "display_name": "Global Maternal and Child Health",
+        "count": 56,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2735",
+          "display_name": "Pediatrics, Perinatology and Child Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10695",
+        "display_name": "Parasites and Host Interactions",
+        "count": 26,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2405",
+          "display_name": "Parasitology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10596",
+        "display_name": "Child Nutrition and Water Access",
+        "count": 22,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2916",
+          "display_name": "Nutrition and Dietetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/29",
+          "display_name": "Nursing"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10091",
+        "display_name": "Malaria Research and Control",
+        "value": 0.0007793,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10993",
+        "display_name": "Complement system in diseases",
+        "value": 0.0002338,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2403",
+          "display_name": "Immunology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10166",
+        "display_name": "Mosquito-borne diseases and control",
+        "value": 0.0002034,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10209",
+        "display_name": "Global Maternal and Child Health",
+        "value": 0.0002027,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2735",
+          "display_name": "Pediatrics, Perinatology and Child Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10695",
+        "display_name": "Parasites and Host Interactions",
+        "value": 0.0001735,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2405",
+          "display_name": "Parasitology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "score": 0.9694688320159912
+      },
+      {
+        "id": "2778048844",
+        "wikidata": "https://www.wikidata.org/wiki/Q12156",
+        "display_name": "Malaria",
+        "score": 0.9479964971542358
+      },
+      {
+        "id": "2778371730",
+        "wikidata": "https://www.wikidata.org/wiki/Q311383",
+        "display_name": "Plasmodium falciparum",
+        "score": 0.912775993347168
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.8854565620422363
+      },
+      {
+        "id": "203014093",
+        "wikidata": "https://www.wikidata.org/wiki/Q101929",
+        "display_name": "Immunology",
+        "score": 0.7821341753005981
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2000,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 385
+      },
+      {
+        "year": 2001,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 1052
+      },
+      {
+        "year": 2003,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 186
+      },
+      {
+        "year": 2004,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 177
+      },
+      {
+        "year": 2006,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 29
+      },
+      {
+        "year": 2007,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 22
+      },
+      {
+        "year": 2008,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 120
+      },
+      {
+        "year": 2009,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 704
+      },
+      {
+        "year": 2010,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 862
+      },
+      {
+        "year": 2011,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 227
+      },
+      {
+        "year": 2012,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 140
+      },
+      {
+        "year": 2013,
+        "works_count": 7,
+        "oa_works_count": 6,
+        "cited_by_count": 771
+      },
+      {
+        "year": 2014,
+        "works_count": 12,
+        "oa_works_count": 12,
+        "cited_by_count": 807
+      },
+      {
+        "year": 2015,
+        "works_count": 11,
+        "oa_works_count": 10,
+        "cited_by_count": 1011
+      },
+      {
+        "year": 2016,
+        "works_count": 7,
+        "oa_works_count": 6,
+        "cited_by_count": 296
+      },
+      {
+        "year": 2017,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 44
+      },
+      {
+        "year": 2018,
+        "works_count": 10,
+        "oa_works_count": 7,
+        "cited_by_count": 394
+      },
+      {
+        "year": 2019,
+        "works_count": 11,
+        "oa_works_count": 7,
+        "cited_by_count": 321
+      },
+      {
+        "year": 2020,
+        "works_count": 21,
+        "oa_works_count": 19,
+        "cited_by_count": 246
+      },
+      {
+        "year": 2021,
+        "works_count": 16,
+        "oa_works_count": 16,
+        "cited_by_count": 340
+      },
+      {
+        "year": 2022,
+        "works_count": 10,
+        "oa_works_count": 10,
+        "cited_by_count": 219
+      },
+      {
+        "year": 2023,
+        "works_count": 22,
+        "oa_works_count": 22,
+        "cited_by_count": 124
+      },
+      {
+        "year": 2024,
+        "works_count": 25,
+        "oa_works_count": 24,
+        "cited_by_count": 207
+      },
+      {
+        "year": 2025,
+        "works_count": 26,
+        "oa_works_count": 26,
+        "cited_by_count": 34
+      },
+      {
+        "year": 2026,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "K Kayentao",
+      "K. Kayentao",
+      "KASSOUM KAYENTAO",
+      "Kassoum Kayentao",
+      "Kassoun Kayentao",
+      "Kayentao K",
+      "Kayentao Kassoum",
+      "Kayentao, Kassoum"
+    ],
+    "block_key": "k kayentao",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5022466290",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2363054659",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2363054659",
+    "name": "Kassoum Kayentao",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 2,
+    "citationCount": 0,
+    "hIndex": 0
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "author_id": "A5027921382",
+  "total_recent_works_analysed": 18,
+  "total_unique_collaborators": 54,
+  "estimated_mentee_count": 13,
+  "likely_mentees": [
+    {
+      "name": "Seth R. Allen",
+      "id": "A5028376744",
+      "works_count": 8,
+      "shared_papers": 5
+    },
+    {
+      "name": "Adrian K. Rylski",
+      "id": "A5004520576",
+      "works_count": 10,
+      "shared_papers": 2
+    },
+    {
+      "name": "Emma E. Comer",
+      "id": "A5093076558",
+      "works_count": 2,
+      "shared_papers": 2
+    },
+    {
+      "name": "Keldy S. Mason",
+      "id": "A5087051104",
+      "works_count": 14,
+      "shared_papers": 2
+    },
+    {
+      "name": "J. S. L. Ong",
+      "id": "A5005595845",
+      "works_count": 17,
+      "shared_papers": 2
+    },
+    {
+      "name": "Meghan T. Kiker",
+      "id": "A5051578621",
+      "works_count": 12,
+      "shared_papers": 1
+    },
+    {
+      "name": "Lynn M. Stevens",
+      "id": "A5080815659",
+      "works_count": 13,
+      "shared_papers": 1
+    },
+    {
+      "name": "Danielle M. Cadena",
+      "id": "A5013857218",
+      "works_count": 17,
+      "shared_papers": 1
+    },
+    {
+      "name": "Alex Stafford",
+      "id": "A5031421998",
+      "works_count": 14,
+      "shared_papers": 1
+    },
+    {
+      "name": "Jaechul Ju",
+      "id": "A5063452139",
+      "works_count": 15,
+      "shared_papers": 1
+    },
+    {
+      "name": "Joy Zhou",
+      "id": "A5112984743",
+      "works_count": 3,
+      "shared_papers": 1
+    },
+    {
+      "name": "Evan P. Scruggs",
+      "id": "A5120493194",
+      "works_count": 2,
+      "shared_papers": 1
+    },
+    {
+      "name": "Samuel K. Emslie",
+      "id": "A5075830861",
+      "works_count": 11,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.33
+  },
+  "top_collaborators": [
+    {
+      "name": "Zachariah A. Page",
+      "id": "A5015417245",
+      "shared_papers": 14,
+      "same_institution": true
+    },
+    {
+      "name": "Sean T. Roberts",
+      "id": "A5086540870",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Jussi Isokuortti",
+      "id": "A5024139954",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Seth R. Allen",
+      "id": "A5028376744",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Tod A. Grusenmeyer",
+      "id": "A5057687191",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Ain Uddin",
+      "id": "A5021118128",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Serhii Vasylevskyi",
+      "id": "A5071047360",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Omar Ugarte Trejo",
+      "id": "A5008042096",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Janet Arras",
+      "id": "A5046669625",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Andreas Ehnbom",
+      "id": "A5066452308",
+      "shared_papers": 3,
+      "same_institution": false
+    }
+  ]
+}

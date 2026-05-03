@@ -1,0 +1,413 @@
+{
+  "author_id": "A5019645724",
+  "openalex": {
+    "id": "https://openalex.org/A5019645724",
+    "orcid": "https://orcid.org/0000-0002-7437-6655",
+    "display_name": "Joshua L. Smalley",
+    "raw_author_names": [
+      "Joshua L Smalley",
+      "Joshua L. Smalley",
+      "Joshua Smalley"
+    ],
+    "full_name": "Joshua L. Smalley",
+    "works_count": 35,
+    "cited_by_count": 421,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.111111111111111,
+      "h_index": 11,
+      "i10_index": 13
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5019645724",
+      "orcid": "https://orcid.org/0000-0002-7437-6655"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I121934306",
+          "ror": "https://ror.org/05wvpxv85",
+          "display_name": "Tufts University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121934306"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1290900354",
+          "ror": "https://ror.org/002hsbm82",
+          "display_name": "Tufts Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1290900354"
+          ]
+        },
+        "years": [
+          2023,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I153648349",
+          "ror": "https://ror.org/04h699437",
+          "display_name": "University of Leicester",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I153648349"
+          ]
+        },
+        "years": [
+          2018,
+          2016,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210159948",
+          "ror": "https://ror.org/05362x394",
+          "display_name": "MRC Toxicology Unit",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I241749",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I4210159948",
+            "https://openalex.org/I90344618"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I121934306",
+        "ror": "https://ror.org/05wvpxv85",
+        "display_name": "Tufts University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I121934306"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10077",
+        "display_name": "Neuroscience and Neuropharmacology Research",
+        "count": 13,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2804",
+          "display_name": "Cellular and Molecular Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10493",
+        "display_name": "Ion channel regulation and function",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10580",
+        "display_name": "Immunotherapy and Immune Responses",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2403",
+          "display_name": "Immunology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10725",
+        "display_name": "RNA Interference and Gene Delivery",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10063",
+        "display_name": "Nanoparticle-Based Drug Delivery",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T13258",
+        "display_name": "Williams Syndrome Research",
+        "value": 6.28e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2806",
+          "display_name": "Developmental Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10934",
+        "display_name": "Heat shock proteins research",
+        "value": 3.38e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12434",
+        "display_name": "Phosphodiesterase function and regulation",
+        "value": 3.15e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10063",
+        "display_name": "Nanoparticle-Based Drug Delivery",
+        "value": 2.83e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10493",
+        "display_name": "Ion channel regulation and function",
+        "value": 2.67e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "score": 0.7247133255004883
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.575904130935669
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.5159664750099182
+      },
+      {
+        "id": "104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "score": 0.511795699596405
+      },
+      {
+        "id": "55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "score": 0.46824729442596436
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2013,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2015,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2016,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 61
+      },
+      {
+        "year": 2018,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 158
+      },
+      {
+        "year": 2019,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2020,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 61
+      },
+      {
+        "year": 2021,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 29
+      },
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2023,
+        "works_count": 10,
+        "oa_works_count": 10,
+        "cited_by_count": 39
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2025,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Joshua L Smalley",
+      "Joshua L. Smalley",
+      "Joshua Smalley"
+    ],
+    "block_key": "j smalley",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5019645724",
+    "updated_date": null,
+    "created_date": "2019-07-23T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2347732575",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2347732575",
+    "name": "Joshua L. Smalley",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 5,
+    "citationCount": 1,
+    "hIndex": 1
+  }
+}

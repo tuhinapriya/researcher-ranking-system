@@ -1,0 +1,92 @@
+{
+  "author_id": "A5057678172",
+  "total_recent_works_analysed": 100,
+  "total_unique_collaborators": 193,
+  "estimated_mentee_count": 3,
+  "likely_mentees": [
+    {
+      "name": "Charig Yang",
+      "id": "A5089889254",
+      "works_count": 11,
+      "shared_papers": 4
+    },
+    {
+      "name": "Hala Lamdouar",
+      "id": "A5010936404",
+      "works_count": 10,
+      "shared_papers": 3
+    },
+    {
+      "name": "Erika Lu",
+      "id": "A5112565541",
+      "works_count": 20,
+      "shared_papers": 3
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.79,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Weidi Xie",
+      "id": "A5076097168",
+      "shared_papers": 18,
+      "same_institution": true
+    },
+    {
+      "name": "Triantafyllos Afouras",
+      "id": "A5018690028",
+      "shared_papers": 14,
+      "same_institution": true
+    },
+    {
+      "name": "Arsha Nagrani",
+      "id": "A5036002448",
+      "shared_papers": 13,
+      "same_institution": true
+    },
+    {
+      "name": "Gül Varol",
+      "id": "A5024292507",
+      "shared_papers": 13,
+      "same_institution": true
+    },
+    {
+      "name": "Samuel Albanie",
+      "id": "A5102018867",
+      "shared_papers": 12,
+      "same_institution": true
+    },
+    {
+      "name": "Liliane Momeni",
+      "id": "A5033313836",
+      "shared_papers": 11,
+      "same_institution": true
+    },
+    {
+      "name": "Andrea Vedaldi",
+      "id": "A5060511349",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Tengda Han",
+      "id": "A5075613881",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Joon Son Chung",
+      "id": "A5038723822",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Timor Kadir",
+      "id": "A5068774836",
+      "shared_papers": 8,
+      "same_institution": true
+    }
+  ]
+}

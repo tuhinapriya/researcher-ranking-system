@@ -1,0 +1,104 @@
+{
+  "author_id": "A5003024317",
+  "total_recent_works_analysed": 43,
+  "total_unique_collaborators": 26,
+  "estimated_mentee_count": 5,
+  "likely_mentees": [
+    {
+      "name": "Eline De Jong",
+      "id": "A5027286712",
+      "works_count": 6,
+      "shared_papers": 4
+    },
+    {
+      "name": "Eline De Jong",
+      "id": "A5039038072",
+      "works_count": 11,
+      "shared_papers": 1
+    },
+    {
+      "name": "K Liu",
+      "id": "A5086484040",
+      "works_count": 9,
+      "shared_papers": 1
+    },
+    {
+      "name": "Kexin LIU",
+      "id": "A5012512068",
+      "works_count": 3,
+      "shared_papers": 1
+    },
+    {
+      "name": "Min-Ha Lee",
+      "id": "A5121045399",
+      "works_count": 2,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.14,
+    "corresponding_author_ratio": 0.81
+  },
+  "top_collaborators": [
+    {
+      "name": "Mateo Aboy",
+      "id": "A5067108150",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Timo Minssen",
+      "id": "A5047818595",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Urs Gasser",
+      "id": "A5052258450",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Mark L. Brongersma",
+      "id": "A5025966673",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Eline De Jong",
+      "id": "A5027286712",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "I. Glenn Cohen",
+      "id": "A5076810459",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Teresa Quintel",
+      "id": "A5010923281",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Luciano Floridi",
+      "id": "A5046574356",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Ray Laflamme",
+      "id": "A5019690257",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Jinhee Lee",
+      "id": "A5100424012",
+      "shared_papers": 2,
+      "same_institution": true
+    }
+  ]
+}

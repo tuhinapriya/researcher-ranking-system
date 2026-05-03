@@ -1,0 +1,983 @@
+{
+  "author_id": "A5020375409",
+  "openalex": {
+    "id": "https://openalex.org/A5020375409",
+    "orcid": "https://orcid.org/0000-0002-5102-5019",
+    "display_name": "Graziano Rossi",
+    "raw_author_names": [
+      "G L Rossi",
+      "G Rossi",
+      "G. ROSSI",
+      "G. Rossi",
+      "GRAZIANO ROSSI",
+      "Gaia Rossi",
+      "Giada Rossi",
+      "Graziano Rossi",
+      "Graziano, Rossi",
+      "Guilherme Rossi Gorni",
+      "Gustavo Fiedler Rossi",
+      "H Ehrlich",
+      "Rossi G.",
+      "Rossi Graziano",
+      "Rossi, G.",
+      "Rossi, Graziano"
+    ],
+    "full_name": "GRAZIANO ROSSI",
+    "works_count": 400,
+    "cited_by_count": 12833,
+    "summary_stats": {
+      "2yr_mean_citedness": 20.768595041322314,
+      "h_index": 49,
+      "i10_index": 160
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5020375409",
+      "orcid": "https://orcid.org/0000-0002-5102-5019"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I121748325",
+          "ror": "https://ror.org/02p0gd045",
+          "display_name": "Universidad Complutense de Madrid",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121748325"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I165143802",
+          "ror": "https://ror.org/00rqy9422",
+          "display_name": "The University of Queensland",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I165143802"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I201324441",
+          "ror": "https://ror.org/041zkgm14",
+          "display_name": "University of Ferrara",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I201324441"
+          ]
+        },
+        "years": [
+          2025,
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I25217355",
+          "ror": "https://ror.org/00s6t1f81",
+          "display_name": "University of Pavia",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I25217355"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2001,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2738703131",
+          "ror": "https://ror.org/00jjx8s55",
+          "display_name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I28777354",
+          "ror": "https://ror.org/00aft1q37",
+          "display_name": "Sejong University",
+          "country_code": "KR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I28777354"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210103661",
+          "ror": "https://ror.org/017qcv467",
+          "display_name": "Max Planck Institute for Astrophysics",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210103661"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210108963",
+          "ror": "https://ror.org/013848a06",
+          "display_name": "Italian Society of Physiotherapy",
+          "country_code": "IT",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210108963"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210109533",
+          "ror": "https://ror.org/01st30669",
+          "display_name": "Istituto Nazionale di Fisica Nucleare, Sezione di Pavia",
+          "country_code": "IT",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I160013858",
+            "https://openalex.org/I4210109533"
+          ]
+        },
+        "years": [
+          1998
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210111096",
+          "ror": "https://ror.org/01zppzz18",
+          "display_name": "Centre for Theoretical Physics and Astrophysics",
+          "country_code": "UZ",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210111096"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210117389",
+          "ror": "https://ror.org/02cnnsp10",
+          "display_name": "Forest Science and Research Institute",
+          "country_code": "BR",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210117389"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210117642",
+          "ror": "https://ror.org/02p3q3906",
+          "display_name": "Ministry of the Environment and Protection of Land and Sea",
+          "country_code": "IT",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210104593",
+            "https://openalex.org/I4210117642"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210128565",
+          "ror": "https://ror.org/03n15ch10",
+          "display_name": "CEA Paris-Saclay",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I277688954",
+            "https://openalex.org/I4210128565"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210138539",
+          "ror": "https://ror.org/03sn3te07",
+          "display_name": "Società Italiana di Medicina Generale",
+          "country_code": "IT",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210138539"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210139422",
+          "ror": "https://ror.org/04s181d41",
+          "display_name": "Ev-K2-Cnr",
+          "country_code": "IT",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210139422"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210146430",
+          "ror": "https://ror.org/04ynn1b95",
+          "display_name": "Astronomy and Space",
+          "country_code": "AU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1292875679",
+            "https://openalex.org/I2801453606",
+            "https://openalex.org/I4210146430",
+            "https://openalex.org/I4387156119"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210151963",
+          "ror": "https://ror.org/04s1a2p79",
+          "display_name": "Organizzazione per la Tutela Forestale, Ambientale e Agroalimentare",
+          "country_code": "IT",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210151963",
+            "https://openalex.org/I4405262415"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210156688",
+          "ror": "https://ror.org/04qxpma28",
+          "display_name": "Centro Universitário de Araraquara",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210156688"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210159701",
+          "ror": "https://ror.org/053q96737",
+          "display_name": "International Renal Research Institute of Vicenza",
+          "country_code": "IT",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210159701"
+          ]
+        },
+        "years": [
+          1986
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210161636",
+          "ror": "https://ror.org/05257z229",
+          "display_name": "Human Growth Foundation",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210161636"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165232",
+          "ror": "https://ror.org/05k705z76",
+          "display_name": "Institut de Recherche sur les Lois Fondamentales de l'Univers",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I4210113668",
+            "https://openalex.org/I4210165232"
+          ]
+        },
+        "years": [
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165411",
+          "ror": "https://ror.org/05xx77y52",
+          "display_name": "Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210165411"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210167031",
+          "ror": "https://ror.org/03fwsh914",
+          "display_name": "State Library of Ohio",
+          "country_code": "US",
+          "type": "archive",
+          "lineage": [
+            "https://openalex.org/I4210167031"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I57093077",
+          "ror": "https://ror.org/031rekg67",
+          "display_name": "Swinburne University of Technology",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57093077"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I66752286",
+          "ror": "https://ror.org/01ynf4891",
+          "display_name": "University of Milano-Bicocca",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I66752286"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I87531838",
+          "ror": "https://ror.org/01gaw2478",
+          "display_name": "Teikyo University",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I87531838"
+          ]
+        },
+        "years": [
+          1986
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I8961855",
+          "ror": "https://ror.org/01tmp8f25",
+          "display_name": "Universidad Nacional Autónoma de México",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I8961855"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I922237871",
+          "ror": "https://ror.org/000k1q888",
+          "display_name": "Netherlands Institute for Radio Astronomy",
+          "country_code": "NL",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I2800991832",
+            "https://openalex.org/I4405262988",
+            "https://openalex.org/I922237871"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I25217355",
+        "ror": "https://ror.org/00s6t1f81",
+        "display_name": "University of Pavia",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I25217355"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "count": 103,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "count": 88,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12455",
+        "display_name": "Mediterranean and Iberian flora and fauna",
+        "count": 70,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12618",
+        "display_name": "Botany and Plant Ecology Studies",
+        "count": 67,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10005",
+        "display_name": "Ecology and Vegetation Dynamics Studies",
+        "count": 56,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2309",
+          "display_name": "Nature and Landscape Conservation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "value": 0.0005415,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12455",
+        "display_name": "Mediterranean and Iberian flora and fauna",
+        "value": 0.0003052,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "value": 0.000233,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "value": 0.000227,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12568",
+        "display_name": "Plant Taxonomy and Phylogenetics",
+        "value": 0.0002226,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1105",
+          "display_name": "Ecology, Evolution, Behavior and Systematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9735873937606812
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.954643964767456
+      },
+      {
+        "id": "44870925",
+        "wikidata": "https://www.wikidata.org/wiki/Q37547",
+        "display_name": "Astrophysics",
+        "score": 0.8816467523574829
+      },
+      {
+        "id": "18903297",
+        "wikidata": "https://www.wikidata.org/wiki/Q7150",
+        "display_name": "Ecology",
+        "score": 0.8252989649772644
+      },
+      {
+        "id": "98444146",
+        "wikidata": "https://www.wikidata.org/wiki/Q318",
+        "display_name": "Galaxy",
+        "score": 0.8245564699172974
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1973,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1986,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 7
+      },
+      {
+        "year": 1987,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 2
+      },
+      {
+        "year": 1992,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1993,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 1994,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1995,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 18
+      },
+      {
+        "year": 1996,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 22
+      },
+      {
+        "year": 1997,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 52
+      },
+      {
+        "year": 1998,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 12
+      },
+      {
+        "year": 1999,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2000,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 105
+      },
+      {
+        "year": 2001,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2003,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2005,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2006,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 44
+      },
+      {
+        "year": 2007,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 564
+      },
+      {
+        "year": 2008,
+        "works_count": 8,
+        "oa_works_count": 1,
+        "cited_by_count": 280
+      },
+      {
+        "year": 2009,
+        "works_count": 8,
+        "oa_works_count": 0,
+        "cited_by_count": 170
+      },
+      {
+        "year": 2010,
+        "works_count": 11,
+        "oa_works_count": 3,
+        "cited_by_count": 885
+      },
+      {
+        "year": 2011,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 155
+      },
+      {
+        "year": 2012,
+        "works_count": 13,
+        "oa_works_count": 5,
+        "cited_by_count": 2577
+      },
+      {
+        "year": 2013,
+        "works_count": 16,
+        "oa_works_count": 6,
+        "cited_by_count": 434
+      },
+      {
+        "year": 2014,
+        "works_count": 14,
+        "oa_works_count": 3,
+        "cited_by_count": 313
+      },
+      {
+        "year": 2015,
+        "works_count": 16,
+        "oa_works_count": 7,
+        "cited_by_count": 1556
+      },
+      {
+        "year": 2016,
+        "works_count": 14,
+        "oa_works_count": 8,
+        "cited_by_count": 333
+      },
+      {
+        "year": 2017,
+        "works_count": 10,
+        "oa_works_count": 4,
+        "cited_by_count": 107
+      },
+      {
+        "year": 2018,
+        "works_count": 9,
+        "oa_works_count": 5,
+        "cited_by_count": 337
+      },
+      {
+        "year": 2019,
+        "works_count": 24,
+        "oa_works_count": 17,
+        "cited_by_count": 512
+      },
+      {
+        "year": 2020,
+        "works_count": 13,
+        "oa_works_count": 9,
+        "cited_by_count": 551
+      },
+      {
+        "year": 2021,
+        "works_count": 20,
+        "oa_works_count": 14,
+        "cited_by_count": 599
+      },
+      {
+        "year": 2022,
+        "works_count": 13,
+        "oa_works_count": 11,
+        "cited_by_count": 61
+      },
+      {
+        "year": 2023,
+        "works_count": 41,
+        "oa_works_count": 40,
+        "cited_by_count": 558
+      },
+      {
+        "year": 2024,
+        "works_count": 58,
+        "oa_works_count": 55,
+        "cited_by_count": 1111
+      },
+      {
+        "year": 2025,
+        "works_count": 59,
+        "oa_works_count": 57,
+        "cited_by_count": 1401
+      },
+      {
+        "year": 2026,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      }
+    ],
+    "display_name_alternatives": [
+      "G L Rossi",
+      "G Rossi",
+      "G. ROSSI",
+      "G. Rossi",
+      "GRAZIANO ROSSI",
+      "Gaia Rossi",
+      "Giada Rossi",
+      "Graziano Rossi",
+      "Graziano, Rossi",
+      "Guilherme Rossi Gorni",
+      "Gustavo Fiedler Rossi",
+      "H Ehrlich",
+      "Rossi G.",
+      "Rossi Graziano",
+      "Rossi, G.",
+      "Rossi, Graziano"
+    ],
+    "block_key": "g rossi",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5020375409",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2112630262",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2112630262",
+    "name": "G. Rossi",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 1,
+    "citationCount": 0,
+    "hIndex": 0
+  }
+}

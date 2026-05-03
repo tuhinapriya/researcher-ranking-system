@@ -1,0 +1,321 @@
+{
+  "author_id": "A5003578536",
+  "openalex": {
+    "id": "https://openalex.org/A5003578536",
+    "orcid": "https://orcid.org/0000-0003-1717-4333",
+    "display_name": "Penghua Chen",
+    "raw_author_names": [
+      "Chen, Penghua",
+      "Penghua Chen"
+    ],
+    "full_name": "Chen, Penghua",
+    "works_count": 7,
+    "cited_by_count": 23,
+    "summary_stats": {
+      "2yr_mean_citedness": 1.2,
+      "h_index": 2,
+      "i10_index": 1
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5003578536",
+      "orcid": "https://orcid.org/0000-0003-1717-4333"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I172675005",
+          "ror": "https://ror.org/02e7b5302",
+          "display_name": "Nanyang Technological University",
+          "country_code": "SG",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I172675005"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I219193219",
+          "ror": "https://ror.org/02dqehb95",
+          "display_name": "Purdue University West Lafayette",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I219193219"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2022
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I219193219",
+        "ror": "https://ror.org/02dqehb95",
+        "display_name": "Purdue University West Lafayette",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I219193219"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10037",
+        "display_name": "Physics of Superconductivity and Magnetism",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11181",
+        "display_name": "Advanced Data Storage Technologies",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11682",
+        "display_name": "Advanced Condensed Matter Physics",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10049",
+        "display_name": "Magnetic properties of thin films",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "value": 1.77e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11262",
+        "display_name": "Quantum Mechanics and Non-Hermitian Physics",
+        "value": 1.43e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12808",
+        "display_name": "Ferroelectric and Negative Capacitance Devices",
+        "value": 1.19e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11804",
+        "display_name": "Quantum many-body systems",
+        "value": 1.14e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11682",
+        "display_name": "Advanced Condensed Matter Physics",
+        "value": 1.1e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.8318009376525879
+      },
+      {
+        "id": "121864883",
+        "wikidata": "https://www.wikidata.org/wiki/Q677916",
+        "display_name": "Statistical physics",
+        "score": 0.42044785618782043
+      },
+      {
+        "id": "62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "score": 0.410576730966568
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.3067963421344757
+      },
+      {
+        "id": "2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "score": 0.19110643863677979
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2017,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2024,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      }
+    ],
+    "display_name_alternatives": [
+      "Chen, Penghua",
+      "Penghua Chen"
+    ],
+    "block_key": "p chen",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5003578536",
+    "updated_date": null,
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "46468441",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/46468441",
+    "name": "Penghua Chen",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 5,
+    "citationCount": 13,
+    "hIndex": 2
+  }
+}

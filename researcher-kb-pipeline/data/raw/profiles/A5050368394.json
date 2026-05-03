@@ -1,0 +1,1326 @@
+{
+  "author_id": "A5050368394",
+  "openalex": {
+    "id": "https://openalex.org/A5050368394",
+    "orcid": "https://orcid.org/0000-0001-9987-5584",
+    "display_name": "Francisco José García‐Peñalvo",
+    "display_name_alternatives": [
+      ", García-Peñalvo",
+      ":none",
+      "F. García-Peñalvo",
+      "F. J. García-Peñalvo",
+      "F.J. Garcia-Penalvo",
+      "F.J. García-Peñalvo",
+      "F.J. García-Peñalvo",
+      "FRANCISCO J",
+      "FRANCISCO JOSE GARCIA PENALVO",
+      "FRANCISCO JOSÉ GARCÍA-PEÑALVO"
+    ],
+    "works_count": 1857,
+    "cited_by_count": 22706,
+    "summary_stats": {
+      "2yr_mean_citedness": 5.510204081632653,
+      "h_index": 67,
+      "i10_index": 480
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5050368394",
+      "orcid": "https://orcid.org/0000-0001-9987-5584"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I108103353",
+          "ror": "https://ror.org/01fvbaw18",
+          "display_name": "Universidad de Valladolid",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I108103353"
+          ]
+        },
+        "years": [
+          2012,
+          2011,
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I121595252",
+          "ror": "https://ror.org/01b8jmq89",
+          "display_name": "Polytechnic University of Puerto Rico",
+          "country_code": "PR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121595252"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I121748325",
+          "ror": "https://ror.org/02p0gd045",
+          "display_name": "Universidad Complutense de Madrid",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121748325"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I124055696",
+          "ror": "https://ror.org/035b05819",
+          "display_name": "University of Copenhagen",
+          "country_code": "DK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124055696"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I129858807",
+          "ror": "https://ror.org/058cjye32",
+          "display_name": "Universidad de Guanajuato",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I129858807"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1324840837",
+          "ror": "https://ror.org/059rn9488",
+          "display_name": "Hewlett-Packard (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1324840837"
+          ]
+        },
+        "years": [
+          1996
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I138285227",
+          "ror": "https://ror.org/02tryst02",
+          "display_name": "Agilent Technologies (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I138285227"
+          ]
+        },
+        "years": [
+          2011,
+          2009,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I144571360",
+          "ror": "https://ror.org/039p8pn96",
+          "display_name": "Viterbo University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I144571360"
+          ]
+        },
+        "years": [
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I146155226",
+          "ror": "https://ror.org/02s5jck73",
+          "display_name": "J. F. Oberlin University",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I146155226"
+          ]
+        },
+        "years": [
+          2021,
+          2020,
+          2019,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I167576493",
+          "ror": "https://ror.org/04raf6v53",
+          "display_name": "Colorado School of Mines",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I167576493"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I170201317",
+          "ror": "https://ror.org/01an3r305",
+          "display_name": "University of Pittsburgh",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I170201317"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I184999862",
+          "ror": "https://ror.org/02f40zc51",
+          "display_name": "Universidad de Salamanca",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I184999862"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1970
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I185261750",
+          "ror": "https://ror.org/03dbr7087",
+          "display_name": "University of Toronto",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I204136569",
+          "ror": "https://ror.org/05mzfcs16",
+          "display_name": "The Open University",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204136569"
+          ]
+        },
+        "years": [
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I204465549",
+          "ror": "https://ror.org/01yc7t268",
+          "display_name": "Washington University in St. Louis",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2277624104",
+          "ror": "https://ror.org/01j33xk10",
+          "display_name": "Fondazione Bruno Kessler",
+          "country_code": "IT",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2277624104"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I255234318",
+          "ror": "https://ror.org/012a91z28",
+          "display_name": "Universidad de Zaragoza",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I255234318"
+          ]
+        },
+        "years": [
+          2017,
+          2014,
+          2013,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802236040",
+          "ror": "https://ror.org/00jc20583",
+          "display_name": "University of Colorado System",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2802236040"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I332011152",
+          "ror": "https://ror.org/02jsxd428",
+          "display_name": "District University of Bogotá",
+          "country_code": "CO",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I332011152"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39147953",
+          "ror": "https://ror.org/04mxxkb11",
+          "display_name": "Universidad de Cádiz",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39147953"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I41382782",
+          "ror": "https://ror.org/02jj93564",
+          "display_name": "Pontifical University of Salamanca",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I41382782"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210089985",
+          "ror": "https://ror.org/00b9ktm87",
+          "display_name": "Amazon (Germany)",
+          "country_code": "DE",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1311688040",
+            "https://openalex.org/I4210089985"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210098259",
+          "ror": "https://ror.org/00vtb6v32",
+          "display_name": "Institute of Educational Sciences",
+          "country_code": "MD",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I112090838",
+            "https://openalex.org/I4210098259"
+          ]
+        },
+        "years": [
+          2017,
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210109412",
+          "ror": "https://ror.org/01phydj90",
+          "display_name": "Akdeniz University Hospital",
+          "country_code": "TR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210109412"
+          ]
+        },
+        "years": [
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210129668",
+          "ror": "https://ror.org/0355p2e87",
+          "display_name": "Agilent Technologies (Germany)",
+          "country_code": "DE",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I138285227",
+            "https://openalex.org/I4210129668"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210134045",
+          "ror": "https://ror.org/03em6xj44",
+          "display_name": "Instituto de Investigación Biomédica de Salamanca",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I184999862",
+            "https://openalex.org/I184999862",
+            "https://openalex.org/I4210099034",
+            "https://openalex.org/I4210134045"
+          ]
+        },
+        "years": [
+          2022,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210136171",
+          "ror": "https://ror.org/04f86t017",
+          "display_name": "Hospital de Especialidades",
+          "country_code": "MX",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210136171"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210140350",
+          "ror": "https://ror.org/03dfzxf19",
+          "display_name": "Agilent Technologies (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I138285227",
+            "https://openalex.org/I4210140350"
+          ]
+        },
+        "years": [
+          2011,
+          2010,
+          2009,
+          2008,
+          2006,
+          2003,
+          2001
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210143062",
+          "ror": "https://ror.org/05bk8br84",
+          "display_name": "Para La Tierra",
+          "country_code": "PY",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210143062"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210147268",
+          "ror": "https://ror.org/04axzyr33",
+          "display_name": "Usibelli Coal Mine (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210147268"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210150291",
+          "ror": "https://ror.org/048jthh02",
+          "display_name": "Colciencias",
+          "country_code": "CO",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210150291"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210151531",
+          "ror": "https://ror.org/04v91tb50",
+          "display_name": "Complejo Hospitalario Torrecárdenas",
+          "country_code": "ES",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I158283456",
+            "https://openalex.org/I4210151531"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210153303",
+          "ror": "https://ror.org/04xtpyw05",
+          "display_name": "École Normale Supérieure d'Abidjan",
+          "country_code": "CI",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210153303"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210156325",
+          "ror": "https://ror.org/05g4mtv59",
+          "display_name": "Hewlett-Packard (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1324840837",
+            "https://openalex.org/I4210156325"
+          ]
+        },
+        "years": [
+          1996
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210157580",
+          "ror": "https://ror.org/04jy41s17",
+          "display_name": "Pro Persona",
+          "country_code": "NL",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210157580"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210160027",
+          "ror": "https://ror.org/04d1zy188",
+          "display_name": "Departamento de Educación",
+          "country_code": "ES",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210160027"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4392021127",
+          "ror": "https://ror.org/00xnj6419",
+          "display_name": "Instituto Universitario de Ciencias de la Educación",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I184999862",
+            "https://openalex.org/I4392021127"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022,
+          2020,
+          2019,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I50357001",
+          "ror": "https://ror.org/03ths8210",
+          "display_name": "Universidad Carlos III de Madrid",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I50357001"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I5593406",
+          "ror": "https://ror.org/04p9k2z50",
+          "display_name": "Universitat Ramon Llull",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I5593406"
+          ]
+        },
+        "years": [
+          2021,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I67415387",
+          "ror": "https://ror.org/04f2nsd36",
+          "display_name": "Lancaster University",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I67415387"
+          ]
+        },
+        "years": [
+          1996,
+          1994,
+          1993,
+          1992
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I70764802",
+          "ror": "https://ror.org/01gb99w41",
+          "display_name": "National Polytechnic School",
+          "country_code": "EC",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I70764802"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79189158",
+          "ror": "https://ror.org/05r78ng12",
+          "display_name": "University of Castilla-La Mancha",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79189158"
+          ]
+        },
+        "years": [
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I83863532",
+          "ror": "https://ror.org/04988re48",
+          "display_name": "Polytechnic Institute of Porto",
+          "country_code": "PT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I83863532"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I88060688",
+          "ror": "https://ror.org/03n6nwv02",
+          "display_name": "Universidad Politécnica de Madrid",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I88060688"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I8833935",
+          "ror": "https://ror.org/02tzt0b78",
+          "display_name": "Universidad de León",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I8833935"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I916541031",
+          "ror": "https://ror.org/04znxe670",
+          "display_name": "Universidad de Colima",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I916541031"
+          ]
+        },
+        "years": [
+          2010,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I94624287",
+          "ror": "https://ror.org/006hf6230",
+          "display_name": "University of Twente",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I94624287"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I9617848",
+          "ror": "https://ror.org/03mb6wj31",
+          "display_name": "Universitat Politècnica de Catalunya",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I9617848"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I98461037",
+          "ror": "https://ror.org/03ayjn504",
+          "display_name": "Tecnológico de Monterrey",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98461037"
+          ]
+        },
+        "years": [
+          2018,
+          2017,
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I98677209",
+          "ror": "https://ror.org/01nrxwf90",
+          "display_name": "University of Edinburgh",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I99065089",
+          "ror": "https://ror.org/03cve4549",
+          "display_name": "Tsinghua University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I184999862",
+        "ror": "https://ror.org/02f40zc51",
+        "display_name": "Universidad de Salamanca",
+        "country_code": "ES",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I184999862"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I204465549",
+        "ror": "https://ror.org/01yc7t268",
+        "display_name": "Washington University in St. Louis",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I204465549"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T14246",
+        "display_name": "E-Learning and Knowledge Management",
+        "count": 872,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1706",
+          "display_name": "Computer Science Applications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12395",
+        "display_name": "Educational Innovations and Technology",
+        "count": 306,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14498",
+        "display_name": "Educational Technology in Learning",
+        "count": 212,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11122",
+        "display_name": "Online Learning and Analytics",
+        "count": 193,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1706",
+          "display_name": "Computer Science Applications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12217",
+        "display_name": "Higher Education Teaching and Evaluation",
+        "count": 158,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T14246",
+        "display_name": "E-Learning and Knowledge Management",
+        "value": 0.0041407,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1706",
+          "display_name": "Computer Science Applications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14498",
+        "display_name": "Educational Technology in Learning",
+        "value": 0.0018995,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12395",
+        "display_name": "Educational Innovations and Technology",
+        "value": 0.0016971,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14267",
+        "display_name": "Technology in Education and Healthcare",
+        "value": 0.001405,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11122",
+        "display_name": "Online Learning and Analytics",
+        "value": 0.0011501,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1706",
+          "display_name": "Computer Science Applications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.9363516569137573
+      },
+      {
+        "id": "15708023",
+        "wikidata": "https://www.wikidata.org/wiki/Q80083",
+        "display_name": "Humanities",
+        "score": 0.8847833871841431
+      },
+      {
+        "id": "15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "score": 0.7774738073348999
+      },
+      {
+        "id": "17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "score": 0.6371350884437561
+      },
+      {
+        "id": "138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "score": 0.6319707632064819
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1970,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1992,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 202
+      },
+      {
+        "year": 1993,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 7
+      },
+      {
+        "year": 1994,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 57
+      },
+      {
+        "year": 1996,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 63
+      },
+      {
+        "year": 1997,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1998,
+        "works_count": 8,
+        "oa_works_count": 4,
+        "cited_by_count": 39
+      },
+      {
+        "year": 1999,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2000,
+        "works_count": 8,
+        "oa_works_count": 2,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2001,
+        "works_count": 21,
+        "oa_works_count": 2,
+        "cited_by_count": 41
+      },
+      {
+        "year": 2002,
+        "works_count": 23,
+        "oa_works_count": 8,
+        "cited_by_count": 68
+      },
+      {
+        "year": 2003,
+        "works_count": 18,
+        "oa_works_count": 1,
+        "cited_by_count": 78
+      },
+      {
+        "year": 2004,
+        "works_count": 22,
+        "oa_works_count": 3,
+        "cited_by_count": 148
+      },
+      {
+        "year": 2005,
+        "works_count": 23,
+        "oa_works_count": 4,
+        "cited_by_count": 157
+      },
+      {
+        "year": 2006,
+        "works_count": 35,
+        "oa_works_count": 7,
+        "cited_by_count": 134
+      },
+      {
+        "year": 2007,
+        "works_count": 30,
+        "oa_works_count": 8,
+        "cited_by_count": 104
+      },
+      {
+        "year": 2008,
+        "works_count": 46,
+        "oa_works_count": 12,
+        "cited_by_count": 242
+      },
+      {
+        "year": 2009,
+        "works_count": 33,
+        "oa_works_count": 7,
+        "cited_by_count": 185
+      },
+      {
+        "year": 2010,
+        "works_count": 45,
+        "oa_works_count": 5,
+        "cited_by_count": 559
+      },
+      {
+        "year": 2011,
+        "works_count": 68,
+        "oa_works_count": 14,
+        "cited_by_count": 194
+      },
+      {
+        "year": 2012,
+        "works_count": 56,
+        "oa_works_count": 14,
+        "cited_by_count": 859
+      },
+      {
+        "year": 2013,
+        "works_count": 92,
+        "oa_works_count": 36,
+        "cited_by_count": 1112
+      },
+      {
+        "year": 2014,
+        "works_count": 89,
+        "oa_works_count": 26,
+        "cited_by_count": 1399
+      },
+      {
+        "year": 2015,
+        "works_count": 125,
+        "oa_works_count": 38,
+        "cited_by_count": 1971
+      },
+      {
+        "year": 2016,
+        "works_count": 138,
+        "oa_works_count": 69,
+        "cited_by_count": 2585
+      },
+      {
+        "year": 2017,
+        "works_count": 136,
+        "oa_works_count": 80,
+        "cited_by_count": 2292
+      },
+      {
+        "year": 2018,
+        "works_count": 131,
+        "oa_works_count": 71,
+        "cited_by_count": 1345
+      },
+      {
+        "year": 2019,
+        "works_count": 148,
+        "oa_works_count": 107,
+        "cited_by_count": 2083
+      },
+      {
+        "year": 2020,
+        "works_count": 183,
+        "oa_works_count": 139,
+        "cited_by_count": 2970
+      },
+      {
+        "year": 2021,
+        "works_count": 135,
+        "oa_works_count": 90,
+        "cited_by_count": 1311
+      },
+      {
+        "year": 2022,
+        "works_count": 56,
+        "oa_works_count": 34,
+        "cited_by_count": 1084
+      },
+      {
+        "year": 2023,
+        "works_count": 68,
+        "oa_works_count": 41,
+        "cited_by_count": 864
+      },
+      {
+        "year": 2024,
+        "works_count": 63,
+        "oa_works_count": 36,
+        "cited_by_count": 512
+      },
+      {
+        "year": 2025,
+        "works_count": 35,
+        "oa_works_count": 18,
+        "cited_by_count": 28
+      }
+    ],
+    "longest_name": "Francisco José García‐Peñalvo",
+    "parsed_longest_name": {
+      "first": "francisco",
+      "middle": "jose",
+      "last": "garcia‐penalvo",
+      "suffix": "",
+      "nickname": ""
+    },
+    "block_key": "f garcia‐penalvo",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5050368394",
+    "updated_date": "2026-03-27T12:23:52",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2090420924",
+    "externalIds": {
+      "DBLP": [
+        "Francisco J. García-Peñalvo",
+        "Francisco José García-Peñalvo"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/2090420924",
+    "name": "F. García-Peñalvo",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 28,
+    "citationCount": 178,
+    "hIndex": 6
+  }
+}

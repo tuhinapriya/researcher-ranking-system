@@ -1,0 +1,86 @@
+{
+  "author_id": "A5007823743",
+  "total_recent_works_analysed": 19,
+  "total_unique_collaborators": 36,
+  "estimated_mentee_count": 2,
+  "likely_mentees": [
+    {
+      "name": "Yoshitaka Ogawa",
+      "id": "A5003713192",
+      "works_count": 9,
+      "shared_papers": 2
+    },
+    {
+      "name": "Kazuhiro Satomura",
+      "id": "A5071095874",
+      "works_count": 11,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.26,
+    "corresponding_author_ratio": 0.16
+  },
+  "top_collaborators": [
+    {
+      "name": "Sudhir Kumar",
+      "id": "A5100680948",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "Maxwell Sanderford",
+      "id": "A5033569885",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Sudip Sharma",
+      "id": "A5020357256",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Qiqing Tao",
+      "id": "A5016751952",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Glen Stecher",
+      "id": "A5067791761",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Michael Suleski",
+      "id": "A5088065545",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Sayaka Miura",
+      "id": "A5062480014",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "John B. Allard",
+      "id": "A5086474584",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Ravi Patel",
+      "id": "A5086697299",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Slobodan Vučetić",
+      "id": "A5059847153",
+      "shared_papers": 2,
+      "same_institution": false
+    }
+  ]
+}

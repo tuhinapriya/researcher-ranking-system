@@ -1,0 +1,1220 @@
+{
+  "id": "https://openalex.org/I130238516",
+  "ror": "https://ror.org/017zqws13",
+  "display_name": "University of Minnesota",
+  "country_code": "US",
+  "type": "education",
+  "type_id": "https://openalex.org/institution-types/education",
+  "lineage": [
+    "https://openalex.org/I130238516"
+  ],
+  "homepage_url": "https://twin-cities.umn.edu",
+  "image_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/University%20of%20Minnesota%20wordmark.png",
+  "image_thumbnail_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/University%20of%20Minnesota%20wordmark.png&width=300",
+  "display_name_acronyms": [],
+  "display_name_alternatives": [
+    "University of Minnesota",
+    "University of Minnesota, Twin Cities"
+  ],
+  "repositories": [
+    {
+      "id": "https://openalex.org/S4306402521",
+      "display_name": "University of Minnesota Digital Conservancy (University of Minnesota)",
+      "host_organization": "https://openalex.org/I130238516",
+      "host_organization_name": "University of Minnesota",
+      "host_organization_lineage": [
+        "https://openalex.org/I130238516"
+      ]
+    },
+    {
+      "id": "https://openalex.org/S4377196712",
+      "display_name": "University of Minnesota Law School Scholarship Repository (University of Minnesota)",
+      "host_organization": "https://openalex.org/I130238516",
+      "host_organization_name": "University of Minnesota",
+      "host_organization_lineage": [
+        "https://openalex.org/I130238516"
+      ]
+    }
+  ],
+  "works_count": 327910,
+  "cited_by_count": 35137655,
+  "summary_stats": {
+    "2yr_mean_citedness": 3.436259099238438,
+    "h_index": 1367,
+    "i10_index": 416498
+  },
+  "ids": {
+    "openalex": "https://openalex.org/I130238516",
+    "ror": "https://ror.org/017zqws13",
+    "grid": "grid.17635.36",
+    "wikipedia": "http://en.wikipedia.org/wiki/University_of_Minnesota",
+    "wikidata": null
+  },
+  "geo": {
+    "city": "Minneapolis",
+    "geonames_city_id": "5037649",
+    "region": "Minnesota",
+    "country_code": "US",
+    "country": "United States",
+    "latitude": 44.97997,
+    "longitude": -93.26384
+  },
+  "international": {},
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I2800403580",
+      "ror": "https://ror.org/03grvy078",
+      "display_name": "University of Minnesota System",
+      "country_code": "US",
+      "type": "education",
+      "relationship": "parent"
+    },
+    {
+      "id": "https://openalex.org/I2802288015",
+      "ror": "https://ror.org/01k7a6660",
+      "display_name": "Hennepin County Medical Center",
+      "country_code": "US",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210103178",
+      "ror": "https://ror.org/00r520291",
+      "display_name": "St. Joseph's Hospital",
+      "country_code": "US",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210117246",
+      "ror": "https://ror.org/02ry60714",
+      "display_name": "Minneapolis VA Health Care System",
+      "country_code": "US",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210132437",
+      "ror": "https://ror.org/03d543283",
+      "display_name": "Children's Minnesota",
+      "country_code": "US",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210135252",
+      "ror": "https://ror.org/03e1ayz78",
+      "display_name": "University of Minnesota Medical Center",
+      "country_code": "US",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210143368",
+      "ror": "https://ror.org/04cm1q459",
+      "display_name": "Minnesota Veterans Medical Research and Education Foundation",
+      "country_code": "US",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210145543",
+      "ror": "https://ror.org/05je2ma32",
+      "display_name": "Minnesota Lions Eye Bank",
+      "country_code": "US",
+      "type": "other",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210166300",
+      "ror": "https://ror.org/05jc5ee02",
+      "display_name": "University of Minnesota Children's Hospital",
+      "country_code": "US",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4387152231",
+      "ror": "https://ror.org/01zn7ya31",
+      "display_name": "Bell Museum of Natural History",
+      "country_code": null,
+      "type": "archive",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387152554",
+      "ror": "https://ror.org/02amckb22",
+      "display_name": "Continental Scientific Drilling Facility",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387154767",
+      "ror": "https://ror.org/034ebnm46",
+      "display_name": "Minnesota Geological Survey",
+      "country_code": null,
+      "type": "government",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387155566",
+      "ror": "https://ror.org/04sqxdt31",
+      "display_name": "Minneapolis-St. Paul Long Term Ecological Research",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387155675",
+      "ror": "https://ror.org/0516b6a83",
+      "display_name": "Minnesota Agricultural Experiment Station",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387155916",
+      "ror": "https://ror.org/03a976s92",
+      "display_name": "Cedar Creek Ecosystem Science Reserve",
+      "country_code": "US",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4390039358",
+      "ror": "https://ror.org/05x083d20",
+      "display_name": "Masonic Cancer Center",
+      "country_code": null,
+      "type": "healthcare",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4400600966",
+      "ror": "https://ror.org/03d78qr79",
+      "display_name": "University of Minnesota Libraries Publishing",
+      "country_code": null,
+      "type": "other",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405255312",
+      "ror": "https://ror.org/02vq8p756",
+      "display_name": "University of Minnesota Itasca Biological Station and Laboratories",
+      "country_code": "US",
+      "type": "facility",
+      "relationship": "child"
+    }
+  ],
+  "counts_by_year": [
+    {
+      "year": 2027,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2026,
+      "works_count": 2591,
+      "oa_works_count": 1654,
+      "cited_by_count": 491
+    },
+    {
+      "year": 2025,
+      "works_count": 11113,
+      "oa_works_count": 7250,
+      "cited_by_count": 19276
+    },
+    {
+      "year": 2024,
+      "works_count": 11281,
+      "oa_works_count": 7520,
+      "cited_by_count": 63248
+    },
+    {
+      "year": 2023,
+      "works_count": 12011,
+      "oa_works_count": 8229,
+      "cited_by_count": 125044
+    },
+    {
+      "year": 2022,
+      "works_count": 12085,
+      "oa_works_count": 7770,
+      "cited_by_count": 197858
+    },
+    {
+      "year": 2021,
+      "works_count": 12345,
+      "oa_works_count": 7860,
+      "cited_by_count": 290069
+    },
+    {
+      "year": 2020,
+      "works_count": 12729,
+      "oa_works_count": 7809,
+      "cited_by_count": 402410
+    },
+    {
+      "year": 2019,
+      "works_count": 11456,
+      "oa_works_count": 6442,
+      "cited_by_count": 410754
+    },
+    {
+      "year": 2018,
+      "works_count": 11310,
+      "oa_works_count": 5898,
+      "cited_by_count": 462236
+    },
+    {
+      "year": 2017,
+      "works_count": 12242,
+      "oa_works_count": 5529,
+      "cited_by_count": 454844
+    },
+    {
+      "year": 2016,
+      "works_count": 10328,
+      "oa_works_count": 5027,
+      "cited_by_count": 478593
+    },
+    {
+      "year": 2015,
+      "works_count": 9829,
+      "oa_works_count": 4600,
+      "cited_by_count": 472326
+    },
+    {
+      "year": 2014,
+      "works_count": 9537,
+      "oa_works_count": 4193,
+      "cited_by_count": 465235
+    },
+    {
+      "year": 2013,
+      "works_count": 9221,
+      "oa_works_count": 3794,
+      "cited_by_count": 455106
+    },
+    {
+      "year": 2012,
+      "works_count": 8791,
+      "oa_works_count": 3466,
+      "cited_by_count": 503244
+    },
+    {
+      "year": 2011,
+      "works_count": 8639,
+      "oa_works_count": 3070,
+      "cited_by_count": 520402
+    },
+    {
+      "year": 2010,
+      "works_count": 8217,
+      "oa_works_count": 3089,
+      "cited_by_count": 507859
+    }
+  ],
+  "roles": [
+    {
+      "role": "funder",
+      "id": "https://openalex.org/F4320333082",
+      "works_count": 355
+    },
+    {
+      "role": "institution",
+      "id": "https://openalex.org/I130238516",
+      "works_count": 327910
+    },
+    {
+      "role": "publisher",
+      "id": "https://openalex.org/P4310316571",
+      "works_count": 2894
+    }
+  ],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10048",
+      "display_name": "Particle physics theoretical and experimental studies",
+      "count": 3568,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10010",
+      "display_name": "Obesity, Physical Activity, Diet",
+      "count": 3366,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11020",
+      "display_name": "Immune Cell Function and Interaction",
+      "count": 2609,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10224",
+      "display_name": "Quantum Chromodynamics and Particle Interactions",
+      "count": 2544,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10182",
+      "display_name": "Child and Adolescent Psychosocial and Emotional Development",
+      "count": 2505,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10002",
+      "display_name": "Advanced Chemical Physics Studies",
+      "count": 2398,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10487",
+      "display_name": "Plant and animal studies",
+      "count": 2397,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10017",
+      "display_name": "Geology and Paleoclimatology Research",
+      "count": 2378,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10005",
+      "display_name": "Ecology and Vegetation Dynamics Studies",
+      "count": 2304,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2309",
+        "display_name": "Nature and Landscape Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10345",
+      "display_name": "Hematopoietic Stem Cell Transplantation",
+      "count": 2221,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10378",
+      "display_name": "Advanced MRI Techniques and Applications",
+      "count": 2218,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10527",
+      "display_name": "High-Energy Particle Collisions Research",
+      "count": 2127,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "count": 2026,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10373",
+      "display_name": "Renal Transplantation Outcomes and Treatments",
+      "count": 1977,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2747",
+        "display_name": "Transplantation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10031",
+      "display_name": "T-cell and B-cell Immunology",
+      "count": 1947,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10581",
+      "display_name": "Neural dynamics and brain function",
+      "count": 1850,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12267",
+      "display_name": "Diet and metabolism studies",
+      "count": 1799,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10263",
+      "display_name": "Eating Disorders and Behaviors",
+      "count": 1765,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10866",
+      "display_name": "Nutritional Studies and Diet",
+      "count": 1760,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10839",
+      "display_name": "Pancreatic function and diabetes",
+      "count": 1752,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10077",
+      "display_name": "Neuroscience and Neuropharmacology Research",
+      "count": 1742,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10360",
+      "display_name": "Fluid Dynamics and Turbulent Flows",
+      "count": 1717,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10999",
+      "display_name": "Organ Transplantation Techniques and Outcomes",
+      "count": 1692,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10391",
+      "display_name": "Healthcare Policy and Management",
+      "count": 1684,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "count": 1623,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T11471",
+      "display_name": "Block Copolymer Self-Assembly",
+      "value": 0.0196397,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10345",
+      "display_name": "Hematopoietic Stem Cell Transplantation",
+      "value": 0.0188394,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10373",
+      "display_name": "Renal Transplantation Outcomes and Treatments",
+      "value": 0.0146364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2747",
+        "display_name": "Transplantation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10060",
+      "display_name": "Smoking Behavior and Cessation",
+      "value": 0.0143492,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12822",
+      "display_name": "Turfgrass Adaptation and Management",
+      "value": 0.0124812,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11747",
+      "display_name": "Metal-Catalyzed Oxygenation Mechanisms",
+      "value": 0.012405,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1604",
+        "display_name": "Inorganic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10733",
+      "display_name": "Wheat and Barley Genetics and Pathology",
+      "value": 0.0123332,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12654",
+      "display_name": "Xenotransplantation and immune response",
+      "value": 0.0121861,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10010",
+      "display_name": "Obesity, Physical Activity, Diet",
+      "value": 0.0120971,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10950",
+      "display_name": "Acute Lymphoblastic Leukemia research",
+      "value": 0.0120509,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10263",
+      "display_name": "Eating Disorders and Behaviors",
+      "value": 0.0118697,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11580",
+      "display_name": "Veterinary Medicine and Surgery",
+      "value": 0.0118195,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3404",
+        "display_name": "Small Animals"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/34",
+        "display_name": "Veterinary"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11577",
+      "display_name": "Cognitive Abilities and Testing",
+      "value": 0.0117666,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10652",
+      "display_name": "Racial and Ethnic Identity Research",
+      "value": 0.0116134,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12066",
+      "display_name": "Obesity and Health Practices",
+      "value": 0.0105472,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3611",
+        "display_name": "Pharmacy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10261",
+      "display_name": "Genetic Associations and Epidemiology",
+      "value": 0.0103013,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11149",
+      "display_name": "Veterinary Oncology Research",
+      "value": 0.0101968,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11189",
+      "display_name": "Transplantation: Methods and Outcomes",
+      "value": 0.0099771,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11188",
+      "display_name": "Coagulation and Flocculation Studies",
+      "value": 0.0095937,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10945",
+      "display_name": "Lysosomal Storage Disorders Research",
+      "value": 0.0095086,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11090",
+      "display_name": "Dark Matter and Cosmic Phenomena",
+      "value": 0.0094459,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11163",
+      "display_name": "Organ Donation and Transplantation",
+      "value": 0.0093851,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10866",
+      "display_name": "Nutritional Studies and Diet",
+      "value": 0.0093665,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10999",
+      "display_name": "Organ Transplantation Techniques and Outcomes",
+      "value": 0.0093161,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "value": 0.009314,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "is_super_system": false,
+  "status": "active",
+  "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I130238516",
+  "updated_date": "2026-04-12T05:59:47",
+  "created_date": "2016-06-24T00:00:00"
+}

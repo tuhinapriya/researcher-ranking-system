@@ -1,0 +1,364 @@
+{
+  "author_id": "A5001379576",
+  "openalex": {
+    "id": "https://openalex.org/A5001379576",
+    "orcid": "https://orcid.org/0000-0002-3703-6117",
+    "display_name": "Nydia Roxana Varela-Rosales",
+    "raw_author_names": [
+      "N. R. Varela-Rosales",
+      "Nydia R. Varela-Rosales",
+      "Nydia Roxana Varela-Rosales",
+      "Varela-Rosales, Nydia Roxana"
+    ],
+    "full_name": "Varela-Rosales, Nydia Roxana",
+    "works_count": 16,
+    "cited_by_count": 103,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.142857142857143,
+      "h_index": 4,
+      "i10_index": 4
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5001379576",
+      "orcid": "https://orcid.org/0000-0002-3703-6117"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I181369854",
+          "ror": "https://ror.org/00f7hpc57",
+          "display_name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I181369854"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I201537933",
+          "ror": "https://ror.org/01dq60k83",
+          "display_name": "Tohoku University",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I201537933"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210147005",
+          "ror": "https://ror.org/052z6qn75",
+          "display_name": "FMP Technology (Germany)",
+          "country_code": "DE",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210147005"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I84400586",
+          "ror": "https://ror.org/05szw2z23",
+          "display_name": "Future University Hakodate",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I84400586"
+          ]
+        },
+        "years": [
+          2026,
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I84400586",
+        "ror": "https://ror.org/05szw2z23",
+        "display_name": "Future University Hakodate",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I84400586"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11887",
+        "display_name": "Quasicrystal Structures and Properties",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10474",
+        "display_name": "Material Dynamics and Properties",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11915",
+        "display_name": "Pickering emulsions and particle stabilization",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12149",
+        "display_name": "Nanocluster Synthesis and Applications",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10615",
+        "display_name": "Granular flow and fluidized beds",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11887",
+        "display_name": "Quasicrystal Structures and Properties",
+        "value": 9.01e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12197",
+        "display_name": "Brake Systems and Friction Analysis",
+        "value": 4.93e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2203",
+          "display_name": "Automotive Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11471",
+        "display_name": "Block Copolymer Self-Assembly",
+        "value": 4.79e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11915",
+        "display_name": "Pickering emulsions and particle stabilization",
+        "value": 3.31e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12149",
+        "display_name": "Nanocluster Synthesis and Applications",
+        "value": 3.25e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.7403663396835327
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.5934000015258789
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.4255131483078003
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.38010236620903015
+      },
+      {
+        "id": "127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "score": 0.27779412269592285
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 53
+      },
+      {
+        "year": 2023,
+        "works_count": 8,
+        "oa_works_count": 8,
+        "cited_by_count": 35
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2025,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "N. R. Varela-Rosales",
+      "Nydia R. Varela-Rosales",
+      "Nydia Roxana Varela-Rosales",
+      "Varela-Rosales, Nydia Roxana"
+    ],
+    "block_key": "n varela-rosales",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5001379576",
+    "updated_date": "2026-04-09T12:26:41",
+    "created_date": "2025-05-07T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "1404917174",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/1404917174",
+    "name": "N. R. Varela-Rosales",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 9,
+    "citationCount": 88,
+    "hIndex": 4
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "author_id": "A5086198262",
+  "total_recent_works_analysed": 100,
+  "total_unique_collaborators": 619,
+  "estimated_mentee_count": 1,
+  "likely_mentees": [
+    {
+      "name": "Jason Jo",
+      "id": "A5061978177",
+      "works_count": 13,
+      "shared_papers": 3
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.41,
+    "corresponding_author_ratio": 0.15
+  },
+  "top_collaborators": [
+    {
+      "name": "Andrea Lodi",
+      "id": "A5083656325",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Anirudh Goyal",
+      "id": "A5016769717",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Joseph Cohen",
+      "id": "A5005297246",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Stuart Russell",
+      "id": "A5007305440",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Alexandra Sasha Luccioni",
+      "id": "A5091714241",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Tegan Maharaj",
+      "id": "A5061026145",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Carla P. Gomes",
+      "id": "A5069030030",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Konrad P. Körding",
+      "id": "A5072047827",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Kenji Kawaguchi",
+      "id": "A5003184366",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Alex Lamb",
+      "id": "A5030891292",
+      "shared_papers": 4,
+      "same_institution": true
+    }
+  ]
+}

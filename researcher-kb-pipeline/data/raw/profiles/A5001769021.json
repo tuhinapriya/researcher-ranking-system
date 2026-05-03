@@ -1,0 +1,1558 @@
+{
+  "author_id": "A5001769021",
+  "openalex": {
+    "id": "https://openalex.org/A5001769021",
+    "orcid": "https://orcid.org/0000-0002-5980-8675",
+    "display_name": "Virender K. Sharma",
+    "raw_author_names": [
+      "F. Vazquez, V. Sharma, L. Perez-Cruz",
+      "Sharma, V.K.",
+      "Sharma, Virender K",
+      "Sharma, Virender, K",
+      "V K Sharma",
+      "V SHARMA",
+      "V Sharma",
+      "V. K. SHARMA",
+      "V. K. Sharma",
+      "V. Sharma",
+      "V.K. Sharma",
+      "VIRENDER K. SHARMA",
+      "VIRENDRA KUMAR SHARMA",
+      "Vikalp Sharma",
+      "Virender  K. Sharma",
+      "Virender A. Sharma",
+      "Virender K Sharma",
+      "Virender K. Sharma",
+      "Virender Sharma",
+      "Virender‐Kumar Sharma"
+    ],
+    "full_name": "Sharma, Virender, K",
+    "works_count": 650,
+    "cited_by_count": 46312,
+    "summary_stats": {
+      "2yr_mean_citedness": 6.181818181818182,
+      "h_index": 107,
+      "i10_index": 446
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5001769021",
+      "orcid": "https://orcid.org/0000-0002-5980-8675"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I106118109",
+          "ror": "https://ror.org/01jsq2704",
+          "display_name": "Eötvös Loránd University",
+          "country_code": "HU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I106118109"
+          ]
+        },
+        "years": [
+          2016,
+          2008,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I106959904",
+          "ror": "https://ror.org/04atsbb87",
+          "display_name": "Florida Institute of Technology",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I106959904"
+          ]
+        },
+        "years": [
+          2016,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I117942362",
+          "ror": "https://ror.org/02sshz518",
+          "display_name": "Western Illinois University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I117942362"
+          ]
+        },
+        "years": [
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I124633538",
+          "ror": "https://ror.org/05en5nh73",
+          "display_name": "University of Seoul",
+          "country_code": "KR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124633538"
+          ]
+        },
+        "years": [
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I126307644",
+          "ror": "https://ror.org/036jqmy94",
+          "display_name": "University of Iowa",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126307644"
+          ]
+        },
+        "years": [
+          1967
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I126744593",
+          "ror": "https://ror.org/04rq5mt64",
+          "display_name": "University of Maryland, Baltimore",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126744593"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1317886745",
+          "ror": "https://ror.org/00cm2cb35",
+          "display_name": "Virginia Mason Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1317886745",
+            "https://openalex.org/I2802797007",
+            "https://openalex.org/I4210118434"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1330342723",
+          "ror": "https://ror.org/02qp3tb03",
+          "display_name": "Mayo Clinic",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1330342723"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I14243506",
+          "ror": "https://ror.org/0030zas98",
+          "display_name": "Hong Kong Polytechnic University",
+          "country_code": "HK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I14243506"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I145311948",
+          "ror": "https://ror.org/00za53h95",
+          "display_name": "Johns Hopkins University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I145311948"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I145608581",
+          "ror": "https://ror.org/02dgjyy92",
+          "display_name": "University of Miami",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I145608581"
+          ]
+        },
+        "years": [
+          2025,
+          2006,
+          1999,
+          1997,
+          1992,
+          1991,
+          1990,
+          1989,
+          1988,
+          1987
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I150729083",
+          "ror": "https://ror.org/02xfp8v59",
+          "display_name": "Universidade de Brasília",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I150729083"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I155781252",
+          "ror": "https://ror.org/02b6qw903",
+          "display_name": "University of South Carolina",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I155781252"
+          ]
+        },
+        "years": [
+          1999,
+          1998
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I157773358",
+          "ror": "https://ror.org/0064kty71",
+          "display_name": "Sun Yat-sen University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I157773358"
+          ]
+        },
+        "years": [
+          2014,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I164185940",
+          "ror": "https://ror.org/00w0k4e67",
+          "display_name": "Texas A&M University at Galveston",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I164185940"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I165932596",
+          "ror": "https://ror.org/01tgyzw49",
+          "display_name": "National University of Singapore",
+          "country_code": "SG",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I165932596"
+          ]
+        },
+        "years": [
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I170897317",
+          "ror": "https://ror.org/00py81415",
+          "display_name": "Duke University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I170897317"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I171210897",
+          "ror": "https://ror.org/03kw9gc02",
+          "display_name": "Aligarh Muslim University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I171210897"
+          ]
+        },
+        "years": [
+          1974
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I173268674",
+          "ror": "https://ror.org/0034eay46",
+          "display_name": "Texas A&M University System",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I173268674"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I180670191",
+          "ror": "https://ror.org/043mz5j54",
+          "display_name": "University of California, San Francisco",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I191972202",
+          "ror": "https://ror.org/02n9z0v62",
+          "display_name": "Amity University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I191972202"
+          ]
+        },
+        "years": [
+          2022,
+          2020,
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I195939026",
+          "ror": "https://ror.org/03dvm1235",
+          "display_name": "Glasgow Caledonian University",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I195939026"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I19880235",
+          "ror": "https://ror.org/010pmpe69",
+          "display_name": "Lomonosov Moscow State University",
+          "country_code": "RU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I19880235"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I200870766",
+          "ror": "https://ror.org/02ex6cf31",
+          "display_name": "Brookhaven National Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I200870766",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I4210142672"
+          ]
+        },
+        "years": [
+          2009,
+          2005,
+          2002,
+          2001,
+          1994
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I204983213",
+          "ror": "https://ror.org/01yqg2h08",
+          "display_name": "Harbin Institute of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204983213"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2799767083",
+          "ror": "https://ror.org/0290qyp66",
+          "display_name": "Ochsner Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1336053918",
+            "https://openalex.org/I2799767083"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801613365",
+          "ror": "https://ror.org/03ds72003",
+          "display_name": "Mitchell Institute",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2801613365"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2016,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802423016",
+          "ror": "https://ror.org/02s47w807",
+          "display_name": "WinnMed",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802423016"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210105967",
+          "ror": null,
+          "display_name": "Texas A&M Health Science Center",
+          "country_code": "US",
+          "type": null,
+          "lineage": [
+            "https://openalex.org/I4210105967"
+          ]
+        },
+        "years": [
+          2023,
+          2021,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210110598",
+          "ror": "https://ror.org/01qk6rn93",
+          "display_name": "Center for Digestive and Liver Diseases",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210110598"
+          ]
+        },
+        "years": [
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210114611",
+          "ror": "https://ror.org/02d02f052",
+          "display_name": "Czech Academy of Sciences, Institute of Physics of Materials",
+          "country_code": "CZ",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I202391551",
+            "https://openalex.org/I4210114611"
+          ]
+        },
+        "years": [
+          2007,
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210120188",
+          "ror": "https://ror.org/03m0npv78",
+          "display_name": "Digestive Health Associates of Texas",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210120188"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210120619",
+          "ror": "https://ror.org/02mt5f456",
+          "display_name": "Regional Centre of Advanced Technologies and Materials",
+          "country_code": "CZ",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210120619"
+          ]
+        },
+        "years": [
+          2018,
+          2017,
+          2016,
+          2014,
+          2013,
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210120675",
+          "ror": "https://ror.org/02fe4a734",
+          "display_name": "Troy Gastroenterology",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210120675"
+          ]
+        },
+        "years": [
+          2024,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210122796",
+          "ror": "https://ror.org/034nb0f30",
+          "display_name": "Digestive Health Research Institute",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I134560555",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I176063091",
+            "https://openalex.org/I4210088668",
+            "https://openalex.org/I4210117091",
+            "https://openalex.org/I4210121065",
+            "https://openalex.org/I4210122796",
+            "https://openalex.org/I4210145734",
+            "https://openalex.org/I4405258862",
+            "https://openalex.org/I4405258862"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210125099",
+          "ror": "https://ror.org/03jp40720",
+          "display_name": "Mayo Clinic in Arizona",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1330342723",
+            "https://openalex.org/I4210125099"
+          ]
+        },
+        "years": [
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210127938",
+          "ror": "https://ror.org/03660jn93",
+          "display_name": "Mayo Clinic Hospital",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1330342723",
+            "https://openalex.org/I4210125099",
+            "https://openalex.org/I4210127938"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210133311",
+          "ror": "https://ror.org/02xe2fg84",
+          "display_name": "Shoolini University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210133311"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210133753",
+          "ror": "https://ror.org/042765079",
+          "display_name": "Instituto Nacional de Limnología",
+          "country_code": "AR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I151201029",
+            "https://openalex.org/I3121987637",
+            "https://openalex.org/I4210087694",
+            "https://openalex.org/I4210123736",
+            "https://openalex.org/I4210133753",
+            "https://openalex.org/I4387155568"
+          ]
+        },
+        "years": [
+          1995
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210136480",
+          "ror": "https://ror.org/04ccfjy89",
+          "display_name": "Center for Coastal Studies",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210136480"
+          ]
+        },
+        "years": [
+          1997,
+          1993
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210142440",
+          "ror": "https://ror.org/04663jx74",
+          "display_name": "College Station Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210142440"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210145740",
+          "ror": "https://ror.org/03y350s17",
+          "display_name": "West Bengal Electronics Industry Development Corporation Limited (India)",
+          "country_code": "IN",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210145740"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210146710",
+          "ror": "https://ror.org/03zzw1w08",
+          "display_name": "Mayo Clinic in Florida",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1330342723",
+            "https://openalex.org/I4210146710"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210152044",
+          "ror": "https://ror.org/03xr9q522",
+          "display_name": "Kuwait Foundation for the Advancement of Sciences",
+          "country_code": "KW",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210152044"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63190737",
+          "ror": "https://ror.org/01y64my43",
+          "display_name": "University at Buffalo, State University of New York",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63190737"
+          ]
+        },
+        "years": [
+          1989
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I70703428",
+          "ror": "https://ror.org/04qxnmv42",
+          "display_name": "Palacký University Olomouc",
+          "country_code": "CZ",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I70703428"
+          ]
+        },
+        "years": [
+          2018,
+          2017,
+          2016,
+          2014,
+          2013,
+          2011,
+          2009,
+          2008,
+          2007,
+          2006,
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79576946",
+          "ror": "https://ror.org/00b30xv10",
+          "display_name": "University of Pennsylvania",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79576946"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79620101",
+          "ror": "https://ror.org/00xcryt71",
+          "display_name": "University of Arkansas for Medical Sciences",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79620101"
+          ]
+        },
+        "years": [
+          2001,
+          2000,
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79660296",
+          "ror": "https://ror.org/008pwh115",
+          "display_name": "Florida Memorial University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79660296"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I83024425",
+          "ror": "https://ror.org/021njs178",
+          "display_name": "Universidad Intercontinental",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I83024425"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I86519309",
+          "ror": "https://ror.org/00hj54h04",
+          "display_name": "The University of Texas at Austin",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        "years": [
+          2001
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I8961855",
+          "ror": "https://ror.org/01tmp8f25",
+          "display_name": "Universidad Nacional Autónoma de México",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I8961855"
+          ]
+        },
+        "years": [
+          2002,
+          1997
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I9073902",
+          "ror": "https://ror.org/05ggn0a85",
+          "display_name": "University of Chemistry and Technology, Prague",
+          "country_code": "CZ",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I9073902"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I91045830",
+          "ror": "https://ror.org/01f5ytq51",
+          "display_name": "Texas A&M University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I91045830"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          1995
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I919571938",
+          "ror": "https://ror.org/03gds6c39",
+          "display_name": "The University of Texas Health Science Center at Houston",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I919571938"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I96749437",
+          "ror": "https://ror.org/01mrfdz82",
+          "display_name": "Texas A&M University – Corpus Christi",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I96749437"
+          ]
+        },
+        "years": [
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1993
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I99939339",
+          "ror": "https://ror.org/04z1g6718",
+          "display_name": "Brookhaven College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I1291072267",
+            "https://openalex.org/I99939339"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I145608581",
+        "ror": "https://ror.org/02dgjyy92",
+        "display_name": "University of Miami",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I145608581"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I2801613365",
+        "ror": "https://ror.org/03ds72003",
+        "display_name": "Mitchell Institute",
+        "country_code": "US",
+        "type": "nonprofit",
+        "lineage": [
+          "https://openalex.org/I2801613365"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I79660296",
+        "ror": "https://ror.org/008pwh115",
+        "display_name": "Florida Memorial University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I79660296"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I91045830",
+        "ror": "https://ror.org/01f5ytq51",
+        "display_name": "Texas A&M University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I91045830"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10210",
+        "display_name": "Advanced oxidation water treatment",
+        "count": 217,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2312",
+          "display_name": "Water Science and Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12078",
+        "display_name": "Environmental remediation with nanomaterials",
+        "count": 76,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11434",
+        "display_name": "Electrochemical Analysis and Applications",
+        "count": 71,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1603",
+          "display_name": "Electrochemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10078",
+        "display_name": "Advanced Photocatalysis Techniques",
+        "count": 68,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2105",
+          "display_name": "Renewable Energy, Sustainability and the Environment"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10710",
+        "display_name": "Arsenic contamination and mitigation",
+        "count": 59,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2304",
+          "display_name": "Environmental Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10210",
+        "display_name": "Advanced oxidation water treatment",
+        "value": 0.0021779,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2312",
+          "display_name": "Water Science and Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12078",
+        "display_name": "Environmental remediation with nanomaterials",
+        "value": 0.0011347,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10710",
+        "display_name": "Arsenic contamination and mitigation",
+        "value": 0.0008059,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2304",
+          "display_name": "Environmental Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11493",
+        "display_name": "Water Treatment and Disinfection",
+        "value": 0.0006101,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2307",
+          "display_name": "Health, Toxicology and Mutagenesis"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11877",
+        "display_name": "Iron oxide chemistry and applications",
+        "value": 0.0004815,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2105",
+          "display_name": "Renewable Energy, Sustainability and the Environment"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9837085008621216
+      },
+      {
+        "id": "107872376",
+        "wikidata": "https://www.wikidata.org/wiki/Q321355",
+        "display_name": "Environmental chemistry",
+        "score": 0.7997184991836548
+      },
+      {
+        "id": "179104552",
+        "wikidata": "https://www.wikidata.org/wiki/Q11165",
+        "display_name": "Inorganic chemistry",
+        "score": 0.6975700855255127
+      },
+      {
+        "id": "178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "score": 0.46105754375457764
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.40500307083129883
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1967,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 32
+      },
+      {
+        "year": 1974,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 15
+      },
+      {
+        "year": 1984,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1987,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 23
+      },
+      {
+        "year": 1988,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 175
+      },
+      {
+        "year": 1989,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 53
+      },
+      {
+        "year": 1990,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 33
+      },
+      {
+        "year": 1991,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 202
+      },
+      {
+        "year": 1992,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 91
+      },
+      {
+        "year": 1993,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 10
+      },
+      {
+        "year": 1994,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 93
+      },
+      {
+        "year": 1995,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 23
+      },
+      {
+        "year": 1996,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 6
+      },
+      {
+        "year": 1997,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 171
+      },
+      {
+        "year": 1998,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 278
+      },
+      {
+        "year": 1999,
+        "works_count": 9,
+        "oa_works_count": 1,
+        "cited_by_count": 297
+      },
+      {
+        "year": 2000,
+        "works_count": 13,
+        "oa_works_count": 1,
+        "cited_by_count": 367
+      },
+      {
+        "year": 2001,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 309
+      },
+      {
+        "year": 2002,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 684
+      },
+      {
+        "year": 2003,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 81
+      },
+      {
+        "year": 2004,
+        "works_count": 9,
+        "oa_works_count": 0,
+        "cited_by_count": 729
+      },
+      {
+        "year": 2005,
+        "works_count": 19,
+        "oa_works_count": 4,
+        "cited_by_count": 1055
+      },
+      {
+        "year": 2006,
+        "works_count": 21,
+        "oa_works_count": 2,
+        "cited_by_count": 3809
+      },
+      {
+        "year": 2007,
+        "works_count": 18,
+        "oa_works_count": 0,
+        "cited_by_count": 607
+      },
+      {
+        "year": 2008,
+        "works_count": 41,
+        "oa_works_count": 2,
+        "cited_by_count": 4976
+      },
+      {
+        "year": 2009,
+        "works_count": 29,
+        "oa_works_count": 3,
+        "cited_by_count": 2647
+      },
+      {
+        "year": 2010,
+        "works_count": 23,
+        "oa_works_count": 0,
+        "cited_by_count": 1485
+      },
+      {
+        "year": 2011,
+        "works_count": 24,
+        "oa_works_count": 1,
+        "cited_by_count": 2732
+      },
+      {
+        "year": 2012,
+        "works_count": 22,
+        "oa_works_count": 2,
+        "cited_by_count": 1354
+      },
+      {
+        "year": 2013,
+        "works_count": 32,
+        "oa_works_count": 0,
+        "cited_by_count": 2275
+      },
+      {
+        "year": 2014,
+        "works_count": 21,
+        "oa_works_count": 2,
+        "cited_by_count": 1083
+      },
+      {
+        "year": 2015,
+        "works_count": 24,
+        "oa_works_count": 5,
+        "cited_by_count": 2639
+      },
+      {
+        "year": 2016,
+        "works_count": 25,
+        "oa_works_count": 3,
+        "cited_by_count": 1602
+      },
+      {
+        "year": 2017,
+        "works_count": 28,
+        "oa_works_count": 2,
+        "cited_by_count": 2476
+      },
+      {
+        "year": 2018,
+        "works_count": 23,
+        "oa_works_count": 4,
+        "cited_by_count": 3442
+      },
+      {
+        "year": 2019,
+        "works_count": 38,
+        "oa_works_count": 5,
+        "cited_by_count": 2675
+      },
+      {
+        "year": 2020,
+        "works_count": 25,
+        "oa_works_count": 9,
+        "cited_by_count": 2488
+      },
+      {
+        "year": 2021,
+        "works_count": 38,
+        "oa_works_count": 7,
+        "cited_by_count": 2147
+      },
+      {
+        "year": 2022,
+        "works_count": 35,
+        "oa_works_count": 11,
+        "cited_by_count": 1925
+      },
+      {
+        "year": 2023,
+        "works_count": 37,
+        "oa_works_count": 20,
+        "cited_by_count": 950
+      },
+      {
+        "year": 2024,
+        "works_count": 23,
+        "oa_works_count": 14,
+        "cited_by_count": 197
+      },
+      {
+        "year": 2025,
+        "works_count": 21,
+        "oa_works_count": 11,
+        "cited_by_count": 75
+      }
+    ],
+    "display_name_alternatives": [
+      "F. Vazquez, V. Sharma, L. Perez-Cruz",
+      "Sharma, V.K.",
+      "Sharma, Virender K",
+      "Sharma, Virender, K",
+      "V K Sharma",
+      "V SHARMA",
+      "V Sharma",
+      "V. K. SHARMA",
+      "V. K. Sharma",
+      "V. Sharma",
+      "V.K. Sharma",
+      "VIRENDER K. SHARMA",
+      "VIRENDRA KUMAR SHARMA",
+      "Vikalp Sharma",
+      "Virender  K. Sharma",
+      "Virender A. Sharma",
+      "Virender K Sharma",
+      "Virender K. Sharma",
+      "Virender Sharma",
+      "Virender‐Kumar Sharma"
+    ],
+    "block_key": "v sharma",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5001769021",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2240994865",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2240994865",
+    "name": "Virender K. Sharma",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 2,
+    "citationCount": 8,
+    "hIndex": 1
+  }
+}

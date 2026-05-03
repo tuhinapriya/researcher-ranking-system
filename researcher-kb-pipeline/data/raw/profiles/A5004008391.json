@@ -1,0 +1,650 @@
+{
+  "author_id": "A5004008391",
+  "openalex": {
+    "id": "https://openalex.org/A5004008391",
+    "orcid": "https://orcid.org/0000-0003-3019-0741",
+    "display_name": "Zewei Sun",
+    "raw_author_names": [
+      "Sun, Zewei",
+      "Z. Sun",
+      "Z. W. Sun",
+      "Z.W. Sun",
+      "ZeWei Sun",
+      "Zeng Sun",
+      "Zewei Sun",
+      "Zhanbo Sun",
+      "Zhenke Sun",
+      "Zhiru Sun"
+    ],
+    "full_name": "Sun, Zewei",
+    "works_count": 55,
+    "cited_by_count": 1174,
+    "summary_stats": {
+      "2yr_mean_citedness": 3.869565217391304,
+      "h_index": 18,
+      "i10_index": 24
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5004008391",
+      "orcid": "https://orcid.org/0000-0003-3019-0741"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I130541836",
+          "ror": "https://ror.org/025s55q11",
+          "display_name": "Beijing Institute of Petrochemical Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130541836"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1328775524",
+          "ror": "https://ror.org/03893we55",
+          "display_name": "Zhejiang Sci-Tech University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I1328775524"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I177969490",
+          "ror": "https://ror.org/03yrrjy16",
+          "display_name": "University of Southern Denmark",
+          "country_code": "DK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177969490"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I184983240",
+          "ror": "https://ror.org/02rkvz144",
+          "display_name": "Northeast Normal University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I184983240"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I194450716",
+          "ror": "https://ror.org/00js3aw79",
+          "display_name": "Jilin University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I194450716"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I200332995",
+          "ror": "https://ror.org/01k97gp34",
+          "display_name": "TU Dortmund University",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I200332995"
+          ]
+        },
+        "years": [
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210107258",
+          "ror": "https://ror.org/01vfw8847",
+          "display_name": "Ministry of Agriculture",
+          "country_code": "LV",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210107258"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210134929",
+          "ror": "https://ror.org/049x38272",
+          "display_name": "Jilin Province Science and Technology Department",
+          "country_code": "CN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210134929"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210150498",
+          "ror": "https://ror.org/0523x4410",
+          "display_name": "Jilin Academy of Traditional Chinese Medicine",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210150498"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210152006",
+          "ror": "https://ror.org/05dmhhd41",
+          "display_name": "Jilin Agricultural University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210152006"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2016,
+          2015,
+          2014,
+          2012,
+          2011,
+          2010,
+          2008,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210163399",
+          "ror": "https://ror.org/05jb9pq57",
+          "display_name": "Shandong First Medical University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210163399"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I62916508",
+          "ror": "https://ror.org/02kkvpp62",
+          "display_name": "Technical University of Munich",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I62916508"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I130541836",
+        "ror": "https://ror.org/025s55q11",
+        "display_name": "Beijing Institute of Petrochemical Technology",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I130541836"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I1328775524",
+        "ror": "https://ror.org/03893we55",
+        "display_name": "Zhejiang Sci-Tech University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I1328775524"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I177969490",
+        "ror": "https://ror.org/03yrrjy16",
+        "display_name": "University of Southern Denmark",
+        "country_code": "DK",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I177969490"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I194450716",
+        "ror": "https://ror.org/00js3aw79",
+        "display_name": "Jilin University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I194450716"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210107258",
+        "ror": "https://ror.org/01vfw8847",
+        "display_name": "Ministry of Agriculture",
+        "country_code": "LV",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I4210107258"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210150498",
+        "ror": "https://ror.org/0523x4410",
+        "display_name": "Jilin Academy of Traditional Chinese Medicine",
+        "country_code": "CN",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I4210150498"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210152006",
+        "ror": "https://ror.org/05dmhhd41",
+        "display_name": "Jilin Agricultural University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210152006"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I62916508",
+        "ror": "https://ror.org/02kkvpp62",
+        "display_name": "Technical University of Munich",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I62916508"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10152",
+        "display_name": "Animal Nutrition and Physiology",
+        "count": 14,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1103",
+          "display_name": "Animal Science and Zoology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10411",
+        "display_name": "Proteins in Food Systems",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1106",
+          "display_name": "Food Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10634",
+        "display_name": "Food Allergy and Anaphylaxis Research",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2723",
+          "display_name": "Immunology and Allergy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10098",
+        "display_name": "Ruminant Nutrition and Digestive Physiology",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1102",
+          "display_name": "Agronomy and Crop Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10140",
+        "display_name": "Food composition and properties",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2916",
+          "display_name": "Nutrition and Dietetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/29",
+          "display_name": "Nursing"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T13026",
+        "display_name": "Natural Compounds in Disease Treatment",
+        "value": 5.87e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2707",
+          "display_name": "Complementary and alternative medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10634",
+        "display_name": "Food Allergy and Anaphylaxis Research",
+        "value": 4.47e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2723",
+          "display_name": "Immunology and Allergy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11872",
+        "display_name": "Barrier Structure and Function Studies",
+        "value": 4.21e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2808",
+          "display_name": "Neurology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10411",
+        "display_name": "Proteins in Food Systems",
+        "value": 4.2e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1106",
+          "display_name": "Food Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10152",
+        "display_name": "Animal Nutrition and Physiology",
+        "value": 4.16e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1103",
+          "display_name": "Animal Science and Zoology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.7824000120162964
+      },
+      {
+        "id": "31903555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+        "display_name": "Food science",
+        "score": 0.7315317392349243
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.6800991296768188
+      },
+      {
+        "id": "71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "score": 0.5573514699935913
+      },
+      {
+        "id": "55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "score": 0.506313681602478
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2003,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2007,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 20
+      },
+      {
+        "year": 2008,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 57
+      },
+      {
+        "year": 2010,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 198
+      },
+      {
+        "year": 2011,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 95
+      },
+      {
+        "year": 2012,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2014,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 167
+      },
+      {
+        "year": 2015,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 107
+      },
+      {
+        "year": 2016,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 61
+      },
+      {
+        "year": 2018,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 151
+      },
+      {
+        "year": 2019,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 56
+      },
+      {
+        "year": 2020,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 56
+      },
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 38
+      },
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 26
+      },
+      {
+        "year": 2023,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2024,
+        "works_count": 7,
+        "oa_works_count": 6,
+        "cited_by_count": 35
+      },
+      {
+        "year": 2025,
+        "works_count": 16,
+        "oa_works_count": 13,
+        "cited_by_count": 54
+      }
+    ],
+    "display_name_alternatives": [
+      "Sun, Zewei",
+      "Z. Sun",
+      "Z. W. Sun",
+      "Z.W. Sun",
+      "ZeWei Sun",
+      "Zeng Sun",
+      "Zewei Sun",
+      "Zhanbo Sun",
+      "Zhenke Sun",
+      "Zhiru Sun"
+    ],
+    "block_key": "z sun",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5004008391",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "5359538",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/5359538",
+    "name": "Zewei Sun",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 33,
+    "citationCount": 1119,
+    "hIndex": 16
+  }
+}

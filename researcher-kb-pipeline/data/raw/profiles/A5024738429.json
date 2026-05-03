@@ -1,0 +1,432 @@
+{
+  "author_id": "A5024738429",
+  "openalex": {
+    "id": "https://openalex.org/A5024738429",
+    "orcid": null,
+    "display_name": "Oren Tchaicheeyan",
+    "raw_author_names": [
+      "O Tchaicheeyan",
+      "Oren Tchaicheeyan"
+    ],
+    "full_name": "Oren Tchaicheeyan",
+    "works_count": 30,
+    "cited_by_count": 326,
+    "summary_stats": {
+      "2yr_mean_citedness": 4.5,
+      "h_index": 9,
+      "i10_index": 8
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5024738429",
+      "orcid": null
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I13955877",
+          "ror": "https://ror.org/03kgsv495",
+          "display_name": "Bar-Ilan University",
+          "country_code": "IL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I13955877"
+          ]
+        },
+        "years": [
+          2019,
+          2017,
+          2016,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I16391192",
+          "ror": "https://ror.org/04mhzgx49",
+          "display_name": "Tel Aviv University",
+          "country_code": "IL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I16391192"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I173911158",
+          "ror": "https://ror.org/04rswrd78",
+          "display_name": "Iowa State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I173911158"
+          ]
+        },
+        "years": [
+          2009,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I174306211",
+          "ror": "https://ror.org/03qryx823",
+          "display_name": "Technion – Israel Institute of Technology",
+          "country_code": "IL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I174306211"
+          ]
+        },
+        "years": [
+          2005,
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I53964585",
+          "ror": "https://ror.org/0316ej306",
+          "display_name": "Weizmann Institute of Science",
+          "country_code": "IL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I53964585"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I16391192",
+        "ror": "https://ror.org/04mhzgx49",
+        "display_name": "Tel Aviv University",
+        "country_code": "IL",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I16391192"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10379",
+        "display_name": "Cellular Mechanics and Interactions",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1307",
+          "display_name": "Cell Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11190",
+        "display_name": "3D Printing in Biomedical Research",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11068",
+        "display_name": "Tendon Structure and Treatment",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2732",
+          "display_name": "Orthopedics and Sports Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10044",
+        "display_name": "Protein Structure and Dynamics",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11737",
+        "display_name": "Advanced Materials and Mechanics",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10379",
+        "display_name": "Cellular Mechanics and Interactions",
+        "value": 8.47e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1307",
+          "display_name": "Cell Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11190",
+        "display_name": "3D Printing in Biomedical Research",
+        "value": 5.25e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11068",
+        "display_name": "Tendon Structure and Treatment",
+        "value": 4.41e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2732",
+          "display_name": "Orthopedics and Sports Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11737",
+        "display_name": "Advanced Materials and Mechanics",
+        "value": 3.65e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12065",
+        "display_name": "Hippo pathway signaling and YAP/TAZ",
+        "value": 2.16e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1307",
+          "display_name": "Cell Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.736075758934021
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.6675736308097839
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.6284074187278748
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.5377713441848755
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.46966540813446045
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2004,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 27
+      },
+      {
+        "year": 2005,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2007,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2009,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2015,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2016,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 26
+      },
+      {
+        "year": 2017,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2018,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 93
+      },
+      {
+        "year": 2019,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 61
+      },
+      {
+        "year": 2020,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2021,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 22
+      },
+      {
+        "year": 2023,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2024,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2025,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 19
+      }
+    ],
+    "display_name_alternatives": [
+      "O Tchaicheeyan",
+      "Oren Tchaicheeyan"
+    ],
+    "block_key": "o tchaicheeyan",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5024738429",
+    "updated_date": null,
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": null
+}

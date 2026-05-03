@@ -1,0 +1,86 @@
+{
+  "author_id": "A5023512223",
+  "total_recent_works_analysed": 53,
+  "total_unique_collaborators": 103,
+  "estimated_mentee_count": 2,
+  "likely_mentees": [
+    {
+      "name": "Charles Dawson",
+      "id": "A5116335657",
+      "works_count": 3,
+      "shared_papers": 3
+    },
+    {
+      "name": "Kwesi Rutledge",
+      "id": "A5064557285",
+      "works_count": 15,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.02,
+    "corresponding_author_ratio": 0.32
+  },
+  "top_collaborators": [
+    {
+      "name": "Chuchu Fan",
+      "id": "A5019603699",
+      "shared_papers": 24,
+      "same_institution": true
+    },
+    {
+      "name": "Evangelos A. Theodorou",
+      "id": "A5044505993",
+      "shared_papers": 14,
+      "same_institution": false
+    },
+    {
+      "name": "Chuchu Fan",
+      "id": "A5121504364",
+      "shared_papers": 10,
+      "same_institution": false
+    },
+    {
+      "name": "Zachary Serlin",
+      "id": "A5007227323",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Cristina Rea",
+      "id": "A5049937363",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Songyuan Zhang",
+      "id": "A5084153714",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Charles Dawson",
+      "id": "A5000762728",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Augustinos D. Saravanos",
+      "id": "A5085580508",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Allen Wang",
+      "id": "A5101758024",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Guan-Horng Liu",
+      "id": "A5031381142",
+      "shared_papers": 4,
+      "same_institution": false
+    }
+  ]
+}

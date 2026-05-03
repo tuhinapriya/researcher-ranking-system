@@ -1,0 +1,334 @@
+{
+  "author_id": "A5017845430",
+  "openalex": {
+    "id": "https://openalex.org/A5017845430",
+    "orcid": "https://orcid.org/0000-0003-4311-393X",
+    "display_name": "Yagmur Yigit",
+    "raw_author_names": [
+      "Yagmur Yigit",
+      "Yigit, Yagmur"
+    ],
+    "full_name": "Yigit, Yagmur",
+    "works_count": 39,
+    "cited_by_count": 343,
+    "summary_stats": {
+      "2yr_mean_citedness": 6.56,
+      "h_index": 10,
+      "i10_index": 12
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5017845430",
+      "orcid": "https://orcid.org/0000-0003-4311-393X"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I251738",
+          "ror": "https://ror.org/03zjvnn91",
+          "display_name": "Edinburgh Napier University",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I251738"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I48912391",
+          "ror": "https://ror.org/059636586",
+          "display_name": "Istanbul Technical University",
+          "country_code": "TR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I48912391"
+          ]
+        },
+        "years": [
+          2023,
+          2022,
+          2021
+        ]
+      }
+    ],
+    "last_known_institutions": null,
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "count": 13,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10273",
+        "display_name": "IoT and Edge/Fog Computing",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11241",
+        "display_name": "Advanced Malware Detection Techniques",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1711",
+          "display_name": "Signal Processing"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10761",
+        "display_name": "Vehicular Ad Hoc Networks (VANETs)",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10917",
+        "display_name": "Smart Grid Security and Resilience",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T13918",
+        "display_name": "Advanced Data and IoT Technologies",
+        "value": 6.41e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13693",
+        "display_name": "Smart Systems and Machine Learning",
+        "value": 6.04e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10761",
+        "display_name": "Vehicular Ad Hoc Networks (VANETs)",
+        "value": 5.43e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "value": 4.53e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12079",
+        "display_name": "IoT Networks and Protocols",
+        "value": 4.4e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8665677309036255
+      },
+      {
+        "id": "38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "score": 0.8252773880958557
+      },
+      {
+        "id": "31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "score": 0.7174280881881714
+      },
+      {
+        "id": "111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "score": 0.6566804051399231
+      },
+      {
+        "id": "120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "score": 0.6214720010757446
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2020,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2021,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 63
+      },
+      {
+        "year": 2023,
+        "works_count": 9,
+        "oa_works_count": 7,
+        "cited_by_count": 95
+      },
+      {
+        "year": 2024,
+        "works_count": 15,
+        "oa_works_count": 8,
+        "cited_by_count": 110
+      },
+      {
+        "year": 2025,
+        "works_count": 9,
+        "oa_works_count": 6,
+        "cited_by_count": 54
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Yagmur Yigit",
+      "Yigit, Yagmur"
+    ],
+    "block_key": "y yigit",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5017845430",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2023-01-13T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "121230733",
+    "externalIds": {
+      "DBLP": [
+        "Yagmur Yigit"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/121230733",
+    "name": "Yagmur Yigit",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 19,
+    "citationCount": 207,
+    "hIndex": 6
+  }
+}

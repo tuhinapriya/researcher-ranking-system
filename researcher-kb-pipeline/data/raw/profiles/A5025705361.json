@@ -1,0 +1,618 @@
+{
+  "author_id": "A5025705361",
+  "openalex": {
+    "id": "https://openalex.org/A5025705361",
+    "orcid": "https://orcid.org/0000-0002-9136-9609",
+    "display_name": "H. K. Herrera-Alcantar",
+    "raw_author_names": [
+      "H K Herrera-Alcantar",
+      "H. K. Herrera-Alcantar",
+      "H.K. Herrera-Alcantar",
+      "H. K. Herrera-Alcantar",
+      "Hanif, M. M. S",
+      "Herrera-Alcantar, H.",
+      "Herrera-Alcantar, H. K",
+      "Herrera-Alcantar, H. K.",
+      "Herrera-Alcantar, Hiram",
+      "Herrera-Alcantar, Hiram K",
+      "Herrera-Alcantar, Hiram K.",
+      "Hiram K Herrera-Alcantar",
+      "Hiram K. Herrera-Alcantar"
+    ],
+    "full_name": "Herrera-Alcantar, Hiram K",
+    "works_count": 96,
+    "cited_by_count": 3732,
+    "summary_stats": {
+      "2yr_mean_citedness": 36.093333333333334,
+      "h_index": 24,
+      "i10_index": 32
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5025705361",
+      "orcid": "https://orcid.org/0000-0002-9136-9609"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I1294671590",
+          "ror": "https://ror.org/02feahw73",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I129858807",
+          "ror": "https://ror.org/058cjye32",
+          "display_name": "Universidad de Guanajuato",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I129858807"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I134282035",
+          "ror": "https://ror.org/05n757p35",
+          "display_name": "Hiroshima Shudo University",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I134282035"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I138728355",
+          "ror": "https://ror.org/01g5y5k24",
+          "display_name": "High Energy Accelerator Research Organization",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I138728355"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2738703131",
+          "ror": "https://ror.org/00jjx8s55",
+          "display_name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131"
+          ]
+        },
+        "years": [
+          2026,
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I277688954",
+          "ror": "https://ror.org/03xjwb503",
+          "display_name": "Université Paris-Saclay",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I277688954"
+          ]
+        },
+        "years": [
+          2026,
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801766991",
+          "ror": "https://ror.org/022bnxw24",
+          "display_name": "Institut d'Astrophysique de Paris",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I2801766991",
+            "https://openalex.org/I39804081",
+            "https://openalex.org/I4210148025"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39804081",
+          "ror": "https://ror.org/02en5vm52",
+          "display_name": "Sorbonne Université",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39804081"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210111179",
+          "ror": "https://ror.org/0291ys696",
+          "display_name": "Michigan United",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210111179"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210128565",
+          "ror": "https://ror.org/03n15ch10",
+          "display_name": "CEA Paris-Saclay",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I277688954",
+            "https://openalex.org/I4210128565"
+          ]
+        },
+        "years": [
+          2026,
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210139291",
+          "ror": "https://ror.org/040r3xq19",
+          "display_name": "Universidad de León",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210139291"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210141577",
+          "ror": "https://ror.org/03zmsge54",
+          "display_name": "NSF NOIRLab",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1311060795",
+            "https://openalex.org/I1313867356",
+            "https://openalex.org/I4210141577"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210161779",
+          "ror": "https://ror.org/05stzyr92",
+          "display_name": "Campbell Collaboration",
+          "country_code": "NO",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210161779"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210163111",
+          "ror": "https://ror.org/059ex5q34",
+          "display_name": "Secretaría de Ciencia, Humanidades, Tecnología e Innovación",
+          "country_code": "MX",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210163111"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165232",
+          "ror": "https://ror.org/05k705z76",
+          "display_name": "Institut de Recherche sur les Lois Fondamentales de l'Univers",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I4210113668",
+            "https://openalex.org/I4210165232"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210167031",
+          "ror": "https://ror.org/03fwsh914",
+          "display_name": "State Library of Ohio",
+          "country_code": "US",
+          "type": "archive",
+          "lineage": [
+            "https://openalex.org/I4210167031"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I2738703131",
+        "ror": "https://ror.org/00jjx8s55",
+        "display_name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+        "country_code": "FR",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I2738703131"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I277688954",
+        "ror": "https://ror.org/03xjwb503",
+        "display_name": "Université Paris-Saclay",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I277688954"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I2801766991",
+        "ror": "https://ror.org/022bnxw24",
+        "display_name": "Institut d'Astrophysique de Paris",
+        "country_code": "FR",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I1294671590",
+          "https://openalex.org/I1294671590",
+          "https://openalex.org/I2801766991",
+          "https://openalex.org/I39804081",
+          "https://openalex.org/I4210148025"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210128565",
+        "ror": "https://ror.org/03n15ch10",
+        "display_name": "CEA Paris-Saclay",
+        "country_code": "FR",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I2738703131",
+          "https://openalex.org/I277688954",
+          "https://openalex.org/I4210128565"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210165232",
+        "ror": "https://ror.org/05k705z76",
+        "display_name": "Institut de Recherche sur les Lois Fondamentales de l'Univers",
+        "country_code": "FR",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I2738703131",
+          "https://openalex.org/I2738703131",
+          "https://openalex.org/I4210113668",
+          "https://openalex.org/I4210165232"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "count": 66,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "count": 42,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "count": 30,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "count": 21,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13126",
+        "display_name": "Scientific Research and Discoveries",
+        "count": 17,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "value": 0.000347,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "value": 0.0002127,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "value": 0.0001083,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13126",
+        "display_name": "Scientific Research and Discoveries",
+        "value": 0.0001042,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13487",
+        "display_name": "Statistical and numerical algorithms",
+        "value": 8.96e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2604",
+          "display_name": "Applied Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9582226276397705
+      },
+      {
+        "id": "172790937",
+        "wikidata": "https://www.wikidata.org/wiki/Q18343",
+        "display_name": "Dark energy",
+        "score": 0.9470999836921692
+      },
+      {
+        "id": "98444146",
+        "wikidata": "https://www.wikidata.org/wiki/Q318",
+        "display_name": "Galaxy",
+        "score": 0.8252894878387451
+      },
+      {
+        "id": "44870925",
+        "wikidata": "https://www.wikidata.org/wiki/Q37547",
+        "display_name": "Astrophysics",
+        "score": 0.8220000267028809
+      },
+      {
+        "id": "26405456",
+        "wikidata": "https://www.wikidata.org/wiki/Q338",
+        "display_name": "Cosmology",
+        "score": 0.6887999773025513
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2022,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 428
+      },
+      {
+        "year": 2023,
+        "works_count": 17,
+        "oa_works_count": 17,
+        "cited_by_count": 597
+      },
+      {
+        "year": 2024,
+        "works_count": 13,
+        "oa_works_count": 13,
+        "cited_by_count": 658
+      },
+      {
+        "year": 2025,
+        "works_count": 59,
+        "oa_works_count": 59,
+        "cited_by_count": 2049
+      },
+      {
+        "year": 2026,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "H K Herrera-Alcantar",
+      "H. K. Herrera-Alcantar",
+      "H.K. Herrera-Alcantar",
+      "H. K. Herrera-Alcantar",
+      "Hanif, M. M. S",
+      "Herrera-Alcantar, H.",
+      "Herrera-Alcantar, H. K",
+      "Herrera-Alcantar, H. K.",
+      "Herrera-Alcantar, Hiram",
+      "Herrera-Alcantar, Hiram K",
+      "Herrera-Alcantar, Hiram K.",
+      "Hiram K Herrera-Alcantar",
+      "Hiram K. Herrera-Alcantar"
+    ],
+    "block_key": "h herrera-alcantar",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5025705361",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2022-05-05T00:00:00"
+  },
+  "semantic_scholar": null
+}

@@ -1,0 +1,385 @@
+{
+  "author_id": "A5020610297",
+  "openalex": {
+    "id": "https://openalex.org/A5020610297",
+    "orcid": "https://orcid.org/0000-0001-9059-6773",
+    "display_name": "Edward M. Barbieri",
+    "raw_author_names": [
+      "Edward Barbieri",
+      "Edward M. Barbieri"
+    ],
+    "full_name": "Edward M. Barbieri",
+    "works_count": 14,
+    "cited_by_count": 251,
+    "summary_stats": {
+      "2yr_mean_citedness": 4.5,
+      "h_index": 7,
+      "i10_index": 7
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5020610297",
+      "orcid": "https://orcid.org/0000-0001-9059-6773"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I32971472",
+          "ror": "https://ror.org/03v76x132",
+          "display_name": "Yale University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I32971472"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I36788626",
+          "ror": "https://ror.org/01spssf70",
+          "display_name": "California University of Pennsylvania",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36788626"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I55707380",
+          "ror": "https://ror.org/02xhnzg94",
+          "display_name": "Manhattan College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I55707380"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79576946",
+          "ror": "https://ror.org/00b30xv10",
+          "display_name": "University of Pennsylvania",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79576946"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2018
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I79576946",
+        "ror": "https://ror.org/00b30xv10",
+        "display_name": "University of Pennsylvania",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I79576946"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10855",
+        "display_name": "Amyotrophic Lateral Sclerosis Research",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2728",
+          "display_name": "Neurology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10934",
+        "display_name": "Heat shock proteins research",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11150",
+        "display_name": "Endoplasmic Reticulum Stress and Disease",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1307",
+          "display_name": "Cell Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11335",
+        "display_name": "Prion Diseases and Protein Misfolding",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13157",
+        "display_name": "Cancer-related gene regulation",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10855",
+        "display_name": "Amyotrophic Lateral Sclerosis Research",
+        "value": 9.11e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2728",
+          "display_name": "Neurology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11335",
+        "display_name": "Prion Diseases and Protein Misfolding",
+        "value": 4.95e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10934",
+        "display_name": "Heat shock proteins research",
+        "value": 4.5e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13012",
+        "display_name": "Coenzyme Q10 studies and effects",
+        "value": 2.91e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11150",
+        "display_name": "Endoplasmic Reticulum Stress and Disease",
+        "value": 2.31e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1307",
+          "display_name": "Cell Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9587211608886719
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.9270320534706116
+      },
+      {
+        "id": "95444343",
+        "wikidata": "https://www.wikidata.org/wiki/Q7141",
+        "display_name": "Cell biology",
+        "score": 0.7085000276565552
+      },
+      {
+        "id": "71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "score": 0.5891276001930237
+      },
+      {
+        "id": "104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "score": 0.32060420513153076
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2012,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2017,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 125
+      },
+      {
+        "year": 2018,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2020,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2021,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 53
+      },
+      {
+        "year": 2023,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2024,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2025,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 14
+      }
+    ],
+    "display_name_alternatives": [
+      "Edward Barbieri",
+      "Edward M. Barbieri"
+    ],
+    "block_key": "e barbieri",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5020610297",
+    "updated_date": "2026-04-09T12:26:41",
+    "created_date": "2018-12-22T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "29370952",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/29370952",
+    "name": "Edward M Barbieri",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 14,
+    "citationCount": 206,
+    "hIndex": 7
+  }
+}

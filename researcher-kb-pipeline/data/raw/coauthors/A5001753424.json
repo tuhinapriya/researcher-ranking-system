@@ -1,0 +1,73 @@
+{
+  "author_id": "A5001753424",
+  "total_recent_works_analysed": 332,
+  "total_unique_collaborators": 2560,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.11,
+    "corresponding_author_ratio": 0.03
+  },
+  "top_collaborators": [
+    {
+      "name": "Axel de la Macorra",
+      "id": "A5036122402",
+      "shared_papers": 160,
+      "same_institution": false
+    },
+    {
+      "name": "G. Tarlé",
+      "id": "A5027821782",
+      "shared_papers": 153,
+      "same_institution": false
+    },
+    {
+      "name": "Satya Gontcho A Gontcho",
+      "id": "A5056315122",
+      "shared_papers": 146,
+      "same_institution": false
+    },
+    {
+      "name": "S. P. Ahlen",
+      "id": "A5075805130",
+      "shared_papers": 145,
+      "same_institution": false
+    },
+    {
+      "name": "Aaron Meisner",
+      "id": "A5077981456",
+      "shared_papers": 140,
+      "same_institution": false
+    },
+    {
+      "name": "J. E. Forero-Romero",
+      "id": "A5075567505",
+      "shared_papers": 133,
+      "same_institution": false
+    },
+    {
+      "name": "E. Sánchez",
+      "id": "A5055636814",
+      "shared_papers": 129,
+      "same_institution": false
+    },
+    {
+      "name": "Martin Landriau",
+      "id": "A5038903058",
+      "shared_papers": 126,
+      "same_institution": false
+    },
+    {
+      "name": "N. Palanque‐Delabrouille",
+      "id": "A5025148747",
+      "shared_papers": 124,
+      "same_institution": true
+    },
+    {
+      "name": "John Moustakas",
+      "id": "A5085992419",
+      "shared_papers": 124,
+      "same_institution": false
+    }
+  ]
+}

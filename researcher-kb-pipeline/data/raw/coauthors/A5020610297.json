@@ -1,0 +1,110 @@
+{
+  "author_id": "A5020610297",
+  "total_recent_works_analysed": 11,
+  "total_unique_collaborators": 86,
+  "estimated_mentee_count": 6,
+  "likely_mentees": [
+    {
+      "name": "Bo Lim Lee",
+      "id": "A5021895024",
+      "works_count": 8,
+      "shared_papers": 3
+    },
+    {
+      "name": "Alice F. Ford",
+      "id": "A5033955616",
+      "works_count": 15,
+      "shared_papers": 3
+    },
+    {
+      "name": "Lauren E. Drake",
+      "id": "A5041679841",
+      "works_count": 7,
+      "shared_papers": 3
+    },
+    {
+      "name": "Jenna N. Beyer",
+      "id": "A5027346080",
+      "works_count": 12,
+      "shared_papers": 2
+    },
+    {
+      "name": "Sylvanne Braganza",
+      "id": "A5092697120",
+      "works_count": 2,
+      "shared_papers": 2
+    },
+    {
+      "name": "Katie E. Copley",
+      "id": "A5003246271",
+      "works_count": 15,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.09,
+    "corresponding_author_ratio": 0.09
+  },
+  "top_collaborators": [
+    {
+      "name": "James Shorter",
+      "id": "A5084836766",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Korrie L. Mack",
+      "id": "A5036272439",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Ryan R. Cupo",
+      "id": "A5028038243",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Mari Aikio",
+      "id": "A5067909623",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Hana M. Odeh",
+      "id": "A5042257929",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Heike J. Wobst",
+      "id": "A5006937919",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Bo Lim Lee",
+      "id": "A5021895024",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Bradley Class",
+      "id": "A5025240953",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Thomas A. Ollerhead",
+      "id": "A5048351089",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Alice F. Ford",
+      "id": "A5033955616",
+      "shared_papers": 3,
+      "same_institution": true
+    }
+  ]
+}

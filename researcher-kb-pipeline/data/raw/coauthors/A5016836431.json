@@ -1,0 +1,73 @@
+{
+  "author_id": "A5016836431",
+  "total_recent_works_analysed": 18,
+  "total_unique_collaborators": 15,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.83
+  },
+  "top_collaborators": [
+    {
+      "name": "Usman A. Khan",
+      "id": "A5025641667",
+      "shared_papers": 16,
+      "same_institution": true
+    },
+    {
+      "name": "Soummya Kar",
+      "id": "A5077268766",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Ran Xin",
+      "id": "A5033024261",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Mohammadreza Doostmohammadian",
+      "id": "A5085550621",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Mohammad Hossein Khalesi",
+      "id": "A5099023065",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Hamid R. Rabiee",
+      "id": "A5063512925",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Xin Ran",
+      "id": "A5101706515",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Bilal Ahmad Bhat",
+      "id": "A5021542295",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Inayat Thaver",
+      "id": "A5053840789",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Farooq H. Sheikh",
+      "id": "A5053175918",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

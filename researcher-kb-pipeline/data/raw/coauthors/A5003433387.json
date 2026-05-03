@@ -1,0 +1,86 @@
+{
+  "author_id": "A5003433387",
+  "total_recent_works_analysed": 5,
+  "total_unique_collaborators": 23,
+  "estimated_mentee_count": 2,
+  "likely_mentees": [
+    {
+      "name": "Verónica Oguilve",
+      "id": "A5021697682",
+      "works_count": 2,
+      "shared_papers": 1
+    },
+    {
+      "name": "Veronica Oguilve",
+      "id": "A5049481867",
+      "works_count": 3,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.6,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Dwight Atkinson",
+      "id": "A5047459255",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Jorge Andrés Mejía-Laguna",
+      "id": "A5000517236",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Marco Cappellini",
+      "id": "A5084127739",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Hayriye Kayı-Aydar",
+      "id": "A5061957506",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Wander Lowie",
+      "id": "A5078409304",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Marije Michel",
+      "id": "A5070911663",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Theodora Alexopoulou",
+      "id": "A5026754376",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Søren Wind Eskildsen",
+      "id": "A5000156482",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Xuesong Gao",
+      "id": "A5087058715",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "John Hellermann",
+      "id": "A5048510948",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

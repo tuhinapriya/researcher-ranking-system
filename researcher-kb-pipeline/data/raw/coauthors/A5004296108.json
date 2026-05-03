@@ -1,0 +1,80 @@
+{
+  "author_id": "A5004296108",
+  "total_recent_works_analysed": 9,
+  "total_unique_collaborators": 21,
+  "estimated_mentee_count": 1,
+  "likely_mentees": [
+    {
+      "name": "Aparna Gupte",
+      "id": "A5015434599",
+      "works_count": 13,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.33,
+    "corresponding_author_ratio": 0.22
+  },
+  "top_collaborators": [
+    {
+      "name": "Mark Zhandry",
+      "id": "A5024874638",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Qipeng Liu",
+      "id": "A5060366332",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Vipul Goyal",
+      "id": "A5102383383",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Hart Montgomery",
+      "id": "A5057356373",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Luowen Qian",
+      "id": "A5012874140",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Prabhanjan Ananth",
+      "id": "A5007528794",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Aparna Gupte",
+      "id": "A5015434599",
+      "shared_papers": 1,
+      "same_institution": true
+    },
+    {
+      "name": "Justin Raizes",
+      "id": "A5109021968",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Bhaskar Roberts",
+      "id": "A5055773518",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Vinod Vaikuntanathan",
+      "id": "A5000240220",
+      "shared_papers": 1,
+      "same_institution": true
+    }
+  ]
+}

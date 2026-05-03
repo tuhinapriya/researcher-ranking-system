@@ -1,0 +1,391 @@
+{
+  "author_id": "A5027429580",
+  "openalex": {
+    "id": "https://openalex.org/A5027429580",
+    "orcid": "https://orcid.org/0000-0002-1774-647X",
+    "display_name": "Zemin Eitan Liu",
+    "raw_author_names": [
+      "Liu, Zemin E.",
+      "Liu, Zemin Eitan",
+      "Zemin  Eitan Liu",
+      "Zemin Eitan Liu",
+      "Zemin Liu"
+    ],
+    "full_name": "Zemin  Eitan Liu",
+    "works_count": 27,
+    "cited_by_count": 260,
+    "summary_stats": {
+      "2yr_mean_citedness": 7.647058823529412,
+      "h_index": 7,
+      "i10_index": 6
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5027429580",
+      "orcid": "https://orcid.org/0000-0002-1774-647X"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I170201317",
+          "ror": "https://ror.org/01an3r305",
+          "display_name": "University of Pittsburgh",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I170201317"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210118538",
+          "ror": "https://ror.org/02em1tr51",
+          "display_name": "University of Petroleum",
+          "country_code": "ID",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210118538"
+          ]
+        },
+        "years": [
+          2026,
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210145005",
+          "ror": "https://ror.org/04e6h1p91",
+          "display_name": "State Key Laboratory of Vehicle NVH and Safety Technology",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210145005"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210156095",
+          "ror": "https://ror.org/04pe7qe08",
+          "display_name": "Aero Engine Corporation of China (China)",
+          "country_code": "CN",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210156095"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I99065089",
+          "ror": "https://ror.org/03cve4549",
+          "display_name": "Tsinghua University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2021
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I170201317",
+        "ror": "https://ror.org/01an3r305",
+        "display_name": "University of Pittsburgh",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I170201317"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210118538",
+        "ror": "https://ror.org/02em1tr51",
+        "display_name": "University of Petroleum",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210118538"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T12095",
+        "display_name": "Vehicle emissions and performance",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2203",
+          "display_name": "Automotive Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10117",
+        "display_name": "Advanced Combustion Engine Technologies",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1507",
+          "display_name": "Fluid Flow and Transfer Processes"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/15",
+          "display_name": "Chemical Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10808",
+        "display_name": "Electric and Hybrid Vehicle Technologies",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2203",
+          "display_name": "Automotive Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10768",
+        "display_name": "Electric Vehicles and Infrastructure",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10524",
+        "display_name": "Traffic control and management",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10808",
+        "display_name": "Electric and Hybrid Vehicle Technologies",
+        "value": 5.5e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2203",
+          "display_name": "Automotive Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11185",
+        "display_name": "Integrated Energy Systems Optimization",
+        "value": 3.57e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12095",
+        "display_name": "Vehicle emissions and performance",
+        "value": 3.37e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2203",
+          "display_name": "Automotive Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10768",
+        "display_name": "Electric Vehicles and Infrastructure",
+        "value": 3.35e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14224",
+        "display_name": "Oil, Gas, and Environmental Issues",
+        "value": 3.35e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2105",
+          "display_name": "Renewable Energy, Sustainability and the Environment"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "97541855",
+        "wikidata": "https://www.wikidata.org/wiki/Q830687",
+        "display_name": "Reinforcement learning",
+        "score": 0.8300731182098389
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.6605565547943115
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.498842716217041
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.41886404156684875
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.290188193321228
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2021,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 36
+      },
+      {
+        "year": 2023,
+        "works_count": 9,
+        "oa_works_count": 4,
+        "cited_by_count": 94
+      },
+      {
+        "year": 2024,
+        "works_count": 9,
+        "oa_works_count": 5,
+        "cited_by_count": 98
+      },
+      {
+        "year": 2025,
+        "works_count": 6,
+        "oa_works_count": 6,
+        "cited_by_count": 32
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Liu, Zemin E.",
+      "Liu, Zemin Eitan",
+      "Zemin  Eitan Liu",
+      "Zemin Eitan Liu",
+      "Zemin Liu"
+    ],
+    "block_key": "z liu",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5027429580",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2023-12-20T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2266342551",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2266342551",
+    "name": "Zemin Eitan Liu",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 2,
+    "citationCount": 7,
+    "hIndex": 2
+  }
+}

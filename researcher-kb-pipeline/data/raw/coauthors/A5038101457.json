@@ -1,0 +1,86 @@
+{
+  "author_id": "A5038101457",
+  "total_recent_works_analysed": 17,
+  "total_unique_collaborators": 70,
+  "estimated_mentee_count": 2,
+  "likely_mentees": [
+    {
+      "name": "Danyal Maheshwari",
+      "id": "A5003826225",
+      "works_count": 17,
+      "shared_papers": 2
+    },
+    {
+      "name": "Hanna Helene Gloyna",
+      "id": "A5082034343",
+      "works_count": 1,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.06,
+    "corresponding_author_ratio": 0.53
+  },
+  "top_collaborators": [
+    {
+      "name": "Begonya García-Zapirain",
+      "id": "A5028149208",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Danyal Maheshwari",
+      "id": "A5003826225",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Zahid Ali",
+      "id": "A5050488213",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Alain García-Olea",
+      "id": "A5062986535",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "I Diez Gonzalez",
+      "id": "A5078856392",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Junaid Qadir",
+      "id": "A5040181846",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Beatriz Sainz de Abajo",
+      "id": "A5037093143",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Gonçalo Marques",
+      "id": "A5070439928",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Isabel de la Torre Díez",
+      "id": "A5046258353",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Hanna Helene Gloyna",
+      "id": "A5082034343",
+      "shared_papers": 1,
+      "same_institution": true
+    }
+  ]
+}

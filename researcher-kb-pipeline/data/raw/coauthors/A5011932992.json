@@ -1,0 +1,110 @@
+{
+  "author_id": "A5011932992",
+  "total_recent_works_analysed": 194,
+  "total_unique_collaborators": 868,
+  "estimated_mentee_count": 6,
+  "likely_mentees": [
+    {
+      "name": "Filipp Nikitin",
+      "id": "A5067059000",
+      "works_count": 19,
+      "shared_papers": 12
+    },
+    {
+      "name": "Evgeny Gutkin",
+      "id": "A5108916912",
+      "works_count": 11,
+      "shared_papers": 10
+    },
+    {
+      "name": "Evgeny Gutkin",
+      "id": "A5049164165",
+      "works_count": 14,
+      "shared_papers": 9
+    },
+    {
+      "name": "Zhen Liu",
+      "id": "A5101646285",
+      "works_count": 9,
+      "shared_papers": 8
+    },
+    {
+      "name": "Shuhao Zhang",
+      "id": "A5040212911",
+      "works_count": 8,
+      "shared_papers": 8
+    },
+    {
+      "name": "Bhupalee Kalita",
+      "id": "A5010449593",
+      "works_count": 17,
+      "shared_papers": 6
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.32,
+    "corresponding_author_ratio": 0.16
+  },
+  "top_collaborators": [
+    {
+      "name": "R.I. Zubatyuk",
+      "id": "A5083494710",
+      "shared_papers": 42,
+      "same_institution": true
+    },
+    {
+      "name": "Filipp Gusev",
+      "id": "A5011287493",
+      "shared_papers": 33,
+      "same_institution": true
+    },
+    {
+      "name": "Adrián E. Roitberg",
+      "id": "A5048973716",
+      "shared_papers": 32,
+      "same_institution": false
+    },
+    {
+      "name": "Dylan M. Anstine",
+      "id": "A5042511909",
+      "shared_papers": 26,
+      "same_institution": true
+    },
+    {
+      "name": "Alexander Tropsha",
+      "id": "A5078536199",
+      "shared_papers": 22,
+      "same_institution": false
+    },
+    {
+      "name": "Justin S. Smith",
+      "id": "A5004656368",
+      "shared_papers": 22,
+      "same_institution": true
+    },
+    {
+      "name": "Artem Cherkasov",
+      "id": "A5070580886",
+      "shared_papers": 21,
+      "same_institution": false
+    },
+    {
+      "name": "Kipton Barros",
+      "id": "A5003874504",
+      "shared_papers": 20,
+      "same_institution": false
+    },
+    {
+      "name": "Maria G. Kurnikova",
+      "id": "A5022450476",
+      "shared_papers": 19,
+      "same_institution": true
+    },
+    {
+      "name": "Benjamin Nebgen",
+      "id": "A5081624801",
+      "shared_papers": 18,
+      "same_institution": false
+    }
+  ]
+}

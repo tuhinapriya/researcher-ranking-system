@@ -1,0 +1,471 @@
+{
+  "author_id": "A5000055059",
+  "openalex": {
+    "id": "https://openalex.org/A5000055059",
+    "orcid": "https://orcid.org/0000-0002-5447-1997",
+    "display_name": "Mohammad Zeynali",
+    "raw_author_names": [
+      "M. J. Zeynali",
+      "Mahdi Zeynali",
+      "Mohammad Javad Zeynali",
+      "Mohammad Zeynali",
+      "Zeynali, Mohammad"
+    ],
+    "full_name": "Mohammad Javad Zeynali",
+    "works_count": 24,
+    "cited_by_count": 187,
+    "summary_stats": {
+      "2yr_mean_citedness": 9.25,
+      "h_index": 8,
+      "i10_index": 7
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5000055059",
+      "orcid": "https://orcid.org/0000-0002-5447-1997"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I110525433",
+          "ror": "https://ror.org/01kzn7k21",
+          "display_name": "Islamic Azad University, Tehran",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110525433"
+          ]
+        },
+        "years": [
+          2011,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1293555014",
+          "ror": "https://ror.org/04hnf9a51",
+          "display_name": "Islamic Azad University of Tabriz",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110525433",
+            "https://openalex.org/I1293555014"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I23946033",
+          "ror": "https://ror.org/05vf56z40",
+          "display_name": "University of Tehran",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I23946033"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210130889",
+          "ror": "https://ror.org/03b49d241",
+          "display_name": "Islamic Azad University Shabestar",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110525433",
+            "https://openalex.org/I4210130889"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210133510",
+          "ror": "https://ror.org/03ncps145",
+          "display_name": "University of Torbat Heydarieh",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210133510"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210155841",
+          "ror": "https://ror.org/051t3nd40",
+          "display_name": "Islamic Azad University Bostanabad",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110525433",
+            "https://openalex.org/I4210155841"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I97626857",
+          "ror": "https://ror.org/03g4hym73",
+          "display_name": "University of Birjand",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97626857"
+          ]
+        },
+        "years": [
+          2023,
+          2022,
+          2019,
+          2018
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I23946033",
+        "ror": "https://ror.org/05vf56z40",
+        "display_name": "University of Tehran",
+        "country_code": "IR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I23946033"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210133510",
+        "ror": "https://ror.org/03ncps145",
+        "display_name": "University of Torbat Heydarieh",
+        "country_code": "IR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210133510"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10080",
+        "display_name": "Energy Efficient Wireless Sensor Networks",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10894",
+        "display_name": "Groundwater flow and contamination studies",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11220",
+        "display_name": "Water Systems and Optimization",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2205",
+          "display_name": "Civil and Structural Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10969",
+        "display_name": "Water resources management and optimization",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2212",
+          "display_name": "Ocean Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10326",
+        "display_name": "Indoor and Outdoor Localization Technologies",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11498",
+        "display_name": "Security in Wireless Sensor Networks",
+        "value": 5.12e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10080",
+        "display_name": "Energy Efficient Wireless Sensor Networks",
+        "value": 4.05e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11220",
+        "display_name": "Water Systems and Optimization",
+        "value": 3.63e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2205",
+          "display_name": "Civil and Structural Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10894",
+        "display_name": "Groundwater flow and contamination studies",
+        "value": 2.57e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12543",
+        "display_name": "Groundwater and Watershed Analysis",
+        "value": 2.57e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.9376196265220642
+      },
+      {
+        "id": "31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "score": 0.7809833288192749
+      },
+      {
+        "id": "11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "score": 0.7150974869728088
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.45302483439445496
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.3096694350242615
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2009,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2010,
+        "works_count": 5,
+        "oa_works_count": 2,
+        "cited_by_count": 72
+      },
+      {
+        "year": 2011,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2012,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2013,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2015,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2016,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2018,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2022,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2023,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2024,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2025,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 37
+      }
+    ],
+    "display_name_alternatives": [
+      "M. J. Zeynali",
+      "Mahdi Zeynali",
+      "Mohammad Javad Zeynali",
+      "Mohammad Zeynali",
+      "Zeynali, Mohammad"
+    ],
+    "block_key": "m zeynali",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5000055059",
+    "updated_date": "2026-04-09T12:26:41",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "50392063",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/50392063",
+    "name": "M. Zeynali",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 5,
+    "citationCount": 81,
+    "hIndex": 3
+  }
+}

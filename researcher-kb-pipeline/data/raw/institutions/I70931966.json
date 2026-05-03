@@ -1,0 +1,1302 @@
+{
+  "id": "https://openalex.org/I70931966",
+  "ror": "https://ror.org/0161xgx34",
+  "display_name": "Université de Montréal",
+  "country_code": "CA",
+  "type": "education",
+  "type_id": "https://openalex.org/institution-types/education",
+  "lineage": [
+    "https://openalex.org/I70931966"
+  ],
+  "homepage_url": "https://www.umontreal.ca",
+  "image_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Universit%C3%A4t%20Montreal%20Logo.svg",
+  "image_thumbnail_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Universit%C3%A4t%20Montreal%20Logo.svg&width=300",
+  "display_name_acronyms": [
+    "UdeM"
+  ],
+  "display_name_alternatives": [
+    "University of Montreal",
+    "Université de Montréal"
+  ],
+  "repositories": [
+    {
+      "id": "https://openalex.org/S4306401565",
+      "display_name": "Érudit documents and data repository (Érudit Consortium, University of Montreal)",
+      "host_organization": "https://openalex.org/I70931966",
+      "host_organization_name": "Université de Montréal",
+      "host_organization_lineage": [
+        "https://openalex.org/I70931966"
+      ]
+    },
+    {
+      "id": "https://openalex.org/S4306402422",
+      "display_name": "Papyrus : Institutional Repository (Université de Montréal)",
+      "host_organization": "https://openalex.org/I70931966",
+      "host_organization_name": "Université de Montréal",
+      "host_organization_lineage": [
+        "https://openalex.org/I70931966"
+      ]
+    },
+    {
+      "id": "https://openalex.org/S4377196102",
+      "display_name": "Érudit (Université de Montréal)",
+      "host_organization": "https://openalex.org/I70931966",
+      "host_organization_name": "Université de Montréal",
+      "host_organization_lineage": [
+        "https://openalex.org/I70931966"
+      ]
+    }
+  ],
+  "works_count": 172681,
+  "cited_by_count": 13354317,
+  "summary_stats": {
+    "2yr_mean_citedness": 2.6903308075234804,
+    "h_index": 888,
+    "i10_index": 180130
+  },
+  "ids": {
+    "openalex": "https://openalex.org/I70931966",
+    "ror": "https://ror.org/0161xgx34",
+    "grid": "grid.14848.31",
+    "wikipedia": "http://en.wikipedia.org/wiki/Universit%C3%A9_de_Montr%C3%A9al",
+    "wikidata": null
+  },
+  "geo": {
+    "city": "Montreal",
+    "geonames_city_id": "6077243",
+    "region": "Quebec",
+    "country_code": "CA",
+    "country": "Canada",
+    "latitude": 45.50884,
+    "longitude": -73.58781
+  },
+  "international": {},
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I108192572",
+      "ror": "https://ror.org/05ww3wq27",
+      "display_name": "HEC Montréal",
+      "country_code": "CA",
+      "type": "education",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2799876943",
+      "ror": "https://ror.org/02w6r0892",
+      "display_name": "Institut national de psychiatrie légale Philippe-Pinel",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I2800290161",
+      "ror": "https://ror.org/03vs03g62",
+      "display_name": "Montreal Heart Institute",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2802351361",
+      "ror": "https://ror.org/01gv74p78",
+      "display_name": "Centre Hospitalier Universitaire Sainte-Justine",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I29045822",
+      "ror": "https://ror.org/03rdc4968",
+      "display_name": "Hôpital Maisonneuve-Rosemont",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210088084",
+      "ror": "https://ror.org/003sgap07",
+      "display_name": "Canadian Institute for International Peace and Security",
+      "country_code": "CA",
+      "type": "education",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210096154",
+      "ror": "https://ror.org/00wj6x496",
+      "display_name": "Institute for Research in Immunology and Cancer",
+      "country_code": "CA",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210107362",
+      "ror": "https://ror.org/01w7qz648",
+      "display_name": "Hôpital Notre-Dame",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210124342",
+      "ror": "https://ror.org/03wx0vn75",
+      "display_name": "CentrEau - Quebec Water Management Research Centre",
+      "country_code": "CA",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210126422",
+      "ror": "https://ror.org/031wtp233",
+      "display_name": "Centre de Santé et de Services Sociaux de Chicoutimi",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210134654",
+      "ror": "https://ror.org/03hahj039",
+      "display_name": "Institut de Readaptation Gingras Lindsay de Montreal",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210141135",
+      "ror": "https://ror.org/03ey0g045",
+      "display_name": "Hôpital du Sacré-Cœur de Montréal",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210142730",
+      "ror": "https://ror.org/0410a8y51",
+      "display_name": "Centre Hospitalier de l’Université de Montréal",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210150747",
+      "ror": "https://ror.org/0468gx405",
+      "display_name": "Hôtel-Dieu de Montréal",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210156141",
+      "ror": "https://ror.org/053wt0478",
+      "display_name": "Lachine Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210158752",
+      "ror": "https://ror.org/05m8pzq90",
+      "display_name": "Montreal Clinical Research Institute",
+      "country_code": "CA",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210162151",
+      "ror": "https://ror.org/04xk8j027",
+      "display_name": "Hôpital Saint-Luc",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210163302",
+      "ror": "https://ror.org/0524asq02",
+      "display_name": "Hôpital Rivière-des-Prairies",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210166983",
+      "ror": "https://ror.org/05yfz9t60",
+      "display_name": "International Laboratory for Brain, Music and Sound Research",
+      "country_code": "CA",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4389425356",
+      "ror": "https://ror.org/05xay3m79",
+      "display_name": "Érudit",
+      "country_code": null,
+      "type": "other",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4391767881",
+      "ror": "https://ror.org/0155edt85",
+      "display_name": "fabriqueREL",
+      "country_code": null,
+      "type": "education",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4403928255",
+      "ror": "https://ror.org/05fdt6816",
+      "display_name": "Obvia",
+      "country_code": "CA",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405258688",
+      "ror": "https://ror.org/012gdv017",
+      "display_name": "Centre de recherche interuniversitaire sur la littérature et la culture québécoises",
+      "country_code": "CA",
+      "type": "education",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405259566",
+      "ror": "https://ror.org/02ddgd424",
+      "display_name": "Institut universitaire sur les dépendances",
+      "country_code": "CA",
+      "type": "government",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405259870",
+      "ror": "https://ror.org/02w5vxx03",
+      "display_name": "Centre de recherche en santé publique",
+      "country_code": "CA",
+      "type": "education",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405261779",
+      "ror": "https://ror.org/05ty8cs18",
+      "display_name": "Millénium Québecor",
+      "country_code": "CA",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I45683168",
+      "ror": "https://ror.org/05f8d4e86",
+      "display_name": "Polytechnique Montréal",
+      "country_code": "CA",
+      "type": "education",
+      "relationship": "related"
+    }
+  ],
+  "counts_by_year": [
+    {
+      "year": 2027,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2026,
+      "works_count": 1116,
+      "oa_works_count": 790,
+      "cited_by_count": 79
+    },
+    {
+      "year": 2025,
+      "works_count": 7660,
+      "oa_works_count": 5619,
+      "cited_by_count": 8489
+    },
+    {
+      "year": 2024,
+      "works_count": 8701,
+      "oa_works_count": 6768,
+      "cited_by_count": 34844
+    },
+    {
+      "year": 2023,
+      "works_count": 8996,
+      "oa_works_count": 6870,
+      "cited_by_count": 70008
+    },
+    {
+      "year": 2022,
+      "works_count": 8662,
+      "oa_works_count": 6190,
+      "cited_by_count": 104860
+    },
+    {
+      "year": 2021,
+      "works_count": 8332,
+      "oa_works_count": 5647,
+      "cited_by_count": 137045
+    },
+    {
+      "year": 2020,
+      "works_count": 7884,
+      "oa_works_count": 5015,
+      "cited_by_count": 199839
+    },
+    {
+      "year": 2019,
+      "works_count": 7001,
+      "oa_works_count": 4178,
+      "cited_by_count": 171675
+    },
+    {
+      "year": 2018,
+      "works_count": 6691,
+      "oa_works_count": 3830,
+      "cited_by_count": 192533
+    },
+    {
+      "year": 2017,
+      "works_count": 6372,
+      "oa_works_count": 3560,
+      "cited_by_count": 217787
+    },
+    {
+      "year": 2016,
+      "works_count": 6085,
+      "oa_works_count": 3338,
+      "cited_by_count": 226377
+    },
+    {
+      "year": 2015,
+      "works_count": 6257,
+      "oa_works_count": 3201,
+      "cited_by_count": 341247
+    },
+    {
+      "year": 2014,
+      "works_count": 5684,
+      "oa_works_count": 2662,
+      "cited_by_count": 242051
+    },
+    {
+      "year": 2013,
+      "works_count": 5409,
+      "oa_works_count": 2527,
+      "cited_by_count": 222645
+    },
+    {
+      "year": 2012,
+      "works_count": 5220,
+      "oa_works_count": 2213,
+      "cited_by_count": 255132
+    },
+    {
+      "year": 2011,
+      "works_count": 4830,
+      "oa_works_count": 2050,
+      "cited_by_count": 208008
+    },
+    {
+      "year": 2010,
+      "works_count": 4692,
+      "oa_works_count": 1850,
+      "cited_by_count": 240970
+    }
+  ],
+  "roles": [
+    {
+      "role": "funder",
+      "id": "https://openalex.org/F4320323175",
+      "works_count": 4645
+    },
+    {
+      "role": "institution",
+      "id": "https://openalex.org/I70931966",
+      "works_count": 172681
+    },
+    {
+      "role": "publisher",
+      "id": "https://openalex.org/P4310313007",
+      "works_count": 557
+    }
+  ],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10048",
+      "display_name": "Particle physics theoretical and experimental studies",
+      "count": 2966,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11475",
+      "display_name": "French Urban and Social Studies",
+      "count": 2894,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12219",
+      "display_name": "Canadian Identity and History",
+      "count": 2738,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10039",
+      "display_name": "Stellar, planetary, and galactic studies",
+      "count": 2507,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13033",
+      "display_name": "Social Sciences and Governance",
+      "count": 2334,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3322",
+        "display_name": "Urban Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10153",
+      "display_name": "Education, sociology, and vocational training",
+      "count": 2265,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10527",
+      "display_name": "High-Energy Particle Collisions Research",
+      "count": 1960,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10224",
+      "display_name": "Quantum Chromodynamics and Particle Interactions",
+      "count": 1680,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10077",
+      "display_name": "Neuroscience and Neuropharmacology Research",
+      "count": 1654,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10182",
+      "display_name": "Child and Adolescent Psychosocial and Emotional Development",
+      "count": 1560,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12119",
+      "display_name": "Linguistics and Discourse Analysis",
+      "count": 1476,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10477",
+      "display_name": "Astrophysics and Star Formation Studies",
+      "count": 1417,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10217",
+      "display_name": "Cardiac electrophysiology and arrhythmias",
+      "count": 1403,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10581",
+      "display_name": "Neural dynamics and brain function",
+      "count": 1373,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13099",
+      "display_name": "Health, Medicine and Society",
+      "count": 1366,
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "count": 1315,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11178",
+      "display_name": "Receptor Mechanisms and Signaling",
+      "count": 1285,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12917",
+      "display_name": "Astronomy and Astrophysical Research",
+      "count": 1285,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3105",
+        "display_name": "Instrumentation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13641",
+      "display_name": "Historical Studies and Socio-cultural Analysis",
+      "count": 1269,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1207",
+        "display_name": "History and Philosophy of Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13807",
+      "display_name": "Cultural Insights and Digital Impacts",
+      "count": 1250,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11020",
+      "display_name": "Immune Cell Function and Interaction",
+      "count": 1230,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10015",
+      "display_name": "Genomics and Phylogenetic Studies",
+      "count": 1148,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14186",
+      "display_name": "Healthcare Systems and Practices",
+      "count": 1145,
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "count": 1098,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13379",
+      "display_name": "Multiculturalism, Politics, Migration, Gender",
+      "count": 1095,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T12219",
+      "display_name": "Canadian Identity and History",
+      "value": 0.0326057,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14095",
+      "display_name": "Literature, Musicology, and Cultural Analysis",
+      "value": 0.0261397,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13033",
+      "display_name": "Social Sciences and Governance",
+      "value": 0.0182459,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3322",
+        "display_name": "Urban Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10153",
+      "display_name": "Education, sociology, and vocational training",
+      "value": 0.0171668,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13807",
+      "display_name": "Cultural Insights and Digital Impacts",
+      "value": 0.016948,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13534",
+      "display_name": "Migration, Identity, and Health",
+      "value": 0.0148311,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14199",
+      "display_name": "Historical and Scientific Studies",
+      "value": 0.0123567,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12470",
+      "display_name": "Caribbean and African Literature and Culture",
+      "value": 0.0121584,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13152",
+      "display_name": "French Language Learning Methods",
+      "value": 0.0121211,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3310",
+        "display_name": "Linguistics and Language"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11475",
+      "display_name": "French Urban and Social Studies",
+      "value": 0.0115147,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13727",
+      "display_name": "Linguistic and Sociocultural Studies",
+      "value": 0.0113698,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3310",
+        "display_name": "Linguistics and Language"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13028",
+      "display_name": "Literature and Culture Studies",
+      "value": 0.011303,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11132",
+      "display_name": "Psychoanalysis and Psychopathology Research",
+      "value": 0.0111439,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12119",
+      "display_name": "Linguistics and Discourse Analysis",
+      "value": 0.0111432,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14080",
+      "display_name": "Philosophy, Sociology, Political Theory",
+      "value": 0.0107578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14379",
+      "display_name": "Diverse Cultural and Historical Studies",
+      "value": 0.0106504,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13753",
+      "display_name": "Diverse multidisciplinary academic research",
+      "value": 0.0105897,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13810",
+      "display_name": "Legal Systems and Institutions",
+      "value": 0.0105051,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13888",
+      "display_name": "Social Policies and Family",
+      "value": 0.010209,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13379",
+      "display_name": "Multiculturalism, Politics, Migration, Gender",
+      "value": 0.0100168,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14186",
+      "display_name": "Healthcare Systems and Practices",
+      "value": 0.0099032,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10039",
+      "display_name": "Stellar, planetary, and galactic studies",
+      "value": 0.0090904,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12559",
+      "display_name": "French Literature and Critical Theory",
+      "value": 0.0090678,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10565",
+      "display_name": "Psychopathy, Forensic Psychiatry, Sexual Offending",
+      "value": 0.0086966,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10982",
+      "display_name": "Motor Control and Adaptation",
+      "value": 0.0084339,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "is_super_system": false,
+  "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I70931966",
+  "updated_date": "2026-02-26T06:01:13",
+  "created_date": "2016-06-24T00:00:00"
+}

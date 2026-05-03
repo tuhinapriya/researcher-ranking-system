@@ -1,0 +1,73 @@
+{
+  "author_id": "A5022416424",
+  "total_recent_works_analysed": 21,
+  "total_unique_collaborators": 217,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.05,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Alexey Dosovitskiy",
+      "id": "A5090113830",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Thomas Unterthiner",
+      "id": "A5083016682",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Ashish Vaswani",
+      "id": "A5103024730",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Noam Shazeer",
+      "id": "A5021878400",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Niki Parmar",
+      "id": "A5005777963",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Lucas Beyer",
+      "id": "A5055629014",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Xiaohua Zhai",
+      "id": "A5071668416",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Łukasz Kaiser",
+      "id": "A5031789995",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Alexander Kolesnikov",
+      "id": "A5000026575",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Dirk Weissenborn",
+      "id": "A5038019602",
+      "shared_papers": 5,
+      "same_institution": false
+    }
+  ]
+}

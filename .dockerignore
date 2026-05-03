@@ -1,0 +1,32 @@
+# ── Python artefacts ─────────────────────────────────────────────────────────
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Local data (never bake raw/cached data into the image) ───────────────────
+researcher-kb-pipeline/data/
+
+# ── Notebooks / dev files ─────────────────────────────────────────────────────
+**/*.ipynb
+.ipynb_checkpoints/
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.json.key
+credentials*.json
+application_default_credentials.json
+
+# ── Git ───────────────────────────────────────────────────────────────────────
+.git/
+.gitignore
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+*.log
+*.DS_Store
+scripts/

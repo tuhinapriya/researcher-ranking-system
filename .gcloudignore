@@ -1,0 +1,18 @@
+# Exclude local/dev artifacts to speed Cloud Build uploads
+.gcloudignore
+.git
+.gitignore
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.ipynb
+
+# Large local assets not needed for ranking image build
+bin/
+test_output.json
+researcher-kb-pipeline/data/raw/
+researcher-kb-pipeline/data/intermediate/
+researcher-kb-pipeline/data/knowledge_base.json
+researcher-kb-pipeline/data/mock_ranking_data.json

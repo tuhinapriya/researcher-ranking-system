@@ -1,0 +1,98 @@
+{
+  "author_id": "A5020728100",
+  "total_recent_works_analysed": 32,
+  "total_unique_collaborators": 59,
+  "estimated_mentee_count": 4,
+  "likely_mentees": [
+    {
+      "name": "Jae Un Jung",
+      "id": "A5101726516",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Nai-Pin Lin",
+      "id": "A5006837352",
+      "works_count": 17,
+      "shared_papers": 1
+    },
+    {
+      "name": "Rolande Meudom",
+      "id": "A5005469350",
+      "works_count": 14,
+      "shared_papers": 1
+    },
+    {
+      "name": "Yi Wolf Zhang",
+      "id": "A5068961244",
+      "works_count": 14,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Dong Zhang",
+      "id": "A5100366069",
+      "shared_papers": 25,
+      "same_institution": false
+    },
+    {
+      "name": "Jie Zheng",
+      "id": "A5024000881",
+      "shared_papers": 24,
+      "same_institution": false
+    },
+    {
+      "name": "Yonglan Liu",
+      "id": "A5086846209",
+      "shared_papers": 22,
+      "same_institution": false
+    },
+    {
+      "name": "Yijing Tang",
+      "id": "A5059555241",
+      "shared_papers": 19,
+      "same_institution": false
+    },
+    {
+      "name": "Baiping Ren",
+      "id": "A5102250075",
+      "shared_papers": 10,
+      "same_institution": false
+    },
+    {
+      "name": "Yung Chang",
+      "id": "A5012321811",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Jintao Yang",
+      "id": "A5056725286",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Mingzhen Zhang",
+      "id": "A5100717986",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Danny Hung‐Chieh Chou",
+      "id": "A5065231427",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Xiong Gong",
+      "id": "A5015997210",
+      "shared_papers": 4,
+      "same_institution": false
+    }
+  ]
+}

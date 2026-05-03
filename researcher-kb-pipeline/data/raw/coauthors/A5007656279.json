@@ -1,0 +1,176 @@
+{
+  "author_id": "A5007656279",
+  "total_recent_works_analysed": 46,
+  "total_unique_collaborators": 102,
+  "estimated_mentee_count": 17,
+  "likely_mentees": [
+    {
+      "name": "Yunfei Feng",
+      "id": "A5071041689",
+      "works_count": 11,
+      "shared_papers": 10
+    },
+    {
+      "name": "Dylan T. Holden",
+      "id": "A5082470243",
+      "works_count": 20,
+      "shared_papers": 6
+    },
+    {
+      "name": "Samadhi C. Kulathunga",
+      "id": "A5018243539",
+      "works_count": 4,
+      "shared_papers": 3
+    },
+    {
+      "name": "Lucas J. Szalwinski",
+      "id": "A5047292666",
+      "works_count": 20,
+      "shared_papers": 3
+    },
+    {
+      "name": "L. Edwin Gonzalez",
+      "id": "A5088705787",
+      "works_count": 12,
+      "shared_papers": 2
+    },
+    {
+      "name": "MyPhuong T. Le",
+      "id": "A5021778365",
+      "works_count": 8,
+      "shared_papers": 2
+    },
+    {
+      "name": "Thomas C. Sams",
+      "id": "A5082144568",
+      "works_count": 6,
+      "shared_papers": 2
+    },
+    {
+      "name": "Jie Li",
+      "id": "A5077142073",
+      "works_count": 12,
+      "shared_papers": 2
+    },
+    {
+      "name": "Sarah C. Stanhope",
+      "id": "A5028933101",
+      "works_count": 8,
+      "shared_papers": 2
+    },
+    {
+      "name": "Kratika Singhal",
+      "id": "A5013511759",
+      "works_count": 17,
+      "shared_papers": 2
+    },
+    {
+      "name": "Makayla N. Marlin",
+      "id": "A5083968304",
+      "works_count": 7,
+      "shared_papers": 2
+    },
+    {
+      "name": "Claudia C. Kotanko",
+      "id": "A5117352470",
+      "works_count": 3,
+      "shared_papers": 2
+    },
+    {
+      "name": "Madolyn M. Jarrett",
+      "id": "A5117352471",
+      "works_count": 3,
+      "shared_papers": 2
+    },
+    {
+      "name": "Alexis Toney",
+      "id": "A5114708229",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Brison A. Shira",
+      "id": "A5115985008",
+      "works_count": 9,
+      "shared_papers": 1
+    },
+    {
+      "name": "Myles Quinn Edwards",
+      "id": "A5040175968",
+      "works_count": 7,
+      "shared_papers": 1
+    },
+    {
+      "name": "Hannah Marie Brown",
+      "id": "A5024345488",
+      "works_count": 14,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.04
+  },
+  "top_collaborators": [
+    {
+      "name": "R. Graham Cooks",
+      "id": "A5036827887",
+      "shared_papers": 41,
+      "same_institution": true
+    },
+    {
+      "name": "Kai‐Hung Huang",
+      "id": "A5017482521",
+      "shared_papers": 12,
+      "same_institution": true
+    },
+    {
+      "name": "Yunfei Feng",
+      "id": "A5071041689",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Dylan T. Holden",
+      "id": "A5082470243",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Andrew D. Mesecar",
+      "id": "A5010165126",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Yangjie Li",
+      "id": "A5011314302",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Samadhi C. Kulathunga",
+      "id": "A5018243539",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Lucas J. Szalwinski",
+      "id": "A5047292666",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Ahram Kim",
+      "id": "A5085078922",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Partha Saha",
+      "id": "A5034616956",
+      "shared_papers": 3,
+      "same_institution": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "author_id": "A5000577506",
+  "total_recent_works_analysed": 8,
+  "total_unique_collaborators": 9,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.38
+  },
+  "top_collaborators": [
+    {
+      "name": "Andrew Lucas",
+      "id": "A5002471997",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Paolo Glorioso",
+      "id": "A5027899526",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Joaquin F. Rodriguez-Nieva",
+      "id": "A5072482071",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Oliver Hart",
+      "id": "A5010150198",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Chi-Fang Chen",
+      "id": "A5046568145",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Aaron J. Friedman",
+      "id": "A5052648219",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Yifan Hong",
+      "id": "A5105287665",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Xiaoyang Huang",
+      "id": "A5101688593",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Marvin Qi",
+      "id": "A5020029937",
+      "shared_papers": 1,
+      "same_institution": true
+    }
+  ]
+}

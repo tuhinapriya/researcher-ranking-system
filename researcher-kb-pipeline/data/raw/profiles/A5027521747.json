@@ -1,0 +1,502 @@
+{
+  "author_id": "A5027521747",
+  "openalex": {
+    "id": "https://openalex.org/A5027521747",
+    "orcid": "https://orcid.org/0000-0002-8023-7619",
+    "display_name": "Matan Mussel",
+    "raw_author_names": [
+      "Matan Mussel",
+      "Mussel, Matan"
+    ],
+    "full_name": "Mussel, Matan",
+    "works_count": 32,
+    "cited_by_count": 217,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.5,
+      "h_index": 9,
+      "i10_index": 9
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5027521747",
+      "orcid": "https://orcid.org/0000-0002-8023-7619"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I1299303238",
+          "ror": "https://ror.org/01cwqze88",
+          "display_name": "National Institutes of Health",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        },
+        "years": [
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I13955877",
+          "ror": "https://ror.org/03kgsv495",
+          "display_name": "Bar-Ilan University",
+          "country_code": "IL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I13955877"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I142270456",
+          "ror": "https://ror.org/016604a03",
+          "display_name": "Technische Hochschule Augsburg",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I142270456"
+          ]
+        },
+        "years": [
+          2019,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I16391192",
+          "ror": "https://ror.org/04mhzgx49",
+          "display_name": "Tel Aviv University",
+          "country_code": "IL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I16391192"
+          ]
+        },
+        "years": [
+          2018,
+          2016,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I179225836",
+          "ror": "https://ror.org/03p14d497",
+          "display_name": "University of Augsburg",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I179225836"
+          ]
+        },
+        "years": [
+          2019,
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I200332995",
+          "ror": "https://ror.org/01k97gp34",
+          "display_name": "TU Dortmund University",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I200332995"
+          ]
+        },
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210144228",
+          "ror": "https://ror.org/04byxyr05",
+          "display_name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210144228"
+          ]
+        },
+        "years": [
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I53964585",
+          "ror": "https://ror.org/0316ej306",
+          "display_name": "Weizmann Institute of Science",
+          "country_code": "IL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I53964585"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I55732556",
+          "ror": "https://ror.org/03efmqc40",
+          "display_name": "Arizona State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I55732556"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I91203450",
+          "ror": "https://ror.org/02f009v59",
+          "display_name": "University of Haifa",
+          "country_code": "IL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I91203450"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I91203450",
+        "ror": "https://ror.org/02f009v59",
+        "display_name": "University of Haifa",
+        "country_code": "IL",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I91203450"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10407",
+        "display_name": "Lipid Membrane Structure and Behavior",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10343",
+        "display_name": "Hydrogels: synthesis, properties, applications",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1313",
+          "display_name": "Molecular Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11177",
+        "display_name": "Spectroscopy and Quantum Chemical Studies",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12236",
+        "display_name": "Photoreceptor and optogenetics research",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2804",
+          "display_name": "Cellular and Molecular Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12274",
+        "display_name": "Electrostatics and Colloid Interactions",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1606",
+          "display_name": "Physical and Theoretical Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10343",
+        "display_name": "Hydrogels: synthesis, properties, applications",
+        "value": 7.17e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1313",
+          "display_name": "Molecular Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12274",
+        "display_name": "Electrostatics and Colloid Interactions",
+        "value": 6.76e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1606",
+          "display_name": "Physical and Theoretical Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12813",
+        "display_name": "Plant and Biological Electrophysiology Studies",
+        "value": 6.23e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10407",
+        "display_name": "Lipid Membrane Structure and Behavior",
+        "value": 4.03e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10474",
+        "display_name": "Material Dynamics and Properties",
+        "value": 3.51e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9522677659988403
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.6540378928184509
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.6169587969779968
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.35403233766555786
+      },
+      {
+        "id": "62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "score": 0.27008259296417236
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2009,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2014,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2015,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2016,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2017,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2018,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 38
+      },
+      {
+        "year": 2019,
+        "works_count": 6,
+        "oa_works_count": 6,
+        "cited_by_count": 69
+      },
+      {
+        "year": 2020,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 24
+      },
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 24
+      },
+      {
+        "year": 2022,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2023,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2025,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 13
+      }
+    ],
+    "display_name_alternatives": [
+      "Matan Mussel",
+      "Mussel, Matan"
+    ],
+    "block_key": "m mussel",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5027521747",
+    "updated_date": null,
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": null
+}

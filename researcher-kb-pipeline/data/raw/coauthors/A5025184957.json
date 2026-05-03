@@ -1,0 +1,92 @@
+{
+  "author_id": "A5025184957",
+  "total_recent_works_analysed": 11,
+  "total_unique_collaborators": 29,
+  "estimated_mentee_count": 3,
+  "likely_mentees": [
+    {
+      "name": "Henry Phalen",
+      "id": "A5042944948",
+      "works_count": 15,
+      "shared_papers": 4
+    },
+    {
+      "name": "Anna Goodridge",
+      "id": "A5089127358",
+      "works_count": 13,
+      "shared_papers": 2
+    },
+    {
+      "name": "Arian Mehrfard",
+      "id": "A5024921309",
+      "works_count": 15,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.27
+  },
+  "top_collaborators": [
+    {
+      "name": "Mojtaba Esfandiari",
+      "id": "A5042064774",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Mehran Armand",
+      "id": "A5090301235",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Henry Phalen",
+      "id": "A5042944948",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Iulian Iordachita",
+      "id": "A5063913520",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Farzam Farahmand",
+      "id": "A5039539604",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Anna Goodridge",
+      "id": "A5089127358",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Justin Ma",
+      "id": "A5101589605",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Ji Woong Kim",
+      "id": "A5101517390",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Botao Zhao",
+      "id": "A5101811604",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Muhammad N.S. Hadi",
+      "id": "A5031791299",
+      "shared_papers": 2,
+      "same_institution": true
+    }
+  ]
+}

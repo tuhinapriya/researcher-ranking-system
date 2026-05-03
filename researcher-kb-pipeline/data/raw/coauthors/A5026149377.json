@@ -1,0 +1,73 @@
+{
+  "author_id": "A5026149377",
+  "total_recent_works_analysed": 9,
+  "total_unique_collaborators": 24,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.33,
+    "corresponding_author_ratio": 0.11
+  },
+  "top_collaborators": [
+    {
+      "name": "Samuel Kakraba",
+      "id": "A5091216658",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Srinivas Ayyadevara",
+      "id": "A5039791222",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Aayire C. Yadem",
+      "id": "A5016430575",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "César M. Compadre",
+      "id": "A5087103454",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Robert J. Shmookler Reis",
+      "id": "A5010384852",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Zhengwei Yang",
+      "id": "A5026250308",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Sudesh Srivastav",
+      "id": "A5111715541",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Jeffrey G. Shaffer",
+      "id": "A5049957635",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Samuel M. Naandam",
+      "id": "A5019180170",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Hao Zhou",
+      "id": "A5100522210",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

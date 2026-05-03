@@ -1,0 +1,351 @@
+{
+  "author_id": "A5021165646",
+  "openalex": {
+    "id": "https://openalex.org/A5021165646",
+    "orcid": "https://orcid.org/0000-0003-2084-2881",
+    "display_name": "Colton Duprey",
+    "raw_author_names": [
+      "Colton Duprey"
+    ],
+    "full_name": "Colton Duprey",
+    "works_count": 9,
+    "cited_by_count": 36,
+    "summary_stats": {
+      "2yr_mean_citedness": 4.666666666666667,
+      "h_index": 4,
+      "i10_index": 1
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5021165646",
+      "orcid": "https://orcid.org/0000-0003-2084-2881"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I17301866",
+          "ror": "https://ror.org/03xrrjk67",
+          "display_name": "University of Alabama",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I17301866"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210147071",
+          "ror": "https://ror.org/05n85jt88",
+          "display_name": "OrthoSensor (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210147071"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210164673",
+          "ror": "https://ror.org/05nkabx50",
+          "display_name": "Advanced Composite Products (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210164673"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I7947594",
+          "ror": "https://ror.org/01adr0w49",
+          "display_name": "University of Maine",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2802397601",
+            "https://openalex.org/I7947594"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2023
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I7947594",
+        "ror": "https://ror.org/01adr0w49",
+        "display_name": "University of Maine",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I2802397601",
+          "https://openalex.org/I7947594"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10660",
+        "display_name": "Conducting polymers and applications",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2507",
+          "display_name": "Polymers and Plastics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10069",
+        "display_name": "Antenna Design and Analysis",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10122",
+        "display_name": "Toxic Organic Pollutants Impact",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2307",
+          "display_name": "Health, Toxicology and Mutagenesis"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10197",
+        "display_name": "Membrane Separation Technologies",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2312",
+          "display_name": "Water Science and Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T14318",
+        "display_name": "Polydiacetylene-based materials and applications",
+        "value": 2.33e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "value": 1.94e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11224",
+        "display_name": "Electromagnetic wave absorption materials",
+        "value": 1.65e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11608",
+        "display_name": "Dielectric materials and actuators",
+        "value": 1.25e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10660",
+        "display_name": "Conducting polymers and applications",
+        "value": 1.18e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2507",
+          "display_name": "Polymers and Plastics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.828412652015686
+      },
+      {
+        "id": "521977710",
+        "wikidata": "https://www.wikidata.org/wiki/Q81163",
+        "display_name": "Polymer",
+        "score": 0.7113000154495239
+      },
+      {
+        "id": "133495861",
+        "wikidata": "https://www.wikidata.org/wiki/Q412798",
+        "display_name": "Conductive polymer",
+        "score": 0.6171000003814697
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.5863896012306213
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.478836327791214
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2023,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2025,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 27
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      }
+    ],
+    "display_name_alternatives": [
+      "Colton Duprey"
+    ],
+    "block_key": "c duprey",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5021165646",
+    "updated_date": "2026-04-09T12:26:41",
+    "created_date": "2023-09-22T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2189538402",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2189538402",
+    "name": "Colton Duprey",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 10,
+    "citationCount": 22,
+    "hIndex": 4
+  }
+}

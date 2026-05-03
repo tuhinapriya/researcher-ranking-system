@@ -1,0 +1,146 @@
+{
+  "author_id": "A5019922888",
+  "total_recent_works_analysed": 7,
+  "total_unique_collaborators": 22,
+  "estimated_mentee_count": 12,
+  "likely_mentees": [
+    {
+      "name": "Pavankumar Umashankar",
+      "id": "A5106260379",
+      "works_count": 3,
+      "shared_papers": 3
+    },
+    {
+      "name": "Angel Bu",
+      "id": "A5055271051",
+      "works_count": 15,
+      "shared_papers": 3
+    },
+    {
+      "name": "Sonika Kohli",
+      "id": "A5113076317",
+      "works_count": 12,
+      "shared_papers": 2
+    },
+    {
+      "name": "Maheera Bawa",
+      "id": "A5092394945",
+      "works_count": 11,
+      "shared_papers": 2
+    },
+    {
+      "name": "Ronald H. Heisser",
+      "id": "A5047387295",
+      "works_count": 19,
+      "shared_papers": 2
+    },
+    {
+      "name": "Tamara Rossy",
+      "id": "A5106260378",
+      "works_count": 2,
+      "shared_papers": 2
+    },
+    {
+      "name": "Sara V. Fernandez",
+      "id": "A5040181915",
+      "works_count": 9,
+      "shared_papers": 1
+    },
+    {
+      "name": "David Sadat",
+      "id": "A5043847146",
+      "works_count": 11,
+      "shared_papers": 1
+    },
+    {
+      "name": "Farita Tasnim",
+      "id": "A5076282488",
+      "works_count": 15,
+      "shared_papers": 1
+    },
+    {
+      "name": "Shirin Shahsavari",
+      "id": "A5091048813",
+      "works_count": 11,
+      "shared_papers": 1
+    },
+    {
+      "name": "Andrew SaLoutos",
+      "id": "A5005989835",
+      "works_count": 10,
+      "shared_papers": 1
+    },
+    {
+      "name": "Elijah Stanger–Jones",
+      "id": "A5073886334",
+      "works_count": 13,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.14
+  },
+  "top_collaborators": [
+    {
+      "name": "Ritu Raman",
+      "id": "A5032679417",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Tamara Rossy",
+      "id": "A5039005479",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Pavankumar Umashankar",
+      "id": "A5106260379",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Angel Bu",
+      "id": "A5055271051",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Sonika Kohli",
+      "id": "A5113076317",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Maheera Bawa",
+      "id": "A5092394945",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Ronald H. Heisser",
+      "id": "A5047387295",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Tamara Rossy",
+      "id": "A5106260378",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Roi Habba",
+      "id": "A5116627249",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Oren Tchaicheeyan",
+      "id": "A5024738429",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

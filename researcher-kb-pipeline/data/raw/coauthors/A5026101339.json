@@ -1,0 +1,73 @@
+{
+  "author_id": "A5026101339",
+  "total_recent_works_analysed": 128,
+  "total_unique_collaborators": 188,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.45,
+    "corresponding_author_ratio": 0.26
+  },
+  "top_collaborators": [
+    {
+      "name": "Ali Kashif Bashir",
+      "id": "A5088617561",
+      "shared_papers": 24,
+      "same_institution": false
+    },
+    {
+      "name": "Hewa Majeed Zangana",
+      "id": "A5020243793",
+      "shared_papers": 22,
+      "same_institution": false
+    },
+    {
+      "name": "Derek Mohammed",
+      "id": "A5108672757",
+      "shared_papers": 13,
+      "same_institution": false
+    },
+    {
+      "name": "Rebet Keith Jones",
+      "id": "A5087967694",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Jamal N. Al-Karaki",
+      "id": "A5104632074",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "A. Jones",
+      "id": "A5069850792",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Jun Wu",
+      "id": "A5004673608",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Aziz Mohaisen",
+      "id": "A5077402873",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Sia Gholami",
+      "id": "A5054138483",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Darrell Norman Burrell",
+      "id": "A5002594454",
+      "shared_papers": 5,
+      "same_institution": false
+    }
+  ]
+}

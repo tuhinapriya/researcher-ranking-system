@@ -1,0 +1,86 @@
+{
+  "author_id": "A5026250308",
+  "total_recent_works_analysed": 89,
+  "total_unique_collaborators": 281,
+  "estimated_mentee_count": 2,
+  "likely_mentees": [
+    {
+      "name": "Opeoluwa Abraham Akerele",
+      "id": "A5113736709",
+      "works_count": 14,
+      "shared_papers": 5
+    },
+    {
+      "name": "Zhuoran Xiao",
+      "id": "A5024890042",
+      "works_count": 8,
+      "shared_papers": 3
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.19,
+    "corresponding_author_ratio": 0.19
+  },
+  "top_collaborators": [
+    {
+      "name": "Chen Zhang",
+      "id": "A5069617803",
+      "shared_papers": 20,
+      "same_institution": false
+    },
+    {
+      "name": "Liping Di",
+      "id": "A5012116347",
+      "shared_papers": 20,
+      "same_institution": false
+    },
+    {
+      "name": "Li Lin",
+      "id": "A5011971882",
+      "shared_papers": 15,
+      "same_institution": false
+    },
+    {
+      "name": "Liying Guo",
+      "id": "A5077156991",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "Genong Yu",
+      "id": "A5025989584",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "Zhou Zhang",
+      "id": "A5054881624",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Haoteng Zhao",
+      "id": "A5087749471",
+      "shared_papers": 8,
+      "same_institution": false
+    },
+    {
+      "name": "Yuchi Ma",
+      "id": "A5015243676",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Rajat Bindlish",
+      "id": "A5037110476",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Guangjie Kou",
+      "id": "A5113162963",
+      "shared_papers": 6,
+      "same_institution": false
+    }
+  ]
+}

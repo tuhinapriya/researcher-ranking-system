@@ -1,0 +1,104 @@
+{
+  "author_id": "A5014850854",
+  "total_recent_works_analysed": 29,
+  "total_unique_collaborators": 98,
+  "estimated_mentee_count": 5,
+  "likely_mentees": [
+    {
+      "name": "Colton Duprey",
+      "id": "A5021165646",
+      "works_count": 9,
+      "shared_papers": 9
+    },
+    {
+      "name": "Arya Ajeev",
+      "id": "A5075332848",
+      "works_count": 5,
+      "shared_papers": 4
+    },
+    {
+      "name": "Theodore Warfle",
+      "id": "A5093889531",
+      "works_count": 7,
+      "shared_papers": 4
+    },
+    {
+      "name": "Saeideh Alipoori",
+      "id": "A5043851403",
+      "works_count": 12,
+      "shared_papers": 3
+    },
+    {
+      "name": "Behrokh Shams",
+      "id": "A5014381832",
+      "works_count": 6,
+      "shared_papers": 3
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.52,
+    "corresponding_author_ratio": 0.45
+  },
+  "top_collaborators": [
+    {
+      "name": "Colton Duprey",
+      "id": "A5021165646",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Mark Ellıott",
+      "id": "A5088622199",
+      "shared_papers": 8,
+      "same_institution": false
+    },
+    {
+      "name": "Mostafa Dadashi Firouzjaei",
+      "id": "A5005128147",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Mohtada Sadrzadeh",
+      "id": "A5007536976",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Yang Lu",
+      "id": "A5086574727",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Ehsan Zolghadr",
+      "id": "A5041380676",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Ahmad Rahimpour",
+      "id": "A5074200293",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Emily Linn",
+      "id": "A5053059936",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Arya Ajeev",
+      "id": "A5075332848",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Theodore Warfle",
+      "id": "A5093889531",
+      "shared_papers": 4,
+      "same_institution": true
+    }
+  ]
+}

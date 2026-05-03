@@ -1,0 +1,536 @@
+{
+  "author_id": "A5022750907",
+  "openalex": {
+    "id": "https://openalex.org/A5022750907",
+    "orcid": "https://orcid.org/0000-0003-3455-8443",
+    "display_name": "Md. Faiyazuddin",
+    "raw_author_names": [
+      "Faiyazuddin, Md",
+      "M Faiyazuddin",
+      "M. Faiyazuddin",
+      "M.D. Faiyazuddin",
+      "MD Faiyazuddin",
+      "Md Faiyazuddin",
+      "Md. Faiyazuddin"
+    ],
+    "full_name": "M.D. Faiyazuddin",
+    "works_count": 113,
+    "cited_by_count": 1589,
+    "summary_stats": {
+      "2yr_mean_citedness": 9.0,
+      "h_index": 21,
+      "i10_index": 39
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5022750907",
+      "orcid": "https://orcid.org/0000-0003-3455-8443"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I111971639",
+          "ror": "https://ror.org/01khf5d59",
+          "display_name": "Qiqihar University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I111971639"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I114027177",
+          "ror": "https://ror.org/0130frc33",
+          "display_name": "University of North Carolina at Chapel Hill",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114027177"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I150513749",
+          "ror": "https://ror.org/05s8p6g93",
+          "display_name": "Sant Gadge Baba Amravati University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I150513749"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I189949046",
+          "ror": "https://ror.org/039zd5s34",
+          "display_name": "Integral University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I189949046"
+          ]
+        },
+        "years": [
+          2012,
+          2011,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I191365509",
+          "ror": "https://ror.org/01zrv0z61",
+          "display_name": "Hamdard University",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I191365509"
+          ]
+        },
+        "years": [
+          2011,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I192619145",
+          "ror": "https://ror.org/03rp50x72",
+          "display_name": "University of the Witwatersrand",
+          "country_code": "ZA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I192619145"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I19716509",
+          "ror": "https://ror.org/03dwxvb85",
+          "display_name": "Jamia Hamdard",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I19716509"
+          ]
+        },
+        "years": [
+          2012,
+          2011,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I236004819",
+          "ror": "https://ror.org/04jgpa018",
+          "display_name": "Babasaheb Bhimrao Ambedkar Bihar University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I236004819"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210088963",
+          "ror": "https://ror.org/013w98a82",
+          "display_name": "University of Ha'il",
+          "country_code": "SA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210088963"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210145772",
+          "ror": "https://ror.org/04j0nks26",
+          "display_name": "Kindeva Drug Delivery (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210145772"
+          ]
+        },
+        "years": [
+          2023,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I85461943",
+          "ror": "https://ror.org/0034me914",
+          "display_name": "Saveetha University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I85461943"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I111971639",
+        "ror": "https://ror.org/01khf5d59",
+        "display_name": "Qiqihar University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I111971639"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I236004819",
+        "ror": "https://ror.org/04jgpa018",
+        "display_name": "Babasaheb Bhimrao Ambedkar Bihar University",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I236004819"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I85461943",
+        "ror": "https://ror.org/0034me914",
+        "display_name": "Saveetha University",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I85461943"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11651",
+        "display_name": "Inhalation and Respiratory Drug Delivery",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2740",
+          "display_name": "Pulmonary and Respiratory Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10079",
+        "display_name": "Nanoparticles: synthesis and applications",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10256",
+        "display_name": "Drug Solubulity and Delivery Systems",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3003",
+          "display_name": "Pharmaceutical Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/30",
+          "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10920",
+        "display_name": "Advanced Drug Delivery Systems",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3003",
+          "display_name": "Pharmaceutical Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/30",
+          "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10063",
+        "display_name": "Nanoparticle-Based Drug Delivery",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10256",
+        "display_name": "Drug Solubulity and Delivery Systems",
+        "value": 9.57e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3003",
+          "display_name": "Pharmaceutical Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/30",
+          "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11651",
+        "display_name": "Inhalation and Respiratory Drug Delivery",
+        "value": 8.04e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2740",
+          "display_name": "Pulmonary and Respiratory Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10920",
+        "display_name": "Advanced Drug Delivery Systems",
+        "value": 7.78e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3003",
+          "display_name": "Pharmaceutical Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/30",
+          "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10079",
+        "display_name": "Nanoparticles: synthesis and applications",
+        "value": 6.96e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10704",
+        "display_name": "Advancements in Transdermal Drug Delivery",
+        "value": 6.93e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3003",
+          "display_name": "Pharmaceutical Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/30",
+          "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9461562633514404
+      },
+      {
+        "id": "71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "score": 0.7398261427879333
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.7028374671936035
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.6927980780601501
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.5470443964004517
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2009,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2010,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 98
+      },
+      {
+        "year": 2011,
+        "works_count": 5,
+        "oa_works_count": 2,
+        "cited_by_count": 206
+      },
+      {
+        "year": 2012,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 126
+      },
+      {
+        "year": 2015,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 154
+      },
+      {
+        "year": 2016,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 68
+      },
+      {
+        "year": 2020,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2021,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 92
+      },
+      {
+        "year": 2022,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 85
+      },
+      {
+        "year": 2023,
+        "works_count": 14,
+        "oa_works_count": 3,
+        "cited_by_count": 148
+      },
+      {
+        "year": 2024,
+        "works_count": 30,
+        "oa_works_count": 8,
+        "cited_by_count": 429
+      },
+      {
+        "year": 2025,
+        "works_count": 34,
+        "oa_works_count": 8,
+        "cited_by_count": 147
+      }
+    ],
+    "display_name_alternatives": [
+      "Faiyazuddin, Md",
+      "M Faiyazuddin",
+      "M. Faiyazuddin",
+      "M.D. Faiyazuddin",
+      "MD Faiyazuddin",
+      "Md Faiyazuddin",
+      "Md. Faiyazuddin"
+    ],
+    "block_key": "m faiyazuddin",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5022750907",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": null
+}

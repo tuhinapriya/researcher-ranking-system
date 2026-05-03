@@ -1,0 +1,73 @@
+{
+  "author_id": "A5015358870",
+  "total_recent_works_analysed": 9,
+  "total_unique_collaborators": 25,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.11,
+    "corresponding_author_ratio": 0.33
+  },
+  "top_collaborators": [
+    {
+      "name": "Xinjin Li",
+      "id": "A5080060987",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Jingyu Zhang",
+      "id": "A5102757947",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Jin Xin Cao",
+      "id": "A5101837796",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Houze Liu",
+      "id": "A5104328461",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Zhenglin Li",
+      "id": "A5101747052",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "T. Li",
+      "id": "A5065982734",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Wenhan Fan",
+      "id": "A5081124990",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Yu Ma",
+      "id": "A5024037041",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Haowei Ni",
+      "id": "A5108954546",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Yuqing Jin",
+      "id": "A5082202683",
+      "shared_papers": 2,
+      "same_institution": false
+    }
+  ]
+}

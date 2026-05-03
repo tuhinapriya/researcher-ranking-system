@@ -1,0 +1,1053 @@
+{
+  "author_id": "A5026726925",
+  "openalex": {
+    "id": "https://openalex.org/A5026726925",
+    "orcid": "https://orcid.org/0000-0001-5717-8916",
+    "display_name": "James Mack",
+    "raw_author_names": [
+      "J L Mack",
+      "J. L. MACK",
+      "J. L. Mack",
+      "J. Mack",
+      "JAMES L. MACK",
+      "JULIE MACK",
+      "James L. Mack",
+      "James Mack",
+      "Mack, J.",
+      "Mack, J. L.",
+      "Mack, James"
+    ],
+    "full_name": "JAMES L. MACK",
+    "works_count": 194,
+    "cited_by_count": 8857,
+    "summary_stats": {
+      "2yr_mean_citedness": 6.6,
+      "h_index": 40,
+      "i10_index": 92
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5026726925",
+      "orcid": "https://orcid.org/0000-0001-5717-8916"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I102322142",
+          "ror": "https://ror.org/05vt9qd57",
+          "display_name": "Rutgers, The State University of New Jersey",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I102322142"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I103531236",
+          "ror": "https://ror.org/02n2fzt79",
+          "display_name": "Boston College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I103531236"
+          ]
+        },
+        "years": [
+          2012,
+          2011,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I113508548",
+          "ror": "https://ror.org/01vme4277",
+          "display_name": "Albany State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I113508548"
+          ]
+        },
+        "years": [
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1280414376",
+          "ror": "https://ror.org/02e2egq70",
+          "display_name": "United States Air Force Research Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1280414376",
+            "https://openalex.org/I1330347796",
+            "https://openalex.org/I4210102105",
+            "https://openalex.org/I4389425425"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1321296531",
+          "ror": "https://ror.org/05xpvk416",
+          "display_name": "National Institute of Standards and Technology",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1321296531",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        "years": [
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1322918889",
+          "ror": "https://ror.org/05rsv9s98",
+          "display_name": "United States Department of Veterans Affairs",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1322918889"
+          ]
+        },
+        "years": [
+          1975
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I135310074",
+          "ror": "https://ror.org/01y2jtd41",
+          "display_name": "University of Wisconsin–Madison",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        },
+        "years": [
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I155173764",
+          "ror": "https://ror.org/00v4yb702",
+          "display_name": "Rochester Institute of Technology",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I155173764"
+          ]
+        },
+        "years": [
+          2016,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I161057412",
+          "ror": "https://ror.org/01rmh9n78",
+          "display_name": "University of New Hampshire",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I161057412"
+          ]
+        },
+        "years": [
+          2003,
+          2000,
+          1997
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I197251160",
+          "ror": "https://ror.org/03qxff017",
+          "display_name": "Hebrew University of Jerusalem",
+          "country_code": "IL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I197251160"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I27837315",
+          "ror": "https://ror.org/00jmfr291",
+          "display_name": "University of Michigan–Ann Arbor",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        },
+        "years": [
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2799343972",
+          "ror": "https://ror.org/0130jk839",
+          "display_name": "University Hospitals of Cleveland",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2799343972"
+          ]
+        },
+        "years": [
+          1999,
+          1998,
+          1997,
+          1994,
+          1993,
+          1985,
+          1983
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2799918540",
+          "ror": "https://ror.org/02zkwve04",
+          "display_name": "Norristown State Hospital",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799918540"
+          ]
+        },
+        "years": [
+          1970,
+          1969
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2799950915",
+          "ror": "https://ror.org/0097e1k27",
+          "display_name": "Wright-Patterson Air Force Base",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1330347796",
+            "https://openalex.org/I2799950915",
+            "https://openalex.org/I4210089612",
+            "https://openalex.org/I4210102105"
+          ]
+        },
+        "years": [
+          2009,
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802476451",
+          "ror": "https://ror.org/05cy4wa09",
+          "display_name": "Wellcome Sanger Institute",
+          "country_code": "GB",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802476451",
+            "https://openalex.org/I87048295"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I392282",
+          "ror": "https://ror.org/012zs8222",
+          "display_name": "University at Albany, State University of New York",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I392282"
+          ]
+        },
+        "years": [
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210090102",
+          "ror": "https://ror.org/007kz3b20",
+          "display_name": "Infrastructure Canada",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210090102"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210110978",
+          "ror": "https://ror.org/01vrybr67",
+          "display_name": "Louis Stokes Cleveland VA Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210110978",
+            "https://openalex.org/I4210127612"
+          ]
+        },
+        "years": [
+          1978
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210134004",
+          "ror": "https://ror.org/034w9e597",
+          "display_name": "The Priory Hospital",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210104184",
+            "https://openalex.org/I4210134004"
+          ]
+        },
+        "years": [
+          1978
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210143942",
+          "ror": "https://ror.org/05e21fw44",
+          "display_name": "National University of Technology",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210143942"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210153792",
+          "ror": "https://ror.org/05ap66461",
+          "display_name": "University School",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210153792"
+          ]
+        },
+        "years": [
+          1996,
+          1986,
+          1985,
+          1983
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210164563",
+          "ror": "https://ror.org/05ne0gd95",
+          "display_name": "Neurology, Inc",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210164563"
+          ]
+        },
+        "years": [
+          1992
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I54166199",
+          "ror": "https://ror.org/044a5dk27",
+          "display_name": "University of the Incarnate Word",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I54166199"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I58956616",
+          "ror": "https://ror.org/051fd9666",
+          "display_name": "Case Western Reserve University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I58956616"
+          ]
+        },
+        "years": [
+          2006,
+          2001,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1993,
+          1991,
+          1986,
+          1985,
+          1983,
+          1981,
+          1979,
+          1978,
+          1977,
+          1976
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63135867",
+          "ror": "https://ror.org/01e3m7079",
+          "display_name": "University of Cincinnati",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63135867"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I84218800",
+          "ror": "https://ror.org/05rrcem69",
+          "display_name": "University of California, Davis",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        },
+        "years": [
+          2003
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I63135867",
+        "ror": "https://ror.org/01e3m7079",
+        "display_name": "University of Cincinnati",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I63135867"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10956",
+        "display_name": "Fullerene Chemistry and Applications",
+        "count": 26,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11407",
+        "display_name": "Innovative Microfluidic and Catalytic Techniques Innovation",
+        "count": 18,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10798",
+        "display_name": "Crystallography and molecular interactions",
+        "count": 16,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1606",
+          "display_name": "Physical and Theoretical Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10009",
+        "display_name": "Dementia and Cognitive Impairment Research",
+        "count": 15,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2738",
+          "display_name": "Psychiatry and Mental health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10911",
+        "display_name": "Chemical Synthesis and Analysis",
+        "count": 15,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10956",
+        "display_name": "Fullerene Chemistry and Applications",
+        "value": 0.0003139,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11298",
+        "display_name": "Synthesis and Properties of Aromatic Compounds",
+        "value": 0.0001476,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13239",
+        "display_name": "Phosphorus compounds and reactions",
+        "value": 0.0001396,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11407",
+        "display_name": "Innovative Microfluidic and Catalytic Techniques Innovation",
+        "value": 0.0001056,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11790",
+        "display_name": "N-Heterocyclic Carbenes in Organic and Inorganic Chemistry",
+        "value": 8.76e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9853413105010986
+      },
+      {
+        "id": "15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "score": 0.8399366736412048
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.575919508934021
+      },
+      {
+        "id": "178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "score": 0.5513333678245544
+      },
+      {
+        "id": "71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "score": 0.5114520788192749
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1962,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1963,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1966,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1967,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1968,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1969,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 54
+      },
+      {
+        "year": 1970,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 10
+      },
+      {
+        "year": 1975,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 28
+      },
+      {
+        "year": 1976,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 43
+      },
+      {
+        "year": 1977,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 163
+      },
+      {
+        "year": 1978,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 73
+      },
+      {
+        "year": 1979,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 14
+      },
+      {
+        "year": 1981,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 124
+      },
+      {
+        "year": 1983,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 45
+      },
+      {
+        "year": 1985,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 35
+      },
+      {
+        "year": 1986,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 17
+      },
+      {
+        "year": 1988,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1991,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1992,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 54
+      },
+      {
+        "year": 1993,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 10
+      },
+      {
+        "year": 1994,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 26
+      },
+      {
+        "year": 1995,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 466
+      },
+      {
+        "year": 1996,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 46
+      },
+      {
+        "year": 1997,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 120
+      },
+      {
+        "year": 1998,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 30
+      },
+      {
+        "year": 1999,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 65
+      },
+      {
+        "year": 2000,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 91
+      },
+      {
+        "year": 2001,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 56
+      },
+      {
+        "year": 2002,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 461
+      },
+      {
+        "year": 2003,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 157
+      },
+      {
+        "year": 2004,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2005,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 436
+      },
+      {
+        "year": 2006,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 106
+      },
+      {
+        "year": 2007,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 311
+      },
+      {
+        "year": 2008,
+        "works_count": 6,
+        "oa_works_count": 2,
+        "cited_by_count": 94
+      },
+      {
+        "year": 2009,
+        "works_count": 7,
+        "oa_works_count": 0,
+        "cited_by_count": 373
+      },
+      {
+        "year": 2010,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2011,
+        "works_count": 8,
+        "oa_works_count": 2,
+        "cited_by_count": 3020
+      },
+      {
+        "year": 2012,
+        "works_count": 10,
+        "oa_works_count": 4,
+        "cited_by_count": 116
+      },
+      {
+        "year": 2013,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 247
+      },
+      {
+        "year": 2014,
+        "works_count": 6,
+        "oa_works_count": 2,
+        "cited_by_count": 171
+      },
+      {
+        "year": 2015,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 273
+      },
+      {
+        "year": 2016,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 155
+      },
+      {
+        "year": 2017,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 178
+      },
+      {
+        "year": 2018,
+        "works_count": 6,
+        "oa_works_count": 2,
+        "cited_by_count": 772
+      },
+      {
+        "year": 2019,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 66
+      },
+      {
+        "year": 2020,
+        "works_count": 10,
+        "oa_works_count": 8,
+        "cited_by_count": 101
+      },
+      {
+        "year": 2021,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 90
+      },
+      {
+        "year": 2022,
+        "works_count": 9,
+        "oa_works_count": 3,
+        "cited_by_count": 35
+      },
+      {
+        "year": 2023,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 32
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "works_count": 7,
+        "oa_works_count": 4,
+        "cited_by_count": 61
+      }
+    ],
+    "display_name_alternatives": [
+      "J L Mack",
+      "J. L. MACK",
+      "J. L. Mack",
+      "J. Mack",
+      "JAMES L. MACK",
+      "JULIE MACK",
+      "James L. Mack",
+      "James Mack",
+      "Mack, J.",
+      "Mack, J. L.",
+      "Mack, James"
+    ],
+    "block_key": "j mack",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5026726925",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2066485764",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2066485764",
+    "name": "J. Mack",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 5,
+    "citationCount": 85,
+    "hIndex": 4
+  }
+}

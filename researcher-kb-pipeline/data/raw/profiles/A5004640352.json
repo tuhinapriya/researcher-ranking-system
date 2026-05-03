@@ -1,0 +1,430 @@
+{
+  "author_id": "A5004640352",
+  "openalex": {
+    "id": "https://openalex.org/A5004640352",
+    "orcid": "https://orcid.org/0000-0002-1877-6988",
+    "display_name": "Seonmin Jang",
+    "raw_author_names": [
+      "Seon-Min Jang",
+      "Seonmin Jang"
+    ],
+    "full_name": "Seon-Min Jang",
+    "works_count": 19,
+    "cited_by_count": 631,
+    "summary_stats": {
+      "2yr_mean_citedness": 15.571428571428571,
+      "h_index": 12,
+      "i10_index": 14
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5004640352",
+      "orcid": "https://orcid.org/0000-0002-1877-6988"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I130769515",
+          "ror": "https://ror.org/04p491231",
+          "display_name": "Pennsylvania State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I157725225",
+          "ror": "https://ror.org/047426m28",
+          "display_name": "University of Illinois Urbana-Champaign",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I157725225"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210129794",
+          "ror": "https://ror.org/03rs0fg31",
+          "display_name": "Division of Materials Science and Engineering",
+          "country_code": "AU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1292875679",
+            "https://openalex.org/I2801453606",
+            "https://openalex.org/I4210129794",
+            "https://openalex.org/I4387156119"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I44461941",
+          "ror": "https://ror.org/048sx0r50",
+          "display_name": "University of Houston",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I44461941"
+          ]
+        },
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I51226738",
+          "ror": "https://ror.org/03qvtpc38",
+          "display_name": "Dong-A University",
+          "country_code": "KR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I51226738"
+          ]
+        },
+        "years": [
+          2025,
+          2018,
+          2017
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I130769515",
+        "ror": "https://ror.org/04p491231",
+        "display_name": "Pennsylvania State University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I130769515"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I157725225",
+        "ror": "https://ror.org/047426m28",
+        "display_name": "University of Illinois Urbana-Champaign",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I157725225"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I51226738",
+        "ror": "https://ror.org/03qvtpc38",
+        "display_name": "Dong-A University",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I51226738"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10660",
+        "display_name": "Conducting polymers and applications",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2507",
+          "display_name": "Polymers and Plastics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11601",
+        "display_name": "Neuroscience and Neural Engineering",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2804",
+          "display_name": "Cellular and Molecular Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10107",
+        "display_name": "Ferroelectric and Piezoelectric Materials",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10502",
+        "display_name": "Advanced Memory and Neural Computing",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11608",
+        "display_name": "Dielectric materials and actuators",
+        "value": 3.75e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "value": 3.55e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10886",
+        "display_name": "Multiferroics and related materials",
+        "value": 2.48e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12183",
+        "display_name": "Teratomas and Epidermoid Cysts",
+        "value": 2.08e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2746",
+          "display_name": "Surgery"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11601",
+        "display_name": "Neuroscience and Neural Engineering",
+        "value": 2.07e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2804",
+          "display_name": "Cellular and Molecular Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.9231082201004028
+      },
+      {
+        "id": "49040817",
+        "wikidata": "https://www.wikidata.org/wiki/Q193091",
+        "display_name": "Optoelectronics",
+        "score": 0.6508359909057617
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.6496981978416443
+      },
+      {
+        "id": "159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "score": 0.4480293095111847
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.26677006483078003
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2017,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2018,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 20
+      },
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 216
+      },
+      {
+        "year": 2020,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2021,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 50
+      },
+      {
+        "year": 2022,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 126
+      },
+      {
+        "year": 2023,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 82
+      },
+      {
+        "year": 2024,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 51
+      },
+      {
+        "year": 2025,
+        "works_count": 6,
+        "oa_works_count": 4,
+        "cited_by_count": 58
+      }
+    ],
+    "display_name_alternatives": [
+      "Seon-Min Jang",
+      "Seonmin Jang"
+    ],
+    "block_key": "s jang",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5004640352",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2017-09-25T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "8667596",
+    "externalIds": {
+      "DBLP": [
+        "Seonmin Jang"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/8667596",
+    "name": "Seonmin Jang",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 4,
+    "citationCount": 65,
+    "hIndex": 4
+  }
+}

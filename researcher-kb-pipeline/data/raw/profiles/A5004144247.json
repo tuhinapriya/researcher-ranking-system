@@ -1,0 +1,304 @@
+{
+  "author_id": "A5004144247",
+  "openalex": {
+    "id": "https://openalex.org/A5004144247",
+    "orcid": "https://orcid.org/0000-0003-1074-2158",
+    "display_name": "Koustubh Phalak",
+    "raw_author_names": [
+      "Koustubh Phalak",
+      "Phalak, Koustubh"
+    ],
+    "full_name": "Phalak, Koustubh",
+    "works_count": 24,
+    "cited_by_count": 112,
+    "summary_stats": {
+      "2yr_mean_citedness": 1.0833333333333333,
+      "h_index": 5,
+      "i10_index": 3
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5004144247",
+      "orcid": "https://orcid.org/0000-0003-1074-2158"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I130769515",
+          "ror": "https://ror.org/04p491231",
+          "display_name": "Pennsylvania State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I130769515",
+        "ror": "https://ror.org/04p491231",
+        "display_name": "Pennsylvania State University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I130769515"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "count": 18,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10363",
+        "display_name": "Low-power high-performance VLSI design",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10382",
+        "display_name": "Quantum and electron transport phenomena",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10558",
+        "display_name": "Advancements in Semiconductor Devices and Circuit Design",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "value": 0.0001059,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "value": 4.87e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10363",
+        "display_name": "Low-power high-performance VLSI design",
+        "value": 3.54e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13182",
+        "display_name": "Quantum-Dot Cellular Automata",
+        "value": 2.17e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10533",
+        "display_name": "Teaching and Learning Programming",
+        "value": 1.71e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1706",
+          "display_name": "Computer Science Applications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.7796909809112549
+      },
+      {
+        "id": "84114770",
+        "wikidata": "https://www.wikidata.org/wiki/Q46344",
+        "display_name": "Quantum",
+        "score": 0.624725341796875
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.5388382077217102
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.2726631462574005
+      },
+      {
+        "id": "62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "score": 0.140085369348526
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2021,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2023,
+        "works_count": 8,
+        "oa_works_count": 7,
+        "cited_by_count": 87
+      },
+      {
+        "year": 2024,
+        "works_count": 7,
+        "oa_works_count": 4,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2025,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 6
+      }
+    ],
+    "display_name_alternatives": [
+      "Koustubh Phalak",
+      "Phalak, Koustubh"
+    ],
+    "block_key": "k phalak",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5004144247",
+    "updated_date": null,
+    "created_date": "2024-05-22T00:00:00"
+  },
+  "semantic_scholar": null
+}

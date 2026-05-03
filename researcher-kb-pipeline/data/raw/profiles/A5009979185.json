@@ -1,0 +1,393 @@
+{
+  "author_id": "A5009979185",
+  "openalex": {
+    "id": "https://openalex.org/A5009979185",
+    "orcid": "https://orcid.org/0000-0003-4096-3883",
+    "display_name": "David Yang Shu",
+    "raw_author_names": [
+      "David Shu",
+      "David Y. Shu",
+      "David Yang Shu",
+      "Shu, David Yang"
+    ],
+    "full_name": "Shu, David Yang",
+    "works_count": 28,
+    "cited_by_count": 598,
+    "summary_stats": {
+      "2yr_mean_citedness": 12.933333333333334,
+      "h_index": 10,
+      "i10_index": 10
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5009979185",
+      "orcid": "https://orcid.org/0000-0003-4096-3883"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I171892758",
+          "ror": "https://ror.org/02nv7yv05",
+          "display_name": "Forschungszentrum Jülich",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I171892758"
+          ]
+        },
+        "years": [
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I35440088",
+          "ror": "https://ror.org/05a28rw58",
+          "display_name": "ETH Zurich",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210153936",
+          "ror": "https://ror.org/0467x3v78",
+          "display_name": "Orthopädische Praxis",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210153936"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I887968799",
+          "ror": "https://ror.org/04xfq0f34",
+          "display_name": "RWTH Aachen University",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I887968799"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I35440088",
+        "ror": "https://ror.org/05a28rw58",
+        "display_name": "ETH Zurich",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I2799323385",
+          "https://openalex.org/I35440088"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11185",
+        "display_name": "Integrated Energy Systems Optimization",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10967",
+        "display_name": "Carbon Dioxide Capture Technologies",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10435",
+        "display_name": "Environmental Impact and Sustainability",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10603",
+        "display_name": "Smart Grid Energy Management",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11007",
+        "display_name": "Hybrid Renewable Energy Systems",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2102",
+          "display_name": "Energy Engineering and Power Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11185",
+        "display_name": "Integrated Energy Systems Optimization",
+        "value": 0.0001072,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10967",
+        "display_name": "Carbon Dioxide Capture Technologies",
+        "value": 6.46e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10435",
+        "display_name": "Environmental Impact and Sustainability",
+        "value": 3.83e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12643",
+        "display_name": "Sustainability and Ecological Systems Analysis",
+        "value": 3.23e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11007",
+        "display_name": "Hybrid Renewable Energy Systems",
+        "value": 2.78e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2102",
+          "display_name": "Energy Engineering and Power Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "score": 0.7304999828338623
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.5465540289878845
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.3502633571624756
+      },
+      {
+        "id": "162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "score": 0.2524000108242035
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.1534673571586609
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2018,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 37
+      },
+      {
+        "year": 2019,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2020,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 64
+      },
+      {
+        "year": 2021,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 67
+      },
+      {
+        "year": 2022,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 36
+      },
+      {
+        "year": 2023,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 196
+      },
+      {
+        "year": 2024,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 170
+      },
+      {
+        "year": 2025,
+        "works_count": 9,
+        "oa_works_count": 6,
+        "cited_by_count": 24
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "David Shu",
+      "David Y. Shu",
+      "David Yang Shu",
+      "Shu, David Yang"
+    ],
+    "block_key": "d shu",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5009979185",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2019-07-30T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2225781791",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2225781791",
+    "name": "David Yang Shu",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 1,
+    "citationCount": 0,
+    "hIndex": 0
+  }
+}

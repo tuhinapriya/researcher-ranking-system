@@ -1,0 +1,73 @@
+{
+  "author_id": "A5001009200",
+  "total_recent_works_analysed": 34,
+  "total_unique_collaborators": 62,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.12,
+    "corresponding_author_ratio": 0.38
+  },
+  "top_collaborators": [
+    {
+      "name": "Xiaowei Jia",
+      "id": "A5001445783",
+      "shared_papers": 17,
+      "same_institution": true
+    },
+    {
+      "name": "Vipin Kumar",
+      "id": "A5100645812",
+      "shared_papers": 17,
+      "same_institution": true
+    },
+    {
+      "name": "Michael Steinbach",
+      "id": "A5089436894",
+      "shared_papers": 11,
+      "same_institution": true
+    },
+    {
+      "name": "Jordan S. Read",
+      "id": "A5044490476",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Charuleka Varadharajan",
+      "id": "A5004975064",
+      "shared_papers": 10,
+      "same_institution": false
+    },
+    {
+      "name": "Jacob A. Zwart",
+      "id": "A5005617262",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Shaoming Xu",
+      "id": "A5074305244",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Helen Weierbach",
+      "id": "A5052213371",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Ankur Mahesh",
+      "id": "A5108146941",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "William D. Collins",
+      "id": "A5009132654",
+      "shared_papers": 6,
+      "same_institution": false
+    }
+  ]
+}

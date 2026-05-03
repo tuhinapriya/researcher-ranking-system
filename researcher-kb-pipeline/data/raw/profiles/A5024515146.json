@@ -1,0 +1,375 @@
+{
+  "author_id": "A5024515146",
+  "openalex": {
+    "id": "https://openalex.org/A5024515146",
+    "orcid": "https://orcid.org/0000-0001-6990-2019",
+    "display_name": "Harry James Gaffney",
+    "raw_author_names": [
+      "Harry Gaffney",
+      "Harry Gaffney, Sonja Klebe",
+      "Harry James Gaffney"
+    ],
+    "full_name": "Harry Gaffney, Sonja Klebe",
+    "works_count": 10,
+    "cited_by_count": 73,
+    "summary_stats": {
+      "2yr_mean_citedness": 5.0,
+      "h_index": 4,
+      "i10_index": 2
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5024515146",
+      "orcid": "https://orcid.org/0000-0001-6990-2019"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I129604602",
+          "ror": "https://ror.org/0384j8v12",
+          "display_name": "The University of Sydney",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I129604602"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1311436738",
+          "ror": "https://ror.org/03tb4gf50",
+          "display_name": "New South Wales Department of Health",
+          "country_code": "AU",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1311436738",
+            "https://openalex.org/I2801351115"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I169541294",
+          "ror": "https://ror.org/01kpzv902",
+          "display_name": "Flinders University",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I169541294"
+          ]
+        },
+        "years": [
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800249840",
+          "ror": "https://ror.org/04b0n4406",
+          "display_name": "Concord Repatriation General Hospital",
+          "country_code": "AU",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800249840"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I129604602",
+        "ror": "https://ror.org/0384j8v12",
+        "display_name": "The University of Sydney",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I129604602"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I1311436738",
+        "ror": "https://ror.org/03tb4gf50",
+        "display_name": "New South Wales Department of Health",
+        "country_code": "AU",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I1311436738",
+          "https://openalex.org/I2801351115"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I2800249840",
+        "ror": "https://ror.org/04b0n4406",
+        "display_name": "Concord Repatriation General Hospital",
+        "country_code": "AU",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I2800249840"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10827",
+        "display_name": "Patient-Provider Communication in Healthcare",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11991",
+        "display_name": "Soft tissue tumor case studies",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2745",
+          "display_name": "Rheumatology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11999",
+        "display_name": "Empathy and Medical Education",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2738",
+          "display_name": "Psychiatry and Mental health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10009",
+        "display_name": "Dementia and Cognitive Impairment Research",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2738",
+          "display_name": "Psychiatry and Mental health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10253",
+        "display_name": "Sarcoma Diagnosis and Treatment",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2740",
+          "display_name": "Pulmonary and Respiratory Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10827",
+        "display_name": "Patient-Provider Communication in Healthcare",
+        "value": 2.92e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11576",
+        "display_name": "IgG4-Related and Inflammatory Diseases",
+        "value": 1.91e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2745",
+          "display_name": "Rheumatology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12980",
+        "display_name": "Family Caregiving in Mental Illness",
+        "value": 1.84e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3203",
+          "display_name": "Clinical Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11991",
+        "display_name": "Soft tissue tumor case studies",
+        "value": 1.79e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2745",
+          "display_name": "Rheumatology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10737",
+        "display_name": "Health Literacy and Information Accessibility",
+        "value": 1.32e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "score": 0.7670427560806274
+      },
+      {
+        "id": "160735492",
+        "wikidata": "https://www.wikidata.org/wiki/Q31207",
+        "display_name": "Health care",
+        "score": 0.6789683103561401
+      },
+      {
+        "id": "159110408",
+        "wikidata": "https://www.wikidata.org/wiki/Q121176",
+        "display_name": "Nursing",
+        "score": 0.5512875914573669
+      },
+      {
+        "id": "74909509",
+        "wikidata": "https://www.wikidata.org/wiki/Q10387",
+        "display_name": "Gerontology",
+        "score": 0.4104214012622833
+      },
+      {
+        "id": "15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "score": 0.40853115916252136
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 35
+      },
+      {
+        "year": 2023,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 25
+      }
+    ],
+    "display_name_alternatives": [
+      "Harry Gaffney",
+      "Harry Gaffney, Sonja Klebe",
+      "Harry James Gaffney"
+    ],
+    "block_key": "s harry gaffney",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5024515146",
+    "updated_date": null,
+    "created_date": "2023-01-21T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2410276224",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2410276224",
+    "name": "Harry James Gaffney",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 1,
+    "citationCount": 0,
+    "hIndex": 0
+  }
+}

@@ -1,0 +1,687 @@
+{
+  "author_id": "A5007823743",
+  "openalex": {
+    "id": "https://openalex.org/A5007823743",
+    "orcid": "https://orcid.org/0000-0001-7189-5399",
+    "display_name": "Koichiro Tamura",
+    "display_name_alternatives": [
+      "K Tamura",
+      "K. Tamura",
+      "KOICHIRO TAMURA",
+      "Koichiro TAMURA",
+      "Koichiro Tamura",
+      "Tamura, K",
+      "田村 耕成"
+    ],
+    "works_count": 112,
+    "cited_by_count": 257438,
+    "summary_stats": {
+      "2yr_mean_citedness": 145.33333333333334,
+      "h_index": 40,
+      "i10_index": 70
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5007823743",
+      "orcid": "https://orcid.org/0000-0001-7189-5399"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I130769515",
+          "ror": "https://ror.org/04p491231",
+          "display_name": "Pennsylvania State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        "years": [
+          2004,
+          1994,
+          1993,
+          1992
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I185163786",
+          "ror": "https://ror.org/02ma4wv74",
+          "display_name": "King Abdulaziz University",
+          "country_code": "SA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I185163786"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I22299242",
+          "ror": "https://ror.org/02kpeqv85",
+          "display_name": "Kyoto University",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I22299242"
+          ]
+        },
+        "years": [
+          1992,
+          1990,
+          1989
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3133035077",
+          "ror": "https://ror.org/03sgcr744",
+          "display_name": "Ube Frontier University",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3133035077"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210118410",
+          "ror": "https://ror.org/01rfstj90",
+          "display_name": "Institut thématique Génétique, génomique et bioinformatique",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I4210118410"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I55732556",
+          "ror": "https://ror.org/03efmqc40",
+          "display_name": "Arizona State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I55732556"
+          ]
+        },
+        "years": [
+          2014,
+          2012,
+          2011,
+          2007,
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I59028336",
+          "ror": "https://ror.org/007m3p006",
+          "display_name": "Pratt Institute",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I59028336"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I64189623",
+          "ror": "https://ror.org/00f2txz25",
+          "display_name": "Kitasato University",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I64189623"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I69740276",
+          "ror": "https://ror.org/00ws30h19",
+          "display_name": "Tokyo Metropolitan University",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I69740276"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2002,
+          2001,
+          2000,
+          1998,
+          1992,
+          1991,
+          1988
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I74801974",
+          "ror": "https://ror.org/057zh3y96",
+          "display_name": "The University of Tokyo",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I74801974"
+          ]
+        },
+        "years": [
+          2020,
+          2018,
+          2017,
+          2014,
+          2009
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I69740276",
+        "ror": "https://ror.org/00ws30h19",
+        "display_name": "Tokyo Metropolitan University",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I69740276"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10015",
+        "display_name": "Genomics and Phylogenetic Studies",
+        "count": 47,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10012",
+        "display_name": "Genetic diversity and population structure",
+        "count": 40,
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11764",
+        "display_name": "Evolution and Genetic Dynamics",
+        "count": 22,
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11354",
+        "display_name": "Evolution and Paleontology Studies",
+        "count": 8,
+        "score": 0.9988999962806702,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1911",
+          "display_name": "Paleontology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10434",
+        "display_name": "Chromosomal and Genetic Variations",
+        "count": 7,
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T13027",
+        "display_name": "Applied Advanced Technologies",
+        "value": 0.0002504,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10012",
+        "display_name": "Genetic diversity and population structure",
+        "value": 0.0002211,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11764",
+        "display_name": "Evolution and Genetic Dynamics",
+        "value": 0.0001641,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10015",
+        "display_name": "Genomics and Phylogenetic Studies",
+        "value": 0.0001373,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11354",
+        "display_name": "Evolution and Paleontology Studies",
+        "value": 4.74e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1911",
+          "display_name": "Paleontology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.9696312546730042
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.7720121145248413
+      },
+      {
+        "id": "104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "score": 0.7415652871131897
+      },
+      {
+        "id": "54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "score": 0.7386401891708374
+      },
+      {
+        "id": "78458016",
+        "wikidata": "https://www.wikidata.org/wiki/Q840400",
+        "display_name": "Evolutionary biology",
+        "score": 0.6614511013031006
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1982,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1987,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1988,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 166
+      },
+      {
+        "year": 1989,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 204
+      },
+      {
+        "year": 1990,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 49
+      },
+      {
+        "year": 1991,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 10
+      },
+      {
+        "year": 1992,
+        "works_count": 5,
+        "oa_works_count": 2,
+        "cited_by_count": 2594
+      },
+      {
+        "year": 1993,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 11378
+      },
+      {
+        "year": 1994,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 1206
+      },
+      {
+        "year": 1995,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 1354
+      },
+      {
+        "year": 1997,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1998,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 37
+      },
+      {
+        "year": 1999,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 73
+      },
+      {
+        "year": 2000,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 113
+      },
+      {
+        "year": 2001,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 6122
+      },
+      {
+        "year": 2002,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 282
+      },
+      {
+        "year": 2003,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 596
+      },
+      {
+        "year": 2004,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 5416
+      },
+      {
+        "year": 2005,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 265
+      },
+      {
+        "year": 2006,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2007,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 28943
+      },
+      {
+        "year": 2008,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 3539
+      },
+      {
+        "year": 2009,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 765
+      },
+      {
+        "year": 2010,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2011,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 40390
+      },
+      {
+        "year": 2012,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 1050
+      },
+      {
+        "year": 2013,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 47503
+      },
+      {
+        "year": 2014,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 299
+      },
+      {
+        "year": 2015,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 87
+      },
+      {
+        "year": 2016,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 44509
+      },
+      {
+        "year": 2017,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 200
+      },
+      {
+        "year": 2018,
+        "works_count": 8,
+        "oa_works_count": 8,
+        "cited_by_count": 37307
+      },
+      {
+        "year": 2019,
+        "works_count": 8,
+        "oa_works_count": 6,
+        "cited_by_count": 1912
+      },
+      {
+        "year": 2020,
+        "works_count": 6,
+        "oa_works_count": 4,
+        "cited_by_count": 70
+      },
+      {
+        "year": 2021,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 20105
+      },
+      {
+        "year": 2023,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 864
+      },
+      {
+        "year": 2025,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 8
+      }
+    ],
+    "longest_name": "Koichiro Tamura",
+    "parsed_longest_name": {
+      "first": "koichiro",
+      "middle": "",
+      "last": "tamura",
+      "suffix": "",
+      "nickname": ""
+    },
+    "block_key": "k tamura",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5007823743",
+    "updated_date": "2026-02-05T12:22:15.111854",
+    "created_date": "2016-06-24"
+  },
+  "semantic_scholar": null
+}

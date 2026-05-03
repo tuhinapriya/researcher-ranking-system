@@ -1,0 +1,98 @@
+{
+  "author_id": "A5016599084",
+  "total_recent_works_analysed": 11,
+  "total_unique_collaborators": 27,
+  "estimated_mentee_count": 4,
+  "likely_mentees": [
+    {
+      "name": "Maximilian Adang",
+      "id": "A5115637547",
+      "works_count": 8,
+      "shared_papers": 3
+    },
+    {
+      "name": "Jun En Low",
+      "id": "A5037760482",
+      "works_count": 12,
+      "shared_papers": 2
+    },
+    {
+      "name": "T. Chen",
+      "id": "A5076466206",
+      "works_count": 16,
+      "shared_papers": 1
+    },
+    {
+      "name": "Aiden Swann",
+      "id": "A5071741409",
+      "works_count": 6,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.18,
+    "corresponding_author_ratio": 0.27
+  },
+  "top_collaborators": [
+    {
+      "name": "Mac Schwager",
+      "id": "A5081950488",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Javier Yu",
+      "id": "A5076107949",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Maximilian Adang",
+      "id": "A5115637547",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Ola Shorinwa",
+      "id": "A5055822817",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Jun En Low",
+      "id": "A5037760482",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Shannah Withrow-Maser",
+      "id": "A5026791382",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Carlos Malpica",
+      "id": "A5007448497",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "JunEn Low",
+      "id": "A5112189451",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Eric Cristofalo",
+      "id": "A5079200757",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "T. Chen",
+      "id": "A5076466206",
+      "shared_papers": 1,
+      "same_institution": true
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "author_id": "A5007257064",
+  "openalex": {
+    "id": "https://openalex.org/A5007257064",
+    "orcid": "https://orcid.org/0000-0002-9920-8682",
+    "display_name": "Fred Pashley‐Johnson",
+    "raw_author_names": [
+      "Fred Pashley-Johnson",
+      "Fred Pashley‐Johnson"
+    ],
+    "full_name": "Fred Pashley‐Johnson",
+    "works_count": 13,
+    "cited_by_count": 130,
+    "summary_stats": {
+      "2yr_mean_citedness": 9.666666666666666,
+      "h_index": 8,
+      "i10_index": 8
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5007257064",
+      "orcid": "https://orcid.org/0000-0002-9920-8682"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I12607205",
+          "ror": "https://ror.org/00rs45z86",
+          "display_name": "University College Ghent",
+          "country_code": "BE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I12607205"
+          ]
+        },
+        "years": [
+          2026
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I160993911",
+          "ror": "https://ror.org/03pnv4752",
+          "display_name": "Queensland University of Technology",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I160993911"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801227569",
+          "ror": "https://ror.org/00xmkp704",
+          "display_name": "Ghent University Hospital",
+          "country_code": "BE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801227569"
+          ]
+        },
+        "years": [
+          2026,
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I32597200",
+          "ror": "https://ror.org/00cv9y106",
+          "display_name": "Ghent University",
+          "country_code": "BE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I32597200"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39555362",
+          "ror": "https://ror.org/01a77tt86",
+          "display_name": "University of Warwick",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39555362"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210109804",
+          "ror": "https://ror.org/01x87jt81",
+          "display_name": "Institute of Macromolecular Chemistry",
+          "country_code": "UA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149851306",
+            "https://openalex.org/I4210109804"
+          ]
+        },
+        "years": [
+          2026,
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210119046",
+          "ror": "https://ror.org/01qvk6016",
+          "display_name": "Zero to Three",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210119046"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I12607205",
+        "ror": "https://ror.org/00rs45z86",
+        "display_name": "University College Ghent",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I12607205"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I160993911",
+        "ror": "https://ror.org/03pnv4752",
+        "display_name": "Queensland University of Technology",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I160993911"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I2801227569",
+        "ror": "https://ror.org/00xmkp704",
+        "display_name": "Ghent University Hospital",
+        "country_code": "BE",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I2801227569"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I32597200",
+        "ror": "https://ror.org/00cv9y106",
+        "display_name": "Ghent University",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I32597200"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210109804",
+        "ror": "https://ror.org/01x87jt81",
+        "display_name": "Institute of Macromolecular Chemistry",
+        "country_code": "UA",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I149851306",
+          "https://openalex.org/I4210109804"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11708",
+        "display_name": "Photochromic and Fluorescence Chemistry",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10701",
+        "display_name": "Radical Photochemical Reactions",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12236",
+        "display_name": "Photoreceptor and optogenetics research",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2804",
+          "display_name": "Cellular and Molecular Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11407",
+        "display_name": "Innovative Microfluidic and Catalytic Techniques Innovation",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10024",
+        "display_name": "TiO2 Photocatalysis and Solar Cells",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2105",
+          "display_name": "Renewable Energy, Sustainability and the Environment"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11708",
+        "display_name": "Photochromic and Fluorescence Chemistry",
+        "value": 6.74e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10701",
+        "display_name": "Radical Photochemical Reactions",
+        "value": 3.25e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12570",
+        "display_name": "Photopolymerization techniques and applications",
+        "value": 2.49e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11915",
+        "display_name": "Pickering emulsions and particle stabilization",
+        "value": 2.2e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12285",
+        "display_name": "Surface Chemistry and Catalysis",
+        "value": 1.81e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9772400856018066
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.7744538187980652
+      },
+      {
+        "id": "75473681",
+        "wikidata": "https://www.wikidata.org/wiki/Q188651",
+        "display_name": "Photochemistry",
+        "score": 0.7403798699378967
+      },
+      {
+        "id": "120665830",
+        "wikidata": "https://www.wikidata.org/wiki/Q14620",
+        "display_name": "Optics",
+        "score": 0.38254663348197937
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.25276750326156616
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 53
+      },
+      {
+        "year": 2025,
+        "works_count": 6,
+        "oa_works_count": 5,
+        "cited_by_count": 63
+      },
+      {
+        "year": 2026,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Fred Pashley-Johnson",
+      "Fred Pashley‐Johnson"
+    ],
+    "block_key": "f pashley‐johnson",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5007257064",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2281015308",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2281015308",
+    "name": "Fred Pashley-Johnson",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 11,
+    "citationCount": 77,
+    "hIndex": 7
+  }
+}

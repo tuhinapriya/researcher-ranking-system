@@ -1,0 +1,80 @@
+{
+  "author_id": "A5079288315",
+  "total_recent_works_analysed": 24,
+  "total_unique_collaborators": 256,
+  "estimated_mentee_count": 1,
+  "likely_mentees": [
+    {
+      "name": "Illia Polosukhin",
+      "id": "A5045719436",
+      "works_count": 20,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.08,
+    "corresponding_author_ratio": 0.04
+  },
+  "top_collaborators": [
+    {
+      "name": "Yarin Gal",
+      "id": "A5029186201",
+      "shared_papers": 15,
+      "same_institution": false
+    },
+    {
+      "name": "Pascal Notin",
+      "id": "A5067110406",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Nick Frosst",
+      "id": "A5034423912",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Ashish Vaswani",
+      "id": "A5103024730",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Noam Shazeer",
+      "id": "A5021878400",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Niki Parmar",
+      "id": "A5005777963",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Jakob Uszkoreit",
+      "id": "A5022416424",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Llion Jones",
+      "id": "A5023448834",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Jonathan Frazer",
+      "id": "A5050545474",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Mafalda Dias",
+      "id": "A5103039008",
+      "shared_papers": 4,
+      "same_institution": false
+    }
+  ]
+}

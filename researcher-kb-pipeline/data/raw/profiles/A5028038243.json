@@ -1,0 +1,441 @@
+{
+  "author_id": "A5028038243",
+  "openalex": {
+    "id": "https://openalex.org/A5028038243",
+    "orcid": "https://orcid.org/0000-0001-7639-1923",
+    "display_name": "Ryan R. Cupo",
+    "raw_author_names": [
+      "Ryan Cupo",
+      "Ryan R Cupo",
+      "Ryan R. Cupo"
+    ],
+    "full_name": "Ryan R. Cupo",
+    "works_count": 22,
+    "cited_by_count": 487,
+    "summary_stats": {
+      "2yr_mean_citedness": 4.5,
+      "h_index": 9,
+      "i10_index": 9
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5028038243",
+      "orcid": "https://orcid.org/0000-0001-7639-1923"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I149251103",
+          "ror": "https://ror.org/00ysqcn41",
+          "display_name": "Thomas Jefferson University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I149251103"
+          ]
+        },
+        "years": [
+          2017,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210110767",
+          "ror": "https://ror.org/01s5ya894",
+          "display_name": "National Institute of Neurological Disorders and Stroke",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210110767"
+          ]
+        },
+        "years": [
+          2026,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210142221",
+          "ror": "https://ror.org/03n87wv50",
+          "display_name": "Applied BioPhysics (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210142221"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210152124",
+          "ror": "https://ror.org/04q48ey07",
+          "display_name": "National Institute of General Medical Sciences",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210152124"
+          ]
+        },
+        "years": [
+          2026,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79576946",
+          "ror": "https://ror.org/00b30xv10",
+          "display_name": "University of Pennsylvania",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79576946"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I922845939",
+          "ror": "https://ror.org/03zzmyz63",
+          "display_name": "Philadelphia University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I922845939"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I4210110767",
+        "ror": "https://ror.org/01s5ya894",
+        "display_name": "National Institute of Neurological Disorders and Stroke",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I1299022934",
+          "https://openalex.org/I1299303238",
+          "https://openalex.org/I4210110767"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210152124",
+        "ror": "https://ror.org/04q48ey07",
+        "display_name": "National Institute of General Medical Sciences",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I1299022934",
+          "https://openalex.org/I1299303238",
+          "https://openalex.org/I4210152124"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10301",
+        "display_name": "Mitochondrial Function and Pathology",
+        "count": 13,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11150",
+        "display_name": "Endoplasmic Reticulum Stress and Disease",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1307",
+          "display_name": "Cell Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12763",
+        "display_name": "ATP Synthase and ATPases Research",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11027",
+        "display_name": "Metabolism and Genetic Disorders",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1308",
+          "display_name": "Clinical Biochemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10934",
+        "display_name": "Heat shock proteins research",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12763",
+        "display_name": "ATP Synthase and ATPases Research",
+        "value": 4.75e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11150",
+        "display_name": "Endoplasmic Reticulum Stress and Disease",
+        "value": 4.62e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1307",
+          "display_name": "Cell Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10301",
+        "display_name": "Mitochondrial Function and Pathology",
+        "value": 3.64e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10934",
+        "display_name": "Heat shock proteins research",
+        "value": 3.37e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10855",
+        "display_name": "Amyotrophic Lateral Sclerosis Research",
+        "value": 3.03e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2728",
+          "display_name": "Neurology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.9270320534706116
+      },
+      {
+        "id": "95444343",
+        "wikidata": "https://www.wikidata.org/wiki/Q7141",
+        "display_name": "Cell biology",
+        "score": 0.6190000176429749
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.5853671431541443
+      },
+      {
+        "id": "55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "score": 0.4772505760192871
+      },
+      {
+        "id": "104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "score": 0.2669000029563904
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2014,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2015,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2017,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 252
+      },
+      {
+        "year": 2018,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2020,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 100
+      },
+      {
+        "year": 2021,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 55
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 28
+      },
+      {
+        "year": 2023,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2025,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 20
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      }
+    ],
+    "display_name_alternatives": [
+      "Ryan Cupo",
+      "Ryan R Cupo",
+      "Ryan R. Cupo"
+    ],
+    "block_key": "r cupo",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5028038243",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2021-06-22T00:00:00"
+  },
+  "semantic_scholar": null
+}

@@ -1,0 +1,376 @@
+{
+  "author_id": "A5002930580",
+  "openalex": {
+    "id": "https://openalex.org/A5002930580",
+    "orcid": "https://orcid.org/0000-0002-5632-9345",
+    "display_name": "Yun-Liang Zheng",
+    "raw_author_names": [
+      "Y. Zheng",
+      "Yun-Liang Zheng",
+      "Yun-Liang 云亮 Zheng 郑",
+      "Yun-Liang 亮 Zheng 郑云",
+      "Yunliang 云亮 Zheng 郑",
+      "Zheng, Yingtao",
+      "Zheng, Yunliang"
+    ],
+    "full_name": "Yun-Liang Zheng",
+    "works_count": 10,
+    "cited_by_count": 64,
+    "summary_stats": {
+      "2yr_mean_citedness": 8.5,
+      "h_index": 4,
+      "i10_index": 2
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5002930580",
+      "orcid": "https://orcid.org/0000-0002-5632-9345"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I183067930",
+          "ror": "https://ror.org/0220qvk04",
+          "display_name": "Shanghai Jiao Tong University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I183067930"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2799714274",
+          "ror": "https://ror.org/003n8re58",
+          "display_name": "Shanghai Astronomical Observatory",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I2799714274"
+          ]
+        },
+        "years": [
+          2025,
+          2022,
+          2021,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165038",
+          "ror": "https://ror.org/05qbk4x57",
+          "display_name": "University of Chinese Academy of Sciences",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I4210165038"
+          ]
+        },
+        "years": [
+          2022,
+          2021,
+          2020
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I183067930",
+        "ror": "https://ror.org/0220qvk04",
+        "display_name": "Shanghai Jiao Tong University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I183067930"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I2799714274",
+        "ror": "https://ror.org/003n8re58",
+        "display_name": "Shanghai Astronomical Observatory",
+        "country_code": "CN",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I19820366",
+          "https://openalex.org/I2799714274"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10039",
+        "display_name": "Stellar, planetary, and galactic studies",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10744",
+        "display_name": "Astrophysical Phenomena and Observations",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10818",
+        "display_name": "Astrophysics and Cosmic Phenomena",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3106",
+          "display_name": "Nuclear and High Energy Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "value": 3.15e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10637",
+        "display_name": "Advanced Clustering Algorithms Research",
+        "value": 1.76e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11484",
+        "display_name": "Adaptive optics and wavefront sensing",
+        "value": 1.75e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "value": 1.55e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10744",
+        "display_name": "Astrophysical Phenomena and Observations",
+        "value": 1.17e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9571762084960938
+      },
+      {
+        "id": "44870925",
+        "wikidata": "https://www.wikidata.org/wiki/Q37547",
+        "display_name": "Astrophysics",
+        "score": 0.8300244212150574
+      },
+      {
+        "id": "98444146",
+        "wikidata": "https://www.wikidata.org/wiki/Q318",
+        "display_name": "Galaxy",
+        "score": 0.6987029910087585
+      },
+      {
+        "id": "184665706",
+        "wikidata": "https://www.wikidata.org/wiki/Q186310",
+        "display_name": "Halo",
+        "score": 0.6905778050422668
+      },
+      {
+        "id": "12287442",
+        "wikidata": "https://www.wikidata.org/wiki/Q105902",
+        "display_name": "Luminosity",
+        "score": 0.6560527086257935
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2020,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2021,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2023,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2025,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 22
+      }
+    ],
+    "display_name_alternatives": [
+      "Y. Zheng",
+      "Yun-Liang Zheng",
+      "Yun-Liang 云亮 Zheng 郑",
+      "Yun-Liang 亮 Zheng 郑云",
+      "Yunliang 云亮 Zheng 郑",
+      "Zheng, Yingtao",
+      "Zheng, Yunliang"
+    ],
+    "block_key": "y zheng",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5002930580",
+    "updated_date": "2026-04-10T12:21:58",
+    "created_date": "2021-03-01T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "134343936",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/134343936",
+    "name": "LI Zheng-yun",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 6,
+    "citationCount": 0,
+    "hIndex": 0
+  }
+}

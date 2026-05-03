@@ -1,0 +1,176 @@
+{
+  "author_id": "A5018894191",
+  "total_recent_works_analysed": 24,
+  "total_unique_collaborators": 66,
+  "estimated_mentee_count": 17,
+  "likely_mentees": [
+    {
+      "name": "Balamurugan Palanisamy",
+      "id": "A5026365297",
+      "works_count": 7,
+      "shared_papers": 3
+    },
+    {
+      "name": "Abenezer Golda",
+      "id": "A5094243982",
+      "works_count": 2,
+      "shared_papers": 1
+    },
+    {
+      "name": "Kidus Abebe Mekonen",
+      "id": "A5094243983",
+      "works_count": 2,
+      "shared_papers": 1
+    },
+    {
+      "name": "Tridib Kumar Das",
+      "id": "A5074146831",
+      "works_count": 11,
+      "shared_papers": 1
+    },
+    {
+      "name": "Gautam Kumar",
+      "id": "A5114429844",
+      "works_count": 2,
+      "shared_papers": 1
+    },
+    {
+      "name": "Sahil Yadav",
+      "id": "A5104286259",
+      "works_count": 2,
+      "shared_papers": 1
+    },
+    {
+      "name": "Aishik Ghosh",
+      "id": "A5107361922",
+      "works_count": 5,
+      "shared_papers": 1
+    },
+    {
+      "name": "Prateek Singh",
+      "id": "A5103274382",
+      "works_count": 7,
+      "shared_papers": 1
+    },
+    {
+      "name": "R. Dasgupta",
+      "id": "A5101695814",
+      "works_count": 6,
+      "shared_papers": 1
+    },
+    {
+      "name": "Arpita Mandal",
+      "id": "A5074402035",
+      "works_count": 7,
+      "shared_papers": 1
+    },
+    {
+      "name": "Raja Piyush",
+      "id": "A5116460279",
+      "works_count": 3,
+      "shared_papers": 1
+    },
+    {
+      "name": "Amaldeep Patra",
+      "id": "A5106871419",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Anjali Pandey",
+      "id": "A5089569866",
+      "works_count": 3,
+      "shared_papers": 1
+    },
+    {
+      "name": "Rajdipta De",
+      "id": "A5111367158",
+      "works_count": 2,
+      "shared_papers": 1
+    },
+    {
+      "name": "Souptik Datta",
+      "id": "A5109249372",
+      "works_count": 12,
+      "shared_papers": 1
+    },
+    {
+      "name": "Abiy Abinet Mamo",
+      "id": "A5099254377",
+      "works_count": 4,
+      "shared_papers": 1
+    },
+    {
+      "name": "Bealu Girma Gebresilassie",
+      "id": "A5099254378",
+      "works_count": 2,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.08,
+    "corresponding_author_ratio": 0.12
+  },
+  "top_collaborators": [
+    {
+      "name": "Vinay Chamola",
+      "id": "A5005020243",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "GSS Chalapathi",
+      "id": "A5059170253",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "Qaiser Razi",
+      "id": "A5071397336",
+      "shared_papers": 8,
+      "same_institution": false
+    },
+    {
+      "name": "Anushka Singh",
+      "id": "A5101731414",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Biplab Sikdar",
+      "id": "A5041189303",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Mohsen Guizani",
+      "id": "A5057916222",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Balamurugan Palanisamy",
+      "id": "A5026365297",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "A. Chakrabarti",
+      "id": "A5054472039",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Amit Pandey",
+      "id": "A5013182572",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Siva Sai",
+      "id": "A5080357343",
+      "shared_papers": 2,
+      "same_institution": false
+    }
+  ]
+}

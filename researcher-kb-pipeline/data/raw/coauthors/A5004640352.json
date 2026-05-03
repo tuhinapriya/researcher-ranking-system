@@ -1,0 +1,73 @@
+{
+  "author_id": "A5004640352",
+  "total_recent_works_analysed": 15,
+  "total_unique_collaborators": 87,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.13
+  },
+  "top_collaborators": [
+    {
+      "name": "Cunjiang Yu",
+      "id": "A5100653336",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Hyunseok Shim",
+      "id": "A5090364972",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Shubham Patel",
+      "id": "A5101863518",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Zhoulyu Rao",
+      "id": "A5042121452",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Faheem Ershad",
+      "id": "A5045805415",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Kyoseung Sim",
+      "id": "A5062645264",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Su Chul Yang",
+      "id": "A5102899143",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Lei Gonzalez",
+      "id": "A5042599035",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Abdelmotagaly Elgalad",
+      "id": "A5065720202",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Yu Shrike Zhang",
+      "id": "A5067842712",
+      "shared_papers": 3,
+      "same_institution": false
+    }
+  ]
+}

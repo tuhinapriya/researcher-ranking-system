@@ -1,0 +1,1080 @@
+{
+  "id": "https://openalex.org/I110152177",
+  "ror": "https://ror.org/02kyckx55",
+  "display_name": "University of Akron",
+  "country_code": "US",
+  "type": "education",
+  "type_id": "https://openalex.org/institution-types/education",
+  "lineage": [
+    "https://openalex.org/I110152177"
+  ],
+  "homepage_url": "http://www.uakron.edu/",
+  "image_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/University%20of%20Akron%20logo.svg",
+  "image_thumbnail_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/University%20of%20Akron%20logo.svg&width=300",
+  "display_name_acronyms": [],
+  "display_name_alternatives": [
+    "University of Akron"
+  ],
+  "repositories": [],
+  "works_count": 34242,
+  "cited_by_count": 1874059,
+  "summary_stats": {
+    "2yr_mean_citedness": 3.0433251144769287,
+    "h_index": 368,
+    "i10_index": 32365
+  },
+  "ids": {
+    "openalex": "https://openalex.org/I110152177",
+    "ror": "https://ror.org/02kyckx55",
+    "grid": "grid.265881.0",
+    "wikipedia": "http://en.wikipedia.org/wiki/University_of_Akron",
+    "wikidata": null
+  },
+  "geo": {
+    "city": "Akron",
+    "geonames_city_id": "5145476",
+    "region": "Ohio",
+    "country_code": "US",
+    "country": "United States",
+    "latitude": 41.08144,
+    "longitude": -81.51901
+  },
+  "international": {},
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I2802096936",
+      "ror": "https://ror.org/0561zqn56",
+      "display_name": "University System of Ohio",
+      "country_code": "US",
+      "type": "education",
+      "relationship": "parent"
+    },
+    {
+      "id": "https://openalex.org/I4210098750",
+      "ror": "https://ror.org/0107t3e14",
+      "display_name": "Akron Children's Hospital",
+      "country_code": "US",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210158374",
+      "ror": "https://ror.org/059xepj08",
+      "display_name": "Cleveland Clinic Akron General",
+      "country_code": "US",
+      "type": "healthcare",
+      "relationship": "related"
+    }
+  ],
+  "counts_by_year": [
+    {
+      "year": 2027,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2026,
+      "works_count": 150,
+      "oa_works_count": 92,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2025,
+      "works_count": 652,
+      "oa_works_count": 350,
+      "cited_by_count": 1048
+    },
+    {
+      "year": 2024,
+      "works_count": 730,
+      "oa_works_count": 386,
+      "cited_by_count": 3441
+    },
+    {
+      "year": 2023,
+      "works_count": 715,
+      "oa_works_count": 373,
+      "cited_by_count": 6442
+    },
+    {
+      "year": 2022,
+      "works_count": 679,
+      "oa_works_count": 259,
+      "cited_by_count": 12445
+    },
+    {
+      "year": 2021,
+      "works_count": 796,
+      "oa_works_count": 353,
+      "cited_by_count": 26340
+    },
+    {
+      "year": 2020,
+      "works_count": 1071,
+      "oa_works_count": 419,
+      "cited_by_count": 21245
+    },
+    {
+      "year": 2019,
+      "works_count": 966,
+      "oa_works_count": 310,
+      "cited_by_count": 21212
+    },
+    {
+      "year": 2018,
+      "works_count": 1159,
+      "oa_works_count": 350,
+      "cited_by_count": 26434
+    },
+    {
+      "year": 2017,
+      "works_count": 1172,
+      "oa_works_count": 372,
+      "cited_by_count": 28762
+    },
+    {
+      "year": 2016,
+      "works_count": 1373,
+      "oa_works_count": 524,
+      "cited_by_count": 28388
+    },
+    {
+      "year": 2015,
+      "works_count": 1527,
+      "oa_works_count": 529,
+      "cited_by_count": 36194
+    },
+    {
+      "year": 2014,
+      "works_count": 1365,
+      "oa_works_count": 475,
+      "cited_by_count": 33276
+    },
+    {
+      "year": 2013,
+      "works_count": 1339,
+      "oa_works_count": 499,
+      "cited_by_count": 35573
+    },
+    {
+      "year": 2012,
+      "works_count": 1167,
+      "oa_works_count": 408,
+      "cited_by_count": 32725
+    },
+    {
+      "year": 2011,
+      "works_count": 1128,
+      "oa_works_count": 387,
+      "cited_by_count": 30153
+    },
+    {
+      "year": 2010,
+      "works_count": 989,
+      "oa_works_count": 317,
+      "cited_by_count": 26765
+    }
+  ],
+  "roles": [
+    {
+      "role": "funder",
+      "id": "https://openalex.org/F4320310824",
+      "works_count": 2300
+    },
+    {
+      "role": "institution",
+      "id": "https://openalex.org/I110152177",
+      "works_count": 34242
+    },
+    {
+      "role": "publisher",
+      "id": "https://openalex.org/P4363609265",
+      "works_count": 1409
+    }
+  ],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10389",
+      "display_name": "Polymer crystallization and properties",
+      "count": 1429,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10501",
+      "display_name": "Polymer Nanocomposites and Properties",
+      "count": 1287,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10405",
+      "display_name": "Advanced Polymer Synthesis and Characterization",
+      "count": 951,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10661",
+      "display_name": "biodegradable polymer synthesis and properties",
+      "count": 813,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2502",
+        "display_name": "Biomaterials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11379",
+      "display_name": "Rheology and Fluid Dynamics Studies",
+      "count": 795,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1507",
+        "display_name": "Fluid Flow and Transfer Processes"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/15",
+        "display_name": "Chemical Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12084",
+      "display_name": "Synthesis and properties of polymers",
+      "count": 603,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10338",
+      "display_name": "Advanced Sensor and Energy Harvesting Materials",
+      "count": 555,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12420",
+      "display_name": "Silicone and Siloxane Chemistry",
+      "count": 509,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10810",
+      "display_name": "Polymer composites and self-healing",
+      "count": 504,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10474",
+      "display_name": "Material Dynamics and Properties",
+      "count": 501,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10219",
+      "display_name": "Mechanical Behavior of Composites",
+      "count": 468,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10660",
+      "display_name": "Conducting polymers and applications",
+      "count": 451,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10729",
+      "display_name": "Electrospun Nanofibers in Biomedical Applications",
+      "count": 449,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2502",
+        "display_name": "Biomaterials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10859",
+      "display_name": "Polymer Surface Interaction Studies",
+      "count": 419,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2508",
+        "display_name": "Surfaces, Coatings and Films"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10092",
+      "display_name": "Organometallic Complex Synthesis and Catalysis",
+      "count": 372,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11799",
+      "display_name": "Adhesion, Friction, and Surface Interactions",
+      "count": 371,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11549",
+      "display_name": "Synthetic Organic Chemistry Methods",
+      "count": 369,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10923",
+      "display_name": "Force Microscopy Techniques and Applications",
+      "count": 368,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10313",
+      "display_name": "Surface Modification and Superhydrophobicity",
+      "count": 362,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2508",
+        "display_name": "Surfaces, Coatings and Films"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10514",
+      "display_name": "Numerical methods in engineering",
+      "count": 360,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10278",
+      "display_name": "Electric Motor Design and Analysis",
+      "count": 349,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11471",
+      "display_name": "Block Copolymer Self-Assembly",
+      "count": 306,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10306",
+      "display_name": "Liquid Crystal Research Advancements",
+      "count": 301,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2504",
+        "display_name": "Electronic, Optical and Magnetic Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11145",
+      "display_name": "Epoxy Resin Curing Processes",
+      "count": 286,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10310",
+      "display_name": "Corrosion Behavior and Inhibition",
+      "count": 285,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T10389",
+      "display_name": "Polymer crystallization and properties",
+      "value": 0.0101773,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11471",
+      "display_name": "Block Copolymer Self-Assembly",
+      "value": 0.0085609,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10501",
+      "display_name": "Polymer Nanocomposites and Properties",
+      "value": 0.0083105,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11379",
+      "display_name": "Rheology and Fluid Dynamics Studies",
+      "value": 0.0072373,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1507",
+        "display_name": "Fluid Flow and Transfer Processes"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/15",
+        "display_name": "Chemical Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10405",
+      "display_name": "Advanced Polymer Synthesis and Characterization",
+      "value": 0.0071967,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12420",
+      "display_name": "Silicone and Siloxane Chemistry",
+      "value": 0.0061374,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13587",
+      "display_name": "Q Methodology Applications",
+      "value": 0.0058628,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10810",
+      "display_name": "Polymer composites and self-healing",
+      "value": 0.0058199,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12628",
+      "display_name": "Polymer Foaming and Composites",
+      "value": 0.0048601,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12084",
+      "display_name": "Synthesis and properties of polymers",
+      "value": 0.0046882,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11145",
+      "display_name": "Epoxy Resin Curing Processes",
+      "value": 0.004323,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11686",
+      "display_name": "Dendrimers and Hyperbranched Polymers",
+      "value": 0.0042615,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10859",
+      "display_name": "Polymer Surface Interaction Studies",
+      "value": 0.0041579,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2508",
+        "display_name": "Surfaces, Coatings and Films"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13171",
+      "display_name": "Polymer Science and PVC",
+      "value": 0.0038195,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12570",
+      "display_name": "Photopolymerization techniques and applications",
+      "value": 0.0038077,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10661",
+      "display_name": "biodegradable polymer synthesis and properties",
+      "value": 0.0036971,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2502",
+        "display_name": "Biomaterials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10474",
+      "display_name": "Material Dynamics and Properties",
+      "value": 0.0033504,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11295",
+      "display_name": "Counseling Practices and Supervision",
+      "value": 0.0033364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10219",
+      "display_name": "Mechanical Behavior of Composites",
+      "value": 0.0032784,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11419",
+      "display_name": "Supramolecular Self-Assembly in Materials",
+      "value": 0.0032161,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2502",
+        "display_name": "Biomaterials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11366",
+      "display_name": "Elasticity and Material Modeling",
+      "value": 0.0031582,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11799",
+      "display_name": "Adhesion, Friction, and Surface Interactions",
+      "value": 0.0030725,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12106",
+      "display_name": "Surface Treatment and Residual Stress",
+      "value": 0.0029015,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10578",
+      "display_name": "Supramolecular Chemistry and Complexes",
+      "value": 0.0028691,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10313",
+      "display_name": "Surface Modification and Superhydrophobicity",
+      "value": 0.00283,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2508",
+        "display_name": "Surfaces, Coatings and Films"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "is_super_system": false,
+  "status": "active",
+  "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I110152177",
+  "updated_date": "2026-04-12T05:59:47",
+  "created_date": "2016-06-24T00:00:00"
+}

@@ -1,0 +1,312 @@
+{
+  "author_id": "A5021895024",
+  "openalex": {
+    "id": "https://openalex.org/A5021895024",
+    "orcid": null,
+    "display_name": "Bo Lim Lee",
+    "raw_author_names": [
+      "Bo Lim Lee"
+    ],
+    "full_name": "Bo Lim Lee",
+    "works_count": 8,
+    "cited_by_count": 599,
+    "summary_stats": {
+      "2yr_mean_citedness": 5.25,
+      "h_index": 5,
+      "i10_index": 5
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5021895024",
+      "orcid": null
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I79576946",
+          "ror": "https://ror.org/00b30xv10",
+          "display_name": "University of Pennsylvania",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79576946"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2021
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I79576946",
+        "ror": "https://ror.org/00b30xv10",
+        "display_name": "University of Pennsylvania",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I79576946"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10855",
+        "display_name": "Amyotrophic Lateral Sclerosis Research",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2728",
+          "display_name": "Neurology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10604",
+        "display_name": "RNA Research and Splicing",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13157",
+        "display_name": "Cancer-related gene regulation",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11335",
+        "display_name": "Prion Diseases and Protein Misfolding",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10269",
+        "display_name": "Epigenetics and DNA Methylation",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10855",
+        "display_name": "Amyotrophic Lateral Sclerosis Research",
+        "value": 9.1e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2728",
+          "display_name": "Neurology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11335",
+        "display_name": "Prion Diseases and Protein Misfolding",
+        "value": 3.3e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13157",
+        "display_name": "Cancer-related gene regulation",
+        "value": 1.91e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10604",
+        "display_name": "RNA Research and Splicing",
+        "value": 1.76e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11736",
+        "display_name": "Histone Deacetylase Inhibitors Research",
+        "value": 1.15e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.8004999756813049
+      },
+      {
+        "id": "67705224",
+        "wikidata": "https://www.wikidata.org/wiki/Q11053",
+        "display_name": "RNA",
+        "score": 0.7822999954223633
+      },
+      {
+        "id": "95444343",
+        "wikidata": "https://www.wikidata.org/wiki/Q7141",
+        "display_name": "Cell biology",
+        "score": 0.6008014678955078
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.4374625086784363
+      },
+      {
+        "id": "104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "score": 0.3746541738510132
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 564
+      },
+      {
+        "year": 2023,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2024,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 3
+      }
+    ],
+    "display_name_alternatives": [
+      "Bo Lim Lee"
+    ],
+    "block_key": "b lee",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5021895024",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2316778281",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2316778281",
+    "name": "Bo Lim Lee",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 2,
+    "citationCount": 4,
+    "hIndex": 1
+  }
+}

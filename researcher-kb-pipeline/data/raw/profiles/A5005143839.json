@@ -1,0 +1,559 @@
+{
+  "author_id": "A5005143839",
+  "openalex": {
+    "id": "https://openalex.org/A5005143839",
+    "orcid": "https://orcid.org/0000-0003-4456-1179",
+    "display_name": "Khalil Alipour",
+    "raw_author_names": [
+      "Alipour, Khalil",
+      "K. Alipour",
+      "Khalil Alipour"
+    ],
+    "full_name": "Alipour, Khalil",
+    "works_count": 139,
+    "cited_by_count": 1490,
+    "summary_stats": {
+      "2yr_mean_citedness": 4.571428571428571,
+      "h_index": 20,
+      "i10_index": 46
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5005143839",
+      "orcid": "https://orcid.org/0000-0003-4456-1179"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I110525433",
+          "ror": "https://ror.org/01kzn7k21",
+          "display_name": "Islamic Azad University, Tehran",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110525433"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1326498283",
+          "ror": "https://ror.org/02kvxyf05",
+          "display_name": "Institut national de recherche en informatique et en automatique",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1326498283"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I133529467",
+          "ror": "https://ror.org/024c2fq17",
+          "display_name": "Sharif University of Technology",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I133529467"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I197220011",
+          "ror": "https://ror.org/023kjn321",
+          "display_name": "Qazvin Islamic Azad University",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110525433",
+            "https://openalex.org/I197220011"
+          ]
+        },
+        "years": [
+          2018,
+          2016,
+          2013,
+          2012,
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I23946033",
+          "ror": "https://ror.org/05vf56z40",
+          "display_name": "University of Tehran",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I23946033"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39804081",
+          "ror": "https://ror.org/02en5vm52",
+          "display_name": "Sorbonne Université",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39804081"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39965400",
+          "ror": "https://ror.org/03rcspa57",
+          "display_name": "Kettering University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39965400"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I64532579",
+          "ror": "https://ror.org/04sexa105",
+          "display_name": "Qazvin University of Medical Sciences",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210110574",
+            "https://openalex.org/I64532579"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I67009956",
+          "ror": "https://ror.org/01jw2p796",
+          "display_name": "Iran University of Science and Technology",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I67009956"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I80543232",
+          "ror": "https://ror.org/0433abe34",
+          "display_name": "K.N.Toosi University of Technology",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I80543232"
+          ]
+        },
+        "years": [
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I23946033",
+        "ror": "https://ror.org/05vf56z40",
+        "display_name": "University of Tehran",
+        "country_code": "IR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I23946033"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I67009956",
+        "ror": "https://ror.org/01jw2p796",
+        "display_name": "Iran University of Science and Technology",
+        "country_code": "IR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I67009956"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11615",
+        "display_name": "Control and Dynamics of Mobile Robots",
+        "count": 47,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10586",
+        "display_name": "Robotic Path Planning Algorithms",
+        "count": 36,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10879",
+        "display_name": "Robotic Locomotion and Control",
+        "count": 31,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11196",
+        "display_name": "Non-Invasive Vital Sign Monitoring",
+        "count": 25,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11394",
+        "display_name": "Dynamics and Control of Mechanical Systems",
+        "count": 16,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11615",
+        "display_name": "Control and Dynamics of Mobile Robots",
+        "value": 0.0005256,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10879",
+        "display_name": "Robotic Locomotion and Control",
+        "value": 0.0004007,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12794",
+        "display_name": "Adaptive Dynamic Programming Control",
+        "value": 0.0001879,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11196",
+        "display_name": "Non-Invasive Vital Sign Monitoring",
+        "value": 0.0001687,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11023",
+        "display_name": "Prosthetics and Rehabilitation Robotics",
+        "value": 0.000165,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "47446073",
+        "wikidata": "https://www.wikidata.org/wiki/Q5165890",
+        "display_name": "Control theory (sociology)",
+        "score": 0.828508734703064
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.7892701625823975
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.7203999757766724
+      },
+      {
+        "id": "2775924081",
+        "wikidata": "https://www.wikidata.org/wiki/Q55608371",
+        "display_name": "Control (management)",
+        "score": 0.5992554426193237
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.4985537528991699
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2006,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 71
+      },
+      {
+        "year": 2007,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 87
+      },
+      {
+        "year": 2008,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 55
+      },
+      {
+        "year": 2009,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 24
+      },
+      {
+        "year": 2010,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2011,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 58
+      },
+      {
+        "year": 2012,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 34
+      },
+      {
+        "year": 2013,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2014,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2015,
+        "works_count": 9,
+        "oa_works_count": 0,
+        "cited_by_count": 84
+      },
+      {
+        "year": 2016,
+        "works_count": 10,
+        "oa_works_count": 0,
+        "cited_by_count": 92
+      },
+      {
+        "year": 2017,
+        "works_count": 13,
+        "oa_works_count": 0,
+        "cited_by_count": 123
+      },
+      {
+        "year": 2018,
+        "works_count": 7,
+        "oa_works_count": 0,
+        "cited_by_count": 109
+      },
+      {
+        "year": 2019,
+        "works_count": 8,
+        "oa_works_count": 0,
+        "cited_by_count": 280
+      },
+      {
+        "year": 2020,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 141
+      },
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2022,
+        "works_count": 12,
+        "oa_works_count": 3,
+        "cited_by_count": 112
+      },
+      {
+        "year": 2023,
+        "works_count": 9,
+        "oa_works_count": 1,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2024,
+        "works_count": 17,
+        "oa_works_count": 7,
+        "cited_by_count": 101
+      },
+      {
+        "year": 2025,
+        "works_count": 18,
+        "oa_works_count": 11,
+        "cited_by_count": 59
+      }
+    ],
+    "display_name_alternatives": [
+      "Alipour, Khalil",
+      "K. Alipour",
+      "Khalil Alipour"
+    ],
+    "block_key": "k alipour",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5005143839",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-08-23T00:00:00"
+  },
+  "semantic_scholar": null
+}

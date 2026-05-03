@@ -1,0 +1,753 @@
+{
+  "author_id": "A5000189848",
+  "openalex": {
+    "id": "https://openalex.org/A5000189848",
+    "orcid": "https://orcid.org/0000-0001-6836-5151",
+    "display_name": "Hung Tran",
+    "raw_author_names": [
+      "H. Tran",
+      "H.V. Tran",
+      "Hang Minh Thi Tran",
+      "Hang Tran",
+      "Hung Tran",
+      "Hung Vinh Tran",
+      "Tran, Hung",
+      "Tran, Hung Vinh"
+    ],
+    "full_name": "Hang Minh Thi Tran",
+    "works_count": 112,
+    "cited_by_count": 1077,
+    "summary_stats": {
+      "2yr_mean_citedness": 1.565217391304348,
+      "h_index": 17,
+      "i10_index": 30
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5000189848",
+      "orcid": "https://orcid.org/0000-0001-6836-5151"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I114090438",
+          "ror": "https://ror.org/04cvxnb49",
+          "display_name": "Goethe University Frankfurt",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114090438"
+          ]
+        },
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1341412227",
+          "ror": "https://ror.org/05hh8d621",
+          "display_name": "IBM (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1341412227"
+          ]
+        },
+        "years": [
+          2024,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I135598925",
+          "ror": "https://ror.org/00p4k0j84",
+          "display_name": "Kyushu University",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135598925"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I138622004",
+          "ror": "https://ror.org/021xbwv17",
+          "display_name": "National Economics University",
+          "country_code": "VN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I138622004"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I149704539",
+          "ror": "https://ror.org/02czsnj07",
+          "display_name": "Deakin University",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I149704539"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I159129438",
+          "ror": "https://ror.org/002rjbv21",
+          "display_name": "Université du Québec à Montréal",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I159129438",
+            "https://openalex.org/I49663120"
+          ]
+        },
+        "years": [
+          2017,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I177233841",
+          "ror": "https://ror.org/02jmfj006",
+          "display_name": "Vietnam National University, Hanoi",
+          "country_code": "VN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177233841"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I178169726",
+          "ror": "https://ror.org/042tdr378",
+          "display_name": "Southern Methodist University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I178169726"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I194744927",
+          "ror": "https://ror.org/02fhgbp51",
+          "display_name": "National Institute of Education",
+          "country_code": null,
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I172675005",
+            "https://openalex.org/I194744927"
+          ]
+        },
+        "years": [
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I23582244",
+          "ror": "https://ror.org/05jfbgm49",
+          "display_name": "Ho Chi Minh City University of Science",
+          "country_code": "VN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I123565023",
+            "https://openalex.org/I23582244"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3129535883",
+          "ror": "https://ror.org/020r4kx11",
+          "display_name": "Coquitlam College",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3129535883"
+          ]
+        },
+        "years": [
+          1989
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210114115",
+          "ror": "https://ror.org/0265w5591",
+          "display_name": "IBM Research - Thomas J. Watson Research Center",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1341412227",
+            "https://openalex.org/I4210114115"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210114618",
+          "ror": "https://ror.org/02dg2kf02",
+          "display_name": "National Academy of Public Administration",
+          "country_code": "VN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210114618"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210116271",
+          "ror": "https://ror.org/02b2dfs85",
+          "display_name": "Ho Chi Minh City University of Industry and Trade",
+          "country_code": "VN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210116271"
+          ]
+        },
+        "years": [
+          2026
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210117899",
+          "ror": "https://ror.org/02530bn33",
+          "display_name": "National Academy of Education",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210117899"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210124651",
+          "ror": "https://ror.org/03anxx281",
+          "display_name": "Phenikaa University",
+          "country_code": "VN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210124651"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210148490",
+          "ror": "https://ror.org/044nmzj55",
+          "display_name": "The Vietnam National Institute of Educational Sciences",
+          "country_code": "VN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210148490"
+          ]
+        },
+        "years": [
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I44461941",
+          "ror": "https://ror.org/048sx0r50",
+          "display_name": "University of Houston",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I44461941"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I52719799",
+          "ror": "https://ror.org/0093a8w51",
+          "display_name": "Blekinge Institute of Technology",
+          "country_code": "SE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I52719799"
+          ]
+        },
+        "years": [
+          2013,
+          2012,
+          2011,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I67868205",
+          "ror": "https://ror.org/05w54hk79",
+          "display_name": "VNU University of Science",
+          "country_code": "VN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177233841",
+            "https://openalex.org/I67868205"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I82509713",
+          "ror": "https://ror.org/033vfbz75",
+          "display_name": "Mälardalen University",
+          "country_code": "SE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I82509713"
+          ]
+        },
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I9736820",
+          "ror": "https://ror.org/0020snb74",
+          "display_name": "École de Technologie Supérieure",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I49663120",
+            "https://openalex.org/I9736820"
+          ]
+        },
+        "years": [
+          2015,
+          2014
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I4210116271",
+        "ror": "https://ror.org/02b2dfs85",
+        "display_name": "Ho Chi Minh City University of Industry and Trade",
+        "country_code": "VN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210116271"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10579",
+        "display_name": "Cognitive Radio Networks and Spectrum Sensing",
+        "count": 39,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10148",
+        "display_name": "Advanced MIMO Systems Optimization",
+        "count": 37,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10964",
+        "display_name": "Wireless Communication Security Techniques",
+        "count": 28,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10796",
+        "display_name": "Cooperative Communication and Network Coding",
+        "count": 24,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10575",
+        "display_name": "Wireless Communication Networks Research",
+        "count": 16,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10579",
+        "display_name": "Cognitive Radio Networks and Spectrum Sensing",
+        "value": 0.00087,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10964",
+        "display_name": "Wireless Communication Security Techniques",
+        "value": 0.0004518,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11458",
+        "display_name": "Advanced Wireless Communication Technologies",
+        "value": 0.0002107,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11133",
+        "display_name": "UAV Applications and Optimization",
+        "value": 0.0002078,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10148",
+        "display_name": "Advanced MIMO Systems Optimization",
+        "value": 0.0001556,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8605576753616333
+      },
+      {
+        "id": "31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "score": 0.7896407842636108
+      },
+      {
+        "id": "127162648",
+        "wikidata": "https://www.wikidata.org/wiki/Q16858953",
+        "display_name": "Channel (broadcasting)",
+        "score": 0.5925933718681335
+      },
+      {
+        "id": "555944384",
+        "wikidata": "https://www.wikidata.org/wiki/Q249",
+        "display_name": "Wireless",
+        "score": 0.5909746885299683
+      },
+      {
+        "id": "76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "score": 0.47391948103904724
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1989,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2002,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2010,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 44
+      },
+      {
+        "year": 2011,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 67
+      },
+      {
+        "year": 2012,
+        "works_count": 9,
+        "oa_works_count": 3,
+        "cited_by_count": 64
+      },
+      {
+        "year": 2013,
+        "works_count": 16,
+        "oa_works_count": 3,
+        "cited_by_count": 126
+      },
+      {
+        "year": 2014,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 27
+      },
+      {
+        "year": 2015,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 218
+      },
+      {
+        "year": 2016,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 43
+      },
+      {
+        "year": 2017,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2018,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 52
+      },
+      {
+        "year": 2019,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2020,
+        "works_count": 6,
+        "oa_works_count": 4,
+        "cited_by_count": 51
+      },
+      {
+        "year": 2021,
+        "works_count": 10,
+        "oa_works_count": 5,
+        "cited_by_count": 180
+      },
+      {
+        "year": 2022,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 73
+      },
+      {
+        "year": 2023,
+        "works_count": 8,
+        "oa_works_count": 2,
+        "cited_by_count": 72
+      },
+      {
+        "year": 2024,
+        "works_count": 12,
+        "oa_works_count": 7,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2025,
+        "works_count": 10,
+        "oa_works_count": 5,
+        "cited_by_count": 26
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "H. Tran",
+      "H.V. Tran",
+      "Hang Minh Thi Tran",
+      "Hang Tran",
+      "Hung Tran",
+      "Hung Vinh Tran",
+      "Tran, Hung",
+      "Tran, Hung Vinh"
+    ],
+    "block_key": "h tran",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5000189848",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "31643640",
+    "externalIds": {
+      "DBLP": [
+        "Hung Cong Tran"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/31643640",
+    "name": "H. Tran",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 32,
+    "citationCount": 257,
+    "hIndex": 8
+  }
+}

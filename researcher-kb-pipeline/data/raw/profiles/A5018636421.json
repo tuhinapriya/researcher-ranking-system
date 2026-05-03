@@ -1,0 +1,902 @@
+{
+  "author_id": "A5018636421",
+  "openalex": {
+    "id": "https://openalex.org/A5018636421",
+    "orcid": "https://orcid.org/0000-0002-7427-6961",
+    "display_name": "Mahdi Tavakoli",
+    "raw_author_names": [
+      "M B Tavakoli",
+      "M Tavakoli",
+      "M. B. Tavakoli",
+      "M. Tavakoli",
+      "M.B. Tavakoli",
+      "Mahdi Tavakoli",
+      "Marieanne FH Tavakoli",
+      "Tavakoli, Mahdi"
+    ],
+    "full_name": "Marieanne FH Tavakoli",
+    "works_count": 420,
+    "cited_by_count": 8631,
+    "summary_stats": {
+      "2yr_mean_citedness": 3.216666666666667,
+      "h_index": 48,
+      "i10_index": 220
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5018636421",
+      "orcid": "https://orcid.org/0000-0002-7427-6961"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I100532134",
+          "ror": "https://ror.org/029brtt94",
+          "display_name": "Université Claude Bernard Lyon 1",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I100532134",
+            "https://openalex.org/I203339264"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I114982161",
+          "ror": "https://ror.org/04waqzz56",
+          "display_name": "Isfahan University of Medical Sciences",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114982161"
+          ]
+        },
+        "years": [
+          2016,
+          2012,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I125749732",
+          "ror": "https://ror.org/02grkyz14",
+          "display_name": "Western University",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I125749732"
+          ]
+        },
+        "years": [
+          2011,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1294671590",
+          "ror": "https://ror.org/02feahw73",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1295121038",
+          "ror": "https://ror.org/04hrjej96",
+          "display_name": "Leeds General Infirmary",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1295121038",
+            "https://openalex.org/I2799390153"
+          ]
+        },
+        "years": [
+          1990
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I130828816",
+          "ror": "https://ror.org/024mrxd33",
+          "display_name": "University of Leeds",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130828816"
+          ]
+        },
+        "years": [
+          1991
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I136199984",
+          "ror": "https://ror.org/03vek6s52",
+          "display_name": "Harvard University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        "years": [
+          2008,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I154425047",
+          "ror": "https://ror.org/0160cpw27",
+          "display_name": "University of Alberta",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154425047"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I170013655",
+          "ror": "https://ror.org/00af3sa43",
+          "display_name": "Isfahan University of Technology",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I170013655"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I185261750",
+          "ror": "https://ror.org/03dbr7087",
+          "display_name": "University of Toronto",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I193571115",
+          "ror": "https://ror.org/004q7z165",
+          "display_name": "New York College of Podiatric Medicine",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I193571115"
+          ]
+        },
+        "years": [
+          1998
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800445679",
+          "ror": "https://ror.org/03nw9hs25",
+          "display_name": "Alberta Hospital Edmonton",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I126859394",
+            "https://openalex.org/I2800445679"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800925808",
+          "ror": "https://ror.org/037tz0e16",
+          "display_name": "London Health Sciences Centre",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2800925808"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801771032",
+          "ror": "https://ror.org/02558wk32",
+          "display_name": "Islamic Azad University, Arak",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110525433",
+            "https://openalex.org/I2801771032"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801851002",
+          "ror": "https://ror.org/006v7bf86",
+          "display_name": "Harvard University Press",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I2801851002"
+          ]
+        },
+        "years": [
+          2008,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802694670",
+          "ror": "https://ror.org/0126z4b94",
+          "display_name": "Academic Center for Education, Culture and Research",
+          "country_code": "IR",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802694670"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802936041",
+          "ror": "https://ror.org/02n2n9a06",
+          "display_name": "Glenrose Rehabilitation Hospital",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I126859394",
+            "https://openalex.org/I2802936041"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210109561",
+          "ror": "https://ror.org/01yxvpn13",
+          "display_name": "Jahrom University of Medical Sciences",
+          "country_code": "IR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210109561"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210109871",
+          "ror": "https://ror.org/016tr2g85",
+          "display_name": "Khatam University",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210109871"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210128526",
+          "ror": "https://ror.org/03bw34a45",
+          "display_name": "UPMC Hillman Cancer Center",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I170201317",
+            "https://openalex.org/I4210128526"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210136571",
+          "ror": "https://ror.org/03z02zc05",
+          "display_name": "Medrobotics (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210136571"
+          ]
+        },
+        "years": [
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210145913",
+          "ror": "https://ror.org/04xbczw40",
+          "display_name": "Laboratoire Ampère",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I100532134",
+            "https://openalex.org/I112936343",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I203339264",
+            "https://openalex.org/I203339264",
+            "https://openalex.org/I203339264",
+            "https://openalex.org/I4210095849",
+            "https://openalex.org/I4210145913",
+            "https://openalex.org/I48430043"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210147708",
+          "ror": "https://ror.org/052nj8f19",
+          "display_name": "Institute of Medicinal Plant Development",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210141683",
+            "https://openalex.org/I4210147708"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4387153077",
+          "ror": "https://ror.org/03hh69c20",
+          "display_name": "Alborz University of Medical Sciences",
+          "country_code": null,
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4387153077"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I80543232",
+          "ror": "https://ror.org/0433abe34",
+          "display_name": "K.N.Toosi University of Technology",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I80543232"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I154425047",
+        "ror": "https://ror.org/0160cpw27",
+        "display_name": "University of Alberta",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I154425047"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I2801771032",
+        "ror": "https://ror.org/02558wk32",
+        "display_name": "Islamic Azad University, Arak",
+        "country_code": "IR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I110525433",
+          "https://openalex.org/I2801771032"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210109561",
+        "ror": "https://ror.org/01yxvpn13",
+        "display_name": "Jahrom University of Medical Sciences",
+        "country_code": "IR",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I4210109561"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4387153077",
+        "ror": "https://ror.org/03hh69c20",
+        "display_name": "Alborz University of Medical Sciences",
+        "country_code": null,
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4387153077"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I80543232",
+        "ror": "https://ror.org/0433abe34",
+        "display_name": "K.N.Toosi University of Technology",
+        "country_code": "IR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I80543232"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11687",
+        "display_name": "Teleoperation and Haptic Systems",
+        "count": 170,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10868",
+        "display_name": "Soft Robotics and Applications",
+        "count": 158,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10653",
+        "display_name": "Robot Manipulation and Learning",
+        "count": 77,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10916",
+        "display_name": "Surgical Simulation and Training",
+        "count": 75,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2746",
+          "display_name": "Surgery"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10510",
+        "display_name": "Stroke Rehabilitation and Recovery",
+        "count": 56,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2742",
+          "display_name": "Rehabilitation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11687",
+        "display_name": "Teleoperation and Haptic Systems",
+        "value": 0.0024573,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10868",
+        "display_name": "Soft Robotics and Applications",
+        "value": 0.0016565,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10916",
+        "display_name": "Surgical Simulation and Training",
+        "value": 0.0007292,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2746",
+          "display_name": "Surgery"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10653",
+        "display_name": "Robot Manipulation and Learning",
+        "value": 0.0005937,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11023",
+        "display_name": "Prosthetics and Rehabilitation Robotics",
+        "value": 0.0004715,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.9009585976600647
+      },
+      {
+        "id": "90509273",
+        "wikidata": "https://www.wikidata.org/wiki/Q11012",
+        "display_name": "Robot",
+        "score": 0.7820112705230713
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.7190402150154114
+      },
+      {
+        "id": "44154836",
+        "wikidata": "https://www.wikidata.org/wiki/Q45045",
+        "display_name": "Simulation",
+        "score": 0.5920897126197815
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.5598811507225037
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1990,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 140
+      },
+      {
+        "year": 1991,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 156
+      },
+      {
+        "year": 1992,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 98
+      },
+      {
+        "year": 1998,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2003,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 91
+      },
+      {
+        "year": 2004,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 129
+      },
+      {
+        "year": 2005,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 217
+      },
+      {
+        "year": 2006,
+        "works_count": 9,
+        "oa_works_count": 0,
+        "cited_by_count": 191
+      },
+      {
+        "year": 2007,
+        "works_count": 8,
+        "oa_works_count": 0,
+        "cited_by_count": 240
+      },
+      {
+        "year": 2008,
+        "works_count": 11,
+        "oa_works_count": 1,
+        "cited_by_count": 354
+      },
+      {
+        "year": 2009,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 51
+      },
+      {
+        "year": 2010,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 77
+      },
+      {
+        "year": 2011,
+        "works_count": 17,
+        "oa_works_count": 6,
+        "cited_by_count": 344
+      },
+      {
+        "year": 2012,
+        "works_count": 15,
+        "oa_works_count": 1,
+        "cited_by_count": 706
+      },
+      {
+        "year": 2013,
+        "works_count": 17,
+        "oa_works_count": 2,
+        "cited_by_count": 401
+      },
+      {
+        "year": 2014,
+        "works_count": 17,
+        "oa_works_count": 5,
+        "cited_by_count": 262
+      },
+      {
+        "year": 2015,
+        "works_count": 15,
+        "oa_works_count": 3,
+        "cited_by_count": 274
+      },
+      {
+        "year": 2016,
+        "works_count": 37,
+        "oa_works_count": 7,
+        "cited_by_count": 969
+      },
+      {
+        "year": 2017,
+        "works_count": 33,
+        "oa_works_count": 3,
+        "cited_by_count": 740
+      },
+      {
+        "year": 2018,
+        "works_count": 22,
+        "oa_works_count": 3,
+        "cited_by_count": 363
+      },
+      {
+        "year": 2019,
+        "works_count": 21,
+        "oa_works_count": 0,
+        "cited_by_count": 256
+      },
+      {
+        "year": 2020,
+        "works_count": 25,
+        "oa_works_count": 9,
+        "cited_by_count": 545
+      },
+      {
+        "year": 2021,
+        "works_count": 30,
+        "oa_works_count": 7,
+        "cited_by_count": 849
+      },
+      {
+        "year": 2022,
+        "works_count": 26,
+        "oa_works_count": 8,
+        "cited_by_count": 605
+      },
+      {
+        "year": 2023,
+        "works_count": 36,
+        "oa_works_count": 18,
+        "cited_by_count": 364
+      },
+      {
+        "year": 2024,
+        "works_count": 25,
+        "oa_works_count": 8,
+        "cited_by_count": 114
+      },
+      {
+        "year": 2025,
+        "works_count": 35,
+        "oa_works_count": 15,
+        "cited_by_count": 79
+      }
+    ],
+    "display_name_alternatives": [
+      "M B Tavakoli",
+      "M Tavakoli",
+      "M. B. Tavakoli",
+      "M. Tavakoli",
+      "M.B. Tavakoli",
+      "Mahdi Tavakoli",
+      "Marieanne FH Tavakoli",
+      "Tavakoli, Mahdi"
+    ],
+    "block_key": "m tavakoli",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5018636421",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2257068843",
+    "externalIds": {
+      "DBLP": [
+        "Mahdi Tavakoli"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/2257068843",
+    "name": "M. Tavakoli",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 28,
+    "citationCount": 198,
+    "hIndex": 8
+  }
+}

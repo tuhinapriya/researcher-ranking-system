@@ -1,0 +1,92 @@
+{
+  "author_id": "A5050368394",
+  "total_recent_works_analysed": 400,
+  "total_unique_collaborators": 442,
+  "estimated_mentee_count": 3,
+  "likely_mentees": [
+    {
+      "name": "Ana María Balbín",
+      "id": "A5009642590",
+      "works_count": 11,
+      "shared_papers": 6
+    },
+    {
+      "name": "Ali Azadi",
+      "id": "A5029399076",
+      "works_count": 11,
+      "shared_papers": 6
+    },
+    {
+      "name": "Belén Donate-Beby",
+      "id": "A5029388634",
+      "works_count": 12,
+      "shared_papers": 5
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.35,
+    "corresponding_author_ratio": 0.33
+  },
+  "top_collaborators": [
+    {
+      "name": "Alicia García‐Holgado",
+      "id": "A5026479444",
+      "shared_papers": 96,
+      "same_institution": true
+    },
+    {
+      "name": "Andrea Vázquez‐Ingelmo",
+      "id": "A5036114382",
+      "shared_papers": 55,
+      "same_institution": true
+    },
+    {
+      "name": "Roberto Therón",
+      "id": "A5081681790",
+      "shared_papers": 27,
+      "same_institution": true
+    },
+    {
+      "name": "Miguel Á. Conde",
+      "id": "A5036574330",
+      "shared_papers": 25,
+      "same_institution": false
+    },
+    {
+      "name": "Ángel Fidalgo-Blanco",
+      "id": "A5066783432",
+      "shared_papers": 25,
+      "same_institution": false
+    },
+    {
+      "name": "María Luisa Séin-Echaluce",
+      "id": "A5019925676",
+      "shared_papers": 25,
+      "same_institution": false
+    },
+    {
+      "name": "David Fonseca",
+      "id": "A5085743355",
+      "shared_papers": 25,
+      "same_institution": false
+    },
+    {
+      "name": "Daniel Amo-Filvà",
+      "id": "A5028262556",
+      "shared_papers": 24,
+      "same_institution": false
+    },
+    {
+      "name": "Marc Alier",
+      "id": "A5027613326",
+      "shared_papers": 14,
+      "same_institution": false
+    },
+    {
+      "name": "José Gonçalves",
+      "id": "A5002198136",
+      "shared_papers": 14,
+      "same_institution": false
+    }
+  ]
+}

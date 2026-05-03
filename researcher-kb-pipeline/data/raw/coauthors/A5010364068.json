@@ -1,0 +1,98 @@
+{
+  "author_id": "A5010364068",
+  "total_recent_works_analysed": 33,
+  "total_unique_collaborators": 104,
+  "estimated_mentee_count": 4,
+  "likely_mentees": [
+    {
+      "name": "Federica Casiraghi",
+      "id": "A5028764405",
+      "works_count": 14,
+      "shared_papers": 12
+    },
+    {
+      "name": "Richard J. G. Löffler",
+      "id": "A5088219046",
+      "works_count": 19,
+      "shared_papers": 6
+    },
+    {
+      "name": "Adriano Caliari",
+      "id": "A5055505645",
+      "works_count": 12,
+      "shared_papers": 6
+    },
+    {
+      "name": "Aitor Patiño Diaz",
+      "id": "A5004152392",
+      "works_count": 10,
+      "shared_papers": 6
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.27,
+    "corresponding_author_ratio": 0.09
+  },
+  "top_collaborators": [
+    {
+      "name": "Silvia Holler",
+      "id": "A5006310871",
+      "shared_papers": 16,
+      "same_institution": true
+    },
+    {
+      "name": "Rudolf Marcel Füchslin",
+      "id": "A5003398081",
+      "shared_papers": 13,
+      "same_institution": false
+    },
+    {
+      "name": "Federica Casiraghi",
+      "id": "A5028764405",
+      "shared_papers": 12,
+      "same_institution": true
+    },
+    {
+      "name": "Johannes J. Schneider",
+      "id": "A5078748088",
+      "shared_papers": 11,
+      "same_institution": false
+    },
+    {
+      "name": "Alessia Faggian",
+      "id": "A5052038231",
+      "shared_papers": 11,
+      "same_institution": true
+    },
+    {
+      "name": "Hans‐Georg Matuttis",
+      "id": "A5077611215",
+      "shared_papers": 10,
+      "same_institution": false
+    },
+    {
+      "name": "Jin Li",
+      "id": "A5041423663",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Lorena Cebolla Sanahuja",
+      "id": "A5065362441",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "David A. Barrow",
+      "id": "A5068521866",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Mathias S. Weyland",
+      "id": "A5084069611",
+      "shared_papers": 9,
+      "same_institution": false
+    }
+  ]
+}

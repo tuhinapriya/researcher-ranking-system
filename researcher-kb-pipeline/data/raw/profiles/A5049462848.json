@@ -1,0 +1,315 @@
+{
+  "author_id": "A5049462848",
+  "openalex": {
+    "id": "https://openalex.org/A5049462848",
+    "orcid": "https://orcid.org/0000-0003-3299-206X",
+    "display_name": "David Peral García",
+    "display_name_alternatives": [
+      "David Peral García",
+      "David Peral-García",
+      "García, David Peral"
+    ],
+    "works_count": 10,
+    "cited_by_count": 352,
+    "summary_stats": {
+      "2yr_mean_citedness": 50.75,
+      "h_index": 4,
+      "i10_index": 4
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5049462848",
+      "orcid": "https://orcid.org/0000-0003-3299-206X"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I184999862",
+          "ror": "https://ror.org/02f40zc51",
+          "display_name": "Universidad de Salamanca",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I184999862"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2020
+        ]
+      }
+    ],
+    "last_known_institutions": null,
+    "topics": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10101",
+        "display_name": "Cloud Computing and Resource Management",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10622",
+        "display_name": "Quantum Mechanics and Applications",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11164",
+        "display_name": "Remote Sensing and LiDAR Applications",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T14425",
+        "display_name": "Educational Practices and Sociocultural Research",
+        "value": 6.35e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "value": 3.58e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13282",
+        "display_name": "Automated Road and Building Extraction",
+        "value": 3.11e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2212",
+          "display_name": "Ocean Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13182",
+        "display_name": "Quantum-Dot Cellular Automata",
+        "value": 2.2e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "value": 2.05e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.839826762676239
+      },
+      {
+        "id": "2779094486",
+        "wikidata": "https://www.wikidata.org/wiki/Q18811578",
+        "display_name": "Quantum machine learning",
+        "score": 0.8149424195289612
+      },
+      {
+        "id": "137019171",
+        "wikidata": "https://www.wikidata.org/wiki/Q2623817",
+        "display_name": "Quantum algorithm",
+        "score": 0.6277288198471069
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.5667439103126526
+      },
+      {
+        "id": "113775141",
+        "wikidata": "https://www.wikidata.org/wiki/Q428691",
+        "display_name": "Computer engineering",
+        "score": 0.470151424407959
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2020,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 102
+      },
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 47
+      },
+      {
+        "year": 2023,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 203
+      },
+      {
+        "year": 2025,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      }
+    ],
+    "longest_name": "García, David Peral",
+    "parsed_longest_name": {
+      "first": "david",
+      "middle": "peral",
+      "last": "garcia",
+      "suffix": "",
+      "nickname": ""
+    },
+    "block_key": "d garcia",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5049462848",
+    "updated_date": "2026-03-26T00:47:17",
+    "created_date": "2019-11-22T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2275029306",
+    "externalIds": {
+      "DBLP": [
+        "David Peral García"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/2275029306",
+    "name": "David Peral García",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 2,
+    "citationCount": 0,
+    "hIndex": 0
+  }
+}

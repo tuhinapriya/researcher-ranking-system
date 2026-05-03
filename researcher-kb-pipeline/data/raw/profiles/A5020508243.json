@@ -1,0 +1,419 @@
+{
+  "author_id": "A5020508243",
+  "openalex": {
+    "id": "https://openalex.org/A5020508243",
+    "orcid": "https://orcid.org/0000-0002-7852-2920",
+    "display_name": "Bonan Sun",
+    "raw_author_names": [
+      "Bonan Sun",
+      "Sun, Bonan"
+    ],
+    "full_name": "Sun, Bonan",
+    "works_count": 25,
+    "cited_by_count": 591,
+    "summary_stats": {
+      "2yr_mean_citedness": 9.357142857142858,
+      "h_index": 13,
+      "i10_index": 15
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5020508243",
+      "orcid": "https://orcid.org/0000-0002-7852-2920"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I115592961",
+          "ror": "https://ror.org/03jc41j30",
+          "display_name": "Jiangsu University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I115592961"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I17145004",
+          "ror": "https://ror.org/01y0j0j86",
+          "display_name": "Northwestern Polytechnical University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I17145004"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I177725633",
+          "ror": "https://ror.org/00t33hh48",
+          "display_name": "Chinese University of Hong Kong",
+          "country_code": "HK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177725633"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I204983213",
+          "ror": "https://ror.org/01yqg2h08",
+          "display_name": "Harbin Institute of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204983213"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210094450",
+          "ror": "https://ror.org/00nt56514",
+          "display_name": "First People's Hospital of Yuhang District",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210094450"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I5124864",
+          "ror": "https://ror.org/02s376052",
+          "display_name": "École Polytechnique Fédérale de Lausanne",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I5124864"
+          ]
+        },
+        "years": [
+          2024,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I87445476",
+          "ror": "https://ror.org/017zhmm22",
+          "display_name": "Xi'an Jiaotong University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I87445476"
+          ]
+        },
+        "years": [
+          2024,
+          2022,
+          2021
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I177725633",
+        "ror": "https://ror.org/00t33hh48",
+        "display_name": "Chinese University of Hong Kong",
+        "country_code": "HK",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I177725633"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11486",
+        "display_name": "Micro and Nano Robotics",
+        "count": 15,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11737",
+        "display_name": "Advanced Materials and Mechanics",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12784",
+        "display_name": "Modular Robots and Swarm Intelligence",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10553",
+        "display_name": "Combustion and flame dynamics",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11486",
+        "display_name": "Micro and Nano Robotics",
+        "value": 0.0001967,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11737",
+        "display_name": "Advanced Materials and Mechanics",
+        "value": 7.28e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10868",
+        "display_name": "Soft Robotics and Applications",
+        "value": 3.15e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10343",
+        "display_name": "Hydrogels: synthesis, properties, applications",
+        "value": 3.06e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1313",
+          "display_name": "Molecular Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12303",
+        "display_name": "Tensor decomposition and applications",
+        "value": 3.03e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2605",
+          "display_name": "Computational Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.8388768434524536
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.5740830302238464
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.563435435295105
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.4562000036239624
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.37449488043785095
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2016,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 38
+      },
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 216
+      },
+      {
+        "year": 2022,
+        "works_count": 5,
+        "oa_works_count": 2,
+        "cited_by_count": 152
+      },
+      {
+        "year": 2023,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 54
+      },
+      {
+        "year": 2024,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 84
+      },
+      {
+        "year": 2025,
+        "works_count": 9,
+        "oa_works_count": 6,
+        "cited_by_count": 47
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Bonan Sun",
+      "Sun, Bonan"
+    ],
+    "block_key": "b sun",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5020508243",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2242841108",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2242841108",
+    "name": "Bonan Sun",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 3,
+    "citationCount": 4,
+    "hIndex": 1
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "author_id": "A5027921382",
+  "openalex": {
+    "id": "https://openalex.org/A5027921382",
+    "orcid": "https://orcid.org/0000-0002-5175-1889",
+    "display_name": "Connor J. O’Dea",
+    "raw_author_names": [
+      "Connor J. O'Dea",
+      "Connor J. O’Dea",
+      "Connor O'Dea",
+      "Connor O’Dea",
+      "O’Dea, Connor"
+    ],
+    "full_name": "Connor J. O’Dea",
+    "works_count": 19,
+    "cited_by_count": 126,
+    "summary_stats": {
+      "2yr_mean_citedness": 6.2727272727272725,
+      "h_index": 6,
+      "i10_index": 5
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5027921382",
+      "orcid": "https://orcid.org/0000-0002-5175-1889"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I172980758",
+          "ror": "https://ror.org/00jeqjx33",
+          "display_name": "Kennesaw State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I172980758"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I86519309",
+          "ror": "https://ror.org/00hj54h04",
+          "display_name": "The University of Texas at Austin",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I86519309",
+        "ror": "https://ror.org/00hj54h04",
+        "display_name": "The University of Texas at Austin",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I86519309"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11240",
+        "display_name": "Luminescence and Fluorescent Materials",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12570",
+        "display_name": "Photopolymerization techniques and applications",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11708",
+        "display_name": "Photochromic and Fluorescence Chemistry",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10405",
+        "display_name": "Advanced Polymer Synthesis and Characterization",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10783",
+        "display_name": "Additive Manufacturing and 3D Printing Technologies",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2203",
+          "display_name": "Automotive Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12570",
+        "display_name": "Photopolymerization techniques and applications",
+        "value": 8.72e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11708",
+        "display_name": "Photochromic and Fluorescence Chemistry",
+        "value": 5.78e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11240",
+        "display_name": "Luminescence and Fluorescent Materials",
+        "value": 4.35e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10405",
+        "display_name": "Advanced Polymer Synthesis and Characterization",
+        "value": 2.25e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10701",
+        "display_name": "Radical Photochemical Reactions",
+        "value": 1.63e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9616000056266785
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.9110999703407288
+      },
+      {
+        "id": "75473681",
+        "wikidata": "https://www.wikidata.org/wiki/Q188651",
+        "display_name": "Photochemistry",
+        "score": 0.8229185342788696
+      },
+      {
+        "id": "49040817",
+        "wikidata": "https://www.wikidata.org/wiki/Q193091",
+        "display_name": "Optoelectronics",
+        "score": 0.521399974822998
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.4113461673259735
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2023,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 42
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 45
+      },
+      {
+        "year": 2025,
+        "works_count": 8,
+        "oa_works_count": 3,
+        "cited_by_count": 24
+      }
+    ],
+    "display_name_alternatives": [
+      "Connor J. O'Dea",
+      "Connor J. O’Dea",
+      "Connor O'Dea",
+      "Connor O’Dea",
+      "O’Dea, Connor"
+    ],
+    "block_key": "c o’dea",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5027921382",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2019-10-03T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2071631175",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2071631175",
+    "name": "Connor J. O'Dea",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 12,
+    "citationCount": 74,
+    "hIndex": 5
+  }
+}

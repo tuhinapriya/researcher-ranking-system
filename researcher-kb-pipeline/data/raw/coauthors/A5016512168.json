@@ -1,0 +1,122 @@
+{
+  "author_id": "A5016512168",
+  "total_recent_works_analysed": 51,
+  "total_unique_collaborators": 47,
+  "estimated_mentee_count": 8,
+  "likely_mentees": [
+    {
+      "name": "Resham Rana",
+      "id": "A5009460700",
+      "works_count": 18,
+      "shared_papers": 17
+    },
+    {
+      "name": "Sree Pradipta Roy",
+      "id": "A5021159321",
+      "works_count": 7,
+      "shared_papers": 6
+    },
+    {
+      "name": "Quintus Owen",
+      "id": "A5008717665",
+      "works_count": 4,
+      "shared_papers": 3
+    },
+    {
+      "name": "Alejandro Boscoboinik",
+      "id": "A5057266054",
+      "works_count": 16,
+      "shared_papers": 2
+    },
+    {
+      "name": "Heather Adams",
+      "id": "A5057508191",
+      "works_count": 11,
+      "shared_papers": 2
+    },
+    {
+      "name": "Theodore Thuening",
+      "id": "A5089276976",
+      "works_count": 13,
+      "shared_papers": 1
+    },
+    {
+      "name": "Nicholas C. Hopper",
+      "id": "A5015217501",
+      "works_count": 3,
+      "shared_papers": 1
+    },
+    {
+      "name": "Tyler G. Fenske",
+      "id": "A5075470130",
+      "works_count": 9,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.9,
+    "corresponding_author_ratio": 0.55
+  },
+  "top_collaborators": [
+    {
+      "name": "Nicholas Hopper",
+      "id": "A5051550317",
+      "shared_papers": 26,
+      "same_institution": true
+    },
+    {
+      "name": "Robert Bavisotto",
+      "id": "A5073910233",
+      "shared_papers": 25,
+      "same_institution": true
+    },
+    {
+      "name": "Resham Rana",
+      "id": "A5009460700",
+      "shared_papers": 17,
+      "same_institution": true
+    },
+    {
+      "name": "François Sidoroff",
+      "id": "A5112874881",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Dustin Olson",
+      "id": "A5090637403",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Juliette Cayer-Barrioz",
+      "id": "A5037163144",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Denis Mazuyer",
+      "id": "A5029646975",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Sree Pradipta Roy",
+      "id": "A5021159321",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Kaiming Hou",
+      "id": "A5038623994",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Sergio Javier Manzi",
+      "id": "A5049034389",
+      "shared_papers": 6,
+      "same_institution": false
+    }
+  ]
+}

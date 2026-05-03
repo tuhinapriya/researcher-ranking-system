@@ -1,0 +1,501 @@
+{
+  "author_id": "A5004555197",
+  "openalex": {
+    "id": "https://openalex.org/A5004555197",
+    "orcid": "https://orcid.org/0000-0003-3416-5922",
+    "display_name": "Eepsita Priyadarshini",
+    "raw_author_names": [
+      "E Priyadarshini",
+      "E. Priyadarshini",
+      "Eepsita Priyadarshini"
+    ],
+    "full_name": "Eepsita Priyadarshini",
+    "works_count": 53,
+    "cited_by_count": 2379,
+    "summary_stats": {
+      "2yr_mean_citedness": 8.076923076923077,
+      "h_index": 24,
+      "i10_index": 34
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5004555197",
+      "orcid": "https://orcid.org/0000-0003-3416-5922"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I1296611117",
+          "ror": "https://ror.org/03x3mpp61",
+          "display_name": "Indian Grassland and Fodder Research Institute",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1296611117",
+            "https://openalex.org/I179420787"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I152429107",
+          "ror": "https://ror.org/0567v8t28",
+          "display_name": "Jawaharlal Nehru University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I152429107"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I155125381",
+          "ror": "https://ror.org/02w8ba206",
+          "display_name": "Galgotias University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I155125381"
+          ]
+        },
+        "years": [
+          2026,
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I37048141",
+          "ror": "https://ror.org/0492wrx28",
+          "display_name": "Indian Council of Medical Research",
+          "country_code": "IN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37048141"
+          ]
+        },
+        "years": [
+          1979,
+          1976
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210107015",
+          "ror": "https://ror.org/01g7qth32",
+          "display_name": "Institute of Minerals and Materials Technology",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I4210107015",
+            "https://openalex.org/I4210134808",
+            "https://openalex.org/I66760702"
+          ]
+        },
+        "years": [
+          2021,
+          2019,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I53421241",
+          "ror": "https://ror.org/04970qw83",
+          "display_name": "National Institute of Nutrition",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I37048141",
+            "https://openalex.org/I53421241"
+          ]
+        },
+        "years": [
+          1979,
+          1976
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I99364266",
+          "ror": "https://ror.org/053rcsq61",
+          "display_name": "Academy of Scientific and Innovative Research",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I99364266"
+          ]
+        },
+        "years": [
+          2021,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I155125381",
+        "ror": "https://ror.org/02w8ba206",
+        "display_name": "Galgotias University",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I155125381"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11342",
+        "display_name": "Carbon and Quantum Dots Applications",
+        "count": 13,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10079",
+        "display_name": "Nanoparticles: synthesis and applications",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10207",
+        "display_name": "Advanced biosensing and bioanalysis techniques",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12302",
+        "display_name": "Advanced Nanomaterials in Catalysis",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10212",
+        "display_name": "Electrochemical sensors and biosensors",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11342",
+        "display_name": "Carbon and Quantum Dots Applications",
+        "value": 0.0002125,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10079",
+        "display_name": "Nanoparticles: synthesis and applications",
+        "value": 7.65e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12302",
+        "display_name": "Advanced Nanomaterials in Catalysis",
+        "value": 6.59e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10874",
+        "display_name": "Electromagnetic Fields and Biological Effects",
+        "value": 6.07e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1304",
+          "display_name": "Biophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13322",
+        "display_name": "Hibiscus Plant Research Studies",
+        "value": 4.54e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3004",
+          "display_name": "Pharmacology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/30",
+          "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.8337539434432983
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.7436870336532593
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.7283788323402405
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.6698983907699585
+      },
+      {
+        "id": "178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "score": 0.22084566950798035
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1976,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 28
+      },
+      {
+        "year": 1979,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2012,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2013,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 28
+      },
+      {
+        "year": 2014,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 69
+      },
+      {
+        "year": 2015,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 30
+      },
+      {
+        "year": 2016,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 619
+      },
+      {
+        "year": 2017,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 260
+      },
+      {
+        "year": 2018,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 108
+      },
+      {
+        "year": 2019,
+        "works_count": 7,
+        "oa_works_count": 0,
+        "cited_by_count": 514
+      },
+      {
+        "year": 2020,
+        "works_count": 6,
+        "oa_works_count": 2,
+        "cited_by_count": 118
+      },
+      {
+        "year": 2021,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 409
+      },
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2023,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 51
+      },
+      {
+        "year": 2024,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 70
+      },
+      {
+        "year": 2025,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 35
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "E Priyadarshini",
+      "E. Priyadarshini",
+      "Eepsita Priyadarshini"
+    ],
+    "block_key": "e priyadarshini",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5004555197",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "50004807",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/50004807",
+    "name": "E. Priyadarshini",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 50,
+    "citationCount": 1972,
+    "hIndex": 21
+  }
+}

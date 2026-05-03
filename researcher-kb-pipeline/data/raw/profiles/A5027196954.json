@@ -1,0 +1,316 @@
+{
+  "author_id": "A5027196954",
+  "openalex": {
+    "id": "https://openalex.org/A5027196954",
+    "orcid": "https://orcid.org/0000-0002-5656-7714",
+    "display_name": "Hyosik Park",
+    "raw_author_names": [
+      "Hyosik Park"
+    ],
+    "full_name": "Hyosik Park",
+    "works_count": 28,
+    "cited_by_count": 921,
+    "summary_stats": {
+      "2yr_mean_citedness": 6.8,
+      "h_index": 13,
+      "i10_index": 13
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5027196954",
+      "orcid": "https://orcid.org/0000-0002-5656-7714"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I193352282",
+          "ror": "https://ror.org/03frjya69",
+          "display_name": "Daegu Gyeongbuk Institute of Science and Technology",
+          "country_code": "KR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I193352282"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2020
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I193352282",
+        "ror": "https://ror.org/03frjya69",
+        "display_name": "Daegu Gyeongbuk Institute of Science and Technology",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I193352282"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "count": 27,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10660",
+        "display_name": "Conducting polymers and applications",
+        "count": 23,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2507",
+          "display_name": "Polymers and Plastics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10179",
+        "display_name": "Supercapacitor Materials and Fabrication",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10914",
+        "display_name": "Tactile and Sensory Interactions",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11608",
+        "display_name": "Dielectric materials and actuators",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "value": 8.7e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11608",
+        "display_name": "Dielectric materials and actuators",
+        "value": 6.25e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10660",
+        "display_name": "Conducting polymers and applications",
+        "value": 5.44e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2507",
+          "display_name": "Polymers and Plastics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11230",
+        "display_name": "Innovative Energy Harvesting Technologies",
+        "value": 4.99e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14318",
+        "display_name": "Polydiacetylene-based materials and applications",
+        "value": 4.66e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "80640880",
+        "wikidata": "https://www.wikidata.org/wiki/Q876377",
+        "display_name": "Triboelectric effect",
+        "score": 0.9932000041007996
+      },
+      {
+        "id": "175616097",
+        "wikidata": "https://www.wikidata.org/wiki/Q6964048",
+        "display_name": "Nanogenerator",
+        "score": 0.962524950504303
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.9179775714874268
+      },
+      {
+        "id": "159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "score": 0.7371995449066162
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.6517839431762695
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2020,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 35
+      },
+      {
+        "year": 2022,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 180
+      },
+      {
+        "year": 2023,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 604
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 64
+      },
+      {
+        "year": 2025,
+        "works_count": 12,
+        "oa_works_count": 9,
+        "cited_by_count": 38
+      }
+    ],
+    "display_name_alternatives": [
+      "Hyosik Park"
+    ],
+    "block_key": "h park",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5027196954",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "1904189026",
+    "externalIds": {
+      "DBLP": [
+        "Hyo Jun Park"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/1904189026",
+    "name": "Hyosik Park",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 26,
+    "citationCount": 818,
+    "hIndex": 13
+  }
+}

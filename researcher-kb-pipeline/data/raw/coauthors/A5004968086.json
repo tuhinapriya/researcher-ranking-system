@@ -1,0 +1,176 @@
+{
+  "author_id": "A5004968086",
+  "total_recent_works_analysed": 26,
+  "total_unique_collaborators": 50,
+  "estimated_mentee_count": 17,
+  "likely_mentees": [
+    {
+      "name": "Qian Cai",
+      "id": "A5055683801",
+      "works_count": 20,
+      "shared_papers": 9
+    },
+    {
+      "name": "Elham Heidari",
+      "id": "A5008985707",
+      "works_count": 17,
+      "shared_papers": 4
+    },
+    {
+      "name": "Elham Heidari",
+      "id": "A5116876096",
+      "works_count": 4,
+      "shared_papers": 3
+    },
+    {
+      "name": "Aslam A. Khan",
+      "id": "A5050845986",
+      "works_count": 8,
+      "shared_papers": 2
+    },
+    {
+      "name": "Rouhan Noor",
+      "id": "A5102546152",
+      "works_count": 7,
+      "shared_papers": 2
+    },
+    {
+      "name": "Shajib Ghosh",
+      "id": "A5113333298",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Peter J. Van Kirk",
+      "id": "A5107631680",
+      "works_count": 6,
+      "shared_papers": 1
+    },
+    {
+      "name": "Isaac Yu",
+      "id": "A5111350251",
+      "works_count": 5,
+      "shared_papers": 1
+    },
+    {
+      "name": "Navid Asadi",
+      "id": "A5031732656",
+      "works_count": 5,
+      "shared_papers": 1
+    },
+    {
+      "name": "Mariano Requejo",
+      "id": "A5119644630",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Jeremy D. Seitz",
+      "id": "A5119644631",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Benjamin Hayden",
+      "id": "A5119644632",
+      "works_count": 4,
+      "shared_papers": 1
+    },
+    {
+      "name": "Abdulaziz S. Bazammul",
+      "id": "A5119357720",
+      "works_count": 4,
+      "shared_papers": 1
+    },
+    {
+      "name": "Jahannia Belal",
+      "id": "A5120725274",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Abdulaziz Bazammul",
+      "id": "A5124263619",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Hao Wang",
+      "id": "A5124276227",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Elham Heidari",
+      "id": "A5124162302",
+      "works_count": 1,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.42,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Navid Asadizanjani",
+      "id": "A5085074016",
+      "shared_papers": 12,
+      "same_institution": true
+    },
+    {
+      "name": "Belal Jahannia",
+      "id": "A5047316337",
+      "shared_papers": 11,
+      "same_institution": true
+    },
+    {
+      "name": "Himanandhan Reddy Kottur",
+      "id": "A5093096742",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Jiachi Ye",
+      "id": "A5088798604",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Qian Cai",
+      "id": "A5055683801",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Tongyao Wu",
+      "id": "A5052404515",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Chandraman Patil",
+      "id": "A5075409423",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Elham Heidari",
+      "id": "A5030157075",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Nitin Varshney",
+      "id": "A5059164559",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Liton Kumar Biswas",
+      "id": "A5074230267",
+      "shared_papers": 4,
+      "same_institution": true
+    }
+  ]
+}

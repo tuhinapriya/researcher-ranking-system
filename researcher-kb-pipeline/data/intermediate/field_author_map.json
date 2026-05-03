@@ -1,0 +1,278 @@
+{
+  "A5003497389": {
+    "author_id": "A5003497389",
+    "author_id_url": "https://openalex.org/A5003497389",
+    "name": "Junde Xu",
+    "institutions_seen": {
+      "I146399215": {
+        "id": "https://openalex.org/I146399215",
+        "name": "University of Tsukuba",
+        "type": "education",
+        "country": "JP"
+      }
+    },
+    "concepts": {
+      "Quantum Computing": {
+        "concept_label": "Quantum Computing",
+        "papers": [
+          {
+            "title": "Performance upper bound of a Grover-mixer quantum alternating operator ansatz",
+            "doi": "https://doi.org/10.1103/physreva.111.012401",
+            "year": 2025,
+            "citations": 2,
+            "author_position": "middle",
+            "author_position_num": "2/7",
+            "is_corresponding": false,
+            "abstract": "The quantum alternating operator ansatz (QAOA) represents a branch of quantum algorithms for solving combinatorial optimization problems. A specific variant, the Grover-mixer (GM) QAOA, ensures uniform amplitude across states that share equivalent objective values. This property makes the algorithm independent of the problem structure, focusing instead on the distribution of objective values within the problem. In this work we provide an alternative proof for the upper bound on the probability of measuring a computational basis state from a GM QAOA circuit with a given depth, which is a critical factor in QAOA cost. Using this, we derive the upper bounds for the probability of sampling an optimal solution and for the approximation ratio of maximum optimization problems, both dependent on the objective value distribution. Through numerical analysis, we link the distribution to the problem size and build the regression models that relate the problem size, QAOA depth, and performance upper bound. Our results suggest that the GM QAOA provides a quadratic enhancement in sampling probability and requires circuit depth that scales exponentially with problem size to maintain consistent performance.",
+            "primary_topic": {
+              "topic": "Quantum Computing Algorithms and Architecture",
+              "subfield": "Artificial Intelligence",
+              "field": "Computer Science",
+              "domain": "Physical Sciences"
+            },
+            "grants": [],
+            "venue": "Physical review. A/Physical review, A"
+          }
+        ],
+        "topic_counts": {
+          "Quantum Computing Algorithms and Architecture": 1
+        },
+        "funder_counts": {},
+        "venue_counts": {
+          "Physical review. A/Physical review, A": 1
+        },
+        "total_field_citations": 2,
+        "first_author_count": 0,
+        "last_author_count": 0,
+        "corresponding_author_count": 0,
+        "paper_count": 1,
+        "most_recent_year": 2025
+      }
+    },
+    "total_field_citations_all": 2
+  },
+  "A5006025672": {
+    "author_id": "A5006025672",
+    "author_id_url": "https://openalex.org/A5006025672",
+    "name": "Zornitza Genova Prodanoff",
+    "institutions_seen": {
+      "I11874761": {
+        "id": "https://openalex.org/I11874761",
+        "name": "University of North Florida",
+        "type": "education",
+        "country": "US"
+      }
+    },
+    "concepts": {
+      "Quantum Computing": {
+        "concept_label": "Quantum Computing",
+        "papers": [
+          {
+            "title": "On the Entanglement and Mixedness of Quantum Boolean Function Circuits",
+            "doi": "https://doi.org/10.1007/978-3-031-81202-6_9",
+            "year": 2025,
+            "citations": 0,
+            "author_position": "first",
+            "author_position_num": "1/3",
+            "is_corresponding": true,
+            "abstract": null,
+            "primary_topic": {
+              "topic": "Quantum Computing Algorithms and Architecture",
+              "subfield": "Artificial Intelligence",
+              "field": "Computer Science",
+              "domain": "Physical Sciences"
+            },
+            "grants": [],
+            "venue": "Lecture notes in computer science"
+          }
+        ],
+        "topic_counts": {
+          "Quantum Computing Algorithms and Architecture": 1
+        },
+        "funder_counts": {},
+        "venue_counts": {
+          "Lecture notes in computer science": 1
+        },
+        "total_field_citations": 0,
+        "first_author_count": 1,
+        "last_author_count": 0,
+        "corresponding_author_count": 1,
+        "paper_count": 1,
+        "most_recent_year": 2025
+      }
+    },
+    "total_field_citations_all": 0
+  },
+  "A5006547764": {
+    "author_id": "A5006547764",
+    "author_id_url": "https://openalex.org/A5006547764",
+    "name": "Laura Schulz",
+    "institutions_seen": {
+      "I109144446": {
+        "id": "https://openalex.org/I109144446",
+        "name": "Bavarian Academy of Sciences and Humanities",
+        "type": "education",
+        "country": "DE"
+      }
+    },
+    "concepts": {
+      "Quantum Computing": {
+        "concept_label": "Quantum Computing",
+        "papers": [
+          {
+            "title": "Extending quantum computing through subspace, embedding and classical molecular dynamics techniques",
+            "doi": "https://doi.org/10.1039/d5dd00225g",
+            "year": 2025,
+            "citations": 1,
+            "author_position": "middle",
+            "author_position_num": "12/13",
+            "is_corresponding": false,
+            "abstract": "We offer a perspective on the integration of quantum computers within scientific computing in the chemical sciences. Several classical methods for extending the applicability of near-term quantum hardware are reviewed and applied in a demonstration.",
+            "primary_topic": {
+              "topic": "Quantum Computing Algorithms and Architecture",
+              "subfield": "Artificial Intelligence",
+              "field": "Computer Science",
+              "domain": "Physical Sciences"
+            },
+            "grants": [],
+            "venue": "Digital Discovery"
+          }
+        ],
+        "topic_counts": {
+          "Quantum Computing Algorithms and Architecture": 1
+        },
+        "funder_counts": {},
+        "venue_counts": {
+          "Digital Discovery": 1
+        },
+        "total_field_citations": 1,
+        "first_author_count": 0,
+        "last_author_count": 0,
+        "corresponding_author_count": 0,
+        "paper_count": 1,
+        "most_recent_year": 2025
+      }
+    },
+    "total_field_citations_all": 1
+  },
+  "A5006791291": {
+    "author_id": "A5006791291",
+    "author_id_url": "https://openalex.org/A5006791291",
+    "name": "Nikhitha Yathiraju",
+    "institutions_seen": {
+      "I276309446": {
+        "id": "https://openalex.org/I276309446",
+        "name": "University of the Cumberlands",
+        "type": "education",
+        "country": "US"
+      }
+    },
+    "concepts": {
+      "Quantum Computing": {
+        "concept_label": "Quantum Computing",
+        "papers": [
+          {
+            "title": "Quantum Computing: A New Frontier in Cybersecurity Resilience",
+            "doi": "https://doi.org/10.1007/978-981-96-4948-8_4",
+            "year": 2025,
+            "citations": 2,
+            "author_position": "middle",
+            "author_position_num": "3/6",
+            "is_corresponding": false,
+            "abstract": null,
+            "primary_topic": {
+              "topic": "Quantum Computing Algorithms and Architecture",
+              "subfield": "Artificial Intelligence",
+              "field": "Computer Science",
+              "domain": "Physical Sciences"
+            },
+            "grants": [],
+            "venue": null
+          },
+          {
+            "title": "Quantum-Powered Intelligence: Unleashing the Potential of IoT in the Quantum Computing Era",
+            "doi": "https://doi.org/10.1007/978-981-96-4948-8_14",
+            "year": 2025,
+            "citations": 1,
+            "author_position": "middle",
+            "author_position_num": "3/6",
+            "is_corresponding": false,
+            "abstract": null,
+            "primary_topic": {
+              "topic": "Quantum Computing Algorithms and Architecture",
+              "subfield": "Artificial Intelligence",
+              "field": "Computer Science",
+              "domain": "Physical Sciences"
+            },
+            "grants": [],
+            "venue": null
+          }
+        ],
+        "topic_counts": {
+          "Quantum Computing Algorithms and Architecture": 2
+        },
+        "funder_counts": {},
+        "venue_counts": {},
+        "total_field_citations": 3,
+        "first_author_count": 0,
+        "last_author_count": 0,
+        "corresponding_author_count": 0,
+        "paper_count": 2,
+        "most_recent_year": 2025
+      }
+    },
+    "total_field_citations_all": 3
+  },
+  "A5007475162": {
+    "author_id": "A5007475162",
+    "author_id_url": "https://openalex.org/A5007475162",
+    "name": "Tiejin Chen",
+    "institutions_seen": {
+      "I55732556": {
+        "id": "https://openalex.org/I55732556",
+        "name": "Arizona State University",
+        "type": "education",
+        "country": "US"
+      }
+    },
+    "concepts": {
+      "Quantum Computing": {
+        "concept_label": "Quantum Computing",
+        "papers": [
+          {
+            "title": "Performance upper bound of a Grover-mixer quantum alternating operator ansatz",
+            "doi": "https://doi.org/10.1103/physreva.111.012401",
+            "year": 2025,
+            "citations": 2,
+            "author_position": "middle",
+            "author_position_num": "3/7",
+            "is_corresponding": false,
+            "abstract": "The quantum alternating operator ansatz (QAOA) represents a branch of quantum algorithms for solving combinatorial optimization problems. A specific variant, the Grover-mixer (GM) QAOA, ensures uniform amplitude across states that share equivalent objective values. This property makes the algorithm independent of the problem structure, focusing instead on the distribution of objective values within the problem. In this work we provide an alternative proof for the upper bound on the probability of measuring a computational basis state from a GM QAOA circuit with a given depth, which is a critical factor in QAOA cost. Using this, we derive the upper bounds for the probability of sampling an optimal solution and for the approximation ratio of maximum optimization problems, both dependent on the objective value distribution. Through numerical analysis, we link the distribution to the problem size and build the regression models that relate the problem size, QAOA depth, and performance upper bound. Our results suggest that the GM QAOA provides a quadratic enhancement in sampling probability and requires circuit depth that scales exponentially with problem size to maintain consistent performance.",
+            "primary_topic": {
+              "topic": "Quantum Computing Algorithms and Architecture",
+              "subfield": "Artificial Intelligence",
+              "field": "Computer Science",
+              "domain": "Physical Sciences"
+            },
+            "grants": [],
+            "venue": "Physical review. A/Physical review, A"
+          }
+        ],
+        "topic_counts": {
+          "Quantum Computing Algorithms and Architecture": 1
+        },
+        "funder_counts": {},
+        "venue_counts": {
+          "Physical review. A/Physical review, A": 1
+        },
+        "total_field_citations": 2,
+        "first_author_count": 0,
+        "last_author_count": 0,
+        "corresponding_author_count": 0,
+        "paper_count": 1,
+        "most_recent_year": 2025
+      }
+    },
+    "total_field_citations_all": 2
+  }
+}

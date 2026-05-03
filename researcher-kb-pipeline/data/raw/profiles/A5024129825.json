@@ -1,0 +1,778 @@
+{
+  "author_id": "A5024129825",
+  "openalex": {
+    "id": "https://openalex.org/A5024129825",
+    "orcid": "https://orcid.org/0000-0002-4536-1999",
+    "display_name": "Eva-Maria Mueller",
+    "raw_author_names": [
+      "E M Mueller",
+      "E MUELLER",
+      "E Mueller",
+      "E-M Mueller",
+      "E. MUELLER",
+      "E. Mueller",
+      "Elisabeth  F. Mueller",
+      "Eva Mueller",
+      "Eva-Maria Mueller",
+      "Mueller, E.",
+      "Mueller, Eugene A.",
+      "Mueller, Eva-Maria"
+    ],
+    "full_name": "Elisabeth  F. Mueller",
+    "works_count": 121,
+    "cited_by_count": 8106,
+    "summary_stats": {
+      "2yr_mean_citedness": 49.89795918367347,
+      "h_index": 38,
+      "i10_index": 68
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5024129825",
+      "orcid": "https://orcid.org/0000-0002-4536-1999"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I107766831",
+          "ror": "https://ror.org/05cvfcr44",
+          "display_name": "NSF National Center for Atmospheric Research",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I107766831",
+            "https://openalex.org/I1311060795",
+            "https://openalex.org/I2799356940",
+            "https://openalex.org/I4210141337",
+            "https://openalex.org/I4210150888"
+          ]
+        },
+        "years": [
+          1973
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I12834331",
+          "ror": "https://ror.org/01485tq96",
+          "display_name": "University of Wyoming",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I12834331"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1304082316",
+          "ror": "https://ror.org/035w1gb98",
+          "display_name": "United States Department of the Army",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1304082316",
+            "https://openalex.org/I1330347796"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I136199984",
+          "ror": "https://ror.org/03vek6s52",
+          "display_name": "Harvard University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I138006243",
+          "ror": "https://ror.org/03m2x1q45",
+          "display_name": "University of Arizona",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I138006243"
+          ]
+        },
+        "years": [
+          1972
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I162608824",
+          "ror": "https://ror.org/00ayhx656",
+          "display_name": "University of Sussex",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I162608824"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I183874917",
+          "ror": "https://ror.org/04kp3hw27",
+          "display_name": "Urbana University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I183874917"
+          ]
+        },
+        "years": [
+          1972,
+          1966
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I194601409",
+          "ror": "https://ror.org/04j91ny53",
+          "display_name": "Cooperative Institute for Mesoscale Meteorological Studies",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I194601409"
+          ]
+        },
+        "years": [
+          1972
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I205783295",
+          "ror": "https://ror.org/05bnh6r87",
+          "display_name": "Cornell University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        "years": [
+          2015,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800676788",
+          "ror": "https://ror.org/04g2pxh42",
+          "display_name": "Korea Astronomy and Space Science Institute",
+          "country_code": "KR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800676788",
+            "https://openalex.org/I2801339556",
+            "https://openalex.org/I4387152098",
+            "https://openalex.org/I4405260336"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I312809248",
+          "ror": "https://ror.org/04bdnn252",
+          "display_name": "Sussex County Community College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I312809248"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I40120149",
+          "ror": "https://ror.org/052gg0110",
+          "display_name": "University of Oxford",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        "years": [
+          2022,
+          2021,
+          2020,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I40347166",
+          "ror": "https://ror.org/024mw5h28",
+          "display_name": "University of Chicago",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I40347166"
+          ]
+        },
+        "years": [
+          1973
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210145244",
+          "ror": "https://ror.org/05c5a2504",
+          "display_name": "Radar (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210145244"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210156743",
+          "ror": "https://ror.org/04gczvb13",
+          "display_name": "Illinois Archaeological Survey",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210156743"
+          ]
+        },
+        "years": [
+          1973,
+          1966
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4665924",
+          "ror": "https://ror.org/03zdwsf69",
+          "display_name": "University of Rostock",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4665924"
+          ]
+        },
+        "years": [
+          1993
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63072094",
+          "ror": "https://ror.org/03ykbk197",
+          "display_name": "University of Portsmouth",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63072094"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022,
+          2020,
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I72816309",
+          "ror": "https://ror.org/04bdffz58",
+          "display_name": "Drexel University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I72816309"
+          ]
+        },
+        "years": [
+          1972
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I76835614",
+          "ror": "https://ror.org/02ymw8z06",
+          "display_name": "University of Missouri",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76835614"
+          ]
+        },
+        "years": [
+          1972
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I8961855",
+          "ror": "https://ror.org/01tmp8f25",
+          "display_name": "Universidad Nacional Autónoma de México",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I8961855"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I920285187",
+          "ror": "https://ror.org/01v62m802",
+          "display_name": "Siena College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I920285187"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I92446798",
+          "ror": "https://ror.org/03k1gpj17",
+          "display_name": "Colorado State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I92446798"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I136199984",
+        "ror": "https://ror.org/03vek6s52",
+        "display_name": "Harvard University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I136199984"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I162608824",
+        "ror": "https://ror.org/00ayhx656",
+        "display_name": "University of Sussex",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I162608824"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I312809248",
+        "ror": "https://ror.org/04bdnn252",
+        "display_name": "Sussex County Community College",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I312809248"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I8961855",
+        "ror": "https://ror.org/01tmp8f25",
+        "display_name": "Universidad Nacional Autónoma de México",
+        "country_code": "MX",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I8961855"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "count": 79,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "count": 51,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "count": 50,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11323",
+        "display_name": "Gamma-ray bursts and supernovae",
+        "count": 17,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10039",
+        "display_name": "Stellar, planetary, and galactic studies",
+        "count": 15,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "value": 0.0004153,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "value": 0.0001365,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "value": 0.0001317,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "value": 0.0001316,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14461",
+        "display_name": "Medicinal Plant Studies",
+        "value": 0.000129,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2707",
+          "display_name": "Complementary and alternative medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9735873937606812
+      },
+      {
+        "id": "33024259",
+        "wikidata": "https://www.wikidata.org/wiki/Q76250",
+        "display_name": "Redshift",
+        "score": 0.9027507901191711
+      },
+      {
+        "id": "44870925",
+        "wikidata": "https://www.wikidata.org/wiki/Q37547",
+        "display_name": "Astrophysics",
+        "score": 0.831207275390625
+      },
+      {
+        "id": "98444146",
+        "wikidata": "https://www.wikidata.org/wiki/Q318",
+        "display_name": "Galaxy",
+        "score": 0.8252894878387451
+      },
+      {
+        "id": "1276947",
+        "wikidata": "https://www.wikidata.org/wiki/Q333",
+        "display_name": "Astronomy",
+        "score": 0.5969876050949097
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1957,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 56
+      },
+      {
+        "year": 1966,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1972,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1973,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 18
+      },
+      {
+        "year": 1982,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 40
+      },
+      {
+        "year": 1988,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 6
+      },
+      {
+        "year": 1992,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 3
+      },
+      {
+        "year": 1993,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 55
+      },
+      {
+        "year": 2006,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2013,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 31
+      },
+      {
+        "year": 2014,
+        "works_count": 7,
+        "oa_works_count": 6,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2015,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 67
+      },
+      {
+        "year": 2017,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 419
+      },
+      {
+        "year": 2018,
+        "works_count": 9,
+        "oa_works_count": 8,
+        "cited_by_count": 1465
+      },
+      {
+        "year": 2020,
+        "works_count": 16,
+        "oa_works_count": 11,
+        "cited_by_count": 2418
+      },
+      {
+        "year": 2021,
+        "works_count": 11,
+        "oa_works_count": 10,
+        "cited_by_count": 455
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 459
+      },
+      {
+        "year": 2023,
+        "works_count": 11,
+        "oa_works_count": 11,
+        "cited_by_count": 153
+      },
+      {
+        "year": 2024,
+        "works_count": 20,
+        "oa_works_count": 20,
+        "cited_by_count": 518
+      },
+      {
+        "year": 2025,
+        "works_count": 29,
+        "oa_works_count": 29,
+        "cited_by_count": 1927
+      }
+    ],
+    "display_name_alternatives": [
+      "E M Mueller",
+      "E MUELLER",
+      "E Mueller",
+      "E-M Mueller",
+      "E. MUELLER",
+      "E. Mueller",
+      "Elisabeth  F. Mueller",
+      "Eva Mueller",
+      "Eva-Maria Mueller",
+      "Mueller, E.",
+      "Mueller, Eugene A.",
+      "Mueller, Eva-Maria"
+    ],
+    "block_key": "e mueller",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5024129825",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2017-03-03T00:00:00"
+  },
+  "semantic_scholar": null
+}

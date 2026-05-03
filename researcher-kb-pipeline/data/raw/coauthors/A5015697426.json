@@ -1,0 +1,146 @@
+{
+  "author_id": "A5015697426",
+  "total_recent_works_analysed": 21,
+  "total_unique_collaborators": 60,
+  "estimated_mentee_count": 12,
+  "likely_mentees": [
+    {
+      "name": "Xinjun Jin",
+      "id": "A5079493963",
+      "works_count": 4,
+      "shared_papers": 4
+    },
+    {
+      "name": "Kunli Fang",
+      "id": "A5013901370",
+      "works_count": 4,
+      "shared_papers": 3
+    },
+    {
+      "name": "Xuezhao Zhang",
+      "id": "A5048925875",
+      "works_count": 13,
+      "shared_papers": 2
+    },
+    {
+      "name": "Hailin Zou",
+      "id": "A5071500813",
+      "works_count": 4,
+      "shared_papers": 2
+    },
+    {
+      "name": "Xun Yuan",
+      "id": "A5073800857",
+      "works_count": 6,
+      "shared_papers": 2
+    },
+    {
+      "name": "Zishun Guo",
+      "id": "A5114197527",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Cuiyun Lin",
+      "id": "A5113305279",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Hengjie Zhang",
+      "id": "A5105990838",
+      "works_count": 4,
+      "shared_papers": 1
+    },
+    {
+      "name": "Lingpeng Yin",
+      "id": "A5104329646",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Hailin Zou",
+      "id": "A5094135088",
+      "works_count": 11,
+      "shared_papers": 1
+    },
+    {
+      "name": "Haoran Xu",
+      "id": "A5109511087",
+      "works_count": 10,
+      "shared_papers": 1
+    },
+    {
+      "name": "Jianfu Jiang",
+      "id": "A5112972345",
+      "works_count": 1,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.29,
+    "corresponding_author_ratio": 0.48
+  },
+  "top_collaborators": [
+    {
+      "name": "Jianqing Li",
+      "id": "A5100641152",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Zijie Chen",
+      "id": "A5102009885",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Xinjun Jin",
+      "id": "A5079493963",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Lihui Zheng",
+      "id": "A5100986701",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Tao Hu",
+      "id": "A5001755416",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Kunli Fang",
+      "id": "A5013901370",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Yuanyuan Pan",
+      "id": "A5059998273",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Zijie Chen",
+      "id": "A5102009886",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "JianQing Li",
+      "id": "A5100641156",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Wenxiao Wang",
+      "id": "A5101701726",
+      "shared_papers": 2,
+      "same_institution": true
+    }
+  ]
+}

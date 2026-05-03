@@ -1,0 +1,714 @@
+{
+  "author_id": "A5001052791",
+  "openalex": {
+    "id": "https://openalex.org/A5001052791",
+    "orcid": "https://orcid.org/0000-0003-0912-204X",
+    "display_name": "Savo Glisic",
+    "raw_author_names": [
+      "Glisic, Savo",
+      "Glisic, Savo G.",
+      "S. G. Glisic",
+      "S. Glisic",
+      "S.G. Glisic",
+      "S.G. Glišić",
+      "Savo G Glisic",
+      "Savo G. Glisic",
+      "Savo Glisic",
+      "savo glisic"
+    ],
+    "full_name": "Glisic, Savo G.",
+    "works_count": 315,
+    "cited_by_count": 2624,
+    "summary_stats": {
+      "2yr_mean_citedness": 1.4444444444444444,
+      "h_index": 29,
+      "i10_index": 64
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5001052791",
+      "orcid": "https://orcid.org/0000-0003-0912-204X"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I107077323",
+          "ror": "https://ror.org/05ejpqr48",
+          "display_name": "Worcester Polytechnic Institute",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I107077323"
+          ]
+        },
+        "years": [
+          2025,
+          2023,
+          2022,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2738502077",
+          "ror": "https://ror.org/04pkc8m17",
+          "display_name": "Nokia (Finland)",
+          "country_code": "FI",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I2738502077"
+          ]
+        },
+        "years": [
+          2003,
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I36258959",
+          "ror": "https://ror.org/0168r3w48",
+          "display_name": "University of California, San Diego",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36258959"
+          ]
+        },
+        "years": [
+          1990,
+          1987,
+          1986
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210107997",
+          "ror": "https://ror.org/014rks409",
+          "display_name": "Finland University",
+          "country_code": "FI",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210107997"
+          ]
+        },
+        "years": [
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210128819",
+          "ror": "https://ror.org/033js6g46",
+          "display_name": "Institute of Electrical Engineering",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I4210128819"
+          ]
+        },
+        "years": [
+          1988,
+          1985
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210149559",
+          "ror": "https://ror.org/04h3h5b09",
+          "display_name": "Institute of Physics Belgrade",
+          "country_code": "RS",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4068193",
+            "https://openalex.org/I4210149559"
+          ]
+        },
+        "years": [
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I67415387",
+          "ror": "https://ror.org/04f2nsd36",
+          "display_name": "Lancaster University",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I67415387"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I93860229",
+          "ror": "https://ror.org/01nffqt88",
+          "display_name": "Politecnico di Milano",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I93860229"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I98381234",
+          "ror": "https://ror.org/03yj89h83",
+          "display_name": "University of Oulu",
+          "country_code": "FI",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98381234"
+          ]
+        },
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I107077323",
+        "ror": "https://ror.org/05ejpqr48",
+        "display_name": "Worcester Polytechnic Institute",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I107077323"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10575",
+        "display_name": "Wireless Communication Networks Research",
+        "count": 123,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10125",
+        "display_name": "Advanced Wireless Communication Techniques",
+        "count": 74,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10148",
+        "display_name": "Advanced MIMO Systems Optimization",
+        "count": 69,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10796",
+        "display_name": "Cooperative Communication and Network Coding",
+        "count": 66,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11409",
+        "display_name": "Advanced Wireless Network Optimization",
+        "count": 61,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10575",
+        "display_name": "Wireless Communication Networks Research",
+        "value": 0.0005201,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11409",
+        "display_name": "Advanced Wireless Network Optimization",
+        "value": 0.0004411,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10579",
+        "display_name": "Cognitive Radio Networks and Spectrum Sensing",
+        "value": 0.0003795,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10125",
+        "display_name": "Advanced Wireless Communication Techniques",
+        "value": 0.0003533,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10796",
+        "display_name": "Cooperative Communication and Network Coding",
+        "value": 0.0003318,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8922317028045654
+      },
+      {
+        "id": "31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "score": 0.8812862634658813
+      },
+      {
+        "id": "127162648",
+        "wikidata": "https://www.wikidata.org/wiki/Q16858953",
+        "display_name": "Channel (broadcasting)",
+        "score": 0.7014688849449158
+      },
+      {
+        "id": "555944384",
+        "wikidata": "https://www.wikidata.org/wiki/Q249",
+        "display_name": "Wireless",
+        "score": 0.6448277235031128
+      },
+      {
+        "id": "76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "score": 0.5559657216072083
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1979,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1982,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1983,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 18
+      },
+      {
+        "year": 1984,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 8
+      },
+      {
+        "year": 1985,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 1986,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1987,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 12
+      },
+      {
+        "year": 1988,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 37
+      },
+      {
+        "year": 1989,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 1990,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 23
+      },
+      {
+        "year": 1991,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 64
+      },
+      {
+        "year": 1992,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1994,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1995,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 124
+      },
+      {
+        "year": 1996,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 30
+      },
+      {
+        "year": 1997,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 406
+      },
+      {
+        "year": 1998,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 14
+      },
+      {
+        "year": 1999,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 40
+      },
+      {
+        "year": 2000,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 69
+      },
+      {
+        "year": 2001,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 64
+      },
+      {
+        "year": 2002,
+        "works_count": 36,
+        "oa_works_count": 1,
+        "cited_by_count": 100
+      },
+      {
+        "year": 2003,
+        "works_count": 10,
+        "oa_works_count": 0,
+        "cited_by_count": 71
+      },
+      {
+        "year": 2004,
+        "works_count": 18,
+        "oa_works_count": 1,
+        "cited_by_count": 137
+      },
+      {
+        "year": 2005,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2006,
+        "works_count": 25,
+        "oa_works_count": 0,
+        "cited_by_count": 158
+      },
+      {
+        "year": 2007,
+        "works_count": 18,
+        "oa_works_count": 1,
+        "cited_by_count": 67
+      },
+      {
+        "year": 2008,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2009,
+        "works_count": 27,
+        "oa_works_count": 2,
+        "cited_by_count": 76
+      },
+      {
+        "year": 2010,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 60
+      },
+      {
+        "year": 2011,
+        "works_count": 22,
+        "oa_works_count": 1,
+        "cited_by_count": 33
+      },
+      {
+        "year": 2012,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 80
+      },
+      {
+        "year": 2013,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 101
+      },
+      {
+        "year": 2014,
+        "works_count": 8,
+        "oa_works_count": 2,
+        "cited_by_count": 204
+      },
+      {
+        "year": 2015,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 106
+      },
+      {
+        "year": 2016,
+        "works_count": 31,
+        "oa_works_count": 3,
+        "cited_by_count": 113
+      },
+      {
+        "year": 2017,
+        "works_count": 8,
+        "oa_works_count": 1,
+        "cited_by_count": 217
+      },
+      {
+        "year": 2018,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 30
+      },
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2020,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 32
+      },
+      {
+        "year": 2021,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 42
+      },
+      {
+        "year": 2022,
+        "works_count": 20,
+        "oa_works_count": 1,
+        "cited_by_count": 45
+      },
+      {
+        "year": 2023,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2024,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2025,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 1
+      }
+    ],
+    "display_name_alternatives": [
+      "Glisic, Savo",
+      "Glisic, Savo G.",
+      "S. G. Glisic",
+      "S. Glisic",
+      "S.G. Glisic",
+      "S.G. Glišić",
+      "Savo G Glisic",
+      "Savo G. Glisic",
+      "Savo Glisic",
+      "savo glisic"
+    ],
+    "block_key": "s glisic",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5001052791",
+    "updated_date": null,
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2058042456",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2058042456",
+    "name": "Savo Glisic",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 1,
+    "citationCount": 0,
+    "hIndex": 0
+  }
+}

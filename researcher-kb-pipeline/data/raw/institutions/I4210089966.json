@@ -1,0 +1,1091 @@
+{
+  "id": "https://openalex.org/I4210089966",
+  "ror": "https://ror.org/00a0jsq62",
+  "display_name": "London School of Hygiene & Tropical Medicine",
+  "country_code": "GB",
+  "type": "education",
+  "type_id": "https://openalex.org/institution-types/education",
+  "lineage": [
+    "https://openalex.org/I124357947",
+    "https://openalex.org/I4210089966"
+  ],
+  "homepage_url": "http://www.lshtm.ac.uk/",
+  "image_url": null,
+  "image_thumbnail_url": null,
+  "display_name_acronyms": [
+    "LSHTM"
+  ],
+  "display_name_alternatives": [
+    "London School of Hygiene & Tropical Medicine"
+  ],
+  "repositories": [
+    {
+      "id": "https://openalex.org/S4306400091",
+      "display_name": "London School of Hygiene & Tropical Medicine",
+      "host_organization": "https://openalex.org/I4210089966",
+      "host_organization_name": "London School of Hygiene & Tropical Medicine",
+      "host_organization_lineage": [
+        "https://openalex.org/I4210089966"
+      ]
+    },
+    {
+      "id": "https://openalex.org/S4306402527",
+      "display_name": "LSHTM Research Online (London School of Hygiene and Tropical Medicine)",
+      "host_organization": "https://openalex.org/I4210089966",
+      "host_organization_name": "London School of Hygiene & Tropical Medicine",
+      "host_organization_lineage": [
+        "https://openalex.org/I4210089966"
+      ]
+    }
+  ],
+  "works_count": 112784,
+  "cited_by_count": 10059362,
+  "summary_stats": {
+    "2yr_mean_citedness": 3.0157386785449147,
+    "h_index": 1041,
+    "i10_index": 91509
+  },
+  "ids": {
+    "openalex": "https://openalex.org/I4210089966",
+    "ror": "https://ror.org/00a0jsq62",
+    "grid": "grid.8991.9",
+    "wikipedia": "http://en.wikipedia.org/wiki/London_School_of_Hygiene_%26_Tropical_Medicine",
+    "wikidata": null
+  },
+  "geo": {
+    "city": "London",
+    "geonames_city_id": "2643743",
+    "region": "Camden",
+    "country_code": "GB",
+    "country": "United Kingdom",
+    "latitude": 51.52090072631836,
+    "longitude": -0.1307000070810318
+  },
+  "international": {},
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I124357947",
+      "ror": "https://ror.org/04cw6st05",
+      "display_name": "University of London",
+      "country_code": "GB",
+      "type": "education",
+      "relationship": "parent"
+    },
+    {
+      "id": "https://openalex.org/I4210116687",
+      "ror": "https://ror.org/025wfj672",
+      "display_name": "MRC Unit the Gambia",
+      "country_code": "GM",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210134366",
+      "ror": "https://ror.org/045z18t19",
+      "display_name": "Malawi Epidemiology and Intervention Research Unit",
+      "country_code": "MW",
+      "type": "facility",
+      "relationship": "child"
+    }
+  ],
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 1500,
+      "oa_works_count": 1354,
+      "cited_by_count": 99
+    },
+    {
+      "year": 2025,
+      "works_count": 5440,
+      "oa_works_count": 4964,
+      "cited_by_count": 10280
+    },
+    {
+      "year": 2024,
+      "works_count": 7138,
+      "oa_works_count": 6808,
+      "cited_by_count": 29750
+    },
+    {
+      "year": 2023,
+      "works_count": 6775,
+      "oa_works_count": 6436,
+      "cited_by_count": 61068
+    },
+    {
+      "year": 2022,
+      "works_count": 7689,
+      "oa_works_count": 7267,
+      "cited_by_count": 107066
+    },
+    {
+      "year": 2021,
+      "works_count": 21724,
+      "oa_works_count": 21217,
+      "cited_by_count": 191149
+    },
+    {
+      "year": 2020,
+      "works_count": 12795,
+      "oa_works_count": 12297,
+      "cited_by_count": 253447
+    },
+    {
+      "year": 2019,
+      "works_count": 4289,
+      "oa_works_count": 3745,
+      "cited_by_count": 160306
+    },
+    {
+      "year": 2018,
+      "works_count": 3818,
+      "oa_works_count": 3174,
+      "cited_by_count": 165897
+    },
+    {
+      "year": 2017,
+      "works_count": 3478,
+      "oa_works_count": 2980,
+      "cited_by_count": 163314
+    },
+    {
+      "year": 2016,
+      "works_count": 3171,
+      "oa_works_count": 2532,
+      "cited_by_count": 206571
+    },
+    {
+      "year": 2015,
+      "works_count": 2865,
+      "oa_works_count": 2276,
+      "cited_by_count": 205674
+    },
+    {
+      "year": 2014,
+      "works_count": 2698,
+      "oa_works_count": 1931,
+      "cited_by_count": 189080
+    },
+    {
+      "year": 2013,
+      "works_count": 2402,
+      "oa_works_count": 1714,
+      "cited_by_count": 183842
+    },
+    {
+      "year": 2012,
+      "works_count": 2163,
+      "oa_works_count": 1429,
+      "cited_by_count": 194091
+    },
+    {
+      "year": 2011,
+      "works_count": 2032,
+      "oa_works_count": 1353,
+      "cited_by_count": 165494
+    },
+    {
+      "year": 2010,
+      "works_count": 1760,
+      "oa_works_count": 1061,
+      "cited_by_count": 164245
+    }
+  ],
+  "roles": [
+    {
+      "role": "funder",
+      "id": "https://openalex.org/F4320311430",
+      "works_count": 7411
+    },
+    {
+      "role": "institution",
+      "id": "https://openalex.org/I4210089966",
+      "works_count": 112784
+    }
+  ],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10209",
+      "display_name": "Global Maternal and Child Health",
+      "count": 8114,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10091",
+      "display_name": "Malaria Research and Control",
+      "count": 6319,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10082",
+      "display_name": "HIV/AIDS Research and Interventions",
+      "count": 5067,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10166",
+      "display_name": "Mosquito-borne diseases and control",
+      "count": 5066,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10596",
+      "display_name": "Child Nutrition and Water Access",
+      "count": 4357,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11987",
+      "display_name": "COVID-19 Impact on Reproduction",
+      "count": 4006,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2729",
+        "display_name": "Obstetrics and Gynecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10410",
+      "display_name": "COVID-19 epidemiological studies",
+      "count": 3972,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2611",
+        "display_name": "Modeling and Simulation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13398",
+      "display_name": "Data Analysis with R",
+      "count": 3844,
+      "score": 0.9853000044822693,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10038",
+      "display_name": "Tuberculosis Research and Epidemiology",
+      "count": 3693,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10327",
+      "display_name": "Adolescent Sexual and Reproductive Health",
+      "count": 3212,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10695",
+      "display_name": "Parasites and Host Interactions",
+      "count": 2835,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2405",
+        "display_name": "Parasitology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10833",
+      "display_name": "Vaccine Coverage and Hesitancy",
+      "count": 2775,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10235",
+      "display_name": "Health disparities and outcomes",
+      "count": 2602,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "count": 2472,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11860",
+      "display_name": "HIV, Drug Use, Sexual Risk",
+      "count": 2352,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12781",
+      "display_name": "Global Health Care Issues",
+      "count": 2235,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "count": 2222,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12816",
+      "display_name": "Global Public Health Policies and Epidemiology",
+      "count": 2189,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11531",
+      "display_name": "Healthcare Systems and Reforms",
+      "count": 2157,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2003",
+        "display_name": "Finance"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10654",
+      "display_name": "Pneumonia and Respiratory Infections",
+      "count": 1904,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10890",
+      "display_name": "Trypanosoma species research and implications",
+      "count": 1663,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11581",
+      "display_name": "Viral Infections and Outbreaks Research",
+      "count": 1624,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10823",
+      "display_name": "Research on Leishmaniasis Studies",
+      "count": 1594,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10118",
+      "display_name": "SARS-CoV-2 and COVID-19 Research",
+      "count": 1566,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12255",
+      "display_name": "Biosimilars and Bioanalytical Methods",
+      "count": 1515,
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T11987",
+      "display_name": "COVID-19 Impact on Reproduction",
+      "value": 0.0559826,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2729",
+        "display_name": "Obstetrics and Gynecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10091",
+      "display_name": "Malaria Research and Control",
+      "value": 0.0372776,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10209",
+      "display_name": "Global Maternal and Child Health",
+      "value": 0.03388,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12255",
+      "display_name": "Biosimilars and Bioanalytical Methods",
+      "value": 0.0279469,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14233",
+      "display_name": "Diverse Topics in Contemporary Research",
+      "value": 0.0261283,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14334",
+      "display_name": "HIV/AIDS Impact and Responses",
+      "value": 0.0244877,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10410",
+      "display_name": "COVID-19 epidemiological studies",
+      "value": 0.0241519,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2611",
+        "display_name": "Modeling and Simulation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10082",
+      "display_name": "HIV/AIDS Research and Interventions",
+      "value": 0.0229788,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11531",
+      "display_name": "Healthcare Systems and Reforms",
+      "value": 0.0226421,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2003",
+        "display_name": "Finance"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12816",
+      "display_name": "Global Public Health Policies and Epidemiology",
+      "value": 0.0221247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10695",
+      "display_name": "Parasites and Host Interactions",
+      "value": 0.0217058,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2405",
+        "display_name": "Parasitology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10327",
+      "display_name": "Adolescent Sexual and Reproductive Health",
+      "value": 0.0214583,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13398",
+      "display_name": "Data Analysis with R",
+      "value": 0.0210555,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10166",
+      "display_name": "Mosquito-borne diseases and control",
+      "value": 0.0207309,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11860",
+      "display_name": "HIV, Drug Use, Sexual Risk",
+      "value": 0.0206146,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12527",
+      "display_name": "Chemistry and Stereochemistry Studies",
+      "value": 0.0200308,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1605",
+        "display_name": "Organic Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10833",
+      "display_name": "Vaccine Coverage and Hesitancy",
+      "value": 0.0199581,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10596",
+      "display_name": "Child Nutrition and Water Access",
+      "value": 0.0199367,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11702",
+      "display_name": "Parasitic Diseases Research and Treatment",
+      "value": 0.0194006,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11731",
+      "display_name": "Global Health and Surgery",
+      "value": 0.0187395,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12728",
+      "display_name": "Demographic Trends and Gender Preferences",
+      "value": 0.0186195,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3318",
+        "display_name": "Gender Studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11581",
+      "display_name": "Viral Infections and Outbreaks Research",
+      "value": 0.0177817,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10038",
+      "display_name": "Tuberculosis Research and Epidemiology",
+      "value": 0.0175177,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10823",
+      "display_name": "Research on Leishmaniasis Studies",
+      "value": 0.0174549,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11934",
+      "display_name": "Syphilis Diagnosis and Treatment",
+      "value": 0.0163498,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "is_super_system": false,
+  "status": "active",
+  "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I4210089966",
+  "updated_date": "2026-04-12T05:59:47",
+  "created_date": "2022-02-02T04:48:36"
+}

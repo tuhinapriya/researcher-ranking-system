@@ -1,0 +1,1292 @@
+{
+  "id": "https://openalex.org/I185261750",
+  "ror": "https://ror.org/03dbr7087",
+  "display_name": "University of Toronto",
+  "country_code": "CA",
+  "type": "education",
+  "type_id": "https://openalex.org/institution-types/education",
+  "lineage": [
+    "https://openalex.org/I185261750"
+  ],
+  "homepage_url": "https://www.utoronto.ca",
+  "image_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Uoft%20universitycollege.jpg",
+  "image_thumbnail_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Uoft%20universitycollege.jpg&width=300",
+  "display_name_acronyms": [],
+  "display_name_alternatives": [
+    "University of Toronto",
+    "Université de Toronto"
+  ],
+  "repositories": [
+    {
+      "id": "https://openalex.org/S4306400261",
+      "display_name": "TSpace (University of Toronto)",
+      "host_organization": "https://openalex.org/I185261750",
+      "host_organization_name": "University of Toronto",
+      "host_organization_lineage": [
+        "https://openalex.org/I185261750"
+      ]
+    }
+  ],
+  "works_count": 534178,
+  "cited_by_count": 55510612,
+  "summary_stats": {
+    "2yr_mean_citedness": 3.649500628437825,
+    "h_index": 1726,
+    "i10_index": 629747
+  },
+  "ids": {
+    "openalex": "https://openalex.org/I185261750",
+    "ror": "https://ror.org/03dbr7087",
+    "grid": "grid.17063.33",
+    "wikipedia": "https://en.wikipedia.org/wiki/University_of_Toronto",
+    "wikidata": "Q180865"
+  },
+  "geo": {
+    "city": "Toronto",
+    "geonames_city_id": "6167865",
+    "region": "Ontario",
+    "country_code": "CA",
+    "country": "Canada",
+    "latitude": 43.70643,
+    "longitude": -79.39864
+  },
+  "international": {},
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I1291836623",
+      "ror": "https://ror.org/05deks119",
+      "display_name": "Mount Sinai Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I1297363086",
+      "ror": "https://ror.org/04skqfp25",
+      "display_name": "St. Michael's Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I1323843004",
+      "ror": "https://ror.org/03wefcv03",
+      "display_name": "Sunnybrook Health Science Centre",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I1325899441",
+      "ror": "https://ror.org/042xt5161",
+      "display_name": "University Health Network",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I1338135719",
+      "ror": "https://ror.org/03e71c577",
+      "display_name": "Centre for Addiction and Mental Health",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I210557978",
+      "ror": "https://ror.org/01s5axj25",
+      "display_name": "Lunenfeld-Tanenbaum Research Institute",
+      "country_code": "CA",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2799376586",
+      "ror": "https://ror.org/04pzgb662",
+      "display_name": "The Scarborough Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2800061829",
+      "ror": "https://ror.org/05b3hqn14",
+      "display_name": "North York General Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2800336561",
+      "ror": "https://ror.org/03v6a2j28",
+      "display_name": "Trillium Health Centre",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2801317318",
+      "ror": "https://ror.org/057q4rt57",
+      "display_name": "Hospital for Sick Children",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2801420703",
+      "ror": "https://ror.org/03qea8398",
+      "display_name": "Holland Bloorview Kids Rehabilitation Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2801816099",
+      "ror": "https://ror.org/03cw63y62",
+      "display_name": "Women's College Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2802213372",
+      "ror": "https://ror.org/03sm16s30",
+      "display_name": "Toronto East General Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2802437833",
+      "ror": "https://ror.org/03gp5b411",
+      "display_name": "Baycrest Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2802752716",
+      "ror": "https://ror.org/02gj19t78",
+      "display_name": "Humber River Regional Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210091032",
+      "ror": "https://ror.org/00cgnj660",
+      "display_name": "Ted Rogers Centre for Heart Research",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210110940",
+      "ror": "https://ror.org/0265wc016",
+      "display_name": "Canadian Institute for Theoretical Astrophysics",
+      "country_code": "CA",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210112457",
+      "ror": "https://ror.org/022ave037",
+      "display_name": "Campbellford Memorial Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210120227",
+      "ror": "https://ror.org/01tw7ew41",
+      "display_name": "Surrey Place Centre",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210122750",
+      "ror": "https://ror.org/037y13578",
+      "display_name": "West Park Healthcare Centre",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210122766",
+      "ror": "https://ror.org/02p6a3b37",
+      "display_name": "Creative Destruction Lab",
+      "country_code": "CA",
+      "type": "nonprofit",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210128176",
+      "ror": "https://ror.org/0390kp681",
+      "display_name": "Institute for Circumpolar Health Research",
+      "country_code": "CA",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210147440",
+      "ror": "https://ror.org/0548x8e24",
+      "display_name": "Waypoint Centre for Mental Health Care",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210167439",
+      "ror": "https://ror.org/008kn1a71",
+      "display_name": "Sunnybrook Hospital",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4387155281",
+      "ror": "https://ror.org/055a54548",
+      "display_name": "Beaufort Lagoon Ecosystems Long Term Ecological Research Network",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4388891821",
+      "ror": "https://ror.org/037dt7852",
+      "display_name": "AGE-WELL",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4391768120",
+      "ror": "https://ror.org/05n0tzs53",
+      "display_name": "Sunnybrook Research Institute",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405262013",
+      "ror": "https://ror.org/00vd0rf02",
+      "display_name": "Baycrest Centre for Geriatric Care",
+      "country_code": "CA",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I9267121",
+      "ror": "https://ror.org/03zzj3f20",
+      "display_name": "Fields Institute for Research in Mathematical Sciences",
+      "country_code": "CA",
+      "type": "facility",
+      "relationship": "child"
+    }
+  ],
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 3502,
+      "oa_works_count": 2407,
+      "cited_by_count": 176
+    },
+    {
+      "year": 2025,
+      "works_count": 26610,
+      "oa_works_count": 18230,
+      "cited_by_count": 41251
+    },
+    {
+      "year": 2024,
+      "works_count": 29328,
+      "oa_works_count": 21571,
+      "cited_by_count": 166184
+    },
+    {
+      "year": 2023,
+      "works_count": 29348,
+      "oa_works_count": 20347,
+      "cited_by_count": 268382
+    },
+    {
+      "year": 2022,
+      "works_count": 27715,
+      "oa_works_count": 18245,
+      "cited_by_count": 389464
+    },
+    {
+      "year": 2021,
+      "works_count": 27780,
+      "oa_works_count": 17486,
+      "cited_by_count": 734397
+    },
+    {
+      "year": 2020,
+      "works_count": 26055,
+      "oa_works_count": 15235,
+      "cited_by_count": 843350
+    },
+    {
+      "year": 2019,
+      "works_count": 22557,
+      "oa_works_count": 11815,
+      "cited_by_count": 767145
+    },
+    {
+      "year": 2018,
+      "works_count": 21147,
+      "oa_works_count": 10701,
+      "cited_by_count": 862015
+    },
+    {
+      "year": 2017,
+      "works_count": 20481,
+      "oa_works_count": 9666,
+      "cited_by_count": 919232
+    },
+    {
+      "year": 2016,
+      "works_count": 22965,
+      "oa_works_count": 10251,
+      "cited_by_count": 901131
+    },
+    {
+      "year": 2015,
+      "works_count": 17370,
+      "oa_works_count": 7740,
+      "cited_by_count": 996680
+    },
+    {
+      "year": 2014,
+      "works_count": 16641,
+      "oa_works_count": 7105,
+      "cited_by_count": 943858
+    },
+    {
+      "year": 2013,
+      "works_count": 15954,
+      "oa_works_count": 6490,
+      "cited_by_count": 848810
+    },
+    {
+      "year": 2012,
+      "works_count": 15022,
+      "oa_works_count": 5950,
+      "cited_by_count": 811900
+    },
+    {
+      "year": 2011,
+      "works_count": 13867,
+      "oa_works_count": 4990,
+      "cited_by_count": 823267
+    },
+    {
+      "year": 2010,
+      "works_count": 13332,
+      "oa_works_count": 4568,
+      "cited_by_count": 844001
+    }
+  ],
+  "roles": [
+    {
+      "role": "funder",
+      "id": "https://openalex.org/F4320322015",
+      "works_count": 29754
+    },
+    {
+      "role": "institution",
+      "id": "https://openalex.org/I185261750",
+      "works_count": 534178
+    },
+    {
+      "role": "publisher",
+      "id": "https://openalex.org/P4310313000",
+      "works_count": 262
+    }
+  ],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "count": 5353,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10077",
+      "display_name": "Neuroscience and Neuropharmacology Research",
+      "count": 4122,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11930",
+      "display_name": "Cardiac, Anesthesia and Surgical Outcomes",
+      "count": 3748,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10549",
+      "display_name": "Neonatal Respiratory Health Research",
+      "count": 3592,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10322",
+      "display_name": "Respiratory Support and Mechanisms",
+      "count": 3521,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10645",
+      "display_name": "Cardiac Arrest and Resuscitation",
+      "count": 3499,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2711",
+        "display_name": "Emergency Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10048",
+      "display_name": "Particle physics theoretical and experimental studies",
+      "count": 3444,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "count": 3243,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10254",
+      "display_name": "Innovations in Medical Education",
+      "count": 3218,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10182",
+      "display_name": "Child and Adolescent Psychosocial and Emotional Development",
+      "count": 3124,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10039",
+      "display_name": "Stellar, planetary, and galactic studies",
+      "count": 3093,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10177",
+      "display_name": "Palliative Care and End-of-Life Issues",
+      "count": 2892,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10023",
+      "display_name": "Schizophrenia research and treatment",
+      "count": 2784,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12267",
+      "display_name": "Diet and metabolism studies",
+      "count": 2777,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10351",
+      "display_name": "Liver Disease Diagnosis and Treatment",
+      "count": 2752,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11141",
+      "display_name": "Childhood Cancer Survivors' Quality of Life",
+      "count": 2714,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10919",
+      "display_name": "Neurological disorders and treatments",
+      "count": 2708,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11287",
+      "display_name": "Cancer Genomics and Diagnostics",
+      "count": 2693,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10839",
+      "display_name": "Pancreatic function and diabetes",
+      "count": 2656,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10015",
+      "display_name": "Genomics and Phylogenetic Studies",
+      "count": 2552,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10581",
+      "display_name": "Neural dynamics and brain function",
+      "count": 2548,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10235",
+      "display_name": "Health disparities and outcomes",
+      "count": 2524,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10300",
+      "display_name": "Congenital Heart Disease Studies",
+      "count": 2516,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11020",
+      "display_name": "Immune Cell Function and Interaction",
+      "count": 2507,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10075",
+      "display_name": "Atmospheric chemistry and aerosols",
+      "count": 2496,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T13655",
+      "display_name": "Canadian Policy and Governance",
+      "value": 0.0350333,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12219",
+      "display_name": "Canadian Identity and History",
+      "value": 0.0256154,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10629",
+      "display_name": "Health Policy Implementation Science",
+      "value": 0.0221185,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10925",
+      "display_name": "Spinal Cord Injury Research",
+      "value": 0.0214632,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12823",
+      "display_name": "Adolescent and Pediatric Healthcare",
+      "value": 0.0214263,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3616",
+        "display_name": "Speech and Hearing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10348",
+      "display_name": "Indigenous Health, Education, and Rights",
+      "value": 0.020848,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10854",
+      "display_name": "Bipolar Disorder and Treatment",
+      "value": 0.0205958,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10614",
+      "display_name": "Transcranial Magnetic Stimulation Studies",
+      "value": 0.0197072,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2808",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12443",
+      "display_name": "Delphi Technique in Research",
+      "value": 0.0192401,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10918",
+      "display_name": "Memory Processes and Influences",
+      "value": 0.0192315,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11071",
+      "display_name": "Treatment of Major Depression",
+      "value": 0.0189942,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2736",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11092",
+      "display_name": "Spondyloarthritis Studies and Treatments",
+      "value": 0.018615,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2745",
+        "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14072",
+      "display_name": "Immunotoxicology and immune responses",
+      "value": 0.0185611,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11639",
+      "display_name": "Mental Health and Patient Involvement",
+      "value": 0.0180883,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10416",
+      "display_name": "Traumatic Brain Injury Research",
+      "value": 0.0179963,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10576",
+      "display_name": "Opioid Use Disorder Treatment",
+      "value": 0.0179628,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10769",
+      "display_name": "BRCA gene mutations in cancer",
+      "value": 0.0179591,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13555",
+      "display_name": "Healthcare cost, quality, practices",
+      "value": 0.0177229,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12108",
+      "display_name": "Management of metastatic bone disease",
+      "value": 0.0171228,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12628",
+      "display_name": "Polymer Foaming and Composites",
+      "value": 0.0170579,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2507",
+        "display_name": "Polymers and Plastics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10043",
+      "display_name": "Substance Abuse Treatment and Outcomes",
+      "value": 0.0167616,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10919",
+      "display_name": "Neurological disorders and treatments",
+      "value": 0.0167608,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10912",
+      "display_name": "Telemedicine and Telehealth Implementation",
+      "value": 0.016486,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11141",
+      "display_name": "Childhood Cancer Survivors' Quality of Life",
+      "value": 0.0164015,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "value": 0.0163953,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "is_super_system": false,
+  "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I185261750",
+  "updated_date": "2026-02-26T06:01:13",
+  "created_date": "2016-06-24T00:00:00"
+}

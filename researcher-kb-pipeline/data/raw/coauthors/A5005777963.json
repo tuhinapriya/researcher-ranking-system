@@ -1,0 +1,80 @@
+{
+  "author_id": "A5005777963",
+  "total_recent_works_analysed": 14,
+  "total_unique_collaborators": 198,
+  "estimated_mentee_count": 1,
+  "likely_mentees": [
+    {
+      "name": "Illia Polosukhin",
+      "id": "A5045719436",
+      "works_count": 20,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.07,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Ashish Vaswani",
+      "id": "A5103024730",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Noam Shazeer",
+      "id": "A5021878400",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Jakob Uszkoreit",
+      "id": "A5022416424",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Llion Jones",
+      "id": "A5023448834",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Aidan N. Gomez",
+      "id": "A5079288315",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Łukasz Kaiser",
+      "id": "A5031789995",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Illia Polosukhin",
+      "id": "A5045719436",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Anmol Gulati",
+      "id": "A5070108948",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "James Qin",
+      "id": "A5048771433",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Chung‐Cheng Chiu",
+      "id": "A5027763497",
+      "shared_papers": 2,
+      "same_institution": false
+    }
+  ]
+}

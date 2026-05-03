@@ -1,0 +1,73 @@
+{
+  "author_id": "A5111210738",
+  "total_recent_works_analysed": 20,
+  "total_unique_collaborators": 30,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.1,
+    "corresponding_author_ratio": 0.65
+  },
+  "top_collaborators": [
+    {
+      "name": "Jingru Benner",
+      "id": "A5006110670",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Rebecca C. Shannon",
+      "id": "A5030636675",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Wentao Wu",
+      "id": "A5058584887",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Austen P. Metsack",
+      "id": "A5013791787",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Jingzhou Zhao",
+      "id": "A5101883371",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Jinghong Xiong",
+      "id": "A5114228087",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Jian Xiong",
+      "id": "A5101487138",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Yan Liu",
+      "id": "A5037295494",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Xiaofen Fang",
+      "id": "A5015697426",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "W.J. Wang",
+      "id": "A5002544242",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

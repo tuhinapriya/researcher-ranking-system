@@ -1,0 +1,73 @@
+{
+  "author_id": "A5101487138",
+  "total_recent_works_analysed": 24,
+  "total_unique_collaborators": 77,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.04,
+    "corresponding_author_ratio": 0.29
+  },
+  "top_collaborators": [
+    {
+      "name": "Peng Cheng",
+      "id": "A5021052588",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Bo Liu",
+      "id": "A5100461646",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Zhiping Shi",
+      "id": "A5090439174",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Can Yang",
+      "id": "A5101596644",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Junqi Wu",
+      "id": "A5114357349",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Peng Yu",
+      "id": "A5100783073",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Yanfeng Liu",
+      "id": "A5100708668",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Wen-Xuan Long",
+      "id": "A5046974161",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Rui Chen",
+      "id": "A5100403637",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Marco Moretti",
+      "id": "A5029932152",
+      "shared_papers": 2,
+      "same_institution": false
+    }
+  ]
+}

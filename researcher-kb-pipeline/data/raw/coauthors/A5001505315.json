@@ -1,0 +1,73 @@
+{
+  "author_id": "A5001505315",
+  "total_recent_works_analysed": 18,
+  "total_unique_collaborators": 43,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.17,
+    "corresponding_author_ratio": 0.17
+  },
+  "top_collaborators": [
+    {
+      "name": "Md Nurul Absar Siddiky",
+      "id": "A5111194906",
+      "shared_papers": 10,
+      "same_institution": false
+    },
+    {
+      "name": "Muhammad Rahman",
+      "id": "A5114136847",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Md Nurul Absar Siddiky",
+      "id": "A5107034997",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "A. Guha",
+      "id": "A5069508025",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Md Shahriar Uzzal",
+      "id": "A5097984036",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "H M Dipu Kabir",
+      "id": "A5063766245",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Partha Pratim Das",
+      "id": "A5064232646",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Md. Shirajum Munir",
+      "id": "A5058796764",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Sachin Shetty",
+      "id": "A5052787847",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Md. Shahadat Jaman",
+      "id": "A5116158898",
+      "shared_papers": 2,
+      "same_institution": false
+    }
+  ]
+}

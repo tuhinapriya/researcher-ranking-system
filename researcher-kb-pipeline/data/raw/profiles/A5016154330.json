@@ -1,0 +1,1182 @@
+{
+  "author_id": "A5016154330",
+  "openalex": {
+    "id": "https://openalex.org/A5016154330",
+    "orcid": "https://orcid.org/0000-0001-5122-0001",
+    "display_name": "Symeon Chatzinotas",
+    "raw_author_names": [
+      "CHATZINOTAS, Symeon",
+      "Chatzinotas, S",
+      "Chatzinotas, S.",
+      "Chatzinotas, Symeon",
+      "Chatzinotas, Symeon ca. 20./21. Jh.",
+      "Dirk Slock",
+      "Henk Wymeersh",
+      "Hien Ngo",
+      "S. Chatzinotas",
+      "Symeon Chatzinotas",
+      "Symeon Chatzinotasy",
+      "Syrneon Chatzinotas"
+    ],
+    "full_name": "Chatzinotas, Symeon ca. 20./21. Jh.",
+    "works_count": 1487,
+    "cited_by_count": 26324,
+    "summary_stats": {
+      "2yr_mean_citedness": 3.8564356435643563,
+      "h_index": 76,
+      "i10_index": 481
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5016154330",
+      "orcid": "https://orcid.org/0000-0001-5122-0001"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I141445968",
+          "ror": "https://ror.org/01drq0835",
+          "display_name": "Ton Duc Thang University",
+          "country_code": "VN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141445968"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I141584323",
+          "ror": "https://ror.org/0267vjk41",
+          "display_name": "University of Hertfordshire",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141584323"
+          ]
+        },
+        "years": [
+          2025,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I161548249",
+          "ror": "https://ror.org/006jb1a24",
+          "display_name": "Bangor University",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I161548249"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I166416128",
+          "ror": "https://ror.org/011hc8f90",
+          "display_name": "DEVCOM Army Research Laboratory",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1304082316",
+            "https://openalex.org/I1330347796",
+            "https://openalex.org/I166416128",
+            "https://openalex.org/I2802705668",
+            "https://openalex.org/I4210154437"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I16733864",
+          "ror": "https://ror.org/05bqach95",
+          "display_name": "National Taiwan University",
+          "country_code": "TW",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I16733864"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I170215575",
+          "ror": "https://ror.org/05d2yfz11",
+          "display_name": "National University of Defense Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I170215575"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I174458059",
+          "ror": "https://ror.org/03cx6bg69",
+          "display_name": "National Technical University of Athens",
+          "country_code": "GR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I174458059"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I17866349",
+          "ror": "https://ror.org/004raaa70",
+          "display_name": "Université Fédérale de Toulouse Midi-Pyrénées",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I17866349"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I186903577",
+          "ror": "https://ror.org/036x5ad56",
+          "display_name": "University of Luxembourg",
+          "country_code": "LU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I186903577"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I196355604",
+          "ror": "https://ror.org/02he2nc27",
+          "display_name": "National Research Tomsk State University",
+          "country_code": "RU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I196355604"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I200777214",
+          "ror": "https://ror.org/04gnjpq42",
+          "display_name": "National and Kapodistrian University of Athens",
+          "country_code": "GR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I200777214"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I203474044",
+          "ror": "https://ror.org/038jp4m40",
+          "display_name": "National Centre of Scientific Research \"Demokritos\"",
+          "country_code": "GR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I203474044"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I26604189",
+          "ror": "https://ror.org/05aqahr97",
+          "display_name": "Shiv Nadar University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I26604189"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802091258",
+          "ror": "https://ror.org/047vwpj87",
+          "display_name": "Third Way",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802091258"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I28290843",
+          "ror": "https://ror.org/00ks66431",
+          "display_name": "University of Surrey",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I28290843"
+          ]
+        },
+        "years": [
+          2019,
+          2018,
+          2010,
+          2009,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3040621137",
+          "ror": "https://ror.org/0047hkh43",
+          "display_name": "Alsalam University College",
+          "country_code": "IQ",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3040621137"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I30849647",
+          "ror": "https://ror.org/00a45v709",
+          "display_name": "Tomsk Polytechnic University",
+          "country_code": "RU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I30849647"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I31746571",
+          "ror": "https://ror.org/03r8z3t63",
+          "display_name": "UNSW Sydney",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I31746571"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I35928602",
+          "ror": "https://ror.org/01zqcg218",
+          "display_name": "Kyung Hee University",
+          "country_code": "KR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I35928602"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210087931",
+          "ror": "https://ror.org/004zjze34",
+          "display_name": "Institute for Security Studies",
+          "country_code": "KE",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210087931",
+            "https://openalex.org/I4210093398"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210092024",
+          "ror": "https://ror.org/00k6njn28",
+          "display_name": "Institut d'Estudis Espacials de Catalunya",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210092024",
+            "https://openalex.org/I4387153040"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210093649",
+          "ror": "https://ror.org/0069akp70",
+          "display_name": "Information Technologies Institute",
+          "country_code": "GR",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210093649"
+          ]
+        },
+        "years": [
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210116658",
+          "ror": "https://ror.org/02k6n4s14",
+          "display_name": "École Centrale d'Électronique",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210116658"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210119464",
+          "ror": "https://ror.org/02f8mda22",
+          "display_name": "Quality and Reliability (Greece)",
+          "country_code": "GR",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210119464"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210123272",
+          "ror": "https://ror.org/022kamm22",
+          "display_name": "Al Mamon University College",
+          "country_code": "IQ",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210123272"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210124274",
+          "ror": "https://ror.org/024ape423",
+          "display_name": "Fraunhofer Institute for Integrated Circuits",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210124274",
+            "https://openalex.org/I4923324"
+          ]
+        },
+        "years": [
+          2022,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210134190",
+          "ror": "https://ror.org/0333e3w09",
+          "display_name": "Recherches Scientifiques Luxembourg",
+          "country_code": "LU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210134190"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2023,
+          2021,
+          2016,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210134249",
+          "ror": "https://ror.org/03bndpq63",
+          "display_name": "Centre for Research and Technology Hellas",
+          "country_code": "GR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210134249"
+          ]
+        },
+        "years": [
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210135298",
+          "ror": "https://ror.org/033wnbm63",
+          "display_name": "Jensen Hughes (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210135298"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210139096",
+          "ror": null,
+          "display_name": "National Higher French Institute of Aeronautics and Space",
+          "country_code": "FR",
+          "type": null,
+          "lineage": [
+            "https://openalex.org/I4210139096"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210147264",
+          "ror": "https://ror.org/04abjgr86",
+          "display_name": "Sacred Heart University",
+          "country_code": "LU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210147264"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210150428",
+          "ror": "https://ror.org/05dpd3531",
+          "display_name": "Cooperative Educational Service Agencies",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210150428"
+          ]
+        },
+        "years": [
+          2023,
+          2017,
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210152232",
+          "ror": "https://ror.org/04jgqpc26",
+          "display_name": "Institute of Informatics of the Slovak Academy of Sciences",
+          "country_code": "SK",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I207624831",
+            "https://openalex.org/I4210152232"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210154338",
+          "ror": "https://ror.org/05amnwk22",
+          "display_name": "Hubei Engineering University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210154338"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210160393",
+          "ror": "https://ror.org/04v4fdz58",
+          "display_name": "Advanced Technology Group (Czechia)",
+          "country_code": "CZ",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210160393"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4387152169",
+          "ror": "https://ror.org/0396t6k89",
+          "display_name": "Institute of Informatics & Telecommunications",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I203474044",
+            "https://openalex.org/I4387152169"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4387155471",
+          "ror": "https://ror.org/04xykxd72",
+          "display_name": "Laboratoire de Génie Informatique, de Production et de Maintenance",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210150706",
+            "https://openalex.org/I4387155471",
+            "https://openalex.org/I90183372"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I44461941",
+          "ror": "https://ror.org/048sx0r50",
+          "display_name": "University of Houston",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I44461941"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I46020346",
+          "ror": "https://ror.org/00a1rzv11",
+          "display_name": "American Institute of Aeronautics and Astronautics",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I46020346"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I54001450",
+          "ror": "https://ror.org/04175wc52",
+          "display_name": "Düzce Üniversitesi",
+          "country_code": "TR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I54001450"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I66862912",
+          "ror": "https://ror.org/040wg7k59",
+          "display_name": "Chalmers University of Technology",
+          "country_code": "SE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I66862912"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I899635006",
+          "ror": "https://ror.org/02rx3b187",
+          "display_name": "Université Grenoble Alpes",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I899635006"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I90183372",
+          "ror": "https://ror.org/04vfs2w97",
+          "display_name": "Université de Lorraine",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I90183372"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I909555",
+          "ror": "https://ror.org/00526y629",
+          "display_name": "SES (Luxembourg)",
+          "country_code": "LU",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I909555"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I186903577",
+        "ror": "https://ror.org/036x5ad56",
+        "display_name": "University of Luxembourg",
+        "country_code": "LU",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I186903577"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I203474044",
+        "ror": "https://ror.org/038jp4m40",
+        "display_name": "National Centre of Scientific Research \"Demokritos\"",
+        "country_code": "GR",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I203474044"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I35928602",
+        "ror": "https://ror.org/01zqcg218",
+        "display_name": "Kyung Hee University",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I35928602"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210134190",
+        "ror": "https://ror.org/0333e3w09",
+        "display_name": "Recherches Scientifiques Luxembourg",
+        "country_code": "LU",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I4210134190"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210152232",
+        "ror": "https://ror.org/04jgqpc26",
+        "display_name": "Institute of Informatics of the Slovak Academy of Sciences",
+        "country_code": "SK",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I207624831",
+          "https://openalex.org/I4210152232"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T12042",
+        "display_name": "Satellite Communication Systems",
+        "count": 574,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10148",
+        "display_name": "Advanced MIMO Systems Optimization",
+        "count": 427,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11458",
+        "display_name": "Advanced Wireless Communication Technologies",
+        "count": 364,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10575",
+        "display_name": "Wireless Communication Networks Research",
+        "count": 240,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10796",
+        "display_name": "Cooperative Communication and Network Coding",
+        "count": 193,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12042",
+        "display_name": "Satellite Communication Systems",
+        "value": 0.0055649,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11458",
+        "display_name": "Advanced Wireless Communication Technologies",
+        "value": 0.0047926,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12079",
+        "display_name": "IoT Networks and Protocols",
+        "value": 0.0024224,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10579",
+        "display_name": "Cognitive Radio Networks and Spectrum Sensing",
+        "value": 0.001807,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10148",
+        "display_name": "Advanced MIMO Systems Optimization",
+        "value": 0.0017961,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.9210926294326782
+      },
+      {
+        "id": "31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "score": 0.825931191444397
+      },
+      {
+        "id": "127162648",
+        "wikidata": "https://www.wikidata.org/wiki/Q16858953",
+        "display_name": "Channel (broadcasting)",
+        "score": 0.8181068897247314
+      },
+      {
+        "id": "76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "score": 0.7446438074111938
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.46663981676101685
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2004,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2005,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2006,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2007,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2008,
+        "works_count": 8,
+        "oa_works_count": 6,
+        "cited_by_count": 79
+      },
+      {
+        "year": 2009,
+        "works_count": 7,
+        "oa_works_count": 5,
+        "cited_by_count": 107
+      },
+      {
+        "year": 2010,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2011,
+        "works_count": 10,
+        "oa_works_count": 7,
+        "cited_by_count": 139
+      },
+      {
+        "year": 2012,
+        "works_count": 16,
+        "oa_works_count": 14,
+        "cited_by_count": 746
+      },
+      {
+        "year": 2013,
+        "works_count": 24,
+        "oa_works_count": 23,
+        "cited_by_count": 562
+      },
+      {
+        "year": 2014,
+        "works_count": 32,
+        "oa_works_count": 29,
+        "cited_by_count": 715
+      },
+      {
+        "year": 2015,
+        "works_count": 48,
+        "oa_works_count": 40,
+        "cited_by_count": 1661
+      },
+      {
+        "year": 2016,
+        "works_count": 51,
+        "oa_works_count": 45,
+        "cited_by_count": 1254
+      },
+      {
+        "year": 2017,
+        "works_count": 63,
+        "oa_works_count": 55,
+        "cited_by_count": 2297
+      },
+      {
+        "year": 2018,
+        "works_count": 65,
+        "oa_works_count": 45,
+        "cited_by_count": 1301
+      },
+      {
+        "year": 2019,
+        "works_count": 86,
+        "oa_works_count": 68,
+        "cited_by_count": 1706
+      },
+      {
+        "year": 2020,
+        "works_count": 114,
+        "oa_works_count": 96,
+        "cited_by_count": 4126
+      },
+      {
+        "year": 2021,
+        "works_count": 163,
+        "oa_works_count": 154,
+        "cited_by_count": 3115
+      },
+      {
+        "year": 2022,
+        "works_count": 183,
+        "oa_works_count": 155,
+        "cited_by_count": 4978
+      },
+      {
+        "year": 2023,
+        "works_count": 202,
+        "oa_works_count": 172,
+        "cited_by_count": 1894
+      },
+      {
+        "year": 2024,
+        "works_count": 222,
+        "oa_works_count": 165,
+        "cited_by_count": 1201
+      },
+      {
+        "year": 2025,
+        "works_count": 179,
+        "oa_works_count": 148,
+        "cited_by_count": 357
+      },
+      {
+        "year": 2026,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "CHATZINOTAS, Symeon",
+      "Chatzinotas, S",
+      "Chatzinotas, S.",
+      "Chatzinotas, Symeon",
+      "Chatzinotas, Symeon ca. 20./21. Jh.",
+      "Dirk Slock",
+      "Henk Wymeersh",
+      "Hien Ngo",
+      "S. Chatzinotas",
+      "Symeon Chatzinotas",
+      "Symeon Chatzinotasy",
+      "Syrneon Chatzinotas"
+    ],
+    "block_key": "s chatzinotas",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5016154330",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2377559624",
+    "externalIds": {
+      "DBLP": [
+        "Symeon Chatzinotas"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/2377559624",
+    "name": "S. Chatzinotas",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 7,
+    "citationCount": 11,
+    "hIndex": 1
+  }
+}

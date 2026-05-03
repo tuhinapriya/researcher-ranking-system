@@ -1,0 +1,80 @@
+{
+  "author_id": "A5103024730",
+  "total_recent_works_analysed": 16,
+  "total_unique_collaborators": 219,
+  "estimated_mentee_count": 1,
+  "likely_mentees": [
+    {
+      "name": "Illia Polosukhin",
+      "id": "A5045719436",
+      "works_count": 20,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.12,
+    "corresponding_author_ratio": 0.19
+  },
+  "top_collaborators": [
+    {
+      "name": "Niki Parmar",
+      "id": "A5005777963",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Noam Shazeer",
+      "id": "A5021878400",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Jakob Uszkoreit",
+      "id": "A5022416424",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Llion Jones",
+      "id": "A5023448834",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Aidan N. Gomez",
+      "id": "A5079288315",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Łukasz Kaiser",
+      "id": "A5031789995",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Illia Polosukhin",
+      "id": "A5045719436",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Gunjan Baid",
+      "id": "A5043260617",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Daniel E. Cook",
+      "id": "A5039222783",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Kishwar Shafin",
+      "id": "A5079125341",
+      "shared_papers": 2,
+      "same_institution": false
+    }
+  ]
+}

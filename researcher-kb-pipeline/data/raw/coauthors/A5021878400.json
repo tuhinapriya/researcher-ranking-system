@@ -1,0 +1,80 @@
+{
+  "author_id": "A5021878400",
+  "total_recent_works_analysed": 27,
+  "total_unique_collaborators": 418,
+  "estimated_mentee_count": 1,
+  "likely_mentees": [
+    {
+      "name": "Illia Polosukhin",
+      "id": "A5045719436",
+      "works_count": 20,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.15,
+    "corresponding_author_ratio": 0.15
+  },
+  "top_collaborators": [
+    {
+      "name": "Ashish Vaswani",
+      "id": "A5103024730",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Niki Parmar",
+      "id": "A5005777963",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Jakob Uszkoreit",
+      "id": "A5022416424",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Colin Raffel",
+      "id": "A5045077843",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Sharan Narang",
+      "id": "A5079540764",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Hyung Won Chung",
+      "id": "A5051828575",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Noah Fiedel",
+      "id": "A5087591662",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Llion Jones",
+      "id": "A5023448834",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Aidan N. Gomez",
+      "id": "A5079288315",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Yi Tay",
+      "id": "A5103069680",
+      "shared_papers": 4,
+      "same_institution": false
+    }
+  ]
+}

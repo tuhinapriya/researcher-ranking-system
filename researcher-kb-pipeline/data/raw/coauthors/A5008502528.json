@@ -1,0 +1,110 @@
+{
+  "author_id": "A5008502528",
+  "total_recent_works_analysed": 82,
+  "total_unique_collaborators": 151,
+  "estimated_mentee_count": 6,
+  "likely_mentees": [
+    {
+      "name": "Woosik Lee",
+      "id": "A5070784376",
+      "works_count": 18,
+      "shared_papers": 15
+    },
+    {
+      "name": "Nathaniel Merrill",
+      "id": "A5032997033",
+      "works_count": 13,
+      "shared_papers": 10
+    },
+    {
+      "name": "Saimouli Katragadda",
+      "id": "A5086780394",
+      "works_count": 10,
+      "shared_papers": 5
+    },
+    {
+      "name": "Zheng Huai",
+      "id": "A5038805252",
+      "works_count": 7,
+      "shared_papers": 3
+    },
+    {
+      "name": "C. Chen",
+      "id": "A5083244193",
+      "works_count": 19,
+      "shared_papers": 2
+    },
+    {
+      "name": "Indrajeet Yadav",
+      "id": "A5048341449",
+      "works_count": 18,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.63,
+    "corresponding_author_ratio": 0.04
+  },
+  "top_collaborators": [
+    {
+      "name": "Patrick Geneva",
+      "id": "A5055849494",
+      "shared_papers": 32,
+      "same_institution": true
+    },
+    {
+      "name": "Yulin Yang",
+      "id": "A5101976414",
+      "shared_papers": 18,
+      "same_institution": true
+    },
+    {
+      "name": "Xingxing Zuo",
+      "id": "A5045415760",
+      "shared_papers": 16,
+      "same_institution": false
+    },
+    {
+      "name": "Woosik Lee",
+      "id": "A5070784376",
+      "shared_papers": 15,
+      "same_institution": true
+    },
+    {
+      "name": "Chuchu Chen",
+      "id": "A5101726874",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Nathaniel Merrill",
+      "id": "A5032997033",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Kevin Eckenhoff",
+      "id": "A5041069558",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Yuxiang Peng",
+      "id": "A5061570938",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Yong Liu",
+      "id": "A5100724297",
+      "shared_papers": 8,
+      "same_institution": false
+    },
+    {
+      "name": "Lipu Zhou",
+      "id": "A5060058992",
+      "shared_papers": 6,
+      "same_institution": false
+    }
+  ]
+}

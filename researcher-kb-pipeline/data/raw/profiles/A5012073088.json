@@ -1,0 +1,344 @@
+{
+  "author_id": "A5012073088",
+  "openalex": {
+    "id": "https://openalex.org/A5012073088",
+    "orcid": "https://orcid.org/0000-0001-9654-4923",
+    "display_name": "Vincent Dufour‐Décieux",
+    "raw_author_names": [
+      "Dufour-Decieux, Vincent",
+      "Dufour-Décieux, Vincent",
+      "Vincent Dufour-Decieux",
+      "Vincent Dufour-Décieux",
+      "Vincent Dufour‐Décieux"
+    ],
+    "full_name": "Vincent Dufour‐Décieux",
+    "works_count": 17,
+    "cited_by_count": 59,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.8,
+      "h_index": 4,
+      "i10_index": 3
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5012073088",
+      "orcid": "https://orcid.org/0000-0001-9654-4923"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I35440088",
+          "ror": "https://ror.org/05a28rw58",
+          "display_name": "ETH Zurich",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I97018004",
+          "ror": "https://ror.org/00f54p054",
+          "display_name": "Stanford University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2022,
+          2021,
+          2019
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I35440088",
+        "ror": "https://ror.org/05a28rw58",
+        "display_name": "ETH Zurich",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I2799323385",
+          "https://openalex.org/I35440088"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10211",
+        "display_name": "Computational Drug Discovery Methods",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10967",
+        "display_name": "Carbon Dioxide Capture Technologies",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10002",
+        "display_name": "Advanced Chemical Physics Studies",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10044",
+        "display_name": "Protein Structure and Dynamics",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10064",
+        "display_name": "Complex Network Analysis Techniques",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10967",
+        "display_name": "Carbon Dioxide Capture Technologies",
+        "value": 4.62e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10044",
+        "display_name": "Protein Structure and Dynamics",
+        "value": 1.62e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10211",
+        "display_name": "Computational Drug Discovery Methods",
+        "value": 1.48e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10064",
+        "display_name": "Complex Network Analysis Techniques",
+        "value": 1.47e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13604",
+        "display_name": "Adsorption, diffusion, and thermodynamic properties of materials",
+        "value": 1.43e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1607",
+          "display_name": "Spectroscopy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121864883",
+        "wikidata": "https://www.wikidata.org/wiki/Q677916",
+        "display_name": "Statistical physics",
+        "score": 0.6447593569755554
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.5494288206100464
+      },
+      {
+        "id": "147597530",
+        "wikidata": "https://www.wikidata.org/wiki/Q369472",
+        "display_name": "Computational chemistry",
+        "score": 0.3697141408920288
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.33686238527297974
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.2349662482738495
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2019,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2021,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2022,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2025,
+        "works_count": 6,
+        "oa_works_count": 2,
+        "cited_by_count": 26
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      }
+    ],
+    "display_name_alternatives": [
+      "Dufour-Decieux, Vincent",
+      "Dufour-Décieux, Vincent",
+      "Vincent Dufour-Decieux",
+      "Vincent Dufour-Décieux",
+      "Vincent Dufour‐Décieux"
+    ],
+    "block_key": "v dufour‐decieux",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5012073088",
+    "updated_date": "2026-04-08T18:54:32",
+    "created_date": "2024-10-28T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "1446581124",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/1446581124",
+    "name": "Vincent Dufour-Décieux",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 11,
+    "citationCount": 46,
+    "hIndex": 4
+  }
+}

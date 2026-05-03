@@ -1,0 +1,2711 @@
+{
+  "author_id": "A5100680948",
+  "openalex": {
+    "id": "https://openalex.org/A5100680948",
+    "orcid": "https://orcid.org/0000-0002-9918-8212",
+    "display_name": "Sudhir Kumar",
+    "display_name_alternatives": [
+      "Dr. Shiv Kumar",
+      "Dr. Sudhir Kumar",
+      "Elham M. Alhathli",
+      "HGSVC Functional Analysis Working Group",
+      "Hend Nour Eldin",
+      "Kumar, Shiv",
+      "Kumar, Sudhir",
+      "Kwok, Richard",
+      "Nada Salem",
+      "S Kumar"
+    ],
+    "works_count": 678,
+    "cited_by_count": 283916,
+    "summary_stats": {
+      "2yr_mean_citedness": 9.852941176470589,
+      "h_index": 78,
+      "i10_index": 221
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5100680948",
+      "orcid": "https://orcid.org/0000-0002-9918-8212"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I101786783",
+          "ror": "https://ror.org/019e4d354",
+          "display_name": "Government Medical College",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I101786783"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I105094715",
+          "ror": "https://ror.org/04909p852",
+          "display_name": "National Institute of Technology Kurukshetra",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I105094715"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I105454292",
+          "ror": "https://ror.org/034q1za58",
+          "display_name": "Guru Gobind Singh Indraprastha University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I105454292"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I107606265",
+          "ror": "https://ror.org/05a0ya142",
+          "display_name": "Broad Institute",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I113306721",
+          "ror": "https://ror.org/03t78wx29",
+          "display_name": "Hiroshima University",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I113306721"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I11793825",
+          "ror": "https://ror.org/056wyhh33",
+          "display_name": "National Institute of Technology Patna",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I11793825",
+            "https://openalex.org/I4210152752"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I117965899",
+          "ror": "https://ror.org/01wspgy28",
+          "display_name": "University of Hawaiʻi at Mānoa",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I117965899"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I119241673",
+          "ror": "https://ror.org/02qkhhn56",
+          "display_name": "Indian Institute of Technology Ropar",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I119241673"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I12315562",
+          "ror": "https://ror.org/0405mnx93",
+          "display_name": "Texas Tech University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I12315562"
+          ]
+        },
+        "years": [
+          2025,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I123534392",
+          "ror": "https://ror.org/00v97ad02",
+          "display_name": "University of North Texas",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I123534392"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I12419238",
+          "ror": "https://ror.org/00tjh4k26",
+          "display_name": "Acharya N. G. Ranga Agricultural University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I12419238"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I127591826",
+          "ror": "https://ror.org/021v3qy27",
+          "display_name": "University of Dayton",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I127591826"
+          ]
+        },
+        "years": [
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1286922834",
+          "ror": "https://ror.org/04r2bgz73",
+          "display_name": "Indian Council of Forestry Research and Education",
+          "country_code": "IN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1286922834"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I129734738",
+          "ror": "https://ror.org/02ys8pq62",
+          "display_name": "All India Institute of Medical Sciences Raipur",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I129734738"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I129862065",
+          "ror": "https://ror.org/007fenw03",
+          "display_name": "Government Medical College",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I129862065"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1299303238",
+          "ror": "https://ror.org/01cwqze88",
+          "display_name": "National Institutes of Health",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        },
+        "years": [
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I130701444",
+          "ror": "https://ror.org/01zkghx44",
+          "display_name": "Georgia Institute of Technology",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130701444"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I130769515",
+          "ror": "https://ror.org/04p491231",
+          "display_name": "Pennsylvania State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        "years": [
+          2005,
+          2004,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1992,
+          1958,
+          1957
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I132153292",
+          "ror": "https://ror.org/01ft5vz71",
+          "display_name": "Indian Institute of Technology Patna",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I132153292"
+          ]
+        },
+        "years": [
+          2022,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1321686444",
+          "ror": "https://ror.org/03fcgva33",
+          "display_name": "Westchester Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1321686444"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1331384533",
+          "ror": "https://ror.org/03tzaeb71",
+          "display_name": "University of Hawaii System",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I1331384533"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1340206300",
+          "ror": "https://ror.org/05k37v296",
+          "display_name": "Defence Research and Development Organisation",
+          "country_code": "IN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1340206300",
+            "https://openalex.org/I4210150591"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1343871089",
+          "ror": "https://ror.org/01e41cf67",
+          "display_name": "Los Alamos National Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I1343871089",
+            "https://openalex.org/I198811213",
+            "https://openalex.org/I4210120050"
+          ]
+        },
+        "years": [
+          1998,
+          1997
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I136199984",
+          "ror": "https://ror.org/03vek6s52",
+          "display_name": "Harvard University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I140777494",
+          "ror": "https://ror.org/03efa9j76",
+          "display_name": "Solid State Physics Laboratory",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1340206300",
+            "https://openalex.org/I140777494",
+            "https://openalex.org/I4210150591"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I145894827",
+          "ror": "https://ror.org/03w5sq511",
+          "display_name": "Indian Institute of Technology Kharagpur",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I145894827"
+          ]
+        },
+        "years": [
+          2024,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I150468666",
+          "ror": "https://ror.org/03czfpz43",
+          "display_name": "Emory University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I154549908",
+          "ror": "https://ror.org/03yacj906",
+          "display_name": "Indian Institute of Technology Jodhpur",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154549908"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I155284866",
+          "ror": "https://ror.org/013qfkw58",
+          "display_name": "Maharishi Markandeshwar University, Mullana",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I155284866"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I157725225",
+          "ror": "https://ror.org/047426m28",
+          "display_name": "University of Illinois Urbana-Champaign",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I157725225"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I165139151",
+          "ror": "https://ror.org/05msxaq47",
+          "display_name": "University of North Texas Health Science Center",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I165139151"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I165682329",
+          "ror": "https://ror.org/05ghzpa93",
+          "display_name": "Guru Nanak Dev University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I165682329"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I170347488",
+          "ror": "https://ror.org/021r5ns39",
+          "display_name": "National Environmental Engineering Research Institute",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I170347488",
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I4210134808",
+            "https://openalex.org/I66760702"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I171210897",
+          "ror": "https://ror.org/03kw9gc02",
+          "display_name": "Aligarh Muslim University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I171210897"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I179420787",
+          "ror": "https://ror.org/04fw54a43",
+          "display_name": "Indian Council of Agricultural Research",
+          "country_code": "IN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I179420787"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I184565670",
+          "ror": "https://ror.org/05vzafd60",
+          "display_name": "Georgetown University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I184565670"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I185163786",
+          "ror": "https://ror.org/02ma4wv74",
+          "display_name": "King Abdulaziz University",
+          "country_code": "SA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I185163786"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I185790649",
+          "ror": "https://ror.org/02jcfzc36",
+          "display_name": "Indian Veterinary Research Institute",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I179420787",
+            "https://openalex.org/I185790649"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I192358263",
+          "ror": "https://ror.org/02n2syw04",
+          "display_name": "International Center for Agricultural Research in the Dry Areas",
+          "country_code": "SY",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1286583668",
+            "https://openalex.org/I192358263"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I199361194",
+          "ror": "https://ror.org/01qxmdg18",
+          "display_name": "NASA Astrobiology Institute",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I199361194",
+            "https://openalex.org/I4210124779"
+          ]
+        },
+        "years": [
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I204983213",
+          "ror": "https://ror.org/01yqg2h08",
+          "display_name": "Harbin Institute of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204983213"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I238035932",
+          "ror": "https://ror.org/049pcfs17",
+          "display_name": "Indira Gandhi Institute of Medical Sciences",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I238035932"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I24571045",
+          "ror": "https://ror.org/04a5szx83",
+          "display_name": "University of North Dakota",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I24571045"
+          ]
+        },
+        "years": [
+          2001
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I24927338",
+          "ror": "https://ror.org/0261g6j35",
+          "display_name": "Chaudhary Charan Singh Haryana Agricultural University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I24927338"
+          ]
+        },
+        "years": [
+          2025,
+          2023,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I26771391",
+          "ror": "https://ror.org/038dhfq97",
+          "display_name": "Jaipuria Institute of Management",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I26771391"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I276256525",
+          "ror": "https://ror.org/001ekgz09",
+          "display_name": "Babu Banarasi Das University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I276256525"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2799903593",
+          "ror": "https://ror.org/00hjz7x27",
+          "display_name": "Georgetown University Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799903593"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800157045",
+          "ror": "https://ror.org/05tw0x522",
+          "display_name": "NIMS University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2800157045"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800609603",
+          "ror": "https://ror.org/0561npm29",
+          "display_name": "Indian Institute of Pulses Research",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800609603"
+          ]
+        },
+        "years": [
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800780207",
+          "ror": "https://ror.org/022w3f533",
+          "display_name": "Swedish Institute",
+          "country_code": "SE",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2800780207"
+          ]
+        },
+        "years": [
+          1998
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801004183",
+          "ror": "https://ror.org/038s1ax16",
+          "display_name": "Temple College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2801004183"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2021,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I28166907",
+          "ror": "https://ror.org/056d84691",
+          "display_name": "Karolinska Institutet",
+          "country_code": "SE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        },
+        "years": [
+          1998
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I28630478",
+          "ror": "https://ror.org/04svcpx91",
+          "display_name": "Kanya Maha Vidyalaya",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I28630478"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I288496929",
+          "ror": "https://ror.org/05kx1ke03",
+          "display_name": "Narayana Health",
+          "country_code": "IN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I288496929"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3129196102",
+          "ror": "https://ror.org/007n0ss86",
+          "display_name": "Desh Bhagat University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3129196102"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I35440088",
+          "ror": "https://ror.org/05a28rw58",
+          "display_name": "ETH Zurich",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2020,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210086299",
+          "ror": "https://ror.org/001amd982",
+          "display_name": "Noida International University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210086299"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210090941",
+          "ror": "https://ror.org/00baskk38",
+          "display_name": "Institute for Biomedical Engineering",
+          "country_code": "CH",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088",
+            "https://openalex.org/I4210090941"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210092485",
+          "ror": "https://ror.org/00m2xfz17",
+          "display_name": "Bioengineering (Switzerland)",
+          "country_code": "CH",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210092485"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210093800",
+          "ror": "https://ror.org/00nezvm77",
+          "display_name": "Voluntary Health Association Of India",
+          "country_code": "IN",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210093800"
+          ]
+        },
+        "years": [
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210096541",
+          "ror": "https://ror.org/01n8ggb71",
+          "display_name": "Institute for Biodiversity",
+          "country_code": "DE",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210096541"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210097901",
+          "ror": "https://ror.org/00xh3h995",
+          "display_name": "Institute of Agricultural Economics",
+          "country_code": "BG",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210097901",
+            "https://openalex.org/I4210163436"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210098184",
+          "ror": "https://ror.org/01r27v904",
+          "display_name": "Sardar Vallabhbhai Patel University of Agriculture & Technology",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210098184"
+          ]
+        },
+        "years": [
+          2025,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210098714",
+          "ror": "https://ror.org/012bh1w56",
+          "display_name": "Hôpital 20 Août",
+          "country_code": "MA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210098714"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210099336",
+          "ror": "https://ror.org/01240pn49",
+          "display_name": "Menlo School",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210099336"
+          ]
+        },
+        "years": [
+          1987
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210099699",
+          "ror": "https://ror.org/015ya8798",
+          "display_name": "Jeddah University",
+          "country_code": "SA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210099699"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210102127",
+          "ror": "https://ror.org/01ayqmq97",
+          "display_name": "Rajendra Hospital",
+          "country_code": "IN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210102127"
+          ]
+        },
+        "years": [
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210106473",
+          "ror": "https://ror.org/011nk9770",
+          "display_name": "Shri Ramswaroop Memorial University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210106473"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210106490",
+          "ror": "https://ror.org/01rs0zz87",
+          "display_name": "All India Institute of Medical Sciences Bhopal",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210106490"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210109333",
+          "ror": "https://ror.org/021z7gb33",
+          "display_name": "Evolutionary Genomics (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210109333"
+          ]
+        },
+        "years": [
+          2020,
+          2018,
+          2015,
+          2013,
+          2010,
+          2007,
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210109954",
+          "ror": "https://ror.org/014ze5k65",
+          "display_name": "Catalyst Chemical Industries (India)",
+          "country_code": "IN",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210109954"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210120668",
+          "ror": "https://ror.org/02ed4cj64",
+          "display_name": "Creative Commons",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210120668"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210122910",
+          "ror": "https://ror.org/03tcppy59",
+          "display_name": "The Research Council",
+          "country_code": "OM",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210122910"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210123801",
+          "ror": "https://ror.org/025h0r574",
+          "display_name": "Fundación Pública Galega de Medicina Xenómica",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210123801"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210124779",
+          "ror": "https://ror.org/027ka1x80",
+          "display_name": "National Aeronautics and Space Administration",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210124779"
+          ]
+        },
+        "years": [
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210125578",
+          "ror": "https://ror.org/032fdft79",
+          "display_name": "Istituto Nazionale di Economia Agraria",
+          "country_code": "IT",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210104593",
+            "https://openalex.org/I4210113036",
+            "https://openalex.org/I4210125578"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210126383",
+          "ror": "https://ror.org/031h5e705",
+          "display_name": "International Society of Differentiation",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210126383"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210130707",
+          "ror": "https://ror.org/0362za439",
+          "display_name": "Ministry of Health",
+          "country_code": "OM",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210130707"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210139590",
+          "ror": "https://ror.org/03vr3gq96",
+          "display_name": "Institute of Chartered Financial Analysts of India University, Jaipur",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210139590"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210141553",
+          "ror": "https://ror.org/03tr4r126",
+          "display_name": "Narayan Medical College and Hospital",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210141553"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210143601",
+          "ror": "https://ror.org/0434dpa13",
+          "display_name": "Decision Systems (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210143601"
+          ]
+        },
+        "years": [
+          2014,
+          2013,
+          2012,
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210146358",
+          "ror": "https://ror.org/03dp11s58",
+          "display_name": "Raisoni Group of Institutions",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210146358"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210147308",
+          "ror": "https://ror.org/04n3c2195",
+          "display_name": "Directorate of Medicinal and Aromatic Plants Research",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I179420787",
+            "https://openalex.org/I4210147308"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210147361",
+          "ror": "https://ror.org/03f394x19",
+          "display_name": "National Institute of Hydrology",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210147361"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210156726",
+          "ror": "https://ror.org/04fhee747",
+          "display_name": "National Institute of Immunology",
+          "country_code": "IN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I4210134808",
+            "https://openalex.org/I4210156726"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210157884",
+          "ror": "https://ror.org/04qnap020",
+          "display_name": "World Healthal Trust",
+          "country_code": "IN",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210157884"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210158390",
+          "ror": "https://ror.org/04kswek43",
+          "display_name": "ICAR-Indian Institute of Agricultural Biotechnology",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I179420787",
+            "https://openalex.org/I4210158390"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210163273",
+          "ror": "https://ror.org/04x16yc34",
+          "display_name": "Al Nahdha Hospital",
+          "country_code": "OM",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210163273"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210164339",
+          "ror": "https://ror.org/05cxzzq07",
+          "display_name": "Oldham Council",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210164339"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165321",
+          "ror": "https://ror.org/05mryn396",
+          "display_name": "Manipal Hospital",
+          "country_code": "IN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210165321"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4387152206",
+          "ror": "https://ror.org/05qjwb041",
+          "display_name": "All India Institute of Medical Sciences Rishikesh",
+          "country_code": null,
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4387152206"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4387154809",
+          "ror": "https://ror.org/04hp0cf98",
+          "display_name": "ABES Engineering College",
+          "country_code": null,
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4387154809"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4390039246",
+          "ror": "https://ror.org/00kt3nk56",
+          "display_name": "University of Hawaii Cancer Center",
+          "country_code": null,
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4390039246"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I45509622",
+          "ror": "https://ror.org/01bzgdw81",
+          "display_name": "Indian Agricultural Research Institute",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I179420787",
+            "https://openalex.org/I45509622"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I51317819",
+          "ror": "https://ror.org/04y75dx46",
+          "display_name": "Institute of Medical Sciences",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I51317819",
+            "https://openalex.org/I91357014"
+          ]
+        },
+        "years": [
+          2025,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I51969498",
+          "ror": "https://ror.org/02fzfx471",
+          "display_name": "Indira Gandhi National Open University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I51969498"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I5444425",
+          "ror": "https://ror.org/04fceqm38",
+          "display_name": "Macalester College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I5444425"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I55732556",
+          "ror": "https://ror.org/03efmqc40",
+          "display_name": "Arizona State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I55732556"
+          ]
+        },
+        "years": [
+          2023,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I56404289",
+          "ror": "https://ror.org/01kh5gc44",
+          "display_name": "Indian Institute of Technology BHU",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I56404289"
+          ]
+        },
+        "years": [
+          2025,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I57085157",
+          "ror": "https://ror.org/05kfstc28",
+          "display_name": "Sardar Patel University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57085157"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I5847235",
+          "ror": "https://ror.org/04q2jes40",
+          "display_name": "University of Petroleum and Energy Studies",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I5847235"
+          ]
+        },
+        "years": [
+          2024,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I59179055",
+          "ror": "https://ror.org/036x6w630",
+          "display_name": "Shri Mata Vaishno Devi University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I59179055"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63190737",
+          "ror": "https://ror.org/01y64my43",
+          "display_name": "University at Buffalo, State University of New York",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63190737"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63568130",
+          "ror": "https://ror.org/01n15vy71",
+          "display_name": "Sant Longowal Institute of Engineering and Technology",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63568130"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63739035",
+          "ror": "https://ror.org/02dwcqs71",
+          "display_name": "All India Institute of Medical Sciences",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I4210148677",
+            "https://openalex.org/I63739035"
+          ]
+        },
+        "years": [
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I65181880",
+          "ror": "https://ror.org/01j4v3x97",
+          "display_name": "Indian Institute of Technology Hyderabad",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I65181880"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I69740276",
+          "ror": "https://ror.org/00ws30h19",
+          "display_name": "Tokyo Metropolitan University",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I69740276"
+          ]
+        },
+        "years": [
+          2014,
+          2012,
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I74801974",
+          "ror": "https://ror.org/057zh3y96",
+          "display_name": "The University of Tokyo",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I74801974"
+          ]
+        },
+        "years": [
+          2016,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79576946",
+          "ror": "https://ror.org/00b30xv10",
+          "display_name": "University of Pennsylvania",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79576946"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79817857",
+          "ror": "https://ror.org/01r7awg59",
+          "display_name": "University of Guelph",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79817857"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I83205935",
+          "ror": "https://ror.org/0077k1j32",
+          "display_name": "Malaviya National Institute of Technology Jaipur",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I83205935"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I84218800",
+          "ror": "https://ror.org/05rrcem69",
+          "display_name": "University of California, Davis",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I84392919",
+          "ror": "https://ror.org/00kx1jb78",
+          "display_name": "Temple University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I84392919"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I87216513",
+          "ror": "https://ror.org/05hs6h993",
+          "display_name": "Michigan State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I87216513"
+          ]
+        },
+        "years": [
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I881766915",
+          "ror": "https://ror.org/01rxvg760",
+          "display_name": "Nanjing University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I881766915"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I885392262",
+          "ror": "https://ror.org/0440p1d37",
+          "display_name": "GITAM University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I885392262"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I8961855",
+          "ror": "https://ror.org/01tmp8f25",
+          "display_name": "Universidad Nacional Autónoma de México",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I8961855"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I91277730",
+          "ror": "https://ror.org/026vtd268",
+          "display_name": "Maulana Azad National Institute of Technology",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I91277730"
+          ]
+        },
+        "years": [
+          2023,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I91357014",
+          "ror": "https://ror.org/04cdn2797",
+          "display_name": "Banaras Hindu University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I91357014"
+          ]
+        },
+        "years": [
+          2025,
+          2019,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I922845939",
+          "ror": "https://ror.org/03zzmyz63",
+          "display_name": "Philadelphia University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I922845939"
+          ]
+        },
+        "years": [
+          2024,
+          2017,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I926076166",
+          "ror": "https://ror.org/033ztpr93",
+          "display_name": "Texas Tech University Health Sciences Center",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I926076166"
+          ]
+        },
+        "years": [
+          2025,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I97018004",
+          "ror": "https://ror.org/00f54p054",
+          "display_name": "Stanford University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2012,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I99364266",
+          "ror": "https://ror.org/053rcsq61",
+          "display_name": "Academy of Scientific and Innovative Research",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I99364266"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I12315562",
+        "ror": "https://ror.org/0405mnx93",
+        "display_name": "Texas Tech University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I12315562"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I130701444",
+        "ror": "https://ror.org/01zkghx44",
+        "display_name": "Georgia Institute of Technology",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I130701444"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I150468666",
+        "ror": "https://ror.org/03czfpz43",
+        "display_name": "Emory University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I150468666"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I185163786",
+        "ror": "https://ror.org/02ma4wv74",
+        "display_name": "King Abdulaziz University",
+        "country_code": "SA",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I185163786"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I24927338",
+        "ror": "https://ror.org/0261g6j35",
+        "display_name": "Chaudhary Charan Singh Haryana Agricultural University",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I24927338"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I2801004183",
+        "ror": "https://ror.org/038s1ax16",
+        "display_name": "Temple College",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I2801004183"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I35440088",
+        "ror": "https://ror.org/05a28rw58",
+        "display_name": "ETH Zurich",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I2799323385",
+          "https://openalex.org/I35440088"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210086299",
+        "ror": "https://ror.org/001amd982",
+        "display_name": "Noida International University",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210086299"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210090941",
+        "ror": "https://ror.org/00baskk38",
+        "display_name": "Institute for Biomedical Engineering",
+        "country_code": "CH",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I202697423",
+          "https://openalex.org/I2799323385",
+          "https://openalex.org/I35440088",
+          "https://openalex.org/I4210090941"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210092485",
+        "ror": "https://ror.org/00m2xfz17",
+        "display_name": "Bioengineering (Switzerland)",
+        "country_code": "CH",
+        "type": "company",
+        "lineage": [
+          "https://openalex.org/I4210092485"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210098184",
+        "ror": "https://ror.org/01r27v904",
+        "display_name": "Sardar Vallabhbhai Patel University of Agriculture & Technology",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210098184"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210126383",
+        "ror": "https://ror.org/031h5e705",
+        "display_name": "International Society of Differentiation",
+        "country_code": "US",
+        "type": "nonprofit",
+        "lineage": [
+          "https://openalex.org/I4210126383"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210139590",
+        "ror": "https://ror.org/03vr3gq96",
+        "display_name": "Institute of Chartered Financial Analysts of India University, Jaipur",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210139590"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210147361",
+        "ror": "https://ror.org/03f394x19",
+        "display_name": "National Institute of Hydrology",
+        "country_code": "IN",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I4210147361"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210156726",
+        "ror": "https://ror.org/04fhee747",
+        "display_name": "National Institute of Immunology",
+        "country_code": "IN",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I2799351866",
+          "https://openalex.org/I4210134808",
+          "https://openalex.org/I4210156726"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210158390",
+        "ror": "https://ror.org/04kswek43",
+        "display_name": "ICAR-Indian Institute of Agricultural Biotechnology",
+        "country_code": "IN",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I179420787",
+          "https://openalex.org/I4210158390"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I45509622",
+        "ror": "https://ror.org/01bzgdw81",
+        "display_name": "Indian Agricultural Research Institute",
+        "country_code": "IN",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I179420787",
+          "https://openalex.org/I45509622"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I51317819",
+        "ror": "https://ror.org/04y75dx46",
+        "display_name": "Institute of Medical Sciences",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I51317819",
+          "https://openalex.org/I91357014"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I56404289",
+        "ror": "https://ror.org/01kh5gc44",
+        "display_name": "Indian Institute of Technology BHU",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I56404289"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I57085157",
+        "ror": "https://ror.org/05kfstc28",
+        "display_name": "Sardar Patel University",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I57085157"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I83205935",
+        "ror": "https://ror.org/0077k1j32",
+        "display_name": "Malaviya National Institute of Technology Jaipur",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I83205935"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I84392919",
+        "ror": "https://ror.org/00kx1jb78",
+        "display_name": "Temple University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I84392919"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I91357014",
+        "ror": "https://ror.org/04cdn2797",
+        "display_name": "Banaras Hindu University",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I91357014"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I926076166",
+        "ror": "https://ror.org/033ztpr93",
+        "display_name": "Texas Tech University Health Sciences Center",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I926076166"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10015",
+        "display_name": "Genomics and Phylogenetic Studies",
+        "count": 199,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10012",
+        "display_name": "Genetic diversity and population structure",
+        "count": 108,
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11764",
+        "display_name": "Evolution and Genetic Dynamics",
+        "count": 62,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11354",
+        "display_name": "Evolution and Paleontology Studies",
+        "count": 46,
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1911",
+          "display_name": "Paleontology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10521",
+        "display_name": "RNA and protein synthesis mechanisms",
+        "count": 37,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10012",
+        "display_name": "Genetic diversity and population structure",
+        "value": 0.0005971,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10015",
+        "display_name": "Genomics and Phylogenetic Studies",
+        "value": 0.0005814,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11764",
+        "display_name": "Evolution and Genetic Dynamics",
+        "value": 0.0004625,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11354",
+        "display_name": "Evolution and Paleontology Studies",
+        "value": 0.0002725,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1911",
+          "display_name": "Paleontology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12254",
+        "display_name": "Machine Learning in Bioinformatics",
+        "value": 0.0002541,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.9702935814857483
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8831501007080078
+      },
+      {
+        "id": "104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "score": 0.8665053844451904
+      },
+      {
+        "id": "54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "score": 0.7894924879074097
+      },
+      {
+        "id": "78458016",
+        "wikidata": "https://www.wikidata.org/wiki/Q840400",
+        "display_name": "Evolutionary biology",
+        "score": 0.7220277190208435
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1957,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 1958,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 4
+      },
+      {
+        "year": 1971,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1973,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1987,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1992,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 284
+      },
+      {
+        "year": 1994,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1150
+      },
+      {
+        "year": 1995,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 795
+      },
+      {
+        "year": 1996,
+        "works_count": 8,
+        "oa_works_count": 3,
+        "cited_by_count": 1120
+      },
+      {
+        "year": 1997,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 779
+      },
+      {
+        "year": 1998,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 2137
+      },
+      {
+        "year": 1999,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 665
+      },
+      {
+        "year": 2000,
+        "works_count": 18,
+        "oa_works_count": 2,
+        "cited_by_count": 8143
+      },
+      {
+        "year": 2001,
+        "works_count": 13,
+        "oa_works_count": 5,
+        "cited_by_count": 7157
+      },
+      {
+        "year": 2002,
+        "works_count": 9,
+        "oa_works_count": 3,
+        "cited_by_count": 1099
+      },
+      {
+        "year": 2003,
+        "works_count": 10,
+        "oa_works_count": 3,
+        "cited_by_count": 766
+      },
+      {
+        "year": 2004,
+        "works_count": 40,
+        "oa_works_count": 5,
+        "cited_by_count": 18246
+      },
+      {
+        "year": 2005,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 735
+      },
+      {
+        "year": 2006,
+        "works_count": 10,
+        "oa_works_count": 4,
+        "cited_by_count": 1513
+      },
+      {
+        "year": 2007,
+        "works_count": 8,
+        "oa_works_count": 7,
+        "cited_by_count": 31549
+      },
+      {
+        "year": 2008,
+        "works_count": 8,
+        "oa_works_count": 3,
+        "cited_by_count": 3632
+      },
+      {
+        "year": 2009,
+        "works_count": 16,
+        "oa_works_count": 8,
+        "cited_by_count": 607
+      },
+      {
+        "year": 2010,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 331
+      },
+      {
+        "year": 2011,
+        "works_count": 13,
+        "oa_works_count": 8,
+        "cited_by_count": 41116
+      },
+      {
+        "year": 2012,
+        "works_count": 13,
+        "oa_works_count": 11,
+        "cited_by_count": 1370
+      },
+      {
+        "year": 2013,
+        "works_count": 19,
+        "oa_works_count": 16,
+        "cited_by_count": 47708
+      },
+      {
+        "year": 2014,
+        "works_count": 15,
+        "oa_works_count": 13,
+        "cited_by_count": 392
+      },
+      {
+        "year": 2015,
+        "works_count": 16,
+        "oa_works_count": 13,
+        "cited_by_count": 1461
+      },
+      {
+        "year": 2016,
+        "works_count": 19,
+        "oa_works_count": 16,
+        "cited_by_count": 44966
+      },
+      {
+        "year": 2017,
+        "works_count": 12,
+        "oa_works_count": 9,
+        "cited_by_count": 2842
+      },
+      {
+        "year": 2018,
+        "works_count": 25,
+        "oa_works_count": 19,
+        "cited_by_count": 37435
+      },
+      {
+        "year": 2019,
+        "works_count": 26,
+        "oa_works_count": 22,
+        "cited_by_count": 2098
+      },
+      {
+        "year": 2020,
+        "works_count": 35,
+        "oa_works_count": 28,
+        "cited_by_count": 542
+      },
+      {
+        "year": 2021,
+        "works_count": 44,
+        "oa_works_count": 37,
+        "cited_by_count": 20508
+      },
+      {
+        "year": 2022,
+        "works_count": 94,
+        "oa_works_count": 48,
+        "cited_by_count": 1598
+      },
+      {
+        "year": 2023,
+        "works_count": 74,
+        "oa_works_count": 51,
+        "cited_by_count": 160
+      },
+      {
+        "year": 2024,
+        "works_count": 47,
+        "oa_works_count": 29,
+        "cited_by_count": 955
+      },
+      {
+        "year": 2025,
+        "works_count": 55,
+        "oa_works_count": 39,
+        "cited_by_count": 50
+      }
+    ],
+    "longest_name": "HGSVC Functional Analysis Working Group",
+    "parsed_longest_name": {
+      "first": "hgsvc",
+      "middle": "functional analysis working",
+      "last": "group",
+      "suffix": "",
+      "nickname": ""
+    },
+    "block_key": "h group",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5100680948",
+    "updated_date": "2026-02-05T12:22:15.111854",
+    "created_date": "2016-06-24"
+  },
+  "semantic_scholar": null
+}

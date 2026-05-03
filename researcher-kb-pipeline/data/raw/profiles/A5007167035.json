@@ -1,0 +1,324 @@
+{
+  "author_id": "A5007167035",
+  "openalex": {
+    "id": "https://openalex.org/A5007167035",
+    "orcid": null,
+    "display_name": "Carla Esch",
+    "raw_author_names": [
+      "C. Esch",
+      "Carla Esch",
+      "Esch, Carla"
+    ],
+    "full_name": "Esch, Carla",
+    "works_count": 10,
+    "cited_by_count": 14,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.0,
+      "h_index": 1,
+      "i10_index": 1
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5007167035",
+      "orcid": null
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I887968799",
+          "ror": "https://ror.org/04xfq0f34",
+          "display_name": "RWTH Aachen University",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I887968799"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I99977706",
+          "ror": "https://ror.org/04tqgg260",
+          "display_name": "FH Aachen",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I99977706"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I887968799",
+        "ror": "https://ror.org/04xfq0f34",
+        "display_name": "RWTH Aachen University",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I887968799"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10967",
+        "display_name": "Carbon Dioxide Capture Technologies",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11190",
+        "display_name": "3D Printing in Biomedical Research",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11362",
+        "display_name": "Membrane Separation and Gas Transport",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10197",
+        "display_name": "Membrane Separation Technologies",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2312",
+          "display_name": "Water Science and Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10231",
+        "display_name": "Pancreatic and Hepatic Oncology Research",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2730",
+          "display_name": "Oncology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10967",
+        "display_name": "Carbon Dioxide Capture Technologies",
+        "value": 5.55e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11362",
+        "display_name": "Membrane Separation and Gas Transport",
+        "value": 2.24e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11774",
+        "display_name": "Adsorption and Cooling Systems",
+        "value": 1.5e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13604",
+        "display_name": "Adsorption, diffusion, and thermodynamic properties of materials",
+        "value": 1.43e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1607",
+          "display_name": "Spectroscopy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12238",
+        "display_name": "Green IT and Sustainability",
+        "value": 1.42e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "score": 0.7304999828338623
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.7190999984741211
+      },
+      {
+        "id": "159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "score": 0.6003999710083008
+      },
+      {
+        "id": "195048187",
+        "wikidata": "https://www.wikidata.org/wiki/Q4468919",
+        "display_name": "Carbon dioxide in Earth's atmosphere",
+        "score": 0.3321000039577484
+      },
+      {
+        "id": "140205800",
+        "wikidata": "https://www.wikidata.org/wiki/Q5860",
+        "display_name": "Carbon fibers",
+        "score": 0.30390000343322754
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2023,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2025,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 14
+      }
+    ],
+    "display_name_alternatives": [
+      "C. Esch",
+      "Carla Esch",
+      "Esch, Carla"
+    ],
+    "block_key": "c esch",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5007167035",
+    "updated_date": null,
+    "created_date": "2025-10-01T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2331044037",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2331044037",
+    "name": "Carla Esch",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 4,
+    "citationCount": 11,
+    "hIndex": 1
+  }
+}

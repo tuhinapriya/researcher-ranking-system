@@ -1,0 +1,92 @@
+{
+  "author_id": "A5026726925",
+  "total_recent_works_analysed": 36,
+  "total_unique_collaborators": 164,
+  "estimated_mentee_count": 3,
+  "likely_mentees": [
+    {
+      "name": "Mennatullah M. Mokhtar",
+      "id": "A5080480644",
+      "works_count": 3,
+      "shared_papers": 3
+    },
+    {
+      "name": "Tim Dao",
+      "id": "A5119780090",
+      "works_count": 3,
+      "shared_papers": 3
+    },
+    {
+      "name": "Alexandria Garza",
+      "id": "A5119780091",
+      "works_count": 3,
+      "shared_papers": 3
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.33,
+    "corresponding_author_ratio": 0.33
+  },
+  "top_collaborators": [
+    {
+      "name": "Tomislav Friščić",
+      "id": "A5088974934",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "Isaiah R. Speight",
+      "id": "A5067075148",
+      "shared_papers": 10,
+      "same_institution": false
+    },
+    {
+      "name": "César A. Urbina‐Blanco",
+      "id": "A5083857227",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Safia Z. Jilani",
+      "id": "A5086700566",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Michael J. Bojdys",
+      "id": "A5091129276",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "J. Fraser Stoddart",
+      "id": "A5027688873",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Toby L. Nelson",
+      "id": "A5076070319",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Renã A. S. Robinson",
+      "id": "A5009725612",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Jodie L. Lutkenhaus",
+      "id": "A5030238247",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Stephen Opeyemi Aderinto",
+      "id": "A5003574964",
+      "shared_papers": 7,
+      "same_institution": false
+    }
+  ]
+}

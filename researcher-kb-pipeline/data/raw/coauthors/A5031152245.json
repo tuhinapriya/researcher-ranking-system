@@ -1,0 +1,31 @@
+{
+  "author_id": "A5031152245",
+  "total_recent_works_analysed": 4,
+  "total_unique_collaborators": 3,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 1.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Vinod Nair",
+      "id": "A5102382576",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Geoffrey E. Hinton",
+      "id": "A5108093963",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Farinu Hamzah",
+      "id": "A5126145230",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

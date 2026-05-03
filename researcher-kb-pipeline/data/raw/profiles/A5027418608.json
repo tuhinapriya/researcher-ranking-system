@@ -1,0 +1,304 @@
+{
+  "author_id": "A5027418608",
+  "openalex": {
+    "id": "https://openalex.org/A5027418608",
+    "orcid": "https://orcid.org/0000-0002-5935-3666",
+    "display_name": "Dalia Dranseike",
+    "raw_author_names": [
+      "Dalia Dranseike"
+    ],
+    "full_name": "Dalia Dranseike",
+    "works_count": 6,
+    "cited_by_count": 124,
+    "summary_stats": {
+      "2yr_mean_citedness": 12.5,
+      "h_index": 4,
+      "i10_index": 4
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5027418608",
+      "orcid": "https://orcid.org/0000-0002-5935-3666"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I35440088",
+          "ror": "https://ror.org/05a28rw58",
+          "display_name": "ETH Zurich",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I35440088",
+        "ror": "https://ror.org/05a28rw58",
+        "display_name": "ETH Zurich",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I2799323385",
+          "https://openalex.org/I35440088"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10476",
+        "display_name": "Algal biology and biofuel production",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2105",
+          "display_name": "Renewable Energy, Sustainability and the Environment"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12832",
+        "display_name": "Biocrusts and Microbial Ecology",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1105",
+          "display_name": "Ecology, Evolution, Behavior and Systematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10176",
+        "display_name": "Mesenchymal stem cell research",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2716",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10343",
+        "display_name": "Hydrogels: synthesis, properties, applications",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1313",
+          "display_name": "Molecular Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10379",
+        "display_name": "Cellular Mechanics and Interactions",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1307",
+          "display_name": "Cell Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12832",
+        "display_name": "Biocrusts and Microbial Ecology",
+        "value": 2.44e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1105",
+          "display_name": "Ecology, Evolution, Behavior and Systematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11231",
+        "display_name": "Microbial Fuel Cells and Bioremediation",
+        "value": 1.29e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12570",
+        "display_name": "Photopolymerization techniques and applications",
+        "value": 1.25e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11966",
+        "display_name": "Silk-based biomaterials and applications",
+        "value": 1.12e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11419",
+        "display_name": "Supramolecular Self-Assembly in Materials",
+        "value": 1.07e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "108586683",
+        "wikidata": "https://www.wikidata.org/wiki/Q17164826",
+        "display_name": "Self-healing hydrogels",
+        "score": 0.931919276714325
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.6443315744400024
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.6158000230789185
+      },
+      {
+        "id": "159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "score": 0.383201003074646
+      },
+      {
+        "id": "104779481",
+        "wikidata": "https://www.wikidata.org/wiki/Q50707",
+        "display_name": "Composite number",
+        "score": 0.0
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 71
+      },
+      {
+        "year": 2023,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2025,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 35
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Dalia Dranseike"
+    ],
+    "block_key": "d dranseike",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5027418608",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "semantic_scholar": null
+}

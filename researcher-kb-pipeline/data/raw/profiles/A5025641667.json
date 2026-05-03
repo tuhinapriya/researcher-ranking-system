@@ -1,0 +1,1442 @@
+{
+  "author_id": "A5025641667",
+  "openalex": {
+    "id": "https://openalex.org/A5025641667",
+    "orcid": "https://orcid.org/0000-0002-0853-6518",
+    "display_name": "Usman A. Khan",
+    "raw_author_names": [
+      "Khan, Ubaidullah",
+      "Khan, Usman",
+      "Khan, Usman A.",
+      "Ms Van Toorn",
+      "Muhammad Usman",
+      "U. Khan",
+      "U.A. Khan",
+      "Ubaidullah Khan",
+      "Usman  A. Khan",
+      "Usman  Ahmed Khan",
+      "Usman A Khan",
+      "Usman A. Khan",
+      "Usman Ahmed Khan",
+      "Usman Khan",
+      "Usman Shahbaz Khan",
+      "Virginia Smith"
+    ],
+    "full_name": "Usman  Ahmed Khan",
+    "works_count": 256,
+    "cited_by_count": 4835,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.933333333333333,
+      "h_index": 33,
+      "i10_index": 78
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5025641667",
+      "orcid": "https://orcid.org/0000-0002-0853-6518"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I103531236",
+          "ror": "https://ror.org/02n2fzt79",
+          "display_name": "Boston College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I103531236"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I103583917",
+          "ror": "https://ror.org/02sdmkj94",
+          "display_name": "Karachi Institute of Economics and Technology",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I103583917"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I10734018",
+          "ror": "https://ror.org/03tarb191",
+          "display_name": "Akamai (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I10734018"
+          ]
+        },
+        "years": [
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I111088046",
+          "ror": "https://ror.org/05qwgg493",
+          "display_name": "Boston University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I111088046"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I121934306",
+          "ror": "https://ror.org/05wvpxv85",
+          "display_name": "Tufts University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121934306"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1297991670",
+          "ror": "https://ror.org/04d996474",
+          "display_name": "Southwest University of Science and Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I1297991670"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I129902397",
+          "ror": "https://ror.org/01e6qks80",
+          "display_name": "Dalhousie University",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I129902397"
+          ]
+        },
+        "years": [
+          2025,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I133529467",
+          "ror": "https://ror.org/024c2fq17",
+          "display_name": "Sharif University of Technology",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I133529467"
+          ]
+        },
+        "years": [
+          2025,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1337397194",
+          "ror": "https://ror.org/02avhnb77",
+          "display_name": "Emerald Group Publishing (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1337397194"
+          ]
+        },
+        "years": [
+          2022,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I138938424",
+          "ror": "https://ror.org/03svwq685",
+          "display_name": "Università degli Studi della Tuscia",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I138938424"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I142204992",
+          "ror": "https://ror.org/051jrjw38",
+          "display_name": "University of Lahore",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I142204992"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I146655781",
+          "ror": "https://ror.org/04xs57h96",
+          "display_name": "University of Liverpool",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I146655781"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I154851008",
+          "ror": "https://ror.org/00582g326",
+          "display_name": "Indian Institute of Technology Roorkee",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154851008"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I16076960",
+          "ror": "https://ror.org/00nqqvk19",
+          "display_name": "COMSATS University Islamabad",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I16076960"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I160968435",
+          "ror": "https://ror.org/0086rpr26",
+          "display_name": "University of Sargodha",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I160968435"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I171210897",
+          "ror": "https://ror.org/03kw9gc02",
+          "display_name": "Aligarh Muslim University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I171210897"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I177877127",
+          "ror": "https://ror.org/047272k79",
+          "display_name": "University of Western Australia",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177877127"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I181063083",
+          "ror": "https://ror.org/03b9y4e65",
+          "display_name": "Abdul Wali Khan University Mardan",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I181063083"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I185261750",
+          "ror": "https://ror.org/03dbr7087",
+          "display_name": "University of Toronto",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I188538660",
+          "ror": "https://ror.org/02ttsq026",
+          "display_name": "University of Colorado Boulder",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I188538660"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I189158943",
+          "ror": "https://ror.org/00wjc7c48",
+          "display_name": "University of Milan",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I189158943"
+          ]
+        },
+        "years": [
+          2022,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I192455969",
+          "ror": "https://ror.org/05fq50484",
+          "display_name": "York University",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I192455969"
+          ]
+        },
+        "years": [
+          2023,
+          2022,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I200749728",
+          "ror": "https://ror.org/035zn2q74",
+          "display_name": "Pir Mehr Ali Shah Arid Agriculture University",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I200749728"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I202376891",
+          "ror": "https://ror.org/04dx2y384",
+          "display_name": "Sarhad University of Science and Information Technology",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I202376891"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I246743127",
+          "ror": "https://ror.org/02sp3q482",
+          "display_name": "The University of Agriculture, Peshawar",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I246743127"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800264117",
+          "ror": "https://ror.org/025qrzc85",
+          "display_name": "Queen Elizabeth II Health Sciences Centre",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800264117",
+            "https://openalex.org/I2802394193"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801018919",
+          "ror": "https://ror.org/01r9ea713",
+          "display_name": "Blackpool Victoria Hospital",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801018919",
+            "https://openalex.org/I4210127133"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802362269",
+          "ror": "https://ror.org/05pr37258",
+          "display_name": "Health Sciences Centre",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I110535807",
+            "https://openalex.org/I2802362269"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802707398",
+          "ror": "https://ror.org/0065vkd37",
+          "display_name": "Brookdale University Hospital and Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802707398"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2803024077",
+          "ror": "https://ror.org/01w8whh21",
+          "display_name": "University of Oklahoma Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2803024077"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I29698356",
+          "ror": "https://ror.org/013d87239",
+          "display_name": "HITEC University",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I29698356"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3132238960",
+          "ror": "https://ror.org/01n002310",
+          "display_name": "Institute of Electrical and Electronics Engineers",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3132238960"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I36258959",
+          "ror": "https://ror.org/0168r3w48",
+          "display_name": "University of California, San Diego",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36258959"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210097892",
+          "ror": "https://ror.org/00we17t20",
+          "display_name": "Foundation University",
+          "country_code": "PH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210097892"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210103439",
+          "ror": "https://ror.org/01j64ar73",
+          "display_name": "East Cheshire NHS Trust",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210103439"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210109759",
+          "ror": "https://ror.org/01nj8sa76",
+          "display_name": "Royal Alexandra Hospital",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800201399",
+            "https://openalex.org/I4210109759"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210110951",
+          "ror": "https://ror.org/01p5xff03",
+          "display_name": "Gorgias Press (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210110951"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210111804",
+          "ror": "https://ror.org/027vj4x92",
+          "display_name": "Sanofi (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I3018075036",
+            "https://openalex.org/I4210111804"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210120115",
+          "ror": "https://ror.org/02venad53",
+          "display_name": "Robert Bosch (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210120115",
+            "https://openalex.org/I889804353"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210120130",
+          "ror": "https://ror.org/02v6ptf51",
+          "display_name": "Khoula Hospital",
+          "country_code": "OM",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210120130"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210121626",
+          "ror": "https://ror.org/021gzyw51",
+          "display_name": "Signal Processing (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210121626"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210133214",
+          "ror": "https://ror.org/039zxt351",
+          "display_name": "IRCCS Ospedale San Raffaele",
+          "country_code": "IT",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210133214",
+            "https://openalex.org/I4210153126"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210154214",
+          "ror": "https://ror.org/05kpx1157",
+          "display_name": "Royal Preston Hospital",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1293129422",
+            "https://openalex.org/I4210154214"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210155929",
+          "ror": "https://ror.org/04tj88f69",
+          "display_name": "National University of Medical Sciences",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210155929"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210157890",
+          "ror": "https://ror.org/04r0gp612",
+          "display_name": "Neurological Surgery",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210157890"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210164206",
+          "ror": "https://ror.org/05n952b74",
+          "display_name": "North Mississippi Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210164206"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I45438204",
+          "ror": "https://ror.org/01kd65564",
+          "display_name": "The University of Texas at San Antonio",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I45438204"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I49332381",
+          "ror": "https://ror.org/0457zbj98",
+          "display_name": "University of Oklahoma Health Sciences Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I49332381"
+          ]
+        },
+        "years": [
+          2024,
+          2022,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I5023651",
+          "ror": "https://ror.org/01pxwe438",
+          "display_name": "McGill University",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I5400463",
+          "ror": "https://ror.org/01sb6ek09",
+          "display_name": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I5400463"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I68649149",
+          "ror": "https://ror.org/012xdha97",
+          "display_name": "University of Malakand",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I68649149"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I71209653",
+          "ror": "https://ror.org/05crjpb27",
+          "display_name": "Bocconi University",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I71209653"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I74973139",
+          "ror": "https://ror.org/05x2bcf33",
+          "display_name": "Carnegie Mellon University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I74973139"
+          ]
+        },
+        "years": [
+          2019,
+          2010,
+          2009,
+          2008,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79571142",
+          "ror": "https://ror.org/00ya1zd25",
+          "display_name": "Virtual University of Pakistan",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79571142"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79576946",
+          "ror": "https://ror.org/00b30xv10",
+          "display_name": "University of Pennsylvania",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79576946"
+          ]
+        },
+        "years": [
+          2010,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I82880672",
+          "ror": "https://ror.org/00wk2mp56",
+          "display_name": "Beihang University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I82880672"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I90610274",
+          "ror": "https://ror.org/00p034093",
+          "display_name": "University of Engineering and Technology Peshawar",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I90610274"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I92156820",
+          "ror": "https://ror.org/02p72h367",
+          "display_name": "University of Cincinnati Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I92156820"
+          ]
+        },
+        "years": [
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I923305593",
+          "ror": "https://ror.org/03vz8ns51",
+          "display_name": "Ziauddin University",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I923305593"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I928334797",
+          "ror": "https://ror.org/029gksw03",
+          "display_name": "Semnan University",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I928334797"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I929597975",
+          "ror": "https://ror.org/03w2j5y17",
+          "display_name": "National University of Sciences and Technology",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I929597975"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I99464096",
+          "ror": "https://ror.org/05f950310",
+          "display_name": "KU Leuven",
+          "country_code": "BE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I99464096"
+          ]
+        },
+        "years": [
+          2024,
+          2022,
+          2021
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I103531236",
+        "ror": "https://ror.org/02n2fzt79",
+        "display_name": "Boston College",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I103531236"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I103583917",
+        "ror": "https://ror.org/02sdmkj94",
+        "display_name": "Karachi Institute of Economics and Technology",
+        "country_code": "PK",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I103583917"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I111088046",
+        "ror": "https://ror.org/05qwgg493",
+        "display_name": "Boston University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I111088046"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I121934306",
+        "ror": "https://ror.org/05wvpxv85",
+        "display_name": "Tufts University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I121934306"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I1297991670",
+        "ror": "https://ror.org/04d996474",
+        "display_name": "Southwest University of Science and Technology",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I1297991670"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I129902397",
+        "ror": "https://ror.org/01e6qks80",
+        "display_name": "Dalhousie University",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I129902397"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I133529467",
+        "ror": "https://ror.org/024c2fq17",
+        "display_name": "Sharif University of Technology",
+        "country_code": "IR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I133529467"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I45438204",
+        "ror": "https://ror.org/01kd65564",
+        "display_name": "The University of Texas at San Antonio",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I45438204"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10249",
+        "display_name": "Distributed Control Multi-Agent Systems",
+        "count": 114,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11612",
+        "display_name": "Stochastic Gradient Optimization Techniques",
+        "count": 43,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12879",
+        "display_name": "Distributed Sensor Networks and Detection Algorithms",
+        "count": 38,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10500",
+        "display_name": "Sparse and Compressive Sensing Techniques",
+        "count": 36,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11347",
+        "display_name": "Neural Networks Stability and Synchronization",
+        "count": 27,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10249",
+        "display_name": "Distributed Control Multi-Agent Systems",
+        "value": 0.0010736,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11612",
+        "display_name": "Stochastic Gradient Optimization Techniques",
+        "value": 0.0008617,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12879",
+        "display_name": "Distributed Sensor Networks and Detection Algorithms",
+        "value": 0.0006754,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11347",
+        "display_name": "Neural Networks Stability and Synchronization",
+        "value": 0.0003563,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10500",
+        "display_name": "Sparse and Compressive Sensing Techniques",
+        "value": 0.0003061,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8957335352897644
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.7163099050521851
+      },
+      {
+        "id": "11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "score": 0.6639681458473206
+      },
+      {
+        "id": "126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "score": 0.6622315645217896
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.6619060039520264
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2006,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2007,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 57
+      },
+      {
+        "year": 2008,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 642
+      },
+      {
+        "year": 2009,
+        "works_count": 8,
+        "oa_works_count": 2,
+        "cited_by_count": 581
+      },
+      {
+        "year": 2010,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 449
+      },
+      {
+        "year": 2011,
+        "works_count": 7,
+        "oa_works_count": 1,
+        "cited_by_count": 174
+      },
+      {
+        "year": 2012,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2013,
+        "works_count": 9,
+        "oa_works_count": 3,
+        "cited_by_count": 151
+      },
+      {
+        "year": 2014,
+        "works_count": 14,
+        "oa_works_count": 5,
+        "cited_by_count": 195
+      },
+      {
+        "year": 2015,
+        "works_count": 15,
+        "oa_works_count": 8,
+        "cited_by_count": 129
+      },
+      {
+        "year": 2016,
+        "works_count": 11,
+        "oa_works_count": 5,
+        "cited_by_count": 232
+      },
+      {
+        "year": 2017,
+        "works_count": 12,
+        "oa_works_count": 6,
+        "cited_by_count": 348
+      },
+      {
+        "year": 2018,
+        "works_count": 11,
+        "oa_works_count": 5,
+        "cited_by_count": 345
+      },
+      {
+        "year": 2019,
+        "works_count": 19,
+        "oa_works_count": 14,
+        "cited_by_count": 391
+      },
+      {
+        "year": 2020,
+        "works_count": 23,
+        "oa_works_count": 15,
+        "cited_by_count": 536
+      },
+      {
+        "year": 2021,
+        "works_count": 27,
+        "oa_works_count": 23,
+        "cited_by_count": 216
+      },
+      {
+        "year": 2022,
+        "works_count": 22,
+        "oa_works_count": 16,
+        "cited_by_count": 184
+      },
+      {
+        "year": 2023,
+        "works_count": 27,
+        "oa_works_count": 19,
+        "cited_by_count": 98
+      },
+      {
+        "year": 2024,
+        "works_count": 17,
+        "oa_works_count": 13,
+        "cited_by_count": 57
+      },
+      {
+        "year": 2025,
+        "works_count": 13,
+        "oa_works_count": 7,
+        "cited_by_count": 31
+      }
+    ],
+    "display_name_alternatives": [
+      "Khan, Ubaidullah",
+      "Khan, Usman",
+      "Khan, Usman A.",
+      "Ms Van Toorn",
+      "Muhammad Usman",
+      "U. Khan",
+      "U.A. Khan",
+      "Ubaidullah Khan",
+      "Usman  A. Khan",
+      "Usman  Ahmed Khan",
+      "Usman A Khan",
+      "Usman A. Khan",
+      "Usman Ahmed Khan",
+      "Usman Khan",
+      "Usman Shahbaz Khan",
+      "Virginia Smith"
+    ],
+    "block_key": "u khan",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5025641667",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": null
+}

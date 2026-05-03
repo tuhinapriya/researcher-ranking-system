@@ -1,0 +1,419 @@
+{
+  "author_id": "A5000408874",
+  "openalex": {
+    "id": "https://openalex.org/A5000408874",
+    "orcid": "https://orcid.org/0000-0003-4166-8093",
+    "display_name": "Austin M. Mroz",
+    "raw_author_names": [
+      "Austin M Mroz",
+      "Austin M. Mroz",
+      "Austin Mroz",
+      "Austin M. Mroz",
+      "Mroz, Austin",
+      "Mroz, Austin M."
+    ],
+    "full_name": "Mroz, Austin M.",
+    "works_count": 43,
+    "cited_by_count": 716,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.5238095238095237,
+      "h_index": 10,
+      "i10_index": 10
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5000408874",
+      "orcid": "https://orcid.org/0000-0003-4166-8093"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I181233156",
+          "ror": "https://ror.org/0293rh119",
+          "display_name": "University of Oregon",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I181233156"
+          ]
+        },
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210088913",
+          "ror": "https://ror.org/0073v0y35",
+          "display_name": "London Biofoundry",
+          "country_code": "GB",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210088913"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210094839",
+          "ror": "https://ror.org/00rafd796",
+          "display_name": "Instituto de Ciencia de Materiales de Sevilla",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I134820265",
+            "https://openalex.org/I4210094839",
+            "https://openalex.org/I79238269"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210132531",
+          "ror": "https://ror.org/03p0jv517",
+          "display_name": "Eugene Research Institute",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210132531"
+          ]
+        },
+        "years": [
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I47508984",
+          "ror": "https://ror.org/041kmwe10",
+          "display_name": "Imperial College London",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I47508984"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I47508984",
+        "ror": "https://ror.org/041kmwe10",
+        "display_name": "Imperial College London",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I47508984"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11948",
+        "display_name": "Machine Learning in Materials Science",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10480",
+        "display_name": "Ionic liquids properties and applications",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1503",
+          "display_name": "Catalysis"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/15",
+          "display_name": "Chemical Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10096",
+        "display_name": "Metal-Organic Frameworks: Synthesis and Applications",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1604",
+          "display_name": "Inorganic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11407",
+        "display_name": "Innovative Microfluidic and Catalytic Techniques Innovation",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11434",
+        "display_name": "Electrochemical Analysis and Applications",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1603",
+          "display_name": "Electrochemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11948",
+        "display_name": "Machine Learning in Materials Science",
+        "value": 8.05e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10480",
+        "display_name": "Ionic liquids properties and applications",
+        "value": 6.74e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1503",
+          "display_name": "Catalysis"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/15",
+          "display_name": "Chemical Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11798",
+        "display_name": "Optimal Experimental Design Methods",
+        "value": 4.3e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10578",
+        "display_name": "Supramolecular Chemistry and Complexes",
+        "value": 3.9e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10848",
+        "display_name": "Advanced Multi-Objective Optimization Algorithms",
+        "value": 2.5e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9582877159118652
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.8430953025817871
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.6740999817848206
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.4950975477695465
+      },
+      {
+        "id": "178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "score": 0.2575230598449707
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2017,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2019,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 138
+      },
+      {
+        "year": 2020,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 327
+      },
+      {
+        "year": 2021,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2022,
+        "works_count": 6,
+        "oa_works_count": 5,
+        "cited_by_count": 165
+      },
+      {
+        "year": 2023,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2024,
+        "works_count": 8,
+        "oa_works_count": 8,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2025,
+        "works_count": 8,
+        "oa_works_count": 7,
+        "cited_by_count": 32
+      },
+      {
+        "year": 2026,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 2
+      }
+    ],
+    "display_name_alternatives": [
+      "Austin M Mroz",
+      "Austin M. Mroz",
+      "Austin Mroz",
+      "Austin M. Mroz",
+      "Mroz, Austin",
+      "Mroz, Austin M."
+    ],
+    "block_key": "a mroz",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5000408874",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2022-11-06T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2248665955",
+    "externalIds": {
+      "DBLP": [
+        "Austin M. Mroz"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/2248665955",
+    "name": "Austin M. Mroz",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 14,
+    "citationCount": 79,
+    "hIndex": 4
+  }
+}

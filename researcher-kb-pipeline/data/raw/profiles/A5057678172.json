@@ -1,0 +1,1074 @@
+{
+  "author_id": "A5057678172",
+  "openalex": {
+    "id": "https://openalex.org/A5057678172",
+    "orcid": "https://orcid.org/0000-0002-8945-8573",
+    "display_name": "Andrew Zisserman",
+    "display_name_alternatives": [
+      "A Zisserman",
+      "A. Zisserman",
+      "Alayrac, JB",
+      "Andrew Zisserman",
+      "Arnab, A",
+      "Bain, M",
+      "Brown, A",
+      "Bull, H",
+      "Carreira, J",
+      "Carreira, João"
+    ],
+    "works_count": 967,
+    "cited_by_count": 258968,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.1285714285714286,
+      "h_index": 167,
+      "i10_index": 592
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5057678172",
+      "orcid": "https://orcid.org/0000-0002-8945-8573"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I113979032",
+          "ror": "https://ror.org/04wt43v05",
+          "display_name": "Twitter (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I113979032"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I124261462",
+          "ror": "https://ror.org/04v2twj65",
+          "display_name": "Oxford Brookes University",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124261462"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1290206253",
+          "ror": "https://ror.org/00d0nc645",
+          "display_name": "Microsoft (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1290206253"
+          ]
+        },
+        "years": [
+          2008,
+          1998
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1291425158",
+          "ror": "https://ror.org/00njsd438",
+          "display_name": "Google (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1291425158",
+            "https://openalex.org/I4210128969"
+          ]
+        },
+        "years": [
+          2023,
+          2021,
+          2020,
+          2019,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1294671590",
+          "ror": "https://ror.org/02feahw73",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        "years": [
+          2021,
+          2012,
+          2011,
+          2010,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I130828816",
+          "ror": "https://ror.org/024mrxd33",
+          "display_name": "University of Leeds",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130828816"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1326498283",
+          "ror": "https://ror.org/02kvxyf05",
+          "display_name": "Institut national de recherche en informatique et en automatique",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1326498283"
+          ]
+        },
+        "years": [
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2746051580",
+          "ror": "https://ror.org/013cjyk83",
+          "display_name": "Université Paris Sciences et Lettres",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2746051580"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802123492",
+          "ror": "https://ror.org/00z4w4f29",
+          "display_name": "Oxford Research Group",
+          "country_code": "GB",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802123492"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2014,
+          2012,
+          2010,
+          2008,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1996,
+          1995,
+          1994,
+          1992,
+          1991
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I29607241",
+          "ror": "https://ror.org/05a0dhs15",
+          "display_name": "École Normale Supérieure - PSL",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2746051580",
+            "https://openalex.org/I29607241"
+          ]
+        },
+        "years": [
+          2021,
+          2014,
+          2010,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I40120149",
+          "ror": "https://ror.org/052gg0110",
+          "display_name": "University of Oxford",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1993,
+          1992,
+          1991,
+          1990,
+          1989
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4092182",
+          "ror": "https://ror.org/00d7xrm67",
+          "display_name": "Graz University of Technology",
+          "country_code": "AT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4092182"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210090411",
+          "ror": "https://ror.org/00971b260",
+          "display_name": "DeepMind (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210090411",
+            "https://openalex.org/I4210128969"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210103330",
+          "ror": "https://ror.org/01dp7jr64",
+          "display_name": "École Normale Supérieure",
+          "country_code": "BI",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210103330"
+          ]
+        },
+        "years": [
+          2012,
+          2011,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210113297",
+          "ror": "https://ror.org/024bc3e07",
+          "display_name": "Google (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1291425158",
+            "https://openalex.org/I4210113297",
+            "https://openalex.org/I4210128969"
+          ]
+        },
+        "years": [
+          2024,
+          2018,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210116723",
+          "ror": "https://ror.org/020w2fr77",
+          "display_name": "Robotics Research (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210116723"
+          ]
+        },
+        "years": [
+          2004,
+          2003,
+          2002,
+          2000,
+          1999,
+          1998,
+          1996,
+          1994,
+          1992,
+          1990
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210135132",
+          "ror": "https://ror.org/03jsdjx34",
+          "display_name": "Cambridge University Press",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I241749",
+            "https://openalex.org/I4210135132"
+          ]
+        },
+        "years": [
+          1988
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210146410",
+          "ror": "https://ror.org/04j8yhy50",
+          "display_name": "Science Oxford",
+          "country_code": "GB",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210146410"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2012,
+          2010,
+          2009,
+          2008,
+          2007,
+          2005,
+          2004,
+          2003,
+          2002,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1992,
+          1991,
+          1990
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210155701",
+          "ror": "https://ror.org/0534wbh79",
+          "display_name": "Geomechanica (Canada)",
+          "country_code": "CA",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210155701"
+          ]
+        },
+        "years": [
+          2024,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210161954",
+          "ror": "https://ror.org/05y6rqs46",
+          "display_name": "Département d'Informatique",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1326498283",
+            "https://openalex.org/I2746051580",
+            "https://openalex.org/I29607241",
+            "https://openalex.org/I4210159245",
+            "https://openalex.org/I4210161954"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210164937",
+          "ror": "https://ror.org/05k87vq12",
+          "display_name": "Microsoft Research (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1290206253",
+            "https://openalex.org/I4210164937"
+          ]
+        },
+        "years": [
+          2008,
+          1998
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165872",
+          "ror": "https://ror.org/05pjhgh49",
+          "display_name": "Centre for Research and Development",
+          "country_code": "ZW",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210165872"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I45129253",
+          "ror": "https://ror.org/02jx3x895",
+          "display_name": "University College London",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63966007",
+          "ror": "https://ror.org/042nb2s44",
+          "display_name": "Massachusetts Institute of Technology",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63966007"
+          ]
+        },
+        "years": [
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I64189192",
+          "ror": "https://ror.org/05f11g639",
+          "display_name": "International Institute of Information Technology, Hyderabad",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I64189192"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I98677209",
+          "ror": "https://ror.org/01nrxwf90",
+          "display_name": "University of Edinburgh",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        },
+        "years": [
+          1987,
+          1985
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I40120149",
+        "ror": "https://ror.org/052gg0110",
+        "display_name": "University of Oxford",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I40120149"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10627",
+        "display_name": "Advanced Image and Video Retrieval Techniques",
+        "count": 240,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10531",
+        "display_name": "Advanced Vision and Imaging",
+        "count": 180,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10812",
+        "display_name": "Human Pose and Action Recognition",
+        "count": 166,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11714",
+        "display_name": "Multimodal Machine Learning Applications",
+        "count": 124,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10824",
+        "display_name": "Image Retrieval and Classification Techniques",
+        "count": 108,
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10812",
+        "display_name": "Human Pose and Action Recognition",
+        "value": 0.0014578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11714",
+        "display_name": "Multimodal Machine Learning Applications",
+        "value": 0.0012858,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11307",
+        "display_name": "Domain Adaptation and Few-Shot Learning",
+        "value": 0.001012,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10627",
+        "display_name": "Advanced Image and Video Retrieval Techniques",
+        "value": 0.000953,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11448",
+        "display_name": "Face recognition and analysis",
+        "value": 0.0007776,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.9343231320381165
+      },
+      {
+        "id": "31972630",
+        "wikidata": "https://www.wikidata.org/wiki/Q844240",
+        "display_name": "Computer vision",
+        "score": 0.8490942120552063
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.8352428674697876
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.8183327913284302
+      },
+      {
+        "id": "153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.7681847810745239
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1985,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 9
+      },
+      {
+        "year": 1986,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 11
+      },
+      {
+        "year": 1987,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 1639
+      },
+      {
+        "year": 1988,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 3
+      },
+      {
+        "year": 1989,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 155
+      },
+      {
+        "year": 1990,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 65
+      },
+      {
+        "year": 1991,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 519
+      },
+      {
+        "year": 1992,
+        "works_count": 13,
+        "oa_works_count": 2,
+        "cited_by_count": 1475
+      },
+      {
+        "year": 1993,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 400
+      },
+      {
+        "year": 1994,
+        "works_count": 11,
+        "oa_works_count": 0,
+        "cited_by_count": 319
+      },
+      {
+        "year": 1995,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 443
+      },
+      {
+        "year": 1996,
+        "works_count": 10,
+        "oa_works_count": 2,
+        "cited_by_count": 735
+      },
+      {
+        "year": 1997,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 471
+      },
+      {
+        "year": 1998,
+        "works_count": 18,
+        "oa_works_count": 0,
+        "cited_by_count": 1149
+      },
+      {
+        "year": 1999,
+        "works_count": 14,
+        "oa_works_count": 1,
+        "cited_by_count": 1103
+      },
+      {
+        "year": 2000,
+        "works_count": 13,
+        "oa_works_count": 2,
+        "cited_by_count": 1246
+      },
+      {
+        "year": 2001,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 915
+      },
+      {
+        "year": 2002,
+        "works_count": 34,
+        "oa_works_count": 1,
+        "cited_by_count": 3506
+      },
+      {
+        "year": 2003,
+        "works_count": 25,
+        "oa_works_count": 0,
+        "cited_by_count": 6377
+      },
+      {
+        "year": 2004,
+        "works_count": 58,
+        "oa_works_count": 5,
+        "cited_by_count": 22981
+      },
+      {
+        "year": 2005,
+        "works_count": 21,
+        "oa_works_count": 5,
+        "cited_by_count": 7893
+      },
+      {
+        "year": 2006,
+        "works_count": 28,
+        "oa_works_count": 5,
+        "cited_by_count": 7166
+      },
+      {
+        "year": 2007,
+        "works_count": 18,
+        "oa_works_count": 1,
+        "cited_by_count": 7154
+      },
+      {
+        "year": 2008,
+        "works_count": 23,
+        "oa_works_count": 6,
+        "cited_by_count": 6800
+      },
+      {
+        "year": 2009,
+        "works_count": 22,
+        "oa_works_count": 4,
+        "cited_by_count": 23738
+      },
+      {
+        "year": 2010,
+        "works_count": 23,
+        "oa_works_count": 5,
+        "cited_by_count": 2694
+      },
+      {
+        "year": 2011,
+        "works_count": 20,
+        "oa_works_count": 2,
+        "cited_by_count": 3456
+      },
+      {
+        "year": 2012,
+        "works_count": 25,
+        "oa_works_count": 7,
+        "cited_by_count": 2633
+      },
+      {
+        "year": 2013,
+        "works_count": 27,
+        "oa_works_count": 8,
+        "cited_by_count": 8365
+      },
+      {
+        "year": 2014,
+        "works_count": 40,
+        "oa_works_count": 22,
+        "cited_by_count": 98473
+      },
+      {
+        "year": 2015,
+        "works_count": 23,
+        "oa_works_count": 5,
+        "cited_by_count": 7851
+      },
+      {
+        "year": 2016,
+        "works_count": 21,
+        "oa_works_count": 10,
+        "cited_by_count": 5735
+      },
+      {
+        "year": 2017,
+        "works_count": 36,
+        "oa_works_count": 21,
+        "cited_by_count": 8598
+      },
+      {
+        "year": 2018,
+        "works_count": 51,
+        "oa_works_count": 37,
+        "cited_by_count": 9424
+      },
+      {
+        "year": 2019,
+        "works_count": 59,
+        "oa_works_count": 43,
+        "cited_by_count": 5165
+      },
+      {
+        "year": 2020,
+        "works_count": 57,
+        "oa_works_count": 41,
+        "cited_by_count": 3355
+      },
+      {
+        "year": 2021,
+        "works_count": 77,
+        "oa_works_count": 58,
+        "cited_by_count": 2140
+      },
+      {
+        "year": 2022,
+        "works_count": 34,
+        "oa_works_count": 25,
+        "cited_by_count": 2563
+      },
+      {
+        "year": 2023,
+        "works_count": 48,
+        "oa_works_count": 34,
+        "cited_by_count": 620
+      },
+      {
+        "year": 2024,
+        "works_count": 47,
+        "oa_works_count": 28,
+        "cited_by_count": 138
+      },
+      {
+        "year": 2025,
+        "works_count": 22,
+        "oa_works_count": 16,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      }
+    ],
+    "longest_name": "Andrew Zisserman",
+    "parsed_longest_name": {
+      "first": "andrew",
+      "middle": "",
+      "last": "zisserman",
+      "suffix": "",
+      "nickname": ""
+    },
+    "block_key": "a zisserman",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5057678172",
+    "updated_date": "2026-02-25T12:19:17",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2256988668",
+    "externalIds": {
+      "DBLP": [
+        "Andrew Zisserman"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/2256988668",
+    "name": "Andrew Zisserman",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 51,
+    "citationCount": 958,
+    "hIndex": 14
+  }
+}

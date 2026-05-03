@@ -1,0 +1,92 @@
+{
+  "author_id": "A5025641667",
+  "total_recent_works_analysed": 126,
+  "total_unique_collaborators": 439,
+  "estimated_mentee_count": 3,
+  "likely_mentees": [
+    {
+      "name": "Burak Bagirgan",
+      "id": "A5000032809",
+      "works_count": 2,
+      "shared_papers": 2
+    },
+    {
+      "name": "Azin Mehrjoo",
+      "id": "A5078189382",
+      "works_count": 10,
+      "shared_papers": 2
+    },
+    {
+      "name": "Aleksandar A. Sarić",
+      "id": "A5046567460",
+      "works_count": 7,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.37,
+    "corresponding_author_ratio": 0.13
+  },
+  "top_collaborators": [
+    {
+      "name": "Mohammadreza Doostmohammadian",
+      "id": "A5085550621",
+      "shared_papers": 28,
+      "same_institution": false
+    },
+    {
+      "name": "Themistoklis Charalambous",
+      "id": "A5000676115",
+      "shared_papers": 22,
+      "same_institution": true
+    },
+    {
+      "name": "Ran Xin",
+      "id": "A5033024261",
+      "shared_papers": 20,
+      "same_institution": true
+    },
+    {
+      "name": "Soummya Kar",
+      "id": "A5077268766",
+      "shared_papers": 20,
+      "same_institution": false
+    },
+    {
+      "name": "Muhammad I. Qureshi",
+      "id": "A5016836431",
+      "shared_papers": 16,
+      "same_institution": true
+    },
+    {
+      "name": "Alireza Aghasi",
+      "id": "A5060271129",
+      "shared_papers": 10,
+      "same_institution": false
+    },
+    {
+      "name": "Hamid R. Rabiee",
+      "id": "A5063512925",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Mohammad Pirani",
+      "id": "A5074875955",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Miadreza Shafie‐khah",
+      "id": "A5088560163",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Angelia Nedić",
+      "id": "A5110629459",
+      "shared_papers": 4,
+      "same_institution": false
+    }
+  ]
+}

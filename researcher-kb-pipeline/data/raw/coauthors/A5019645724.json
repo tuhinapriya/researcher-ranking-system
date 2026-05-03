@@ -1,0 +1,140 @@
+{
+  "author_id": "A5019645724",
+  "total_recent_works_analysed": 27,
+  "total_unique_collaborators": 117,
+  "estimated_mentee_count": 11,
+  "likely_mentees": [
+    {
+      "name": "Christopher E. Bope",
+      "id": "A5071684789",
+      "works_count": 11,
+      "shared_papers": 10
+    },
+    {
+      "name": "Georgina Kontou",
+      "id": "A5021721731",
+      "works_count": 11,
+      "shared_papers": 6
+    },
+    {
+      "name": "Krithika Abiraman",
+      "id": "A5032814145",
+      "works_count": 15,
+      "shared_papers": 5
+    },
+    {
+      "name": "Miguel A. Rodriguez Santos",
+      "id": "A5101102254",
+      "works_count": 5,
+      "shared_papers": 4
+    },
+    {
+      "name": "Jake S. Dengler",
+      "id": "A5054492927",
+      "works_count": 5,
+      "shared_papers": 4
+    },
+    {
+      "name": "Jacob S. Dengler",
+      "id": "A5094166212",
+      "works_count": 4,
+      "shared_papers": 4
+    },
+    {
+      "name": "Ross A. Cardarelli",
+      "id": "A5084848085",
+      "works_count": 13,
+      "shared_papers": 3
+    },
+    {
+      "name": "Abigail Lemons",
+      "id": "A5036751583",
+      "works_count": 20,
+      "shared_papers": 3
+    },
+    {
+      "name": "Muhammad Nauman Arshad",
+      "id": "A5080673764",
+      "works_count": 14,
+      "shared_papers": 3
+    },
+    {
+      "name": "Mari Aikio",
+      "id": "A5067909623",
+      "works_count": 16,
+      "shared_papers": 2
+    },
+    {
+      "name": "Thomas A. Ollerhead",
+      "id": "A5048351089",
+      "works_count": 8,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.11,
+    "corresponding_author_ratio": 0.04
+  },
+  "top_collaborators": [
+    {
+      "name": "Stephen J. Moss",
+      "id": "A5020338130",
+      "shared_papers": 13,
+      "same_institution": true
+    },
+    {
+      "name": "Paul Davies",
+      "id": "A5036745515",
+      "shared_papers": 11,
+      "same_institution": true
+    },
+    {
+      "name": "Christopher E. Bope",
+      "id": "A5071684789",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Nicholas J. Brandon",
+      "id": "A5058417020",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Munisha Smalley",
+      "id": "A5052507426",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Siva Kumar Natarajan",
+      "id": "A5083767613",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Jayanta Mondal",
+      "id": "A5101555387",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Douglas Best",
+      "id": "A5072668277",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "David Goldman",
+      "id": "A5041766549",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Basavaraja Shanthappa",
+      "id": "A5003637828",
+      "shared_papers": 9,
+      "same_institution": false
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "author_id": "A5013747150",
+  "total_recent_works_analysed": 18,
+  "total_unique_collaborators": 21,
+  "estimated_mentee_count": 7,
+  "likely_mentees": [
+    {
+      "name": "Gunjan Kulkarni",
+      "id": "A5064737687",
+      "works_count": 9,
+      "shared_papers": 8
+    },
+    {
+      "name": "Chandraika Sugrim",
+      "id": "A5046218378",
+      "works_count": 7,
+      "shared_papers": 7
+    },
+    {
+      "name": "John Sugrim",
+      "id": "A5112888542",
+      "works_count": 2,
+      "shared_papers": 2
+    },
+    {
+      "name": "Aravinda Kar",
+      "id": "A5128190605",
+      "works_count": 2,
+      "shared_papers": 2
+    },
+    {
+      "name": "Jannatul Ferdous Mousumi",
+      "id": "A5051334863",
+      "works_count": 7,
+      "shared_papers": 1
+    },
+    {
+      "name": "Atul Regmi",
+      "id": "A5009463784",
+      "works_count": 5,
+      "shared_papers": 1
+    },
+    {
+      "name": "Aravida Kar",
+      "id": "A5018993816",
+      "works_count": 1,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.11,
+    "corresponding_author_ratio": 0.56
+  },
+  "top_collaborators": [
+    {
+      "name": "Ranganathan Kumar",
+      "id": "A5036913194",
+      "shared_papers": 15,
+      "same_institution": true
+    },
+    {
+      "name": "Aravinda Kar",
+      "id": "A5057862146",
+      "shared_papers": 12,
+      "same_institution": true
+    },
+    {
+      "name": "François Chenard",
+      "id": "A5010605303",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Gunjan Kulkarni",
+      "id": "A5064737687",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Chandraika Sugrim",
+      "id": "A5046218378",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Zouheir Sekkat",
+      "id": "A5071077563",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "John Sugrim",
+      "id": "A5112888542",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Chandraika Sugrim",
+      "id": "A5093664880",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Aravinda Kar",
+      "id": "A5128190605",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "I. Boudene",
+      "id": "A5072881827",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

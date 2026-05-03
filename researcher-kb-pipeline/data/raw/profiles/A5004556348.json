@@ -1,0 +1,843 @@
+{
+  "author_id": "A5004556348",
+  "openalex": {
+    "id": "https://openalex.org/A5004556348",
+    "orcid": "https://orcid.org/0000-0001-8786-8686",
+    "display_name": "Marius E. Mayerhoefer",
+    "raw_author_names": [
+      "M Mayerhoefer",
+      "M. E. Mayerhoefer",
+      "M. Mayerhoefer",
+      "M.E. Mayerhoefer",
+      "M. E. Mayerhoefer",
+      "Marius E Mayerhoefer",
+      "Marius E. Mayerhoefer",
+      "Marius Erik Mayerhoefer",
+      "Marius Mayerhoefer",
+      "Marius E. Mayerhoefer",
+      "Mayerhöfer, Marius"
+    ],
+    "full_name": "Marius Erik Mayerhoefer",
+    "works_count": 240,
+    "cited_by_count": 7558,
+    "summary_stats": {
+      "2yr_mean_citedness": 6.071428571428571,
+      "h_index": 45,
+      "i10_index": 121
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5004556348",
+      "orcid": "https://orcid.org/0000-0001-8786-8686"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I1316535847",
+          "ror": "https://ror.org/04drvxt59",
+          "display_name": "Beth Israel Deaconess Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1316535847"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1334819555",
+          "ror": "https://ror.org/02yrq0923",
+          "display_name": "Memorial Sloan Kettering Cancer Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1334819555"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I173085932",
+          "ror": "https://ror.org/000ymgt65",
+          "display_name": "University of Music and Performing Arts Vienna",
+          "country_code": "AT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I173085932"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I205783295",
+          "ror": "https://ror.org/05bnh6r87",
+          "display_name": "Cornell University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800096636",
+          "ror": "https://ror.org/02jn27q49",
+          "display_name": "Riverview Psychiatric Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800096636",
+            "https://openalex.org/I4210108256"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800873102",
+          "ror": "https://ror.org/013tf3c58",
+          "display_name": "FWF Austrian Science Fund",
+          "country_code": "AT",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2800873102"
+          ]
+        },
+        "years": [
+          2016,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802317023",
+          "ror": "https://ror.org/032cjs650",
+          "display_name": "European Society of Radiology",
+          "country_code": "AT",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I2802317023"
+          ]
+        },
+        "years": [
+          2025,
+          2022,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802328216",
+          "ror": "https://ror.org/05f0zr486",
+          "display_name": "Vienna General Hospital",
+          "country_code": "AT",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802328216"
+          ]
+        },
+        "years": [
+          2019,
+          2016,
+          2012,
+          2011,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39965400",
+          "ror": "https://ror.org/03rcspa57",
+          "display_name": "Kettering University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39965400"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210086933",
+          "ror": "https://ror.org/005dvqh91",
+          "display_name": "NYU Langone Health",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210086933"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210087229",
+          "ror": "https://ror.org/004z3ar85",
+          "display_name": "Active Medicine (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210087229"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210092129",
+          "ror": "https://ror.org/00df3z122",
+          "display_name": "Comprehensive Cancer Center Vienna",
+          "country_code": "AT",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802328216",
+            "https://openalex.org/I4210092129"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210103170",
+          "ror": "https://ror.org/00qqw1b44",
+          "display_name": "Klinik und Poliklinik für Nuklearmedizin",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210103170",
+            "https://openalex.org/I4210153755"
+          ]
+        },
+        "years": [
+          2016,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210110280",
+          "ror": "https://ror.org/01sxmq816",
+          "display_name": "J.P. Morgan",
+          "country_code": "GB",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210110280"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210111782",
+          "ror": "https://ror.org/01trny179",
+          "display_name": "Klinik und Poliklinik für Strahlentherapie und Radioonkologie",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I3018771216",
+            "https://openalex.org/I4210111782",
+            "https://openalex.org/I8204097"
+          ]
+        },
+        "years": [
+          2009,
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210117259",
+          "ror": "https://ror.org/02jgmf723",
+          "display_name": "National Health Insurance Fund",
+          "country_code": "RS",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210117259"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210119669",
+          "ror": "https://ror.org/026vtvm28",
+          "display_name": "Boehringer Ingelheim (Austria)",
+          "country_code": "AT",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1330995197",
+            "https://openalex.org/I4210119669"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210120668",
+          "ror": "https://ror.org/02ed4cj64",
+          "display_name": "Creative Commons",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210120668"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210121743",
+          "ror": "https://ror.org/02yjsqr32",
+          "display_name": "Krankenhaus Oberndorf",
+          "country_code": "AT",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210121743"
+          ]
+        },
+        "years": [
+          2008,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210133297",
+          "ror": "https://ror.org/02vz7hv03",
+          "display_name": "Comprehensive Blood & Cancer Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210133297"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210137535",
+          "ror": "https://ror.org/03yp2sd38",
+          "display_name": "Massanutten Regional Library",
+          "country_code": "US",
+          "type": "archive",
+          "lineage": [
+            "https://openalex.org/I4210137535"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210152163",
+          "ror": "https://ror.org/04zvdfd56",
+          "display_name": "Universitätszahnklinik Wien",
+          "country_code": "AT",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210152163"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I57206974",
+          "ror": "https://ror.org/0190ak572",
+          "display_name": "New York University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I76134821",
+          "ror": "https://ror.org/05n3x4p02",
+          "display_name": "Medical University of Vienna",
+          "country_code": "AT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76134821"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2005
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I4210086933",
+        "ror": "https://ror.org/005dvqh91",
+        "display_name": "NYU Langone Health",
+        "country_code": "US",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I4210086933"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I57206974",
+        "ror": "https://ror.org/0190ak572",
+        "display_name": "New York University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I57206974"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I76134821",
+        "ror": "https://ror.org/05n3x4p02",
+        "display_name": "Medical University of Vienna",
+        "country_code": "AT",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I76134821"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T12422",
+        "display_name": "Radiomics and Machine Learning in Medical Imaging",
+        "count": 79,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10185",
+        "display_name": "Lymphoma Diagnosis and Treatment",
+        "count": 72,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2734",
+          "display_name": "Pathology and Forensic Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10522",
+        "display_name": "Medical Imaging Techniques and Applications",
+        "count": 53,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11885",
+        "display_name": "MRI in cancer diagnosis",
+        "count": 44,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11157",
+        "display_name": "Chronic Lymphocytic Leukemia Research",
+        "count": 26,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2716",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11885",
+        "display_name": "MRI in cancer diagnosis",
+        "value": 0.0003217,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10185",
+        "display_name": "Lymphoma Diagnosis and Treatment",
+        "value": 0.0002687,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2734",
+          "display_name": "Pathology and Forensic Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12422",
+        "display_name": "Radiomics and Machine Learning in Medical Imaging",
+        "value": 0.0002237,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12212",
+        "display_name": "CNS Lymphoma Diagnosis and Treatment",
+        "value": 0.0001602,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2728",
+          "display_name": "Neurology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13314",
+        "display_name": "Lymphadenopathy Diagnosis and Analysis",
+        "value": 0.0001594,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2746",
+          "display_name": "Surgery"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "score": 0.977691650390625
+      },
+      {
+        "id": "142724271",
+        "wikidata": "https://www.wikidata.org/wiki/Q7208",
+        "display_name": "Pathology",
+        "score": 0.7925999760627747
+      },
+      {
+        "id": "2989005",
+        "wikidata": "https://www.wikidata.org/wiki/Q214963",
+        "display_name": "Nuclear medicine",
+        "score": 0.776849627494812
+      },
+      {
+        "id": "126322002",
+        "wikidata": "https://www.wikidata.org/wiki/Q11180",
+        "display_name": "Internal medicine",
+        "score": 0.7571848630905151
+      },
+      {
+        "id": "126838900",
+        "wikidata": "https://www.wikidata.org/wiki/Q77604",
+        "display_name": "Radiology",
+        "score": 0.6815907955169678
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2004,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 29
+      },
+      {
+        "year": 2005,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 206
+      },
+      {
+        "year": 2007,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 64
+      },
+      {
+        "year": 2008,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 111
+      },
+      {
+        "year": 2009,
+        "works_count": 8,
+        "oa_works_count": 1,
+        "cited_by_count": 564
+      },
+      {
+        "year": 2010,
+        "works_count": 9,
+        "oa_works_count": 4,
+        "cited_by_count": 362
+      },
+      {
+        "year": 2011,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 153
+      },
+      {
+        "year": 2012,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 116
+      },
+      {
+        "year": 2013,
+        "works_count": 11,
+        "oa_works_count": 3,
+        "cited_by_count": 434
+      },
+      {
+        "year": 2014,
+        "works_count": 8,
+        "oa_works_count": 2,
+        "cited_by_count": 290
+      },
+      {
+        "year": 2015,
+        "works_count": 12,
+        "oa_works_count": 5,
+        "cited_by_count": 298
+      },
+      {
+        "year": 2016,
+        "works_count": 14,
+        "oa_works_count": 10,
+        "cited_by_count": 438
+      },
+      {
+        "year": 2017,
+        "works_count": 13,
+        "oa_works_count": 6,
+        "cited_by_count": 478
+      },
+      {
+        "year": 2018,
+        "works_count": 6,
+        "oa_works_count": 4,
+        "cited_by_count": 165
+      },
+      {
+        "year": 2019,
+        "works_count": 23,
+        "oa_works_count": 12,
+        "cited_by_count": 715
+      },
+      {
+        "year": 2020,
+        "works_count": 19,
+        "oa_works_count": 16,
+        "cited_by_count": 1991
+      },
+      {
+        "year": 2021,
+        "works_count": 15,
+        "oa_works_count": 11,
+        "cited_by_count": 704
+      },
+      {
+        "year": 2022,
+        "works_count": 12,
+        "oa_works_count": 9,
+        "cited_by_count": 177
+      },
+      {
+        "year": 2023,
+        "works_count": 42,
+        "oa_works_count": 41,
+        "cited_by_count": 93
+      },
+      {
+        "year": 2024,
+        "works_count": 13,
+        "oa_works_count": 9,
+        "cited_by_count": 95
+      },
+      {
+        "year": 2025,
+        "works_count": 12,
+        "oa_works_count": 5,
+        "cited_by_count": 75
+      },
+      {
+        "year": 2026,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "M Mayerhoefer",
+      "M. E. Mayerhoefer",
+      "M. Mayerhoefer",
+      "M.E. Mayerhoefer",
+      "M. E. Mayerhoefer",
+      "Marius E Mayerhoefer",
+      "Marius E. Mayerhoefer",
+      "Marius Erik Mayerhoefer",
+      "Marius Mayerhoefer",
+      "Marius E. Mayerhoefer",
+      "Mayerhöfer, Marius"
+    ],
+    "block_key": "m mayerhoefer",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5004556348",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2261265195",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2261265195",
+    "name": "Marius E. Mayerhoefer",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 4,
+    "citationCount": 52,
+    "hIndex": 2
+  }
+}

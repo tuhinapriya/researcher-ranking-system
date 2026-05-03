@@ -1,0 +1,73 @@
+{
+  "author_id": "A5027821782",
+  "total_recent_works_analysed": 400,
+  "total_unique_collaborators": 2451,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.04,
+    "corresponding_author_ratio": 0.01
+  },
+  "top_collaborators": [
+    {
+      "name": "E. Sánchez",
+      "id": "A5055636814",
+      "shared_papers": 315,
+      "same_institution": true
+    },
+    {
+      "name": "D. Brooks",
+      "id": "A5007237947",
+      "shared_papers": 275,
+      "same_institution": false
+    },
+    {
+      "name": "R. Miquel",
+      "id": "A5079346398",
+      "shared_papers": 273,
+      "same_institution": true
+    },
+    {
+      "name": "K. Honscheid",
+      "id": "A5063161579",
+      "shared_papers": 215,
+      "same_institution": false
+    },
+    {
+      "name": "E. Gaztañaga",
+      "id": "A5062801348",
+      "shared_papers": 205,
+      "same_institution": false
+    },
+    {
+      "name": "S. P. Ahlen",
+      "id": "A5075805130",
+      "shared_papers": 177,
+      "same_institution": false
+    },
+    {
+      "name": "Satya Gontcho A Gontcho",
+      "id": "A5056315122",
+      "shared_papers": 174,
+      "same_institution": false
+    },
+    {
+      "name": "Axel de la Macorra",
+      "id": "A5036122402",
+      "shared_papers": 169,
+      "same_institution": false
+    },
+    {
+      "name": "M. Schubnell",
+      "id": "A5017659307",
+      "shared_papers": 168,
+      "same_institution": true
+    },
+    {
+      "name": "J. García-Bellido",
+      "id": "A5011635269",
+      "shared_papers": 166,
+      "same_institution": false
+    }
+  ]
+}

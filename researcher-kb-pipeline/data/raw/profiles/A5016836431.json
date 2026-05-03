@@ -1,0 +1,503 @@
+{
+  "author_id": "A5016836431",
+  "openalex": {
+    "id": "https://openalex.org/A5016836431",
+    "orcid": "https://orcid.org/0000-0002-0661-4156",
+    "display_name": "Muhammad I. Qureshi",
+    "raw_author_names": [
+      "M. I. Qureshi",
+      "M. Iqbal Qureshi",
+      "M. Qureshi",
+      "M.I. Qureshi",
+      "Muhammad Abu Bakar Irfan Qureshi",
+      "Muhammad I. Qureshi",
+      "Muhammad Iqbal Qureshi",
+      "Qureshi, Muhammad I."
+    ],
+    "full_name": "Muhammad Abu Bakar Irfan Qureshi",
+    "works_count": 38,
+    "cited_by_count": 127,
+    "summary_stats": {
+      "2yr_mean_citedness": 3.857142857142857,
+      "h_index": 6,
+      "i10_index": 5
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5016836431",
+      "orcid": "https://orcid.org/0000-0002-0661-4156"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I121934306",
+          "ror": "https://ror.org/05wvpxv85",
+          "display_name": "Tufts University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121934306"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I205783295",
+          "ror": "https://ror.org/05bnh6r87",
+          "display_name": "Cornell University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I28022161",
+          "ror": "https://ror.org/02f81g417",
+          "display_name": "King Saud University",
+          "country_code": "SA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I28022161"
+          ]
+        },
+        "years": [
+          2012,
+          2011,
+          2002,
+          1986
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210096041",
+          "ror": "https://ror.org/00rz3mr26",
+          "display_name": "Riyadh Elm University",
+          "country_code": "SA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210096041"
+          ]
+        },
+        "years": [
+          1982
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I5400463",
+          "ror": "https://ror.org/01sb6ek09",
+          "display_name": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I5400463"
+          ]
+        },
+        "years": [
+          2000,
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I54459138",
+          "ror": "https://ror.org/01tmqtf75",
+          "display_name": "University of Salford",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I54459138"
+          ]
+        },
+        "years": [
+          1991
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I59225215",
+          "ror": "https://ror.org/02v8d7770",
+          "display_name": "Bahria University",
+          "country_code": "PK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I59225215"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I59475050",
+          "ror": "https://ror.org/00pnhhv55",
+          "display_name": "Jamia Millia Islamia",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I59475050"
+          ]
+        },
+        "years": [
+          2024,
+          2014
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I121934306",
+        "ror": "https://ror.org/05wvpxv85",
+        "display_name": "Tufts University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I121934306"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11343",
+        "display_name": "Power Transformer Diagnostics and Insulation",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11612",
+        "display_name": "Stochastic Gradient Optimization Techniques",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10249",
+        "display_name": "Distributed Control Multi-Agent Systems",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10500",
+        "display_name": "Sparse and Compressive Sensing Techniques",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10511",
+        "display_name": "High voltage insulation and dielectric phenomena",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11612",
+        "display_name": "Stochastic Gradient Optimization Techniques",
+        "value": 0.0001814,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11343",
+        "display_name": "Power Transformer Diagnostics and Insulation",
+        "value": 9.17e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10249",
+        "display_name": "Distributed Control Multi-Agent Systems",
+        "value": 7.55e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10500",
+        "display_name": "Sparse and Compressive Sensing Techniques",
+        "value": 6.81e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13046",
+        "display_name": "Electrokinetic Soil Remediation Techniques",
+        "value": 3.12e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.95416259765625
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.7335000038146973
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.6703436374664307
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.41602468490600586
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.3807609975337982
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1982,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 6
+      },
+      {
+        "year": 1986,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1991,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 14
+      },
+      {
+        "year": 1999,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2000,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2002,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2011,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2012,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2014,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2018,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2020,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2021,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2023,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2024,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2025,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 27
+      }
+    ],
+    "display_name_alternatives": [
+      "M. I. Qureshi",
+      "M. Iqbal Qureshi",
+      "M. Qureshi",
+      "M.I. Qureshi",
+      "Muhammad Abu Bakar Irfan Qureshi",
+      "Muhammad I. Qureshi",
+      "Muhammad Iqbal Qureshi",
+      "Qureshi, Muhammad I."
+    ],
+    "block_key": "m abu bakar irfan qureshi",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5016836431",
+    "updated_date": null,
+    "created_date": "2022-04-03T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2066526319",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2066526319",
+    "name": "M. Qureshi",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 11,
+    "citationCount": 62,
+    "hIndex": 5
+  }
+}

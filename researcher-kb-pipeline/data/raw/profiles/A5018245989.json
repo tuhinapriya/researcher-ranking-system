@@ -1,0 +1,336 @@
+{
+  "author_id": "A5018245989",
+  "openalex": {
+    "id": "https://openalex.org/A5018245989",
+    "orcid": "https://orcid.org/0000-0001-7009-5525",
+    "display_name": "Tedros Salih Abdu",
+    "raw_author_names": [
+      "ABDU, Tedros Salih",
+      "Abdu, Tedros Salih",
+      "T.S. Abdu",
+      "Tedros Salih Abdu"
+    ],
+    "full_name": "ABDU, Tedros Salih",
+    "works_count": 24,
+    "cited_by_count": 296,
+    "summary_stats": {
+      "2yr_mean_citedness": 6.5,
+      "h_index": 9,
+      "i10_index": 9
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5018245989",
+      "orcid": "https://orcid.org/0000-0001-7009-5525"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I186903577",
+          "ror": "https://ror.org/036x5ad56",
+          "display_name": "University of Luxembourg",
+          "country_code": "LU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I186903577"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I186903577",
+        "ror": "https://ror.org/036x5ad56",
+        "display_name": "University of Luxembourg",
+        "country_code": "LU",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I186903577"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T12042",
+        "display_name": "Satellite Communication Systems",
+        "count": 22,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10575",
+        "display_name": "Wireless Communication Networks Research",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11409",
+        "display_name": "Advanced Wireless Network Optimization",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12449",
+        "display_name": "Spacecraft Design and Technology",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10148",
+        "display_name": "Advanced MIMO Systems Optimization",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12042",
+        "display_name": "Satellite Communication Systems",
+        "value": 0.0002134,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11409",
+        "display_name": "Advanced Wireless Network Optimization",
+        "value": 5.78e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10575",
+        "display_name": "Wireless Communication Networks Research",
+        "value": 4.65e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12449",
+        "display_name": "Spacecraft Design and Technology",
+        "value": 3.86e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13553",
+        "display_name": "Age of Information Optimization",
+        "value": 3.55e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8162074089050293
+      },
+      {
+        "id": "19269812",
+        "wikidata": "https://www.wikidata.org/wiki/Q26540",
+        "display_name": "Satellite",
+        "score": 0.6271282434463501
+      },
+      {
+        "id": "31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "score": 0.5576646327972412
+      },
+      {
+        "id": "76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "score": 0.5506104230880737
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.19157806038856506
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2020,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 22
+      },
+      {
+        "year": 2021,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 144
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 26
+      },
+      {
+        "year": 2023,
+        "works_count": 8,
+        "oa_works_count": 7,
+        "cited_by_count": 65
+      },
+      {
+        "year": 2024,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2025,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 39
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "ABDU, Tedros Salih",
+      "Abdu, Tedros Salih",
+      "T.S. Abdu",
+      "Tedros Salih Abdu"
+    ],
+    "block_key": "t abdu",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5018245989",
+    "updated_date": "2026-04-08T18:54:32",
+    "created_date": "2021-07-05T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "80121717",
+    "externalIds": {
+      "DBLP": [
+        "Tedros Salih Abdu"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/80121717",
+    "name": "T. S. Abdu",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 21,
+    "citationCount": 382,
+    "hIndex": 11
+  }
+}

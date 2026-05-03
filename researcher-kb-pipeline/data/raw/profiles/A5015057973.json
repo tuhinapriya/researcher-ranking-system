@@ -1,0 +1,539 @@
+{
+  "author_id": "A5015057973",
+  "openalex": {
+    "id": "https://openalex.org/A5015057973",
+    "orcid": "https://orcid.org/0000-0003-2503-9115",
+    "display_name": "Jugal Kishore Sahoo",
+    "raw_author_names": [
+      "J K Sahoo",
+      "J. Sahoo",
+      "J.K. Sahoo",
+      "Jharana Sahoo",
+      "Jugal Kishore Sahoo",
+      "Jugal Sahoo"
+    ],
+    "full_name": "Jugal Kishore Sahoo",
+    "works_count": 83,
+    "cited_by_count": 2602,
+    "summary_stats": {
+      "2yr_mean_citedness": 11.538461538461538,
+      "h_index": 26,
+      "i10_index": 49
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5015057973",
+      "orcid": "https://orcid.org/0000-0003-2503-9115"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I107639228",
+          "ror": "https://ror.org/00mkhxb43",
+          "display_name": "University of Notre Dame",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I107639228"
+          ]
+        },
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I121934306",
+          "ror": "https://ror.org/05wvpxv85",
+          "display_name": "Tufts University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121934306"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I164387090",
+          "ror": "https://ror.org/02re32a17",
+          "display_name": "University of Applied Sciences Mainz",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I164387090"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I181647926",
+          "ror": "https://ror.org/00n3w3b69",
+          "display_name": "University of Strathclyde",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I181647926"
+          ]
+        },
+        "years": [
+          2022,
+          2020,
+          2017,
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I197323543",
+          "ror": "https://ror.org/023b0x485",
+          "display_name": "Johannes Gutenberg University Mainz",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I197323543"
+          ]
+        },
+        "years": [
+          2017,
+          2015,
+          2014,
+          2013,
+          2011,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I20791572",
+          "ror": "https://ror.org/0010jkx06",
+          "display_name": "Indira Gandhi Institute of Technology",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20791572"
+          ]
+        },
+        "years": [
+          2020,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3132061591",
+          "ror": "https://ror.org/009yjbg58",
+          "display_name": "Notre Dame of Dadiangas University",
+          "country_code": "PH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3132061591"
+          ]
+        },
+        "years": [
+          2019,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210088452",
+          "ror": "https://ror.org/00655dk85",
+          "display_name": "Glasgow Life",
+          "country_code": "GB",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210088452"
+          ]
+        },
+        "years": [
+          2017,
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210139271",
+          "ror": "https://ror.org/051f2wp73",
+          "display_name": "GIET University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210139271"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210153201",
+          "ror": "https://ror.org/04n9jx253",
+          "display_name": "Medford Radiology Group",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210153201"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I121934306",
+        "ror": "https://ror.org/05wvpxv85",
+        "display_name": "Tufts University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I121934306"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11966",
+        "display_name": "Silk-based biomaterials and applications",
+        "count": 26,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11419",
+        "display_name": "Supramolecular Self-Assembly in Materials",
+        "count": 16,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10729",
+        "display_name": "Electrospun Nanofibers in Biomedical Applications",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11190",
+        "display_name": "3D Printing in Biomedical Research",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14318",
+        "display_name": "Polydiacetylene-based materials and applications",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11966",
+        "display_name": "Silk-based biomaterials and applications",
+        "value": 0.000291,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14318",
+        "display_name": "Polydiacetylene-based materials and applications",
+        "value": 0.000233,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11419",
+        "display_name": "Supramolecular Self-Assembly in Materials",
+        "value": 0.0001715,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10578",
+        "display_name": "Supramolecular Chemistry and Complexes",
+        "value": 0.0001169,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13326",
+        "display_name": "Biochemical and Structural Characterization",
+        "value": 6.62e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9631099700927734
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.9094499945640564
+      },
+      {
+        "id": "159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "score": 0.8367161750793457
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.7482126951217651
+      },
+      {
+        "id": "178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "score": 0.42126768827438354
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2010,
+        "works_count": 8,
+        "oa_works_count": 1,
+        "cited_by_count": 93
+      },
+      {
+        "year": 2011,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 223
+      },
+      {
+        "year": 2013,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2014,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 54
+      },
+      {
+        "year": 2015,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2016,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 190
+      },
+      {
+        "year": 2017,
+        "works_count": 9,
+        "oa_works_count": 4,
+        "cited_by_count": 383
+      },
+      {
+        "year": 2018,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 125
+      },
+      {
+        "year": 2019,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 43
+      },
+      {
+        "year": 2020,
+        "works_count": 8,
+        "oa_works_count": 5,
+        "cited_by_count": 227
+      },
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 207
+      },
+      {
+        "year": 2022,
+        "works_count": 10,
+        "oa_works_count": 7,
+        "cited_by_count": 358
+      },
+      {
+        "year": 2023,
+        "works_count": 9,
+        "oa_works_count": 5,
+        "cited_by_count": 535
+      },
+      {
+        "year": 2024,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 121
+      },
+      {
+        "year": 2025,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 29
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "J K Sahoo",
+      "J. Sahoo",
+      "J.K. Sahoo",
+      "Jharana Sahoo",
+      "Jugal Kishore Sahoo",
+      "Jugal Sahoo"
+    ],
+    "block_key": "j sahoo",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5015057973",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2064957250",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2064957250",
+    "name": "Jugal Kishore Sahoo",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 2,
+    "citationCount": 11,
+    "hIndex": 1
+  }
+}

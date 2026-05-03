@@ -1,0 +1,378 @@
+{
+  "author_id": "A5003561624",
+  "openalex": {
+    "id": "https://openalex.org/A5003561624",
+    "orcid": "https://orcid.org/0000-0003-0753-5203",
+    "display_name": "Van Nhan Vo",
+    "raw_author_names": [
+      "Nhan Vo Van",
+      "Van Nhan Vo",
+      "Van Vo Nhan",
+      "Vo, Van Nhan"
+    ],
+    "full_name": "Vo, Van Nhan",
+    "works_count": 58,
+    "cited_by_count": 790,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.15,
+      "h_index": 18,
+      "i10_index": 23
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5003561624",
+      "orcid": "https://orcid.org/0000-0003-0753-5203"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I170238339",
+          "ror": "https://ror.org/05ezss144",
+          "display_name": "Duy Tan University",
+          "country_code": "VN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I170238339"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I179193067",
+          "ror": "https://ror.org/03cq4gr50",
+          "display_name": "Khon Kaen University",
+          "country_code": "TH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I179193067"
+          ]
+        },
+        "years": [
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210115952",
+          "ror": "https://ror.org/01jc6t452",
+          "display_name": "Dar al Athar al Islamiyyah",
+          "country_code": "KW",
+          "type": "archive",
+          "lineage": [
+            "https://openalex.org/I4210115952"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I170238339",
+        "ror": "https://ror.org/05ezss144",
+        "display_name": "Duy Tan University",
+        "country_code": "VN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I170238339"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11458",
+        "display_name": "Advanced Wireless Communication Technologies",
+        "count": 30,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10964",
+        "display_name": "Wireless Communication Security Techniques",
+        "count": 25,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11392",
+        "display_name": "Energy Harvesting in Wireless Networks",
+        "count": 22,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11133",
+        "display_name": "UAV Applications and Optimization",
+        "count": 20,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10148",
+        "display_name": "Advanced MIMO Systems Optimization",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10964",
+        "display_name": "Wireless Communication Security Techniques",
+        "value": 0.0004038,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11458",
+        "display_name": "Advanced Wireless Communication Technologies",
+        "value": 0.0003958,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11133",
+        "display_name": "UAV Applications and Optimization",
+        "value": 0.0003209,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12131",
+        "display_name": "Wireless Signal Modulation Classification",
+        "value": 0.0001056,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11392",
+        "display_name": "Energy Harvesting in Wireless Networks",
+        "value": 0.0001043,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8788894414901733
+      },
+      {
+        "id": "31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "score": 0.7690658569335938
+      },
+      {
+        "id": "555944384",
+        "wikidata": "https://www.wikidata.org/wiki/Q249",
+        "display_name": "Wireless",
+        "score": 0.6144606471061707
+      },
+      {
+        "id": "76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "score": 0.41566792130470276
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.2690136134624481
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2017,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 58
+      },
+      {
+        "year": 2018,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 127
+      },
+      {
+        "year": 2019,
+        "works_count": 7,
+        "oa_works_count": 4,
+        "cited_by_count": 200
+      },
+      {
+        "year": 2020,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 49
+      },
+      {
+        "year": 2021,
+        "works_count": 6,
+        "oa_works_count": 2,
+        "cited_by_count": 100
+      },
+      {
+        "year": 2022,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 142
+      },
+      {
+        "year": 2023,
+        "works_count": 9,
+        "oa_works_count": 5,
+        "cited_by_count": 71
+      },
+      {
+        "year": 2024,
+        "works_count": 11,
+        "oa_works_count": 6,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2025,
+        "works_count": 9,
+        "oa_works_count": 7,
+        "cited_by_count": 26
+      }
+    ],
+    "display_name_alternatives": [
+      "Nhan Vo Van",
+      "Van Nhan Vo",
+      "Van Vo Nhan",
+      "Vo, Van Nhan"
+    ],
+    "block_key": "v vo",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5003561624",
+    "updated_date": null,
+    "created_date": "2024-10-01T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2294602910",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2294602910",
+    "name": "Văn Nhân",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 4,
+    "citationCount": 129,
+    "hIndex": 1
+  }
+}

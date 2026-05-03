@@ -1,0 +1,360 @@
+{
+  "author_id": "A5004968086",
+  "openalex": {
+    "id": "https://openalex.org/A5004968086",
+    "orcid": null,
+    "display_name": "Hamed Dalir",
+    "raw_author_names": [
+      "Dalir, Hamed",
+      "Hamed Dalir"
+    ],
+    "full_name": "Dalir, Hamed",
+    "works_count": 74,
+    "cited_by_count": 38,
+    "summary_stats": {
+      "2yr_mean_citedness": 1.0769230769230769,
+      "h_index": 4,
+      "i10_index": 1
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5004968086",
+      "orcid": null
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I33213144",
+          "ror": "https://ror.org/02y3ad647",
+          "display_name": "University of Florida",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I33213144"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I94062374",
+          "ror": "https://ror.org/010bgev76",
+          "display_name": "Florida College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I94062374"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I33213144",
+        "ror": "https://ror.org/02y3ad647",
+        "display_name": "University of Florida",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I33213144"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I94062374",
+        "ror": "https://ror.org/010bgev76",
+        "display_name": "Florida College",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I94062374"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11429",
+        "display_name": "Semiconductor Lasers and Optical Devices",
+        "count": 28,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10299",
+        "display_name": "Photonic and Optical Devices",
+        "count": 20,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10232",
+        "display_name": "Optical Network Technologies",
+        "count": 16,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10022",
+        "display_name": "Semiconductor Quantum Structures and Devices",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10767",
+        "display_name": "Advanced Photonic Communication Systems",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12611",
+        "display_name": "Neural Networks and Reservoir Computing",
+        "value": 7.76e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11429",
+        "display_name": "Semiconductor Lasers and Optical Devices",
+        "value": 7.15e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10232",
+        "display_name": "Optical Network Technologies",
+        "value": 5.99e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12122",
+        "display_name": "Physical Unclonable Functions (PUFs) and Hardware Security",
+        "value": 4.28e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1708",
+          "display_name": "Hardware and Architecture"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10767",
+        "display_name": "Advanced Photonic Communication Systems",
+        "value": 3.82e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.8791813850402832
+      },
+      {
+        "id": "520434653",
+        "wikidata": "https://www.wikidata.org/wiki/Q38867",
+        "display_name": "Laser",
+        "score": 0.7346628904342651
+      },
+      {
+        "id": "49040817",
+        "wikidata": "https://www.wikidata.org/wiki/Q193091",
+        "display_name": "Optoelectronics",
+        "score": 0.6729999780654907
+      },
+      {
+        "id": "120665830",
+        "wikidata": "https://www.wikidata.org/wiki/Q14620",
+        "display_name": "Optics",
+        "score": 0.6236000061035156
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.5512999892234802
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2010,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2011,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2012,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2013,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2014,
+        "works_count": 21,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2015,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2017,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2024,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2025,
+        "works_count": 20,
+        "oa_works_count": 2,
+        "cited_by_count": 11
+      }
+    ],
+    "display_name_alternatives": [
+      "Dalir, Hamed",
+      "Hamed Dalir"
+    ],
+    "block_key": "h dalir",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5004968086",
+    "updated_date": null,
+    "created_date": "2019-03-11T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2084958878",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2084958878",
+    "name": "Hamed Dalir",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 2,
+    "citationCount": 0,
+    "hIndex": 0
+  }
+}

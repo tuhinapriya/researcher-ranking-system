@@ -1,0 +1,122 @@
+{
+  "author_id": "A5006025672",
+  "total_recent_works_analysed": 15,
+  "total_unique_collaborators": 87,
+  "estimated_mentee_count": 8,
+  "likely_mentees": [
+    {
+      "name": "Aiyin Jiang",
+      "id": "A5108249845",
+      "works_count": 19,
+      "shared_papers": 3
+    },
+    {
+      "name": "William David Paredes",
+      "id": "A5054416033",
+      "works_count": 2,
+      "shared_papers": 2
+    },
+    {
+      "name": "Jacob Costner",
+      "id": "A5115938804",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Patrick Kreidl",
+      "id": "A5088356156",
+      "works_count": 13,
+      "shared_papers": 1
+    },
+    {
+      "name": "and C. C. Jiang and C. C. Jiang",
+      "id": "A5108231940",
+      "works_count": 2,
+      "shared_papers": 1
+    },
+    {
+      "name": "Sai V. Mullapudi",
+      "id": "A5115842454",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Jacob Costner",
+      "id": "A5115938785",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Jacob Costner",
+      "id": "A5115938812",
+      "works_count": 1,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.27,
+    "corresponding_author_ratio": 0.4
+  },
+  "top_collaborators": [
+    {
+      "name": "Hemani Kaushal",
+      "id": "A5082326762",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Iman Vakilinia",
+      "id": "A5008183355",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Aiyin Jiang",
+      "id": "A5108249845",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "William David Paredes",
+      "id": "A5054416033",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "William V. Shaw",
+      "id": "A5035939194",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Christian R. Hayes",
+      "id": "A5065555161",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Daniela Genova",
+      "id": "A5061743177",
+      "shared_papers": 1,
+      "same_institution": true
+    },
+    {
+      "name": "Hendrik Jan Hoogeboom",
+      "id": "A5076270944",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Cynthia Williams",
+      "id": "A5041249647",
+      "shared_papers": 1,
+      "same_institution": true
+    },
+    {
+      "name": "Hongmei Chi",
+      "id": "A5009634429",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

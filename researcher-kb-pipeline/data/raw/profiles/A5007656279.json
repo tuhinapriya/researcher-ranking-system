@@ -1,0 +1,388 @@
+{
+  "author_id": "A5007656279",
+  "openalex": {
+    "id": "https://openalex.org/A5007656279",
+    "orcid": "https://orcid.org/0000-0003-0218-407X",
+    "display_name": "Nicolás M. Morato",
+    "raw_author_names": [
+      "N. Morato",
+      "Nicolas Morato",
+      "Nicolás M Morato",
+      "Nicolás M. Morato",
+      "Nicolás Morato"
+    ],
+    "full_name": "Nicolás M. Morato",
+    "works_count": 48,
+    "cited_by_count": 1030,
+    "summary_stats": {
+      "2yr_mean_citedness": 3.7,
+      "h_index": 18,
+      "i10_index": 23
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5007656279",
+      "orcid": "https://orcid.org/0000-0003-0218-407X"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I110200422",
+          "ror": "https://ror.org/0176yjw32",
+          "display_name": "Universidade Federal de Minas Gerais",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110200422"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I219193219",
+          "ror": "https://ror.org/02dqehb95",
+          "display_name": "Purdue University West Lafayette",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I219193219"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210149717",
+          "ror": "https://ror.org/05bjen692",
+          "display_name": "Center for Cancer Research",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210140884",
+            "https://openalex.org/I4210149717"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4390039259",
+          "ror": "https://ror.org/0371gg960",
+          "display_name": "Purdue University Institute for Cancer Research",
+          "country_code": null,
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4390039259"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I219193219",
+        "ror": "https://ror.org/02dqehb95",
+        "display_name": "Purdue University West Lafayette",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I219193219"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4390039259",
+        "ror": "https://ror.org/0371gg960",
+        "display_name": "Purdue University Institute for Cancer Research",
+        "country_code": null,
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I4390039259"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10683",
+        "display_name": "Mass Spectrometry Techniques and Applications",
+        "count": 28,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1607",
+          "display_name": "Spectroscopy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10908",
+        "display_name": "Analytical Chemistry and Chromatography",
+        "count": 16,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1607",
+          "display_name": "Spectroscopy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10836",
+        "display_name": "Metabolomics and Mass Spectrometry Studies",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11407",
+        "display_name": "Innovative Microfluidic and Catalytic Techniques Innovation",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10180",
+        "display_name": "Analytical chemistry methods development",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1602",
+          "display_name": "Analytical Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10683",
+        "display_name": "Mass Spectrometry Techniques and Applications",
+        "value": 7.88e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1607",
+          "display_name": "Spectroscopy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11407",
+        "display_name": "Innovative Microfluidic and Catalytic Techniques Innovation",
+        "value": 4.11e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12553",
+        "display_name": "Psychedelics and Drug Studies",
+        "value": 3.6e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3203",
+          "display_name": "Clinical Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10836",
+        "display_name": "Metabolomics and Mass Spectrometry Studies",
+        "value": 2.9e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11869",
+        "display_name": "Per- and polyfluoroalkyl substances research",
+        "value": 2.9e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2304",
+          "display_name": "Environmental Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9079731702804565
+      },
+      {
+        "id": "162356407",
+        "wikidata": "https://www.wikidata.org/wiki/Q180809",
+        "display_name": "Mass spectrometry",
+        "score": 0.7496954202651978
+      },
+      {
+        "id": "43617362",
+        "wikidata": "https://www.wikidata.org/wiki/Q170050",
+        "display_name": "Chromatography",
+        "score": 0.687269926071167
+      },
+      {
+        "id": "55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "score": 0.59170001745224
+      },
+      {
+        "id": "178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "score": 0.46468356251716614
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2017,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 56
+      },
+      {
+        "year": 2020,
+        "works_count": 7,
+        "oa_works_count": 3,
+        "cited_by_count": 361
+      },
+      {
+        "year": 2021,
+        "works_count": 7,
+        "oa_works_count": 6,
+        "cited_by_count": 129
+      },
+      {
+        "year": 2022,
+        "works_count": 8,
+        "oa_works_count": 5,
+        "cited_by_count": 263
+      },
+      {
+        "year": 2023,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 147
+      },
+      {
+        "year": 2024,
+        "works_count": 6,
+        "oa_works_count": 6,
+        "cited_by_count": 39
+      },
+      {
+        "year": 2025,
+        "works_count": 14,
+        "oa_works_count": 11,
+        "cited_by_count": 35
+      }
+    ],
+    "display_name_alternatives": [
+      "N. Morato",
+      "Nicolas Morato",
+      "Nicolás M Morato",
+      "Nicolás M. Morato",
+      "Nicolás Morato"
+    ],
+    "block_key": "n morato",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5007656279",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2025-03-18T00:00:00"
+  },
+  "semantic_scholar": null
+}

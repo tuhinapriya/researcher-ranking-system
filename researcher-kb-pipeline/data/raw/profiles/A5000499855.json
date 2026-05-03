@@ -1,0 +1,553 @@
+{
+  "author_id": "A5000499855",
+  "openalex": {
+    "id": "https://openalex.org/A5000499855",
+    "orcid": "https://orcid.org/0000-0001-5218-5981",
+    "display_name": "Boubacar Traoré",
+    "raw_author_names": [
+      "B Traoré",
+      "B. Traoré",
+      "B. Z. Traore",
+      "Boubacar Traore",
+      "Boubacar Traoré",
+      "Boubacar Zan Traoré",
+      "Traore, Boubacar"
+    ],
+    "full_name": "Boubacar Zan Traoré",
+    "works_count": 78,
+    "cited_by_count": 3852,
+    "summary_stats": {
+      "2yr_mean_citedness": 16.833333333333332,
+      "h_index": 34,
+      "i10_index": 43
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5000499855",
+      "orcid": "https://orcid.org/0000-0001-5218-5981"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I110357561",
+          "ror": "https://ror.org/048gmay44",
+          "display_name": "University of the Sciences",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110357561"
+          ]
+        },
+        "years": [
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39804081",
+          "ror": "https://ror.org/02en5vm52",
+          "display_name": "Sorbonne Université",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39804081"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I41343362",
+          "ror": "https://ror.org/02s6w8y22",
+          "display_name": "University of Bamako",
+          "country_code": "ML",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I41343362"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2017,
+          2016,
+          2015,
+          2012,
+          2011,
+          2010,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210112095",
+          "ror": "https://ror.org/023rbaw78",
+          "display_name": "Université des Sciences, des Techniques et des Technologies de Bamako",
+          "country_code": "ML",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210112095"
+          ]
+        },
+        "years": [
+          2025,
+          2023,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210119482",
+          "ror": "https://ror.org/02gp6p739",
+          "display_name": "Mali-Folkecenter",
+          "country_code": "ML",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210119482"
+          ]
+        },
+        "years": [
+          2021,
+          2015,
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210121705",
+          "ror": "https://ror.org/02mh9a093",
+          "display_name": "Pitié-Salpêtrière Hospital",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210097159",
+            "https://openalex.org/I4210121705"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210130352",
+          "ror": "https://ror.org/038zpvz53",
+          "display_name": "Centre Hospitalier Ibn Sina",
+          "country_code": "MA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210130352"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210152075",
+          "ror": "https://ror.org/0132nee26",
+          "display_name": "Institut National d'Oncologie",
+          "country_code": "MA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210152075"
+          ]
+        },
+        "years": [
+          2015,
+          2014
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I41343362",
+        "ror": "https://ror.org/02s6w8y22",
+        "display_name": "University of Bamako",
+        "country_code": "ML",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I41343362"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210112095",
+        "ror": "https://ror.org/023rbaw78",
+        "display_name": "Université des Sciences, des Techniques et des Technologies de Bamako",
+        "country_code": "ML",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210112095"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10091",
+        "display_name": "Malaria Research and Control",
+        "count": 69,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10166",
+        "display_name": "Mosquito-borne diseases and control",
+        "count": 31,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10993",
+        "display_name": "Complement system in diseases",
+        "count": 19,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2403",
+          "display_name": "Immunology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11020",
+        "display_name": "Immune Cell Function and Interaction",
+        "count": 16,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2403",
+          "display_name": "Immunology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10112",
+        "display_name": "HIV Research and Treatment",
+        "count": 13,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2406",
+          "display_name": "Virology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10091",
+        "display_name": "Malaria Research and Control",
+        "value": 0.0003954,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10993",
+        "display_name": "Complement system in diseases",
+        "value": 0.0002115,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2403",
+          "display_name": "Immunology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12576",
+        "display_name": "vaccines and immunoinformatics approaches",
+        "value": 0.0001177,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10166",
+        "display_name": "Mosquito-borne diseases and control",
+        "value": 0.0001001,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11403",
+        "display_name": "Invertebrate Immune Response Mechanisms",
+        "value": 6.62e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2403",
+          "display_name": "Immunology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "2778048844",
+        "wikidata": "https://www.wikidata.org/wiki/Q12156",
+        "display_name": "Malaria",
+        "score": 0.9479964971542358
+      },
+      {
+        "id": "2778371730",
+        "wikidata": "https://www.wikidata.org/wiki/Q311383",
+        "display_name": "Plasmodium falciparum",
+        "score": 0.912775993347168
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.8854565620422363
+      },
+      {
+        "id": "203014093",
+        "wikidata": "https://www.wikidata.org/wiki/Q101929",
+        "display_name": "Immunology",
+        "score": 0.7821341753005981
+      },
+      {
+        "id": "159047783",
+        "wikidata": "https://www.wikidata.org/wiki/Q7215",
+        "display_name": "Virology",
+        "score": 0.7818868160247803
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1994,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 9
+      },
+      {
+        "year": 1997,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 33
+      },
+      {
+        "year": 2002,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 37
+      },
+      {
+        "year": 2009,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 96
+      },
+      {
+        "year": 2010,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 425
+      },
+      {
+        "year": 2011,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 665
+      },
+      {
+        "year": 2012,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 68
+      },
+      {
+        "year": 2013,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 419
+      },
+      {
+        "year": 2014,
+        "works_count": 6,
+        "oa_works_count": 5,
+        "cited_by_count": 290
+      },
+      {
+        "year": 2015,
+        "works_count": 9,
+        "oa_works_count": 7,
+        "cited_by_count": 486
+      },
+      {
+        "year": 2016,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 201
+      },
+      {
+        "year": 2017,
+        "works_count": 6,
+        "oa_works_count": 5,
+        "cited_by_count": 129
+      },
+      {
+        "year": 2018,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2019,
+        "works_count": 5,
+        "oa_works_count": 2,
+        "cited_by_count": 195
+      },
+      {
+        "year": 2020,
+        "works_count": 9,
+        "oa_works_count": 8,
+        "cited_by_count": 199
+      },
+      {
+        "year": 2021,
+        "works_count": 10,
+        "oa_works_count": 10,
+        "cited_by_count": 302
+      },
+      {
+        "year": 2022,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 164
+      },
+      {
+        "year": 2023,
+        "works_count": 6,
+        "oa_works_count": 6,
+        "cited_by_count": 33
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 78
+      },
+      {
+        "year": 2025,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 23
+      }
+    ],
+    "display_name_alternatives": [
+      "B Traoré",
+      "B. Traoré",
+      "B. Z. Traore",
+      "Boubacar Traore",
+      "Boubacar Traoré",
+      "Boubacar Zan Traoré",
+      "Traore, Boubacar"
+    ],
+    "block_key": "b traore",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5000499855",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2065063842",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2065063842",
+    "name": "Boubacar Traore",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 7,
+    "citationCount": 19,
+    "hIndex": 3
+  }
+}

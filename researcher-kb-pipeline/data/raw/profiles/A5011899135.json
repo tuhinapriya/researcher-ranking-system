@@ -1,0 +1,397 @@
+{
+  "author_id": "A5011899135",
+  "openalex": {
+    "id": "https://openalex.org/A5011899135",
+    "orcid": "https://orcid.org/0000-0002-3565-0148",
+    "display_name": "A. Muñoz-Gutiérrez",
+    "raw_author_names": [
+      "A Munoz-Gutierrez",
+      "A Muñoz-Gutièrrez",
+      "A Muñoz-Gutiérrez",
+      "A. Muñoz-Gutiérrez",
+      "Andrea Muñoz-Gutiérrez",
+      "Andrea Muñoz‐Gutiérrez",
+      "Mu\\~noz-Guti\\'errez, A.",
+      "Munoz-Gutierrez, A.",
+      "Muñoz-Gutièrrez, A.",
+      "Muñoz-Gutiérrez, A.",
+      "Muñoz-Gutiérrez, Andrea"
+    ],
+    "full_name": "Andrea Muñoz-Gutiérrez",
+    "works_count": 102,
+    "cited_by_count": 6716,
+    "summary_stats": {
+      "2yr_mean_citedness": 37.41975308641975,
+      "h_index": 26,
+      "i10_index": 48
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5011899135",
+      "orcid": "https://orcid.org/0000-0002-3565-0148"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I167724894",
+          "ror": "https://ror.org/04q0r6m34",
+          "display_name": "Universidad Autónoma de la Ciudad de México",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I167724894"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I312809248",
+          "ror": "https://ror.org/04bdnn252",
+          "display_name": "Sussex County Community College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I312809248"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210116506",
+          "ror": "https://ror.org/02abxwv41",
+          "display_name": "Wyoming Department of Education",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210116506"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63072094",
+          "ror": "https://ror.org/03ykbk197",
+          "display_name": "University of Portsmouth",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63072094"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I8961855",
+          "ror": "https://ror.org/01tmp8f25",
+          "display_name": "Universidad Nacional Autónoma de México",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I8961855"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I8961855",
+        "ror": "https://ror.org/01tmp8f25",
+        "display_name": "Universidad Nacional Autónoma de México",
+        "country_code": "MX",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I8961855"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "count": 71,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "count": 47,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "count": 37,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "count": 22,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13126",
+        "display_name": "Scientific Research and Discoveries",
+        "count": 18,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "value": 0.0003733,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "value": 0.0002228,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "value": 0.0001212,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13126",
+        "display_name": "Scientific Research and Discoveries",
+        "value": 0.0001104,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13487",
+        "display_name": "Statistical and numerical algorithms",
+        "value": 0.0001045,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2604",
+          "display_name": "Applied Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9582226276397705
+      },
+      {
+        "id": "33024259",
+        "wikidata": "https://www.wikidata.org/wiki/Q76250",
+        "display_name": "Redshift",
+        "score": 0.9379739761352539
+      },
+      {
+        "id": "44870925",
+        "wikidata": "https://www.wikidata.org/wiki/Q37547",
+        "display_name": "Astrophysics",
+        "score": 0.8617401123046875
+      },
+      {
+        "id": "98444146",
+        "wikidata": "https://www.wikidata.org/wiki/Q318",
+        "display_name": "Galaxy",
+        "score": 0.8252894878387451
+      },
+      {
+        "id": "1276947",
+        "wikidata": "https://www.wikidata.org/wiki/Q333",
+        "display_name": "Astronomy",
+        "score": 0.5602702498435974
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2020,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 1496
+      },
+      {
+        "year": 2021,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1316
+      },
+      {
+        "year": 2022,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 418
+      },
+      {
+        "year": 2023,
+        "works_count": 14,
+        "oa_works_count": 14,
+        "cited_by_count": 455
+      },
+      {
+        "year": 2024,
+        "works_count": 29,
+        "oa_works_count": 29,
+        "cited_by_count": 806
+      },
+      {
+        "year": 2025,
+        "works_count": 50,
+        "oa_works_count": 50,
+        "cited_by_count": 2225
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "A Munoz-Gutierrez",
+      "A Muñoz-Gutièrrez",
+      "A Muñoz-Gutiérrez",
+      "A. Muñoz-Gutiérrez",
+      "Andrea Muñoz-Gutiérrez",
+      "Andrea Muñoz‐Gutiérrez",
+      "Mu\\~noz-Guti\\'errez, A.",
+      "Munoz-Gutierrez, A.",
+      "Muñoz-Gutièrrez, A.",
+      "Muñoz-Gutiérrez, A.",
+      "Muñoz-Gutiérrez, Andrea"
+    ],
+    "block_key": "a munoz-gutierrez",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5011899135",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2020-07-23T00:00:00"
+  },
+  "semantic_scholar": null
+}

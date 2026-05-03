@@ -1,0 +1,1323 @@
+{
+  "author_id": "A5020338130",
+  "openalex": {
+    "id": "https://openalex.org/A5020338130",
+    "orcid": "https://orcid.org/0000-0001-7459-3644",
+    "display_name": "Stephen J. Moss",
+    "raw_author_names": [
+      "F Scheffler",
+      "John Kelly",
+      "Moss, S",
+      "S J Moss",
+      "S Moss",
+      "S. J. Moss",
+      "S. Moss",
+      "S.J. MOSS",
+      "S.J. Moss",
+      "STEPHEN J. MOSS",
+      "Stephen J Moss",
+      "Stephen J. MOSS",
+      "Stephen J. Moss",
+      "Stephen Moss",
+      "Stephen J. Moss"
+    ],
+    "full_name": "STEPHEN J. MOSS",
+    "works_count": 289,
+    "cited_by_count": 25748,
+    "summary_stats": {
+      "2yr_mean_citedness": 3.125,
+      "h_index": 95,
+      "i10_index": 224
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5020338130",
+      "orcid": "https://orcid.org/0000-0001-7459-3644"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I105036370",
+          "ror": "https://ror.org/04r9x1a08",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I114027177",
+          "ror": "https://ror.org/0130frc33",
+          "display_name": "University of North Carolina at Chapel Hill",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114027177"
+          ]
+        },
+        "years": [
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I121934306",
+          "ror": "https://ror.org/05wvpxv85",
+          "display_name": "Tufts University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121934306"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I124357947",
+          "ror": "https://ror.org/04cw6st05",
+          "display_name": "University of London",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947"
+          ]
+        },
+        "years": [
+          1997,
+          1996
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I126744593",
+          "ror": "https://ror.org/04rq5mt64",
+          "display_name": "University of Maryland, Baltimore",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126744593"
+          ]
+        },
+        "years": [
+          1992
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1336158746",
+          "ror": "https://ror.org/05hsggr76",
+          "display_name": "United States International Trade Commission",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1336158746"
+          ]
+        },
+        "years": [
+          1917
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1342378838",
+          "ror": "https://ror.org/05xaqjm64",
+          "display_name": "Pennsylvania Department of Education",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1342378838"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1344073410",
+          "ror": "https://ror.org/006w34k90",
+          "display_name": "Howard Hughes Medical Institute",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1344073410"
+          ]
+        },
+        "years": [
+          1993,
+          1992
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I145311948",
+          "ror": "https://ror.org/00za53h95",
+          "display_name": "Johns Hopkins University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I145311948"
+          ]
+        },
+        "years": [
+          1993,
+          1992,
+          1991
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I167056439",
+          "ror": "https://ror.org/00fa9v295",
+          "display_name": "Medway School of Pharmacy",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I167056439"
+          ]
+        },
+        "years": [
+          1996
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I170203145",
+          "ror": "https://ror.org/00tw3jy02",
+          "display_name": "MRC Laboratory of Molecular Biology",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I170203145",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I90344618"
+          ]
+        },
+        "years": [
+          1990,
+          1987
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I184565670",
+          "ror": "https://ror.org/05vzafd60",
+          "display_name": "Georgetown University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I184565670"
+          ]
+        },
+        "years": [
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I197251160",
+          "ror": "https://ror.org/03qxff017",
+          "display_name": "Hebrew University of Jerusalem",
+          "country_code": "IL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I197251160"
+          ]
+        },
+        "years": [
+          1984
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I241749",
+          "ror": "https://ror.org/013meh722",
+          "display_name": "University of Cambridge",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I241749"
+          ]
+        },
+        "years": [
+          1986
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2799853436",
+          "ror": "https://ror.org/037zgn354",
+          "display_name": "Johns Hopkins Medicine",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799853436"
+          ]
+        },
+        "years": [
+          1992,
+          1991
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800081431",
+          "ror": "https://ror.org/0302b4677",
+          "display_name": "British Academy",
+          "country_code": "GB",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2800081431"
+          ]
+        },
+        "years": [
+          1990
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800173700",
+          "ror": "https://ror.org/024atcf19",
+          "display_name": "UCL Australia",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2800173700"
+          ]
+        },
+        "years": [
+          1995
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801851002",
+          "ror": "https://ror.org/006v7bf86",
+          "display_name": "Harvard University Press",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I2801851002"
+          ]
+        },
+        "years": [
+          1917
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802707398",
+          "ror": "https://ror.org/0065vkd37",
+          "display_name": "Brookdale University Hospital and Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802707398"
+          ]
+        },
+        "years": [
+          1975
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210088259",
+          "ror": "https://ror.org/004a2wv92",
+          "display_name": "National Institute of Dental and Craniofacial Research",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210088259"
+          ]
+        },
+        "years": [
+          1965
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210089716",
+          "ror": "https://ror.org/015nth639",
+          "display_name": "MRC Cancer Unit",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I241749",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I4210089716",
+            "https://openalex.org/I4210106569",
+            "https://openalex.org/I90344618",
+            "https://openalex.org/I90344618"
+          ]
+        },
+        "years": [
+          1990,
+          1987
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210093127",
+          "ror": "https://ror.org/00fv61j67",
+          "display_name": "MRC Laboratory for Molecular Cell Biology",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I4210093127",
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I90344618"
+          ]
+        },
+        "years": [
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210103918",
+          "ror": "https://ror.org/01dxqkr82",
+          "display_name": "Institute of Biophysics and Biomedical Engineering",
+          "country_code": "BG",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I24768866",
+            "https://openalex.org/I4210103918"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210116875",
+          "ror": "https://ror.org/026m9xy48",
+          "display_name": "AstraZeneca (Brazil)",
+          "country_code": "BR",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I105036370",
+            "https://openalex.org/I4210116875"
+          ]
+        },
+        "years": [
+          2023,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210120805",
+          "ror": "https://ror.org/02x5wxx17",
+          "display_name": "Faculty of 1000 (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210101920",
+            "https://openalex.org/I4210120805"
+          ]
+        },
+        "years": [
+          1917
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210132664",
+          "ror": "https://ror.org/03kvh2f84",
+          "display_name": "National Office of Mines",
+          "country_code": "TN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210132664"
+          ]
+        },
+        "years": [
+          1917
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210137227",
+          "ror": "https://ror.org/03ap6wx93",
+          "display_name": "Queen's Medical Centre",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1334287468",
+            "https://openalex.org/I4210137227"
+          ]
+        },
+        "years": [
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210138976",
+          "ror": "https://ror.org/0455ncp47",
+          "display_name": "Association for Language Learning",
+          "country_code": "GB",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210138976"
+          ]
+        },
+        "years": [
+          1917
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210150756",
+          "ror": "https://ror.org/043cec594",
+          "display_name": "AstraZeneca (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I105036370",
+            "https://openalex.org/I4210150756"
+          ]
+        },
+        "years": [
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210157240",
+          "ror": "https://ror.org/05wsetc54",
+          "display_name": "Institute of Structural and Molecular Biology",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I4210157240",
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I98259816"
+          ]
+        },
+        "years": [
+          2001
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210160384",
+          "ror": "https://ror.org/05t77d857",
+          "display_name": "Institute of Biomedical Science",
+          "country_code": "GB",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210160384"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I45129253",
+          "ror": "https://ror.org/02jx3x895",
+          "display_name": "University College London",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I51601045",
+          "ror": "https://ror.org/002h8g185",
+          "display_name": "University of Bath",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I51601045"
+          ]
+        },
+        "years": [
+          2023,
+          1985
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I57206974",
+          "ror": "https://ror.org/0190ak572",
+          "display_name": "New York University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        },
+        "years": [
+          2008,
+          1999,
+          1997,
+          1995,
+          1992,
+          1991,
+          1980,
+          1975,
+          1972
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63190737",
+          "ror": "https://ror.org/01y64my43",
+          "display_name": "University at Buffalo, State University of New York",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63190737"
+          ]
+        },
+        "years": [
+          2006,
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63966007",
+          "ror": "https://ror.org/042nb2s44",
+          "display_name": "Massachusetts Institute of Technology",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63966007"
+          ]
+        },
+        "years": [
+          1917
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I74656192",
+          "ror": "https://ror.org/01y9bpm73",
+          "display_name": "University of Göttingen",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I74656192"
+          ]
+        },
+        "years": [
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I78577930",
+          "ror": "https://ror.org/00hj8s172",
+          "display_name": "Columbia University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        "years": [
+          1917
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79576946",
+          "ror": "https://ror.org/00b30xv10",
+          "display_name": "University of Pennsylvania",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79576946"
+          ]
+        },
+        "years": [
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          1917
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I90344618",
+          "ror": "https://ror.org/03x94j517",
+          "display_name": "Medical Research Council",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I90344618"
+          ]
+        },
+        "years": [
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1994
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I922845939",
+          "ror": "https://ror.org/03zzmyz63",
+          "display_name": "Philadelphia University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I922845939"
+          ]
+        },
+        "years": [
+          2008,
+          2006
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I121934306",
+        "ror": "https://ror.org/05wvpxv85",
+        "display_name": "Tufts University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I121934306"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I45129253",
+        "ror": "https://ror.org/02jx3x895",
+        "display_name": "University College London",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I124357947",
+          "https://openalex.org/I45129253"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10077",
+        "display_name": "Neuroscience and Neuropharmacology Research",
+        "count": 198,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2804",
+          "display_name": "Cellular and Molecular Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10493",
+        "display_name": "Ion channel regulation and function",
+        "count": 82,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11178",
+        "display_name": "Receptor Mechanisms and Signaling",
+        "count": 69,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11818",
+        "display_name": "Nicotinic Acetylcholine Receptors Study",
+        "count": 50,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12236",
+        "display_name": "Photoreceptor and optogenetics research",
+        "count": 28,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2804",
+          "display_name": "Cellular and Molecular Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11818",
+        "display_name": "Nicotinic Acetylcholine Receptors Study",
+        "value": 0.0004535,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10077",
+        "display_name": "Neuroscience and Neuropharmacology Research",
+        "value": 0.0003565,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2804",
+          "display_name": "Cellular and Molecular Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10493",
+        "display_name": "Ion channel regulation and function",
+        "value": 0.0002733,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12434",
+        "display_name": "Phosphodiesterase function and regulation",
+        "value": 0.0002201,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11178",
+        "display_name": "Receptor Mechanisms and Signaling",
+        "value": 0.0002027,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.9039542078971863
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.8979499936103821
+      },
+      {
+        "id": "170493617",
+        "wikidata": "https://www.wikidata.org/wiki/Q208467",
+        "display_name": "Receptor",
+        "score": 0.7872941493988037
+      },
+      {
+        "id": "95444343",
+        "wikidata": "https://www.wikidata.org/wiki/Q7141",
+        "display_name": "Cell biology",
+        "score": 0.7809650897979736
+      },
+      {
+        "id": "55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "score": 0.6794159412384033
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1917,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1965,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 33
+      },
+      {
+        "year": 1972,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1975,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 3
+      },
+      {
+        "year": 1978,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 8
+      },
+      {
+        "year": 1980,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 21
+      },
+      {
+        "year": 1984,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 34
+      },
+      {
+        "year": 1985,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 6
+      },
+      {
+        "year": 1986,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 16
+      },
+      {
+        "year": 1987,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 137
+      },
+      {
+        "year": 1989,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 16
+      },
+      {
+        "year": 1990,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 57
+      },
+      {
+        "year": 1991,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 497
+      },
+      {
+        "year": 1992,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 1116
+      },
+      {
+        "year": 1993,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 47
+      },
+      {
+        "year": 1994,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 471
+      },
+      {
+        "year": 1995,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 272
+      },
+      {
+        "year": 1996,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 795
+      },
+      {
+        "year": 1997,
+        "works_count": 8,
+        "oa_works_count": 3,
+        "cited_by_count": 555
+      },
+      {
+        "year": 1998,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 478
+      },
+      {
+        "year": 1999,
+        "works_count": 17,
+        "oa_works_count": 7,
+        "cited_by_count": 2158
+      },
+      {
+        "year": 2000,
+        "works_count": 11,
+        "oa_works_count": 6,
+        "cited_by_count": 1384
+      },
+      {
+        "year": 2001,
+        "works_count": 9,
+        "oa_works_count": 2,
+        "cited_by_count": 1484
+      },
+      {
+        "year": 2002,
+        "works_count": 8,
+        "oa_works_count": 3,
+        "cited_by_count": 605
+      },
+      {
+        "year": 2003,
+        "works_count": 6,
+        "oa_works_count": 2,
+        "cited_by_count": 724
+      },
+      {
+        "year": 2004,
+        "works_count": 10,
+        "oa_works_count": 7,
+        "cited_by_count": 1059
+      },
+      {
+        "year": 2005,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 1835
+      },
+      {
+        "year": 2006,
+        "works_count": 8,
+        "oa_works_count": 3,
+        "cited_by_count": 483
+      },
+      {
+        "year": 2007,
+        "works_count": 9,
+        "oa_works_count": 6,
+        "cited_by_count": 1114
+      },
+      {
+        "year": 2008,
+        "works_count": 11,
+        "oa_works_count": 8,
+        "cited_by_count": 1912
+      },
+      {
+        "year": 2009,
+        "works_count": 13,
+        "oa_works_count": 11,
+        "cited_by_count": 1640
+      },
+      {
+        "year": 2010,
+        "works_count": 11,
+        "oa_works_count": 8,
+        "cited_by_count": 697
+      },
+      {
+        "year": 2011,
+        "works_count": 12,
+        "oa_works_count": 11,
+        "cited_by_count": 1556
+      },
+      {
+        "year": 2012,
+        "works_count": 9,
+        "oa_works_count": 7,
+        "cited_by_count": 831
+      },
+      {
+        "year": 2013,
+        "works_count": 8,
+        "oa_works_count": 6,
+        "cited_by_count": 548
+      },
+      {
+        "year": 2014,
+        "works_count": 10,
+        "oa_works_count": 9,
+        "cited_by_count": 831
+      },
+      {
+        "year": 2015,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 286
+      },
+      {
+        "year": 2016,
+        "works_count": 11,
+        "oa_works_count": 10,
+        "cited_by_count": 457
+      },
+      {
+        "year": 2017,
+        "works_count": 12,
+        "oa_works_count": 9,
+        "cited_by_count": 632
+      },
+      {
+        "year": 2018,
+        "works_count": 8,
+        "oa_works_count": 8,
+        "cited_by_count": 315
+      },
+      {
+        "year": 2019,
+        "works_count": 12,
+        "oa_works_count": 10,
+        "cited_by_count": 234
+      },
+      {
+        "year": 2020,
+        "works_count": 8,
+        "oa_works_count": 7,
+        "cited_by_count": 210
+      },
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 57
+      },
+      {
+        "year": 2022,
+        "works_count": 7,
+        "oa_works_count": 7,
+        "cited_by_count": 72
+      },
+      {
+        "year": 2023,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 37
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2025,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 15
+      }
+    ],
+    "display_name_alternatives": [
+      "F Scheffler",
+      "John Kelly",
+      "Moss, S",
+      "S J Moss",
+      "S Moss",
+      "S. J. Moss",
+      "S. Moss",
+      "S.J. MOSS",
+      "S.J. Moss",
+      "STEPHEN J. MOSS",
+      "Stephen J Moss",
+      "Stephen J. MOSS",
+      "Stephen J. Moss",
+      "Stephen Moss",
+      "Stephen J. Moss"
+    ],
+    "block_key": "s moss",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5020338130",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2246705778",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2246705778",
+    "name": "Stephen J. Moss",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 11,
+    "citationCount": 652,
+    "hIndex": 10
+  }
+}

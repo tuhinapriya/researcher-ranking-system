@@ -1,0 +1,55 @@
+{
+  "author_id": "A5037295494",
+  "total_recent_works_analysed": 3,
+  "total_unique_collaborators": 7,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.67
+  },
+  "top_collaborators": [
+    {
+      "name": "Yefeng He",
+      "id": "A5061955528",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Zheming Tian",
+      "id": "A5020693584",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Shanshan Liu",
+      "id": "A5092040232",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Jiahui Quan",
+      "id": "A5099124791",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Jian Xiong",
+      "id": "A5101487138",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Lu Shen",
+      "id": "A5111210738",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Xiaofen Fang",
+      "id": "A5015697426",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

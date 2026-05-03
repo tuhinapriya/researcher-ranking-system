@@ -1,0 +1,73 @@
+{
+  "author_id": "A5009413425",
+  "total_recent_works_analysed": 41,
+  "total_unique_collaborators": 42,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.85,
+    "corresponding_author_ratio": 0.1
+  },
+  "top_collaborators": [
+    {
+      "name": "Khalil Alipour",
+      "id": "A5005143839",
+      "shared_papers": 36,
+      "same_institution": false
+    },
+    {
+      "name": "Bahram Tarvirdizadeh",
+      "id": "A5085369035",
+      "shared_papers": 32,
+      "same_institution": false
+    },
+    {
+      "name": "Yasin Hasanpoor",
+      "id": "A5038277435",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Kiana Pilevar Abrisham",
+      "id": "A5093818775",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Koorosh Motaman",
+      "id": "A5043011857",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Hanieh Mohammadi",
+      "id": "A5078217579",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Mohammad Olyai",
+      "id": "A5114972154",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Majid Sorouri",
+      "id": "A5054854565",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Amin Rostami‐Hodjegan",
+      "id": "A5051566641",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Erfan Mortazavi",
+      "id": "A5095903461",
+      "shared_papers": 3,
+      "same_institution": false
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "author_id": "A5001769021",
+  "total_recent_works_analysed": 180,
+  "total_unique_collaborators": 479,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.39,
+    "corresponding_author_ratio": 0.51
+  },
+  "top_collaborators": [
+    {
+      "name": "Xingmao Ma",
+      "id": "A5042326398",
+      "shared_papers": 37,
+      "same_institution": false
+    },
+    {
+      "name": "Mingbao Feng",
+      "id": "A5012073191",
+      "shared_papers": 23,
+      "same_institution": false
+    },
+    {
+      "name": "Ching‐Hua Huang",
+      "id": "A5077558661",
+      "shared_papers": 20,
+      "same_institution": false
+    },
+    {
+      "name": "Manpreet Kaur",
+      "id": "A5100649737",
+      "shared_papers": 16,
+      "same_institution": false
+    },
+    {
+      "name": "Éric Lichtfouse",
+      "id": "A5001871446",
+      "shared_papers": 13,
+      "same_institution": false
+    },
+    {
+      "name": "Yinghao Wen",
+      "id": "A5044353435",
+      "shared_papers": 11,
+      "same_institution": false
+    },
+    {
+      "name": "Ádám Tölgyesi",
+      "id": "A5042330179",
+      "shared_papers": 11,
+      "same_institution": false
+    },
+    {
+      "name": "Manpreet Kaur Ubhi",
+      "id": "A5091867999",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Jaspreet Kaur Grewal",
+      "id": "A5076605680",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "A. C. Oliveira",
+      "id": "A5058991061",
+      "shared_papers": 9,
+      "same_institution": false
+    }
+  ]
+}

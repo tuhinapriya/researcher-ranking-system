@@ -1,0 +1,48 @@
+flowchart TB
+    subgraph Input[Input]
+      A[Input Parameters\n- Keyword / Topic ID\n- Date Range\n- Region Filter\n- Run Mode]
+    end
+
+    A --> B[Stage 1: Paper Fetch\n(stage1_discover.py)\nQuery OpenAlex (topic or search), paginate, save JSONL]
+    B --> C[Stage 2: Author Extraction\n(stage2_extract.py)\nExtract authorships, dedupe, build author_map]
+
+    C --> D[Parallel Batch Processing]
+
+    subgraph Parallel[Parallel Enrichment]
+      direction LR
+      D1[Stage 3a: Author Enrichment\n(stage3_enrich.py)\nprofiles & metrics]
+      D2[Stage 3b: Co-author Analysis\n(graph & relationships)]
+      D3[Stage 3c: Institution Enrichment\n(institution metadata)]
+    end
+
+    D --> Parallel
+    Parallel --> E[Stage 4: Assemble & Upsert\n(stage4_assemble.py + db.py)\nbatch upserts to MySQL, create embeddings, upsert to Pinecone]
+
+    E --> Stores[Data Stores\n- MySQL (researcher_db)\n- Pinecone (embeddings)\n- JSON / Excel summaries]
+
+    subgraph Ranking[Ranking Service (Phase 2)]
+      direction TB
+      Rapi[Rank API\n(rank_service.py / api.py)]
+      Remb[Compute Embedding\n(embeddings.py)]
+      Rpine[Pinecone Query\n(candidate paper matches)]
+      Rq[Compute Q (query relevance)\n(ranking.py: compute_q_weighted)]
+      Rh[Compute H (impact)\n(ranking.py: compute_h)]
+      Rcomb[Combine H & Q -> final_score\n(final_score())]
+      Rapi --> Remb --> Rpine --> Rq --> Rcomb
+      Stores --> Rh --> Rcomb
+      Rcomb --> Response[API Response\n(results + components + reason + contribution)]
+    end
+
+    UserQuery((User Query + Filters)) --> Rapi
+    Response --> Feedback{Backfill / Recovery Needed?}
+    Feedback -->|Yes| Inject[Inject specific works or add topic to `CONCEPTS`]
+    Inject --> B
+    Feedback -->|No| Done((Done))
+
+    %% Configuration and tuning
+    Config[Config & Weights\n`config.py`\nH_WEIGHT, Q_WEIGHT, H_COMPONENT_WEIGHTS, Q params]
+    Config --> A
+    Config --> Ranking
+
+    classDef box stroke:#333,stroke-width:1px,fill:#fff
+    class A,B,C,D,Parallel,E,Stores,Rapi,Remb,Rpine,Rq,Rh,Rcomb,Response,Feedback,Inject,Config box

@@ -1,0 +1,670 @@
+{
+  "author_id": "A5039125390",
+  "openalex": {
+    "id": "https://openalex.org/A5039125390",
+    "orcid": null,
+    "display_name": "Leo Breiman",
+    "display_name_alternatives": [
+      "L. BREIMAN",
+      "L. Breiman",
+      "Leo Breiman"
+    ],
+    "works_count": 148,
+    "cited_by_count": 227174,
+    "summary_stats": {
+      "2yr_mean_citedness": 0.0,
+      "h_index": 56,
+      "i10_index": 88
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5039125390",
+      "orcid": null
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I1334060403",
+          "ror": "https://ror.org/042dp4138",
+          "display_name": "Technology Service Corporation (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1334060403"
+          ]
+        },
+        "years": [
+          1977,
+          1976
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I161318765",
+          "ror": "https://ror.org/046rm7j60",
+          "display_name": "University of California, Los Angeles",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        },
+        "years": [
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2803209242",
+          "ror": "https://ror.org/00pjdza24",
+          "display_name": "University of California System",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2803209242"
+          ]
+        },
+        "years": [
+          1990,
+          1985,
+          1960
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210100321",
+          "ror": "https://ror.org/0145dtj11",
+          "display_name": "University of Santa Monica",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210100321"
+          ]
+        },
+        "years": [
+          1977
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210127048",
+          "ror": "https://ror.org/0327ybn08",
+          "display_name": "Summit School",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210127048"
+          ]
+        },
+        "years": [
+          1974
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I95457486",
+          "ror": "https://ror.org/01an7q238",
+          "display_name": "University of California, Berkeley",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        },
+        "years": [
+          2013,
+          2006,
+          2004,
+          2003,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1993,
+          1992,
+          1991,
+          1990,
+          1988,
+          1986,
+          1985,
+          1983,
+          1960
+        ]
+      }
+    ],
+    "last_known_institutions": null,
+    "topics": [
+      {
+        "id": "https://openalex.org/T11871",
+        "display_name": "Advanced Statistical Methods and Models",
+        "count": 30,
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10320",
+        "display_name": "Neural Networks and Applications",
+        "count": 22,
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10538",
+        "display_name": "Data Mining Algorithms and Applications",
+        "count": 13,
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12535",
+        "display_name": "Machine Learning and Data Classification",
+        "count": 13,
+        "score": 0.9995999932289124,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10136",
+        "display_name": "Statistical Methods and Inference",
+        "count": 12,
+        "score": 0.9993000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11871",
+        "display_name": "Advanced Statistical Methods and Models",
+        "value": 0.0001873,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12535",
+        "display_name": "Machine Learning and Data Classification",
+        "value": 0.0001528,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13307",
+        "display_name": "Diverse Scientific and Engineering Research",
+        "value": 0.0001518,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13500",
+        "display_name": "Probability and Statistical Research",
+        "value": 0.0001258,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11875",
+        "display_name": "Statistics Education and Methodologies",
+        "value": 0.0001202,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.9021952152252197
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8486064672470093
+      },
+      {
+        "id": "105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "score": 0.6654307246208191
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.6446182131767273
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.46756109595298767
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1957,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 281
+      },
+      {
+        "year": 1958,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 99
+      },
+      {
+        "year": 1959,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 337
+      },
+      {
+        "year": 1960,
+        "works_count": 6,
+        "oa_works_count": 5,
+        "cited_by_count": 628
+      },
+      {
+        "year": 1962,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 411
+      },
+      {
+        "year": 1963,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 86
+      },
+      {
+        "year": 1964,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 46
+      },
+      {
+        "year": 1965,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 440
+      },
+      {
+        "year": 1967,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 144
+      },
+      {
+        "year": 1968,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 48
+      },
+      {
+        "year": 1969,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 122
+      },
+      {
+        "year": 1970,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 71
+      },
+      {
+        "year": 1971,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1972,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 1973,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 48
+      },
+      {
+        "year": 1974,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 3
+      },
+      {
+        "year": 1975,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 7
+      },
+      {
+        "year": 1976,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 47
+      },
+      {
+        "year": 1977,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 653
+      },
+      {
+        "year": 1979,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 8
+      },
+      {
+        "year": 1981,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 7
+      },
+      {
+        "year": 1983,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 370
+      },
+      {
+        "year": 1984,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 23846
+      },
+      {
+        "year": 1985,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 2068
+      },
+      {
+        "year": 1986,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 21112
+      },
+      {
+        "year": 1988,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 28
+      },
+      {
+        "year": 1989,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 5
+      },
+      {
+        "year": 1990,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 29
+      },
+      {
+        "year": 1991,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 143
+      },
+      {
+        "year": 1992,
+        "works_count": 18,
+        "oa_works_count": 0,
+        "cited_by_count": 1393
+      },
+      {
+        "year": 1993,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 632
+      },
+      {
+        "year": 1994,
+        "works_count": 7,
+        "oa_works_count": 3,
+        "cited_by_count": 633
+      },
+      {
+        "year": 1995,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 1404
+      },
+      {
+        "year": 1996,
+        "works_count": 8,
+        "oa_works_count": 6,
+        "cited_by_count": 36801
+      },
+      {
+        "year": 1997,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 569
+      },
+      {
+        "year": 1998,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1092
+      },
+      {
+        "year": 1999,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 1049
+      },
+      {
+        "year": 2000,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 273
+      },
+      {
+        "year": 2001,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 125040
+      },
+      {
+        "year": 2002,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 327
+      },
+      {
+        "year": 2003,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2004,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 254
+      },
+      {
+        "year": 2006,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 90
+      },
+      {
+        "year": 2010,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2011,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 78
+      },
+      {
+        "year": 2013,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 20
+      },
+      {
+        "year": 2014,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2017,
+        "works_count": 13,
+        "oa_works_count": 0,
+        "cited_by_count": 6386
+      },
+      {
+        "year": 2018,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 18
+      }
+    ],
+    "longest_name": "Leo Breiman",
+    "parsed_longest_name": {
+      "first": "leo",
+      "middle": "",
+      "last": "breiman",
+      "suffix": "",
+      "nickname": ""
+    },
+    "block_key": "l breiman",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5039125390",
+    "updated_date": "2026-02-25T12:19:17",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2250396464",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2250396464",
+    "name": "Leo Breiman",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 2,
+    "citationCount": 97,
+    "hIndex": 2
+  }
+}

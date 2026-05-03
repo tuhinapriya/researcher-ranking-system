@@ -1,0 +1,611 @@
+{
+  "author_id": "A5014850854",
+  "openalex": {
+    "id": "https://openalex.org/A5014850854",
+    "orcid": "https://orcid.org/0000-0002-4966-863X",
+    "display_name": "Evan K. Wujcik",
+    "raw_author_names": [
+      "E. K. Wujcik",
+      "E.K. Wujcik",
+      "Evan  K. Wujcik",
+      "Evan K Wujcik",
+      "Evan K. Wujcik",
+      "Evan Wujcik"
+    ],
+    "full_name": "Evan  K. Wujcik",
+    "works_count": 88,
+    "cited_by_count": 5419,
+    "summary_stats": {
+      "2yr_mean_citedness": 8.6,
+      "h_index": 39,
+      "i10_index": 55
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5014850854",
+      "orcid": "https://orcid.org/0000-0002-4966-863X"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I110152177",
+          "ror": "https://ror.org/02kyckx55",
+          "display_name": "University of Akron",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110152177"
+          ]
+        },
+        "years": [
+          2015,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I121820613",
+          "ror": "https://ror.org/05ect4e57",
+          "display_name": "Louisiana State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121820613"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I132369690",
+          "ror": "https://ror.org/018rbtf37",
+          "display_name": "Tianjin University of Science and Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I132369690"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I137902535",
+          "ror": "https://ror.org/04tj63d06",
+          "display_name": "North Carolina State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I137902535"
+          ]
+        },
+        "years": [
+          2019,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I143413998",
+          "ror": "https://ror.org/041j8js14",
+          "display_name": "Qingdao University of Science and Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I143413998"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I17301866",
+          "ror": "https://ror.org/03xrrjk67",
+          "display_name": "University of Alabama",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I17301866"
+          ]
+        },
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I175691731",
+          "ror": "https://ror.org/01a3mef16",
+          "display_name": "Pondicherry University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I175691731"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I177898655",
+          "ror": "https://ror.org/008ms5s18",
+          "display_name": "Lamar University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177898655"
+          ]
+        },
+        "years": [
+          2019,
+          2017,
+          2016,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I20942203",
+          "ror": "https://ror.org/03q648j11",
+          "display_name": "Hainan University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20942203"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I219193219",
+          "ror": "https://ror.org/02dqehb95",
+          "display_name": "Purdue University West Lafayette",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I219193219"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210147071",
+          "ror": "https://ror.org/05n85jt88",
+          "display_name": "OrthoSensor (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210147071"
+          ]
+        },
+        "years": [
+          2025,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210164673",
+          "ror": "https://ror.org/05nkabx50",
+          "display_name": "Advanced Composite Products (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210164673"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I75027704",
+          "ror": "https://ror.org/020f3ap87",
+          "display_name": "University of Tennessee at Knoxville",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I75027704"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I75390827",
+          "ror": "https://ror.org/00df5yc52",
+          "display_name": "Beijing University of Chemical Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I75390827"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I7947594",
+          "ror": "https://ror.org/01adr0w49",
+          "display_name": "University of Maine",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2802397601",
+            "https://openalex.org/I7947594"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I82495205",
+          "ror": "https://ror.org/02zsxwr40",
+          "display_name": "University of Alabama in Huntsville",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I82495205"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I7947594",
+        "ror": "https://ror.org/01adr0w49",
+        "display_name": "University of Maine",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I2802397601",
+          "https://openalex.org/I7947594"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "count": 24,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10660",
+        "display_name": "Conducting polymers and applications",
+        "count": 16,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2507",
+          "display_name": "Polymers and Plastics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10083",
+        "display_name": "Graphene research and applications",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10729",
+        "display_name": "Electrospun Nanofibers in Biomedical Applications",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12627",
+        "display_name": "Graphene and Nanomaterials Applications",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "value": 7.74e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12627",
+        "display_name": "Graphene and Nanomaterials Applications",
+        "value": 5.99e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11224",
+        "display_name": "Electromagnetic wave absorption materials",
+        "value": 4.94e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10729",
+        "display_name": "Electrospun Nanofibers in Biomedical Applications",
+        "value": 4.4e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10197",
+        "display_name": "Membrane Separation Technologies",
+        "value": 4.18e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2312",
+          "display_name": "Water Science and Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.9318132400512695
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.8976625204086304
+      },
+      {
+        "id": "159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "score": 0.8837624788284302
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.8543978333473206
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.35338202118873596
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2012,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2013,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 152
+      },
+      {
+        "year": 2014,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 154
+      },
+      {
+        "year": 2015,
+        "works_count": 8,
+        "oa_works_count": 3,
+        "cited_by_count": 279
+      },
+      {
+        "year": 2016,
+        "works_count": 7,
+        "oa_works_count": 1,
+        "cited_by_count": 468
+      },
+      {
+        "year": 2017,
+        "works_count": 9,
+        "oa_works_count": 2,
+        "cited_by_count": 1308
+      },
+      {
+        "year": 2018,
+        "works_count": 17,
+        "oa_works_count": 3,
+        "cited_by_count": 1859
+      },
+      {
+        "year": 2019,
+        "works_count": 11,
+        "oa_works_count": 4,
+        "cited_by_count": 487
+      },
+      {
+        "year": 2020,
+        "works_count": 7,
+        "oa_works_count": 3,
+        "cited_by_count": 310
+      },
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 108
+      },
+      {
+        "year": 2022,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 124
+      },
+      {
+        "year": 2023,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 84
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 49
+      },
+      {
+        "year": 2025,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 36
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      }
+    ],
+    "display_name_alternatives": [
+      "E. K. Wujcik",
+      "E.K. Wujcik",
+      "Evan  K. Wujcik",
+      "Evan K Wujcik",
+      "Evan K. Wujcik",
+      "Evan Wujcik"
+    ],
+    "block_key": "e wujcik",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5014850854",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2018-06-01T00:00:00"
+  },
+  "semantic_scholar": null
+}

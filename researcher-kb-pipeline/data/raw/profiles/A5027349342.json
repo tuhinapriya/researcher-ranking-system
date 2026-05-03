@@ -1,0 +1,642 @@
+{
+  "author_id": "A5027349342",
+  "openalex": {
+    "id": "https://openalex.org/A5027349342",
+    "orcid": "https://orcid.org/0000-0001-5543-0081",
+    "display_name": "Xun Zhao",
+    "raw_author_names": [
+      "X Y Zhao",
+      "X. Zhao",
+      "Xun Zhao",
+      "Zhao, X.",
+      "Zhao, Xun"
+    ],
+    "full_name": "Zhao, Xun",
+    "works_count": 140,
+    "cited_by_count": 8695,
+    "summary_stats": {
+      "2yr_mean_citedness": 16.5625,
+      "h_index": 43,
+      "i10_index": 75
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5027349342",
+      "orcid": "https://orcid.org/0000-0001-5543-0081"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I130750295",
+          "ror": "https://ror.org/0190x2a66",
+          "display_name": "Xinyang Normal University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130750295"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1325899441",
+          "ror": "https://ror.org/042xt5161",
+          "display_name": "University Health Network",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1325899441"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I161318765",
+          "ror": "https://ror.org/046rm7j60",
+          "display_name": "University of California, Los Angeles",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I176808543",
+          "ror": "https://ror.org/01n2bd587",
+          "display_name": "Liaoning Technical University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I176808543"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I185261750",
+          "ror": "https://ror.org/03dbr7087",
+          "display_name": "University of Toronto",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I20231570",
+          "ror": "https://ror.org/02v51f717",
+          "display_name": "Peking University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20231570"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801766832",
+          "ror": "https://ror.org/04cpxjv19",
+          "display_name": "McGill University Health Centre",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801766832"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210131919",
+          "ror": "https://ror.org/038avdt50",
+          "display_name": "Xi'an University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210131919"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210135812",
+          "ror": "https://ror.org/03x8vck69",
+          "display_name": "Sinochem Group (China)",
+          "country_code": "CN",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210135812"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210140243",
+          "ror": "https://ror.org/03teef091",
+          "display_name": "Samueli Institute",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210140243"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210141942",
+          "ror": "https://ror.org/04wwqze12",
+          "display_name": "Peking University Third Hospital",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210141942"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210154593",
+          "ror": "https://ror.org/0569k1630",
+          "display_name": "Beijing Shijitan Hospital",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210154593"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210161752",
+          "ror": "https://ror.org/058x5eq06",
+          "display_name": "Beijing Haidian Hospital",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210161752"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I5681781",
+          "ror": "https://ror.org/00892tw58",
+          "display_name": "The University of Adelaide",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I5681781"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I1325899441",
+        "ror": "https://ror.org/042xt5161",
+        "display_name": "University Health Network",
+        "country_code": "CA",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I1325899441"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I161318765",
+        "ror": "https://ror.org/046rm7j60",
+        "display_name": "University of California, Los Angeles",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I161318765"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I176808543",
+        "ror": "https://ror.org/01n2bd587",
+        "display_name": "Liaoning Technical University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I176808543"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I185261750",
+        "ror": "https://ror.org/03dbr7087",
+        "display_name": "University of Toronto",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I185261750"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I20231570",
+        "ror": "https://ror.org/02v51f717",
+        "display_name": "Peking University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I20231570"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I2801766832",
+        "ror": "https://ror.org/04cpxjv19",
+        "display_name": "McGill University Health Centre",
+        "country_code": "CA",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I2801766832"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210141942",
+        "ror": "https://ror.org/04wwqze12",
+        "display_name": "Peking University Third Hospital",
+        "country_code": "CN",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I4210141942"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210154593",
+        "ror": "https://ror.org/0569k1630",
+        "display_name": "Beijing Shijitan Hospital",
+        "country_code": "CN",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I4210154593"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I5681781",
+        "ror": "https://ror.org/00892tw58",
+        "display_name": "The University of Adelaide",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I5681781"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "count": 51,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10449",
+        "display_name": "Renal cell carcinoma treatment",
+        "count": 33,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2740",
+          "display_name": "Pulmonary and Respiratory Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11230",
+        "display_name": "Innovative Energy Harvesting Technologies",
+        "count": 16,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10660",
+        "display_name": "Conducting polymers and applications",
+        "count": 15,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2507",
+          "display_name": "Polymers and Plastics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10914",
+        "display_name": "Tactile and Sensory Interactions",
+        "count": 14,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11230",
+        "display_name": "Innovative Energy Harvesting Technologies",
+        "value": 0.000266,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10449",
+        "display_name": "Renal cell carcinoma treatment",
+        "value": 0.0002054,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2740",
+          "display_name": "Pulmonary and Respiratory Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "value": 0.0001644,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11523",
+        "display_name": "Nanomaterials and Printing Technologies",
+        "value": 0.0001504,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13027",
+        "display_name": "Applied Advanced Technologies",
+        "value": 0.0001132,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "score": 0.9911129474639893
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.92766273021698
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.7021903395652771
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.5935156345367432
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.5525043606758118
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2008,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2017,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2018,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 37
+      },
+      {
+        "year": 2019,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 26
+      },
+      {
+        "year": 2020,
+        "works_count": 14,
+        "oa_works_count": 8,
+        "cited_by_count": 731
+      },
+      {
+        "year": 2021,
+        "works_count": 29,
+        "oa_works_count": 17,
+        "cited_by_count": 4099
+      },
+      {
+        "year": 2022,
+        "works_count": 24,
+        "oa_works_count": 11,
+        "cited_by_count": 2328
+      },
+      {
+        "year": 2023,
+        "works_count": 16,
+        "oa_works_count": 7,
+        "cited_by_count": 678
+      },
+      {
+        "year": 2024,
+        "works_count": 26,
+        "oa_works_count": 15,
+        "cited_by_count": 603
+      },
+      {
+        "year": 2025,
+        "works_count": 22,
+        "oa_works_count": 10,
+        "cited_by_count": 192
+      }
+    ],
+    "display_name_alternatives": [
+      "X Y Zhao",
+      "X. Zhao",
+      "Xun Zhao",
+      "Zhao, X.",
+      "Zhao, Xun"
+    ],
+    "block_key": "x zhao",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5027349342",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2020-07-02T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2003812523",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2003812523",
+    "name": "Xu Zhao",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 33,
+    "citationCount": 190,
+    "hIndex": 8
+  }
+}

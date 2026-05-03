@@ -1,0 +1,19 @@
+{
+  "author_id": "A5117655449",
+  "total_recent_works_analysed": 2,
+  "total_unique_collaborators": 1,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 1.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Danda B. Rawat",
+      "id": "A5046343080",
+      "shared_papers": 2,
+      "same_institution": true
+    }
+  ]
+}

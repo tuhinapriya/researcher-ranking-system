@@ -1,0 +1,651 @@
+{
+  "author_id": "A5002816094",
+  "openalex": {
+    "id": "https://openalex.org/A5002816094",
+    "orcid": "https://orcid.org/0000-0001-5871-7889",
+    "display_name": "S. Patel",
+    "raw_author_names": [
+      "Dr. Setu Patel Dr. Setu Patel",
+      "S Patel",
+      "S. PATEL",
+      "S. Patel",
+      "SNEHA PATEL",
+      "Sachin Kanubhai Patel",
+      "Setu Patel",
+      "Shrey Kalpeshkumar Patel",
+      "Sunni Patel",
+      "Sushil N. Patel",
+      "Sushil Patel",
+      "Sushil patel"
+    ],
+    "full_name": "Dr. Setu Patel Dr. Setu Patel",
+    "works_count": 100,
+    "cited_by_count": 1030,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.3333333333333335,
+      "h_index": 15,
+      "i10_index": 26
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5002816094",
+      "orcid": "https://orcid.org/0000-0001-5871-7889"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I115441956",
+          "ror": "https://ror.org/05ms04m92",
+          "display_name": "Buffalo State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I115441956"
+          ]
+        },
+        "years": [
+          1994,
+          1991
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I121750182",
+          "ror": "https://ror.org/017ebfz38",
+          "display_name": "National Institute of Technology Warangal",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121750182"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1282105669",
+          "ror": "https://ror.org/05gvnxz63",
+          "display_name": "Argonne National Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1282105669",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I40347166"
+          ]
+        },
+        "years": [
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1327163397",
+          "ror": "https://ror.org/01q1z8k08",
+          "display_name": "State University of New York",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I1327163397"
+          ]
+        },
+        "years": [
+          1992
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I139351228",
+          "ror": "https://ror.org/031478740",
+          "display_name": "Office of Scientific and Technical Information",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I139351228",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        "years": [
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800843827",
+          "ror": "https://ror.org/03ksn2k92",
+          "display_name": "University of Dental Medicine",
+          "country_code": "MM",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2800843827"
+          ]
+        },
+        "years": [
+          2026
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39565521",
+          "ror": "https://ror.org/00mmn6b08",
+          "display_name": "Office of Science",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        "years": [
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210164233",
+          "ror": "https://ror.org/05nnz8429",
+          "display_name": "Health & Life (Taiwan)",
+          "country_code": "TW",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210164233"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4402554029",
+          "ror": "https://ror.org/03csmp942",
+          "display_name": "National Institute of Advanced Manufacturing Technology",
+          "country_code": null,
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4402554029"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I57206974",
+          "ror": "https://ror.org/0190ak572",
+          "display_name": "New York University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        },
+        "years": [
+          1985
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63190737",
+          "ror": "https://ror.org/01y64my43",
+          "display_name": "University at Buffalo, State University of New York",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63190737"
+          ]
+        },
+        "years": [
+          2000,
+          1998,
+          1996,
+          1995,
+          1994,
+          1993,
+          1992,
+          1991,
+          1990,
+          1989,
+          1987,
+          1985,
+          1979
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79576946",
+          "ror": "https://ror.org/00b30xv10",
+          "display_name": "University of Pennsylvania",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79576946"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I2800843827",
+        "ror": "https://ror.org/03ksn2k92",
+        "display_name": "University of Dental Medicine",
+        "country_code": "MM",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I2800843827"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10037",
+        "display_name": "Physics of Superconductivity and Magnetism",
+        "count": 48,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10090",
+        "display_name": "ZnO doping and properties",
+        "count": 14,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11808",
+        "display_name": "Superconducting Materials and Applications",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10059",
+        "display_name": "Bone Tissue Engineering Materials",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10113",
+        "display_name": "Dental materials and restorations",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3505",
+          "display_name": "Orthodontics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/35",
+          "display_name": "Dentistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10037",
+        "display_name": "Physics of Superconductivity and Magnetism",
+        "value": 0.0001157,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13324",
+        "display_name": "Scientific and Engineering Research Topics",
+        "value": 0.0001019,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3506",
+          "display_name": "Periodontics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/35",
+          "display_name": "Dentistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11661",
+        "display_name": "Copper Interconnects and Reliability",
+        "value": 5.93e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10090",
+        "display_name": "ZnO doping and properties",
+        "value": 5.49e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12163",
+        "display_name": "Aerosol Filtration and Electrostatic Precipitation",
+        "value": 5.31e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.9470394253730774
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9167598485946655
+      },
+      {
+        "id": "159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "score": 0.6801348924636841
+      },
+      {
+        "id": "26873012",
+        "wikidata": "https://www.wikidata.org/wiki/Q214781",
+        "display_name": "Condensed matter physics",
+        "score": 0.6561945080757141
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.3573509156703949
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1978,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1979,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 3
+      },
+      {
+        "year": 1980,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1985,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 4
+      },
+      {
+        "year": 1987,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1989,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 143
+      },
+      {
+        "year": 1990,
+        "works_count": 8,
+        "oa_works_count": 0,
+        "cited_by_count": 116
+      },
+      {
+        "year": 1991,
+        "works_count": 7,
+        "oa_works_count": 1,
+        "cited_by_count": 115
+      },
+      {
+        "year": 1992,
+        "works_count": 9,
+        "oa_works_count": 0,
+        "cited_by_count": 18
+      },
+      {
+        "year": 1993,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 31
+      },
+      {
+        "year": 1994,
+        "works_count": 9,
+        "oa_works_count": 1,
+        "cited_by_count": 204
+      },
+      {
+        "year": 1995,
+        "works_count": 12,
+        "oa_works_count": 0,
+        "cited_by_count": 80
+      },
+      {
+        "year": 1996,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 6
+      },
+      {
+        "year": 1998,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 123
+      },
+      {
+        "year": 2000,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 33
+      },
+      {
+        "year": 2001,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2003,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2012,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2014,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2020,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 34
+      },
+      {
+        "year": 2021,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2022,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 21
+      },
+      {
+        "year": 2023,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2024,
+        "works_count": 8,
+        "oa_works_count": 2,
+        "cited_by_count": 29
+      },
+      {
+        "year": 2025,
+        "works_count": 9,
+        "oa_works_count": 3,
+        "cited_by_count": 20
+      },
+      {
+        "year": 2026,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Dr. Setu Patel Dr. Setu Patel",
+      "S Patel",
+      "S. PATEL",
+      "S. Patel",
+      "SNEHA PATEL",
+      "Sachin Kanubhai Patel",
+      "Setu Patel",
+      "Shrey Kalpeshkumar Patel",
+      "Sunni Patel",
+      "Sushil N. Patel",
+      "Sushil Patel",
+      "Sushil patel"
+    ],
+    "block_key": "s patel",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5002816094",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2256601523",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2256601523",
+    "name": "S. Patel",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 22,
+    "citationCount": 1497,
+    "hIndex": 15
+  }
+}

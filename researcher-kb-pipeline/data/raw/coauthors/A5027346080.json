@@ -1,0 +1,122 @@
+{
+  "author_id": "A5027346080",
+  "total_recent_works_analysed": 10,
+  "total_unique_collaborators": 53,
+  "estimated_mentee_count": 8,
+  "likely_mentees": [
+    {
+      "name": "Nicole R. Raniszewski",
+      "id": "A5009323385",
+      "works_count": 11,
+      "shared_papers": 4
+    },
+    {
+      "name": "Kaitlyn Toy",
+      "id": "A5006881474",
+      "works_count": 10,
+      "shared_papers": 3
+    },
+    {
+      "name": "Bo Lim Lee",
+      "id": "A5021895024",
+      "works_count": 8,
+      "shared_papers": 2
+    },
+    {
+      "name": "Alice F. Ford",
+      "id": "A5033955616",
+      "works_count": 15,
+      "shared_papers": 2
+    },
+    {
+      "name": "Edward M. Barbieri",
+      "id": "A5020610297",
+      "works_count": 14,
+      "shared_papers": 2
+    },
+    {
+      "name": "Lauren E. Drake",
+      "id": "A5041679841",
+      "works_count": 7,
+      "shared_papers": 2
+    },
+    {
+      "name": "Emily R. Feierman",
+      "id": "A5063580099",
+      "works_count": 19,
+      "shared_papers": 1
+    },
+    {
+      "name": "Azar O. Motlagh",
+      "id": "A5092897461",
+      "works_count": 1,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "George M. Burslem",
+      "id": "A5070112401",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Mohd Altaf Najar",
+      "id": "A5062740392",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Nicole R. Raniszewski",
+      "id": "A5009323385",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Kaitlyn Toy",
+      "id": "A5006881474",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Yevgeniy V. Serebrenik",
+      "id": "A5083408012",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Ophir Shalem",
+      "id": "A5074055600",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Mari Aikio",
+      "id": "A5067909623",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Hana M. Odeh",
+      "id": "A5042257929",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Heike J. Wobst",
+      "id": "A5006937919",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Bo Lim Lee",
+      "id": "A5021895024",
+      "shared_papers": 2,
+      "same_institution": true
+    }
+  ]
+}

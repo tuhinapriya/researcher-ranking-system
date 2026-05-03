@@ -1,0 +1,104 @@
+{
+  "author_id": "A5006547764",
+  "total_recent_works_analysed": 29,
+  "total_unique_collaborators": 134,
+  "estimated_mentee_count": 5,
+  "likely_mentees": [
+    {
+      "name": "Burak Mete",
+      "id": "A5112895234",
+      "works_count": 12,
+      "shared_papers": 9
+    },
+    {
+      "name": "Muhammad Nufail Farooqi",
+      "id": "A5074306656",
+      "works_count": 18,
+      "shared_papers": 8
+    },
+    {
+      "name": "Ercüment Kaya",
+      "id": "A5094138531",
+      "works_count": 7,
+      "shared_papers": 6
+    },
+    {
+      "name": "Patrick Hopf",
+      "id": "A5115804699",
+      "works_count": 4,
+      "shared_papers": 5
+    },
+    {
+      "name": "Martin Ruefenacht",
+      "id": "A5011248801",
+      "works_count": 8,
+      "shared_papers": 3
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.21,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Martin Schulz",
+      "id": "A5045289712",
+      "shared_papers": 20,
+      "same_institution": true
+    },
+    {
+      "name": "Jorge Echavarria",
+      "id": "A5086239365",
+      "shared_papers": 14,
+      "same_institution": true
+    },
+    {
+      "name": "Burak Mete",
+      "id": "A5112895234",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Xiaolong Deng",
+      "id": "A5086035566",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Muhammad Nufail Farooqi",
+      "id": "A5074306656",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Robert Wille",
+      "id": "A5004214923",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Ercüment Kaya",
+      "id": "A5094138531",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Minh Thanh Chung",
+      "id": "A5085737368",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Lukas Burgholzer",
+      "id": "A5012129773",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Patrick Hopf",
+      "id": "A5115804699",
+      "shared_papers": 5,
+      "same_institution": true
+    }
+  ]
+}

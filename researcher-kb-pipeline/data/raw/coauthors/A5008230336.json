@@ -1,0 +1,104 @@
+{
+  "author_id": "A5008230336",
+  "total_recent_works_analysed": 14,
+  "total_unique_collaborators": 11,
+  "estimated_mentee_count": 5,
+  "likely_mentees": [
+    {
+      "name": "Krishnageetha Karuppasamy",
+      "id": "A5108949523",
+      "works_count": 6,
+      "shared_papers": 3
+    },
+    {
+      "name": "Stevens Johnson",
+      "id": "A5113380992",
+      "works_count": 4,
+      "shared_papers": 3
+    },
+    {
+      "name": "Nishitha Reddy Venkannagari",
+      "id": "A5116850270",
+      "works_count": 2,
+      "shared_papers": 2
+    },
+    {
+      "name": "Dingyi Kang",
+      "id": "A5064745323",
+      "works_count": 2,
+      "shared_papers": 1
+    },
+    {
+      "name": "J. Thomas",
+      "id": "A5019772679",
+      "works_count": 2,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.71
+  },
+  "top_collaborators": [
+    {
+      "name": "Johnson P. Thomas",
+      "id": "A5056232741",
+      "shared_papers": 12,
+      "same_institution": true
+    },
+    {
+      "name": "K. M. George",
+      "id": "A5051336430",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Krishnageetha Karuppasamy",
+      "id": "A5108949523",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Stevens Johnson",
+      "id": "A5113380992",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Nishitha Reddy Venkannagari",
+      "id": "A5116850270",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Dingyi Kang",
+      "id": "A5064745323",
+      "shared_papers": 1,
+      "same_institution": true
+    },
+    {
+      "name": "Geetha Karuppasamy",
+      "id": "A5107179617",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Ruthvik Rao Bobbili",
+      "id": "A5107179618",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Acsah Konuparamban",
+      "id": "A5120506635",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Arun Kannan",
+      "id": "A5101868567",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

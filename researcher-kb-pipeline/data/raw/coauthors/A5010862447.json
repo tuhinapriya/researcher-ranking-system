@@ -1,0 +1,73 @@
+{
+  "author_id": "A5010862447",
+  "total_recent_works_analysed": 1,
+  "total_unique_collaborators": 17,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Abhishek P. Dhand",
+      "id": "A5075761250",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Ren H. Bean",
+      "id": "A5075902893",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Viviane Chiaradia",
+      "id": "A5050080438",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Alex J. Commisso",
+      "id": "A5064095321",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Dalia Dranseike",
+      "id": "A5027418608",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Hayden E. Fowler",
+      "id": "A5055481501",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Holden J. Howard",
+      "id": "A5116587056",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Takashi Kaneko",
+      "id": "A5101453498",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Ji‐Won Kim",
+      "id": "A5100462899",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Jason M. Kronenfeld",
+      "id": "A5032978719",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

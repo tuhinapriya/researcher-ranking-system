@@ -1,0 +1,110 @@
+{
+  "author_id": "A5002471997",
+  "total_recent_works_analysed": 113,
+  "total_unique_collaborators": 108,
+  "estimated_mentee_count": 6,
+  "likely_mentees": [
+    {
+      "name": "Andrew Osborne",
+      "id": "A5008426722",
+      "works_count": 13,
+      "shared_papers": 10
+    },
+    {
+      "name": "Jinkang Guo",
+      "id": "A5000577506",
+      "works_count": 9,
+      "shared_papers": 8
+    },
+    {
+      "name": "Koushik Ganesan",
+      "id": "A5045024811",
+      "works_count": 11,
+      "shared_papers": 5
+    },
+    {
+      "name": "Isabella Zane",
+      "id": "A5093104317",
+      "works_count": 3,
+      "shared_papers": 2
+    },
+    {
+      "name": "Ben T. McDonough",
+      "id": "A5116176124",
+      "works_count": 7,
+      "shared_papers": 2
+    },
+    {
+      "name": "Yiqiu Han",
+      "id": "A5009449989",
+      "works_count": 3,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.75,
+    "corresponding_author_ratio": 0.07
+  },
+  "top_collaborators": [
+    {
+      "name": "Xiaoyang Huang",
+      "id": "A5101688593",
+      "shared_papers": 19,
+      "same_institution": true
+    },
+    {
+      "name": "Rahul Nandkishore",
+      "id": "A5011856527",
+      "shared_papers": 17,
+      "same_institution": true
+    },
+    {
+      "name": "Chao Yin",
+      "id": "A5069469701",
+      "shared_papers": 17,
+      "same_institution": true
+    },
+    {
+      "name": "Marvin Qi",
+      "id": "A5020029937",
+      "shared_papers": 16,
+      "same_institution": true
+    },
+    {
+      "name": "Aaron J. Friedman",
+      "id": "A5052648219",
+      "shared_papers": 14,
+      "same_institution": true
+    },
+    {
+      "name": "Yifan Hong",
+      "id": "A5105287665",
+      "shared_papers": 11,
+      "same_institution": true
+    },
+    {
+      "name": "Andrew Osborne",
+      "id": "A5008426722",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Paolo Glorioso",
+      "id": "A5027899526",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Oliver Hart",
+      "id": "A5010150198",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Jinkang Guo",
+      "id": "A5000577506",
+      "shared_papers": 8,
+      "same_institution": true
+    }
+  ]
+}

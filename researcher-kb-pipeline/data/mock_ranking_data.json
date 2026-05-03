@@ -1,0 +1,138 @@
+{
+  "researchers": [
+    {
+      "id": "R1",
+      "name": "Dr. Ada Kim",
+      "total_works": 42,
+      "total_citations": 4200,
+      "h_index": 32,
+      "i10_index": 28,
+      "years_active": 11,
+      "quality_score": 0.81,
+      "recency_score": 0.73,
+      "seniority_score": 0.58,
+      "current_institution_id": "I1",
+      "country": "US",
+      "institution_name": "North Valley University",
+      "institution_region": "US"
+    },
+    {
+      "id": "R2",
+      "name": "Dr. Marco Silva",
+      "total_works": 67,
+      "total_citations": 9100,
+      "h_index": 40,
+      "i10_index": 39,
+      "years_active": 19,
+      "quality_score": 0.69,
+      "recency_score": 0.44,
+      "seniority_score": 0.84,
+      "current_institution_id": "I2",
+      "country": "US",
+      "institution_name": "Metro Tech",
+      "institution_region": "US"
+    },
+    {
+      "id": "R3",
+      "name": "Dr. Nina Patel",
+      "total_works": 26,
+      "total_citations": 1800,
+      "h_index": 21,
+      "i10_index": 18,
+      "years_active": 7,
+      "quality_score": 0.76,
+      "recency_score": 0.88,
+      "seniority_score": 0.39,
+      "current_institution_id": "I3",
+      "country": "CA",
+      "institution_name": "Pacific AI Institute",
+      "institution_region": "CA"
+    }
+  ],
+  "queries": {
+    "robotics": [
+      {
+        "paper_id": "P1",
+        "researcher_id": "R1",
+        "title": "Robotic Control with Multimodal Feedback",
+        "year": 2024,
+        "citations": 120,
+        "similarity": 0.93
+      },
+      {
+        "paper_id": "P2",
+        "researcher_id": "R3",
+        "title": "Learning Dexterous Manipulation Policies",
+        "year": 2025,
+        "citations": 38,
+        "similarity": 0.90
+      },
+      {
+        "paper_id": "P3",
+        "researcher_id": "R1",
+        "title": "Vision-Language Robots in the Wild",
+        "year": 2023,
+        "citations": 89,
+        "similarity": 0.84
+      },
+      {
+        "paper_id": "P4",
+        "researcher_id": "R2",
+        "title": "Optimization for Industrial Robotics",
+        "year": 2021,
+        "citations": 210,
+        "similarity": 0.79
+      },
+      {
+        "paper_id": "P5",
+        "researcher_id": "R3",
+        "title": "Safe Reinforcement Learning for Robot Hands",
+        "year": 2024,
+        "citations": 24,
+        "similarity": 0.77
+      },
+      {
+        "paper_id": "P6",
+        "researcher_id": "R2",
+        "title": "Adaptive Motion Planning at Scale",
+        "year": 2020,
+        "citations": 310,
+        "similarity": 0.71
+      }
+    ],
+    "quantum computing": [
+      {
+        "paper_id": "Q1",
+        "researcher_id": "R2",
+        "title": "Error Mitigation for Near-Term Quantum Systems",
+        "year": 2024,
+        "citations": 95,
+        "similarity": 0.91
+      },
+      {
+        "paper_id": "Q2",
+        "researcher_id": "R1",
+        "title": "Quantum Control Policies with Learned Feedback",
+        "year": 2022,
+        "citations": 75,
+        "similarity": 0.73
+      },
+      {
+        "paper_id": "Q3",
+        "researcher_id": "R2",
+        "title": "Compiler Optimizations for Quantum Workloads",
+        "year": 2023,
+        "citations": 110,
+        "similarity": 0.88
+      },
+      {
+        "paper_id": "Q4",
+        "researcher_id": "R3",
+        "title": "Variational Methods for Noisy Devices",
+        "year": 2024,
+        "citations": 31,
+        "similarity": 0.66
+      }
+    ]
+  }
+}

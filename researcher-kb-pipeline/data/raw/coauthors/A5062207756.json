@@ -1,0 +1,104 @@
+{
+  "author_id": "A5062207756",
+  "total_recent_works_analysed": 34,
+  "total_unique_collaborators": 124,
+  "estimated_mentee_count": 5,
+  "likely_mentees": [
+    {
+      "name": "Yoav Zeevi",
+      "id": "A5050912428",
+      "works_count": 18,
+      "shared_papers": 5
+    },
+    {
+      "name": "Tal Kozlovski",
+      "id": "A5002090360",
+      "works_count": 19,
+      "shared_papers": 5
+    },
+    {
+      "name": "Tzviel Frostig",
+      "id": "A5008910283",
+      "works_count": 15,
+      "shared_papers": 5
+    },
+    {
+      "name": "Netta Shachar",
+      "id": "A5016587045",
+      "works_count": 10,
+      "shared_papers": 2
+    },
+    {
+      "name": "Nimrod Jackob Keynan",
+      "id": "A5084266396",
+      "works_count": 11,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.32,
+    "corresponding_author_ratio": 0.21
+  },
+  "top_collaborators": [
+    {
+      "name": "Ilan Golani",
+      "id": "A5028023271",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Iman Jaljuli",
+      "id": "A5066504331",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Yoav Zeevi",
+      "id": "A5050912428",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Tal Kozlovski",
+      "id": "A5002090360",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Tzviel Frostig",
+      "id": "A5008910283",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Neri Kafkafi",
+      "id": "A5073400771",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Eliezer Giladi",
+      "id": "A5108463971",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Illana Gozes",
+      "id": "A5006745559",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Elissa J. Chesler",
+      "id": "A5022843316",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Molly A. Bogue",
+      "id": "A5019090106",
+      "shared_papers": 5,
+      "same_institution": false
+    }
+  ]
+}

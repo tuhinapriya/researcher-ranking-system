@@ -1,0 +1,725 @@
+{
+  "author_id": "A5021050982",
+  "openalex": {
+    "id": "https://openalex.org/A5021050982",
+    "orcid": "https://orcid.org/0000-0001-5998-3986",
+    "display_name": "Alejandro Avilés",
+    "raw_author_names": [
+      "A Aviles",
+      "A. Aviles",
+      "A. Avilés",
+      "ALEJANDRO AVILES",
+      "Alejandro Aviles",
+      "Alejandro Aviles Cervantes",
+      "Alejandro Avilés",
+      "Aviles, A.",
+      "Aviles, Alejandro"
+    ],
+    "full_name": "Aviles, Alejandro",
+    "works_count": 93,
+    "cited_by_count": 4648,
+    "summary_stats": {
+      "2yr_mean_citedness": 68.36585365853658,
+      "h_index": 30,
+      "i10_index": 54
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5021050982",
+      "orcid": "https://orcid.org/0000-0001-5998-3986"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I121748325",
+          "ror": "https://ror.org/02p0gd045",
+          "display_name": "Universidad Complutense de Madrid",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121748325"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1310866531",
+          "ror": "https://ror.org/03pr08s76",
+          "display_name": "Consejo Nacional de Ciencia y Tecnología",
+          "country_code": "GT",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1310866531"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I27837315",
+          "ror": "https://ror.org/00jmfr291",
+          "display_name": "University of Michigan",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210093685",
+          "ror": "https://ror.org/00k7h5c65",
+          "display_name": "Instituto Nacional de Investigaciones Nucleares",
+          "country_code": "MX",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210093685"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2015,
+          2013,
+          2012,
+          2011,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210108684",
+          "ror": "https://ror.org/014apwk83",
+          "display_name": "Instituto de Estudios Avanzados",
+          "country_code": "VE",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210108684"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210111179",
+          "ror": "https://ror.org/0291ys696",
+          "display_name": "Michigan United",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210111179"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210138439",
+          "ror": "https://ror.org/03h954e30",
+          "display_name": "Centro de Investigación en Materiales Avanzados",
+          "country_code": "MX",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210138439"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210163111",
+          "ror": "https://ror.org/059ex5q34",
+          "display_name": "Consejo Nacional de Humanidades, Ciencias y Tecnologías",
+          "country_code": "MX",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210163111"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165411",
+          "ror": "https://ror.org/05xx77y52",
+          "display_name": "Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210165411"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I59361560",
+          "ror": "https://ror.org/059sp8j34",
+          "display_name": "Instituto Politécnico Nacional",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I59361560"
+          ]
+        },
+        "years": [
+          2017,
+          2015,
+          2014,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I68368234",
+          "ror": "https://ror.org/009eqmr18",
+          "display_name": "Center for Research and Advanced Studies of the National Polytechnic Institute",
+          "country_code": "MX",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I59361560",
+            "https://openalex.org/I68368234"
+          ]
+        },
+        "years": [
+          2017,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I71999127",
+          "ror": "https://ror.org/021018s57",
+          "display_name": "Universitat de Barcelona",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I71999127"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I83024425",
+          "ror": "https://ror.org/021njs178",
+          "display_name": "Universidad Intercontinental",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I83024425"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I884181516",
+          "ror": "https://ror.org/03rzb4f20",
+          "display_name": "Universidad Autónoma del Estado de Morelos",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I884181516"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I8961855",
+          "ror": "https://ror.org/01tmp8f25",
+          "display_name": "Universidad Nacional Autónoma de México",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I8961855"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2015,
+          2013,
+          2012,
+          2011,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I91045830",
+          "ror": "https://ror.org/01f5ytq51",
+          "display_name": "Texas A&M University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I91045830"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I95457486",
+          "ror": "https://ror.org/01an7q238",
+          "display_name": "University of California, Berkeley",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        },
+        "years": [
+          2016,
+          2015
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I4210108684",
+        "ror": "https://ror.org/014apwk83",
+        "display_name": "Instituto de Estudios Avanzados",
+        "country_code": "VE",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I4210108684"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210138439",
+        "ror": "https://ror.org/03h954e30",
+        "display_name": "Centro de Investigación en Materiales Avanzados",
+        "country_code": "MX",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I4210138439"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I83024425",
+        "ror": "https://ror.org/021njs178",
+        "display_name": "Universidad Intercontinental",
+        "country_code": "MX",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I83024425"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I884181516",
+        "ror": "https://ror.org/03rzb4f20",
+        "display_name": "Universidad Autónoma del Estado de Morelos",
+        "country_code": "MX",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I884181516"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I8961855",
+        "ror": "https://ror.org/01tmp8f25",
+        "display_name": "Universidad Nacional Autónoma de México",
+        "country_code": "MX",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I8961855"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I91045830",
+        "ror": "https://ror.org/01f5ytq51",
+        "display_name": "Texas A&M University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I91045830"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "count": 62,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "count": 59,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "count": 27,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10025",
+        "display_name": "Black Holes and Theoretical Physics",
+        "count": 16,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3106",
+          "display_name": "Nuclear and High Energy Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11090",
+        "display_name": "Dark Matter and Cosmic Phenomena",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3106",
+          "display_name": "Nuclear and High Energy Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "value": 0.0003102,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "value": 0.0001693,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "value": 0.0001114,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11090",
+        "display_name": "Dark Matter and Cosmic Phenomena",
+        "value": 7.23e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3106",
+          "display_name": "Nuclear and High Energy Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "value": 6.97e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9570390582084656
+      },
+      {
+        "id": "172790937",
+        "wikidata": "https://www.wikidata.org/wiki/Q18343",
+        "display_name": "Dark energy",
+        "score": 0.9470999836921692
+      },
+      {
+        "id": "98444146",
+        "wikidata": "https://www.wikidata.org/wiki/Q318",
+        "display_name": "Galaxy",
+        "score": 0.8252894878387451
+      },
+      {
+        "id": "44870925",
+        "wikidata": "https://www.wikidata.org/wiki/Q37547",
+        "display_name": "Astrophysics",
+        "score": 0.7591924071311951
+      },
+      {
+        "id": "26405456",
+        "wikidata": "https://www.wikidata.org/wiki/Q338",
+        "display_name": "Cosmology",
+        "score": 0.7328818440437317
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2005,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2008,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2009,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2011,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 185
+      },
+      {
+        "year": 2012,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 265
+      },
+      {
+        "year": 2013,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 157
+      },
+      {
+        "year": 2014,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 139
+      },
+      {
+        "year": 2015,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 177
+      },
+      {
+        "year": 2016,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2017,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 55
+      },
+      {
+        "year": 2018,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 46
+      },
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2020,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 77
+      },
+      {
+        "year": 2021,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 140
+      },
+      {
+        "year": 2022,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 435
+      },
+      {
+        "year": 2023,
+        "works_count": 11,
+        "oa_works_count": 9,
+        "cited_by_count": 104
+      },
+      {
+        "year": 2024,
+        "works_count": 14,
+        "oa_works_count": 13,
+        "cited_by_count": 642
+      },
+      {
+        "year": 2025,
+        "works_count": 27,
+        "oa_works_count": 25,
+        "cited_by_count": 2161
+      }
+    ],
+    "display_name_alternatives": [
+      "A Aviles",
+      "A. Aviles",
+      "A. Avilés",
+      "ALEJANDRO AVILES",
+      "Alejandro Aviles",
+      "Alejandro Aviles Cervantes",
+      "Alejandro Avilés",
+      "Aviles, A.",
+      "Aviles, Alejandro"
+    ],
+    "block_key": "a aviles",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5021050982",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "145493695",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/145493695",
+    "name": "A. Avilés",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 9,
+    "citationCount": 7,
+    "hIndex": 2
+  }
+}

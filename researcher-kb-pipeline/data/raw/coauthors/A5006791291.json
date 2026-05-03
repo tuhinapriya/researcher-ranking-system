@@ -1,0 +1,98 @@
+{
+  "author_id": "A5006791291",
+  "total_recent_works_analysed": 47,
+  "total_unique_collaborators": 142,
+  "estimated_mentee_count": 4,
+  "likely_mentees": [
+    {
+      "name": "Geethamanikanta Jakka",
+      "id": "A5082202950",
+      "works_count": 11,
+      "shared_papers": 1
+    },
+    {
+      "name": "Sunil Kumar Parisa",
+      "id": "A5059329202",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Oludotun Oni",
+      "id": "A5013329552",
+      "works_count": 8,
+      "shared_papers": 1
+    },
+    {
+      "name": "Avaneesh Mohapatra",
+      "id": "A5045975720",
+      "works_count": 5,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.17,
+    "corresponding_author_ratio": 0.19
+  },
+  "top_collaborators": [
+    {
+      "name": "Pawan Whig",
+      "id": "A5070103338",
+      "shared_papers": 31,
+      "same_institution": false
+    },
+    {
+      "name": "Balaram Yadav Kasula",
+      "id": "A5095038973",
+      "shared_papers": 15,
+      "same_institution": true
+    },
+    {
+      "name": "Anupriya Jain",
+      "id": "A5090293099",
+      "shared_papers": 11,
+      "same_institution": false
+    },
+    {
+      "name": "Seema Sharma",
+      "id": "A5108133741",
+      "shared_papers": 10,
+      "same_institution": false
+    },
+    {
+      "name": "Jhansi Bharathi Madavarapu",
+      "id": "A5090930516",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Bibhu Dash",
+      "id": "A5040881655",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Ashima Bhatnagar Bhatia",
+      "id": "A5015139022",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Ramya Thatikonda",
+      "id": "A5067790912",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Venugopal Reddy Modhugu",
+      "id": "A5005565729",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Anupriya Jain",
+      "id": "A5068588023",
+      "shared_papers": 3,
+      "same_institution": false
+    }
+  ]
+}

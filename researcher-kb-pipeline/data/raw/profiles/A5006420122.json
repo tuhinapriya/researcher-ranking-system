@@ -1,0 +1,524 @@
+{
+  "author_id": "A5006420122",
+  "openalex": {
+    "id": "https://openalex.org/A5006420122",
+    "orcid": "https://orcid.org/0000-0003-1481-4294",
+    "display_name": "C. García-Quintero",
+    "raw_author_names": [
+      "C Garcia-Quintero",
+      "C. Garcia-Quintero",
+      "C. García-Quintero",
+      "Cristhian Garcia-Quintero",
+      "Garcia-Quintero, C.",
+      "Garcia-Quintero, Cristhian",
+      "García-Quintero, C."
+    ],
+    "full_name": "Garcia-Quintero, Cristhian",
+    "works_count": 63,
+    "cited_by_count": 3380,
+    "summary_stats": {
+      "2yr_mean_citedness": 61.17777777777778,
+      "h_index": 22,
+      "i10_index": 33
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5006420122",
+      "orcid": "https://orcid.org/0000-0003-1481-4294"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I1314696892",
+          "ror": "https://ror.org/020hgte69",
+          "display_name": "Fermi National Accelerator Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1314696892",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I4210114836"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I136199984",
+          "ror": "https://ror.org/03vek6s52",
+          "display_name": "Harvard University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I162577319",
+          "ror": "https://ror.org/049emcs32",
+          "display_name": "The University of Texas at Dallas",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I162577319"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I189158943",
+          "ror": "https://ror.org/00wjc7c48",
+          "display_name": "University of Milan",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I189158943"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I196375840",
+          "ror": "https://ror.org/05g1mh260",
+          "display_name": "Universidad Autónoma de Sinaloa",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I196375840"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39555362",
+          "ror": "https://ror.org/01a77tt86",
+          "display_name": "University of Warwick",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39555362"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210092024",
+          "ror": "https://ror.org/00k6njn28",
+          "display_name": "Institut d'Estudis Espacials de Catalunya",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210092024",
+            "https://openalex.org/I4387153040"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210124175",
+          "ror": "https://ror.org/03c3r2d17",
+          "display_name": "Center for Astrophysics Harvard & Smithsonian",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I103187081",
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I4210124175"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210126679",
+          "ror": "https://ror.org/03d2ezn18",
+          "display_name": "Institut Cartogràfic i Geològic de Catalunya",
+          "country_code": "ES",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210126679"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210142437",
+          "ror": "https://ror.org/045sjkt56",
+          "display_name": "Mylan (Switzerland)",
+          "country_code": "CH",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210142437",
+            "https://openalex.org/I4210159288"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210153546",
+          "ror": "https://ror.org/0508h6p74",
+          "display_name": "Flatiron Health (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210153546"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4387153999",
+          "ror": "https://ror.org/00sekdz59",
+          "display_name": "Flatiron Institute",
+          "country_code": null,
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210107338",
+            "https://openalex.org/I4387153999"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63072094",
+          "ror": "https://ror.org/03ykbk197",
+          "display_name": "University of Portsmouth",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63072094"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      }
+    ],
+    "last_known_institutions": null,
+    "topics": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "count": 47,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "count": 33,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "count": 29,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11090",
+        "display_name": "Dark Matter and Cosmic Phenomena",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3106",
+          "display_name": "Nuclear and High Energy Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "value": 0.0002471,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "value": 9.01e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "value": 7.48e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "value": 7.09e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13487",
+        "display_name": "Statistical and numerical algorithms",
+        "value": 5.97e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2604",
+          "display_name": "Applied Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9570390582084656
+      },
+      {
+        "id": "172790937",
+        "wikidata": "https://www.wikidata.org/wiki/Q18343",
+        "display_name": "Dark energy",
+        "score": 0.9470999836921692
+      },
+      {
+        "id": "98444146",
+        "wikidata": "https://www.wikidata.org/wiki/Q318",
+        "display_name": "Galaxy",
+        "score": 0.8252894878387451
+      },
+      {
+        "id": "44870925",
+        "wikidata": "https://www.wikidata.org/wiki/Q37547",
+        "display_name": "Astrophysics",
+        "score": 0.7884998321533203
+      },
+      {
+        "id": "26405456",
+        "wikidata": "https://www.wikidata.org/wiki/Q338",
+        "display_name": "Cosmology",
+        "score": 0.7828565835952759
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2019,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 32
+      },
+      {
+        "year": 2020,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 22
+      },
+      {
+        "year": 2021,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2022,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 404
+      },
+      {
+        "year": 2023,
+        "works_count": 7,
+        "oa_works_count": 7,
+        "cited_by_count": 162
+      },
+      {
+        "year": 2024,
+        "works_count": 11,
+        "oa_works_count": 11,
+        "cited_by_count": 647
+      },
+      {
+        "year": 2025,
+        "works_count": 33,
+        "oa_works_count": 33,
+        "cited_by_count": 2106
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "C Garcia-Quintero",
+      "C. Garcia-Quintero",
+      "C. García-Quintero",
+      "Cristhian Garcia-Quintero",
+      "Garcia-Quintero, C.",
+      "Garcia-Quintero, Cristhian",
+      "García-Quintero, C."
+    ],
+    "block_key": "c garcia-quintero",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5006420122",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2019-08-13T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2333240133",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2333240133",
+    "name": "C. García-Quintero",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 2,
+    "citationCount": 3,
+    "hIndex": 1
+  }
+}

@@ -1,0 +1,1377 @@
+{
+  "author_id": "A5086198262",
+  "openalex": {
+    "id": "https://openalex.org/A5086198262",
+    "orcid": "https://orcid.org/0000-0002-9322-3515",
+    "display_name": "Yoshua Bengio",
+    "display_name_alternatives": [
+      "Aaron Courville",
+      "Bengio Y.",
+      "Bengio Yoshua",
+      "Bengio, Emmanuel",
+      "Bengio, Y.",
+      "Bengio, Yoshua",
+      "Briggs, Datonye",
+      "Christopher D. Manning",
+      "Conor McGurk",
+      "Courville, Aaron"
+    ],
+    "works_count": 1276,
+    "cited_by_count": 441425,
+    "summary_stats": {
+      "2yr_mean_citedness": 5.915094339622642,
+      "h_index": 183,
+      "i10_index": 709
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5086198262",
+      "orcid": "https://orcid.org/0000-0002-9322-3515"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I108192572",
+          "ror": "https://ror.org/05ww3wq27",
+          "display_name": "HEC Montréal",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I108192572"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I109736498",
+          "ror": "https://ror.org/01sdtdd95",
+          "display_name": "Canadian Institute for Advanced Research",
+          "country_code": "CA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I109736498"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1174212",
+          "ror": "https://ror.org/03taz7m60",
+          "display_name": "University of Southern California",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I1174212"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I126596746",
+          "ror": "https://ror.org/03bqmcz70",
+          "display_name": "Jagiellonian University",
+          "country_code": "PL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126596746"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1283103587",
+          "ror": "https://ror.org/02bbd5539",
+          "display_name": "AT&T (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1283103587"
+          ]
+        },
+        "years": [
+          2002,
+          1999,
+          1997,
+          1996,
+          1995,
+          1994,
+          1993
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1322087612",
+          "ror": "https://ror.org/00c5mwp75",
+          "display_name": "Alcatel Lucent (Germany)",
+          "country_code": "DE",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1322087612"
+          ]
+        },
+        "years": [
+          2014,
+          2007,
+          2002,
+          1998,
+          1997,
+          1995,
+          1994,
+          1993
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I151746483",
+          "ror": "https://ror.org/01aff2v68",
+          "display_name": "University of Waterloo",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I151746483"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I159129438",
+          "ror": "https://ror.org/002rjbv21",
+          "display_name": "Université du Québec à Montréal",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I159129438",
+            "https://openalex.org/I49663120"
+          ]
+        },
+        "years": [
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I185261750",
+          "ror": "https://ror.org/03dbr7087",
+          "display_name": "University of Toronto",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I193619901",
+          "ror": "https://ror.org/02yrs2n53",
+          "display_name": "Constructor University",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I193619901"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2250650973",
+          "ror": "https://ror.org/04w3jy968",
+          "display_name": "Samsung (South Korea)",
+          "country_code": "KR",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I2250650973"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2252078561",
+          "ror": "https://ror.org/02388em19",
+          "display_name": "Meta (Israel)",
+          "country_code": "IL",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I2252078561",
+            "https://openalex.org/I4210114444"
+          ]
+        },
+        "years": [
+          2019,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800817003",
+          "ror": "https://ror.org/058zz0t50",
+          "display_name": "Southern California University for Professional Studies",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2800817003"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3130350682",
+          "ror": "https://ror.org/04ffrx392",
+          "display_name": "Chartered Institute for Archaeologists",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3130350682"
+          ]
+        },
+        "years": [
+          2016,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I41156924",
+          "ror": "https://ror.org/0040r6f76",
+          "display_name": "Victoria University of Wellington",
+          "country_code": "NZ",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I41156924"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210093075",
+          "ror": "https://ror.org/01cwhph72",
+          "display_name": "PQ Corporation (Canada)",
+          "country_code": "CA",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210093075"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210099593",
+          "ror": "https://ror.org/00zky6d38",
+          "display_name": "Computer Algorithms for Medicine",
+          "country_code": "AT",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210099593"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210111842",
+          "ror": "https://ror.org/0279d5115",
+          "display_name": "Computer Research Institute of Montréal",
+          "country_code": "CA",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210111842"
+          ]
+        },
+        "years": [
+          2020,
+          2018,
+          2014,
+          2013,
+          2012,
+          2006,
+          2003,
+          2002,
+          2000,
+          1990,
+          1988
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210114444",
+          "ror": "https://ror.org/01zbnvs85",
+          "display_name": "Meta (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210114444"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210127572",
+          "ror": "https://ror.org/030hj3061",
+          "display_name": "IMT Atlantique",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205703379",
+            "https://openalex.org/I4210127572"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210128683",
+          "ror": "https://ror.org/036y4q615",
+          "display_name": "Vector (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210128683"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210136294",
+          "ror": "https://ror.org/035w40502",
+          "display_name": "Institute for Learning and Development",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210136294"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210145612",
+          "ror": "https://ror.org/05aq6yn88",
+          "display_name": "Office of Extramural Research",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210091794",
+            "https://openalex.org/I4210145612"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210150585",
+          "ror": "https://ror.org/03vk3dn23",
+          "display_name": "Global Water Partnership",
+          "country_code": "GH",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210150585"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210153468",
+          "ror": "https://ror.org/04xhxg104",
+          "display_name": "Microsoft (Canada)",
+          "country_code": "CA",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1290206253",
+            "https://openalex.org/I4210153468"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210155582",
+          "ror": "https://ror.org/05s3cw058",
+          "display_name": "Centre Universitaire de Mila",
+          "country_code": "DZ",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210155582"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2021,
+          2020,
+          2019,
+          2018,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210161954",
+          "ror": "https://ror.org/05y6rqs46",
+          "display_name": "Département d'Informatique",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1326498283",
+            "https://openalex.org/I2746051580",
+            "https://openalex.org/I29607241",
+            "https://openalex.org/I4210159245",
+            "https://openalex.org/I4210161954"
+          ]
+        },
+        "years": [
+          2018,
+          2017,
+          2014,
+          2013,
+          2012,
+          2011,
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210162323",
+          "ror": "https://ror.org/059gb3r46",
+          "display_name": "TKL Research",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210162323"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210164802",
+          "ror": "https://ror.org/05c22rx21",
+          "display_name": "Mila - Quebec Artificial Intelligence Institute",
+          "country_code": "CA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210164802"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210164937",
+          "ror": "https://ror.org/05k87vq12",
+          "display_name": "Microsoft Research (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1290206253",
+            "https://openalex.org/I4210164937"
+          ]
+        },
+        "years": [
+          2023,
+          2019,
+          2018,
+          2017,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4399598460",
+          "ror": "https://ror.org/012x5xb44",
+          "display_name": "Unity Health Toronto",
+          "country_code": null,
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4399598460"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4402554038",
+          "ror": "https://ror.org/05xdft911",
+          "display_name": "Microsoft Research Montréal (Canada)",
+          "country_code": null,
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1290206253",
+            "https://openalex.org/I4402554038"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I45129253",
+          "ror": "https://ror.org/02jx3x895",
+          "display_name": "University College London",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I45683168",
+          "ror": "https://ror.org/05f8d4e86",
+          "display_name": "Polytechnique Montréal",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I45683168"
+          ]
+        },
+        "years": [
+          2019,
+          2014,
+          2007,
+          2002,
+          1998,
+          1997,
+          1995,
+          1994,
+          1993
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I47755478",
+          "ror": "https://ror.org/04w077t62",
+          "display_name": "University of Bengkulu",
+          "country_code": "ID",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I47755478"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I47987569",
+          "ror": "https://ror.org/03yjkej49",
+          "display_name": "Center for Interuniversity Research and Analysis on Organizations",
+          "country_code": "CA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I47987569"
+          ]
+        },
+        "years": [
+          2000,
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I49663120",
+          "ror": "https://ror.org/010gxg263",
+          "display_name": "Université du Québec",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I49663120"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I5023651",
+          "ror": "https://ror.org/01pxwe438",
+          "display_name": "McGill University",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        "years": [
+          2023,
+          2018,
+          2003,
+          2002,
+          1992,
+          1991,
+          1990,
+          1989,
+          1988
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I60158472",
+          "ror": "https://ror.org/0420zvk78",
+          "display_name": "Concordia University",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I60158472"
+          ]
+        },
+        "years": [
+          2020,
+          2018,
+          2017,
+          2016,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63966007",
+          "ror": "https://ror.org/042nb2s44",
+          "display_name": "Massachusetts Institute of Technology",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63966007"
+          ]
+        },
+        "years": [
+          1992,
+          1991
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I70886390",
+          "ror": "https://ror.org/01c0m1t63",
+          "display_name": "Karlsruhe University of Applied Sciences",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I70886390"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I70931966",
+          "ror": "https://ror.org/0161xgx34",
+          "display_name": "Université de Montréal",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I70931966"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1993
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I74973139",
+          "ror": "https://ror.org/05x2bcf33",
+          "display_name": "Carnegie Mellon University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I74973139"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I8204097",
+          "ror": "https://ror.org/05591te55",
+          "display_name": "Ludwig-Maximilians-Universität München",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I8204097"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I926574661",
+          "ror": "https://ror.org/03s7gtk40",
+          "display_name": "Leipzig University",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I926574661"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I97018004",
+          "ror": "https://ror.org/00f54p054",
+          "display_name": "Stanford University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I98677209",
+          "ror": "https://ror.org/01nrxwf90",
+          "display_name": "University of Edinburgh",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I41156924",
+        "ror": "https://ror.org/0040r6f76",
+        "display_name": "Victoria University of Wellington",
+        "country_code": "NZ",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I41156924"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210155582",
+        "ror": "https://ror.org/05s3cw058",
+        "display_name": "Centre Universitaire de Mila",
+        "country_code": "DZ",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210155582"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210164802",
+        "ror": "https://ror.org/05c22rx21",
+        "display_name": "Mila - Quebec Artificial Intelligence Institute",
+        "country_code": "CA",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I4210164802"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I70931966",
+        "ror": "https://ror.org/0161xgx34",
+        "display_name": "Université de Montréal",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I70931966"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10320",
+        "display_name": "Neural Networks and Applications",
+        "count": 238,
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10028",
+        "display_name": "Topic Modeling",
+        "count": 180,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11307",
+        "display_name": "Domain Adaptation and Few-Shot Learning",
+        "count": 169,
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10775",
+        "display_name": "Generative Adversarial Networks and Image Synthesis",
+        "count": 162,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10181",
+        "display_name": "Natural Language Processing Techniques",
+        "count": 130,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10775",
+        "display_name": "Generative Adversarial Networks and Image Synthesis",
+        "value": 0.0021601,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11307",
+        "display_name": "Domain Adaptation and Few-Shot Learning",
+        "value": 0.0017453,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11612",
+        "display_name": "Stochastic Gradient Optimization Techniques",
+        "value": 0.0010541,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11714",
+        "display_name": "Multimodal Machine Learning Applications",
+        "value": 0.0009954,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "value": 0.000932,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.9241362810134888
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.8024718165397644
+      },
+      {
+        "id": "119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "score": 0.7584092617034912
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.7426328659057617
+      },
+      {
+        "id": "50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "score": 0.7319123148918152
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1988,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 11
+      },
+      {
+        "year": 1989,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 46
+      },
+      {
+        "year": 1990,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 37
+      },
+      {
+        "year": 1991,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 57
+      },
+      {
+        "year": 1992,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 248
+      },
+      {
+        "year": 1993,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 189
+      },
+      {
+        "year": 1994,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 8956
+      },
+      {
+        "year": 1995,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 635
+      },
+      {
+        "year": 1996,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 483
+      },
+      {
+        "year": 1997,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 175
+      },
+      {
+        "year": 1998,
+        "works_count": 5,
+        "oa_works_count": 2,
+        "cited_by_count": 60904
+      },
+      {
+        "year": 1999,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 1493
+      },
+      {
+        "year": 2000,
+        "works_count": 9,
+        "oa_works_count": 1,
+        "cited_by_count": 2360
+      },
+      {
+        "year": 2001,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 818
+      },
+      {
+        "year": 2002,
+        "works_count": 27,
+        "oa_works_count": 6,
+        "cited_by_count": 1601
+      },
+      {
+        "year": 2003,
+        "works_count": 14,
+        "oa_works_count": 4,
+        "cited_by_count": 1888
+      },
+      {
+        "year": 2004,
+        "works_count": 14,
+        "oa_works_count": 7,
+        "cited_by_count": 1735
+      },
+      {
+        "year": 2005,
+        "works_count": 9,
+        "oa_works_count": 0,
+        "cited_by_count": 1391
+      },
+      {
+        "year": 2006,
+        "works_count": 11,
+        "oa_works_count": 1,
+        "cited_by_count": 932
+      },
+      {
+        "year": 2007,
+        "works_count": 14,
+        "oa_works_count": 0,
+        "cited_by_count": 7293
+      },
+      {
+        "year": 2008,
+        "works_count": 9,
+        "oa_works_count": 1,
+        "cited_by_count": 14200
+      },
+      {
+        "year": 2009,
+        "works_count": 14,
+        "oa_works_count": 1,
+        "cited_by_count": 18441
+      },
+      {
+        "year": 2010,
+        "works_count": 14,
+        "oa_works_count": 4,
+        "cited_by_count": 23293
+      },
+      {
+        "year": 2011,
+        "works_count": 29,
+        "oa_works_count": 9,
+        "cited_by_count": 5600
+      },
+      {
+        "year": 2012,
+        "works_count": 42,
+        "oa_works_count": 27,
+        "cited_by_count": 23939
+      },
+      {
+        "year": 2013,
+        "works_count": 54,
+        "oa_works_count": 35,
+        "cited_by_count": 23520
+      },
+      {
+        "year": 2014,
+        "works_count": 57,
+        "oa_works_count": 44,
+        "cited_by_count": 63664
+      },
+      {
+        "year": 2015,
+        "works_count": 48,
+        "oa_works_count": 43,
+        "cited_by_count": 97334
+      },
+      {
+        "year": 2016,
+        "works_count": 72,
+        "oa_works_count": 58,
+        "cited_by_count": 21890
+      },
+      {
+        "year": 2017,
+        "works_count": 82,
+        "oa_works_count": 63,
+        "cited_by_count": 19232
+      },
+      {
+        "year": 2018,
+        "works_count": 117,
+        "oa_works_count": 87,
+        "cited_by_count": 9592
+      },
+      {
+        "year": 2019,
+        "works_count": 102,
+        "oa_works_count": 89,
+        "cited_by_count": 4738
+      },
+      {
+        "year": 2020,
+        "works_count": 90,
+        "oa_works_count": 77,
+        "cited_by_count": 15113
+      },
+      {
+        "year": 2021,
+        "works_count": 81,
+        "oa_works_count": 68,
+        "cited_by_count": 4669
+      },
+      {
+        "year": 2022,
+        "works_count": 68,
+        "oa_works_count": 63,
+        "cited_by_count": 1832
+      },
+      {
+        "year": 2023,
+        "works_count": 130,
+        "oa_works_count": 129,
+        "cited_by_count": 2482
+      },
+      {
+        "year": 2024,
+        "works_count": 60,
+        "oa_works_count": 50,
+        "cited_by_count": 400
+      },
+      {
+        "year": 2025,
+        "works_count": 46,
+        "oa_works_count": 38,
+        "cited_by_count": 227
+      }
+    ],
+    "longest_name": "Christopher D. Manning",
+    "parsed_longest_name": {
+      "first": "christopher",
+      "middle": "d",
+      "last": "manning",
+      "suffix": "",
+      "nickname": ""
+    },
+    "block_key": "c manning",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5086198262",
+    "updated_date": "2026-02-25T12:19:17",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "1751762",
+    "externalIds": {
+      "DBLP": [
+        "Yoshua Bengio"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/1751762",
+    "name": "Yoshua Bengio",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 814,
+    "citationCount": 561635,
+    "hIndex": 212
+  }
+}

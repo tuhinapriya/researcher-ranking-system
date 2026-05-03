@@ -1,0 +1,342 @@
+{
+  "author_id": "A5012019888",
+  "openalex": {
+    "id": "https://openalex.org/A5012019888",
+    "orcid": "https://orcid.org/0009-0007-0716-3477",
+    "display_name": "N. Findlay",
+    "raw_author_names": [
+      "Findlay, N.",
+      "Findlay, Nathan",
+      "N. Findlay",
+      "Nathan Findlay"
+    ],
+    "full_name": "Findlay, Nathan",
+    "works_count": 19,
+    "cited_by_count": 1802,
+    "summary_stats": {
+      "2yr_mean_citedness": 101.29411764705883,
+      "h_index": 13,
+      "i10_index": 13
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5012019888",
+      "orcid": "https://orcid.org/0009-0007-0716-3477"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I1314696892",
+          "ror": "https://ror.org/020hgte69",
+          "display_name": "Fermi National Accelerator Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1314696892",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I4210114836"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63072094",
+          "ror": "https://ror.org/03ykbk197",
+          "display_name": "University of Portsmouth",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63072094"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I80281795",
+          "ror": "https://ror.org/01jmxt844",
+          "display_name": "University of Otago",
+          "country_code": "NZ",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I80281795"
+          ]
+        },
+        "years": [
+          1995
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I63072094",
+        "ror": "https://ror.org/03ykbk197",
+        "display_name": "University of Portsmouth",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I63072094"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "count": 16,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11090",
+        "display_name": "Dark Matter and Cosmic Phenomena",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3106",
+          "display_name": "Nuclear and High Energy Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "value": 8.41e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "value": 4.05e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "value": 2.84e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "value": 2.46e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11911",
+        "display_name": "Spatial and Panel Data Analysis",
+        "value": 1.71e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9570390582084656
+      },
+      {
+        "id": "172790937",
+        "wikidata": "https://www.wikidata.org/wiki/Q18343",
+        "display_name": "Dark energy",
+        "score": 0.8440895080566406
+      },
+      {
+        "id": "98444146",
+        "wikidata": "https://www.wikidata.org/wiki/Q318",
+        "display_name": "Galaxy",
+        "score": 0.8252894878387451
+      },
+      {
+        "id": "44870925",
+        "wikidata": "https://www.wikidata.org/wiki/Q37547",
+        "display_name": "Astrophysics",
+        "score": 0.7591924071311951
+      },
+      {
+        "id": "33024259",
+        "wikidata": "https://www.wikidata.org/wiki/Q76250",
+        "display_name": "Redshift",
+        "score": 0.7485086917877197
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1995,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 77
+      },
+      {
+        "year": 2023,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 119
+      },
+      {
+        "year": 2025,
+        "works_count": 12,
+        "oa_works_count": 12,
+        "cited_by_count": 1603
+      }
+    ],
+    "display_name_alternatives": [
+      "Findlay, N.",
+      "Findlay, Nathan",
+      "N. Findlay",
+      "Nathan Findlay"
+    ],
+    "block_key": "n findlay",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5012019888",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2024-04-07T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "36194505",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/36194505",
+    "name": "N. Findlay",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 1,
+    "citationCount": 0,
+    "hIndex": 0
+  }
+}

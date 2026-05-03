@@ -1,0 +1,676 @@
+{
+  "author_id": "A5004256364",
+  "openalex": {
+    "id": "https://openalex.org/A5004256364",
+    "orcid": "https://orcid.org/0000-0002-1985-0983",
+    "display_name": "Susana Garcı́a-Alonso",
+    "raw_author_names": [
+      "Garcia, S.",
+      "S Alonso",
+      "S García-Alonso",
+      "S. Alonso",
+      "S. GARCIA ALONSO",
+      "S. GARCÍA-ALONSO",
+      "S. García",
+      "S. García Alonso",
+      "S. García-Alonso",
+      "S. García‐Alonso",
+      "S. Garcı́a-Alonso",
+      "Susana Garcia",
+      "Susana Garcia-Alonso",
+      "Susana García",
+      "Susana García Alonso",
+      "Susana García-Alonso",
+      "Susana Garcı́a-Alonso"
+    ],
+    "full_name": "Susana Garcı́a-Alonso",
+    "works_count": 59,
+    "cited_by_count": 1027,
+    "summary_stats": {
+      "2yr_mean_citedness": 4.8,
+      "h_index": 17,
+      "i10_index": 23
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5004256364",
+      "orcid": "https://orcid.org/0000-0002-1985-0983"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I119635470",
+          "ror": "https://ror.org/01teme464",
+          "display_name": "Universidad de Las Palmas de Gran Canaria",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I119635470"
+          ]
+        },
+        "years": [
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I121748325",
+          "ror": "https://ror.org/02p0gd045",
+          "display_name": "Universidad Complutense de Madrid",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121748325"
+          ]
+        },
+        "years": [
+          2023,
+          2021,
+          2020,
+          2019,
+          2017,
+          2015,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2007,
+          2006,
+          2004,
+          2003,
+          2002,
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1279594646",
+          "ror": "https://ror.org/04kxf1r09",
+          "display_name": "Agencia Estatal de Meteorología",
+          "country_code": "ES",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1279594646"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I32062511",
+          "ror": "https://ror.org/04mghma93",
+          "display_name": "Heriot-Watt University",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I32062511"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210101403",
+          "ror": "https://ror.org/01y8hgg23",
+          "display_name": "Cistel Technology (Canada)",
+          "country_code": "CA",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210101403"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210110509",
+          "ror": "https://ror.org/01ar8dr59",
+          "display_name": "Division of Chemistry",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1311060795",
+            "https://openalex.org/I4210110509",
+            "https://openalex.org/I4210112577"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210117526",
+          "ror": "https://ror.org/01wdt4y78",
+          "display_name": "Unidades Centrales Científico-Técnicas",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2801357902",
+            "https://openalex.org/I4210117526",
+            "https://openalex.org/I4387152914"
+          ]
+        },
+        "years": [
+          2018,
+          2011,
+          2003,
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210143256",
+          "ror": "https://ror.org/056yktd04",
+          "display_name": "Institute of Environmental Assessment and Water Research",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I134820265",
+            "https://openalex.org/I4210143256"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165411",
+          "ror": "https://ror.org/05xx77y52",
+          "display_name": "Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210165411"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2015,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          1999,
+          1998
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63634437",
+          "ror": "https://ror.org/01cby8j38",
+          "display_name": "Universidad Autónoma de Madrid",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63634437"
+          ]
+        },
+        "years": [
+          1992
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I32062511",
+        "ror": "https://ror.org/04mghma93",
+        "display_name": "Heriot-Watt University",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I32062511"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210165411",
+        "ror": "https://ror.org/05xx77y52",
+        "display_name": "Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas",
+        "country_code": "ES",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I4210165411"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10122",
+        "display_name": "Toxic Organic Pollutants Impact",
+        "count": 23,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2307",
+          "display_name": "Health, Toxicology and Mutagenesis"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10190",
+        "display_name": "Air Quality and Health Impacts",
+        "count": 21,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2307",
+          "display_name": "Health, Toxicology and Mutagenesis"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10075",
+        "display_name": "Atmospheric chemistry and aerosols",
+        "count": 19,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1902",
+          "display_name": "Atmospheric Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12095",
+        "display_name": "Vehicle emissions and performance",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2203",
+          "display_name": "Automotive Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10324",
+        "display_name": "Microbial bioremediation and biosurfactants",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2310",
+          "display_name": "Pollution"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10122",
+        "display_name": "Toxic Organic Pollutants Impact",
+        "value": 0.0001304,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2307",
+          "display_name": "Health, Toxicology and Mutagenesis"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13639",
+        "display_name": "Paraquat toxicity studies and treatments",
+        "value": 7.52e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2746",
+          "display_name": "Surgery"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10324",
+        "display_name": "Microbial bioremediation and biosurfactants",
+        "value": 6.86e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2310",
+          "display_name": "Pollution"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10190",
+        "display_name": "Air Quality and Health Impacts",
+        "value": 6.44e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2307",
+          "display_name": "Health, Toxicology and Mutagenesis"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10075",
+        "display_name": "Atmospheric chemistry and aerosols",
+        "value": 5.61e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1902",
+          "display_name": "Atmospheric Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9760891795158386
+      },
+      {
+        "id": "43617362",
+        "wikidata": "https://www.wikidata.org/wiki/Q170050",
+        "display_name": "Chromatography",
+        "score": 0.820030927658081
+      },
+      {
+        "id": "107872376",
+        "wikidata": "https://www.wikidata.org/wiki/Q321355",
+        "display_name": "Environmental chemistry",
+        "score": 0.805212676525116
+      },
+      {
+        "id": "39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "score": 0.7975935935974121
+      },
+      {
+        "id": "178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "score": 0.4306149482727051
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1992,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 15
+      },
+      {
+        "year": 1998,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 28
+      },
+      {
+        "year": 1999,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2000,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2001,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2002,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 46
+      },
+      {
+        "year": 2003,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 31
+      },
+      {
+        "year": 2004,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2005,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 131
+      },
+      {
+        "year": 2006,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2007,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 210
+      },
+      {
+        "year": 2008,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2009,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 41
+      },
+      {
+        "year": 2010,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 103
+      },
+      {
+        "year": 2011,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 122
+      },
+      {
+        "year": 2012,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 98
+      },
+      {
+        "year": 2013,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 35
+      },
+      {
+        "year": 2014,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2015,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2016,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2017,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 41
+      },
+      {
+        "year": 2018,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2019,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2020,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 21
+      },
+      {
+        "year": 2021,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2023,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2025,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 14
+      }
+    ],
+    "display_name_alternatives": [
+      "Garcia, S.",
+      "S Alonso",
+      "S García-Alonso",
+      "S. Alonso",
+      "S. GARCIA ALONSO",
+      "S. GARCÍA-ALONSO",
+      "S. García",
+      "S. García Alonso",
+      "S. García-Alonso",
+      "S. García‐Alonso",
+      "S. Garcı́a-Alonso",
+      "Susana Garcia",
+      "Susana Garcia-Alonso",
+      "Susana García",
+      "Susana García Alonso",
+      "Susana García-Alonso",
+      "Susana Garcı́a-Alonso"
+    ],
+    "block_key": "s garcıa-alonso",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5004256364",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "1401447720",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/1401447720",
+    "name": "S. García-Alonso",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 27,
+    "citationCount": 279,
+    "hIndex": 10
+  }
+}

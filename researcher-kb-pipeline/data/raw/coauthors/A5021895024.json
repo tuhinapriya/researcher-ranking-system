@@ -1,0 +1,128 @@
+{
+  "author_id": "A5021895024",
+  "total_recent_works_analysed": 8,
+  "total_unique_collaborators": 84,
+  "estimated_mentee_count": 9,
+  "likely_mentees": [
+    {
+      "name": "Katie E. Copley",
+      "id": "A5003246271",
+      "works_count": 15,
+      "shared_papers": 4
+    },
+    {
+      "name": "Jack D. Rubien",
+      "id": "A5007364165",
+      "works_count": 18,
+      "shared_papers": 4
+    },
+    {
+      "name": "Alice F. Ford",
+      "id": "A5033955616",
+      "works_count": 15,
+      "shared_papers": 3
+    },
+    {
+      "name": "Edward M. Barbieri",
+      "id": "A5020610297",
+      "works_count": 14,
+      "shared_papers": 3
+    },
+    {
+      "name": "Lauren E. Drake",
+      "id": "A5041679841",
+      "works_count": 7,
+      "shared_papers": 3
+    },
+    {
+      "name": "Ashleigh Smirnov",
+      "id": "A5028303486",
+      "works_count": 6,
+      "shared_papers": 3
+    },
+    {
+      "name": "Jenna N. Beyer",
+      "id": "A5027346080",
+      "works_count": 12,
+      "shared_papers": 2
+    },
+    {
+      "name": "Zamia Diaz",
+      "id": "A5082863893",
+      "works_count": 10,
+      "shared_papers": 2
+    },
+    {
+      "name": "Carolann Espy",
+      "id": "A5036716063",
+      "works_count": 13,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "James Shorter",
+      "id": "A5084836766",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Hana M. Odeh",
+      "id": "A5042257929",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Bede Portz",
+      "id": "A5047234321",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Jocelyn C. Mauna",
+      "id": "A5078761635",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Christopher J. Donnelly",
+      "id": "A5032094493",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Katie E. Copley",
+      "id": "A5003246271",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Jack D. Rubien",
+      "id": "A5007364165",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Nicolas L. Fawzi",
+      "id": "A5077689800",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Mari Aikio",
+      "id": "A5067909623",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Heike J. Wobst",
+      "id": "A5006937919",
+      "shared_papers": 3,
+      "same_institution": false
+    }
+  ]
+}

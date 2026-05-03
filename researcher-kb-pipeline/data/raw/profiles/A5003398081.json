@@ -1,0 +1,680 @@
+{
+  "author_id": "A5003398081",
+  "openalex": {
+    "id": "https://openalex.org/A5003398081",
+    "orcid": "https://orcid.org/0000-0002-9296-5314",
+    "display_name": "Rudolf Marcel Füchslin",
+    "raw_author_names": [
+      "F&uuml;chslin Rudolf M.",
+      "F\\\"uchslin, Rudolf M.",
+      "Füchslin, Rudolf",
+      "Füchslin, Rudolf M",
+      "Füchslin, Rudolf M.",
+      "Füchslin, Rudolf Marcel",
+      "R Füchslin",
+      "R. Füchslin",
+      "R. M. Füchslin",
+      "R.M. Füchslin",
+      "RUDOLF M. FÜCHSLIN",
+      "Rudolf Füchslin",
+      "Rudolf M Füchslin",
+      "Rudolf M. Fuchslin",
+      "Rudolf M. Füchslin",
+      "Rudolf Marcel Fuchslin",
+      "Rudolf Marcel Füchslin"
+    ],
+    "full_name": "Füchslin, Rudolf Marcel",
+    "works_count": 140,
+    "cited_by_count": 1412,
+    "summary_stats": {
+      "2yr_mean_citedness": 1.9411764705882353,
+      "h_index": 16,
+      "i10_index": 30
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5003398081",
+      "orcid": "https://orcid.org/0000-0002-9296-5314"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I143379178",
+          "ror": "https://ror.org/04kdh6x72",
+          "display_name": "FZI Research Center for Information Technology",
+          "country_code": "DE",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I143379178"
+          ]
+        },
+        "years": [
+          2002,
+          2001
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I149461666",
+          "ror": "https://ror.org/04yzxz566",
+          "display_name": "Ca' Foscari University of Venice",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I149461666"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I200744771",
+          "ror": null,
+          "display_name": "ZHAW Zurich University of Applied Sciences",
+          "country_code": "CH",
+          "type": null,
+          "lineage": [
+            "https://openalex.org/I200744771"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022,
+          2012,
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I202697423",
+          "ror": "https://ror.org/02crff812",
+          "display_name": "University of Zurich",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        "years": [
+          2012,
+          2011,
+          2009,
+          2007,
+          2000,
+          1997,
+          1995,
+          1994
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I205582932",
+          "ror": "https://ror.org/04p5ggc03",
+          "display_name": "Max Delbrück Center",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I205582932"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802229908",
+          "ror": "https://ror.org/03eh3y714",
+          "display_name": "Paul Scherrer Institute",
+          "country_code": "CH",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I2802229908"
+          ]
+        },
+        "years": [
+          2000,
+          1996
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210131439",
+          "ror": "https://ror.org/03seew607",
+          "display_name": "Applied Mathematics (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210131439"
+          ]
+        },
+        "years": [
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210137980",
+          "ror": "https://ror.org/04kesq777",
+          "display_name": "European Centre for Living Technology",
+          "country_code": "IT",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210137980"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2015,
+          2013,
+          2012,
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I7877124",
+          "ror": "https://ror.org/001w7jn25",
+          "display_name": "Charité - Universitätsmedizin Berlin",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I7877124"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I858936495",
+          "ror": "https://ror.org/05pmsvm27",
+          "display_name": "ZHAW Zurich University of Applied Sciences",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I858936495"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I904495901",
+          "ror": "https://ror.org/04tsk2644",
+          "display_name": "Ruhr University Bochum",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I904495901"
+          ]
+        },
+        "years": [
+          2009,
+          2006,
+          2004
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I4210137980",
+        "ror": "https://ror.org/04kesq777",
+        "display_name": "European Centre for Living Technology",
+        "country_code": "IT",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I4210137980"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I858936495",
+        "ror": "https://ror.org/05pmsvm27",
+        "display_name": "ZHAW Zurich University of Applied Sciences",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I858936495"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T12784",
+        "display_name": "Modular Robots and Swarm Intelligence",
+        "count": 21,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11486",
+        "display_name": "Micro and Nano Robotics",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10621",
+        "display_name": "Gene Regulatory Network Analysis",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11407",
+        "display_name": "Innovative Microfluidic and Catalytic Techniques Innovation",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11737",
+        "display_name": "Advanced Materials and Mechanics",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11486",
+        "display_name": "Micro and Nano Robotics",
+        "value": 0.0001311,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12784",
+        "display_name": "Modular Robots and Swarm Intelligence",
+        "value": 0.0001244,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13362",
+        "display_name": "Slime Mold and Myxomycetes Research",
+        "value": 9.78e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11445",
+        "display_name": "Origins and Evolution of Life",
+        "value": 7.87e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10621",
+        "display_name": "Gene Regulatory Network Analysis",
+        "value": 7.33e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8553584218025208
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.7553200721740723
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.6328028440475464
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.48733171820640564
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.46224474906921387
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1994,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1995,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 1996,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 1997,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2000,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 26
+      },
+      {
+        "year": 2001,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 80
+      },
+      {
+        "year": 2002,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2004,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 32
+      },
+      {
+        "year": 2006,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2007,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2009,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 117
+      },
+      {
+        "year": 2010,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 124
+      },
+      {
+        "year": 2011,
+        "works_count": 10,
+        "oa_works_count": 8,
+        "cited_by_count": 425
+      },
+      {
+        "year": 2012,
+        "works_count": 7,
+        "oa_works_count": 7,
+        "cited_by_count": 229
+      },
+      {
+        "year": 2013,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 31
+      },
+      {
+        "year": 2014,
+        "works_count": 11,
+        "oa_works_count": 11,
+        "cited_by_count": 47
+      },
+      {
+        "year": 2015,
+        "works_count": 10,
+        "oa_works_count": 8,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2016,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2017,
+        "works_count": 8,
+        "oa_works_count": 7,
+        "cited_by_count": 35
+      },
+      {
+        "year": 2018,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2019,
+        "works_count": 12,
+        "oa_works_count": 8,
+        "cited_by_count": 21
+      },
+      {
+        "year": 2020,
+        "works_count": 8,
+        "oa_works_count": 8,
+        "cited_by_count": 38
+      },
+      {
+        "year": 2021,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2022,
+        "works_count": 11,
+        "oa_works_count": 11,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2023,
+        "works_count": 10,
+        "oa_works_count": 10,
+        "cited_by_count": 90
+      },
+      {
+        "year": 2024,
+        "works_count": 10,
+        "oa_works_count": 7,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2025,
+        "works_count": 5,
+        "oa_works_count": 5,
+        "cited_by_count": 21
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "F&uuml;chslin Rudolf M.",
+      "F\\\"uchslin, Rudolf M.",
+      "Füchslin, Rudolf",
+      "Füchslin, Rudolf M",
+      "Füchslin, Rudolf M.",
+      "Füchslin, Rudolf Marcel",
+      "R Füchslin",
+      "R. Füchslin",
+      "R. M. Füchslin",
+      "R.M. Füchslin",
+      "RUDOLF M. FÜCHSLIN",
+      "Rudolf Füchslin",
+      "Rudolf M Füchslin",
+      "Rudolf M. Fuchslin",
+      "Rudolf M. Füchslin",
+      "Rudolf Marcel Fuchslin",
+      "Rudolf Marcel Füchslin"
+    ],
+    "block_key": "r fuchslin",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5003398081",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2066973260",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2066973260",
+    "name": "Rudolf Marcel Füchslin",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 1,
+    "citationCount": 0,
+    "hIndex": 0
+  }
+}

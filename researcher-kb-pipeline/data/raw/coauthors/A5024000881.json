@@ -1,0 +1,80 @@
+{
+  "author_id": "A5024000881",
+  "total_recent_works_analysed": 171,
+  "total_unique_collaborators": 692,
+  "estimated_mentee_count": 1,
+  "likely_mentees": [
+    {
+      "name": "Rui Chen",
+      "id": "A5100403688",
+      "works_count": 9,
+      "shared_papers": 4
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.35,
+    "corresponding_author_ratio": 0.44
+  },
+  "top_collaborators": [
+    {
+      "name": "Dong Zhang",
+      "id": "A5100366069",
+      "shared_papers": 61,
+      "same_institution": true
+    },
+    {
+      "name": "Yijing Tang",
+      "id": "A5059555241",
+      "shared_papers": 46,
+      "same_institution": true
+    },
+    {
+      "name": "Xiong Gong",
+      "id": "A5015997210",
+      "shared_papers": 35,
+      "same_institution": true
+    },
+    {
+      "name": "Yonglan Liu",
+      "id": "A5086846209",
+      "shared_papers": 29,
+      "same_institution": true
+    },
+    {
+      "name": "Yanxian Zhang",
+      "id": "A5020728100",
+      "shared_papers": 24,
+      "same_institution": true
+    },
+    {
+      "name": "Yung Chang",
+      "id": "A5012321811",
+      "shared_papers": 17,
+      "same_institution": false
+    },
+    {
+      "name": "Lening Shen",
+      "id": "A5104003993",
+      "shared_papers": 14,
+      "same_institution": true
+    },
+    {
+      "name": "Baiping Ren",
+      "id": "A5102250075",
+      "shared_papers": 12,
+      "same_institution": true
+    },
+    {
+      "name": "Tao Zhu",
+      "id": "A5100751299",
+      "shared_papers": 11,
+      "same_institution": true
+    },
+    {
+      "name": "Jiang Wu",
+      "id": "A5100769376",
+      "shared_papers": 10,
+      "same_institution": false
+    }
+  ]
+}

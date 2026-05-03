@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <style>
+    .box { fill:#ffffff; stroke:#333333; stroke-width:2px; }
+    .title { font: bold 16px sans-serif; }
+    .text { font: 14px sans-serif; }
+    .small { font: 12px sans-serif; }
+    .arrow { stroke:#333; stroke-width:2; fill:none; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+
+  <!-- Input -->
+  <rect x="150" y="20" width="900" height="80" rx="6" class="box" />
+  <text x="180" y="50" class="title">Input Parameters</text>
+  <text x="180" y="72" class="text">Keyword / Topic ID · Date Range · Region Filter · Run Mode</text>
+
+  <!-- Stage 1 -->
+  <rect x="150" y="140" width="900" height="80" rx="6" class="box" />
+  <text x="180" y="170" class="title">Stage 1 — Paper Fetch</text>
+  <text x="180" y="192" class="text">stage1_discover.py — Query OpenAlex, paginate, save JSONL</text>
+  <path d="M600 100 L600 140" class="arrow" />
+
+  <!-- Stage 2 -->
+  <rect x="150" y="260" width="900" height="80" rx="6" class="box" />
+  <text x="180" y="290" class="title">Stage 2 — Author Extraction</text>
+  <text x="180" y="312" class="text">stage2_extract.py — extract authorships, dedupe, build author_map</text>
+  <path d="M600 220 L600 260" class="arrow" />
+
+  <!-- Parallel -->
+  <rect x="150" y="380" width="900" height="40" rx="6" class="box" />
+  <text x="180" y="405" class="title">Parallel Batch Processing</text>
+  <path d="M600 340 L600 380" class="arrow" />
+
+  <!-- Stage 3 boxes -->
+  <rect x="60" y="460" width="320" height="120" rx="6" class="box" />
+  <text x="80" y="490" class="title">Stage 3a — Author Enrichment</text>
+    <text x="460" y="512" class="text">graph &amp; relationships</text>
+
+  <rect x="440" y="460" width="320" height="120" rx="6" class="box" />
+  <text x="460" y="490" class="title">Stage 3b — Co-author Analysis</text>
+  <text x="460" y="512" class="text">graph &amp; relationships</text>
+
+  <rect x="820" y="460" width="320" height="120" rx="6" class="box" />
+  <text x="840" y="490" class="title">Stage 3c — Institution Enrichment</text>
+  <text x="840" y="512" class="text">institution metadata</text>
+
+  <path d="M600 420 L600 460" class="arrow" />
+  <path d="M260 580 L600 580" class="arrow" />
+  <path d="M600 580 L920 580" class="arrow" />
+
+  <!-- Stage 4 -->
+  <rect x="150" y="700" width="900" height="120" rx="6" class="box" />
+  <text x="180" y="735" class="title">Stage 4 — Assemble &amp; Upsert</text>
+  <text x="180" y="758" class="text">stage4_assemble.py + db.py — batch upserts to MySQL, embeddings → Pinecone</text>
+  <path d="M600 580 L600 700" class="arrow" />
+
+  <!-- Stores -->
+  <rect x="150" y="840" width="900" height="120" rx="6" class="box" />
+  <text x="180" y="875" class="title">Data Stores / Outputs</text>
+  <text x="180" y="898" class="text">MySQL (researcher_db) · Pinecone (embeddings) · JSON / Excel summaries</text>
+  <path d="M600 820 L600 840" class="arrow" />
+
+  <!-- Ranking Service -->
+  <rect x="150" y="980" width="900" height="40" rx="6" class="box" />
+  <text x="180" y="1006" class="title">Ranking Service (Phase 2)</text>
+
+  <rect x="200" y="1040" width="300" height="80" rx="6" class="box" />
+  <text x="220" y="1070" class="title">Rank API</text>
+  <text x="220" y="1092" class="small">rank_service.py / api.py</text>
+
+  <rect x="520" y="1040" width="300" height="80" rx="6" class="box" />
+  <text x="540" y="1070" class="title">Compute Embedding → Pinecone</text>
+  <text x="540" y="1092" class="small">embeddings.py → query index</text>
+
+  <path d="M350 1120 L350 1180" class="arrow" />
+  <path d="M670 1120 L670 1180" class="arrow" />
+
+  <rect x="150" y="1180" width="900" height="120" rx="6" class="box" />
+  <text x="180" y="1215" class="title">Ranking Calculations</text>
+  <text x="180" y="1238" class="text">Q: compute_q_weighted() — decay, recency, citation boosts → Q_norm</text>
+  <text x="180" y="1258" class="text">H: compute_h() — components (h_index, citations, quality, recency, seniority) → H_norm</text>
+  <text x="180" y="1278" class="text">final_score = H_WEIGHT * H_norm + Q_WEIGHT * Q_norm</text>
+
+  <path d="M600 1300 L600 1340" class="arrow" />
+
+  <rect x="150" y="1360" width="900" height="80" rx="6" class="box" />
+  <text x="180" y="1390" class="title">API Response &amp; Feedback</text>
+  <text x="180" y="1412" class="text">results + explainability (components, contribution, reason) · Backfill loop</text>
+
+  <!-- Footer note -->
+  <text x="20" y="1540" class="small">Generated: Ingestion + Ranking Pipeline — config: researcher-kb-pipeline/config.py | stage files: stage1_discover.py, stage2_extract.py, stage3_enrich.py, stage4_assemble.py, ranking.py</text>
+</svg>

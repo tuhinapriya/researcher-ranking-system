@@ -1,0 +1,38 @@
+{
+  "author_id": "A5003578536",
+  "total_recent_works_analysed": 6,
+  "total_unique_collaborators": 3,
+  "estimated_mentee_count": 1,
+  "likely_mentees": [
+    {
+      "name": "Bowen Yan",
+      "id": "A5102825601",
+      "works_count": 5,
+      "shared_papers": 4
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.5
+  },
+  "top_collaborators": [
+    {
+      "name": "Shawn X. Cui",
+      "id": "A5021654048",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Bowen Yan",
+      "id": "A5102825601",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Bowen Yan",
+      "id": "A5100763536",
+      "shared_papers": 1,
+      "same_institution": true
+    }
+  ]
+}

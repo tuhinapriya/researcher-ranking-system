@@ -1,0 +1,1166 @@
+{
+  "id": "https://openalex.org/I33213144",
+  "ror": "https://ror.org/02y3ad647",
+  "display_name": "University of Florida",
+  "country_code": "US",
+  "type": "education",
+  "type_id": "https://openalex.org/institution-types/education",
+  "lineage": [
+    "https://openalex.org/I33213144"
+  ],
+  "homepage_url": "https://www.ufl.edu",
+  "image_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/University%20of%20Florida%20logo.svg",
+  "image_thumbnail_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/University%20of%20Florida%20logo.svg&width=300",
+  "display_name_acronyms": [
+    "UF"
+  ],
+  "display_name_alternatives": [
+    "Universidad de la Florida",
+    "University of Florida",
+    "University of the State of Florida",
+    "Université de floride"
+  ],
+  "repositories": [
+    {
+      "id": "https://openalex.org/S4306400471",
+      "display_name": "University of Florida Digital Collections (University of Florida)",
+      "host_organization": "https://openalex.org/I33213144",
+      "host_organization_name": "University of Florida",
+      "host_organization_lineage": [
+        "https://openalex.org/I33213144"
+      ]
+    },
+    {
+      "id": "https://openalex.org/S4377196657",
+      "display_name": "UF Law Scholarship Repository (University of Florida)",
+      "host_organization": "https://openalex.org/I33213144",
+      "host_organization_name": "University of Florida",
+      "host_organization_lineage": [
+        "https://openalex.org/I33213144"
+      ]
+    }
+  ],
+  "works_count": 350252,
+  "cited_by_count": 29400284,
+  "summary_stats": {
+    "2yr_mean_citedness": 2.762169036882877,
+    "h_index": 1213,
+    "i10_index": 400228
+  },
+  "ids": {
+    "openalex": "https://openalex.org/I33213144",
+    "ror": "https://ror.org/02y3ad647",
+    "grid": "grid.15276.37",
+    "wikipedia": "http://en.wikipedia.org/wiki/University_of_Florida",
+    "wikidata": null
+  },
+  "geo": {
+    "city": "Gainesville",
+    "geonames_city_id": "4156404",
+    "region": "Florida",
+    "country_code": "US",
+    "country": "United States",
+    "latitude": 29.65163,
+    "longitude": -82.32483
+  },
+  "international": {},
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I1313142568",
+      "ror": "https://ror.org/02pjdv450",
+      "display_name": "Florida Museum of Natural History",
+      "country_code": "US",
+      "type": "archive",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I1335043937",
+      "ror": "https://ror.org/03kvbr153",
+      "display_name": "UF Health Shands Hospital",
+      "country_code": "US",
+      "type": "healthcare",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I2801649442",
+      "ror": "https://ror.org/05sqd3t97",
+      "display_name": "State University System of Florida",
+      "country_code": "US",
+      "type": "education",
+      "relationship": "parent"
+    },
+    {
+      "id": "https://openalex.org/I4210112726",
+      "ror": "https://ror.org/02x2kaq51",
+      "display_name": "Florida Medical Entomology Laboratory",
+      "country_code": "US",
+      "type": "healthcare",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210114902",
+      "ror": "https://ror.org/01j5kpq29",
+      "display_name": "Florida Sea Grant",
+      "country_code": "US",
+      "type": "other",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210132808",
+      "ror": "https://ror.org/03s53g630",
+      "display_name": "National High Magnetic Field Laboratory",
+      "country_code": "US",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387153657",
+      "ror": "https://ror.org/02wavzm11",
+      "display_name": "Konza Prairie Long Term Ecological Research",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4387156289",
+      "ror": "https://ror.org/056pdzs28",
+      "display_name": "The Herbert Wertheim UF Scripps Institute for Biomedical Innovation & Technology",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405265380",
+      "ror": "https://ror.org/04mm87038",
+      "display_name": "Institute of Food and Agricultural Sciences",
+      "country_code": "US",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I61515104",
+      "ror": "https://ror.org/0419bgt07",
+      "display_name": "University of Florida Health Science Center",
+      "country_code": "US",
+      "type": "education",
+      "relationship": "related"
+    }
+  ],
+  "counts_by_year": [
+    {
+      "year": 2028,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2027,
+      "works_count": 3,
+      "oa_works_count": 3,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2026,
+      "works_count": 6007,
+      "oa_works_count": 4733,
+      "cited_by_count": 242
+    },
+    {
+      "year": 2025,
+      "works_count": 16617,
+      "oa_works_count": 11255,
+      "cited_by_count": 24667
+    },
+    {
+      "year": 2024,
+      "works_count": 17523,
+      "oa_works_count": 12454,
+      "cited_by_count": 73737
+    },
+    {
+      "year": 2023,
+      "works_count": 17580,
+      "oa_works_count": 12512,
+      "cited_by_count": 140328
+    },
+    {
+      "year": 2022,
+      "works_count": 16318,
+      "oa_works_count": 10808,
+      "cited_by_count": 191663
+    },
+    {
+      "year": 2021,
+      "works_count": 16885,
+      "oa_works_count": 11153,
+      "cited_by_count": 280519
+    },
+    {
+      "year": 2020,
+      "works_count": 16515,
+      "oa_works_count": 10636,
+      "cited_by_count": 398993
+    },
+    {
+      "year": 2019,
+      "works_count": 14539,
+      "oa_works_count": 8511,
+      "cited_by_count": 399946
+    },
+    {
+      "year": 2018,
+      "works_count": 12875,
+      "oa_works_count": 6974,
+      "cited_by_count": 379422
+    },
+    {
+      "year": 2017,
+      "works_count": 11492,
+      "oa_works_count": 5709,
+      "cited_by_count": 409456
+    },
+    {
+      "year": 2016,
+      "works_count": 10874,
+      "oa_works_count": 5286,
+      "cited_by_count": 375637
+    },
+    {
+      "year": 2015,
+      "works_count": 9838,
+      "oa_works_count": 4544,
+      "cited_by_count": 361609
+    },
+    {
+      "year": 2014,
+      "works_count": 10010,
+      "oa_works_count": 4352,
+      "cited_by_count": 374975
+    },
+    {
+      "year": 2013,
+      "works_count": 9505,
+      "oa_works_count": 4058,
+      "cited_by_count": 393894
+    },
+    {
+      "year": 2012,
+      "works_count": 9429,
+      "oa_works_count": 3901,
+      "cited_by_count": 402968
+    },
+    {
+      "year": 2011,
+      "works_count": 9100,
+      "oa_works_count": 3365,
+      "cited_by_count": 411051
+    },
+    {
+      "year": 2010,
+      "works_count": 8585,
+      "oa_works_count": 2980,
+      "cited_by_count": 407149
+    }
+  ],
+  "roles": [
+    {
+      "role": "funder",
+      "id": "https://openalex.org/F4320310009",
+      "works_count": 16692
+    },
+    {
+      "role": "institution",
+      "id": "https://openalex.org/I33213144",
+      "works_count": 350252
+    },
+    {
+      "role": "publisher",
+      "id": "https://openalex.org/P4310316134",
+      "works_count": 1264
+    }
+  ],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10487",
+      "display_name": "Plant and animal studies",
+      "count": 4947,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10135",
+      "display_name": "Insect-Plant Interactions and Control",
+      "count": 3628,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1109",
+        "display_name": "Insect Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10825",
+      "display_name": "Plant Pathogens and Fungal Diseases",
+      "count": 3602,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10895",
+      "display_name": "Species Distribution and Climate Change",
+      "count": 3465,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2302",
+        "display_name": "Ecological Modeling"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10048",
+      "display_name": "Particle physics theoretical and experimental studies",
+      "count": 3291,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11546",
+      "display_name": "Plant Physiology and Cultivation Studies",
+      "count": 3248,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10005",
+      "display_name": "Ecology and Vegetation Dynamics Studies",
+      "count": 2755,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2309",
+        "display_name": "Nature and Landscape Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11641",
+      "display_name": "Insect and Pesticide Research",
+      "count": 2743,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1109",
+        "display_name": "Insect Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10472",
+      "display_name": "Semiconductor materials and devices",
+      "count": 2437,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10015",
+      "display_name": "Genomics and Phylogenetic Studies",
+      "count": 2434,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10002",
+      "display_name": "Advanced Chemical Physics Studies",
+      "count": 2363,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10199",
+      "display_name": "Wildlife Ecology and Conservation",
+      "count": 2321,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10584",
+      "display_name": "Reproductive Physiology in Livestock",
+      "count": 2271,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1102",
+        "display_name": "Agronomy and Crop Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10702",
+      "display_name": "Insect and Arachnid Ecology and Behavior",
+      "count": 2205,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10166",
+      "display_name": "Mosquito-borne diseases and control",
+      "count": 2156,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10494",
+      "display_name": "Plant Virus Research Studies",
+      "count": 2126,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10527",
+      "display_name": "High-Energy Particle Collisions Research",
+      "count": 2088,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10594",
+      "display_name": "Genetic and phenotypic traits in livestock",
+      "count": 2027,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10613",
+      "display_name": "Virus-based gene therapy research",
+      "count": 1953,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10224",
+      "display_name": "Quantum Chromodynamics and Particle Interactions",
+      "count": 1924,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10039",
+      "display_name": "Stellar, planetary, and galactic studies",
+      "count": 1922,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10098",
+      "display_name": "Ruminant Nutrition and Digestive Physiology",
+      "count": 1891,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1102",
+        "display_name": "Agronomy and Crop Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11750",
+      "display_name": "Phytoplasmas and Hemiptera pathogens",
+      "count": 1807,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10302",
+      "display_name": "Fish Ecology and Management Studies",
+      "count": 1709,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2309",
+        "display_name": "Nature and Landscape Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10084",
+      "display_name": "Musculoskeletal pain and rehabilitation",
+      "count": 1645,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2736",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T11750",
+      "display_name": "Phytoplasmas and Hemiptera pathogens",
+      "value": 0.0375083,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12605",
+      "display_name": "Berry genetics and cultivation research",
+      "value": 0.036103,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12822",
+      "display_name": "Turfgrass Adaptation and Management",
+      "value": 0.0289804,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12660",
+      "display_name": "Plant Disease Management Techniques",
+      "value": 0.0244691,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11656",
+      "display_name": "Turtle Biology and Conservation",
+      "value": 0.0233473,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2309",
+        "display_name": "Nature and Landscape Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12904",
+      "display_name": "Diverse Educational Innovations Studies",
+      "value": 0.0231855,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1100",
+        "display_name": "General Agricultural and Biological Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12122",
+      "display_name": "Physical Unclonable Functions (PUFs) and Hardware Security",
+      "value": 0.0219625,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11546",
+      "display_name": "Plant Physiology and Cultivation Studies",
+      "value": 0.0218219,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12855",
+      "display_name": "Peanut Plant Research Studies",
+      "value": 0.0211297,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12870",
+      "display_name": "Seedling growth and survival studies",
+      "value": 0.0208421,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2309",
+        "display_name": "Nature and Landscape Conservation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13069",
+      "display_name": "Cocoa and Sweet Potato Agronomy",
+      "value": 0.0190394,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1108",
+        "display_name": "Horticulture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10774",
+      "display_name": "Weed Control and Herbicide Applications",
+      "value": 0.016916,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10135",
+      "display_name": "Insect-Plant Interactions and Control",
+      "value": 0.0163277,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1109",
+        "display_name": "Insect Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10584",
+      "display_name": "Reproductive Physiology in Livestock",
+      "value": 0.016155,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1102",
+        "display_name": "Agronomy and Crop Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11436",
+      "display_name": "Entomopathogenic Microorganisms in Pest Control",
+      "value": 0.0155162,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1109",
+        "display_name": "Insect Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11404",
+      "display_name": "Irrigation Practices and Water Management",
+      "value": 0.0152755,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1111",
+        "display_name": "Soil Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12043",
+      "display_name": "Insect behavior and control techniques",
+      "value": 0.0150394,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1109",
+        "display_name": "Insect Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12795",
+      "display_name": "Banana Cultivation and Research",
+      "value": 0.0150077,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10872",
+      "display_name": "Veterinary Equine Medical Research",
+      "value": 0.0149203,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3402",
+        "display_name": "Equine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/34",
+        "display_name": "Veterinary"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12834",
+      "display_name": "Flowering Plant Growth and Cultivation",
+      "value": 0.0147972,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12134",
+      "display_name": "Insect symbiosis and bacterial influences",
+      "value": 0.0147917,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1109",
+        "display_name": "Insect Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10098",
+      "display_name": "Ruminant Nutrition and Digestive Physiology",
+      "value": 0.0140638,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1102",
+        "display_name": "Agronomy and Crop Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11691",
+      "display_name": "Forest Insect Ecology and Management",
+      "value": 0.0139243,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13967",
+      "display_name": "Conservation, Ecology, Wildlife Education",
+      "value": 0.0137094,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12968",
+      "display_name": "Research on scale insects",
+      "value": 0.0136811,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1109",
+        "display_name": "Insect Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "is_super_system": false,
+  "status": "active",
+  "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I33213144",
+  "updated_date": "2026-04-12T05:59:47",
+  "created_date": "2016-06-24T00:00:00"
+}

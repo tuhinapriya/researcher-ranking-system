@@ -1,0 +1,73 @@
+{
+  "author_id": "A5049462848",
+  "total_recent_works_analysed": 9,
+  "total_unique_collaborators": 24,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.78
+  },
+  "top_collaborators": [
+    {
+      "name": "Juan Cruz-Benito",
+      "id": "A5085459979",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Francisco José García‐Peñalvo",
+      "id": "A5050368394",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "José Rafael García-Bermejo Giner",
+      "id": "A5063922111",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Luís Augusto Silva",
+      "id": "A5087186391",
+      "shared_papers": 1,
+      "same_institution": true
+    },
+    {
+      "name": "Héctor Sánchez San Blas",
+      "id": "A5031912086",
+      "shared_papers": 1,
+      "same_institution": true
+    },
+    {
+      "name": "André Sales Mendes",
+      "id": "A5026815300",
+      "shared_papers": 1,
+      "same_institution": true
+    },
+    {
+      "name": "Gabriel Villarrubia González",
+      "id": "A5035840336",
+      "shared_papers": 1,
+      "same_institution": true
+    },
+    {
+      "name": "Alberto Botana López",
+      "id": "A5080628594",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Angélica González Arrieta",
+      "id": "A5029724469",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Ana Gil González",
+      "id": "A5008687600",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

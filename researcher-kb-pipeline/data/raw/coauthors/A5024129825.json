@@ -1,0 +1,73 @@
+{
+  "author_id": "A5024129825",
+  "total_recent_works_analysed": 77,
+  "total_unique_collaborators": 685,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.09,
+    "corresponding_author_ratio": 0.08
+  },
+  "top_collaborators": [
+    {
+      "name": "Axel de la Macorra",
+      "id": "A5036122402",
+      "shared_papers": 52,
+      "same_institution": true
+    },
+    {
+      "name": "Will J. Percival",
+      "id": "A5001753424",
+      "shared_papers": 52,
+      "same_institution": false
+    },
+    {
+      "name": "S. P. Ahlen",
+      "id": "A5075805130",
+      "shared_papers": 43,
+      "same_institution": false
+    },
+    {
+      "name": "E. Sánchez",
+      "id": "A5055636814",
+      "shared_papers": 41,
+      "same_institution": false
+    },
+    {
+      "name": "G. Tarlé",
+      "id": "A5027821782",
+      "shared_papers": 41,
+      "same_institution": false
+    },
+    {
+      "name": "J. E. Forero-Romero",
+      "id": "A5075567505",
+      "shared_papers": 40,
+      "same_institution": false
+    },
+    {
+      "name": "Hee‐Jong Seo",
+      "id": "A5101941129",
+      "shared_papers": 39,
+      "same_institution": false
+    },
+    {
+      "name": "Satya Gontcho A Gontcho",
+      "id": "A5056315122",
+      "shared_papers": 39,
+      "same_institution": false
+    },
+    {
+      "name": "Mehdi Rezaie",
+      "id": "A5082387714",
+      "shared_papers": 37,
+      "same_institution": false
+    },
+    {
+      "name": "N. Palanque‐Delabrouille",
+      "id": "A5025148747",
+      "shared_papers": 37,
+      "same_institution": false
+    }
+  ]
+}

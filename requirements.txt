@@ -1,0 +1,18 @@
+# ── Core database ──────────────────────────────────────────────────────────────
+mysql-connector-python>=8.3,<9.0
+
+# ── Google Cloud / Vertex AI (ADC; no credentials file needed in Cloud Run) ───
+google-cloud-aiplatform>=1.49,<2.0   # pulls in the vertexai sub-package
+
+# ── Vector database ────────────────────────────────────────────────────────────
+pinecone>=3.2,<4.0                   # new SDK:  from pinecone import Pinecone
+
+# ── HTTP / data ────────────────────────────────────────────────────────────────
+requests>=2.31,<3.0
+pandas>=2.2,<3.0
+openpyxl>=3.1,<4.0                   # required by pandas Excel writer
+fastapi>=0.115,<1.0
+uvicorn>=0.34,<1.0
+
+# ── ORM (models.py) ────────────────────────────────────────────────────────────
+SQLAlchemy>=2.0,<3.0

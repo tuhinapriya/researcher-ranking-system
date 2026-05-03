@@ -1,0 +1,73 @@
+{
+  "author_id": "A5001052791",
+  "total_recent_works_analysed": 33,
+  "total_unique_collaborators": 15,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.03,
+    "corresponding_author_ratio": 0.79
+  },
+  "top_collaborators": [
+    {
+      "name": "Beatriz Lorenzo",
+      "id": "A5089650085",
+      "shared_papers": 27,
+      "same_institution": false
+    },
+    {
+      "name": "Alireza Shams Shafigh",
+      "id": "A5033421761",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Ivana Kovacevic",
+      "id": "A5009979493",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Erkki Harjula",
+      "id": "A5045566035",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Mika Ylianttila",
+      "id": "A5059694865",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Yuguang Fang",
+      "id": "A5016290340",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Ekram Hossain",
+      "id": "A5089270885",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Rana Inzimam Ul Haq",
+      "id": "A5092213071",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Jude Okwuibe",
+      "id": "A5004707234",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Tanesh Kumar",
+      "id": "A5032327485",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

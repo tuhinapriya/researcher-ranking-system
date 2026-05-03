@@ -1,0 +1,694 @@
+{
+  "author_id": "A5027883460",
+  "openalex": {
+    "id": "https://openalex.org/A5027883460",
+    "orcid": "https://orcid.org/0000-0002-0553-3805",
+    "display_name": "Kyle Dawson",
+    "raw_author_names": [
+      "Dawson, K",
+      "Dawson, K.",
+      "Dawson, K. S.",
+      "Dawson, Kyle",
+      "Dawson, Kyle S.",
+      "K Dawson",
+      "K S Dawson",
+      "K S. Dawson",
+      "K. Dawson",
+      "K. S. Dawson",
+      "K.S. Dawson",
+      "K. S. Dawson",
+      "Kyle Dawson",
+      "Kyle S Dawson",
+      "Kyle S. Dawson"
+    ],
+    "full_name": "Dawson, Kyle S.",
+    "works_count": 373,
+    "cited_by_count": 46774,
+    "summary_stats": {
+      "2yr_mean_citedness": 41.57575757575758,
+      "h_index": 83,
+      "i10_index": 200
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5027883460",
+      "orcid": "https://orcid.org/0000-0002-0553-3805"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I111199411",
+          "ror": "https://ror.org/025h79t26",
+          "display_name": "University of Peradeniya",
+          "country_code": "LK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I111199411"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1294671590",
+          "ror": "https://ror.org/02feahw73",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1314696892",
+          "ror": "https://ror.org/020hgte69",
+          "display_name": "Fermi National Accelerator Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1314696892",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I4210114836"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I134446601",
+          "ror": "https://ror.org/02xewxa75",
+          "display_name": "Berkeley College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I134446601"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I148283060",
+          "ror": "https://ror.org/02jbv0t02",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        "years": [
+          2011,
+          2009,
+          2008,
+          2007,
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I165143802",
+          "ror": "https://ror.org/00rqy9422",
+          "display_name": "The University of Queensland",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I165143802"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I223532165",
+          "ror": "https://ror.org/03r0ha626",
+          "display_name": "University of Utah",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I223532165"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801766991",
+          "ror": "https://ror.org/022bnxw24",
+          "display_name": "Institut d'Astrophysique de Paris",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I2801766991",
+            "https://openalex.org/I39804081",
+            "https://openalex.org/I4210148025"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I33217400",
+          "ror": "https://ror.org/011pqxa69",
+          "display_name": "Université du Québec en Outaouais",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I33217400",
+            "https://openalex.org/I49663120"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I40347166",
+          "ror": "https://ror.org/024mw5h28",
+          "display_name": "University of Chicago",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I40347166"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210094059",
+          "ror": "https://ror.org/00pwqz914",
+          "display_name": "Kavli Institute for Particle Astrophysics and Cosmology",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I2801935854",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I4210094059",
+            "https://openalex.org/I97018004",
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210134182",
+          "ror": "https://ror.org/02sxt3315",
+          "display_name": "Peptcell (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210134182"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210161779",
+          "ror": "https://ror.org/05stzyr92",
+          "display_name": "Campbell Collaboration",
+          "country_code": "NO",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210161779"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I8961855",
+          "ror": "https://ror.org/01tmp8f25",
+          "display_name": "Universidad Nacional Autónoma de México",
+          "country_code": "MX",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I8961855"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I95457486",
+          "ror": "https://ror.org/01an7q238",
+          "display_name": "University of California, Berkeley",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        },
+        "years": [
+          2007,
+          2006,
+          2003,
+          2002,
+          2001
+        ]
+      }
+    ],
+    "last_known_institutions": null,
+    "topics": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "count": 238,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "count": 202,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11323",
+        "display_name": "Gamma-ray bursts and supernovae",
+        "count": 110,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "count": 93,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10039",
+        "display_name": "Stellar, planetary, and galactic studies",
+        "count": 61,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10026",
+        "display_name": "Galaxies: Formation, Evolution, Phenomena",
+        "value": 0.0012513,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "value": 0.0005211,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11323",
+        "display_name": "Gamma-ray bursts and supernovae",
+        "value": 0.0005109,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12450",
+        "display_name": "Radio Astronomy Observations and Technology",
+        "value": 0.0003343,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10095",
+        "display_name": "Cosmology and Gravitation Theories",
+        "value": 0.000254,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9736791849136353
+      },
+      {
+        "id": "33024259",
+        "wikidata": "https://www.wikidata.org/wiki/Q76250",
+        "display_name": "Redshift",
+        "score": 0.9379739761352539
+      },
+      {
+        "id": "44870925",
+        "wikidata": "https://www.wikidata.org/wiki/Q37547",
+        "display_name": "Astrophysics",
+        "score": 0.9013477563858032
+      },
+      {
+        "id": "98444146",
+        "wikidata": "https://www.wikidata.org/wiki/Q318",
+        "display_name": "Galaxy",
+        "score": 0.8265319466590881
+      },
+      {
+        "id": "1276947",
+        "wikidata": "https://www.wikidata.org/wiki/Q333",
+        "display_name": "Astronomy",
+        "score": 0.728312611579895
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2001,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 67
+      },
+      {
+        "year": 2002,
+        "works_count": 8,
+        "oa_works_count": 2,
+        "cited_by_count": 96
+      },
+      {
+        "year": 2003,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 49
+      },
+      {
+        "year": 2005,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2006,
+        "works_count": 11,
+        "oa_works_count": 4,
+        "cited_by_count": 617
+      },
+      {
+        "year": 2007,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 115
+      },
+      {
+        "year": 2008,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 1930
+      },
+      {
+        "year": 2009,
+        "works_count": 9,
+        "oa_works_count": 7,
+        "cited_by_count": 259
+      },
+      {
+        "year": 2010,
+        "works_count": 10,
+        "oa_works_count": 3,
+        "cited_by_count": 1467
+      },
+      {
+        "year": 2011,
+        "works_count": 13,
+        "oa_works_count": 8,
+        "cited_by_count": 4159
+      },
+      {
+        "year": 2012,
+        "works_count": 18,
+        "oa_works_count": 12,
+        "cited_by_count": 5823
+      },
+      {
+        "year": 2013,
+        "works_count": 11,
+        "oa_works_count": 6,
+        "cited_by_count": 775
+      },
+      {
+        "year": 2014,
+        "works_count": 22,
+        "oa_works_count": 16,
+        "cited_by_count": 6139
+      },
+      {
+        "year": 2015,
+        "works_count": 13,
+        "oa_works_count": 10,
+        "cited_by_count": 4086
+      },
+      {
+        "year": 2016,
+        "works_count": 16,
+        "oa_works_count": 14,
+        "cited_by_count": 1578
+      },
+      {
+        "year": 2017,
+        "works_count": 11,
+        "oa_works_count": 10,
+        "cited_by_count": 6450
+      },
+      {
+        "year": 2018,
+        "works_count": 19,
+        "oa_works_count": 15,
+        "cited_by_count": 2138
+      },
+      {
+        "year": 2019,
+        "works_count": 9,
+        "oa_works_count": 6,
+        "cited_by_count": 163
+      },
+      {
+        "year": 2020,
+        "works_count": 24,
+        "oa_works_count": 19,
+        "cited_by_count": 3282
+      },
+      {
+        "year": 2021,
+        "works_count": 17,
+        "oa_works_count": 14,
+        "cited_by_count": 1735
+      },
+      {
+        "year": 2022,
+        "works_count": 30,
+        "oa_works_count": 29,
+        "cited_by_count": 698
+      },
+      {
+        "year": 2023,
+        "works_count": 49,
+        "oa_works_count": 49,
+        "cited_by_count": 2085
+      },
+      {
+        "year": 2024,
+        "works_count": 37,
+        "oa_works_count": 37,
+        "cited_by_count": 897
+      },
+      {
+        "year": 2025,
+        "works_count": 28,
+        "oa_works_count": 26,
+        "cited_by_count": 1846
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      }
+    ],
+    "display_name_alternatives": [
+      "Dawson, K",
+      "Dawson, K.",
+      "Dawson, K. S.",
+      "Dawson, Kyle",
+      "Dawson, Kyle S.",
+      "K Dawson",
+      "K S Dawson",
+      "K S. Dawson",
+      "K. Dawson",
+      "K. S. Dawson",
+      "K.S. Dawson",
+      "K. S. Dawson",
+      "Kyle Dawson",
+      "Kyle S Dawson",
+      "Kyle S. Dawson"
+    ],
+    "block_key": "k dawson",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5027883460",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2055818112",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2055818112",
+    "name": "Kyle S. Dawson",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 18,
+    "citationCount": 584,
+    "hIndex": 10
+  }
+}

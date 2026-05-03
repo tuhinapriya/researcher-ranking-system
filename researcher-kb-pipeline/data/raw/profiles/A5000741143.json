@@ -1,0 +1,540 @@
+{
+  "author_id": "A5000741143",
+  "openalex": {
+    "id": "https://openalex.org/A5000741143",
+    "orcid": "https://orcid.org/0000-0002-7523-152X",
+    "display_name": "Joshua D. Bocarsly",
+    "raw_author_names": [
+      "Bocarsly, Joshua",
+      "Bocarsly, Joshua D.",
+      "J. D. Bocarsly",
+      "Joshua Bocarsly",
+      "Joshua D Bocarsly",
+      "Joshua D. Bocarsly"
+    ],
+    "full_name": "Bocarsly, Joshua D.",
+    "works_count": 67,
+    "cited_by_count": 1062,
+    "summary_stats": {
+      "2yr_mean_citedness": 6.933333333333334,
+      "h_index": 19,
+      "i10_index": 27
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5000741143",
+      "orcid": "https://orcid.org/0000-0002-7523-152X"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I126031752",
+          "ror": "https://ror.org/022j4a796",
+          "display_name": "Santa Barbara City College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126031752"
+          ]
+        },
+        "years": [
+          2020,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I154570441",
+          "ror": "https://ror.org/02t274463",
+          "display_name": "University of California, Santa Barbara",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154570441"
+          ]
+        },
+        "years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I20089843",
+          "ror": "https://ror.org/00hx57361",
+          "display_name": "Princeton University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20089843"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I241749",
+          "ror": "https://ror.org/013meh722",
+          "display_name": "University of Cambridge",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I241749"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2803209242",
+          "ror": "https://ror.org/00pjdza24",
+          "display_name": "University of California System",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2803209242"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210091503",
+          "ror": "https://ror.org/00msez306",
+          "display_name": "Superconductor Technologies (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210091503"
+          ]
+        },
+        "years": [
+          2026,
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210109808",
+          "ror": "https://ror.org/01pc7k308",
+          "display_name": "Division of Materials Research",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1311060795",
+            "https://openalex.org/I4210109808",
+            "https://openalex.org/I4210112577"
+          ]
+        },
+        "years": [
+          2020,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210114297",
+          "ror": "https://ror.org/026p72y65",
+          "display_name": "Material (Belgium)",
+          "country_code": "BE",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210114297"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210139501",
+          "ror": "https://ror.org/03pkka491",
+          "display_name": "Universitas Islam Syekh Yusuf",
+          "country_code": "ID",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210139501"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210156703",
+          "ror": "https://ror.org/05dt4bt98",
+          "display_name": "The Faraday Institution",
+          "country_code": "GB",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210156703"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I44461941",
+          "ror": "https://ror.org/048sx0r50",
+          "display_name": "University of Houston",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I44461941"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I4210091503",
+        "ror": "https://ror.org/00msez306",
+        "display_name": "Superconductor Technologies (United States)",
+        "country_code": "US",
+        "type": "company",
+        "lineage": [
+          "https://openalex.org/I4210091503"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I44461941",
+        "ror": "https://ror.org/048sx0r50",
+        "display_name": "University of Houston",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I44461941"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10607",
+        "display_name": "Magnetic and transport properties of perovskites and related materials",
+        "count": 21,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10018",
+        "display_name": "Advancements in Battery Materials",
+        "count": 13,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12613",
+        "display_name": "X-ray Diffraction in Crystallography",
+        "count": 13,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11881",
+        "display_name": "Crystallization and Solubility Studies",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11682",
+        "display_name": "Advanced Condensed Matter Physics",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10607",
+        "display_name": "Magnetic and transport properties of perovskites and related materials",
+        "value": 9.91e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12200",
+        "display_name": "Heusler alloys: electronic and magnetic properties",
+        "value": 8.16e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12875",
+        "display_name": "Thermal Expansion and Ionic Conductivity",
+        "value": 5.21e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10865",
+        "display_name": "Shape Memory Alloy Transformations",
+        "value": 5.02e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11682",
+        "display_name": "Advanced Condensed Matter Physics",
+        "value": 4.4e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9632278680801392
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.9022401571273804
+      },
+      {
+        "id": "26873012",
+        "wikidata": "https://www.wikidata.org/wiki/Q214781",
+        "display_name": "Condensed matter physics",
+        "score": 0.7476217150688171
+      },
+      {
+        "id": "8010536",
+        "wikidata": "https://www.wikidata.org/wiki/Q160398",
+        "display_name": "Crystallography",
+        "score": 0.6427995562553406
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.5979188084602356
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2013,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2016,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 55
+      },
+      {
+        "year": 2017,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 169
+      },
+      {
+        "year": 2018,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 101
+      },
+      {
+        "year": 2019,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 106
+      },
+      {
+        "year": 2020,
+        "works_count": 11,
+        "oa_works_count": 10,
+        "cited_by_count": 184
+      },
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 33
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 40
+      },
+      {
+        "year": 2023,
+        "works_count": 18,
+        "oa_works_count": 16,
+        "cited_by_count": 254
+      },
+      {
+        "year": 2024,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 63
+      },
+      {
+        "year": 2025,
+        "works_count": 10,
+        "oa_works_count": 10,
+        "cited_by_count": 41
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Bocarsly, Joshua",
+      "Bocarsly, Joshua D.",
+      "J. D. Bocarsly",
+      "Joshua Bocarsly",
+      "Joshua D Bocarsly",
+      "Joshua D. Bocarsly"
+    ],
+    "block_key": "j bocarsly",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5000741143",
+    "updated_date": null,
+    "created_date": "2017-12-22T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "35432692",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/35432692",
+    "name": "J. D. Bocarsly",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 45,
+    "citationCount": 714,
+    "hIndex": 15
+  }
+}

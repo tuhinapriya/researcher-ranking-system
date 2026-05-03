@@ -1,0 +1,758 @@
+{
+  "author_id": "A5027624113",
+  "openalex": {
+    "id": "https://openalex.org/A5027624113",
+    "orcid": "https://orcid.org/0000-0003-4771-4089",
+    "display_name": "Rachana Mehta",
+    "raw_author_names": [
+      "Dr. Rachana Mehta",
+      "R H MEHTA",
+      "R. H. Mehta",
+      "R. Mehta",
+      "Rachana Mehta"
+    ],
+    "full_name": "Dr. Rachana Mehta",
+    "works_count": 219,
+    "cited_by_count": 936,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.5707317073170732,
+      "h_index": 14,
+      "i10_index": 15
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5027624113",
+      "orcid": "https://orcid.org/0000-0003-4771-4089"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I1338034494",
+          "ror": "https://ror.org/04xa5qt51",
+          "display_name": "XLAB (Slovenia)",
+          "country_code": "SI",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1338034494"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I155125381",
+          "ror": "https://ror.org/02w8ba206",
+          "display_name": "Galgotias University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I155125381"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800730371",
+          "ror": "https://ror.org/05gjrwv72",
+          "display_name": "Government of Nepal",
+          "country_code": "NP",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2800730371"
+          ]
+        },
+        "years": [
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3040621137",
+          "ror": "https://ror.org/0047hkh43",
+          "display_name": "Alsalam University College",
+          "country_code": "IQ",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3040621137"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3132702812",
+          "ror": "https://ror.org/00ba6pg24",
+          "display_name": "Uttaranchal University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3132702812"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39238937",
+          "ror": "https://ror.org/022akpv96",
+          "display_name": "Delhi Pharmaceutical Science and Research University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39238937"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210089305",
+          "ror": "https://ror.org/0088h4061",
+          "display_name": "Dr. D. Y. Patil Medical College, Hospital and Research Centre",
+          "country_code": "IN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210089305"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210093402",
+          "ror": "https://ror.org/00fp8n517",
+          "display_name": "Nepal Development Research Institute",
+          "country_code": "NP",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210093402"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210103194",
+          "ror": "https://ror.org/00s2qq515",
+          "display_name": "Dr. D.Y. Patil Vidyapeeth, Pune",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210103194"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210119140",
+          "ror": "https://ror.org/02me73n88",
+          "display_name": "Tribhuvan University Teaching Hospital",
+          "country_code": "NP",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210119140"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210122480",
+          "ror": "https://ror.org/0276bkt19",
+          "display_name": "National Public Health Laboratory",
+          "country_code": "NP",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210095786",
+            "https://openalex.org/I4210122480",
+            "https://openalex.org/I4210143444"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210139625",
+          "ror": "https://ror.org/03t9hh016",
+          "display_name": "Mountain Medicine Society of Nepal",
+          "country_code": "NP",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210139625"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210142290",
+          "ror": "https://ror.org/05aqbwk58",
+          "display_name": "Nepal Agricultural Research Council",
+          "country_code": "NP",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210142290"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210143965",
+          "ror": "https://ror.org/04btxjt62",
+          "display_name": "NLR Nepal",
+          "country_code": "NP",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210143965"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210157157",
+          "ror": "https://ror.org/05wbh2085",
+          "display_name": "Department of Food Technology and Quality Control",
+          "country_code": "NP",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210157157"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210162544",
+          "ror": "https://ror.org/05watjs66",
+          "display_name": "Dr D Y Patil Dental College & Hospital",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210162544"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210166207",
+          "ror": "https://ror.org/05rjdm522",
+          "display_name": "Research & Development Corporation",
+          "country_code": "CA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210166207"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I45294948",
+          "ror": "https://ror.org/009nfym65",
+          "display_name": "Post Graduate Institute of Medical Education and Research",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I45294948"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I55016150",
+          "ror": "https://ror.org/02kf4r633",
+          "display_name": "Manav Rachna International Institute of Research and Studies",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4405253735",
+            "https://openalex.org/I55016150"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I60054993",
+          "ror": "https://ror.org/03wqgqd89",
+          "display_name": "Graphic Era University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I60054993"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I63739035",
+          "ror": "https://ror.org/02dwcqs71",
+          "display_name": "All India Institute of Medical Sciences",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I4210148677",
+            "https://openalex.org/I63739035"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I85461943",
+          "ror": "https://ror.org/0034me914",
+          "display_name": "Saveetha University",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I85461943"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I1338034494",
+        "ror": "https://ror.org/04xa5qt51",
+        "display_name": "XLAB (Slovenia)",
+        "country_code": "SI",
+        "type": "company",
+        "lineage": [
+          "https://openalex.org/I1338034494"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I3040621137",
+        "ror": "https://ror.org/0047hkh43",
+        "display_name": "Alsalam University College",
+        "country_code": "IQ",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I3040621137"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210089305",
+        "ror": "https://ror.org/0088h4061",
+        "display_name": "Dr. D. Y. Patil Medical College, Hospital and Research Centre",
+        "country_code": "IN",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I4210089305"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210093402",
+        "ror": "https://ror.org/00fp8n517",
+        "display_name": "Nepal Development Research Institute",
+        "country_code": "NP",
+        "type": "nonprofit",
+        "lineage": [
+          "https://openalex.org/I4210093402"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210103194",
+        "ror": "https://ror.org/00s2qq515",
+        "display_name": "Dr. D.Y. Patil Vidyapeeth, Pune",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210103194"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210122480",
+        "ror": "https://ror.org/0276bkt19",
+        "display_name": "National Public Health Laboratory",
+        "country_code": "NP",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I4210095786",
+          "https://openalex.org/I4210122480",
+          "https://openalex.org/I4210143444"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210142290",
+        "ror": "https://ror.org/05aqbwk58",
+        "display_name": "Nepal Agricultural Research Council",
+        "country_code": "NP",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I4210142290"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210143965",
+        "ror": "https://ror.org/04btxjt62",
+        "display_name": "NLR Nepal",
+        "country_code": "NP",
+        "type": "nonprofit",
+        "lineage": [
+          "https://openalex.org/I4210143965"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I45294948",
+        "ror": "https://ror.org/009nfym65",
+        "display_name": "Post Graduate Institute of Medical Education and Research",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I45294948"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I55016150",
+        "ror": "https://ror.org/02kf4r633",
+        "display_name": "Manav Rachna International Institute of Research and Studies",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4405253735",
+          "https://openalex.org/I55016150"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I85461943",
+        "ror": "https://ror.org/0034me914",
+        "display_name": "Saveetha University",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I85461943"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T12047",
+        "display_name": "Viral Infections and Vectors",
+        "count": 24,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2725",
+          "display_name": "Infectious Diseases"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10166",
+        "display_name": "Mosquito-borne diseases and control",
+        "count": 22,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10976",
+        "display_name": "Viral gastroenteritis research and epidemiology",
+        "count": 15,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2725",
+          "display_name": "Infectious Diseases"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11767",
+        "display_name": "Poxvirus research and outbreaks",
+        "count": 15,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2406",
+          "display_name": "Virology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12492",
+        "display_name": "Zoonotic diseases and public health",
+        "count": 15,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11767",
+        "display_name": "Poxvirus research and outbreaks",
+        "value": 0.0002439,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2406",
+          "display_name": "Virology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14374",
+        "display_name": "Statistical Methods in Epidemiology",
+        "value": 0.0001583,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11515",
+        "display_name": "Bacillus and Francisella bacterial research",
+        "value": 0.0001318,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11581",
+        "display_name": "Viral Infections and Outbreaks Research",
+        "value": 0.0001271,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2725",
+          "display_name": "Infectious Diseases"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12492",
+        "display_name": "Zoonotic diseases and public health",
+        "value": 0.0001046,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "score": 0.9847999811172485
+      },
+      {
+        "id": "159047783",
+        "wikidata": "https://www.wikidata.org/wiki/Q7215",
+        "display_name": "Virology",
+        "score": 0.9110555648803711
+      },
+      {
+        "id": "126322002",
+        "wikidata": "https://www.wikidata.org/wiki/Q11180",
+        "display_name": "Internal medicine",
+        "score": 0.7696524858474731
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.5470443964004517
+      },
+      {
+        "id": "142724271",
+        "wikidata": "https://www.wikidata.org/wiki/Q7208",
+        "display_name": "Pathology",
+        "score": 0.4824138879776001
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1962,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2003,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2020,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 55
+      },
+      {
+        "year": 2021,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 179
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 155
+      },
+      {
+        "year": 2023,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2024,
+        "works_count": 62,
+        "oa_works_count": 52,
+        "cited_by_count": 313
+      },
+      {
+        "year": 2025,
+        "works_count": 143,
+        "oa_works_count": 64,
+        "cited_by_count": 214
+      }
+    ],
+    "display_name_alternatives": [
+      "Dr. Rachana Mehta",
+      "R H MEHTA",
+      "R. H. Mehta",
+      "R. Mehta",
+      "Rachana Mehta"
+    ],
+    "block_key": "r mehta",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5027624113",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2024-11-15T00:00:00"
+  },
+  "semantic_scholar": null
+}

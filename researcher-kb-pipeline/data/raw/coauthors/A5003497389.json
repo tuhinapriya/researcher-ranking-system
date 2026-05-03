@@ -1,0 +1,80 @@
+{
+  "author_id": "A5003497389",
+  "total_recent_works_analysed": 8,
+  "total_unique_collaborators": 47,
+  "estimated_mentee_count": 1,
+  "likely_mentees": [
+    {
+      "name": "Ningyi Xie",
+      "id": "A5059675095",
+      "works_count": 20,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.12,
+    "corresponding_author_ratio": 0.25
+  },
+  "top_collaborators": [
+    {
+      "name": "Donghao Zhou",
+      "id": "A5100567188",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Guangyong Chen",
+      "id": "A5101415870",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Pheng‐Ann Heng",
+      "id": "A5032708386",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Yanqi Wu",
+      "id": "A5045284753",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Chunbin Gu",
+      "id": "A5112882352",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Furui Liu",
+      "id": "A5026553094",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Ningyi Xie",
+      "id": "A5059675095",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Xinwei Lee",
+      "id": "A5022637745",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Yoshiyuki Saito",
+      "id": "A5026064784",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Nobuyoshi Asai",
+      "id": "A5030658732",
+      "shared_papers": 2,
+      "same_institution": false
+    }
+  ]
+}

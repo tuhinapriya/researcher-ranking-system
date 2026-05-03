@@ -1,0 +1,842 @@
+{
+  "author_id": "A5008728694",
+  "openalex": {
+    "id": "https://openalex.org/A5008728694",
+    "orcid": "https://orcid.org/0000-0001-9244-2671",
+    "display_name": "P. James Schuck",
+    "raw_author_names": [
+      "James Schuck",
+      "P J Schuck",
+      "P James Schuck",
+      "P James. Schuck",
+      "P Schuck",
+      "P. J. Schuck",
+      "P. James Schuck",
+      "P. Schuck",
+      "P.J. SCHUCK",
+      "P.J. Schuck",
+      "P. J. Schuck",
+      "Peter J. Schuck",
+      "Peter James Schuck",
+      "Peter Schuck",
+      "Schuck, P.",
+      "Schuck, P. J.",
+      "Schuck, P. James",
+      "Schuck, Peter James"
+    ],
+    "full_name": "P. James Schuck",
+    "works_count": 320,
+    "cited_by_count": 14539,
+    "summary_stats": {
+      "2yr_mean_citedness": 9.07843137254902,
+      "h_index": 62,
+      "i10_index": 145
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5008728694",
+      "orcid": "https://orcid.org/0000-0001-9244-2671"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I102197404",
+          "ror": "https://ror.org/028rypz17",
+          "display_name": "Université Paris-Sud",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I102197404"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I114090438",
+          "ror": "https://ror.org/04cvxnb49",
+          "display_name": "Goethe University Frankfurt",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114090438"
+          ]
+        },
+        "years": [
+          1995
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1282311441",
+          "ror": "https://ror.org/041nk4h53",
+          "display_name": "Lawrence Livermore National Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1282311441",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I198811213",
+            "https://openalex.org/I4210138311"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1294671590",
+          "ror": "https://ror.org/02feahw73",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I134446601",
+          "ror": "https://ror.org/02xewxa75",
+          "display_name": "Berkeley College",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I134446601"
+          ]
+        },
+        "years": [
+          2020,
+          2017,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I148283060",
+          "ror": "https://ror.org/02jbv0t02",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I149910238",
+          "ror": "https://ror.org/049pfb863",
+          "display_name": "Kent State University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I149910238"
+          ]
+        },
+        "years": [
+          2007,
+          2006,
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I174216632",
+          "ror": "https://ror.org/00453a208",
+          "display_name": "City University of New York",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I174216632"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I177483745",
+          "ror": "https://ror.org/02aj0kh94",
+          "display_name": "Université Joseph Fourier",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177483745"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I32971472",
+          "ror": "https://ror.org/03v76x132",
+          "display_name": "Yale University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I32971472"
+          ]
+        },
+        "years": [
+          2002,
+          2001
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210098836",
+          "ror": "https://ror.org/00z54nq84",
+          "display_name": "Institut de Physique",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210098836"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210119139",
+          "ror": "https://ror.org/02mc6qk71",
+          "display_name": "Laboratoire de Physique et Modélisation des Milieux Condensés",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210098836",
+            "https://openalex.org/I4210119139",
+            "https://openalex.org/I899635006"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210133362",
+          "ror": "https://ror.org/03fd77x13",
+          "display_name": "Institut National de Physique Nucléaire et de Physique des Particules",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210133362"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210145166",
+          "ror": "https://ror.org/03f1b8d27",
+          "display_name": "Foundry (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210145166"
+          ]
+        },
+        "years": [
+          2020,
+          2017,
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4387154492",
+          "ror": "https://ror.org/01fdhpk75",
+          "display_name": "Molecular Foundry",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I4387154492"
+          ]
+        },
+        "years": [
+          2020,
+          2017,
+          2015,
+          2012,
+          2011,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I60668342",
+          "ror": "https://ror.org/01eezs655",
+          "display_name": "University of Regensburg",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I60668342"
+          ]
+        },
+        "years": [
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I78577930",
+          "ror": "https://ror.org/00hj8s172",
+          "display_name": "Columbia University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I95457486",
+          "ror": "https://ror.org/01an7q238",
+          "display_name": "University of California, Berkeley",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        },
+        "years": [
+          2020,
+          2015,
+          2014,
+          2012,
+          2009,
+          1998,
+          1997
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I97018004",
+          "ror": "https://ror.org/00f54p054",
+          "display_name": "Stanford University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2007,
+          2006,
+          2005,
+          2004
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I78577930",
+        "ror": "https://ror.org/00hj8s172",
+        "display_name": "Columbia University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I78577930"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10295",
+        "display_name": "Plasmonic and Surface Plasmon Research",
+        "count": 76,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10275",
+        "display_name": "2D Materials and Applications",
+        "count": 70,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10131",
+        "display_name": "Gold and Silver Nanoparticles Synthesis and Applications",
+        "count": 41,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10299",
+        "display_name": "Photonic and Optical Devices",
+        "count": 34,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12466",
+        "display_name": "Near-Field Optical Microscopy",
+        "count": 34,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10295",
+        "display_name": "Plasmonic and Surface Plasmon Research",
+        "value": 0.0005868,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12466",
+        "display_name": "Near-Field Optical Microscopy",
+        "value": 0.0005343,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10275",
+        "display_name": "2D Materials and Applications",
+        "value": 0.0005249,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12612",
+        "display_name": "Strong Light-Matter Interactions",
+        "value": 0.0003571,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10131",
+        "display_name": "Gold and Silver Nanoparticles Synthesis and Applications",
+        "value": 0.0002664,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.9246560335159302
+      },
+      {
+        "id": "120665830",
+        "wikidata": "https://www.wikidata.org/wiki/Q14620",
+        "display_name": "Optics",
+        "score": 0.8735147714614868
+      },
+      {
+        "id": "171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "score": 0.7591092586517334
+      },
+      {
+        "id": "49040817",
+        "wikidata": "https://www.wikidata.org/wiki/Q193091",
+        "display_name": "Optoelectronics",
+        "score": 0.6906338930130005
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.6661999821662903
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1975,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 68
+      },
+      {
+        "year": 1980,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1985,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1993,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1994,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1995,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 14
+      },
+      {
+        "year": 1997,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 70
+      },
+      {
+        "year": 1998,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 105
+      },
+      {
+        "year": 2000,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2001,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 253
+      },
+      {
+        "year": 2002,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2003,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2004,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 695
+      },
+      {
+        "year": 2005,
+        "works_count": 7,
+        "oa_works_count": 0,
+        "cited_by_count": 1399
+      },
+      {
+        "year": 2006,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 682
+      },
+      {
+        "year": 2007,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 237
+      },
+      {
+        "year": 2008,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 292
+      },
+      {
+        "year": 2009,
+        "works_count": 7,
+        "oa_works_count": 4,
+        "cited_by_count": 1047
+      },
+      {
+        "year": 2010,
+        "works_count": 12,
+        "oa_works_count": 4,
+        "cited_by_count": 369
+      },
+      {
+        "year": 2011,
+        "works_count": 15,
+        "oa_works_count": 5,
+        "cited_by_count": 849
+      },
+      {
+        "year": 2012,
+        "works_count": 17,
+        "oa_works_count": 2,
+        "cited_by_count": 1650
+      },
+      {
+        "year": 2013,
+        "works_count": 11,
+        "oa_works_count": 4,
+        "cited_by_count": 512
+      },
+      {
+        "year": 2014,
+        "works_count": 10,
+        "oa_works_count": 4,
+        "cited_by_count": 675
+      },
+      {
+        "year": 2015,
+        "works_count": 11,
+        "oa_works_count": 5,
+        "cited_by_count": 496
+      },
+      {
+        "year": 2016,
+        "works_count": 8,
+        "oa_works_count": 4,
+        "cited_by_count": 381
+      },
+      {
+        "year": 2017,
+        "works_count": 8,
+        "oa_works_count": 5,
+        "cited_by_count": 320
+      },
+      {
+        "year": 2018,
+        "works_count": 11,
+        "oa_works_count": 8,
+        "cited_by_count": 885
+      },
+      {
+        "year": 2019,
+        "works_count": 12,
+        "oa_works_count": 9,
+        "cited_by_count": 692
+      },
+      {
+        "year": 2020,
+        "works_count": 25,
+        "oa_works_count": 11,
+        "cited_by_count": 920
+      },
+      {
+        "year": 2021,
+        "works_count": 29,
+        "oa_works_count": 17,
+        "cited_by_count": 289
+      },
+      {
+        "year": 2022,
+        "works_count": 24,
+        "oa_works_count": 19,
+        "cited_by_count": 488
+      },
+      {
+        "year": 2023,
+        "works_count": 21,
+        "oa_works_count": 16,
+        "cited_by_count": 660
+      },
+      {
+        "year": 2024,
+        "works_count": 26,
+        "oa_works_count": 15,
+        "cited_by_count": 237
+      },
+      {
+        "year": 2025,
+        "works_count": 25,
+        "oa_works_count": 12,
+        "cited_by_count": 226
+      }
+    ],
+    "display_name_alternatives": [
+      "James Schuck",
+      "P J Schuck",
+      "P James Schuck",
+      "P James. Schuck",
+      "P Schuck",
+      "P. J. Schuck",
+      "P. James Schuck",
+      "P. Schuck",
+      "P.J. SCHUCK",
+      "P.J. Schuck",
+      "P. J. Schuck",
+      "Peter J. Schuck",
+      "Peter James Schuck",
+      "Peter Schuck",
+      "Schuck, P.",
+      "Schuck, P. J.",
+      "Schuck, P. James",
+      "Schuck, Peter James"
+    ],
+    "block_key": "p schuck",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5008728694",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2381550947",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2381550947",
+    "name": "P. Schuck",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 6,
+    "citationCount": 79,
+    "hIndex": 1
+  }
+}

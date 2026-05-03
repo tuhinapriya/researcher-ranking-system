@@ -1,0 +1,128 @@
+{
+  "author_id": "A5022208970",
+  "total_recent_works_analysed": 9,
+  "total_unique_collaborators": 41,
+  "estimated_mentee_count": 9,
+  "likely_mentees": [
+    {
+      "name": "Alexander J. Bahnick",
+      "id": "A5076950688",
+      "works_count": 7,
+      "shared_papers": 5
+    },
+    {
+      "name": "Nicola Judge",
+      "id": "A5083215133",
+      "works_count": 17,
+      "shared_papers": 4
+    },
+    {
+      "name": "Yin Mei Chan",
+      "id": "A5003599542",
+      "works_count": 7,
+      "shared_papers": 3
+    },
+    {
+      "name": "Courtney S. Dziewior",
+      "id": "A5106462523",
+      "works_count": 6,
+      "shared_papers": 2
+    },
+    {
+      "name": "Emily K. Augustine",
+      "id": "A5092626094",
+      "works_count": 4,
+      "shared_papers": 1
+    },
+    {
+      "name": "Robert O. Silzer",
+      "id": "A5114430906",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Sawyer J. Grovogel",
+      "id": "A5114430907",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Stephanie Sipics",
+      "id": "A5118512063",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Alexia Bensoussan",
+      "id": "A5118452487",
+      "works_count": 1,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Matthew L. Becker",
+      "id": "A5023884204",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Alexander J. Bahnick",
+      "id": "A5076950688",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Nicola Judge",
+      "id": "A5083215133",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Yin Mei Chan",
+      "id": "A5003599542",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Kam C. Poon",
+      "id": "A5080665134",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Chang Gao",
+      "id": "A5101382235",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Charlotte K. Williams",
+      "id": "A5014583491",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Courtney S. Dziewior",
+      "id": "A5106462523",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Abhishek P. Dhand",
+      "id": "A5075761250",
+      "shared_papers": 1,
+      "same_institution": false
+    },
+    {
+      "name": "Ren H. Bean",
+      "id": "A5075902893",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}

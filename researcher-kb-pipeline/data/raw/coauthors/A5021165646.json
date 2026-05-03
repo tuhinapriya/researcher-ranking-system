@@ -1,0 +1,110 @@
+{
+  "author_id": "A5021165646",
+  "total_recent_works_analysed": 9,
+  "total_unique_collaborators": 30,
+  "estimated_mentee_count": 6,
+  "likely_mentees": [
+    {
+      "name": "Arya Ajeev",
+      "id": "A5075332848",
+      "works_count": 5,
+      "shared_papers": 4
+    },
+    {
+      "name": "Theodore Warfle",
+      "id": "A5093889531",
+      "works_count": 7,
+      "shared_papers": 4
+    },
+    {
+      "name": "Saeideh Alipoori",
+      "id": "A5043851403",
+      "works_count": 12,
+      "shared_papers": 2
+    },
+    {
+      "name": "Sara Maslaczynska-Salome",
+      "id": "A5117401729",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Sara Maslaczynska‐Salome",
+      "id": "A5123023764",
+      "works_count": 1,
+      "shared_papers": 1
+    },
+    {
+      "name": "Behrokh Shams",
+      "id": "A5014381832",
+      "works_count": 6,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.33
+  },
+  "top_collaborators": [
+    {
+      "name": "Evan K. Wujcik",
+      "id": "A5014850854",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Arya Ajeev",
+      "id": "A5075332848",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Theodore Warfle",
+      "id": "A5093889531",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Yang Lu",
+      "id": "A5086574727",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Sarah Veres",
+      "id": "A5050416533",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Emily Linn",
+      "id": "A5053059936",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Saeideh Alipoori",
+      "id": "A5043851403",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "George Chen",
+      "id": "A5100749715",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Hadi Rouhi",
+      "id": "A5005045005",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Clint Cook",
+      "id": "A5025479733",
+      "shared_papers": 2,
+      "same_institution": false
+    }
+  ]
+}

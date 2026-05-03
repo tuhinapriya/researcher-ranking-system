@@ -1,0 +1,542 @@
+{
+  "author_id": "A5003497389",
+  "openalex": {
+    "id": "https://openalex.org/A5003497389",
+    "orcid": null,
+    "display_name": "Junde Xu",
+    "raw_author_names": [
+      "J. Xu",
+      "JUNDE XU",
+      "Jiahua Xu",
+      "Junde Xu",
+      "Xu, Junde"
+    ],
+    "full_name": "Xu, Junde",
+    "works_count": 21,
+    "cited_by_count": 131,
+    "summary_stats": {
+      "2yr_mean_citedness": 1.5,
+      "h_index": 7,
+      "i10_index": 5
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5003497389",
+      "orcid": null
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I1291857502",
+          "ror": "https://ror.org/008q5qf73",
+          "display_name": "Edison Welding Institute",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I1291857502"
+          ]
+        },
+        "years": [
+          2010,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I146399215",
+          "ror": "https://ror.org/02956yf07",
+          "display_name": "University of Tsukuba",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I146399215"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I154570441",
+          "ror": "https://ror.org/02t274463",
+          "display_name": "University of California, Santa Barbara",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154570441"
+          ]
+        },
+        "years": [
+          2004,
+          1996,
+          1994,
+          1992
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I177725633",
+          "ror": "https://ror.org/00t33hh48",
+          "display_name": "Chinese University of Hong Kong",
+          "country_code": "HK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177725633"
+          ]
+        },
+        "years": [
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I19820366",
+          "ror": "https://ror.org/034t30j35",
+          "display_name": "Chinese Academy of Sciences",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I19820366"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I36343934",
+          "ror": "https://ror.org/00sgv1989",
+          "display_name": "Concurrent Technologies Corporation",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I36343934"
+          ]
+        },
+        "years": [
+          1995,
+          1994
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210095007",
+          "ror": "https://ror.org/00rcv1209",
+          "display_name": "The Crucible",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210095007"
+          ]
+        },
+        "years": [
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210095902",
+          "ror": "https://ror.org/00rhvvr45",
+          "display_name": "China Railway Shanghai Design Institute Group (China)",
+          "country_code": "CN",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210095902"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210123185",
+          "ror": "https://ror.org/02m2h7991",
+          "display_name": "Zhejiang Lab",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210123185"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210125878",
+          "ror": "https://ror.org/03ebk0c60",
+          "display_name": "Suzhou Research Institute",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210125878"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210145761",
+          "ror": "https://ror.org/04gh4er46",
+          "display_name": "Shenzhen Institutes of Advanced Technology",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I4210145761"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165038",
+          "ror": "https://ror.org/05qbk4x57",
+          "display_name": "University of Chinese Academy of Sciences",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I4210165038"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I146399215",
+        "ror": "https://ror.org/02956yf07",
+        "display_name": "University of Tsukuba",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I146399215"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210095902",
+        "ror": "https://ror.org/00rhvvr45",
+        "display_name": "China Railway Shanghai Design Institute Group (China)",
+        "country_code": "CN",
+        "type": "company",
+        "lineage": [
+          "https://openalex.org/I4210095902"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210125878",
+        "ror": "https://ror.org/03ebk0c60",
+        "display_name": "Suzhou Research Institute",
+        "country_code": "CN",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I4210125878"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10700",
+        "display_name": "Metal Forming Simulation Techniques",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12932",
+        "display_name": "Powder Metallurgy Techniques and Materials",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12099",
+        "display_name": "Advanced materials and composites",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10022",
+        "display_name": "Semiconductor Quantum Structures and Devices",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10036",
+        "display_name": "Advanced Neural Network Applications",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12932",
+        "display_name": "Powder Metallurgy Techniques and Materials",
+        "value": 8.05e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10700",
+        "display_name": "Metal Forming Simulation Techniques",
+        "value": 2.83e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12080",
+        "display_name": "Injection Molding Process and Properties",
+        "value": 2.55e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11612",
+        "display_name": "Stochastic Gradient Optimization Techniques",
+        "value": 2.01e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12254",
+        "display_name": "Machine Learning in Bioinformatics",
+        "value": 1.75e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.9074913263320923
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.7255525588989258
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.6968082189559937
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.3494718074798584
+      },
+      {
+        "id": "62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "score": 0.3382534384727478
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1992,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 26
+      },
+      {
+        "year": 1994,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 12
+      },
+      {
+        "year": 1995,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 14
+      },
+      {
+        "year": 1996,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2003,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2004,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2008,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2010,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2023,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 40
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2025,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 3
+      }
+    ],
+    "display_name_alternatives": [
+      "J. Xu",
+      "JUNDE XU",
+      "Jiahua Xu",
+      "Junde Xu",
+      "Xu, Junde"
+    ],
+    "block_key": "j xu",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5003497389",
+    "updated_date": "2026-04-10T12:21:58",
+    "created_date": "2023-01-04T00:00:00"
+  },
+  "semantic_scholar": null
+}

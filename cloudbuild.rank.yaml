@@ -1,0 +1,12 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -f
+      - Dockerfile.rank
+      - -t
+      - us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ranking:latest
+      - .
+
+images:
+  - us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ranking:latest

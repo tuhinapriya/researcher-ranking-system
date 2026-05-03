@@ -1,0 +1,618 @@
+{
+  "author_id": "A5027013897",
+  "openalex": {
+    "id": "https://openalex.org/A5027013897",
+    "orcid": "https://orcid.org/0000-0001-6270-700X",
+    "display_name": "Ingmar Posner",
+    "raw_author_names": [
+      "I Posner",
+      "I. Posner",
+      "Ingmar Posner",
+      "Posner, Ingmar"
+    ],
+    "full_name": "Posner, Ingmar",
+    "works_count": 192,
+    "cited_by_count": 4587,
+    "summary_stats": {
+      "2yr_mean_citedness": 1.542857142857143,
+      "h_index": 34,
+      "i10_index": 87
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5027013897",
+      "orcid": "https://orcid.org/0000-0001-6270-700X"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I2799847335",
+          "ror": "https://ror.org/01cb0jg64",
+          "display_name": "Art Institute of Portland",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799847335",
+            "https://openalex.org/I2799969541"
+          ]
+        },
+        "years": [
+          2023,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802123492",
+          "ror": "https://ror.org/00z4w4f29",
+          "display_name": "Oxford Research Group",
+          "country_code": "GB",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802123492"
+          ]
+        },
+        "years": [
+          2017,
+          2016,
+          2015,
+          2013,
+          2012,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802629803",
+          "ror": "https://ror.org/05ar5fy68",
+          "display_name": "Innovate UK",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2802629803",
+            "https://openalex.org/I4210087105"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I40120149",
+          "ror": "https://ror.org/052gg0110",
+          "display_name": "University of Oxford",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210116723",
+          "ror": "https://ror.org/020w2fr77",
+          "display_name": "Robotics Research (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210116723"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2022,
+          2021,
+          2019,
+          2017,
+          2016,
+          2015,
+          2011,
+          2010,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210121405",
+          "ror": "https://ror.org/01xnbq218",
+          "display_name": "Centre for Artificial Intelligence and Robotics",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1340206300",
+            "https://openalex.org/I4210121405",
+            "https://openalex.org/I4210150591"
+          ]
+        },
+        "years": [
+          2026
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210146410",
+          "ror": "https://ror.org/04j8yhy50",
+          "display_name": "Science Oxford",
+          "country_code": "GB",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210146410"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2019,
+          2018,
+          2017,
+          2016,
+          2011,
+          2010,
+          2009,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I74801974",
+          "ror": "https://ror.org/057zh3y96",
+          "display_name": "The University of Tokyo",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I74801974"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I74973139",
+          "ror": "https://ror.org/05x2bcf33",
+          "display_name": "Carnegie Mellon University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I74973139"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I92715842",
+          "ror": "https://ror.org/040t43x18",
+          "display_name": "University of West Bohemia",
+          "country_code": "CZ",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I92715842"
+          ]
+        },
+        "years": [
+          2013
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I4210121405",
+        "ror": "https://ror.org/01xnbq218",
+        "display_name": "Centre for Artificial Intelligence and Robotics",
+        "country_code": "IN",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I1340206300",
+          "https://openalex.org/I4210121405",
+          "https://openalex.org/I4210150591"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210146410",
+        "ror": "https://ror.org/04j8yhy50",
+        "display_name": "Science Oxford",
+        "country_code": "GB",
+        "type": "nonprofit",
+        "lineage": [
+          "https://openalex.org/I4210146410"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10191",
+        "display_name": "Robotics and Sensor-Based Localization",
+        "count": 44,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10653",
+        "display_name": "Robot Manipulation and Learning",
+        "count": 25,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10812",
+        "display_name": "Human Pose and Action Recognition",
+        "count": 24,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10462",
+        "display_name": "Reinforcement Learning in Robotics",
+        "count": 23,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10586",
+        "display_name": "Robotic Path Planning Algorithms",
+        "count": 22,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12814",
+        "display_name": "Gaussian Processes and Bayesian Inference",
+        "value": 0.0002651,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10462",
+        "display_name": "Reinforcement Learning in Robotics",
+        "value": 0.0002378,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10812",
+        "display_name": "Human Pose and Action Recognition",
+        "value": 0.0001984,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10653",
+        "display_name": "Robot Manipulation and Learning",
+        "value": 0.0001928,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10191",
+        "display_name": "Robotics and Sensor-Based Localization",
+        "value": 0.0001861,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2202",
+          "display_name": "Aerospace Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8925067186355591
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.8474093675613403
+      },
+      {
+        "id": "31972630",
+        "wikidata": "https://www.wikidata.org/wiki/Q844240",
+        "display_name": "Computer vision",
+        "score": 0.8021390438079834
+      },
+      {
+        "id": "90509273",
+        "wikidata": "https://www.wikidata.org/wiki/Q11012",
+        "display_name": "Robot",
+        "score": 0.777124285697937
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.6389672756195068
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1981,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 30
+      },
+      {
+        "year": 1991,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 49
+      },
+      {
+        "year": 2007,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 23
+      },
+      {
+        "year": 2008,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 90
+      },
+      {
+        "year": 2009,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 206
+      },
+      {
+        "year": 2010,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 31
+      },
+      {
+        "year": 2011,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 54
+      },
+      {
+        "year": 2012,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 119
+      },
+      {
+        "year": 2013,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 168
+      },
+      {
+        "year": 2014,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 70
+      },
+      {
+        "year": 2015,
+        "works_count": 13,
+        "oa_works_count": 3,
+        "cited_by_count": 1000
+      },
+      {
+        "year": 2016,
+        "works_count": 17,
+        "oa_works_count": 10,
+        "cited_by_count": 378
+      },
+      {
+        "year": 2017,
+        "works_count": 17,
+        "oa_works_count": 10,
+        "cited_by_count": 721
+      },
+      {
+        "year": 2018,
+        "works_count": 14,
+        "oa_works_count": 9,
+        "cited_by_count": 358
+      },
+      {
+        "year": 2019,
+        "works_count": 13,
+        "oa_works_count": 12,
+        "cited_by_count": 225
+      },
+      {
+        "year": 2020,
+        "works_count": 15,
+        "oa_works_count": 11,
+        "cited_by_count": 718
+      },
+      {
+        "year": 2021,
+        "works_count": 16,
+        "oa_works_count": 15,
+        "cited_by_count": 116
+      },
+      {
+        "year": 2022,
+        "works_count": 11,
+        "oa_works_count": 7,
+        "cited_by_count": 127
+      },
+      {
+        "year": 2023,
+        "works_count": 18,
+        "oa_works_count": 13,
+        "cited_by_count": 50
+      },
+      {
+        "year": 2024,
+        "works_count": 13,
+        "oa_works_count": 10,
+        "cited_by_count": 36
+      },
+      {
+        "year": 2025,
+        "works_count": 16,
+        "oa_works_count": 12,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2026,
+        "works_count": 6,
+        "oa_works_count": 6,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "I Posner",
+      "I. Posner",
+      "Ingmar Posner",
+      "Posner, Ingmar"
+    ],
+    "block_key": "i posner",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5027013897",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2325956579",
+    "externalIds": {
+      "DBLP": [
+        "Ingmar Posner"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/2325956579",
+    "name": "Ingmar Posner",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 8,
+    "citationCount": 205,
+    "hIndex": 3
+  }
+}

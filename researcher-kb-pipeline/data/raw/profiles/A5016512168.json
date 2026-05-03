@@ -1,0 +1,816 @@
+{
+  "author_id": "A5016512168",
+  "openalex": {
+    "id": "https://openalex.org/A5016512168",
+    "orcid": "https://orcid.org/0000-0002-9295-448X",
+    "display_name": "Wilfred T. Tysoe",
+    "raw_author_names": [
+      "W T Tysoe",
+      "W. T. TYSOE",
+      "W. T. Tysoe",
+      "W. Tysoe",
+      "W.T Tysoe",
+      "W.T. Tysoe",
+      "W.T. Tysoe*",
+      "Wilfred  T. Tysoe",
+      "Wilfred T Tysoe",
+      "Wilfred T. Tysoe",
+      "Wilfred Tjalke Tysoe",
+      "Wilfred Tysoe",
+      "Wilfred. T. Tysoe"
+    ],
+    "full_name": "Wilfred  T. Tysoe",
+    "works_count": 371,
+    "cited_by_count": 7795,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.4444444444444446,
+      "h_index": 44,
+      "i10_index": 212
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5016512168",
+      "orcid": "https://orcid.org/0000-0002-9295-448X"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I112936343",
+          "ror": "https://ror.org/05s6rge65",
+          "display_name": "École Centrale de Lyon",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I112936343",
+            "https://openalex.org/I203339264"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I11957088",
+          "ror": "https://ror.org/0036rpn28",
+          "display_name": "Michigan Technological University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I11957088"
+          ]
+        },
+        "years": [
+          2010,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1294671590",
+          "ror": "https://ror.org/02feahw73",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1304256225",
+          "ror": "https://ror.org/03ydkyb10",
+          "display_name": "University of Wisconsin System",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I1304256225"
+          ]
+        },
+        "years": [
+          1993
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I241749",
+          "ror": "https://ror.org/013meh722",
+          "display_name": "University of Cambridge",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I241749"
+          ]
+        },
+        "years": [
+          1983,
+          1982
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4092182",
+          "ror": "https://ror.org/00d7xrm67",
+          "display_name": "Graz University of Technology",
+          "country_code": "AT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4092182"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210115176",
+          "ror": "https://ror.org/026vvkz19",
+          "display_name": "National Interuniversity Consortium for the Physical Sciences of Matter",
+          "country_code": "IT",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210115176"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I43579087",
+          "ror": "https://ror.org/031q21x57",
+          "display_name": "University of Wisconsin–Milwaukee",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I43579087"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1993,
+          1992,
+          1991,
+          1990,
+          1989,
+          1988,
+          1987
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I51556381",
+          "ror": "https://ror.org/0153tk833",
+          "display_name": "University of Virginia",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I51556381"
+          ]
+        },
+        "years": [
+          2010,
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I54166199",
+          "ror": "https://ror.org/044a5dk27",
+          "display_name": "University of the Incarnate Word",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I54166199"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I64185308",
+          "ror": "https://ror.org/05w22af52",
+          "display_name": "University of Wisconsin–Oshkosh",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I64185308"
+          ]
+        },
+        "years": [
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I73822459",
+          "ror": "https://ror.org/00mczdx43",
+          "display_name": "National University of San Luis",
+          "country_code": "AR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I73822459"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2009,
+          1993
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I74973139",
+          "ror": "https://ror.org/05x2bcf33",
+          "display_name": "Carnegie Mellon University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I74973139"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I91045830",
+          "ror": "https://ror.org/01f5ytq51",
+          "display_name": "Texas A&M University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I91045830"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I43579087",
+        "ror": "https://ror.org/031q21x57",
+        "display_name": "University of Wisconsin–Milwaukee",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I43579087"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I54166199",
+        "ror": "https://ror.org/044a5dk27",
+        "display_name": "University of the Incarnate Word",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I54166199"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I73822459",
+        "ror": "https://ror.org/00mczdx43",
+        "display_name": "National University of San Luis",
+        "country_code": "AR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I73822459"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10002",
+        "display_name": "Advanced Chemical Physics Studies",
+        "count": 126,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10192",
+        "display_name": "Catalytic Processes in Materials Science",
+        "count": 103,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10913",
+        "display_name": "Molecular Junctions and Nanostructures",
+        "count": 74,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12285",
+        "display_name": "Surface Chemistry and Catalysis",
+        "count": 72,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11825",
+        "display_name": "Catalysis and Oxidation Reactions",
+        "count": 63,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1503",
+          "display_name": "Catalysis"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/15",
+          "display_name": "Chemical Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12285",
+        "display_name": "Surface Chemistry and Catalysis",
+        "value": 0.0013072,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11557",
+        "display_name": "Lubricants and Their Additives",
+        "value": 0.0004884,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10913",
+        "display_name": "Molecular Junctions and Nanostructures",
+        "value": 0.0002492,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11351",
+        "display_name": "Catalysis and Hydrodesulfurization Studies",
+        "value": 0.0002418,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10002",
+        "display_name": "Advanced Chemical Physics Studies",
+        "value": 0.0002381,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.984682559967041
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.9192715883255005
+      },
+      {
+        "id": "161790260",
+        "wikidata": "https://www.wikidata.org/wiki/Q82264",
+        "display_name": "Catalysis",
+        "score": 0.9043756723403931
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.585105299949646
+      },
+      {
+        "id": "178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "score": 0.4394654333591461
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1982,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 41
+      },
+      {
+        "year": 1983,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 265
+      },
+      {
+        "year": 1984,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 89
+      },
+      {
+        "year": 1985,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 57
+      },
+      {
+        "year": 1986,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 44
+      },
+      {
+        "year": 1987,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 37
+      },
+      {
+        "year": 1988,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 171
+      },
+      {
+        "year": 1989,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 36
+      },
+      {
+        "year": 1990,
+        "works_count": 7,
+        "oa_works_count": 0,
+        "cited_by_count": 213
+      },
+      {
+        "year": 1991,
+        "works_count": 7,
+        "oa_works_count": 0,
+        "cited_by_count": 111
+      },
+      {
+        "year": 1992,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 135
+      },
+      {
+        "year": 1993,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 165
+      },
+      {
+        "year": 1994,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 202
+      },
+      {
+        "year": 1995,
+        "works_count": 7,
+        "oa_works_count": 1,
+        "cited_by_count": 87
+      },
+      {
+        "year": 1996,
+        "works_count": 11,
+        "oa_works_count": 0,
+        "cited_by_count": 105
+      },
+      {
+        "year": 1997,
+        "works_count": 12,
+        "oa_works_count": 0,
+        "cited_by_count": 322
+      },
+      {
+        "year": 1998,
+        "works_count": 14,
+        "oa_works_count": 0,
+        "cited_by_count": 252
+      },
+      {
+        "year": 1999,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 287
+      },
+      {
+        "year": 2000,
+        "works_count": 12,
+        "oa_works_count": 0,
+        "cited_by_count": 383
+      },
+      {
+        "year": 2001,
+        "works_count": 10,
+        "oa_works_count": 0,
+        "cited_by_count": 230
+      },
+      {
+        "year": 2002,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 265
+      },
+      {
+        "year": 2003,
+        "works_count": 15,
+        "oa_works_count": 0,
+        "cited_by_count": 302
+      },
+      {
+        "year": 2004,
+        "works_count": 15,
+        "oa_works_count": 1,
+        "cited_by_count": 460
+      },
+      {
+        "year": 2005,
+        "works_count": 21,
+        "oa_works_count": 0,
+        "cited_by_count": 469
+      },
+      {
+        "year": 2006,
+        "works_count": 8,
+        "oa_works_count": 0,
+        "cited_by_count": 91
+      },
+      {
+        "year": 2007,
+        "works_count": 11,
+        "oa_works_count": 1,
+        "cited_by_count": 348
+      },
+      {
+        "year": 2008,
+        "works_count": 13,
+        "oa_works_count": 1,
+        "cited_by_count": 284
+      },
+      {
+        "year": 2009,
+        "works_count": 10,
+        "oa_works_count": 1,
+        "cited_by_count": 187
+      },
+      {
+        "year": 2010,
+        "works_count": 12,
+        "oa_works_count": 1,
+        "cited_by_count": 319
+      },
+      {
+        "year": 2011,
+        "works_count": 14,
+        "oa_works_count": 3,
+        "cited_by_count": 224
+      },
+      {
+        "year": 2012,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 95
+      },
+      {
+        "year": 2013,
+        "works_count": 11,
+        "oa_works_count": 4,
+        "cited_by_count": 105
+      },
+      {
+        "year": 2014,
+        "works_count": 10,
+        "oa_works_count": 3,
+        "cited_by_count": 254
+      },
+      {
+        "year": 2015,
+        "works_count": 14,
+        "oa_works_count": 8,
+        "cited_by_count": 310
+      },
+      {
+        "year": 2016,
+        "works_count": 7,
+        "oa_works_count": 3,
+        "cited_by_count": 105
+      },
+      {
+        "year": 2017,
+        "works_count": 9,
+        "oa_works_count": 1,
+        "cited_by_count": 161
+      },
+      {
+        "year": 2018,
+        "works_count": 10,
+        "oa_works_count": 2,
+        "cited_by_count": 66
+      },
+      {
+        "year": 2019,
+        "works_count": 12,
+        "oa_works_count": 7,
+        "cited_by_count": 158
+      },
+      {
+        "year": 2020,
+        "works_count": 7,
+        "oa_works_count": 1,
+        "cited_by_count": 89
+      },
+      {
+        "year": 2021,
+        "works_count": 12,
+        "oa_works_count": 4,
+        "cited_by_count": 141
+      },
+      {
+        "year": 2022,
+        "works_count": 8,
+        "oa_works_count": 2,
+        "cited_by_count": 39
+      },
+      {
+        "year": 2023,
+        "works_count": 6,
+        "oa_works_count": 3,
+        "cited_by_count": 47
+      },
+      {
+        "year": 2024,
+        "works_count": 10,
+        "oa_works_count": 4,
+        "cited_by_count": 21
+      },
+      {
+        "year": 2025,
+        "works_count": 8,
+        "oa_works_count": 5,
+        "cited_by_count": 23
+      }
+    ],
+    "display_name_alternatives": [
+      "W T Tysoe",
+      "W. T. TYSOE",
+      "W. T. Tysoe",
+      "W. Tysoe",
+      "W.T Tysoe",
+      "W.T. Tysoe",
+      "W.T. Tysoe*",
+      "Wilfred  T. Tysoe",
+      "Wilfred T Tysoe",
+      "Wilfred T. Tysoe",
+      "Wilfred Tjalke Tysoe",
+      "Wilfred Tysoe",
+      "Wilfred. T. Tysoe"
+    ],
+    "block_key": "w tysoe",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5016512168",
+    "updated_date": "2026-04-08T18:54:32",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": null
+}

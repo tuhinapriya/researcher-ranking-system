@@ -1,0 +1,73 @@
+{
+  "author_id": "A5006446297",
+  "total_recent_works_analysed": 20,
+  "total_unique_collaborators": 117,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.7,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Alec Radford",
+      "id": "A5051250767",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "Mark Chen",
+      "id": "A5030935953",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Aditya Ramesh",
+      "id": "A5101696375",
+      "shared_papers": 8,
+      "same_institution": false
+    },
+    {
+      "name": "Heewoo Jun",
+      "id": "A5065707162",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Rewon Child",
+      "id": "A5084512458",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Gabriel Goh",
+      "id": "A5108118480",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Scott Gray",
+      "id": "A5026541761",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Prafulla Dhariwal",
+      "id": "A5076418776",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Jan Leike",
+      "id": "A5090592321",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Jeffrey Wu",
+      "id": "A5081413425",
+      "shared_papers": 3,
+      "same_institution": false
+    }
+  ]
+}

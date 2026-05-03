@@ -1,0 +1,86 @@
+{
+  "author_id": "A5001445783",
+  "total_recent_works_analysed": 219,
+  "total_unique_collaborators": 436,
+  "estimated_mentee_count": 2,
+  "likely_mentees": [
+    {
+      "name": "Erhu He",
+      "id": "A5082048859",
+      "works_count": 17,
+      "shared_papers": 16
+    },
+    {
+      "name": "Chonghao Qiu",
+      "id": "A5090105992",
+      "works_count": 10,
+      "shared_papers": 7
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.29,
+    "corresponding_author_ratio": 0.1
+  },
+  "top_collaborators": [
+    {
+      "name": "Vipin Kumar",
+      "id": "A5100645812",
+      "shared_papers": 58,
+      "same_institution": true
+    },
+    {
+      "name": "Yiqun Xie",
+      "id": "A5049041437",
+      "shared_papers": 55,
+      "same_institution": false
+    },
+    {
+      "name": "Zhenong Jin",
+      "id": "A5078798454",
+      "shared_papers": 29,
+      "same_institution": false
+    },
+    {
+      "name": "Shaoming Xu",
+      "id": "A5074305244",
+      "shared_papers": 26,
+      "same_institution": true
+    },
+    {
+      "name": "Shengyu Chen",
+      "id": "A5103181412",
+      "shared_papers": 26,
+      "same_institution": true
+    },
+    {
+      "name": "Jacob A. Zwart",
+      "id": "A5005617262",
+      "shared_papers": 23,
+      "same_institution": true
+    },
+    {
+      "name": "Jordan S. Read",
+      "id": "A5044490476",
+      "shared_papers": 21,
+      "same_institution": false
+    },
+    {
+      "name": "Alison Appling",
+      "id": "A5064758683",
+      "shared_papers": 21,
+      "same_institution": true
+    },
+    {
+      "name": "Michael Steinbach",
+      "id": "A5089436894",
+      "shared_papers": 20,
+      "same_institution": true
+    },
+    {
+      "name": "Rahul Ghosh",
+      "id": "A5101940087",
+      "shared_papers": 20,
+      "same_institution": true
+    }
+  ]
+}

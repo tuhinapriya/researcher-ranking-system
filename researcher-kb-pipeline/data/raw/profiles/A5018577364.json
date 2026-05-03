@@ -1,0 +1,499 @@
+{
+  "author_id": "A5018577364",
+  "openalex": {
+    "id": "https://openalex.org/A5018577364",
+    "orcid": "https://orcid.org/0000-0002-5610-5560",
+    "display_name": "Sang Do Noh",
+    "raw_author_names": [
+      "Noh, Sang Do",
+      "S. D. Noh",
+      "S.D. Noh",
+      "San Do Noh",
+      "Sang D Noh",
+      "Sang Do Noh",
+      "Sang Noh",
+      "Sang do Noh",
+      "Sang-Do Noh",
+      "Sangdo Noh"
+    ],
+    "full_name": "Noh, Sang Do",
+    "works_count": 183,
+    "cited_by_count": 4201,
+    "summary_stats": {
+      "2yr_mean_citedness": 6.2105263157894735,
+      "h_index": 28,
+      "i10_index": 58
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5018577364",
+      "orcid": "https://orcid.org/0000-0002-5610-5560"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I39555362",
+          "ror": "https://ror.org/01a77tt86",
+          "display_name": "University of Warwick",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39555362"
+          ]
+        },
+        "years": [
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I848706",
+          "ror": "https://ror.org/04q78tk20",
+          "display_name": "Sungkyunkwan University",
+          "country_code": "KR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I848706"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2005,
+          2004,
+          2003,
+          2002
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I848706",
+        "ror": "https://ror.org/04q78tk20",
+        "display_name": "Sungkyunkwan University",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I848706"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11159",
+        "display_name": "Manufacturing Process and Optimization",
+        "count": 85,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10763",
+        "display_name": "Digital Transformation in Industry",
+        "count": 76,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11741",
+        "display_name": "Flexible and Reconfigurable Manufacturing Systems",
+        "count": 48,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11814",
+        "display_name": "Advanced Manufacturing and Logistics Optimization",
+        "count": 23,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12782",
+        "display_name": "Assembly Line Balancing Optimization",
+        "count": 23,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10763",
+        "display_name": "Digital Transformation in Industry",
+        "value": 0.0006115,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12782",
+        "display_name": "Assembly Line Balancing Optimization",
+        "value": 0.000311,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11741",
+        "display_name": "Flexible and Reconfigurable Manufacturing Systems",
+        "value": 0.000265,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13722",
+        "display_name": "Ergonomics and Human Factors",
+        "value": 0.0002279,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11159",
+        "display_name": "Manufacturing Process and Optimization",
+        "value": 0.0001865,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "117671659",
+        "wikidata": "https://www.wikidata.org/wiki/Q11049265",
+        "display_name": "Manufacturing engineering",
+        "score": 0.8289347887039185
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8034768104553223
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.7003216743469238
+      },
+      {
+        "id": "111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "score": 0.3233534097671509
+      },
+      {
+        "id": "162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "score": 0.1563650369644165
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1995,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 4
+      },
+      {
+        "year": 1997,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 46
+      },
+      {
+        "year": 2001,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2002,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 31
+      },
+      {
+        "year": 2003,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2004,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2005,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 21
+      },
+      {
+        "year": 2006,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2007,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2008,
+        "works_count": 8,
+        "oa_works_count": 0,
+        "cited_by_count": 45
+      },
+      {
+        "year": 2009,
+        "works_count": 7,
+        "oa_works_count": 0,
+        "cited_by_count": 42
+      },
+      {
+        "year": 2010,
+        "works_count": 10,
+        "oa_works_count": 0,
+        "cited_by_count": 106
+      },
+      {
+        "year": 2011,
+        "works_count": 6,
+        "oa_works_count": 2,
+        "cited_by_count": 51
+      },
+      {
+        "year": 2012,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 74
+      },
+      {
+        "year": 2013,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2014,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 137
+      },
+      {
+        "year": 2015,
+        "works_count": 5,
+        "oa_works_count": 2,
+        "cited_by_count": 463
+      },
+      {
+        "year": 2016,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 1342
+      },
+      {
+        "year": 2017,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2018,
+        "works_count": 9,
+        "oa_works_count": 3,
+        "cited_by_count": 272
+      },
+      {
+        "year": 2019,
+        "works_count": 12,
+        "oa_works_count": 2,
+        "cited_by_count": 488
+      },
+      {
+        "year": 2020,
+        "works_count": 10,
+        "oa_works_count": 5,
+        "cited_by_count": 326
+      },
+      {
+        "year": 2021,
+        "works_count": 12,
+        "oa_works_count": 4,
+        "cited_by_count": 275
+      },
+      {
+        "year": 2022,
+        "works_count": 9,
+        "oa_works_count": 7,
+        "cited_by_count": 133
+      },
+      {
+        "year": 2023,
+        "works_count": 10,
+        "oa_works_count": 5,
+        "cited_by_count": 36
+      },
+      {
+        "year": 2024,
+        "works_count": 21,
+        "oa_works_count": 10,
+        "cited_by_count": 129
+      },
+      {
+        "year": 2025,
+        "works_count": 17,
+        "oa_works_count": 9,
+        "cited_by_count": 107
+      }
+    ],
+    "display_name_alternatives": [
+      "Noh, Sang Do",
+      "S. D. Noh",
+      "S.D. Noh",
+      "San Do Noh",
+      "Sang D Noh",
+      "Sang Do Noh",
+      "Sang Noh",
+      "Sang do Noh",
+      "Sang-Do Noh",
+      "Sangdo Noh"
+    ],
+    "block_key": "s noh",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5018577364",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2240537759",
+    "externalIds": {
+      "DBLP": [
+        "Sang Do Noh"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/2240537759",
+    "name": "Sang Do Noh",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 13,
+    "citationCount": 139,
+    "hIndex": 7
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "author_id": "A5000577506",
+  "openalex": {
+    "id": "https://openalex.org/A5000577506",
+    "orcid": "https://orcid.org/0000-0001-6458-383X",
+    "display_name": "Jinkang Guo",
+    "raw_author_names": [
+      "Guo, Jinkang",
+      "Jinkang Guo"
+    ],
+    "full_name": "Guo, Jinkang",
+    "works_count": 9,
+    "cited_by_count": 134,
+    "summary_stats": {
+      "2yr_mean_citedness": 6.0,
+      "h_index": 6,
+      "i10_index": 6
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5000577506",
+      "orcid": "https://orcid.org/0000-0001-6458-383X"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I188538660",
+          "ror": "https://ror.org/02ttsq026",
+          "display_name": "University of Colorado Boulder",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I188538660"
+          ]
+        },
+        "years": [
+          2025,
+          2023,
+          2022
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I188538660",
+        "ror": "https://ror.org/02ttsq026",
+        "display_name": "University of Colorado Boulder",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I188538660"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11804",
+        "display_name": "Quantum many-body systems",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10425",
+        "display_name": "Cold Atom Physics and Bose-Einstein Condensates",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11520",
+        "display_name": "Advanced Thermodynamics and Statistical Mechanics",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10591",
+        "display_name": "Theoretical and Computational Physics",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11804",
+        "display_name": "Quantum many-body systems",
+        "value": 5.72e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "value": 1.77e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12261",
+        "display_name": "Statistical Mechanics and Entropy",
+        "value": 1.18e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10425",
+        "display_name": "Cold Atom Physics and Bose-Einstein Condensates",
+        "value": 1.14e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11520",
+        "display_name": "Advanced Thermodynamics and Statistical Mechanics",
+        "value": 1.05e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9467625617980957
+      },
+      {
+        "id": "121864883",
+        "wikidata": "https://www.wikidata.org/wiki/Q677916",
+        "display_name": "Statistical physics",
+        "score": 0.6171260476112366
+      },
+      {
+        "id": "84114770",
+        "wikidata": "https://www.wikidata.org/wiki/Q46344",
+        "display_name": "Quantum",
+        "score": 0.6115473508834839
+      },
+      {
+        "id": "62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "score": 0.5002250671386719
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.2887171506881714
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2022,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 53
+      },
+      {
+        "year": 2023,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 57
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2025,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 23
+      }
+    ],
+    "display_name_alternatives": [
+      "Guo, Jinkang",
+      "Jinkang Guo"
+    ],
+    "block_key": "j guo",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5000577506",
+    "updated_date": null,
+    "created_date": "2023-04-19T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "144854345",
+    "externalIds": {
+      "DBLP": [
+        "Jinkang Guo"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/144854345",
+    "name": "Jinkang Guo",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 16,
+    "citationCount": 308,
+    "hIndex": 8
+  }
+}

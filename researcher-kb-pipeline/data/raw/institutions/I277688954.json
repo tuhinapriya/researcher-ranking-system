@@ -1,0 +1,2498 @@
+{
+  "id": "https://openalex.org/I277688954",
+  "ror": "https://ror.org/03xjwb503",
+  "display_name": "Université Paris-Saclay",
+  "country_code": "FR",
+  "type": "education",
+  "type_id": "https://openalex.org/institution-types/education",
+  "lineage": [
+    "https://openalex.org/I277688954"
+  ],
+  "homepage_url": "http://www.universite-paris-saclay.fr/fr",
+  "image_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Logo%20Universit%C3%A9%20Paris-Saclay%20%28externe%29.svg",
+  "image_thumbnail_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Logo%20Universit%C3%A9%20Paris-Saclay%20%28externe%29.svg&width=300",
+  "display_name_acronyms": [],
+  "display_name_alternatives": [
+    "Paris-Saclayko Unibertsitatea",
+    "Universitat París-Saclay",
+    "University of Paris-Saclay",
+    "Université Paris-Saclay"
+  ],
+  "repositories": [
+    {
+      "id": "https://openalex.org/S4306402354",
+      "display_name": "ARThèque (IUT CACHAN)",
+      "host_organization": "https://openalex.org/I277688954",
+      "host_organization_name": "Université Paris-Saclay",
+      "host_organization_lineage": [
+        "https://openalex.org/I277688954"
+      ]
+    }
+  ],
+  "works_count": 164234,
+  "cited_by_count": 14022934,
+  "summary_stats": {
+    "2yr_mean_citedness": 3.294181043280889,
+    "h_index": 1045,
+    "i10_index": 196147
+  },
+  "ids": {
+    "openalex": "https://openalex.org/I277688954",
+    "ror": "https://ror.org/03xjwb503",
+    "grid": "grid.460789.4",
+    "wikipedia": "https://en.wikipedia.org/wiki/University_of_Paris-Saclay",
+    "wikidata": "Q109409389"
+  },
+  "geo": {
+    "city": "Gif-sur-Yvette",
+    "geonames_city_id": "3016078",
+    "region": "Île-de-France",
+    "country_code": "FR",
+    "country": "France",
+    "latitude": 48.68333,
+    "longitude": 2.13333
+  },
+  "international": {},
+  "associated_institutions": [
+    {
+      "id": "https://openalex.org/I11559806",
+      "ror": "https://ror.org/00hx6zz33",
+      "display_name": "École Normale Supérieure Paris-Saclay",
+      "country_code": "FR",
+      "type": "education",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I1298838906",
+      "ror": "https://ror.org/02st4q439",
+      "display_name": "Institut de Chimie des Substances Naturelles",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I195731000",
+      "ror": "https://ror.org/03mkjjy25",
+      "display_name": "Université de Versailles Saint-Quentin-en-Yvelines",
+      "country_code": "FR",
+      "type": "education",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I22248866",
+      "ror": "https://ror.org/02kbmgc12",
+      "display_name": "AgroParisTech",
+      "country_code": "FR",
+      "type": "education",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I2799857465",
+      "ror": "https://ror.org/02dyaew97",
+      "display_name": "Laboratoire de physique des Solides",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I3017594750",
+      "ror": "https://ror.org/0471cyx86",
+      "display_name": "Microbiologie de l’alimentation au service de la santé",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I3019441195",
+      "ror": "https://ror.org/03ab0zs98",
+      "display_name": "Laboratoire de Mathématiques d'Orsay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I3019908861",
+      "ror": "https://ror.org/02xnnng09",
+      "display_name": "Laboratoire de Génie Électrique et Électronique de Paris",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210085861",
+      "ror": "https://ror.org/000dbcc61",
+      "display_name": "Laboratoire d'Intégration des Systèmes et des Technologies",
+      "country_code": "FR",
+      "type": "government",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210085925",
+      "ror": "https://ror.org/004yvsb77",
+      "display_name": "Centre National de Recherche en Génomique Humaine",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4210086740",
+      "ror": "https://ror.org/002v40q27",
+      "display_name": "Institut des Neurosciences Paris-Saclay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210090571",
+      "ror": "https://ror.org/00ajjta07",
+      "display_name": "Institut des Sciences des Plantes de Paris Saclay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210091490",
+      "ror": "https://ror.org/00kk89y84",
+      "display_name": "Ecologie, Société, Evolution",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210091746",
+      "ror": "https://ror.org/00d0rke27",
+      "display_name": "Institut d’Optique Graduate School",
+      "country_code": "FR",
+      "type": "education",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210093696",
+      "ror": "https://ror.org/00k3ph542",
+      "display_name": "Complexité, Innovation et Activités Motrices et Sportives",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210097418",
+      "ror": "https://ror.org/00skw9v43",
+      "display_name": "Laboratoire des signaux et systèmes",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210097733",
+      "ror": "https://ror.org/00w67e447",
+      "display_name": "Laboratoire de Physique Théorique et Modèles Statistiques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210098344",
+      "ror": "https://ror.org/012fqzm33",
+      "display_name": "Génétique Quantitative et Évolution Le Moulon",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210100071",
+      "ror": "https://ror.org/011abem59",
+      "display_name": "Évolution, Génomes, Comportement, Écologie",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210100562",
+      "ror": "https://ror.org/00zay3w86",
+      "display_name": "Centre de Nanosciences et de Nanotechnologies",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210103046",
+      "ror": "https://ror.org/01b436806",
+      "display_name": "CIRED",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210103272",
+      "ror": "https://ror.org/014p8mr66",
+      "display_name": "Institut d'Astrophysique Spatiale",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210103698",
+      "ror": "https://ror.org/01ed4t417",
+      "display_name": "Centre de recherche en Epidémiologie et Santé des Populations",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210105932",
+      "ror": "https://ror.org/01bn5c048",
+      "display_name": "Laboratoire de Photonique Quantique et Moléculaire",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210106344",
+      "ror": "https://ror.org/01et6g203",
+      "display_name": "Hypertension pulmonaire : physiopathologie et innovation thérapeutique",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210106617",
+      "ror": "https://ror.org/01fftxe08",
+      "display_name": "Institut de Biologie Intégrative de la Cellule",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210106963",
+      "ror": "https://ror.org/01b5rtm37",
+      "display_name": "Intégrité du génome, ARN et cancer",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210107368",
+      "ror": "https://ror.org/01wqd6v19",
+      "display_name": "Institut Jean-Pierre Bourgin",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210107720",
+      "ror": "https://ror.org/019tcpt25",
+      "display_name": "CentraleSupélec",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210107733",
+      "ror": "https://ror.org/01aqxgr98",
+      "display_name": "Informatique, BioInformatique, Systèmes Complexes",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210108708",
+      "ror": "https://ror.org/01z6yh944",
+      "display_name": "Écologie Fonctionnelle et Écotoxicologie des Agroécosystèmes",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210109968",
+      "ror": "https://ror.org/016r2hq43",
+      "display_name": "Laboratoire de Chimie Physique",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210115729",
+      "ror": "https://ror.org/021xexe56",
+      "display_name": "Laboratoire Aimé Cotton",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210117966",
+      "ror": "https://ror.org/02mnw9q71",
+      "display_name": "Institut Galien Paris-Saclay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210118056",
+      "ror": "https://ror.org/02byv2846",
+      "display_name": "Fluides, Automatique et Systèmes Thermiques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210120156",
+      "ror": "https://ror.org/02erddr56",
+      "display_name": "Laboratoire Albert Fert",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210121618",
+      "ror": "https://ror.org/0211r2z47",
+      "display_name": "Institut des Sciences Moléculaires d'Orsay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210125654",
+      "ror": "https://ror.org/03jv6w209",
+      "display_name": "Maison de la Simulation",
+      "country_code": "FR",
+      "type": "government",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210128565",
+      "ror": "https://ror.org/03n15ch10",
+      "display_name": "CEA Paris-Saclay",
+      "country_code": "FR",
+      "type": "government",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210129272",
+      "ror": "https://ror.org/03rkgeb39",
+      "display_name": "Génétique Animale et Biologie Intégrative",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210134313",
+      "ror": "https://ror.org/049q30t56",
+      "display_name": "Biologie et gestion des champignons phytopathogènes",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210134356",
+      "ror": "https://ror.org/0455wwj08",
+      "display_name": "Laboratoire Génie Industriel",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210134531",
+      "ror": "https://ror.org/043f5vc59",
+      "display_name": "Physiologie de la Nutrition et du Comportement Alimentaire",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210134832",
+      "ror": "https://ror.org/03gc1p724",
+      "display_name": "Laboratoire de Physique des 2 Infinis Irène Joliot-Curie",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210134955",
+      "ror": "https://ror.org/04bgjpg77",
+      "display_name": "Laboratoire de Physique des Gaz et des Plasmas",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210136114",
+      "ror": "https://ror.org/046hjmc37",
+      "display_name": "Laboratoire Charles Fabry",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210136613",
+      "ror": "https://ror.org/03vam5b06",
+      "display_name": "Laboratoire des systèmes et applications des technologies de l'information et de l'énergie",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210146095",
+      "ror": "https://ror.org/03s92mv58",
+      "display_name": "Geosciences Paris-Saclay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210148039",
+      "ror": "https://ror.org/03ka94606",
+      "display_name": "Hemostase Inflammation Thrombosis",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210148430",
+      "ror": "https://ror.org/040bzgy82",
+      "display_name": "Unité d'Appui et de Recherche OSUPS",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210151175",
+      "ror": "https://ror.org/04g9rt435",
+      "display_name": "Institut des Cellules Souches pour le Traitement et l'Étude des Maladies Monogéniques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210151406",
+      "ror": "https://ror.org/05c95bg36",
+      "display_name": "Laboratoire de Physique des Plasmas",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210151467",
+      "ror": "https://ror.org/05wzh1m37",
+      "display_name": "Institut de Chimie Moléculaire et des Matériaux d'Orsay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210151930",
+      "ror": "https://ror.org/04dy97z61",
+      "display_name": "Laboratoire Interactions, Dynamiques et Lasers",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210161675",
+      "ror": "https://ror.org/03sypqe31",
+      "display_name": "Systèmes Membranaires, Photobiologie, Stress et Détoxication",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210162761",
+      "ror": "https://ror.org/05dpfhh73",
+      "display_name": "Interactions Cellulaires et Physiopathologie Hépathique",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210166021",
+      "ror": "https://ror.org/05mfwtg94",
+      "display_name": "Biologie de la Reproduction, Environnement, Epigénétique et Développement",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4210166412",
+      "ror": "https://ror.org/05dy6wv04",
+      "display_name": "Inflammation, Microbiome and Immunosurveillance",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387152196",
+      "ror": "https://ror.org/0266c5p67",
+      "display_name": "Immunologie intégrative des tumeurs et immunothérapie du cancer",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387152541",
+      "ror": "https://ror.org/007y9b339",
+      "display_name": "Centre de Recherche en Design",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387152683",
+      "ror": "https://ror.org/03q29s414",
+      "display_name": "Mathématiques et Informatique pour la Complexité et les Systèmes",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387152811",
+      "ror": "https://ror.org/00jp5dw81",
+      "display_name": "Radiothérapie Moléculaire et Innovation Thérapeutique",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387152856",
+      "ror": "https://ror.org/00rd81916",
+      "display_name": "Laboratoire Interdisciplinaire des Sciences du Numérique",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387152861",
+      "ror": "https://ror.org/00nvvw130",
+      "display_name": "Stabilité Génétique, Cellules Souches et Radiations",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387152877",
+      "ror": "https://ror.org/00az7j379",
+      "display_name": "Laboratoire des Maladies Neurodégénératives",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387152901",
+      "ror": "https://ror.org/05kz79f96",
+      "display_name": "Physiologie et Physiopathlogie Endocriniennes",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387153087",
+      "ror": "https://ror.org/00780az30",
+      "display_name": "Mathématiques et Informatique Appliquées",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387153260",
+      "ror": "https://ror.org/01earvv39",
+      "display_name": "Prédicteurs moléculaires et nouvelles cibles en oncologie",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387153276",
+      "ror": "https://ror.org/02nfq1309",
+      "display_name": "Chimie et Modélisation pour la Biologie du Cancer",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387153294",
+      "ror": "https://ror.org/048d5xq24",
+      "display_name": "Laboratoire Lumière, Matière et Interfaces",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387153514",
+      "ror": "https://ror.org/00p73bw06",
+      "display_name": "Contrôle transcriptionnel et épigénétique de l’hématopoïèse maligne",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387153626",
+      "ror": "https://ror.org/05wjc8a85",
+      "display_name": "Laboratoire Universitaire de Recherche en Production Automatisée",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387154051",
+      "ror": "https://ror.org/0449rap84",
+      "display_name": "Laboratoire de Biologie de l'Exercice pour la Performance et la Santé",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387154117",
+      "ror": "https://ror.org/01zrk7293",
+      "display_name": "Physiopathogénèse et Traitement des Maladies du Foie",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387154163",
+      "ror": "https://ror.org/01cmdgj85",
+      "display_name": "Sciences pour l'Action et le Développement : Activités, Produits, Territoires",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387154672",
+      "ror": "https://ror.org/00gdtta79",
+      "display_name": "Laboratoire Méthodes Formelles",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387155244",
+      "ror": "https://ror.org/01t05f005",
+      "display_name": "Laboratoire Structures, Propriétés et Modélisation des Solides",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387155360",
+      "ror": "https://ror.org/03gmkya61",
+      "display_name": "Paris-Saclay Food and Bioproduct Engineering Research Unit",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387155813",
+      "ror": "https://ror.org/02cptmd52",
+      "display_name": "Agronomie",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387156055",
+      "ror": "https://ror.org/0050cbz19",
+      "display_name": "Modélisation Systémique Appliquée aux Ruminants",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4387156449",
+      "ror": "https://ror.org/04g0ktq11",
+      "display_name": "Bibliothèque Jacques Hadamard",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4389425219",
+      "ror": "https://ror.org/03qgfy688",
+      "display_name": "Fédération Ile de France de recherche sur l'environnement",
+      "country_code": "FR",
+      "type": "other",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4389425231",
+      "ror": "https://ror.org/02r1kz177",
+      "display_name": "Bioinformatique Moléculaire",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4389425250",
+      "ror": "https://ror.org/05hb8m595",
+      "display_name": "PHOTOSYNTHESE",
+      "country_code": null,
+      "type": "other",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4389425281",
+      "ror": "https://ror.org/01x6z5t49",
+      "display_name": "Fédération de Recherche Spectroscopies de Photoémission",
+      "country_code": "FR",
+      "type": "other",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4389425322",
+      "ror": "https://ror.org/0459fdx51",
+      "display_name": "Fédération de Recherche sur l'Energie Solaire",
+      "country_code": "FR",
+      "type": "other",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4389425405",
+      "ror": "https://ror.org/04yem5s35",
+      "display_name": "INFRANALYTICS",
+      "country_code": null,
+      "type": "other",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4389425406",
+      "ror": "https://ror.org/01bbf9m56",
+      "display_name": "Fédération Francilienne de Mécanique - Matériaux, Structures, Procédés",
+      "country_code": "FR",
+      "type": "other",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4389425470",
+      "ror": "https://ror.org/01nrtdp55",
+      "display_name": "GDR NBODY : Problème quantique à N corps en chimie et physique",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4390039244",
+      "ror": "https://ror.org/01jdptv64",
+      "display_name": "Laboratoire interdisciplinaire sur les mutations des espaces économiques et politiques - Paris Saclay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4390039248",
+      "ror": "https://ror.org/023b2c435",
+      "display_name": "Laboratoire Anthropologie, Archéologie, Biologie",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4390039270",
+      "ror": "https://ror.org/05r0mw364",
+      "display_name": "Biomarqueurs et essais cliniques en Cancérologie et Onco-Hématologie",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4390039315",
+      "ror": "https://ror.org/008hxwy89",
+      "display_name": "Institut de recherches arctiques Jean Malaurie",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4390039320",
+      "ror": "https://ror.org/023bv6t84",
+      "display_name": "Equipe de recherche paramédicale sur le handicap neuromoteur",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4390039330",
+      "ror": "https://ror.org/0087n5v55",
+      "display_name": "Centre d’histoire culturelle des sociétés contemporaines",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4390039343",
+      "ror": "https://ror.org/00ex3jm11",
+      "display_name": "Cohortes épidémiologiques en population",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4391768231",
+      "ror": "https://ror.org/035gq6r08",
+      "display_name": "Laboratoire d'Excellence en Recherche sur le Médicament et l'Innovation Thérapeutique",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4400009011",
+      "ror": "https://ror.org/01p9mtd45",
+      "display_name": "Paris-Saclay Applied Economics",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4403928267",
+      "ror": "https://ror.org/02bkw1m29",
+      "display_name": "International Laboratory on Learning Systems",
+      "country_code": null,
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4403928347",
+      "ror": "https://ror.org/03r83qv57",
+      "display_name": "France Cohortes",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405252902",
+      "ror": "https://ror.org/003ene322",
+      "display_name": "Laboratoire de recherche européen pour la polyarthrite rhumatoïde",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405252931",
+      "ror": "https://ror.org/004k6zk54",
+      "display_name": "Structure et activité des biomolécules normales et pathologiques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405253064",
+      "ror": "https://ror.org/008y7px84",
+      "display_name": "Groupe de recherche et d'accueil en droit et économie de la santé",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405253090",
+      "ror": "https://ror.org/00a2n7220",
+      "display_name": "Études sur les Sciences et les Techniques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405253309",
+      "ror": "https://ror.org/00hhhr502",
+      "display_name": "Laboratoire AntiDopage Français",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405253846",
+      "ror": "https://ror.org/0152wf839",
+      "display_name": "Dynamique des Cellules Tumorales",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254014",
+      "ror": "https://ror.org/01aexyw02",
+      "display_name": "Droit & sociétés religieuses",
+      "country_code": "FR",
+      "type": "education",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254077",
+      "ror": "https://ror.org/01cqp7y05",
+      "display_name": "Synergies Langues Arts Musique",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254206",
+      "ror": "https://ror.org/01hym1a89",
+      "display_name": "Maison des Sciences sociales et des Humanités de Paris-Saclay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254332",
+      "ror": "https://ror.org/01pjhvt09",
+      "display_name": "Transgénèse pour les études fonctionnelles sur les organismes modèles - Paris-Saclay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254364",
+      "ror": "https://ror.org/01qgrh175",
+      "display_name": "Prévention du risque chimique",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254573",
+      "ror": "https://ror.org/01zj5sk64",
+      "display_name": "Institut droit éthique patrimoine",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254696",
+      "ror": "https://ror.org/024c3xj78",
+      "display_name": "Maladies et hormones du système nerveux",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254847",
+      "ror": "https://ror.org/02a849f66",
+      "display_name": "Signalisation, radiobiologie et cancer",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405254867",
+      "ror": "https://ror.org/02b9d0n72",
+      "display_name": "Supélec ONERA DSTA Research Alliance",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405255064",
+      "ror": "https://ror.org/02jz7m443",
+      "display_name": "Institut du développement et des ressources en informatique scientifique",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405255292",
+      "ror": "https://ror.org/02v6n0329",
+      "display_name": "Lipides: systèmes analytiques et biologiques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405255443",
+      "ror": "https://ror.org/030sqvy05",
+      "display_name": "Laboratoire de Signalisation et Physiopathologie Cardiovasculaire",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405255658",
+      "ror": "https://ror.org/038x32w97",
+      "display_name": "Chronothérapie, cancers et transplantation",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405255793",
+      "ror": "https://ror.org/03e75qp68",
+      "display_name": "Immunologie anti-tumorale et immunothérapie des cancers",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405255799",
+      "ror": "https://ror.org/03ef0j886",
+      "display_name": "Analyse moléculaire, modélisation et imagerie de la maladie cancéreuse",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405255986",
+      "ror": "https://ror.org/03mshhe73",
+      "display_name": "Modèles de cellules souches malignes et thérapeutiques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256243",
+      "ror": "https://ror.org/03ym7bm55",
+      "display_name": "RITM Research Center in Economics & Management",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256356",
+      "ror": "https://ror.org/0429gcg78",
+      "display_name": "Institut d'Etudes de Droit Public",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256392",
+      "ror": "https://ror.org/043k3s342",
+      "display_name": "Centre de Vision Numérique",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256449",
+      "ror": "https://ror.org/045ye0b30",
+      "display_name": "Aspects métaboliques et systémiques de l'oncogénèse pour de nouvelles approches thérapeutiques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256493",
+      "ror": "https://ror.org/047kfvz78",
+      "display_name": "Institut Droit, Espaces et Technologies",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256661",
+      "ror": "https://ror.org/04dkt3v19",
+      "display_name": "Centre for Economics at Paris-Saclay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256734",
+      "ror": "https://ror.org/04g07g074",
+      "display_name": "Radiation Protection, Safety, Dismantling engineering",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405256918",
+      "ror": "https://ror.org/04p1n4n05",
+      "display_name": "Matériaux et santé",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257023",
+      "ror": "https://ror.org/04t35mq24",
+      "display_name": "Laboratoire de Génie des Procédés et Matériaux",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257093",
+      "ror": "https://ror.org/04wbdez64",
+      "display_name": "Laboratoire Alexander Grothendieck",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257098",
+      "ror": "https://ror.org/04wkrkf28",
+      "display_name": "Cellules souches hématopoïétiques et développement des hémopathies myéloïdes",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257261",
+      "ror": "https://ror.org/052rhgg57",
+      "display_name": "Institut Biomédical du Val de Bièvre",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257289",
+      "ror": "https://ror.org/053t9n429",
+      "display_name": "Biomolécules : Conception, Isolement, Synthèse",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257309",
+      "ror": "https://ror.org/054bkz707",
+      "display_name": "Research Lab in Computer Science",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257443",
+      "ror": "https://ror.org/059bq3232",
+      "display_name": "Ingénierie et Plateformes au Service de l'Innovation Thérapeutique",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257509",
+      "ror": "https://ror.org/05bgatk16",
+      "display_name": "Intégrité du génome et cancers",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257681",
+      "ror": "https://ror.org/05jekdj60",
+      "display_name": "Centre d'Imagerie Multimodale",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257699",
+      "ror": "https://ror.org/05k000j23",
+      "display_name": "Laboratoire de Mécanique et d'Energétique d'Évry",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257733",
+      "ror": "https://ror.org/05ktpad22",
+      "display_name": "Centre Pierre Naville",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257810",
+      "ror": "https://ror.org/05pv75449",
+      "display_name": "Psychiatrie-Comorbidités-Addictions",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405257812",
+      "ror": "https://ror.org/05pwqr258",
+      "display_name": "Interactions Cellules souches-niches: physiologie, tumeurs et réparation tissulaire",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405258091",
+      "ror": "https://ror.org/003cnsp62",
+      "display_name": "Service de Thermo-hydraulique et de Mécanique des Fluides",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405258308",
+      "ror": "https://ror.org/00ern2s92",
+      "display_name": "Département de Physique Nucléaire",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405258465",
+      "ror": "https://ror.org/00psvvh49",
+      "display_name": "Laboratoire en Informatique Haute Performance pour le Calcul et la simulation",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405258607",
+      "ror": "https://ror.org/00z75hn32",
+      "display_name": "Service de Génie Logiciel pour la Simulation",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405258682",
+      "ror": "https://ror.org/012bkhy33",
+      "display_name": "Molecular Imaging Research Center",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405258682",
+      "ror": "https://ror.org/012bkhy33",
+      "display_name": "Molecular Imaging Research Center",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405258750",
+      "ror": "https://ror.org/0152dat82",
+      "display_name": "Service de Radiobiologie Expérimentale et Innovation Technologiques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405258750",
+      "ror": "https://ror.org/0152dat82",
+      "display_name": "Service de Radiobiologie Expérimentale et Innovation Technologiques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405258849",
+      "ror": "https://ror.org/019w82839",
+      "display_name": "Service Cellules Souches et Radiation",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405258849",
+      "ror": "https://ror.org/019w82839",
+      "display_name": "Service Cellules Souches et Radiation",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405259047",
+      "ror": "https://ror.org/01mxn9q79",
+      "display_name": "Laboratoire d'Imagerie Biomédicale Multimodale Paris-Saclay",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405259396",
+      "ror": "https://ror.org/0266cgx57",
+      "display_name": "Département d'Electronique des Détecteurs et d'Informatique pour la Physique",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405259850",
+      "ror": "https://ror.org/02vbhxm52",
+      "display_name": "Service Développement Radiation et Réparation",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405259850",
+      "ror": "https://ror.org/02vbhxm52",
+      "display_name": "Service Développement Radiation et Réparation",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405260000",
+      "ror": "https://ror.org/0327z0p26",
+      "display_name": "Building large instruments for neuroimaging: from population imaging to ultra-high magnetic fields",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405260062",
+      "ror": "https://ror.org/035xy2s54",
+      "display_name": "Département d'Ingénierie des Systèmes",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405260195",
+      "ror": "https://ror.org/03d07zf92",
+      "display_name": "Service Instabilité Génétique, Réparation, Recombinaison",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405260195",
+      "ror": "https://ror.org/03d07zf92",
+      "display_name": "Service Instabilité Génétique, Réparation, Recombinaison",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405260218",
+      "ror": "https://ror.org/03e0fmc37",
+      "display_name": "Service de Recherche en Matériaux et procédés Avancés",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405260323",
+      "ror": "https://ror.org/03k074y09",
+      "display_name": "Institut de Technico-Économie des systèmes Énergétiques",
+      "country_code": "FR",
+      "type": "government",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405260353",
+      "ror": "https://ror.org/03m5vq622",
+      "display_name": "Centre de RÉférence, d'Innovation, d'eXpertise et de transfert",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405260379",
+      "ror": "https://ror.org/03ns8gk42",
+      "display_name": "Laboratoire Matière en Conditions Extrêmes",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405260496",
+      "ror": "https://ror.org/03v581z64",
+      "display_name": "Service d'Etude des Prions et des Infections Atypiques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405260496",
+      "ror": "https://ror.org/03v581z64",
+      "display_name": "Service d'Etude des Prions et des Infections Atypiques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405260567",
+      "ror": "https://ror.org/03yz9dq27",
+      "display_name": "Laboratoire de Recherche sur les Sciences de la Matière",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405260686",
+      "ror": "https://ror.org/044843a98",
+      "display_name": "Service d'Étude des Réacteurs et de Mathématiques Appliquées",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405260738",
+      "ror": "https://ror.org/046s64z12",
+      "display_name": "Médicaments et Technologies pour la Santé",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405260817",
+      "ror": "https://ror.org/04akdr244",
+      "display_name": "Unité de recherche en neuroimagerie applicative clinique et translationnelle",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405260817",
+      "ror": "https://ror.org/04akdr244",
+      "display_name": "Unité de recherche en neuroimagerie applicative clinique et translationnelle",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405260931",
+      "ror": "https://ror.org/04ge2hn26",
+      "display_name": "Immunologie des Maladies Virales, Auto-immunes, Hématologiques et Bactériennes",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405261195",
+      "ror": "https://ror.org/04y9y5354",
+      "display_name": "Service d'Etudes Mécaniques et Thermiques",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405261467",
+      "ror": "https://ror.org/05bjjq434",
+      "display_name": "Service de Recherche en Corrosion et Comportement des Matériaux",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405261481",
+      "ror": "https://ror.org/05c4ttx26",
+      "display_name": "Service d'Étude des Matériaux Irradiés",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405261521",
+      "ror": "https://ror.org/05e5ch838",
+      "display_name": "Département des Accélérateurs, de Cryogénie et de Magnétisme",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405261698",
+      "ror": "https://ror.org/05q5cyp41",
+      "display_name": "Département de Physique des Particules",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I4405262000",
+      "ror": "https://ror.org/00seqzr32",
+      "display_name": "Service de Physico-Chimie",
+      "country_code": "FR",
+      "type": "facility",
+      "relationship": "related"
+    },
+    {
+      "id": "https://openalex.org/I88467170",
+      "ror": "https://ror.org/00e96v939",
+      "display_name": "Université d'Évry Val-d'Essonne",
+      "country_code": "FR",
+      "type": "education",
+      "relationship": "child"
+    }
+  ],
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 4137,
+      "oa_works_count": 3215,
+      "cited_by_count": 582
+    },
+    {
+      "year": 2025,
+      "works_count": 19649,
+      "oa_works_count": 15567,
+      "cited_by_count": 23844
+    },
+    {
+      "year": 2024,
+      "works_count": 19212,
+      "oa_works_count": 15124,
+      "cited_by_count": 87514
+    },
+    {
+      "year": 2023,
+      "works_count": 18114,
+      "oa_works_count": 14377,
+      "cited_by_count": 166668
+    },
+    {
+      "year": 2022,
+      "works_count": 15232,
+      "oa_works_count": 11400,
+      "cited_by_count": 221896
+    },
+    {
+      "year": 2021,
+      "works_count": 15061,
+      "oa_works_count": 11326,
+      "cited_by_count": 288920
+    },
+    {
+      "year": 2020,
+      "works_count": 13370,
+      "oa_works_count": 9979,
+      "cited_by_count": 416542
+    },
+    {
+      "year": 2019,
+      "works_count": 11551,
+      "oa_works_count": 7472,
+      "cited_by_count": 334725
+    },
+    {
+      "year": 2018,
+      "works_count": 10506,
+      "oa_works_count": 6538,
+      "cited_by_count": 343945
+    },
+    {
+      "year": 2017,
+      "works_count": 9002,
+      "oa_works_count": 5246,
+      "cited_by_count": 319737
+    },
+    {
+      "year": 2016,
+      "works_count": 7665,
+      "oa_works_count": 4075,
+      "cited_by_count": 324283
+    },
+    {
+      "year": 2015,
+      "works_count": 2382,
+      "oa_works_count": 1183,
+      "cited_by_count": 64097
+    },
+    {
+      "year": 2014,
+      "works_count": 1271,
+      "oa_works_count": 526,
+      "cited_by_count": 35473
+    },
+    {
+      "year": 2013,
+      "works_count": 1287,
+      "oa_works_count": 510,
+      "cited_by_count": 33909
+    },
+    {
+      "year": 2012,
+      "works_count": 1305,
+      "oa_works_count": 453,
+      "cited_by_count": 36483
+    },
+    {
+      "year": 2011,
+      "works_count": 1210,
+      "oa_works_count": 481,
+      "cited_by_count": 40997
+    },
+    {
+      "year": 2010,
+      "works_count": 1008,
+      "oa_works_count": 468,
+      "cited_by_count": 40226
+    }
+  ],
+  "roles": [
+    {
+      "role": "funder",
+      "id": "https://openalex.org/F4320324252",
+      "works_count": 3310
+    },
+    {
+      "role": "institution",
+      "id": "https://openalex.org/I277688954",
+      "works_count": 164234
+    }
+  ],
+  "topics": [
+    {
+      "id": "https://openalex.org/T10048",
+      "display_name": "Particle physics theoretical and experimental studies",
+      "count": 5541,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10224",
+      "display_name": "Quantum Chromodynamics and Particle Interactions",
+      "count": 3700,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10527",
+      "display_name": "High-Energy Particle Collisions Research",
+      "count": 3623,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10039",
+      "display_name": "Stellar, planetary, and galactic studies",
+      "count": 2160,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10325",
+      "display_name": "Astro and Planetary Science",
+      "count": 2018,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10095",
+      "display_name": "Cosmology and Gravitation Theories",
+      "count": 1799,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10026",
+      "display_name": "Galaxies: Formation, Evolution, Phenomena",
+      "count": 1784,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10477",
+      "display_name": "Astrophysics and Star Formation Studies",
+      "count": 1784,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12917",
+      "display_name": "Astronomy and Astrophysical Research",
+      "count": 1752,
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3105",
+        "display_name": "Instrumentation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11320",
+      "display_name": "Atmospheric Ozone and Climate",
+      "count": 1657,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10594",
+      "display_name": "Genetic and phenotypic traits in livestock",
+      "count": 1595,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11588",
+      "display_name": "Atmospheric and Environmental Gas Dynamics",
+      "count": 1571,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10015",
+      "display_name": "Genomics and Phylogenetic Studies",
+      "count": 1533,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10093",
+      "display_name": "Nuclear physics research studies",
+      "count": 1533,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11044",
+      "display_name": "Particle Detector Development and Performance",
+      "count": 1508,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10017",
+      "display_name": "Geology and Paleoclimatology Research",
+      "count": 1506,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11090",
+      "display_name": "Dark Matter and Cosmic Phenomena",
+      "count": 1472,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13396",
+      "display_name": "Agriculture and Rural Development Research",
+      "count": 1439,
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11111",
+      "display_name": "Spectroscopy and Laser Applications",
+      "count": 1387,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10158",
+      "display_name": "Cancer Immunotherapy and Biomarkers",
+      "count": 1360,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10002",
+      "display_name": "Advanced Chemical Physics Studies",
+      "count": 1327,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10251",
+      "display_name": "Solar and Space Plasma Dynamics",
+      "count": 1287,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10025",
+      "display_name": "Black Holes and Theoretical Physics",
+      "count": 1253,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11475",
+      "display_name": "French Urban and Social Studies",
+      "count": 1200,
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10299",
+      "display_name": "Photonic and Optical Devices",
+      "count": 1186,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "topic_share": [
+    {
+      "id": "https://openalex.org/T11090",
+      "display_name": "Dark Matter and Cosmic Phenomena",
+      "value": 0.0120488,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10527",
+      "display_name": "High-Energy Particle Collisions Research",
+      "value": 0.0117002,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10048",
+      "display_name": "Particle physics theoretical and experimental studies",
+      "value": 0.0109615,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10026",
+      "display_name": "Galaxies: Formation, Evolution, Phenomena",
+      "value": 0.0102503,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13396",
+      "display_name": "Agriculture and Rural Development Research",
+      "value": 0.0100065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10921",
+      "display_name": "Neutrino Physics Research",
+      "value": 0.00992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10224",
+      "display_name": "Quantum Chromodynamics and Particle Interactions",
+      "value": 0.0098919,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10477",
+      "display_name": "Astrophysics and Star Formation Studies",
+      "value": 0.0094706,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13810",
+      "display_name": "Legal Systems and Institutions",
+      "value": 0.0093272,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11044",
+      "display_name": "Particle Detector Development and Performance",
+      "value": 0.0088909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11804",
+      "display_name": "Quantum many-body systems",
+      "value": 0.0084722,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12612",
+      "display_name": "Strong Light-Matter Interactions",
+      "value": 0.0083222,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11716",
+      "display_name": "Random Matrices and Applications",
+      "value": 0.008024,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10039",
+      "display_name": "Stellar, planetary, and galactic studies",
+      "value": 0.0078607,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13458",
+      "display_name": "Astronomical and nuclear sciences",
+      "value": 0.0076582,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10594",
+      "display_name": "Genetic and phenotypic traits in livestock",
+      "value": 0.0075823,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12917",
+      "display_name": "Astronomy and Astrophysical Research",
+      "value": 0.0074531,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3105",
+        "display_name": "Instrumentation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12450",
+      "display_name": "Radio Astronomy Observations and Technology",
+      "value": 0.0074304,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11323",
+      "display_name": "Gamma-ray bursts and supernovae",
+      "value": 0.007411,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10728",
+      "display_name": "Pulmonary Hypertension Research and Treatments",
+      "value": 0.0070466,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11320",
+      "display_name": "Atmospheric Ozone and Climate",
+      "value": 0.0069979,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10095",
+      "display_name": "Cosmology and Gravitation Theories",
+      "value": 0.0069621,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11588",
+      "display_name": "Atmospheric and Environmental Gas Dynamics",
+      "value": 0.0067395,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10657",
+      "display_name": "Topological Materials and Phenomena",
+      "value": 0.0067165,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13187",
+      "display_name": "Diffusion and Search Dynamics",
+      "value": 0.0066262,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "is_super_system": false,
+  "status": "active",
+  "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I277688954",
+  "updated_date": "2026-04-12T05:59:47",
+  "created_date": "2016-06-24T00:00:00"
+}

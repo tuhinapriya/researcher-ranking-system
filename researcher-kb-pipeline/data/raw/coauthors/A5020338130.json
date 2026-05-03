@@ -1,0 +1,128 @@
+{
+  "author_id": "A5020338130",
+  "total_recent_works_analysed": 31,
+  "total_unique_collaborators": 150,
+  "estimated_mentee_count": 9,
+  "likely_mentees": [
+    {
+      "name": "Christopher E. Bope",
+      "id": "A5071684789",
+      "works_count": 11,
+      "shared_papers": 8
+    },
+    {
+      "name": "Georgina Kontou",
+      "id": "A5021721731",
+      "works_count": 11,
+      "shared_papers": 6
+    },
+    {
+      "name": "Jake S. Dengler",
+      "id": "A5054492927",
+      "works_count": 5,
+      "shared_papers": 5
+    },
+    {
+      "name": "Krithika Abiraman",
+      "id": "A5032814145",
+      "works_count": 15,
+      "shared_papers": 4
+    },
+    {
+      "name": "Miguel A. Rodriguez Santos",
+      "id": "A5101102254",
+      "works_count": 5,
+      "shared_papers": 4
+    },
+    {
+      "name": "Thomas A. Ollerhead",
+      "id": "A5048351089",
+      "works_count": 8,
+      "shared_papers": 4
+    },
+    {
+      "name": "Abigail Lemons",
+      "id": "A5036751583",
+      "works_count": 20,
+      "shared_papers": 4
+    },
+    {
+      "name": "Mari Aikio",
+      "id": "A5067909623",
+      "works_count": 16,
+      "shared_papers": 3
+    },
+    {
+      "name": "Ross A. Cardarelli",
+      "id": "A5084848085",
+      "works_count": 13,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.32,
+    "corresponding_author_ratio": 0.42
+  },
+  "top_collaborators": [
+    {
+      "name": "Joshua L. Smalley",
+      "id": "A5019645724",
+      "shared_papers": 13,
+      "same_institution": true
+    },
+    {
+      "name": "Paul Davies",
+      "id": "A5036745515",
+      "shared_papers": 12,
+      "same_institution": true
+    },
+    {
+      "name": "Nicholas J. Brandon",
+      "id": "A5058417020",
+      "shared_papers": 12,
+      "same_institution": true
+    },
+    {
+      "name": "Christopher E. Bope",
+      "id": "A5071684789",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Catherine Choi",
+      "id": "A5069695523",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Georgina Kontou",
+      "id": "A5021721731",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Qiu Ren",
+      "id": "A5017437994",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Tarek Z. Deeb",
+      "id": "A5039050340",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Jake S. Dengler",
+      "id": "A5054492927",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Krithika Abiraman",
+      "id": "A5032814145",
+      "shared_papers": 4,
+      "same_institution": true
+    }
+  ]
+}

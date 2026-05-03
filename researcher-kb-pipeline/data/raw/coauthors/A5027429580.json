@@ -1,0 +1,92 @@
+{
+  "author_id": "A5027429580",
+  "total_recent_works_analysed": 27,
+  "total_unique_collaborators": 71,
+  "estimated_mentee_count": 3,
+  "likely_mentees": [
+    {
+      "name": "Wennan Long",
+      "id": "A5081685313",
+      "works_count": 19,
+      "shared_papers": 4
+    },
+    {
+      "name": "Wanghong Long",
+      "id": "A5100677093",
+      "works_count": 6,
+      "shared_papers": 1
+    },
+    {
+      "name": "Haoyu Tang",
+      "id": "A5103077001",
+      "works_count": 12,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.44
+  },
+  "top_collaborators": [
+    {
+      "name": "Yanfei Li",
+      "id": "A5100414591",
+      "shared_papers": 16,
+      "same_institution": false
+    },
+    {
+      "name": "Hongming Xu",
+      "id": "A5043925036",
+      "shared_papers": 13,
+      "same_institution": false
+    },
+    {
+      "name": "Guikun Tan",
+      "id": "A5101311392",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "Shijin Shuai",
+      "id": "A5090592047",
+      "shared_papers": 11,
+      "same_institution": false
+    },
+    {
+      "name": "Quan Zhou",
+      "id": "A5086668986",
+      "shared_papers": 10,
+      "same_institution": false
+    },
+    {
+      "name": "Lubing Xu",
+      "id": "A5101282425",
+      "shared_papers": 10,
+      "same_institution": false
+    },
+    {
+      "name": "Mohammad S. Masnadi",
+      "id": "A5013059036",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Zhenlin Chen",
+      "id": "A5022303864",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Diego Moya",
+      "id": "A5060389327",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Liang Jing",
+      "id": "A5000927398",
+      "shared_papers": 6,
+      "same_institution": false
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "author_id": "A5003024317",
+  "openalex": {
+    "id": "https://openalex.org/A5003024317",
+    "orcid": null,
+    "display_name": "Mauritz Kop",
+    "raw_author_names": [
+      "Kop, Mauritz",
+      "Mauritz Kop"
+    ],
+    "full_name": "Kop, Mauritz",
+    "works_count": 44,
+    "cited_by_count": 315,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.0416666666666665,
+      "h_index": 11,
+      "i10_index": 11
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5003024317",
+      "orcid": null
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I29816883",
+          "ror": "https://ror.org/023e0em87",
+          "display_name": "Centre for International Governance Innovation",
+          "country_code": "CA",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I29816883"
+          ]
+        },
+        "years": [
+          2026
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210116328",
+          "ror": "https://ror.org/02eps3588",
+          "display_name": "Precision for Medicine (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210116328"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210137306",
+          "ror": "https://ror.org/03mtd9a03",
+          "display_name": "Stanford Medicine",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210137306",
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2023,
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210166406",
+          "ror": "https://ror.org/05d5rz672",
+          "display_name": "Quantum Technologies (Sweden)",
+          "country_code": "SE",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210166406"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I97018004",
+          "ror": "https://ror.org/00f54p054",
+          "display_name": "Stanford University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I29816883",
+        "ror": "https://ror.org/023e0em87",
+        "display_name": "Centre for International Governance Innovation",
+        "country_code": "CA",
+        "type": "nonprofit",
+        "lineage": [
+          "https://openalex.org/I29816883"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I97018004",
+        "ror": "https://ror.org/00f54p054",
+        "display_name": "Stanford University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I97018004"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10856",
+        "display_name": "Intellectual Property and Patents",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1405",
+          "display_name": "Management of Technology and Innovation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13851",
+        "display_name": "Law, AI, and Intellectual Property",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10622",
+        "display_name": "Quantum Mechanics and Applications",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "count": 5,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T14443",
+        "display_name": "COVID-19, Geopolitics, Technology, Migration",
+        "value": 0.0004381,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14077",
+        "display_name": "Socio-political and Technological Issues",
+        "value": 0.0001654,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13851",
+        "display_name": "Law, AI, and Intellectual Property",
+        "value": 0.0001038,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14447",
+        "display_name": "Trade Secret Protection Methods",
+        "value": 8.17e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3605",
+          "display_name": "Health Information Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10856",
+        "display_name": "Intellectual Property and Patents",
+        "value": 7.06e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1405",
+          "display_name": "Management of Technology and Innovation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.8922340869903564
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.6532392501831055
+      },
+      {
+        "id": "144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "score": 0.5798140168190002
+      },
+      {
+        "id": "199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "score": 0.5067632794380188
+      },
+      {
+        "id": "17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "score": 0.4929521083831787
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 26
+      },
+      {
+        "year": 2020,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 26
+      },
+      {
+        "year": 2021,
+        "works_count": 8,
+        "oa_works_count": 3,
+        "cited_by_count": 106
+      },
+      {
+        "year": 2022,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 59
+      },
+      {
+        "year": 2023,
+        "works_count": 4,
+        "oa_works_count": 4,
+        "cited_by_count": 49
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 41
+      },
+      {
+        "year": 2025,
+        "works_count": 18,
+        "oa_works_count": 17,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2026,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Kop, Mauritz",
+      "Mauritz Kop"
+    ],
+    "block_key": "m kop",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5003024317",
+    "updated_date": null,
+    "created_date": "2023-04-05T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "1582151910",
+    "externalIds": {
+      "DBLP": [
+        "Mauritz Kop"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/1582151910",
+    "name": "Mauritz Kop",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 27,
+    "citationCount": 219,
+    "hIndex": 9
+  }
+}

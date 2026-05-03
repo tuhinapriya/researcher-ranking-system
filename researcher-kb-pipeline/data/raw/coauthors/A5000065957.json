@@ -1,0 +1,86 @@
+{
+  "author_id": "A5000065957",
+  "total_recent_works_analysed": 32,
+  "total_unique_collaborators": 56,
+  "estimated_mentee_count": 2,
+  "likely_mentees": [
+    {
+      "name": "Atit Pokharel",
+      "id": "A5115057127",
+      "works_count": 11,
+      "shared_papers": 7
+    },
+    {
+      "name": "Md Raihan Uddin",
+      "id": "A5102834326",
+      "works_count": 10,
+      "shared_papers": 3
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.09,
+    "corresponding_author_ratio": 0.62
+  },
+  "top_collaborators": [
+    {
+      "name": "Dinh C. Nguyen",
+      "id": "A5076942188",
+      "shared_papers": 19,
+      "same_institution": true
+    },
+    {
+      "name": "Md Rafid Islam",
+      "id": "A5052276098",
+      "shared_papers": 8,
+      "same_institution": false
+    },
+    {
+      "name": "Atit Pokharel",
+      "id": "A5115057127",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Akib Ahmed",
+      "id": "A5035281916",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Rafsan Jany",
+      "id": "A5048762620",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "T. W. Morris",
+      "id": "A5102951683",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Shaba Shaon",
+      "id": "A5114638045",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Md Raihan Uddin",
+      "id": "A5102834326",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Neeraj Kumar",
+      "id": "A5101946292",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Sina Shaham",
+      "id": "A5053759908",
+      "shared_papers": 2,
+      "same_institution": false
+    }
+  ]
+}

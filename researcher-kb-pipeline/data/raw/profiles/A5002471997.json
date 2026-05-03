@@ -1,0 +1,565 @@
+{
+  "author_id": "A5002471997",
+  "openalex": {
+    "id": "https://openalex.org/A5002471997",
+    "orcid": "https://orcid.org/0000-0003-3098-5683",
+    "display_name": "Andrew Lucas",
+    "raw_author_names": [
+      "A. J. Lucas",
+      "Andrew Lucas",
+      "Lucas, A.",
+      "Lucas, Andrew",
+      "Lucas, Anne"
+    ],
+    "full_name": "Lucas, Andrew",
+    "works_count": 180,
+    "cited_by_count": 7610,
+    "summary_stats": {
+      "2yr_mean_citedness": 4.0,
+      "h_index": 39,
+      "i10_index": 80
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5002471997",
+      "orcid": "https://orcid.org/0000-0003-3098-5683"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I102322142",
+          "ror": "https://ror.org/05vt9qd57",
+          "display_name": "Rutgers, The State University of New Jersey",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I102322142"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1309087048",
+          "ror": "https://ror.org/01mmn7c12",
+          "display_name": "D-Wave Systems (Canada)",
+          "country_code": "CA",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1309087048"
+          ]
+        },
+        "years": [
+          2019,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I136199984",
+          "ror": "https://ror.org/03vek6s52",
+          "display_name": "Harvard University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        "years": [
+          2017,
+          2016,
+          2015,
+          2014,
+          2013
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I150209017",
+          "ror": "https://ror.org/04v7hvq31",
+          "display_name": "Scripps Institution of Oceanography",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I150209017",
+            "https://openalex.org/I36258959"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I188538660",
+          "ror": "https://ror.org/02ttsq026",
+          "display_name": "University of Colorado Boulder",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I188538660"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801851002",
+          "ror": "https://ror.org/006v7bf86",
+          "display_name": "Harvard University Press",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I2801851002"
+          ]
+        },
+        "years": [
+          2015,
+          2014,
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802236040",
+          "ror": "https://ror.org/00jc20583",
+          "display_name": "University of Colorado System",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2802236040"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I36258959",
+          "ror": "https://ror.org/0168r3w48",
+          "display_name": "University of California, San Diego",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36258959"
+          ]
+        },
+        "years": [
+          2023,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210164837",
+          "ror": "https://ror.org/05mmhfh95",
+          "display_name": "NCI Information Systems (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210164837"
+          ]
+        },
+        "years": [
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4401726779",
+          "ror": "https://ror.org/02ajrys73",
+          "display_name": "Empower AI (United States)",
+          "country_code": null,
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4401726779"
+          ]
+        },
+        "years": [
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I97018004",
+          "ror": "https://ror.org/00f54p054",
+          "display_name": "Stanford University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2013,
+          2011
+        ]
+      }
+    ],
+    "last_known_institutions": null,
+    "topics": [
+      {
+        "id": "https://openalex.org/T11804",
+        "display_name": "Quantum many-body systems",
+        "count": 60,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11965",
+        "display_name": "Quantum, superfluid, helium dynamics",
+        "count": 36,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10037",
+        "display_name": "Physics of Superconductivity and Magnetism",
+        "count": 33,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3104",
+          "display_name": "Condensed Matter Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "count": 31,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10025",
+        "display_name": "Black Holes and Theoretical Physics",
+        "count": 29,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3106",
+          "display_name": "Nuclear and High Energy Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11804",
+        "display_name": "Quantum many-body systems",
+        "value": 0.0006846,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12220",
+        "display_name": "Quantum Electrodynamics and Casimir Effect",
+        "value": 0.0002097,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "value": 0.0001822,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11965",
+        "display_name": "Quantum, superfluid, helium dynamics",
+        "value": 0.000151,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13182",
+        "display_name": "Quantum-Dot Cellular Automata",
+        "value": 0.0001085,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9673119783401489
+      },
+      {
+        "id": "121864883",
+        "wikidata": "https://www.wikidata.org/wiki/Q677916",
+        "display_name": "Statistical physics",
+        "score": 0.7641347646713257
+      },
+      {
+        "id": "84114770",
+        "wikidata": "https://www.wikidata.org/wiki/Q46344",
+        "display_name": "Quantum",
+        "score": 0.6658575534820557
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.5447999835014343
+      },
+      {
+        "id": "62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "score": 0.5418401956558228
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1999,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 33
+      },
+      {
+        "year": 2003,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2006,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2011,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2012,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2013,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2014,
+        "works_count": 8,
+        "oa_works_count": 8,
+        "cited_by_count": 2635
+      },
+      {
+        "year": 2015,
+        "works_count": 10,
+        "oa_works_count": 7,
+        "cited_by_count": 629
+      },
+      {
+        "year": 2016,
+        "works_count": 10,
+        "oa_works_count": 9,
+        "cited_by_count": 1501
+      },
+      {
+        "year": 2017,
+        "works_count": 10,
+        "oa_works_count": 9,
+        "cited_by_count": 671
+      },
+      {
+        "year": 2018,
+        "works_count": 11,
+        "oa_works_count": 8,
+        "cited_by_count": 232
+      },
+      {
+        "year": 2019,
+        "works_count": 10,
+        "oa_works_count": 7,
+        "cited_by_count": 486
+      },
+      {
+        "year": 2020,
+        "works_count": 17,
+        "oa_works_count": 16,
+        "cited_by_count": 454
+      },
+      {
+        "year": 2021,
+        "works_count": 12,
+        "oa_works_count": 11,
+        "cited_by_count": 289
+      },
+      {
+        "year": 2022,
+        "works_count": 27,
+        "oa_works_count": 27,
+        "cited_by_count": 323
+      },
+      {
+        "year": 2023,
+        "works_count": 22,
+        "oa_works_count": 19,
+        "cited_by_count": 207
+      },
+      {
+        "year": 2024,
+        "works_count": 19,
+        "oa_works_count": 15,
+        "cited_by_count": 85
+      },
+      {
+        "year": 2025,
+        "works_count": 13,
+        "oa_works_count": 9,
+        "cited_by_count": 51
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "A. J. Lucas",
+      "Andrew Lucas",
+      "Lucas, A.",
+      "Lucas, Andrew",
+      "Lucas, Anne"
+    ],
+    "block_key": "a lucas",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5002471997",
+    "updated_date": "2026-04-09T12:26:41",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2135072684",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2135072684",
+    "name": "L. Andrew",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 18,
+    "citationCount": 192,
+    "hIndex": 8
+  }
+}

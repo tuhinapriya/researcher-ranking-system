@@ -1,0 +1,104 @@
+{
+  "author_id": "A5007475162",
+  "total_recent_works_analysed": 37,
+  "total_unique_collaborators": 96,
+  "estimated_mentee_count": 5,
+  "likely_mentees": [
+    {
+      "name": "Xiaoou Liu",
+      "id": "A5038135100",
+      "works_count": 9,
+      "shared_papers": 3
+    },
+    {
+      "name": "Kuanru Liou",
+      "id": "A5114158874",
+      "works_count": 3,
+      "shared_papers": 2
+    },
+    {
+      "name": "Prithvi Shirke",
+      "id": "A5107179458",
+      "works_count": 2,
+      "shared_papers": 2
+    },
+    {
+      "name": "Arpitsinh Vaghela",
+      "id": "A5094302530",
+      "works_count": 11,
+      "shared_papers": 2
+    },
+    {
+      "name": "Khoa Vo",
+      "id": "A5112614999",
+      "works_count": 5,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.19
+  },
+  "top_collaborators": [
+    {
+      "name": "Jiechao Ge",
+      "id": "A5068554467",
+      "shared_papers": 16,
+      "same_institution": false
+    },
+    {
+      "name": "Xiaokuang Xue",
+      "id": "A5058635267",
+      "shared_papers": 15,
+      "same_institution": false
+    },
+    {
+      "name": "Longchao Da",
+      "id": "A5074815612",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Yunxiu Zhang",
+      "id": "A5081067598",
+      "shared_papers": 8,
+      "same_institution": false
+    },
+    {
+      "name": "Pengfei Wang",
+      "id": "A5108049205",
+      "shared_papers": 8,
+      "same_institution": false
+    },
+    {
+      "name": "Ke Liang",
+      "id": "A5009525613",
+      "shared_papers": 8,
+      "same_institution": false
+    },
+    {
+      "name": "Haohui Ren",
+      "id": "A5066406039",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Hua Wei",
+      "id": "A5100777770",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Jian Li",
+      "id": "A5100402563",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Jian Li",
+      "id": "A5100402448",
+      "shared_papers": 5,
+      "same_institution": false
+    }
+  ]
+}

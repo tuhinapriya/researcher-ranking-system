@@ -1,0 +1,344 @@
+{
+  "author_id": "A5017885166",
+  "openalex": {
+    "id": "https://openalex.org/A5017885166",
+    "orcid": "https://orcid.org/0000-0002-9323-3246",
+    "display_name": "Mahdi Sadeqi Bajestani",
+    "raw_author_names": [
+      "Bajestani, Mahdi Sadeqi",
+      "Mahdi Sadeqi Bajestani"
+    ],
+    "full_name": "Bajestani, Mahdi Sadeqi",
+    "works_count": 26,
+    "cited_by_count": 177,
+    "summary_stats": {
+      "2yr_mean_citedness": 6.5,
+      "h_index": 9,
+      "i10_index": 7
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5017885166",
+      "orcid": "https://orcid.org/0000-0002-9323-3246"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I63920570",
+          "ror": "https://ror.org/05drmrq39",
+          "display_name": "Tennessee Technological University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63920570"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I86958956",
+          "ror": "https://ror.org/00g6ka752",
+          "display_name": "Ferdowsi University of Mashhad",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86958956"
+          ]
+        },
+        "years": [
+          2023,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I878454856",
+          "ror": "https://ror.org/04nbhqj75",
+          "display_name": "Hasselt University",
+          "country_code": "BE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I878454856"
+          ]
+        },
+        "years": [
+          2026,
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I878454856",
+        "ror": "https://ror.org/04nbhqj75",
+        "display_name": "Hasselt University",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I878454856"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10705",
+        "display_name": "Additive Manufacturing Materials and Processes",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10763",
+        "display_name": "Digital Transformation in Industry",
+        "count": 9,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10783",
+        "display_name": "Additive Manufacturing and 3D Printing Technologies",
+        "count": 6,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2203",
+          "display_name": "Automotive Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11143",
+        "display_name": "High Entropy Alloys Studies",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12099",
+        "display_name": "Advanced materials and composites",
+        "count": 4,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10705",
+        "display_name": "Additive Manufacturing Materials and Processes",
+        "value": 7.78e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10763",
+        "display_name": "Digital Transformation in Industry",
+        "value": 7.27e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11143",
+        "display_name": "High Entropy Alloys Studies",
+        "value": 4.76e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11442",
+        "display_name": "Titanium Alloys Microstructure and Properties",
+        "value": 3.67e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10783",
+        "display_name": "Additive Manufacturing and 3D Printing Technologies",
+        "value": 2.17e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2203",
+          "display_name": "Automotive Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.950154721736908
+      },
+      {
+        "id": "191897082",
+        "wikidata": "https://www.wikidata.org/wiki/Q11467",
+        "display_name": "Metallurgy",
+        "score": 0.7576000094413757
+      },
+      {
+        "id": "159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "score": 0.73089998960495
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.6820856332778931
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.5601999759674072
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2019,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2023,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 30
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 44
+      },
+      {
+        "year": 2025,
+        "works_count": 17,
+        "oa_works_count": 14,
+        "cited_by_count": 99
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "Bajestani, Mahdi Sadeqi",
+      "Mahdi Sadeqi Bajestani"
+    ],
+    "block_key": "s bajestani",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5017885166",
+    "updated_date": null,
+    "created_date": "2025-04-22T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "1484425195",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/1484425195",
+    "name": "Mahdi Sadeqi Bajestani",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 17,
+    "citationCount": 130,
+    "hIndex": 7
+  }
+}

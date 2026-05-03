@@ -1,0 +1,765 @@
+{
+  "author_id": "A5062207756",
+  "openalex": {
+    "id": "https://openalex.org/A5062207756",
+    "orcid": "https://orcid.org/0000-0002-3253-7588",
+    "display_name": "Yoav Benjamini",
+    "display_name_alternatives": [
+      "Benjamini Yoav",
+      "Benjamini, Y.",
+      "Benjamini, Yoav",
+      "Mudrik, Liad",
+      "Neta Shachar",
+      "Y Benjamini",
+      "Y. Benjamini",
+      "YOAV BENJAMINI",
+      "Yoav Benjamini",
+      "Yoav, Benjamini"
+    ],
+    "works_count": 221,
+    "cited_by_count": 140356,
+    "summary_stats": {
+      "2yr_mean_citedness": 0.75,
+      "h_index": 54,
+      "i10_index": 118
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5062207756",
+      "orcid": "https://orcid.org/0000-0002-3253-7588"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I126744593",
+          "ror": "https://ror.org/04rq5mt64",
+          "display_name": "University of Maryland, Baltimore",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126744593"
+          ]
+        },
+        "years": [
+          2007,
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1341030882",
+          "ror": "https://ror.org/03b5q4637",
+          "display_name": "Educational Testing Service",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I1341030882"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I16391192",
+          "ror": "https://ror.org/04mhzgx49",
+          "display_name": "Tel Aviv University",
+          "country_code": "IL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I16391192"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1993,
+          1992,
+          1991,
+          1990,
+          1988,
+          1986,
+          1983
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I193531525",
+          "ror": "https://ror.org/00y4zzh67",
+          "display_name": "George Washington University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I193531525"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I201448701",
+          "ror": "https://ror.org/00cvxb145",
+          "display_name": "University of Washington",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I201448701"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2799810450",
+          "ror": "https://ror.org/020rzx487",
+          "display_name": "Sheba Medical Center",
+          "country_code": "IL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799810450"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800389475",
+          "ror": "https://ror.org/01vjtf564",
+          "display_name": "Rabin Medical Center",
+          "country_code": "IL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800389475",
+            "https://openalex.org/I64767286"
+          ]
+        },
+        "years": [
+          2009,
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210107917",
+          "ror": "https://ror.org/01kc31v38",
+          "display_name": "Exact Sciences (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210107917"
+          ]
+        },
+        "years": [
+          2005,
+          2001,
+          1998,
+          1990
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210135078",
+          "ror": "https://ror.org/036c27j91",
+          "display_name": "Washington University Medical Center",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210135078"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210146430",
+          "ror": "https://ror.org/04ynn1b95",
+          "display_name": "Astronomy and Space",
+          "country_code": "AU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1292875679",
+            "https://openalex.org/I2801453606",
+            "https://openalex.org/I4210146430",
+            "https://openalex.org/I4387156119"
+          ]
+        },
+        "years": [
+          1992
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I79576946",
+          "ror": "https://ror.org/00b30xv10",
+          "display_name": "University of Pennsylvania",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I79576946"
+          ]
+        },
+        "years": [
+          2012,
+          1989
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I84392919",
+          "ror": "https://ror.org/00kx1jb78",
+          "display_name": "Temple University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I84392919"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I97018004",
+          "ror": "https://ror.org/00f54p054",
+          "display_name": "Stanford University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2007,
+          2006
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I16391192",
+        "ror": "https://ror.org/04mhzgx49",
+        "display_name": "Tel Aviv University",
+        "country_code": "IL",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I16391192"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T11235",
+        "display_name": "Statistical Methods in Clinical Trials",
+        "count": 55,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10136",
+        "display_name": "Statistical Methods and Inference",
+        "count": 25,
+        "score": 0.9983000159263611,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10243",
+        "display_name": "Statistical Methods and Bayesian Inference",
+        "count": 22,
+        "score": 0.9965000152587891,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11798",
+        "display_name": "Optimal Experimental Design Methods",
+        "count": 20,
+        "score": 0.9986000061035156,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10885",
+        "display_name": "Gene expression and cancer classification",
+        "count": 19,
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11235",
+        "display_name": "Statistical Methods in Clinical Trials",
+        "value": 0.0004938,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11798",
+        "display_name": "Optimal Experimental Design Methods",
+        "value": 0.0002996,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11685",
+        "display_name": "Zebrafish Biomedical Research Applications",
+        "value": 0.0002522,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1307",
+          "display_name": "Cell Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10243",
+        "display_name": "Statistical Methods and Bayesian Inference",
+        "value": 0.0002009,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10136",
+        "display_name": "Statistical Methods and Inference",
+        "value": 0.0001436,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.9079521894454956
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8516416549682617
+      },
+      {
+        "id": "33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "score": 0.8441982865333557
+      },
+      {
+        "id": "105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "score": 0.7124778032302856
+      },
+      {
+        "id": "154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "score": 0.5582455992698669
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1983,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 54
+      },
+      {
+        "year": 1986,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 11
+      },
+      {
+        "year": 1988,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 241
+      },
+      {
+        "year": 1989,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1990,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 2727
+      },
+      {
+        "year": 1991,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 40
+      },
+      {
+        "year": 1992,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 29
+      },
+      {
+        "year": 1993,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 190
+      },
+      {
+        "year": 1994,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 106
+      },
+      {
+        "year": 1995,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 105337
+      },
+      {
+        "year": 1996,
+        "works_count": 7,
+        "oa_works_count": 0,
+        "cited_by_count": 252
+      },
+      {
+        "year": 1997,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 324
+      },
+      {
+        "year": 1998,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 163
+      },
+      {
+        "year": 1999,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 1032
+      },
+      {
+        "year": 2000,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 2255
+      },
+      {
+        "year": 2001,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 15005
+      },
+      {
+        "year": 2002,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 771
+      },
+      {
+        "year": 2003,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 1927
+      },
+      {
+        "year": 2004,
+        "works_count": 7,
+        "oa_works_count": 1,
+        "cited_by_count": 321
+      },
+      {
+        "year": 2005,
+        "works_count": 11,
+        "oa_works_count": 4,
+        "cited_by_count": 1281
+      },
+      {
+        "year": 2006,
+        "works_count": 9,
+        "oa_works_count": 4,
+        "cited_by_count": 4381
+      },
+      {
+        "year": 2007,
+        "works_count": 6,
+        "oa_works_count": 1,
+        "cited_by_count": 328
+      },
+      {
+        "year": 2008,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 199
+      },
+      {
+        "year": 2009,
+        "works_count": 6,
+        "oa_works_count": 4,
+        "cited_by_count": 415
+      },
+      {
+        "year": 2010,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 878
+      },
+      {
+        "year": 2011,
+        "works_count": 6,
+        "oa_works_count": 4,
+        "cited_by_count": 102
+      },
+      {
+        "year": 2012,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 157
+      },
+      {
+        "year": 2013,
+        "works_count": 7,
+        "oa_works_count": 4,
+        "cited_by_count": 210
+      },
+      {
+        "year": 2014,
+        "works_count": 13,
+        "oa_works_count": 3,
+        "cited_by_count": 171
+      },
+      {
+        "year": 2015,
+        "works_count": 15,
+        "oa_works_count": 15,
+        "cited_by_count": 108
+      },
+      {
+        "year": 2016,
+        "works_count": 12,
+        "oa_works_count": 12,
+        "cited_by_count": 276
+      },
+      {
+        "year": 2017,
+        "works_count": 7,
+        "oa_works_count": 5,
+        "cited_by_count": 449
+      },
+      {
+        "year": 2018,
+        "works_count": 8,
+        "oa_works_count": 6,
+        "cited_by_count": 244
+      },
+      {
+        "year": 2019,
+        "works_count": 7,
+        "oa_works_count": 6,
+        "cited_by_count": 38
+      },
+      {
+        "year": 2020,
+        "works_count": 10,
+        "oa_works_count": 9,
+        "cited_by_count": 183
+      },
+      {
+        "year": 2021,
+        "works_count": 7,
+        "oa_works_count": 4,
+        "cited_by_count": 82
+      },
+      {
+        "year": 2022,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2023,
+        "works_count": 9,
+        "oa_works_count": 7,
+        "cited_by_count": 40
+      },
+      {
+        "year": 2024,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2025,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 2
+      }
+    ],
+    "longest_name": "Yoav, Benjamini",
+    "parsed_longest_name": {
+      "first": "benjamini",
+      "middle": "",
+      "last": "yoav",
+      "suffix": "",
+      "nickname": ""
+    },
+    "block_key": "b yoav",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5062207756",
+    "updated_date": "2026-02-05T12:22:15.111854",
+    "created_date": "2016-06-24"
+  },
+  "semantic_scholar": {
+    "authorId": "50679934",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/50679934",
+    "name": "Yoav Benjamini",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 1,
+    "citationCount": 0,
+    "hIndex": 0
+  }
+}

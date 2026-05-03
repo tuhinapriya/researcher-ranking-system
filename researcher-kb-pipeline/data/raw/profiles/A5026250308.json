@@ -1,0 +1,1116 @@
+{
+  "author_id": "A5026250308",
+  "openalex": {
+    "id": "https://openalex.org/A5026250308",
+    "orcid": "https://orcid.org/0000-0002-6532-2663",
+    "display_name": "Zhengwei Yang",
+    "raw_author_names": [
+      "Yang Zhengwei",
+      "Yang, Zhengwei",
+      "Yang, Zukang",
+      "Z Yang",
+      "Z. W. Yang",
+      "Z. Yang",
+      "ZHENG-WEI YANG",
+      "Zheng-Wei Yang",
+      "Zheng-wei YANG",
+      "Zheng-wei Yang",
+      "ZhengWei Yang",
+      "Zhengwei YANG",
+      "Zhengwei Yang",
+      "Zhengxiao Yang",
+      "Zukang Yang",
+      "Zuoyi Yang"
+    ],
+    "full_name": "ZHENG-WEI YANG",
+    "works_count": 206,
+    "cited_by_count": 4924,
+    "summary_stats": {
+      "2yr_mean_citedness": 4.025,
+      "h_index": 30,
+      "i10_index": 81
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5026250308",
+      "orcid": "https://orcid.org/0000-0002-6532-2663"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I105086349",
+          "ror": "https://ror.org/05k3sdc46",
+          "display_name": "North Sichuan Medical University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I105086349"
+          ]
+        },
+        "years": [
+          2013,
+          2011,
+          2010,
+          2009,
+          2001
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I114832834",
+          "ror": "https://ror.org/04vmvtb21",
+          "display_name": "Tulane University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114832834"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1287640093",
+          "ror": "https://ror.org/04dpymk59",
+          "display_name": "National Agricultural Statistics Service",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1287640093",
+            "https://openalex.org/I1336096307"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2009,
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1312222531",
+          "ror": "https://ror.org/02d2m2044",
+          "display_name": "Agricultural Research Service",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1312222531",
+            "https://openalex.org/I1336096307"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1336096307",
+          "ror": "https://ror.org/01na82s61",
+          "display_name": "United States Department of Agriculture",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1336096307"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I141962983",
+          "ror": "https://ror.org/0557b9y08",
+          "display_name": "Shanghai University of Engineering Science",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141962983"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I151075929",
+          "ror": "https://ror.org/05w21nn13",
+          "display_name": "Army Medical University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I151075929"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I157773358",
+          "ror": "https://ror.org/0064kty71",
+          "display_name": "Sun Yat-sen University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I157773358"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I19820366",
+          "ror": "https://ror.org/034t30j35",
+          "display_name": "Chinese Academy of Sciences",
+          "country_code": "CN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I19820366"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I27781120",
+          "ror": "https://ror.org/00rd5t069",
+          "display_name": "Wenzhou Medical University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27781120"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800421839",
+          "ror": "https://ror.org/02rcrvv70",
+          "display_name": "Government of the United States of America",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2800421839"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801350665",
+          "ror": "https://ror.org/036s9kg65",
+          "display_name": "Monash Medical Centre",
+          "country_code": "AU",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801350665",
+            "https://openalex.org/I4210121067"
+          ]
+        },
+        "years": [
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801618472",
+          "ror": "https://ror.org/00gg5zj35",
+          "display_name": "PLA Rocket Force University of Engineering",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2801618472"
+          ]
+        },
+        "years": [
+          2025,
+          2023,
+          2022,
+          2019,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2802939634",
+          "ror": "https://ror.org/04gw3ra78",
+          "display_name": "Chinese PLA General Hospital",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802939634"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3125743391",
+          "ror": "https://ror.org/04q6c7p66",
+          "display_name": "China University of Geosciences (Beijing)",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3125743391"
+          ]
+        },
+        "years": [
+          2021,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3129996945",
+          "ror": "https://ror.org/00h1gc758",
+          "display_name": "Guilin University of Aerospace Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3129996945"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I37461747",
+          "ror": "https://ror.org/033vjfk17",
+          "display_name": "Wuhan University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210086973",
+          "ror": "https://ror.org/000sxmx78",
+          "display_name": "Affiliated Eye Hospital of Wenzhou Medical College",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210086973"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210104252",
+          "ror": "https://ror.org/00seraz22",
+          "display_name": "Air Force Engineering University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210104252"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210116048",
+          "ror": "https://ror.org/02601yx74",
+          "display_name": "Beijing National Laboratory for Molecular Sciences",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210116048"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210118629",
+          "ror": "https://ror.org/02egn3136",
+          "display_name": "NARI Group (China)",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210118629"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210126638",
+          "ror": "https://ror.org/031nqzs81",
+          "display_name": "Horological Research Institute of Light Industry",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210126638"
+          ]
+        },
+        "years": [
+          2019,
+          2018,
+          2017,
+          2016,
+          2011,
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210130660",
+          "ror": "https://ror.org/03vt7za95",
+          "display_name": "Xi'an High Tech University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210130660"
+          ]
+        },
+        "years": [
+          2024,
+          2022,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210131174",
+          "ror": "https://ror.org/02jn36537",
+          "display_name": "Southwest Hospital",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210131174"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210140386",
+          "ror": "https://ror.org/036dyz052",
+          "display_name": "PLA Navy General Hospital",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210140386"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210140493",
+          "ror": "https://ror.org/04ttadj76",
+          "display_name": "Collaborative Innovation Center of Advanced Microstructures",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I126520041",
+            "https://openalex.org/I183067930",
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I24943067",
+            "https://openalex.org/I2802624667",
+            "https://openalex.org/I4210140493",
+            "https://openalex.org/I76130692",
+            "https://openalex.org/I881766915"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210145500",
+          "ror": "https://ror.org/055f13495",
+          "display_name": "Guizhou Electric Power Design and Research Institute",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210145500"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210155088",
+          "ror": "https://ror.org/048y1rc66",
+          "display_name": "Institute of Chemistry",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I4210155088"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165038",
+          "ror": "https://ror.org/05qbk4x57",
+          "display_name": "University of Chinese Academy of Sciences",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I4210165038"
+          ]
+        },
+        "years": [
+          2024,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I60733029",
+          "ror": "https://ror.org/05p96ba03",
+          "display_name": "Monash Institute of Medical Research",
+          "country_code": "AU",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I60733029"
+          ]
+        },
+        "years": [
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I70745867",
+          "ror": "https://ror.org/02rqhpa98",
+          "display_name": "KLA (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I70745867"
+          ]
+        },
+        "years": [
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I72816309",
+          "ror": "https://ror.org/04bdffz58",
+          "display_name": "Drexel University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I72816309"
+          ]
+        },
+        "years": [
+          2003,
+          1998
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I82333064",
+          "ror": "https://ror.org/006cgkx15",
+          "display_name": "Chinese Academy of Governance",
+          "country_code": "CN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I82333064"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I87445476",
+          "ror": "https://ror.org/017zhmm22",
+          "display_name": "Xi'an Jiaotong University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I87445476"
+          ]
+        },
+        "years": [
+          2022,
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I881766915",
+          "ror": "https://ror.org/01rxvg760",
+          "display_name": "Nanjing University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I881766915"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I114832834",
+        "ror": "https://ror.org/04vmvtb21",
+        "display_name": "Tulane University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I114832834"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I1287640093",
+        "ror": "https://ror.org/04dpymk59",
+        "display_name": "National Agricultural Statistics Service",
+        "country_code": "US",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I1287640093",
+          "https://openalex.org/I1336096307"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I1336096307",
+        "ror": "https://ror.org/01na82s61",
+        "display_name": "United States Department of Agriculture",
+        "country_code": "US",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I1336096307"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I141962983",
+        "ror": "https://ror.org/0557b9y08",
+        "display_name": "Shanghai University of Engineering Science",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I141962983"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I2800421839",
+        "ror": "https://ror.org/02rcrvv70",
+        "display_name": "Government of the United States of America",
+        "country_code": "US",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I2800421839"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I2801618472",
+        "ror": "https://ror.org/00gg5zj35",
+        "display_name": "PLA Rocket Force University of Engineering",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I2801618472"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I3129996945",
+        "ror": "https://ror.org/00h1gc758",
+        "display_name": "Guilin University of Aerospace Technology",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I3129996945"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I37461747",
+        "ror": "https://ror.org/033vjfk17",
+        "display_name": "Wuhan University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I37461747"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210104252",
+        "ror": "https://ror.org/00seraz22",
+        "display_name": "Air Force Engineering University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210104252"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10111",
+        "display_name": "Remote Sensing in Agriculture",
+        "count": 67,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2303",
+          "display_name": "Ecology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10226",
+        "display_name": "Land Use and Ecosystem Services",
+        "count": 21,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2306",
+          "display_name": "Global and Planetary Change"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11164",
+        "display_name": "Remote Sensing and LiDAR Applications",
+        "count": 21,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11856",
+        "display_name": "Thermography and Photoacoustic Techniques",
+        "count": 21,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2211",
+          "display_name": "Mechanics of Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10616",
+        "display_name": "Smart Agriculture and AI",
+        "count": 19,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10111",
+        "display_name": "Remote Sensing in Agriculture",
+        "value": 0.0003771,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2303",
+          "display_name": "Ecology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11856",
+        "display_name": "Thermography and Photoacoustic Techniques",
+        "value": 0.0002058,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2211",
+          "display_name": "Mechanics of Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10770",
+        "display_name": "Soil Geostatistics and Mapping",
+        "value": 0.0001586,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10616",
+        "display_name": "Smart Agriculture and AI",
+        "value": 0.0001474,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10439",
+        "display_name": "Climate change impacts on agriculture",
+        "value": 0.0001436,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1105",
+          "display_name": "Ecology, Evolution, Behavior and Systematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "score": 0.8219207525253296
+      },
+      {
+        "id": "62649853",
+        "wikidata": "https://www.wikidata.org/wiki/Q199687",
+        "display_name": "Remote sensing",
+        "score": 0.8196917176246643
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.790611982345581
+      },
+      {
+        "id": "205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "score": 0.5444222688674927
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.48808181285858154
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1995,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 154
+      },
+      {
+        "year": 1996,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      },
+      {
+        "year": 1997,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1998,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 42
+      },
+      {
+        "year": 1999,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 248
+      },
+      {
+        "year": 2001,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2003,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2007,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2008,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 120
+      },
+      {
+        "year": 2009,
+        "works_count": 8,
+        "oa_works_count": 0,
+        "cited_by_count": 47
+      },
+      {
+        "year": 2010,
+        "works_count": 5,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2011,
+        "works_count": 9,
+        "oa_works_count": 0,
+        "cited_by_count": 1275
+      },
+      {
+        "year": 2012,
+        "works_count": 9,
+        "oa_works_count": 3,
+        "cited_by_count": 507
+      },
+      {
+        "year": 2013,
+        "works_count": 6,
+        "oa_works_count": 2,
+        "cited_by_count": 52
+      },
+      {
+        "year": 2014,
+        "works_count": 9,
+        "oa_works_count": 2,
+        "cited_by_count": 182
+      },
+      {
+        "year": 2015,
+        "works_count": 7,
+        "oa_works_count": 5,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2016,
+        "works_count": 15,
+        "oa_works_count": 4,
+        "cited_by_count": 699
+      },
+      {
+        "year": 2017,
+        "works_count": 11,
+        "oa_works_count": 4,
+        "cited_by_count": 138
+      },
+      {
+        "year": 2018,
+        "works_count": 8,
+        "oa_works_count": 4,
+        "cited_by_count": 146
+      },
+      {
+        "year": 2019,
+        "works_count": 16,
+        "oa_works_count": 6,
+        "cited_by_count": 217
+      },
+      {
+        "year": 2020,
+        "works_count": 8,
+        "oa_works_count": 5,
+        "cited_by_count": 164
+      },
+      {
+        "year": 2021,
+        "works_count": 16,
+        "oa_works_count": 8,
+        "cited_by_count": 267
+      },
+      {
+        "year": 2022,
+        "works_count": 15,
+        "oa_works_count": 8,
+        "cited_by_count": 284
+      },
+      {
+        "year": 2023,
+        "works_count": 9,
+        "oa_works_count": 4,
+        "cited_by_count": 162
+      },
+      {
+        "year": 2024,
+        "works_count": 15,
+        "oa_works_count": 7,
+        "cited_by_count": 83
+      },
+      {
+        "year": 2025,
+        "works_count": 25,
+        "oa_works_count": 11,
+        "cited_by_count": 78
+      }
+    ],
+    "display_name_alternatives": [
+      "Yang Zhengwei",
+      "Yang, Zhengwei",
+      "Yang, Zukang",
+      "Z Yang",
+      "Z. W. Yang",
+      "Z. Yang",
+      "ZHENG-WEI YANG",
+      "Zheng-Wei Yang",
+      "Zheng-wei YANG",
+      "Zheng-wei Yang",
+      "ZhengWei Yang",
+      "Zhengwei YANG",
+      "Zhengwei Yang",
+      "Zhengxiao Yang",
+      "Zukang Yang",
+      "Zuoyi Yang"
+    ],
+    "block_key": "z yang",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5026250308",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": null
+}

@@ -1,0 +1,122 @@
+{
+  "author_id": "A5026877956",
+  "total_recent_works_analysed": 28,
+  "total_unique_collaborators": 59,
+  "estimated_mentee_count": 8,
+  "likely_mentees": [
+    {
+      "name": "Nick Hahn",
+      "id": "A5091979229",
+      "works_count": 15,
+      "shared_papers": 10
+    },
+    {
+      "name": "Guy H Wilson",
+      "id": "A5081799732",
+      "works_count": 14,
+      "shared_papers": 8
+    },
+    {
+      "name": "Erin M. Kunz",
+      "id": "A5088045127",
+      "works_count": 9,
+      "shared_papers": 5
+    },
+    {
+      "name": "Chaofei Fan",
+      "id": "A5084657195",
+      "works_count": 16,
+      "shared_papers": 5
+    },
+    {
+      "name": "Darrel R. Deo",
+      "id": "A5042669610",
+      "works_count": 16,
+      "shared_papers": 4
+    },
+    {
+      "name": "Elias A. Stein",
+      "id": "A5014971084",
+      "works_count": 3,
+      "shared_papers": 2
+    },
+    {
+      "name": "Benyamin Meschede-Krasa",
+      "id": "A5007802545",
+      "works_count": 16,
+      "shared_papers": 2
+    },
+    {
+      "name": "Benyamin Abramovich Krasa",
+      "id": "A5119323722",
+      "works_count": 1,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.04
+  },
+  "top_collaborators": [
+    {
+      "name": "Jaimie M. Henderson",
+      "id": "A5009856256",
+      "shared_papers": 28,
+      "same_institution": true
+    },
+    {
+      "name": "Leigh R. Hochberg",
+      "id": "A5032110460",
+      "shared_papers": 27,
+      "same_institution": false
+    },
+    {
+      "name": "Francis R. Willett",
+      "id": "A5069025834",
+      "shared_papers": 23,
+      "same_institution": true
+    },
+    {
+      "name": "Foram Kamdar",
+      "id": "A5051278600",
+      "shared_papers": 18,
+      "same_institution": true
+    },
+    {
+      "name": "Krishna V. Shenoy",
+      "id": "A5004430663",
+      "shared_papers": 17,
+      "same_institution": true
+    },
+    {
+      "name": "Nick Hahn",
+      "id": "A5091979229",
+      "shared_papers": 10,
+      "same_institution": true
+    },
+    {
+      "name": "Nishal P. Shah",
+      "id": "A5071158043",
+      "shared_papers": 9,
+      "same_institution": true
+    },
+    {
+      "name": "Guy H Wilson",
+      "id": "A5081799732",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Shaul Druckmann",
+      "id": "A5033395053",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Sergey D. Stavisky",
+      "id": "A5064727312",
+      "shared_papers": 6,
+      "same_institution": true
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "author_id": "A5067791761",
+  "total_recent_works_analysed": 7,
+  "total_unique_collaborators": 12,
+  "estimated_mentee_count": 3,
+  "likely_mentees": [
+    {
+      "name": "Michael Suleski",
+      "id": "A5088065545",
+      "works_count": 9,
+      "shared_papers": 5
+    },
+    {
+      "name": "Adrienne E Kasprowicz",
+      "id": "A5028989535",
+      "works_count": 6,
+      "shared_papers": 1
+    },
+    {
+      "name": "Michael Li",
+      "id": "A5100724530",
+      "works_count": 7,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.0
+  },
+  "top_collaborators": [
+    {
+      "name": "Sudhir Kumar",
+      "id": "A5100680948",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Michael Suleski",
+      "id": "A5088065545",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Maxwell Sanderford",
+      "id": "A5033569885",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Koichiro Tamura",
+      "id": "A5007823743",
+      "shared_papers": 4,
+      "same_institution": false
+    },
+    {
+      "name": "Sudip Sharma",
+      "id": "A5020357256",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Jun Liu",
+      "id": "A5100361891",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Jieping Ye",
+      "id": "A5113484095",
+      "shared_papers": 2,
+      "same_institution": false
+    },
+    {
+      "name": "Jack M. Craig",
+      "id": "A5091689845",
+      "shared_papers": 1,
+      "same_institution": true
+    },
+    {
+      "name": "Adrienne E Kasprowicz",
+      "id": "A5028989535",
+      "shared_papers": 1,
+      "same_institution": true
+    },
+    {
+      "name": "Michael Li",
+      "id": "A5100724530",
+      "shared_papers": 1,
+      "same_institution": true
+    }
+  ]
+}

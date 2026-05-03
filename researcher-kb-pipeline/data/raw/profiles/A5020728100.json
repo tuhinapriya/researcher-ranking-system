@@ -1,0 +1,766 @@
+{
+  "author_id": "A5020728100",
+  "openalex": {
+    "id": "https://openalex.org/A5020728100",
+    "orcid": "https://orcid.org/0000-0001-6799-8491",
+    "display_name": "Yanxian Zhang",
+    "raw_author_names": [
+      "Yanxian Zhang",
+      "Zhang Yanxian"
+    ],
+    "full_name": "Yanxian Zhang",
+    "works_count": 77,
+    "cited_by_count": 3482,
+    "summary_stats": {
+      "2yr_mean_citedness": 19.0,
+      "h_index": 33,
+      "i10_index": 50
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5020728100",
+      "orcid": "https://orcid.org/0000-0001-6799-8491"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I110152177",
+          "ror": "https://ror.org/02kyckx55",
+          "display_name": "University of Akron",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110152177"
+          ]
+        },
+        "years": [
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I119203015",
+          "ror": "https://ror.org/02mr3ar13",
+          "display_name": "Shandong University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I119203015"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I160354086",
+          "ror": "https://ror.org/03dveyr97",
+          "display_name": "Guangxi Medical University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I160354086"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I162868743",
+          "ror": "https://ror.org/012tb2g32",
+          "display_name": "Tianjin University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I162868743"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I165911609",
+          "ror": "https://ror.org/05dt7z971",
+          "display_name": "Changsha Medical University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I165911609"
+          ]
+        },
+        "years": [
+          1997
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I194450716",
+          "ror": "https://ror.org/00js3aw79",
+          "display_name": "Jilin University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I194450716"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I199305430",
+          "ror": "https://ror.org/02afcvw97",
+          "display_name": "Nantong University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I199305430"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I223532165",
+          "ror": "https://ror.org/03r0ha626",
+          "display_name": "University of Utah",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I223532165"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I27781120",
+          "ror": "https://ror.org/00rd5t069",
+          "display_name": "Wenzhou Medical University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27781120"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800666027",
+          "ror": "https://ror.org/03c2jp606",
+          "display_name": "Mexican Academy of Sciences",
+          "country_code": "MX",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2800666027"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I36152291",
+          "ror": "https://ror.org/05sbgwt55",
+          "display_name": "Henan University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36152291"
+          ]
+        },
+        "years": [
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210086801",
+          "ror": "https://ror.org/001rahr89",
+          "display_name": "Affiliated Hospital of Nantong University",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210086801"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210117020",
+          "ror": "https://ror.org/02tx34m84",
+          "display_name": "Nantong Science and Technology Bureau",
+          "country_code": "CN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210117020"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210137306",
+          "ror": "https://ror.org/03mtd9a03",
+          "display_name": "Stanford Medicine",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210137306",
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210137423",
+          "ror": "https://ror.org/03prq2784",
+          "display_name": "Zhuzhou Central Hospital",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210137423"
+          ]
+        },
+        "years": [
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165362",
+          "ror": "https://ror.org/05n629g02",
+          "display_name": "Molecular Research Institute",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210165362"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210166499",
+          "ror": "https://ror.org/05vr1c885",
+          "display_name": "Henan Polytechnic University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210166499"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I49934816",
+          "ror": "https://ror.org/04j3vr751",
+          "display_name": "Hunan University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I49934816"
+          ]
+        },
+        "years": [
+          2019,
+          2018
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I55712492",
+          "ror": "https://ror.org/02djqfd08",
+          "display_name": "Zhejiang University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I55712492"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I88830068",
+          "ror": "https://ror.org/0170z8493",
+          "display_name": "Shaanxi Normal University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I88830068"
+          ]
+        },
+        "years": [
+          2014
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I9086337",
+          "ror": "https://ror.org/03kv08d37",
+          "display_name": "Taiyuan University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I9086337"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I92403157",
+          "ror": "https://ror.org/02egmk993",
+          "display_name": "University of Science and Technology Beijing",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I92403157"
+          ]
+        },
+        "years": [
+          2018,
+          2017,
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I97018004",
+          "ror": "https://ror.org/00f54p054",
+          "display_name": "Stanford University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I199305430",
+        "ror": "https://ror.org/02afcvw97",
+        "display_name": "Nantong University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I199305430"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210086801",
+        "ror": "https://ror.org/001rahr89",
+        "display_name": "Affiliated Hospital of Nantong University",
+        "country_code": "CN",
+        "type": "healthcare",
+        "lineage": [
+          "https://openalex.org/I4210086801"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210117020",
+        "ror": "https://ror.org/02tx34m84",
+        "display_name": "Nantong Science and Technology Bureau",
+        "country_code": "CN",
+        "type": "government",
+        "lineage": [
+          "https://openalex.org/I4210117020"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I97018004",
+        "ror": "https://ror.org/00f54p054",
+        "display_name": "Stanford University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I97018004"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10086",
+        "display_name": "Alzheimer's disease research and treatments",
+        "count": 17,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2737",
+          "display_name": "Physiology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10859",
+        "display_name": "Polymer Surface Interaction Studies",
+        "count": 13,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2508",
+          "display_name": "Surfaces, Coatings and Films"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10343",
+        "display_name": "Hydrogels: synthesis, properties, applications",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1313",
+          "display_name": "Molecular Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10338",
+        "display_name": "Advanced Sensor and Energy Harvesting Materials",
+        "count": 10,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11737",
+        "display_name": "Advanced Materials and Mechanics",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10343",
+        "display_name": "Hydrogels: synthesis, properties, applications",
+        "value": 0.0001226,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1313",
+          "display_name": "Molecular Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10859",
+        "display_name": "Polymer Surface Interaction Studies",
+        "value": 0.0001178,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2508",
+          "display_name": "Surfaces, Coatings and Films"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10086",
+        "display_name": "Alzheimer's disease research and treatments",
+        "value": 8.49e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2737",
+          "display_name": "Physiology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11737",
+        "display_name": "Advanced Materials and Mechanics",
+        "value": 7.28e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12071",
+        "display_name": "Marine Biology and Environmental Chemistry",
+        "value": 7.01e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2212",
+          "display_name": "Ocean Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "score": 0.942721962928772
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.8915140628814697
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.8750532865524292
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.6698962450027466
+      },
+      {
+        "id": "127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "score": 0.2880341410636902
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1997,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2005,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2006,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2008,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2009,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2010,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2011,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 30
+      },
+      {
+        "year": 2014,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2015,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2016,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 30
+      },
+      {
+        "year": 2017,
+        "works_count": 9,
+        "oa_works_count": 0,
+        "cited_by_count": 587
+      },
+      {
+        "year": 2018,
+        "works_count": 11,
+        "oa_works_count": 0,
+        "cited_by_count": 977
+      },
+      {
+        "year": 2019,
+        "works_count": 10,
+        "oa_works_count": 3,
+        "cited_by_count": 721
+      },
+      {
+        "year": 2020,
+        "works_count": 10,
+        "oa_works_count": 1,
+        "cited_by_count": 666
+      },
+      {
+        "year": 2021,
+        "works_count": 11,
+        "oa_works_count": 5,
+        "cited_by_count": 295
+      },
+      {
+        "year": 2022,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 29
+      },
+      {
+        "year": 2023,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 23
+      },
+      {
+        "year": 2024,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 43
+      },
+      {
+        "year": 2025,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 71
+      }
+    ],
+    "display_name_alternatives": [
+      "Yanxian Zhang",
+      "Zhang Yanxian"
+    ],
+    "block_key": "y zhang",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5020728100",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "46868251",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/46868251",
+    "name": "Yanxian Zhang",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 2,
+    "citationCount": 15,
+    "hIndex": 2
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "author_id": "A5108093963",
+  "total_recent_works_analysed": 38,
+  "total_unique_collaborators": 235,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.39,
+    "corresponding_author_ratio": 0.11
+  },
+  "top_collaborators": [
+    {
+      "name": "Yoshua Bengio",
+      "id": "A5086198262",
+      "shared_papers": 8,
+      "same_institution": false
+    },
+    {
+      "name": "David J. Fleet",
+      "id": "A5035123135",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Sören Mindermann",
+      "id": "A5012960540",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Simon Kornblith",
+      "id": "A5042760897",
+      "shared_papers": 7,
+      "same_institution": false
+    },
+    {
+      "name": "Ya-Qin Zhang",
+      "id": "A5107228559",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Stuart Russell",
+      "id": "A5007305440",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Andrea Tagliasacchi",
+      "id": "A5037094498",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Mohammad Norouzi",
+      "id": "A5103947107",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Soroosh Yazdani",
+      "id": "A5001957619",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Sara Sabour",
+      "id": "A5032145074",
+      "shared_papers": 5,
+      "same_institution": false
+    }
+  ]
+}

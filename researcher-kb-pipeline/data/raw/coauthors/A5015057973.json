@@ -1,0 +1,110 @@
+{
+  "author_id": "A5015057973",
+  "total_recent_works_analysed": 43,
+  "total_unique_collaborators": 185,
+  "estimated_mentee_count": 6,
+  "likely_mentees": [
+    {
+      "name": "Thomas Falcucci",
+      "id": "A5022579413",
+      "works_count": 9,
+      "shared_papers": 6
+    },
+    {
+      "name": "Junqi Wu",
+      "id": "A5049070377",
+      "works_count": 13,
+      "shared_papers": 6
+    },
+    {
+      "name": "Isabel Laubach",
+      "id": "A5087588204",
+      "works_count": 4,
+      "shared_papers": 2
+    },
+    {
+      "name": "Marc Descoteaux",
+      "id": "A5031379596",
+      "works_count": 14,
+      "shared_papers": 2
+    },
+    {
+      "name": "Ying Chen",
+      "id": "A5058703365",
+      "works_count": 17,
+      "shared_papers": 2
+    },
+    {
+      "name": "Charlotte S. Jacobus",
+      "id": "A5093058682",
+      "works_count": 5,
+      "shared_papers": 2
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.05
+  },
+  "top_collaborators": [
+    {
+      "name": "David L. Kaplan",
+      "id": "A5057871048",
+      "shared_papers": 33,
+      "same_institution": true
+    },
+    {
+      "name": "Onur Hasturk",
+      "id": "A5089043512",
+      "shared_papers": 12,
+      "same_institution": true
+    },
+    {
+      "name": "Xuan Mu",
+      "id": "A5087796544",
+      "shared_papers": 8,
+      "same_institution": true
+    },
+    {
+      "name": "Jaewon Choi",
+      "id": "A5002857574",
+      "shared_papers": 7,
+      "same_institution": true
+    },
+    {
+      "name": "Thomas Falcucci",
+      "id": "A5022579413",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Junqi Wu",
+      "id": "A5049070377",
+      "shared_papers": 6,
+      "same_institution": true
+    },
+    {
+      "name": "Yu Shrike Zhang",
+      "id": "A5067842712",
+      "shared_papers": 6,
+      "same_institution": false
+    },
+    {
+      "name": "Xiao Kuang",
+      "id": "A5023152887",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Guosheng Tang",
+      "id": "A5108944334",
+      "shared_papers": 5,
+      "same_institution": false
+    },
+    {
+      "name": "Carlos Ezio Garciamendez‐Mijares",
+      "id": "A5088795495",
+      "shared_papers": 5,
+      "same_institution": false
+    }
+  ]
+}

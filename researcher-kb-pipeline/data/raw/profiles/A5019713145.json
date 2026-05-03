@@ -1,0 +1,844 @@
+{
+  "author_id": "A5019713145",
+  "openalex": {
+    "id": "https://openalex.org/A5019713145",
+    "orcid": "https://orcid.org/0000-0002-1163-0505",
+    "display_name": "King Kuok Hii",
+    "raw_author_names": [
+      "Hii, K.K.",
+      "Hii, King Kuok",
+      "Hii, King Kuok (Mimi)",
+      "Hii, King Kuok Mimi",
+      "K. K. (M. ) Hii",
+      "K. K. (Mimi) Hii",
+      "K. K. HII",
+      "K. K. Hii",
+      "K. K.(Mimi) Hii",
+      "K.K.(Mimi) Hii",
+      "K. K. (Mimi) Hii",
+      "King K. (Mimi) Hii",
+      "King K. Hii",
+      "King Kuog (Mimi) Hii",
+      "King Kuok (Mimi) Hii",
+      "King Kuok Hii",
+      "King Kuok Mimi Hii",
+      "King Kuok “Mimi” Hii",
+      "King Kuok (Mimi) Hii",
+      "King Kuok (Mimi) Hii",
+      "King Kuok (Mimi) Hii"
+    ],
+    "full_name": "Hii, King Kuok (Mimi)",
+    "works_count": 376,
+    "cited_by_count": 6083,
+    "summary_stats": {
+      "2yr_mean_citedness": 4.375,
+      "h_index": 44,
+      "i10_index": 117
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5019713145",
+      "orcid": "https://orcid.org/0000-0002-1163-0505"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I1294671590",
+          "ror": "https://ror.org/02feahw73",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        "years": [
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I130828816",
+          "ror": "https://ror.org/024mrxd33",
+          "display_name": "University of Leeds",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130828816"
+          ]
+        },
+        "years": [
+          1999,
+          1992
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I131579929",
+          "ror": "https://ror.org/01emtgd92",
+          "display_name": "Mansfield University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I131579929"
+          ]
+        },
+        "years": [
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I183935753",
+          "ror": "https://ror.org/0220mzb33",
+          "display_name": "King's College London",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        },
+        "years": [
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I188703185",
+          "ror": "https://ror.org/0400j3f74",
+          "display_name": "GTx (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I188703185"
+          ]
+        },
+        "years": [
+          2000
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I200284239",
+          "ror": "https://ror.org/030eybx10",
+          "display_name": "Universidade de Santiago de Compostela",
+          "country_code": "ES",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I200284239"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I23923803",
+          "ror": "https://ror.org/03yghzc09",
+          "display_name": "University of Exeter",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I23923803"
+          ]
+        },
+        "years": [
+          2004
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I28407311",
+          "ror": "https://ror.org/027m9bs27",
+          "display_name": "University of Manchester",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I29607241",
+          "ror": "https://ror.org/05a0dhs15",
+          "display_name": "École Normale Supérieure - PSL",
+          "country_code": "FR",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I2746051580",
+            "https://openalex.org/I29607241"
+          ]
+        },
+        "years": [
+          1999
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39804081",
+          "ror": "https://ror.org/02en5vm52",
+          "display_name": "Sorbonne Université",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39804081"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I40120149",
+          "ror": "https://ror.org/052gg0110",
+          "display_name": "University of Oxford",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        "years": [
+          2006,
+          2001,
+          2000,
+          1998,
+          1997
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210088913",
+          "ror": "https://ror.org/0073v0y35",
+          "display_name": "London Biofoundry",
+          "country_code": "GB",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210088913"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210089887",
+          "ror": "https://ror.org/00a4npp83",
+          "display_name": "Dyson (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210089887"
+          ]
+        },
+        "years": [
+          2001,
+          1998,
+          1997,
+          1996
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210098902",
+          "ror": "https://ror.org/00tmb7y09",
+          "display_name": "Laboratoire de Chimie Théorique",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I39804081",
+            "https://openalex.org/I4210098902",
+            "https://openalex.org/I4210128300"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210099042",
+          "ror": "https://ror.org/01411sx56",
+          "display_name": "Johnson Matthey (United Kingdom)",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210099042"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210109636",
+          "ror": "https://ror.org/01kmhx639",
+          "display_name": "NIHR Imperial Biomedical Research Centre",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I34931013",
+            "https://openalex.org/I4210109636"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210119896",
+          "ror": "https://ror.org/02bbqcn27",
+          "display_name": "King's College School",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210119896"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210123971",
+          "ror": "https://ror.org/02qcscp23",
+          "display_name": "Kensington Health",
+          "country_code": "CA",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210123971"
+          ]
+        },
+        "years": [
+          2015
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4392021135",
+          "ror": "https://ror.org/04cgczp52",
+          "display_name": "Transnational Press London",
+          "country_code": null,
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4392021135"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I44187974",
+          "ror": "https://ror.org/000fyja13",
+          "display_name": "Molecular Sciences Institute",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I44187974"
+          ]
+        },
+        "years": [
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I47508984",
+          "ror": "https://ror.org/041kmwe10",
+          "display_name": "Imperial College London",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I47508984"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004
+        ]
+      }
+    ],
+    "last_known_institutions": null,
+    "topics": [
+      {
+        "id": "https://openalex.org/T11281",
+        "display_name": "Asymmetric Hydrogenation and Catalysis",
+        "count": 84,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1604",
+          "display_name": "Inorganic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11881",
+        "display_name": "Crystallization and Solubility Studies",
+        "count": 78,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12613",
+        "display_name": "X-ray Diffraction in Crystallography",
+        "count": 77,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10548",
+        "display_name": "Catalytic Cross-Coupling Reactions",
+        "count": 52,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10354",
+        "display_name": "Catalytic C–H Functionalization Methods",
+        "count": 51,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T11281",
+        "display_name": "Asymmetric Hydrogenation and Catalysis",
+        "value": 0.00041,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1604",
+          "display_name": "Inorganic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10548",
+        "display_name": "Catalytic Cross-Coupling Reactions",
+        "value": 0.0004034,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10354",
+        "display_name": "Catalytic C–H Functionalization Methods",
+        "value": 0.000295,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13105",
+        "display_name": "Synthesis and pharmacology of benzodiazepine derivatives",
+        "value": 0.000207,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10871",
+        "display_name": "Catalytic Alkyne Reactions",
+        "value": 0.0001934,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9899797439575195
+      },
+      {
+        "id": "161790260",
+        "wikidata": "https://www.wikidata.org/wiki/Q82264",
+        "display_name": "Catalysis",
+        "score": 0.9233403205871582
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.6686254739761353
+      },
+      {
+        "id": "178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "score": 0.5679702758789062
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.5481184720993042
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1992,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 29
+      },
+      {
+        "year": 1994,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 40
+      },
+      {
+        "year": 1995,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 9
+      },
+      {
+        "year": 1996,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 107
+      },
+      {
+        "year": 1997,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 117
+      },
+      {
+        "year": 1998,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 94
+      },
+      {
+        "year": 1999,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 127
+      },
+      {
+        "year": 2000,
+        "works_count": 6,
+        "oa_works_count": 0,
+        "cited_by_count": 115
+      },
+      {
+        "year": 2001,
+        "works_count": 11,
+        "oa_works_count": 5,
+        "cited_by_count": 665
+      },
+      {
+        "year": 2002,
+        "works_count": 7,
+        "oa_works_count": 3,
+        "cited_by_count": 268
+      },
+      {
+        "year": 2003,
+        "works_count": 15,
+        "oa_works_count": 5,
+        "cited_by_count": 232
+      },
+      {
+        "year": 2004,
+        "works_count": 12,
+        "oa_works_count": 0,
+        "cited_by_count": 284
+      },
+      {
+        "year": 2005,
+        "works_count": 25,
+        "oa_works_count": 10,
+        "cited_by_count": 348
+      },
+      {
+        "year": 2006,
+        "works_count": 23,
+        "oa_works_count": 12,
+        "cited_by_count": 551
+      },
+      {
+        "year": 2007,
+        "works_count": 9,
+        "oa_works_count": 2,
+        "cited_by_count": 197
+      },
+      {
+        "year": 2008,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 91
+      },
+      {
+        "year": 2009,
+        "works_count": 9,
+        "oa_works_count": 3,
+        "cited_by_count": 335
+      },
+      {
+        "year": 2010,
+        "works_count": 10,
+        "oa_works_count": 2,
+        "cited_by_count": 589
+      },
+      {
+        "year": 2011,
+        "works_count": 41,
+        "oa_works_count": 1,
+        "cited_by_count": 244
+      },
+      {
+        "year": 2012,
+        "works_count": 8,
+        "oa_works_count": 1,
+        "cited_by_count": 177
+      },
+      {
+        "year": 2013,
+        "works_count": 32,
+        "oa_works_count": 23,
+        "cited_by_count": 285
+      },
+      {
+        "year": 2014,
+        "works_count": 10,
+        "oa_works_count": 7,
+        "cited_by_count": 27
+      },
+      {
+        "year": 2015,
+        "works_count": 17,
+        "oa_works_count": 13,
+        "cited_by_count": 151
+      },
+      {
+        "year": 2016,
+        "works_count": 33,
+        "oa_works_count": 29,
+        "cited_by_count": 352
+      },
+      {
+        "year": 2017,
+        "works_count": 11,
+        "oa_works_count": 8,
+        "cited_by_count": 147
+      },
+      {
+        "year": 2018,
+        "works_count": 7,
+        "oa_works_count": 2,
+        "cited_by_count": 101
+      },
+      {
+        "year": 2019,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 29
+      },
+      {
+        "year": 2020,
+        "works_count": 7,
+        "oa_works_count": 4,
+        "cited_by_count": 56
+      },
+      {
+        "year": 2021,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 68
+      },
+      {
+        "year": 2022,
+        "works_count": 8,
+        "oa_works_count": 5,
+        "cited_by_count": 67
+      },
+      {
+        "year": 2023,
+        "works_count": 8,
+        "oa_works_count": 7,
+        "cited_by_count": 41
+      },
+      {
+        "year": 2024,
+        "works_count": 19,
+        "oa_works_count": 12,
+        "cited_by_count": 100
+      },
+      {
+        "year": 2025,
+        "works_count": 12,
+        "oa_works_count": 7,
+        "cited_by_count": 39
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      }
+    ],
+    "display_name_alternatives": [
+      "Hii, K.K.",
+      "Hii, King Kuok",
+      "Hii, King Kuok (Mimi)",
+      "Hii, King Kuok Mimi",
+      "K. K. (M. ) Hii",
+      "K. K. (Mimi) Hii",
+      "K. K. HII",
+      "K. K. Hii",
+      "K. K.(Mimi) Hii",
+      "K.K.(Mimi) Hii",
+      "K. K. (Mimi) Hii",
+      "King K. (Mimi) Hii",
+      "King K. Hii",
+      "King Kuog (Mimi) Hii",
+      "King Kuok (Mimi) Hii",
+      "King Kuok Hii",
+      "King Kuok Mimi Hii",
+      "King Kuok “Mimi” Hii",
+      "King Kuok (Mimi) Hii",
+      "King Kuok (Mimi) Hii",
+      "King Kuok (Mimi) Hii"
+    ],
+    "block_key": "k hii",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5019713145",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": null
+}

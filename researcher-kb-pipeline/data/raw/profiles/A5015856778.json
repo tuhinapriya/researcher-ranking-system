@@ -1,0 +1,894 @@
+{
+  "author_id": "A5015856778",
+  "openalex": {
+    "id": "https://openalex.org/A5015856778",
+    "orcid": "https://orcid.org/0000-0001-8992-4338",
+    "display_name": "Yihang Jiang",
+    "raw_author_names": [
+      "Jiang, Yihang",
+      "Y. Jiang",
+      "Yi-Hang Jiang",
+      "Yihang Jiang",
+      "Yihang jiang"
+    ],
+    "full_name": "Jiang, Yihang",
+    "works_count": 108,
+    "cited_by_count": 1901,
+    "summary_stats": {
+      "2yr_mean_citedness": 5.103448275862069,
+      "h_index": 25,
+      "i10_index": 45
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5015856778",
+      "orcid": "https://orcid.org/0000-0001-8992-4338"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I101479585",
+          "ror": "https://ror.org/05v9jqt67",
+          "display_name": "South China Agricultural University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I101479585"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I126520041",
+          "ror": "https://ror.org/04c4dkn09",
+          "display_name": "University of Science and Technology of China",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126520041",
+            "https://openalex.org/I19820366"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I137559332",
+          "ror": "https://ror.org/0482p8a89",
+          "display_name": "United Nations Economic and Social Commission for Asia and the Pacific",
+          "country_code": "TH",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1286959531",
+            "https://openalex.org/I137559332",
+            "https://openalex.org/I2801247003"
+          ]
+        },
+        "years": [
+          2012
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I167027274",
+          "ror": "https://ror.org/03m96p165",
+          "display_name": "Nanjing Forestry University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I167027274"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I177725633",
+          "ror": "https://ror.org/00t33hh48",
+          "display_name": "Chinese University of Hong Kong",
+          "country_code": "HK",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177725633"
+          ]
+        },
+        "years": [
+          2025,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I180726961",
+          "ror": "https://ror.org/01vy4gh70",
+          "display_name": "Shenzhen University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I180726961"
+          ]
+        },
+        "years": [
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I183519381",
+          "ror": "https://ror.org/013xs5b60",
+          "display_name": "Capital Medical University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I183519381"
+          ]
+        },
+        "years": [
+          2021,
+          2018,
+          2017,
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I191208505",
+          "ror": "https://ror.org/00mcjh785",
+          "display_name": "Xiamen University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I191208505"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I196699116",
+          "ror": "https://ror.org/03fe7t173",
+          "display_name": "Wuhan University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I196699116"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I198091727",
+          "ror": "https://ror.org/00xsr9m91",
+          "display_name": "Tiangong University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I198091727"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I19820366",
+          "ror": "https://ror.org/034t30j35",
+          "display_name": "Chinese Academy of Sciences",
+          "country_code": "CN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I19820366"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I24185976",
+          "ror": "https://ror.org/011ashp19",
+          "display_name": "Sichuan University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I24185976"
+          ]
+        },
+        "years": [
+          2009,
+          2008,
+          2007,
+          2005
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2800232565",
+          "ror": "https://ror.org/01eff5662",
+          "display_name": "Beijing Chao-Yang Hospital",
+          "country_code": "CN",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800232565",
+            "https://openalex.org/I4210110145",
+            "https://openalex.org/I4210135108"
+          ]
+        },
+        "years": [
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I3131625388",
+          "ror": "https://ror.org/05f5j6225",
+          "display_name": "University Town of Shenzhen",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3131625388"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210089584",
+          "ror": "https://ror.org/00b4mx203",
+          "display_name": "Institute of Hydrobiology",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I4210089584"
+          ]
+        },
+        "years": [
+          2024,
+          2023,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210099586",
+          "ror": "https://ror.org/00z1gwf89",
+          "display_name": "Shenzhen Research Institute of Big Data",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210099586"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210116924",
+          "ror": "https://ror.org/02d5ks197",
+          "display_name": "Chinese University of Hong Kong, Shenzhen",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177725633",
+            "https://openalex.org/I180726961",
+            "https://openalex.org/I4210116924"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210118047",
+          "ror": "https://ror.org/02b9znm90",
+          "display_name": "Laboratoire d’Imagerie Biomédicale",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I39804081",
+            "https://openalex.org/I4210096427",
+            "https://openalex.org/I4210118047"
+          ]
+        },
+        "years": [
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210123265",
+          "ror": "https://ror.org/021atz428",
+          "display_name": "National Institute of Clean and Low-Carbon Energy",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210123265"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210137768",
+          "ror": "https://ror.org/03xs42a74",
+          "display_name": "UNICEF East Asia and Pacific Regional Office",
+          "country_code": "TH",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210137768"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210145292",
+          "ror": "https://ror.org/04yjbr930",
+          "display_name": "Shenzhen University Health Science Center",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210145292"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210165038",
+          "ror": "https://ror.org/05qbk4x57",
+          "display_name": "University of Chinese Academy of Sciences",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I4210165038"
+          ]
+        },
+        "years": [
+          2024,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4391768273",
+          "ror": "https://ror.org/03kd9rr37",
+          "display_name": "State Key Laboratory of Electrical Insulation and Power Equipment",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4391768273",
+            "https://openalex.org/I87445476"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I76214153",
+          "ror": "https://ror.org/01mkqqe32",
+          "display_name": "Lanzhou University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76214153"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I87445476",
+          "ror": "https://ror.org/017zhmm22",
+          "display_name": "Xi'an Jiaotong University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I87445476"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2021
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I927504317",
+          "ror": "https://ror.org/0369pvp92",
+          "display_name": "Nanchang Hangkong University",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I927504317"
+          ]
+        },
+        "years": [
+          2021
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I101479585",
+        "ror": "https://ror.org/05v9jqt67",
+        "display_name": "South China Agricultural University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I101479585"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I126520041",
+        "ror": "https://ror.org/04c4dkn09",
+        "display_name": "University of Science and Technology of China",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I126520041",
+          "https://openalex.org/I19820366"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I167027274",
+        "ror": "https://ror.org/03m96p165",
+        "display_name": "Nanjing Forestry University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I167027274"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I177725633",
+        "ror": "https://ror.org/00t33hh48",
+        "display_name": "Chinese University of Hong Kong",
+        "country_code": "HK",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I177725633"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210123265",
+        "ror": "https://ror.org/021atz428",
+        "display_name": "National Institute of Clean and Low-Carbon Energy",
+        "country_code": "CN",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I4210123265"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210145292",
+        "ror": "https://ror.org/04yjbr930",
+        "display_name": "Shenzhen University Health Science Center",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210145292"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4391768273",
+        "ror": "https://ror.org/03kd9rr37",
+        "display_name": "State Key Laboratory of Electrical Insulation and Power Equipment",
+        "country_code": null,
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I4391768273",
+          "https://openalex.org/I87445476"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I87445476",
+        "ror": "https://ror.org/017zhmm22",
+        "display_name": "Xi'an Jiaotong University",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I87445476"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10107",
+        "display_name": "Ferroelectric and Piezoelectric Materials",
+        "count": 21,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10782",
+        "display_name": "Nanoplatforms for cancer theranostics",
+        "count": 15,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11160",
+        "display_name": "Acoustic Wave Resonator Technologies",
+        "count": 15,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12155",
+        "display_name": "Microwave Dielectric Ceramics Synthesis",
+        "count": 12,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10192",
+        "display_name": "Catalytic Processes in Materials Science",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12155",
+        "display_name": "Microwave Dielectric Ceramics Synthesis",
+        "value": 0.0001259,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14116",
+        "display_name": "Aviation History and Innovations",
+        "value": 0.0001071,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1207",
+          "display_name": "History and Philosophy of Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10107",
+        "display_name": "Ferroelectric and Piezoelectric Materials",
+        "value": 0.0001051,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10782",
+        "display_name": "Nanoplatforms for cancer theranostics",
+        "value": 8.5e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11160",
+        "display_name": "Acoustic Wave Resonator Technologies",
+        "value": 6.91e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.9587970972061157
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.9403421878814697
+      },
+      {
+        "id": "86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "score": 0.8164716958999634
+      },
+      {
+        "id": "178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "score": 0.6062139272689819
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.37449488043785095
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2001,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 51
+      },
+      {
+        "year": 2002,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2005,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2007,
+        "works_count": 9,
+        "oa_works_count": 0,
+        "cited_by_count": 362
+      },
+      {
+        "year": 2008,
+        "works_count": 9,
+        "oa_works_count": 0,
+        "cited_by_count": 159
+      },
+      {
+        "year": 2009,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2011,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2012,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 22
+      },
+      {
+        "year": 2015,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2016,
+        "works_count": 4,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2017,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 33
+      },
+      {
+        "year": 2018,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2019,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2020,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 134
+      },
+      {
+        "year": 2021,
+        "works_count": 11,
+        "oa_works_count": 4,
+        "cited_by_count": 429
+      },
+      {
+        "year": 2022,
+        "works_count": 14,
+        "oa_works_count": 5,
+        "cited_by_count": 382
+      },
+      {
+        "year": 2023,
+        "works_count": 13,
+        "oa_works_count": 7,
+        "cited_by_count": 147
+      },
+      {
+        "year": 2024,
+        "works_count": 10,
+        "oa_works_count": 3,
+        "cited_by_count": 67
+      },
+      {
+        "year": 2025,
+        "works_count": 19,
+        "oa_works_count": 10,
+        "cited_by_count": 81
+      }
+    ],
+    "display_name_alternatives": [
+      "Jiang, Yihang",
+      "Y. Jiang",
+      "Yi-Hang Jiang",
+      "Yihang Jiang",
+      "Yihang jiang"
+    ],
+    "block_key": "y jiang",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5015856778",
+    "updated_date": "2026-04-10T12:21:58",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "72768978",
+    "externalIds": {
+      "DBLP": [
+        "Yihang Jiang",
+        "Yihang Jiang 0003"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/72768978",
+    "name": "Yihang Jiang",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 48,
+    "citationCount": 925,
+    "hIndex": 19
+  }
+}

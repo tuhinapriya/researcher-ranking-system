@@ -1,0 +1,98 @@
+{
+  "author_id": "A5008728694",
+  "total_recent_works_analysed": 150,
+  "total_unique_collaborators": 625,
+  "estimated_mentee_count": 4,
+  "likely_mentees": [
+    {
+      "name": "Matthew Strasbourg",
+      "id": "A5033728659",
+      "works_count": 16,
+      "shared_papers": 14
+    },
+    {
+      "name": "Zhi Hao Peng",
+      "id": "A5003481278",
+      "works_count": 12,
+      "shared_papers": 8
+    },
+    {
+      "name": "Natalie Fardian‐Melamed",
+      "id": "A5081683464",
+      "works_count": 18,
+      "shared_papers": 7
+    },
+    {
+      "name": "Benedikt Ursprung",
+      "id": "A5051134046",
+      "works_count": 11,
+      "shared_papers": 7
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.22,
+    "corresponding_author_ratio": 0.17
+  },
+  "top_collaborators": [
+    {
+      "name": "James Hone",
+      "id": "A5007197576",
+      "shared_papers": 53,
+      "same_institution": true
+    },
+    {
+      "name": "Thomas P. Darlington",
+      "id": "A5027259643",
+      "shared_papers": 37,
+      "same_institution": true
+    },
+    {
+      "name": "D. N. Basov",
+      "id": "A5043316159",
+      "shared_papers": 36,
+      "same_institution": true
+    },
+    {
+      "name": "Xiaoyang Zhu",
+      "id": "A5085318525",
+      "shared_papers": 29,
+      "same_institution": true
+    },
+    {
+      "name": "Emanuil Yanev",
+      "id": "A5005515701",
+      "shared_papers": 27,
+      "same_institution": true
+    },
+    {
+      "name": "Chiara Trovatello",
+      "id": "A5091041752",
+      "shared_papers": 26,
+      "same_institution": true
+    },
+    {
+      "name": "Kaiyuan Yao",
+      "id": "A5053773723",
+      "shared_papers": 26,
+      "same_institution": true
+    },
+    {
+      "name": "Emory M. Chan",
+      "id": "A5027498284",
+      "shared_papers": 26,
+      "same_institution": false
+    },
+    {
+      "name": "Yinming Shao",
+      "id": "A5012310868",
+      "shared_papers": 25,
+      "same_institution": true
+    },
+    {
+      "name": "Changhwan Lee",
+      "id": "A5040604013",
+      "shared_papers": 23,
+      "same_institution": true
+    }
+  ]
+}

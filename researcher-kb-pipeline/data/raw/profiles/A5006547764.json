@@ -1,0 +1,365 @@
+{
+  "author_id": "A5006547764",
+  "openalex": {
+    "id": "https://openalex.org/A5006547764",
+    "orcid": "https://orcid.org/0000-0002-4702-3440",
+    "display_name": "Laura Schulz",
+    "raw_author_names": [
+      "Laura B. Schulz",
+      "Laura Brandon Schulz",
+      "Laura Schulz",
+      "Schulz, Laura"
+    ],
+    "full_name": "Laura Brandon Schulz",
+    "works_count": 28,
+    "cited_by_count": 128,
+    "summary_stats": {
+      "2yr_mean_citedness": 2.5,
+      "h_index": 6,
+      "i10_index": 4
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5006547764",
+      "orcid": "https://orcid.org/0000-0002-4702-3440"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I109144446",
+          "ror": "https://ror.org/001rdaz60",
+          "display_name": "Bavarian Academy of Sciences and Humanities",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I109144446"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1282105669",
+          "ror": "https://ror.org/05gvnxz63",
+          "display_name": "Argonne National Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1282105669",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I40347166"
+          ]
+        },
+        "years": [
+          2026,
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210163716",
+          "ror": "https://ror.org/05558nw16",
+          "display_name": "Leibniz Supercomputing Centre",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I109144446",
+            "https://openalex.org/I4210163716"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I1282105669",
+        "ror": "https://ror.org/05gvnxz63",
+        "display_name": "Argonne National Laboratory",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I1282105669",
+          "https://openalex.org/I1330989302",
+          "https://openalex.org/I39565521",
+          "https://openalex.org/I40347166"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "count": 24,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10101",
+        "display_name": "Cloud Computing and Resource Management",
+        "count": 11,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "count": 8,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10054",
+        "display_name": "Parallel Computing and Optimization Techniques",
+        "count": 7,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1708",
+          "display_name": "Hardware and Architecture"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10622",
+        "display_name": "Quantum Mechanics and Applications",
+        "count": 3,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "value": 0.0001413,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13182",
+        "display_name": "Quantum-Dot Cellular Automata",
+        "value": 6.51e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10101",
+        "display_name": "Cloud Computing and Resource Management",
+        "value": 4.5e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "value": 3.25e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10261",
+        "display_name": "Genetic Associations and Epidemiology",
+        "value": 2.05e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.8762518167495728
+      },
+      {
+        "id": "58053490",
+        "wikidata": "https://www.wikidata.org/wiki/Q176555",
+        "display_name": "Quantum computer",
+        "score": 0.8418999910354614
+      },
+      {
+        "id": "84114770",
+        "wikidata": "https://www.wikidata.org/wiki/Q46344",
+        "display_name": "Quantum",
+        "score": 0.5648999810218811
+      },
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.3273000121116638
+      },
+      {
+        "id": "62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "score": 0.2847000062465668
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2021,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2022,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 42
+      },
+      {
+        "year": 2023,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 20
+      },
+      {
+        "year": 2024,
+        "works_count": 8,
+        "oa_works_count": 2,
+        "cited_by_count": 43
+      },
+      {
+        "year": 2025,
+        "works_count": 13,
+        "oa_works_count": 8,
+        "cited_by_count": 11
+      },
+      {
+        "year": 2026,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 1
+      }
+    ],
+    "display_name_alternatives": [
+      "Laura B. Schulz",
+      "Laura Brandon Schulz",
+      "Laura Schulz",
+      "Schulz, Laura"
+    ],
+    "block_key": "l schulz",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5006547764",
+    "updated_date": null,
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2670479",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2670479",
+    "name": "Laura Schulz",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 5,
+    "citationCount": 221,
+    "hIndex": 3
+  }
+}

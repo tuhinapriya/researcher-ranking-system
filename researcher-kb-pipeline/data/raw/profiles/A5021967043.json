@@ -1,0 +1,817 @@
+{
+  "author_id": "A5021967043",
+  "openalex": {
+    "id": "https://openalex.org/A5021967043",
+    "orcid": "https://orcid.org/0000-0002-2221-294X",
+    "display_name": "René van Roij",
+    "raw_author_names": [
+      "R van Roij",
+      "R. Roij",
+      "R. van Roij",
+      "Rene van Roij",
+      "Rene´ van Roij",
+      "René H. van Roij",
+      "René van Roij",
+      "René van Roij",
+      "Renéa Van Roij",
+      "Ren� van Roij",
+      "Van Roij, René",
+      "van Roij, R.",
+      "van Roij, Rene",
+      "van Roij, René"
+    ],
+    "full_name": "René H. van Roij",
+    "works_count": 256,
+    "cited_by_count": 10680,
+    "summary_stats": {
+      "2yr_mean_citedness": 5.769230769230769,
+      "h_index": 55,
+      "i10_index": 166
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5021967043",
+      "orcid": "https://orcid.org/0000-0002-2221-294X"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I100066346",
+          "ror": "https://ror.org/04vnq7t77",
+          "display_name": "University of Stuttgart",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I100066346"
+          ]
+        },
+        "years": [
+          2010
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I113428412",
+          "ror": "https://ror.org/04zmssz18",
+          "display_name": "École Normale Supérieure de Lyon",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I203339264"
+          ]
+        },
+        "years": [
+          1998,
+          1997
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I121797337",
+          "ror": "https://ror.org/027bh9e22",
+          "display_name": "Leiden University",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I121797337"
+          ]
+        },
+        "years": [
+          2006
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1294671590",
+          "ror": "https://ror.org/02feahw73",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        "years": [
+          1998,
+          1997
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I136765683",
+          "ror": "https://ror.org/00zbe0w13",
+          "display_name": "Tianjin University of Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I136765683"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I143593769",
+          "ror": "https://ror.org/01vyrm377",
+          "display_name": "East China University of Science and Technology",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I143593769"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I184942183",
+          "ror": "https://ror.org/01xtthb56",
+          "display_name": "University of Oslo",
+          "country_code": "NO",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I184942183"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I189712700",
+          "ror": "https://ror.org/0546hnb39",
+          "display_name": "University of Konstanz",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I189712700"
+          ]
+        },
+        "years": [
+          2002
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I193662353",
+          "ror": "https://ror.org/04pp8hn57",
+          "display_name": "Utrecht University",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I193662353"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1993
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2803035111",
+          "ror": "https://ror.org/038x9td67",
+          "display_name": "Institute for Atomic and Molecular Physics",
+          "country_code": "NL",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800991832",
+            "https://openalex.org/I2803035111"
+          ]
+        },
+        "years": [
+          1998,
+          1997,
+          1996,
+          1995,
+          1994
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I36234482",
+          "ror": "https://ror.org/0524sp257",
+          "display_name": "University of Bristol",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        "years": [
+          2007,
+          2000,
+          1999,
+          1998
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210096929",
+          "ror": "https://ror.org/00w5ay796",
+          "display_name": "Laboratoire de Physique de l'ENS de Lyon",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I203339264",
+            "https://openalex.org/I4210096929"
+          ]
+        },
+        "years": [
+          1997
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210112966",
+          "ror": "https://ror.org/022r8mj40",
+          "display_name": "Instituto de Física Teórica",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I134820265",
+            "https://openalex.org/I4210112966",
+            "https://openalex.org/I63634437"
+          ]
+        },
+        "years": [
+          2026,
+          2025,
+          2021,
+          2020,
+          2019,
+          2017,
+          2016,
+          2015,
+          2014,
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210156066",
+          "ror": "https://ror.org/05803vc71",
+          "display_name": "State Key Laboratory of Chemical Engineering",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210156066"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210161128",
+          "ror": "https://ror.org/056sbyc67",
+          "display_name": "Bristol Robotics Laboratory",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210161128"
+          ]
+        },
+        "years": [
+          2008
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I44260953",
+          "ror": "https://ror.org/024z2rq82",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I83019370",
+          "ror": "https://ror.org/02c2kyt77",
+          "display_name": "Eindhoven University of Technology",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I83019370"
+          ]
+        },
+        "years": [
+          2018,
+          2017
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I193662353",
+        "ror": "https://ror.org/04pp8hn57",
+        "display_name": "Utrecht University",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I193662353"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210112966",
+        "ror": "https://ror.org/022r8mj40",
+        "display_name": "Instituto de Física Teórica",
+        "country_code": "ES",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I134820265",
+          "https://openalex.org/I4210112966",
+          "https://openalex.org/I63634437"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10474",
+        "display_name": "Material Dynamics and Properties",
+        "count": 100,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12274",
+        "display_name": "Electrostatics and Colloid Interactions",
+        "count": 73,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1606",
+          "display_name": "Physical and Theoretical Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11915",
+        "display_name": "Pickering emulsions and particle stabilization",
+        "count": 54,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10306",
+        "display_name": "Liquid Crystal Research Advancements",
+        "count": 46,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10721",
+        "display_name": "Surfactants and Colloidal Systems",
+        "count": 37,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T12274",
+        "display_name": "Electrostatics and Colloid Interactions",
+        "value": 0.0007045,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1606",
+          "display_name": "Physical and Theoretical Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11915",
+        "display_name": "Pickering emulsions and particle stabilization",
+        "value": 0.000595,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10474",
+        "display_name": "Material Dynamics and Properties",
+        "value": 0.0005846,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10306",
+        "display_name": "Liquid Crystal Research Advancements",
+        "value": 0.0003137,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2504",
+          "display_name": "Electronic, Optical and Magnetic Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10721",
+        "display_name": "Surfactants and Colloidal Systems",
+        "value": 0.000218,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9370302557945251
+      },
+      {
+        "id": "192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "score": 0.7751576900482178
+      },
+      {
+        "id": "185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "score": 0.7725971937179565
+      },
+      {
+        "id": "62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "score": 0.30890095233917236
+      },
+      {
+        "id": "147789679",
+        "wikidata": "https://www.wikidata.org/wiki/Q11372",
+        "display_name": "Physical chemistry",
+        "score": 0.2900362014770508
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1993,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 2
+      },
+      {
+        "year": 1994,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 46
+      },
+      {
+        "year": 1995,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 87
+      },
+      {
+        "year": 1996,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 245
+      },
+      {
+        "year": 1997,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 292
+      },
+      {
+        "year": 1998,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 341
+      },
+      {
+        "year": 1999,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 901
+      },
+      {
+        "year": 2000,
+        "works_count": 7,
+        "oa_works_count": 3,
+        "cited_by_count": 318
+      },
+      {
+        "year": 2001,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 267
+      },
+      {
+        "year": 2002,
+        "works_count": 7,
+        "oa_works_count": 4,
+        "cited_by_count": 271
+      },
+      {
+        "year": 2003,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 93
+      },
+      {
+        "year": 2004,
+        "works_count": 6,
+        "oa_works_count": 5,
+        "cited_by_count": 135
+      },
+      {
+        "year": 2005,
+        "works_count": 14,
+        "oa_works_count": 10,
+        "cited_by_count": 1146
+      },
+      {
+        "year": 2006,
+        "works_count": 11,
+        "oa_works_count": 9,
+        "cited_by_count": 492
+      },
+      {
+        "year": 2007,
+        "works_count": 7,
+        "oa_works_count": 3,
+        "cited_by_count": 215
+      },
+      {
+        "year": 2008,
+        "works_count": 9,
+        "oa_works_count": 6,
+        "cited_by_count": 225
+      },
+      {
+        "year": 2009,
+        "works_count": 6,
+        "oa_works_count": 6,
+        "cited_by_count": 132
+      },
+      {
+        "year": 2010,
+        "works_count": 7,
+        "oa_works_count": 4,
+        "cited_by_count": 193
+      },
+      {
+        "year": 2011,
+        "works_count": 11,
+        "oa_works_count": 9,
+        "cited_by_count": 1009
+      },
+      {
+        "year": 2012,
+        "works_count": 11,
+        "oa_works_count": 8,
+        "cited_by_count": 727
+      },
+      {
+        "year": 2013,
+        "works_count": 6,
+        "oa_works_count": 5,
+        "cited_by_count": 559
+      },
+      {
+        "year": 2014,
+        "works_count": 15,
+        "oa_works_count": 8,
+        "cited_by_count": 691
+      },
+      {
+        "year": 2015,
+        "works_count": 14,
+        "oa_works_count": 14,
+        "cited_by_count": 646
+      },
+      {
+        "year": 2016,
+        "works_count": 10,
+        "oa_works_count": 10,
+        "cited_by_count": 326
+      },
+      {
+        "year": 2017,
+        "works_count": 14,
+        "oa_works_count": 14,
+        "cited_by_count": 265
+      },
+      {
+        "year": 2018,
+        "works_count": 7,
+        "oa_works_count": 6,
+        "cited_by_count": 108
+      },
+      {
+        "year": 2019,
+        "works_count": 6,
+        "oa_works_count": 6,
+        "cited_by_count": 175
+      },
+      {
+        "year": 2020,
+        "works_count": 7,
+        "oa_works_count": 7,
+        "cited_by_count": 239
+      },
+      {
+        "year": 2021,
+        "works_count": 3,
+        "oa_works_count": 3,
+        "cited_by_count": 22
+      },
+      {
+        "year": 2022,
+        "works_count": 14,
+        "oa_works_count": 14,
+        "cited_by_count": 215
+      },
+      {
+        "year": 2023,
+        "works_count": 13,
+        "oa_works_count": 10,
+        "cited_by_count": 147
+      },
+      {
+        "year": 2024,
+        "works_count": 6,
+        "oa_works_count": 6,
+        "cited_by_count": 94
+      },
+      {
+        "year": 2025,
+        "works_count": 17,
+        "oa_works_count": 13,
+        "cited_by_count": 56
+      },
+      {
+        "year": 2026,
+        "works_count": 3,
+        "oa_works_count": 2,
+        "cited_by_count": 0
+      }
+    ],
+    "display_name_alternatives": [
+      "R van Roij",
+      "R. Roij",
+      "R. van Roij",
+      "Rene van Roij",
+      "Rene´ van Roij",
+      "René H. van Roij",
+      "René van Roij",
+      "René van Roij",
+      "Renéa Van Roij",
+      "Ren� van Roij",
+      "Van Roij, René",
+      "van Roij, R.",
+      "van Roij, Rene",
+      "van Roij, René"
+    ],
+    "block_key": "r van roij",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5021967043",
+    "updated_date": "2026-04-11T12:23:28",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "104307886",
+    "externalIds": {
+      "DBLP": [
+        "Renéa van Roij"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/author/104307886",
+    "name": "R. Roij",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 72,
+    "citationCount": 1765,
+    "hIndex": 24
+  }
+}

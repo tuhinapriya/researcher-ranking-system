@@ -1,0 +1,73 @@
+{
+  "author_id": "A5000741143",
+  "total_recent_works_analysed": 50,
+  "total_unique_collaborators": 310,
+  "estimated_mentee_count": 0,
+  "likely_mentees": [],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.06
+  },
+  "top_collaborators": [
+    {
+      "name": "Clare P. Grey",
+      "id": "A5088159296",
+      "shared_papers": 21,
+      "same_institution": false
+    },
+    {
+      "name": "Farheen N. Sayed",
+      "id": "A5083542622",
+      "shared_papers": 17,
+      "same_institution": false
+    },
+    {
+      "name": "Ram Seshadri",
+      "id": "A5003335751",
+      "shared_papers": 12,
+      "same_institution": false
+    },
+    {
+      "name": "Siân E. Dutton",
+      "id": "A5019648032",
+      "shared_papers": 11,
+      "same_institution": false
+    },
+    {
+      "name": "Liam A. V. Nagle‐Cocco",
+      "id": "A5082679780",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Rosa Müller",
+      "id": "A5008656574",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Olivia Georghiades",
+      "id": "A5092879065",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Víctor Riesgo‐González",
+      "id": "A5006359101",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Andrew D. Bond",
+      "id": "A5101441637",
+      "shared_papers": 9,
+      "same_institution": false
+    },
+    {
+      "name": "Dominic S. Wright",
+      "id": "A5008597065",
+      "shared_papers": 9,
+      "same_institution": false
+    }
+  ]
+}

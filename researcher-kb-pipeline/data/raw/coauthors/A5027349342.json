@@ -1,0 +1,80 @@
+{
+  "author_id": "A5027349342",
+  "total_recent_works_analysed": 133,
+  "total_unique_collaborators": 505,
+  "estimated_mentee_count": 1,
+  "likely_mentees": [
+    {
+      "name": "Il Woo Ock",
+      "id": "A5012238340",
+      "works_count": 8,
+      "shared_papers": 7
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.02,
+    "corresponding_author_ratio": 0.09
+  },
+  "top_collaborators": [
+    {
+      "name": "Jun Chen",
+      "id": "A5100450180",
+      "shared_papers": 68,
+      "same_institution": true
+    },
+    {
+      "name": "Yihao Zhou",
+      "id": "A5101846379",
+      "shared_papers": 41,
+      "same_institution": true
+    },
+    {
+      "name": "Guorui Chen",
+      "id": "A5103268543",
+      "shared_papers": 36,
+      "same_institution": true
+    },
+    {
+      "name": "Hongxian Zhang",
+      "id": "A5009269125",
+      "shared_papers": 25,
+      "same_institution": false
+    },
+    {
+      "name": "Jing Xu",
+      "id": "A5063665829",
+      "shared_papers": 24,
+      "same_institution": true
+    },
+    {
+      "name": "Trinny Tat",
+      "id": "A5076654722",
+      "shared_papers": 23,
+      "same_institution": true
+    },
+    {
+      "name": "Lulin Ma",
+      "id": "A5008666872",
+      "shared_papers": 23,
+      "same_institution": false
+    },
+    {
+      "name": "Zhuo Liu",
+      "id": "A5100355521",
+      "shared_papers": 21,
+      "same_institution": false
+    },
+    {
+      "name": "Cheng Liu",
+      "id": "A5012912599",
+      "shared_papers": 19,
+      "same_institution": false
+    },
+    {
+      "name": "Shudong Zhang",
+      "id": "A5101937784",
+      "shared_papers": 19,
+      "same_institution": false
+    }
+  ]
+}

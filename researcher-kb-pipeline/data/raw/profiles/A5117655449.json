@@ -1,0 +1,216 @@
+{
+  "author_id": "A5117655449",
+  "openalex": {
+    "id": "https://openalex.org/A5117655449",
+    "orcid": null,
+    "display_name": "Pradeep Lamichhane",
+    "raw_author_names": [
+      "Pradeep Lamichhane"
+    ],
+    "full_name": "Pradeep Lamichhane",
+    "works_count": 2,
+    "cited_by_count": 30,
+    "summary_stats": {
+      "2yr_mean_citedness": 15.0,
+      "h_index": 1,
+      "i10_index": 1
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5117655449",
+      "orcid": null
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I137853757",
+          "ror": "https://ror.org/05gt1vc06",
+          "display_name": "Howard University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I137853757"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I137853757",
+        "ror": "https://ror.org/05gt1vc06",
+        "display_name": "Howard University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I137853757"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "count": 2,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11005",
+        "display_name": "Radiation Effects in Electronics",
+        "count": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "value": 1.18e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11005",
+        "display_name": "Radiation Effects in Electronics",
+        "value": 1e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "value": 4.1e-06,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.7477999925613403
+      },
+      {
+        "id": "113775141",
+        "wikidata": "https://www.wikidata.org/wiki/Q428691",
+        "display_name": "Computer engineering",
+        "score": 0.32989999651908875
+      },
+      {
+        "id": "120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "score": 0.31439998745918274
+      },
+      {
+        "id": "103088060",
+        "wikidata": "https://www.wikidata.org/wiki/Q1062839",
+        "display_name": "Error detection and correction",
+        "score": 0.2865000069141388
+      },
+      {
+        "id": "11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "score": 0.27810001373291016
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "works_count": 2,
+        "oa_works_count": 2,
+        "cited_by_count": 30
+      }
+    ],
+    "display_name_alternatives": [
+      "Pradeep Lamichhane"
+    ],
+    "block_key": "p lamichhane",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5117655449",
+    "updated_date": "2026-04-09T12:26:41",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "2363262167",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/2363262167",
+    "name": "Pradeep Lamichhane",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 2,
+    "citationCount": 22,
+    "hIndex": 1
+  }
+}

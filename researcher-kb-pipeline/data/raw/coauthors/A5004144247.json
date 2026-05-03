@@ -1,0 +1,92 @@
+{
+  "author_id": "A5004144247",
+  "total_recent_works_analysed": 24,
+  "total_unique_collaborators": 18,
+  "estimated_mentee_count": 3,
+  "likely_mentees": [
+    {
+      "name": "Collin Beaudoin",
+      "id": "A5008236815",
+      "works_count": 15,
+      "shared_papers": 4
+    },
+    {
+      "name": "Junde Li",
+      "id": "A5023664600",
+      "works_count": 6,
+      "shared_papers": 2
+    },
+    {
+      "name": "Aakarshitha Suresh",
+      "id": "A5000171286",
+      "works_count": 4,
+      "shared_papers": 1
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.0,
+    "corresponding_author_ratio": 0.62
+  },
+  "top_collaborators": [
+    {
+      "name": "Swaroop Ghosh",
+      "id": "A5085567454",
+      "shared_papers": 24,
+      "same_institution": true
+    },
+    {
+      "name": "Avimita Chatterjee",
+      "id": "A5039991282",
+      "shared_papers": 5,
+      "same_institution": true
+    },
+    {
+      "name": "Collin Beaudoin",
+      "id": "A5008236815",
+      "shared_papers": 4,
+      "same_institution": true
+    },
+    {
+      "name": "Abdullah Ash Saki",
+      "id": "A5081670443",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Mahabubul Alam",
+      "id": "A5006138748",
+      "shared_papers": 3,
+      "same_institution": true
+    },
+    {
+      "name": "Rasit Onur Topaloglu",
+      "id": "A5084170591",
+      "shared_papers": 3,
+      "same_institution": false
+    },
+    {
+      "name": "Junde Li",
+      "id": "A5023664600",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Archisman Ghosh",
+      "id": "A5044592906",
+      "shared_papers": 2,
+      "same_institution": true
+    },
+    {
+      "name": "Aakarshitha Suresh",
+      "id": "A5000171286",
+      "shared_papers": 1,
+      "same_institution": true
+    },
+    {
+      "name": "Junde Li",
+      "id": "A5051915196",
+      "shared_papers": 1,
+      "same_institution": false
+    }
+  ]
+}
