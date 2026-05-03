@@ -274,6 +274,3 @@ If you receive an error like `Missing required database environment variables: D
   - `roles/aiplatform.user` (if using Vertex)
 - Grant deployer the `roles/iam.serviceAccountUser` on the runtime SA to allow `gcloud run deploy --service-account=...`.
 
----
-
-If you'd like, I can add a tiny CI script (GitHub Actions) that builds the ranking image and updates the Cloud Run service automatically on push.
