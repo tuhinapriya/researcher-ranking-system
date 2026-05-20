@@ -2,32 +2,22 @@ import json
 import logging
 import math
 from collections import defaultdict
-from datetime import datetime
 from pathlib import Path
 
 import embeddings
 from config import (
-    H_COMPONENT_WEIGHTS,
-    H_WEIGHT,
     MAX_TOP_K_PINECONE,
     MIN_UNIQUE_RESEARCHERS,
     PARETO_EPSILON,
     PARETO_REQUIRE_K,
-    Q_CITATION_BETA,
-    Q_DECAY_LAMBDA,
     Q_MAX_PAPERS_PER_RESEARCHER,
-    Q_RECENCY_LAMBDA,
     Q_TOP_PAPERS,
     Q_WEIGHT,
+    R_WEIGHT,
     TARGET_PAPERS_PER_RESEARCHER,
     TOP_K_PINECONE,
-    USE_SIMPLE_RANKING,
 )
 from db import fetch_papers_by_ids
-
-
-def _log1p_safe(value):
-    return math.log1p(max(value or 0, 0))
 
 
 def _normalize_dict(values):
@@ -54,8 +44,14 @@ def _coerce_match_metadata(match):
     return metadata if isinstance(metadata, dict) else {}
 
 
-def _half_life_weight(rank_index, decay_lambda):
-    return math.exp(-decay_lambda * rank_index)
+def _is_in_selected_year_range(year, start_year=None, end_year=None):
+    if year is None:
+        return start_year is None and end_year is None
+    if start_year is not None and year < start_year:
+        return False
+    if end_year is not None and year > end_year:
+        return False
+    return True
 
 
 def _summarize_match_depth(ranked_matches):
@@ -242,187 +238,14 @@ def _fetch_diverse_ranked_matches(
     return final_ranked_matches, debug_metadata
 
 
-def _build_q_details_from_matches(
+def _build_qr_details(
     ranked_matches,
     candidate_researcher_ids=None,
-    decay_lambda=Q_DECAY_LAMBDA,
-    max_papers_per_researcher=Q_MAX_PAPERS_PER_RESEARCHER,
-    recency_lambda=Q_RECENCY_LAMBDA,
-    citation_beta=Q_CITATION_BETA,
+    top_n=Q_TOP_PAPERS,
+    start_year=None,
+    end_year=None,
 ):
-    current_year = datetime.now().year
-    allowed_ids = set(candidate_researcher_ids or [])
-    per_researcher = defaultdict(list)
-
-    for rank_index, match in enumerate(ranked_matches):
-        researcher_id = match.get("researcher_id")
-        if not researcher_id:
-            continue
-        if allowed_ids and researcher_id not in allowed_ids:
-            continue
-        if len(per_researcher[researcher_id]) >= max_papers_per_researcher:
-            continue
-
-        similarity = float(match.get("similarity", 0.0) or 0.0)
-        weight = _half_life_weight(rank_index, decay_lambda)
-
-        year = match.get("year")
-        recency_boost = 1.0
-        if year and recency_lambda > 0:
-            recency_boost = math.exp(-recency_lambda * max(current_year - int(year), 0))
-
-        citation_boost = 1.0
-        if citation_beta > 0:
-            citation_boost += citation_beta * _log1p_safe(match.get("citations"))
-
-        adjusted_score = similarity * recency_boost * citation_boost
-        weighted_score = adjusted_score * weight
-
-        per_researcher[researcher_id].append(
-            {
-                "paper_id": match.get("paper_id"),
-                "title": match.get("title"),
-                "year": year,
-                "citations": match.get("citations"),
-                "similarity": similarity,
-                "adjusted_score": adjusted_score,
-                "weight": weight,
-                "weighted_score": weighted_score,
-                "rank": rank_index,
-            }
-        )
-
-    q_raw = {}
-    q_details = {}
-    for researcher_id, paper_matches in per_researcher.items():
-        total_weight = sum(match["weight"] for match in paper_matches)
-        total_weighted_score = sum(match["weighted_score"] for match in paper_matches)
-        if total_weight <= 0 or total_weighted_score <= 0:
-            continue
-        weighted_average = total_weighted_score / total_weight
-        q_raw[researcher_id] = weighted_average
-
-        sorted_matches = sorted(
-            paper_matches,
-            key=lambda match: match["weighted_score"],
-            reverse=True,
-        )
-        top_matches = sorted_matches[:3]
-
-        running_weighted = 0.0
-        paper_contributions = []
-        for match in sorted_matches:
-            share_of_q = match["weighted_score"] / total_weighted_score
-            running_weighted += match["weighted_score"]
-            paper_contributions.append(
-                {
-                    "paper_id": match["paper_id"],
-                    "title": match["title"],
-                    "year": match["year"],
-                    "similarity": match["similarity"],
-                    "weighted_contribution": match["weighted_score"],
-                    "share_of_q": share_of_q,
-                }
-            )
-
-        top_paper_share = (
-            paper_contributions[0]["share_of_q"] if paper_contributions else 0.0
-        )
-        top_3_paper_share = sum(
-            contribution["share_of_q"] for contribution in paper_contributions[:3]
-        )
-        top_5_paper_share = sum(
-            contribution["share_of_q"] for contribution in paper_contributions[:5]
-        )
-
-        q_details[researcher_id] = {
-            "Q_raw": weighted_average,
-            "paper_matches": paper_matches,
-            "top_papers": top_matches,
-            "paper_count": len(paper_matches),
-            "contribution": {
-                "paper_contributions": paper_contributions,
-                "top_paper_share": top_paper_share,
-                "top_3_paper_share": top_3_paper_share,
-                "top_5_paper_share": top_5_paper_share,
-                "total_weighted_score": total_weighted_score,
-            },
-        }
-
-    q_norm = _normalize_dict(q_raw)
-    for researcher_id, normalized_value in q_norm.items():
-        q_details[researcher_id]["Q_norm"] = normalized_value
-
-    return q_details
-
-
-def compute_h(researcher_rows, component_weights=None):
-    component_weights = component_weights or H_COMPONENT_WEIGHTS
-    if not researcher_rows:
-        return {}
-
-    transformed = {}
-    for row in researcher_rows:
-        researcher_id = row["id"]
-        transformed[researcher_id] = {
-            "h_index": row.get("h_index") or 0,
-            "total_citations": _log1p_safe(row.get("total_citations")),
-            "quality_score": row.get("quality_score") or 0,
-            "recency_score": row.get("recency_score") or 0,
-            "seniority_score": row.get("seniority_score") or 0,
-        }
-
-    normalized_components = {}
-    for component_name in component_weights:
-        normalized_components[component_name] = _normalize_dict(
-            {
-                researcher_id: components[component_name]
-                for researcher_id, components in transformed.items()
-            }
-        )
-
-    h_scores = {}
-    for row in researcher_rows:
-        researcher_id = row["id"]
-        component_breakdown = {}
-        weighted_sum = 0.0
-        for component_name, weight in component_weights.items():
-            component_value = normalized_components[component_name].get(
-                researcher_id, 0.0
-            )
-            component_breakdown[component_name] = component_value
-            weighted_sum += weight * component_value
-
-        h_scores[researcher_id] = {
-            "H_raw": weighted_sum,
-            "H_norm": weighted_sum,
-            "components": component_breakdown,
-        }
-
-    return h_scores
-
-
-def compute_h_simple(researcher_rows):
-    """Simplified H: min(h_index / 100, 1.0). No other components."""
-    h_scores = {}
-    for row in researcher_rows:
-        researcher_id = row["id"]
-        h_index = row.get("h_index") or 0
-        h_value = min(h_index / 100.0, 1.0)
-        h_scores[researcher_id] = {
-            "H_raw": h_value,
-            "H_norm": h_value,
-            "components": {"h_index": h_value},
-        }
-    return h_scores
-
-
-def _build_q_details_simple(
-    ranked_matches, candidate_researcher_ids=None, top_n=Q_TOP_PAPERS
-):
-    """Simplified Q: average of top-N similarity scores, zero-padded to top_n.
-    No rank decay, no citation boost, no recency boost, no normalization.
-    """
+    """Q = avg(top-N similarity. R = total citations from query-matched papers in the selected time range."""
     allowed_ids = set(candidate_researcher_ids or [])
     per_researcher = defaultdict(list)
 
@@ -442,7 +265,10 @@ def _build_q_details_simple(
             }
         )
 
-    q_details = {}
+    researcher_q_raw = {}
+    researcher_r_raw = {}
+    per_researcher_top_matches = {}
+
     for researcher_id, paper_matches in per_researcher.items():
         sorted_matches = sorted(
             paper_matches, key=lambda m: m["similarity"], reverse=True
@@ -456,11 +282,37 @@ def _build_q_details_simple(
 
         q_value = sum(scores) / top_n
 
+        range_matches = [
+            match
+            for match in sorted_matches
+            if _is_in_selected_year_range(match.get("year"), start_year, end_year)
+        ]
+        r_raw = sum(float(match.get("citations") or 0.0) for match in range_matches)
+
+        researcher_q_raw[researcher_id] = q_value
+        researcher_r_raw[researcher_id] = r_raw
+        per_researcher_top_matches[researcher_id] = {
+            "all_matches": sorted_matches,
+            "top_matches": top_matches,
+        }
+
+    q_norm = _normalize_dict(researcher_q_raw)
+    r_norm = _normalize_dict(researcher_r_raw)
+
+    qr_details = {}
+    for researcher_id, values in per_researcher_top_matches.items():
+        sorted_matches = values["all_matches"]
+        top_matches = values["top_matches"]
+        q_value = researcher_q_raw[researcher_id]
+        r_value = researcher_r_raw[researcher_id]
+
         paper_contributions = [
             {
                 "paper_id": m["paper_id"],
+                "title": m["title"],
                 "year": m["year"],
                 "similarity": round(m["similarity"], 6),
+                "citations": int(float(m.get("citations") or 0.0)),
             }
             for m in top_matches
         ]
@@ -471,22 +323,23 @@ def _build_q_details_simple(
         top_3_share = round(sum(m["similarity"] for m in top_matches[:3]) / top_n, 6)
         top_5_share = round(sum(m["similarity"] for m in top_matches[:5]) / top_n, 6)
 
-        q_details[researcher_id] = {
+        qr_details[researcher_id] = {
             "Q_raw": q_value,
-            "Q_norm": q_value,
+            "Q_norm": q_norm.get(researcher_id, 0.0),
             "paper_matches": sorted_matches,
             "top_papers": top_matches[:3],
             "paper_count": len(sorted_matches),
+            "R_raw": r_value,
+            "R_norm": r_norm.get(researcher_id, 0.0),
             "contribution": {
                 "paper_contributions": paper_contributions,
                 "top_paper_share": top_1_share,
                 "top_3_paper_share": top_3_share,
                 "top_5_paper_share": top_5_share,
-                "total_weighted_score": q_value,
             },
         }
 
-    return q_details
+    return qr_details
 
 
 def compute_q_weighted(
@@ -497,25 +350,20 @@ def compute_q_weighted(
     min_unique_researchers=MIN_UNIQUE_RESEARCHERS,
     max_top_k=MAX_TOP_K_PINECONE,
     target_papers_per_researcher=TARGET_PAPERS_PER_RESEARCHER,
-    decay_lambda=Q_DECAY_LAMBDA,
     max_papers_per_researcher=Q_MAX_PAPERS_PER_RESEARCHER,
-    recency_lambda=Q_RECENCY_LAMBDA,
-    citation_beta=Q_CITATION_BETA,
-    use_simple_ranking=USE_SIMPLE_RANKING,
     top_n_papers=Q_TOP_PAPERS,
+    start_year=None,
+    end_year=None,
 ):
     if not query_text or not query_text.strip():
         return {}
 
     top_k = top_k if top_k is not None else TOP_K_PINECONE
-    decay_lambda = decay_lambda if decay_lambda is not None else Q_DECAY_LAMBDA
     max_papers_per_researcher = (
         max_papers_per_researcher
         if max_papers_per_researcher is not None
         else Q_MAX_PAPERS_PER_RESEARCHER
     )
-    recency_lambda = recency_lambda if recency_lambda is not None else Q_RECENCY_LAMBDA
-    citation_beta = citation_beta if citation_beta is not None else Q_CITATION_BETA
 
     query_embedding = embeddings.get_embeddings_batch([query_text])[0]
     if query_embedding is None:
@@ -587,23 +435,26 @@ def compute_q_weighted(
             }
         )
 
-    if use_simple_ranking:
-        q_details = _build_q_details_simple(
-            ranked_matches=ranked_matches,
-            candidate_researcher_ids=candidate_researcher_ids,
-            top_n=top_n_papers,
-        )
-    else:
-        q_details = _build_q_details_from_matches(
-            ranked_matches=ranked_matches,
-            candidate_researcher_ids=candidate_researcher_ids,
-            decay_lambda=decay_lambda,
-            max_papers_per_researcher=max_papers_per_researcher,
-            recency_lambda=recency_lambda,
-            citation_beta=citation_beta,
-        )
-    debug_metadata["q_scored_researchers"] = len(q_details)
-    return q_details, debug_metadata
+    qr_details = _build_qr_details(
+        ranked_matches=ranked_matches,
+        candidate_researcher_ids=candidate_researcher_ids,
+        top_n=top_n_papers,
+        start_year=start_year,
+        end_year=end_year,
+    )
+    debug_metadata["q_scored_researchers"] = len(qr_details)
+    return qr_details, debug_metadata
+
+
+def compute_r_from_q_details(q_details):
+    """Build normalized R entries from Q details (R_raw already precomputed there)."""
+    return {
+        researcher_id: {
+            "R_raw": entry.get("R_raw", 0.0),
+            "R_norm": entry.get("R_norm", 0.0),
+        }
+        for researcher_id, entry in q_details.items()
+    }
 
 
 def load_mock_ranking_dataset(file_path):
@@ -618,40 +469,20 @@ def compute_q_weighted_from_mock(
     query_text,
     mock_dataset,
     candidate_researcher_ids=None,
-    decay_lambda=Q_DECAY_LAMBDA,
-    max_papers_per_researcher=Q_MAX_PAPERS_PER_RESEARCHER,
-    recency_lambda=Q_RECENCY_LAMBDA,
-    citation_beta=Q_CITATION_BETA,
-    use_simple_ranking=USE_SIMPLE_RANKING,
     top_n_papers=Q_TOP_PAPERS,
+    start_year=None,
+    end_year=None,
 ):
-    decay_lambda = decay_lambda if decay_lambda is not None else Q_DECAY_LAMBDA
-    max_papers_per_researcher = (
-        max_papers_per_researcher
-        if max_papers_per_researcher is not None
-        else Q_MAX_PAPERS_PER_RESEARCHER
-    )
-    recency_lambda = recency_lambda if recency_lambda is not None else Q_RECENCY_LAMBDA
-    citation_beta = citation_beta if citation_beta is not None else Q_CITATION_BETA
-
     queries = mock_dataset.get("queries", {})
     ranked_matches = list(queries.get(query_text, []))
 
-    if use_simple_ranking:
-        q_details = _build_q_details_simple(
-            ranked_matches=ranked_matches,
-            candidate_researcher_ids=candidate_researcher_ids,
-            top_n=top_n_papers,
-        )
-    else:
-        q_details = _build_q_details_from_matches(
-            ranked_matches=ranked_matches,
-            candidate_researcher_ids=candidate_researcher_ids,
-            decay_lambda=decay_lambda,
-            max_papers_per_researcher=max_papers_per_researcher,
-            recency_lambda=recency_lambda,
-            citation_beta=citation_beta,
-        )
+    q_details = _build_qr_details(
+        ranked_matches=ranked_matches,
+        candidate_researcher_ids=candidate_researcher_ids,
+        top_n=top_n_papers,
+        start_year=start_year,
+        end_year=end_year,
+    )
     debug_metadata = {
         "initial_top_k": len(ranked_matches),
         "final_top_k": len(ranked_matches),
@@ -715,20 +546,20 @@ def epsilon_pareto(
     }
 
 
-def _driver_label(h_value, q_value):
-    if h_value >= 0.7 and q_value >= 0.7:
+def _driver_label(r_value, q_value):
+    if r_value >= 0.7 and q_value >= 0.7:
         return "balanced"
-    if q_value - h_value >= 0.15:
+    if q_value - r_value >= 0.15:
         return "relevance"
-    if h_value - q_value >= 0.15:
-        return "impact"
+    if r_value - q_value >= 0.15:
+        return "citation_activity"
     return "balanced"
 
 
 def build_reason(researcher_row, h_entry, q_entry):
-    h_value = h_entry.get("H_norm", 0.0)
-    q_value = q_entry.get("Q_norm", 0.0)
-    driver = _driver_label(h_value, q_value)
+    r_value = h_entry.get("R_norm", 0.0)
+    q_value = q_entry.get("Q_raw", 0.0)
+    driver = _driver_label(r_value, q_value)
 
     highlights = []
     if q_value >= 0.7:
@@ -736,25 +567,22 @@ def build_reason(researcher_row, h_entry, q_entry):
     elif q_value <= 0.3:
         highlights.append("weaker semantic match to the query")
 
-    h_components = h_entry.get("components", {})
-    if h_components.get("h_index", 0.0) >= 0.7:
-        highlights.append("high h-index")
-    if h_components.get("total_citations", 0.0) >= 0.7:
-        highlights.append("strong citation profile")
-    if h_components.get("recency_score", 0.0) >= 0.7:
-        highlights.append("recent relevant publications")
+    if r_value >= 0.7:
+        highlights.append("strong citation activity during the selected time range")
 
     if not highlights:
         highlights.append("balanced impact and relevance signals")
 
     if driver == "balanced":
-        summary = "Ranks well because both impact and query relevance are strong."
+        summary = "Ranks well because both query relevance and citation activity during the selected time range are strong."
     elif driver == "relevance":
         summary = (
             "Ranks well mainly because the papers are a strong match to the query."
         )
+    elif driver == "citation_activity":
+        summary = "Ranks well mainly because citation impact is strong during the selected time range."
     else:
-        summary = "Ranks well mainly because the researcher has strong overall impact metrics."
+        summary = "Ranks well because query relevance and citation activity during the selected time range are balanced."
 
     top_papers = []
     for paper in q_entry.get("top_papers", []):
@@ -787,8 +615,10 @@ def build_contribution_summary(q_entry):
         "paper_contributions": [
             {
                 "paper_id": contribution_row.get("paper_id"),
+                "title": contribution_row.get("title"),
                 "year": contribution_row.get("year"),
                 "similarity": round(contribution_row.get("similarity", 0.0), 6),
+                "citations": contribution_row.get("citations"),
             }
             for contribution_row in paper_contributions[:10]
         ],
@@ -797,17 +627,20 @@ def build_contribution_summary(q_entry):
 
 def final_score(
     researcher_rows,
-    h_scores,
+    r_scores,
     q_scores,
-    h_weight=H_WEIGHT,
+    r_weight=R_WEIGHT,
     q_weight=Q_WEIGHT,
     pareto_enabled=False,
     limit=None,
 ):
+    r_weight = R_WEIGHT if r_weight is None else r_weight
+    q_weight = Q_WEIGHT if q_weight is None else q_weight
+
     candidate_ids = {
         row["id"]
         for row in researcher_rows
-        if row["id"] in h_scores and row["id"] in q_scores
+        if row["id"] in r_scores and row["id"] in q_scores
     }
     row_by_id = {
         row["id"]: row for row in researcher_rows if row["id"] in candidate_ids
@@ -815,7 +648,7 @@ def final_score(
 
     candidate_metrics = {
         researcher_id: {
-            "H": h_scores[researcher_id]["H_norm"],
+            "R": r_scores[researcher_id]["R_norm"],
             "Q": q_scores[researcher_id].get("Q_norm", 0.0),
         }
         for researcher_id in candidate_ids
@@ -827,11 +660,12 @@ def final_score(
     ranked_results = []
     for researcher_id in kept_ids:
         researcher_row = row_by_id[researcher_id]
-        h_entry = h_scores[researcher_id]
+        r_entry = r_scores[researcher_id]
         q_entry = q_scores[researcher_id]
-        h_value = h_entry.get("H_norm", 0.0)
-        q_value = q_entry.get("Q_norm", 0.0)
-        score = h_weight * h_value + q_weight * q_value
+        r_value = r_entry.get("R_norm", 0.0)
+        q_value = q_entry.get("Q_raw", 0.0)
+        q_norm_value = q_entry.get("Q_norm", 0.0)
+        score = r_weight * r_value + q_weight * q_norm_value
 
         ranked_results.append(
             {
@@ -840,17 +674,13 @@ def final_score(
                 "institution": researcher_row.get("institution_name"),
                 "region": researcher_row.get("institution_region")
                 or researcher_row.get("country"),
-                "H": round(h_value, 6),
+                "R": round(r_value, 6),
                 "Q": round(q_value, 6),
                 "final_score": round(score, 6),
-                "reason": build_reason(researcher_row, h_entry, q_entry),
+                "reason": build_reason(researcher_row, r_entry, q_entry),
                 "contribution": build_contribution_summary(q_entry),
                 "components": {
-                    "h_index": researcher_row.get("h_index"),
-                    "total_citations": researcher_row.get("total_citations"),
-                    "quality_score": researcher_row.get("quality_score"),
-                    "recency_score": researcher_row.get("recency_score"),
-                    "seniority_score": researcher_row.get("seniority_score"),
+                    "R_raw": round(r_entry.get("R_raw", 0.0), 6),
                     "matched_paper_count": q_entry.get("paper_count", 0),
                 },
             }

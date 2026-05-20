@@ -3,14 +3,12 @@ from pathlib import Path
 
 from db import fetch_researcher_ranking_rows, get_connection
 from ranking import (
-    compute_h,
-    compute_h_simple,
+    compute_r_from_q_details,
     compute_q_weighted,
     compute_q_weighted_from_mock,
     final_score,
     load_mock_ranking_dataset,
 )
-from config import USE_SIMPLE_RANKING
 
 
 def rank_researchers(
@@ -22,17 +20,14 @@ def rank_researchers(
     min_unique_researchers=None,
     max_top_k=None,
     target_papers_per_researcher=None,
-    decay_lambda=None,
     max_papers_per_researcher=None,
-    recency_lambda=None,
-    citation_beta=None,
     limit=None,
     mock_data_file=None,
-    use_simple_ranking=None,
+    q_weight=None,
+    r_weight=None,
+    start_year=None,
+    end_year=None,
 ):
-    if use_simple_ranking is None:
-        use_simple_ranking = USE_SIMPLE_RANKING
-    _compute_h = compute_h_simple if use_simple_ranking else compute_h
     if mock_data_file:
         mock_dataset = load_mock_ranking_dataset(mock_data_file)
         researcher_rows = list(mock_dataset.get("researchers", []))
@@ -54,18 +49,17 @@ def rank_researchers(
             query_text=query_text,
             mock_dataset=mock_dataset,
             candidate_researcher_ids=candidate_ids,
-            decay_lambda=decay_lambda,
-            max_papers_per_researcher=max_papers_per_researcher,
-            recency_lambda=recency_lambda,
-            citation_beta=citation_beta,
-            use_simple_ranking=use_simple_ranking,
+            start_year=start_year,
+            end_year=end_year,
         )
         filtered_rows = [row for row in researcher_rows if row["id"] in q_scores]
-        h_scores = _compute_h(filtered_rows)
+        r_scores = compute_r_from_q_details(q_scores)
         result = final_score(
             researcher_rows=filtered_rows,
-            h_scores=h_scores,
+            r_scores=r_scores,
             q_scores=q_scores,
+            q_weight=q_weight,
+            r_weight=r_weight,
             pareto_enabled=pareto_enabled,
             limit=limit,
         )
@@ -74,6 +68,8 @@ def rank_researchers(
             "filters": {
                 "region": region,
                 "institution_id": institution_id,
+                "start_year": start_year,
+                "end_year": end_year,
             },
             "candidate_researchers_before_filter": len(candidate_ids),
             "candidate_researchers_after_filter": len(filtered_rows),
@@ -97,15 +93,13 @@ def rank_researchers(
                 if target_papers_per_researcher is not None
                 else None
             ),
-            decay_lambda=decay_lambda if decay_lambda is not None else None,
             max_papers_per_researcher=(
                 max_papers_per_researcher
                 if max_papers_per_researcher is not None
                 else None
             ),
-            recency_lambda=recency_lambda if recency_lambda is not None else None,
-            citation_beta=citation_beta if citation_beta is not None else None,
-            use_simple_ranking=use_simple_ranking,
+            start_year=start_year,
+            end_year=end_year,
         )
         candidate_ids = list(q_scores.keys())
         researcher_rows = fetch_researcher_ranking_rows(
@@ -120,11 +114,13 @@ def rank_researchers(
             for researcher_id, entry in q_scores.items()
             if researcher_id in filtered_ids
         }
-        h_scores = _compute_h(researcher_rows)
+        r_scores = compute_r_from_q_details(q_scores)
         result = final_score(
             researcher_rows=researcher_rows,
-            h_scores=h_scores,
+            r_scores=r_scores,
             q_scores=q_scores,
+            q_weight=q_weight,
+            r_weight=r_weight,
             pareto_enabled=pareto_enabled,
             limit=limit,
         )
@@ -133,6 +129,8 @@ def rank_researchers(
             "filters": {
                 "region": region,
                 "institution_id": institution_id,
+                "start_year": start_year,
+                "end_year": end_year,
             },
             "candidate_researchers_before_filter": len(candidate_ids),
             "candidate_researchers_after_filter": len(filtered_ids),
