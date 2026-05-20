@@ -13,11 +13,15 @@ from config import (
     Q_MAX_PAPERS_PER_RESEARCHER,
     Q_TOP_PAPERS,
     Q_WEIGHT,
-    R_WEIGHT,
     TARGET_PAPERS_PER_RESEARCHER,
     TOP_K_PINECONE,
 )
 from db import fetch_papers_by_ids
+
+try:
+    from config import R_WEIGHT
+except ImportError:
+    from config import H_WEIGHT as R_WEIGHT
 
 
 def _normalize_dict(values):
