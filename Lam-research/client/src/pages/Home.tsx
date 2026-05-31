@@ -42,6 +42,7 @@ type RankingApiResult = {
   name?: string | null;
   institution?: string | null;
   region?: string | null;
+  country_code?: string | null;
   Q?: number | string | null;
   R?: number | string | null;
   H?: number | string | null;
@@ -68,7 +69,7 @@ interface Filters {
   weights: Record<WeightKey, number>;
   minYear: number;
   maxYear: number;
-  country: string;
+  location: string;
   pool: ResearcherPool;
   chartMode: ChartMode;
   open: Record<string, boolean>;
@@ -152,10 +153,10 @@ const defaultFilters: Filters = {
   weights: { query: 70, research: 30 },
   minYear: 2020,
   maxYear: YEAR_MAX,
-  country: "All",
+  location: "All",
   pool: "pool",
   chartMode: "q-r",
-  open: { saved: true, ranking: true, frontier: true, year: true, country: false, type: false },
+  open: { saved: true, ranking: true, year: true, location: false, type: false },
 };
 
 function readStoredSettings() {
@@ -406,6 +407,146 @@ function rankingPapers(result: RankingApiResult): ResearchPaper[] {
   });
 }
 
+// Expand an ISO 3166-1 alpha-2 code to an English country name.
+//
+// PRIMARY PATH — Intl.DisplayNames (CLDR-backed, ships with every modern JS engine):
+//   Covers all current ISO codes and will automatically pick up any new ones as
+//   browsers / Node.js update their CLDR data.  No code changes required when a
+//   new country appears in the dataset.
+//
+// FALLBACK — static table used only when Intl.DisplayNames is unavailable (e.g.
+//   very old browsers, certain SSR environments).  Covers the full set of country
+//   codes that appear in OpenAlex data.
+const isoToCountryName = (() => {
+  try {
+    const fmt = new Intl.DisplayNames(["en"], { type: "region" });
+    // Always pass an uppercase 2-letter code; Intl handles all ISO 3166-1 alpha-2.
+    return (code: string): string => {
+      try { return fmt.of(code) || code; } catch { return code; }
+    };
+  } catch {
+    // Comprehensive fallback covering all ISO 3166-1 alpha-2 codes relevant to
+    // global research output (Americas, Europe, Asia, Africa, Oceania).
+    const MAP: Record<string, string> = {
+      // Americas
+      AR: "Argentina", BB: "Barbados", BO: "Bolivia", BR: "Brazil",
+      BS: "Bahamas", BZ: "Belize", CA: "Canada", CL: "Chile",
+      CO: "Colombia", CR: "Costa Rica", CU: "Cuba", DM: "Dominica",
+      DO: "Dominican Republic", EC: "Ecuador", GD: "Grenada",
+      GT: "Guatemala", GY: "Guyana", HN: "Honduras", HT: "Haiti",
+      JM: "Jamaica", KN: "Saint Kitts and Nevis", LC: "Saint Lucia",
+      MX: "Mexico", NI: "Nicaragua", PA: "Panama", PE: "Peru",
+      PR: "Puerto Rico", PY: "Paraguay", SR: "Suriname", SV: "El Salvador",
+      TT: "Trinidad and Tobago", US: "United States", UY: "Uruguay",
+      VC: "Saint Vincent and the Grenadines", VE: "Venezuela",
+      // Europe
+      AD: "Andorra", AL: "Albania", AT: "Austria", BA: "Bosnia and Herzegovina",
+      BE: "Belgium", BG: "Bulgaria", BY: "Belarus", CH: "Switzerland",
+      CY: "Cyprus", CZ: "Czech Republic", DE: "Germany", DK: "Denmark",
+      EE: "Estonia", ES: "Spain", FI: "Finland", FR: "France",
+      GB: "United Kingdom", GR: "Greece", HR: "Croatia", HU: "Hungary",
+      IE: "Ireland", IS: "Iceland", IT: "Italy", LI: "Liechtenstein",
+      LT: "Lithuania", LU: "Luxembourg", LV: "Latvia", MC: "Monaco",
+      MD: "Moldova", ME: "Montenegro", MK: "North Macedonia", MT: "Malta",
+      NL: "Netherlands", NO: "Norway", PL: "Poland", PT: "Portugal",
+      RO: "Romania", RS: "Serbia", RU: "Russia", SE: "Sweden",
+      SI: "Slovenia", SK: "Slovakia", SM: "San Marino", TR: "Turkey",
+      UA: "Ukraine", VA: "Vatican City", XK: "Kosovo",
+      // Asia-Pacific
+      AE: "United Arab Emirates", AF: "Afghanistan", AM: "Armenia",
+      AU: "Australia", AZ: "Azerbaijan", BD: "Bangladesh", BH: "Bahrain",
+      BN: "Brunei", BT: "Bhutan", CN: "China", FJ: "Fiji",
+      GE: "Georgia", HK: "Hong Kong", ID: "Indonesia", IL: "Israel",
+      IN: "India", IQ: "Iraq", IR: "Iran", JO: "Jordan", JP: "Japan",
+      KG: "Kyrgyzstan", KH: "Cambodia", KP: "North Korea", KR: "South Korea",
+      KW: "Kuwait", KZ: "Kazakhstan", LA: "Laos", LB: "Lebanon",
+      LK: "Sri Lanka", MM: "Myanmar", MN: "Mongolia", MO: "Macao",
+      MV: "Maldives", MY: "Malaysia", NP: "Nepal", NZ: "New Zealand",
+      OM: "Oman", PG: "Papua New Guinea", PH: "Philippines",
+      PK: "Pakistan", PS: "Palestine", QA: "Qatar", SA: "Saudi Arabia",
+      SG: "Singapore", SY: "Syria", TH: "Thailand", TJ: "Tajikistan",
+      TL: "Timor-Leste", TM: "Turkmenistan", TW: "Taiwan",
+      UZ: "Uzbekistan", VN: "Vietnam", YE: "Yemen",
+      // Africa
+      AO: "Angola", BF: "Burkina Faso", BI: "Burundi", BJ: "Benin",
+      BW: "Botswana", CD: "DR Congo", CF: "Central African Republic",
+      CG: "Republic of the Congo", CI: "Côte d'Ivoire", CM: "Cameroon",
+      CV: "Cape Verde", DJ: "Djibouti", DZ: "Algeria", EG: "Egypt",
+      ER: "Eritrea", ET: "Ethiopia", GA: "Gabon", GH: "Ghana",
+      GM: "Gambia", GN: "Guinea", GQ: "Equatorial Guinea",
+      GW: "Guinea-Bissau", KE: "Kenya", KM: "Comoros", LR: "Liberia",
+      LS: "Lesotho", LY: "Libya", MA: "Morocco", MG: "Madagascar",
+      ML: "Mali", MR: "Mauritania", MU: "Mauritius", MW: "Malawi",
+      MZ: "Mozambique", NA: "Namibia", NE: "Niger", NG: "Nigeria",
+      RW: "Rwanda", SC: "Seychelles", SD: "Sudan", SL: "Sierra Leone",
+      SN: "Senegal", SO: "Somalia", SS: "South Sudan",
+      ST: "São Tomé and Príncipe", SZ: "Eswatini", TD: "Chad",
+      TG: "Togo", TN: "Tunisia", TZ: "Tanzania", UG: "Uganda",
+      ZA: "South Africa", ZM: "Zambia", ZW: "Zimbabwe",
+    };
+    return (code: string): string => MAP[code] || code;
+  }
+})();
+
+/**
+ * Normalize a raw location value from the ranking backend into a human-readable
+ * display string.
+ *
+ * The backend may return:
+ *   region      — OpenAlex institution_region (e.g. "California", "Baden-Württemberg")
+ *                 OR a bare ISO-3166-1 alpha-2 code when institution_region is null
+ *                 and the backend falls back to researcher.country.
+ *   countryCode — ISO-3166-1 alpha-2 code (e.g. "DE", "US") OR, via the
+ *                 stage4_assemble.py geo.country fallback, a full English name
+ *                 (e.g. "United States", "Germany").
+ *
+ * Output examples:
+ *   ("California",        "US")  → "California, United States"
+ *   ("Baden-Württemberg", "DE")  → "Baden-Württemberg, Germany"
+ *   ("DE",                null)  → "Germany"
+ *   ("Taiwan",            "TW")  → "Taiwan"   (deduplication)
+ *   (null,                "JP")  → "Japan"
+ *   (null,          "Australia") → "Australia"  (full name passed through)
+ */
+function normalizeLocation(region?: string | null, countryCode?: string | null): string {
+  const r = (region || "").trim();
+  const c = (countryCode || "").trim();
+
+  // Helper: is this string a bare ISO-3166-1 alpha-2 code?
+  const isIsoCode = (s: string) => s.length === 2 && /^[A-Za-z]{2}$/.test(s);
+
+  // If the region field is itself an ISO-2 code (fallback path in the backend),
+  // treat it as the country identifier and expand it directly.
+  if (r && isIsoCode(r)) {
+    return isoToCountryName(r.toUpperCase());
+  }
+
+  // Resolve the country display name from countryCode, which may be:
+  //   • An ISO-2 code  → expand with isoToCountryName
+  //   • A full name    → use as-is (don't uppercase full names)
+  let countryLabel = "";
+  if (c) {
+    countryLabel = isIsoCode(c) ? isoToCountryName(c.toUpperCase()) : c;
+  }
+
+  // No sub-national region — just return the country name.
+  if (!r) return countryLabel || "Unknown";
+
+  // Sub-national region is present.  Avoid duplication when the region text
+  // already matches the resolved country name (e.g. OpenAlex returns "Taiwan"
+  // as both country_code TW and institution_region "Taiwan").
+  if (countryLabel && r.toLowerCase() === countryLabel.toLowerCase()) {
+    return countryLabel;
+  }
+
+  // Build "Region, Country" compound label.
+  if (countryLabel) return `${r}, ${countryLabel}`;
+
+  // No country code — return the sub-region as-is.
+  return r;
+}
+
+
 function mapRankingResult(result: RankingApiResult, index: number, query: string, searchMode: SearchModeChoice, citationStartYear: number, citationEndYear: number): ResearcherRecord {
   const components = result.components || {};
   const name = (result.name || `Researcher ${index + 1}`).trim();
@@ -433,7 +574,7 @@ function mapRankingResult(result: RankingApiResult, index: number, query: string
     initials: initials(name),
     institution,
     institutionId: "",
-    country: region || "Unknown",
+    country: normalizeLocation(region, result.country_code),
     region,
     totalWorks: matchedPaperCount,
     totalCitations,
@@ -1236,7 +1377,7 @@ function LandingPage({ query, setQuery, onSearch, history, searchMode, setSearch
   );
 }
 
-function FilterRail({ filters, setFilters, countries, chartResearchers, selected, savedResearchers, rankMap, onSelect }: { filters: Filters; setFilters: (filters: Filters) => void; countries: string[]; chartResearchers: ResearcherRecord[]; selected?: ResearcherRecord; savedResearchers: ResearcherRecord[]; rankMap: Map<string, number>; onSelect: (researcher: ResearcherRecord) => void }) {
+function FilterRail({ filters, setFilters, locations, selected, savedResearchers, rankMap, onSelect }: { filters: Filters; setFilters: (filters: Filters) => void; locations: string[]; selected?: ResearcherRecord; savedResearchers: ResearcherRecord[]; rankMap: Map<string, number>; onSelect: (researcher: ResearcherRecord) => void }) {
   return (
     <aside className="w-[var(--filter-rail-width)] shrink-0 overflow-y-auto border-r border-white/8 bg-[#070a10] px-5 py-5">
       <Section id="saved" title={`Saved Researchers (${savedResearchers.length})`} filters={filters} setFilters={setFilters}>
@@ -1268,13 +1409,12 @@ function FilterRail({ filters, setFilters, countries, chartResearchers, selected
           </div>
         </div>
       </Section>
-      <Section id="frontier" title="Trade-off Picks" filters={filters} setFilters={setFilters}><ParetoChart list={chartResearchers} selected={selected} rankMap={rankMap} mode={filters.chartMode} onModeChange={(chartMode) => setFilters({ ...filters, chartMode })} onSelect={onSelect} /></Section>
       <Section id="year" title="Citation Year Range" filters={filters} setFilters={setFilters}>
         <YearRangeSlider filters={filters} setFilters={setFilters} />
       </Section>
-      <Section id="country" title="Country" filters={filters} setFilters={setFilters}><select value={filters.country} onChange={(event) => setFilters({ ...filters, country: event.target.value })} className="w-full rounded-md border border-white/10 bg-[#0d1119] px-2 py-2 text-xs text-slate-200 outline-none"><option>All</option>{countries.map((country) => <option key={country}>{country}</option>)}</select></Section>
+      <Section id="location" title="Location" filters={filters} setFilters={setFilters}><select value={filters.location} onChange={(event) => setFilters({ ...filters, location: event.target.value })} className="w-full rounded-md border border-white/10 bg-[#0d1119] px-2 py-2 text-xs text-slate-200 outline-none"><option>All</option>{locations.map((loc) => <option key={loc}>{loc}</option>)}</select></Section>
       <Section id="type" title="Researcher Type" filters={filters} setFilters={setFilters}>
-        <div className="grid grid-cols-1 gap-1.5">{[["pool", "Pool"], ["top10", "Top 10"], ["frontier", "Trade-off picks"]].map(([value, label]) => <button key={value} onClick={() => setFilters({ ...filters, pool: value as ResearcherPool })} className={cn("rounded-md border px-3 py-2 text-left text-xs", filters.pool === value ? "border-blue-500/50 bg-blue-500/15 text-blue-100" : "border-white/8 text-slate-400")}>{label}</button>)}</div>
+        <div className="grid grid-cols-1 gap-1.5">{[["pool", "Pool"], ["top10", "Top 10"]].map(([value, label]) => <button key={value} onClick={() => setFilters({ ...filters, pool: value as ResearcherPool })} className={cn("rounded-md border px-3 py-2 text-left text-xs", filters.pool === value ? "border-blue-500/50 bg-blue-500/15 text-blue-100" : "border-white/8 text-slate-400")}>{label}</button>)}</div>
       </Section>
     </aside>
   );
@@ -1559,7 +1699,7 @@ function DetailPage({ researcher, isSaved, user, weights, onToggleSave, onBack, 
         </section>
         <section className="mt-6"><RankingBreakdown researcher={researcher} weights={weights} /></section>
         <section className="mt-6 rounded-xl border border-white/8 bg-white/[0.025] p-6"><h2 className="mb-4 flex items-center gap-2 text-sm font-bold uppercase tracking-[0.12em]"><Sparkles className="h-4 w-4 text-blue-400" />AI Explanation</h2><p className="text-sm leading-7 text-slate-400">{researcher.name} is indexed as a {researcher.primaryTopic} researcher in {researcher.field || "computer science"}. For the current ranking, Q_norm is {Math.round(researcher.queryRelevanceNorm || 0)} and R_raw is {formatNumber(researcher.recentCitations || 0)} citations received by matched papers during {researcher.citationStartYear}-{researcher.citationEndYear}. Lifetime citations, total works, and H-index are shown as profile context only. The profile is linked to {affiliationDisplay(researcher).primary} and includes {researcher.collaborators.length} highlighted collaborators.</p><div className="mt-5 flex flex-wrap gap-2">{(researcher.topics.length ? researcher.topics : [researcher.primaryTopic]).slice(0, 6).map((topic) => <span key={topic} className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-semibold text-blue-200">{topic}</span>)}</div></section>
-        <section className="mt-6 rounded-xl border border-white/8 bg-white/[0.025] p-6"><h2 className="mb-4 text-sm font-bold uppercase tracking-[0.12em]">Contact & Links</h2><div className="grid gap-3 text-sm text-slate-400 sm:grid-cols-2"><div className="rounded-lg border border-white/8 bg-black/10 p-4"><div className="text-xs font-bold uppercase tracking-[0.12em] text-slate-500">{researcher.searchMode === "institution" ? "Matched institution" : "Institution"}</div><AffiliationSummary researcher={researcher} className="mt-2 text-slate-200" noteClassName="mt-1 text-xs text-cyan-300" /><div className="text-xs text-slate-500">{affiliationDisplay(researcher).country}{researcher.region ? `, ${researcher.region}` : ""}</div></div><div className="rounded-lg border border-white/8 bg-black/10 p-4"><div className="text-xs font-bold uppercase tracking-[0.12em] text-slate-500">Direct Contact</div><div className="mt-2 text-slate-300">The backend profile does not provide email or phone fields.</div></div></div><div className="mt-4 flex flex-wrap gap-2">{researcher.authorUrl && <a href={researcher.authorUrl} target="_blank" rel="noreferrer" className="rounded-md bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500">Author Profile</a>}<a href={googleScholarUrl(researcher)} target="_blank" rel="noreferrer" className="rounded-md bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500">Google Scholar</a><a href={googleResearcherUrl(researcher)} target="_blank" rel="noreferrer" className="rounded-md bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500">Google Search</a></div></section>
+        <section className="mt-6 rounded-xl border border-white/8 bg-white/[0.025] p-6"><h2 className="mb-4 text-sm font-bold uppercase tracking-[0.12em]">Contact & Links</h2><div className="grid gap-3 text-sm text-slate-400 sm:grid-cols-2"><div className="rounded-lg border border-white/8 bg-black/10 p-4"><div className="text-xs font-bold uppercase tracking-[0.12em] text-slate-500">{researcher.searchMode === "institution" ? "Matched institution" : "Institution"}</div><AffiliationSummary researcher={researcher} className="mt-2 text-slate-200" noteClassName="mt-1 text-xs text-cyan-300" /><div className="text-xs text-slate-500">{affiliationDisplay(researcher).country}</div></div><div className="rounded-lg border border-white/8 bg-black/10 p-4"><div className="text-xs font-bold uppercase tracking-[0.12em] text-slate-500">Direct Contact</div><div className="mt-2 text-slate-300">The backend profile does not provide email or phone fields.</div></div></div><div className="mt-4 flex flex-wrap gap-2">{researcher.authorUrl && <a href={researcher.authorUrl} target="_blank" rel="noreferrer" className="rounded-md bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500">Author Profile</a>}<a href={googleScholarUrl(researcher)} target="_blank" rel="noreferrer" className="rounded-md bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500">Google Scholar</a><a href={googleResearcherUrl(researcher)} target="_blank" rel="noreferrer" className="rounded-md bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500">Google Search</a></div></section>
         <section className="mt-6 rounded-xl border border-white/8 bg-white/[0.025] p-6">
           <h2 className="mb-4 text-sm font-bold uppercase tracking-[0.12em] text-slate-100">Source Data & Reliability</h2>
           <div className="grid gap-3 sm:grid-cols-4">
@@ -1574,7 +1714,7 @@ function DetailPage({ researcher, isSaved, user, weights, onToggleSave, onBack, 
               <summary className="cursor-pointer list-none px-4 py-3 text-sm font-semibold text-slate-100">Profile record fields</summary>
               <div className="border-t border-white/8 p-4">
                 <div className="grid gap-x-4 gap-y-3 text-sm sm:grid-cols-2">
-                  {[["Name", researcher.name], ["Institution", researcher.institution], ["Matched institution", researcher.matchedInstitution || "n/a"], ["Current institution", researcher.currentInstitution || "n/a"], ["Country", affiliationDisplay(researcher).country || "n/a"], ["Region", researcher.region || "n/a"], ["Field", researcher.field || "n/a"], ["Subfield", researcher.subfield || "n/a"], ["Domain", researcher.domain || "n/a"], ["Primary topic", researcher.primaryTopic], ["Match source", matchSourceLabel(researcher.matchSource)], ["Match reason", researcher.matchReason || researcher.whyMatched || "n/a"], ["Citation year range", `${researcher.citationStartYear || "n/a"}-${researcher.citationEndYear || "n/a"}`], ["Q_norm", Math.round(researcher.queryRelevanceNorm || 0)], ["R_raw", researcher.recentCitations || 0], ["R_norm", Math.round(researcher.recentCitationImpactNorm || 0)], ["wQ", `${Math.round(weightShares.query * 100)}%`], ["wR", `${Math.round(weightShares.research * 100)}%`], ["Final score", Math.round(researcher.finalScore || 0)], ["Career start", researcher.careerStartYear || "n/a"], ["Years active", researcher.yearsActive || "n/a"], ["Total works", researcher.totalWorks], ["Lifetime citations", researcher.totalCitations], ["H-index", researcher.hIndex], ["I10-index", researcher.i10Index]].map(([label, value]) => <div key={label as string}><div className="text-[11px] font-bold uppercase tracking-[0.12em] text-slate-500">{label}</div><div className="mt-1 text-slate-200">{String(value)}</div></div>)}
+                  {[["Name", researcher.name], ["Institution", researcher.institution], ["Matched institution", researcher.matchedInstitution || "n/a"], ["Current institution", researcher.currentInstitution || "n/a"], ["Location", affiliationDisplay(researcher).country || "n/a"], ["Region", researcher.region || "n/a"], ["Field", researcher.field || "n/a"], ["Subfield", researcher.subfield || "n/a"], ["Domain", researcher.domain || "n/a"], ["Primary topic", researcher.primaryTopic], ["Match source", matchSourceLabel(researcher.matchSource)], ["Match reason", researcher.matchReason || researcher.whyMatched || "n/a"], ["Citation year range", `${researcher.citationStartYear || "n/a"}-${researcher.citationEndYear || "n/a"}`], ["Q_norm", Math.round(researcher.queryRelevanceNorm || 0)], ["R_raw", researcher.recentCitations || 0], ["R_norm", Math.round(researcher.recentCitationImpactNorm || 0)], ["wQ", `${Math.round(weightShares.query * 100)}%`], ["wR", `${Math.round(weightShares.research * 100)}%`], ["Final score", Math.round(researcher.finalScore || 0)], ["Career start", researcher.careerStartYear || "n/a"], ["Years active", researcher.yearsActive || "n/a"], ["Total works", researcher.totalWorks], ["Lifetime citations", researcher.totalCitations], ["H-index", researcher.hIndex], ["I10-index", researcher.i10Index]].map(([label, value]) => <div key={label as string}><div className="text-[11px] font-bold uppercase tracking-[0.12em] text-slate-500">{label}</div><div className="mt-1 text-slate-200">{String(value)}</div></div>)}
                 </div>
               </div>
             </details>
@@ -1674,9 +1814,9 @@ export default function Home() {
         setSavedResearcherCache((prev) => {
           let changed = false;
           const pruned = new Map(prev);
-          for (const key of pruned.keys()) {
+          Array.from(pruned.keys()).forEach((key) => {
             if (!ids.has(key)) { pruned.delete(key); changed = true; }
-          }
+          });
           return changed ? pruned : prev;
         });
         setSavedLoaded(true);
@@ -1747,9 +1887,9 @@ export default function Home() {
       });
     return () => controller.abort();
   }, [activeQuery, searchMode, appliedYearRange.minYear, appliedYearRange.maxYear]);
-  const countries = useMemo(() => Array.from(new Set(researcherResults.map((researcher) => researcher.country).filter(Boolean))).sort().slice(0, 80), [researcherResults]);
+  const locations = useMemo(() => Array.from(new Set(researcherResults.map((researcher) => researcher.country).filter(Boolean))).sort().slice(0, 80), [researcherResults]);
   const scored = useMemo(() => {
-    const filtered = researcherResults.filter((researcher) => filters.country === "All" || researcher.country === filters.country);
+    const filtered = researcherResults.filter((researcher) => filters.location === "All" || researcher.country === filters.location);
     const qNorm = normalizedMetricMap(filtered, (researcher) => researcher.queryRelevanceScore ?? researcher.relevanceScore ?? researcherNameMatchScore(researcher, activeQuery));
     const rNorm = normalizedMetricMap(filtered, (researcher) => researcher.recentCitations || 0, true);
     const base = filtered
@@ -1787,7 +1927,6 @@ export default function Home() {
   // effect above fills gaps for researchers loaded from the server on login.
   const savedResearchers = Array.from(savedIds).map((id) => savedResearcherCache.get(id)).filter((r): r is ResearcherRecord => Boolean(r));
   const rankMap = new Map(resultList.map((researcher, index) => [researcher.id, index + 1]));
-  const chartResearchers = currentPage === 0 ? pagedResults : [...resultList.slice(0, 10), ...pagedResults.filter((researcher) => !resultList.slice(0, 10).some((top) => top.id === researcher.id))];
   const runSearch = (nextQuery?: string) => { const value = (nextQuery ?? query).trim() || DEFAULT_QUERY; setQuery(value); setActiveQuery(value); setSelectedId(undefined); setPage(0); setFilters((prev) => ({ ...prev, pool: "pool" })); if (settings.searchHistory) setSearchHistory((prev) => [value, ...prev.filter((item) => item.toLowerCase() !== value.toLowerCase())].slice(0, 10)); };
   const changeTableSort = (key: TableSortKey) => {
     setTableSort((prev) => (prev.key === key ? { key, direction: prev.direction === "desc" ? "asc" : "desc" } : { key, direction: key === "rank" ? "asc" : "desc" }));
@@ -1854,7 +1993,7 @@ export default function Home() {
     <main className="flex h-screen flex-col overflow-hidden bg-[#05070b] text-slate-100">
       <header className="flex h-14 shrink-0 items-center gap-4 border-b border-white/8 bg-[#070a10] px-4"><button className="flex items-center gap-2 text-sm font-bold" onClick={() => { setActiveQuery(""); setDetailId(undefined); }}><span className="flex h-7 w-7 items-center justify-center rounded-md bg-blue-600"><Sparkles className="h-4 w-4" /></span>ResearchAI</button><SearchInputWithHistory query={query} setQuery={setQuery} onSearch={runSearch} history={historyForSearch} searchMode={searchMode} setSearchMode={setSearchMode} compact /><button onClick={() => runSearch()} className="rounded-full bg-blue-600 px-5 py-2 text-xs font-semibold text-white hover:bg-blue-500">Search</button><div className="ml-auto"><TopActions user={currentUser} onLogout={logout} onOpenSettings={() => setSettingsOpen(true)} onOpenAuth={setAuthMode} /></div></header>
       <div className="flex min-h-0 flex-1">
-        <FilterRail filters={filters} setFilters={setFilters} countries={countries} chartResearchers={chartResearchers} selected={selected} savedResearchers={savedResearchers} rankMap={rankMap} onSelect={(researcher) => setSelectedId(researcher.id)} />
+        <FilterRail filters={filters} setFilters={setFilters} locations={locations} selected={selected} savedResearchers={savedResearchers} rankMap={rankMap} onSelect={(researcher) => setSelectedId(researcher.id)} />
         <section className="flex min-w-0 flex-1 flex-col">
           <div className="flex h-12 shrink-0 items-center justify-between border-b border-white/8 bg-[#070a10] px-4">
             <div className="text-sm text-slate-400">Results for <span className="font-bold text-slate-100">"{activeQuery}"</span></div>

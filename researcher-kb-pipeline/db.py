@@ -377,7 +377,8 @@ def fetch_researcher_ranking_rows(
             r.current_institution_id,
             r.country,
             i.name AS institution_name,
-            i.region AS institution_region
+            i.region AS institution_region,
+            i.country AS institution_country
         FROM researchers r
         LEFT JOIN institutions i ON i.id = r.current_institution_id
     """

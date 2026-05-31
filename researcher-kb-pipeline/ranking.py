@@ -678,6 +678,8 @@ def final_score(
                 "institution": researcher_row.get("institution_name"),
                 "region": researcher_row.get("institution_region")
                 or researcher_row.get("country"),
+                "country_code": researcher_row.get("institution_country")
+                or researcher_row.get("country"),
                 "R": round(r_value, 6),
                 "Q": round(q_value, 6),
                 "final_score": round(score, 6),
