@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, Bot, Bookmark, BookmarkCheck, ChevronDown, ExternalLink, FileText, MessageCircle, Moon, Search, Send, Settings, SlidersHorizontal, Sparkles, Sun, User, X } from "lucide-react";
 import { type ResearchPaper, type ResearcherRecord } from "@/lib/data";
 import { cn } from "@/lib/utils";
@@ -1612,7 +1612,16 @@ export default function Home() {
   const [selectedId, setSelectedId] = useState<string | undefined>();
   const [detailId, setDetailId] = useState<string | undefined>();
   const [savedIds, setSavedIds] = useState<Set<string>>(() => new Set());
-  const [savedResearcherCache, setSavedResearcherCache] = useState<Map<string, ResearcherRecord>>(() => new Map());
+  const [savedLoaded, setSavedLoaded] = useState(false);
+  const [savedResearcherCache, setSavedResearcherCache] = useState<Map<string, ResearcherRecord>>(() => {
+    // Restore full researcher records from localStorage so saved researchers
+    // remain visible across page refreshes and after login without a search.
+    try {
+      const raw = localStorage.getItem("saved_researcher_records");
+      if (raw) return new Map(JSON.parse(raw) as [string, ResearcherRecord][]);
+    } catch { /* ignore parse errors */ }
+    return new Map();
+  });
   const [searchHistory, setSearchHistory] = useState<string[]>(() => [DEFAULT_QUERY, "quantum machine learning", "post-quantum cryptography", "thermal properties of materials"]);
   const [page, setPage] = useState(0);
   const [settings, setSettings] = useState<AppSettings>(() => readStoredSettings());
@@ -1632,6 +1641,13 @@ export default function Home() {
     persistSettings(settings);
   }, [settings]);
   useEffect(() => {
+    // Keep localStorage in sync with the in-memory cache so the saved panel
+    // survives page refreshes and opening the app in a new tab.
+    try {
+      localStorage.setItem("saved_researcher_records", JSON.stringify(Array.from(savedResearcherCache.entries())));
+    } catch { /* quota / private-mode guard */ }
+  }, [savedResearcherCache]);
+  useEffect(() => {
     apiRequest<{ user: CurrentUser | null }>("/api/auth/me").then((result) => setCurrentUser(result.user || undefined)).catch(() => setCurrentUser(undefined));
   }, []);
   useEffect(() => {
@@ -1649,8 +1665,23 @@ export default function Home() {
       .catch(() => setServerAiSettings(null));
   }, [currentUser]);
   useEffect(() => {
-    if (!currentUser) return;
-    apiRequest<{ savedIds: string[] }>("/api/saved-researchers").then((result) => setSavedIds(new Set(result.savedIds))).catch(() => undefined);
+    if (!currentUser) { setSavedLoaded(false); return; }
+    apiRequest<{ savedIds: string[] }>("/api/saved-researchers")
+      .then((result) => {
+        const ids = new Set<string>(result.savedIds);
+        setSavedIds(ids);
+        // Remove cache entries for IDs the server no longer lists (deleted on another device, etc.)
+        setSavedResearcherCache((prev) => {
+          let changed = false;
+          const pruned = new Map(prev);
+          for (const key of pruned.keys()) {
+            if (!ids.has(key)) { pruned.delete(key); changed = true; }
+          }
+          return changed ? pruned : prev;
+        });
+        setSavedLoaded(true);
+      })
+      .catch(() => undefined);
   }, [currentUser]);
   useEffect(() => {
     const handle = window.setTimeout(() => {
@@ -1658,6 +1689,43 @@ export default function Home() {
     }, 650);
     return () => window.clearTimeout(handle);
   }, [filters.minYear, filters.maxYear]);
+  useEffect(() => {
+    // When new search results arrive, opportunistically cache any saved researchers
+    // that appear in the results. This ensures that researchers loaded from the server
+    // (whose records aren't in localStorage yet) become visible in the saved panel
+    // as soon as they show up in any search, without any extra API call.
+    if (researcherResults.length === 0) return;
+    setSavedResearcherCache((prev) => {
+      let changed = false;
+      const updated = new Map(prev);
+      for (const r of researcherResults) {
+        if (savedIds.has(r.id) && !updated.has(r.id)) {
+          updated.set(r.id, r);
+          changed = true;
+        }
+      }
+      return changed ? updated : prev;
+    });
+  }, [researcherResults, savedIds]);
+  // Ref so the debounced PUT always reads the latest savedIds without
+  // declaring it as a dependency (which would fire on every keystroke).
+  const savedIdsRef = useRef(savedIds);
+  useEffect(() => { savedIdsRef.current = savedIds; }, [savedIds]);
+  useEffect(() => {
+    // Debounced backend sync — fires 600 ms after the last toggle, not on every
+    // click. This eliminates the out-of-order PUT race that previously could leave
+    // the server with fewer IDs than expected after rapid consecutive saves.
+    // Only syncs after the initial GET has completed (savedLoaded gate) to avoid
+    // overwriting the server list with an empty set during page load.
+    if (!currentUser || !savedLoaded) return;
+    const handle = window.setTimeout(() => {
+      apiRequest<{ savedIds: string[] }>("/api/saved-researchers", {
+        method: "PUT",
+        body: JSON.stringify({ savedIds: Array.from(savedIdsRef.current) }),
+      }).catch(() => undefined);
+    }, 600);
+    return () => window.clearTimeout(handle);
+  }, [savedIds, currentUser, savedLoaded]);
   useEffect(() => {
     if (!activeQuery) return;
     const controller = new AbortController();
@@ -1714,7 +1782,10 @@ export default function Home() {
   const pagedResults = resultList.slice(pageStart, pageStart + PAGE_SIZE);
   const selected = resultList.find((researcher) => researcher.id === selectedId) ?? pagedResults[0] ?? resultList[0];
   const detail = resultList.find((researcher) => researcher.id === detailId) ?? researcherResults.find((researcher) => researcher.id === detailId);
-  const savedResearchers = Array.from(savedIds).map((id) => savedResearcherCache.get(id) ?? researcherResults.find((researcher) => researcher.id === id)).filter((researcher): researcher is ResearcherRecord => Boolean(researcher));
+  // Saved panel is driven entirely from the cache (localStorage-backed) so it
+  // never depends on which search is currently active. The opportunistic-caching
+  // effect above fills gaps for researchers loaded from the server on login.
+  const savedResearchers = Array.from(savedIds).map((id) => savedResearcherCache.get(id)).filter((r): r is ResearcherRecord => Boolean(r));
   const rankMap = new Map(resultList.map((researcher, index) => [researcher.id, index + 1]));
   const chartResearchers = currentPage === 0 ? pagedResults : [...resultList.slice(0, 10), ...pagedResults.filter((researcher) => !resultList.slice(0, 10).some((top) => top.id === researcher.id))];
   const runSearch = (nextQuery?: string) => { const value = (nextQuery ?? query).trim() || DEFAULT_QUERY; setQuery(value); setActiveQuery(value); setSelectedId(undefined); setPage(0); setFilters((prev) => ({ ...prev, pool: "pool" })); if (settings.searchHistory) setSearchHistory((prev) => [value, ...prev.filter((item) => item.toLowerCase() !== value.toLowerCase())].slice(0, 10)); };
@@ -1723,16 +1794,13 @@ export default function Home() {
     setPage(0);
   };
   const toggleSave = (id: string) => {
-    const wasAlreadySaved = savedIds.has(id);
+    const alreadySaved = savedIds.has(id);
     setSavedIds((prev) => {
       const next = new Set(prev);
-      if (wasAlreadySaved) next.delete(id); else next.add(id);
-      if (currentUser) {
-        apiRequest<{ savedIds: string[] }>("/api/saved-researchers", { method: "PUT", body: JSON.stringify({ savedIds: Array.from(next) }) }).catch(() => undefined);
-      }
+      if (prev.has(id)) next.delete(id); else next.add(id);
       return next;
     });
-    if (!wasAlreadySaved) {
+    if (!alreadySaved) {
       const researcher = resultList.find((r) => r.id === id) ?? researcherResults.find((r) => r.id === id);
       if (researcher) setSavedResearcherCache((prev) => new Map(prev).set(id, researcher));
     } else {
@@ -1743,6 +1811,10 @@ export default function Home() {
     await apiRequest<{ ok: boolean }>("/api/auth/logout", { method: "POST", body: "{}" }).catch(() => ({ ok: true }));
     setCurrentUser(undefined);
     setSavedIds(new Set());
+    setSavedLoaded(false);
+    // Clear researcher cache for this user so the next user doesn't see stale data.
+    setSavedResearcherCache(new Map());
+    localStorage.removeItem("saved_researcher_records");
     setServerAiSettings(null);
     // Clear API key state and strip it from localStorage so the next user starts clean.
     setSettings((prev) => {
