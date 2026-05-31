@@ -1,0 +1,7 @@
+node_modules
+dist
+.manus-logs
+backups
+.pnpm-store
+*.log
+*.zip

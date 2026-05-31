@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: research-ai-test
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: pnpm install --frozen-lockfile && pnpm run build
+    startCommand: node scripts/start.mjs
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 24.14.1
+      - key: NODE_ENV
+        value: production
+      - key: RESEARCH_AI_SHOW_DEV_CODE
+        value: "false"
+      - key: RANKING_API_URL
+        value: https://researcher-ranking-843231871344.us-central1.run.app
