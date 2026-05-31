@@ -183,108 +183,103 @@ async function callGemini(
   return answer;
 }
 
-// ── Stored key retrieval for authenticated users ───────────────────────────────
+// ── Proxy headers helper ───────────────────────────────────────────────────────
 
-async function fetchStoredAiSettings(sessionToken: string): Promise<{
-  apiKey?: string;
-  provider?: string;
-  model?: string;
-  apiBaseUrl?: string;
-} | null> {
-  const backendUrl = (process.env.RANKING_API_URL || "").trim().replace(/\/+$/, "");
-  if (!backendUrl) return null;
-  try {
-    const headers: Record<string, string> = {
-      "Content-Type": "application/json",
-      "X-Session-Token": sessionToken,
-    };
-    const authToken = process.env.RANKING_API_AUTH_TOKEN?.trim();
-    if (authToken) headers["Authorization"] = `Bearer ${authToken}`;
-    const r = await fetch(`${backendUrl}/settings/ai`, { headers });
-    if (!r.ok) return null;
-    const data = await r.json().catch(() => null) as Record<string, unknown> | null;
-    if (!data?.hasApiKey) return null;
-    return {
-      apiKey: typeof data.apiKey === "string" ? data.apiKey : undefined,
-      provider: typeof data.provider === "string" ? data.provider : undefined,
-      model: typeof data.model === "string" ? data.model : undefined,
-      apiBaseUrl: typeof data.apiBaseUrl === "string" ? data.apiBaseUrl : undefined,
-    };
-  } catch {
-    return null;
+function buildProxyHeaders(sessionToken?: string): Record<string, string> {
+  const headers: Record<string, string> = { "Content-Type": "application/json" };
+  const authToken = process.env.RANKING_API_AUTH_TOKEN?.trim();
+  if (authToken) headers["Authorization"] = `Bearer ${authToken}`;
+  if (sessionToken) headers["X-Session-Token"] = sessionToken;
+  return headers;
+}
+
+// Converts FastAPI {"detail":"..."} error responses to user-friendly {"error":"..."}.
+function classifyBackendError(status: number, detail: string): string {
+  // The ranking backend's /ai/chat already returns user-friendly detail strings —
+  // pass them through directly, only fall back for empty/technical messages.
+  if (detail && !detail.match(/^(internal server error|unexpected error)/i)) {
+    return detail;
   }
+  if (status === 401 || status === 403) return "Invalid or expired API key. Please check your key in Settings.";
+  if (status === 429) return "Rate limit reached. Please try again later.";
+  return "AI summary generation failed. Please try again.";
 }
 
 // ── Main handler ──────────────────────────────────────────────────────────────
+//
+// Design: The ranking backend owns AI key storage (encrypted with AI_SETTINGS_ENCRYPTION_KEY).
+// GET /settings/ai intentionally does NOT return the decrypted key — it only returns hasApiKey.
+// Therefore the Express layer CANNOT decrypt the stored key itself.
+// The correct approach is to proxy /api/ai/chat → ${RANKING_API_URL}/ai/chat, which handles:
+//   - Authenticated users: looks up session → decrypts stored key → calls AI provider
+//   - Unauthenticated (BYOK): uses body.apiKey directly → calls AI provider
+// When RANKING_API_URL is absent (local dev without backend), fall back to direct provider calls.
 
 export async function handleAiChatRequest(body: unknown, req: any, res: any) {
+  const sessionToken = parseCookies(req.headers?.cookie).research_ai_session;
+  const clientApiKey = getField(body, "apiKey");
+  const backendUrl = (process.env.RANKING_API_URL || "").trim().replace(/\/+$/, "");
+
+  // ── Temporary debug logs (no actual key values logged) ────────────────────
+  console.log("[ai/chat] body.apiKey present:", Boolean(clientApiKey));
+  console.log("[ai/chat] session cookie present:", Boolean(sessionToken));
+
+  if (sessionToken && backendUrl) {
+    // Check whether the session has a configured key — purely for diagnostic logging.
+    try {
+      const sr = await fetch(`${backendUrl}/settings/ai`, { headers: buildProxyHeaders(sessionToken) });
+      const sd = await sr.json().catch(() => ({})) as Record<string, unknown>;
+      console.log("[ai/chat] /settings/ai →", sr.status, "hasApiKey:", sd.hasApiKey, "provider:", sd.provider);
+    } catch (e) {
+      console.log("[ai/chat] /settings/ai check failed:", e instanceof Error ? e.message : String(e));
+    }
+  }
+  // ── End debug logs ─────────────────────────────────────────────────────────
+
+  if (backendUrl) {
+    // ── Path A: proxy to ranking backend (production / dev with backend) ────
+    try {
+      const r = await fetch(`${backendUrl}/ai/chat`, {
+        method: "POST",
+        headers: buildProxyHeaders(sessionToken),
+        body: JSON.stringify(body),
+      });
+      const data = await r.json().catch(() => ({})) as Record<string, unknown>;
+
+      if (!r.ok) {
+        const detail = String((data as any).detail || (data as any).error || "");
+        const userMsg = classifyBackendError(r.status, detail);
+        console.log("[ai/chat] backend error", r.status, "->", userMsg);
+        return jsonReply(res, r.status, { error: userMsg });
+      }
+
+      return jsonReply(res, 200, data);
+    } catch (error) {
+      const msg = error instanceof Error ? error.message : String(error);
+      console.error("[ai/chat] proxy network error:", msg);
+      return jsonReply(res, 502, { error: "Could not reach the AI service. Please check your connection and try again." });
+    }
+  }
+
+  // ── Path B: no RANKING_API_URL — dev fallback, call provider directly ─────
   try {
     const provider = getField(body, "provider") || "gpt";
     const apiBaseUrl = getField(body, "apiBaseUrl");
-    const clientApiKey = getField(body, "apiKey");
     const model = getField(body, "model");
     const context = getField(body, "context") || undefined;
     const messages = getMessages(body);
 
-    if (!messages.length) {
-      return jsonReply(res, 400, { error: "No messages provided." });
-    }
-
-    // Resolve effective credentials: prefer client-supplied key, then fall back to
-    // server-side stored key for authenticated users.
-    let effectiveApiKey = clientApiKey;
-    let effectiveProvider = provider;
-    let effectiveModel = model;
-    let effectiveBaseUrl = apiBaseUrl;
-
-    if (!effectiveApiKey) {
-      const sessionToken = parseCookies(req.headers?.cookie).research_ai_session;
-      if (sessionToken) {
-        const stored = await fetchStoredAiSettings(sessionToken);
-        if (stored?.apiKey) {
-          effectiveApiKey = stored.apiKey;
-          effectiveProvider = stored.provider || provider;
-          effectiveModel = stored.model || model;
-          effectiveBaseUrl = stored.apiBaseUrl || apiBaseUrl;
-        }
-      }
-    }
-
-    if (!effectiveApiKey) {
-      return jsonReply(res, 400, {
-        error: "No AI API key configured. Please add an API key in Settings.",
-      });
-    }
+    if (!messages.length) return jsonReply(res, 400, { error: "No messages provided." });
+    if (!clientApiKey) return jsonReply(res, 400, { error: "No AI API key configured. Please add an API key in Settings." });
 
     let answer: string;
-
-    if (effectiveProvider === "claude") {
-      answer = await callClaude(
-        effectiveBaseUrl || "https://api.anthropic.com/v1",
-        effectiveApiKey,
-        effectiveModel || "claude-sonnet-4-20250514",
-        messages,
-        context
-      );
-    } else if (effectiveProvider === "gemini") {
-      answer = await callGemini(
-        effectiveBaseUrl || "https://generativelanguage.googleapis.com/v1beta",
-        effectiveApiKey,
-        effectiveModel || "gemini-2.5-flash",
-        messages,
-        context
-      );
+    if (provider === "claude") {
+      answer = await callClaude(apiBaseUrl || "https://api.anthropic.com/v1", clientApiKey, model || "claude-sonnet-4-20250514", messages, context);
+    } else if (provider === "gemini") {
+      answer = await callGemini(apiBaseUrl || "https://generativelanguage.googleapis.com/v1beta", clientApiKey, model || "gemini-2.5-flash", messages, context);
     } else {
-      // OpenAI or any OpenAI-compatible custom endpoint
-      answer = await callOpenAiCompatible(
-        effectiveBaseUrl || "https://api.openai.com/v1",
-        effectiveApiKey,
-        effectiveModel || "gpt-4.1",
-        messages,
-        context
-      );
+      answer = await callOpenAiCompatible(apiBaseUrl || "https://api.openai.com/v1", clientApiKey, model || "gpt-4.1", messages, context);
     }
-
     jsonReply(res, 200, { answer });
   } catch (error) {
     const raw = error instanceof Error ? error.message : String(error);
