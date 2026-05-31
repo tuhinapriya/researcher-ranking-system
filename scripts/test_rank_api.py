@@ -2,7 +2,6 @@ import json
 import sys
 from urllib import request
 
-
 payload = {
     "query": "robotics",
     "use_mock_data": True,
@@ -13,7 +12,7 @@ if len(sys.argv) > 1:
     payload["query"] = sys.argv[1]
 
 http_request = request.Request(
-    "http://127.0.0.1:8000/api/rank",
+    "http://127.0.0.1:8000/rank",
     data=json.dumps(payload).encode("utf-8"),
     headers={"Content-Type": "application/json"},
     method="POST",

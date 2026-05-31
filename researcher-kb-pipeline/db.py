@@ -351,9 +351,16 @@ def fetch_researcher_ranking_rows(
     researcher_ids=None,
     region=None,
     institution_id=None,
+    author_name=None,
+    institution_name=None,
 ):
     """
     Fetch researcher rows plus display-oriented institution fields for ranking.
+
+    author_name:      Case-insensitive LIKE filter on researcher.name.
+                      Used when the frontend sends search_type=author.
+    institution_name: Case-insensitive LIKE filter on institution.name.
+                      Used when the frontend sends search_type=institution.
     """
     sql = """
         SELECT
@@ -392,6 +399,14 @@ def fetch_researcher_ranking_rows(
     if institution_id:
         clauses.append("r.current_institution_id = %s")
         params.append(institution_id)
+
+    if author_name:
+        clauses.append("LOWER(r.name) LIKE LOWER(%s)")
+        params.append(f"%{author_name}%")
+
+    if institution_name:
+        clauses.append("LOWER(COALESCE(i.name, '')) LIKE LOWER(%s)")
+        params.append(f"%{institution_name}%")
 
     if clauses:
         sql = f"{sql} WHERE {' AND '.join(clauses)}"

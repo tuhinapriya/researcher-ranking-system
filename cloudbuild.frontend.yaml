@@ -1,0 +1,71 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Cloud Build — Frontend (research-ai Node.js / Express)
+#
+#  Builds the Lam-research/ frontend image and deploys it to Cloud Run.
+#  The frontend container:
+#    - Serves the compiled React SPA as static files
+#    - Proxies /api/ranking/* → RANKING_API_URL (the Python ranking service)
+#    - Proxies /api/auth/*, /api/settings/*, /api/ai/* → RANKING_API_URL (BFF)
+#    - All database access is owned by the backend ranking service
+#
+#  Required substitutions (set in Cloud Build trigger or CLI):
+#    _REGION          e.g. us-central1
+#    _PROJECT_ID      e.g. project-d84d7c5a-c91d-497b-b78
+#    _REPO            e.g. researcher-repo
+#    _SERVICE_NAME    e.g. research-ai
+#    _RANKING_API_URL e.g. https://researcher-ranking-843231871344.us-central1.run.app
+#
+#  Optional:
+#    _RANKING_API_AUTH_TOKEN  Bearer token for the ranking service (leave empty
+#                             if the ranking service is deployed without auth).
+#    _GOOGLE_CLIENT_ID        For Google OAuth login support.
+#    _GOOGLE_CLIENT_SECRET    For Google OAuth login support.
+# ─────────────────────────────────────────────────────────────────────────────
+
+substitutions:
+  _REGION: us-central1
+  _PROJECT_ID: project-d84d7c5a-c91d-497b-b78
+  _REPO: researcher-repo
+  _SERVICE_NAME: research-ai
+  _RANKING_API_URL: https://researcher-ranking-843231871344.us-central1.run.app
+  _RANKING_API_AUTH_TOKEN: ""
+  _GOOGLE_CLIENT_ID: ""
+  _GOOGLE_CLIENT_SECRET: ""
+
+steps:
+  # ── Build the frontend Docker image ────────────────────────────────────────
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -f
+      - Lam-research/Dockerfile
+      - -t
+      - ${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPO}/${_SERVICE_NAME}:latest
+      - -t
+      - ${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPO}/${_SERVICE_NAME}:latest
+      - Lam-research
+
+  # ── Push image to Artifact Registry ────────────────────────────────────────
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - --all-tags
+      - ${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPO}/${_SERVICE_NAME}
+
+  # ── Deploy to Cloud Run ─────────────────────────────────────────────────────
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - ${_SERVICE_NAME}
+      - --image=${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPO}/${_SERVICE_NAME}:latest
+      - --region=${_REGION}
+      - --platform=managed
+      - --allow-unauthenticated
+      - --port=8080
+      - --set-env-vars=NODE_ENV=production,RANKING_API_URL=${_RANKING_API_URL},RANKING_API_AUTH_TOKEN=${_RANKING_API_AUTH_TOKEN},GOOGLE_CLIENT_ID=${_GOOGLE_CLIENT_ID},GOOGLE_CLIENT_SECRET=${_GOOGLE_CLIENT_SECRET}
+
+images:
+  - ${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPO}/${_SERVICE_NAME}:latest
+  - ${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPO}/${_SERVICE_NAME}:latest

@@ -15,6 +15,8 @@ def rank_researchers(
     query_text,
     region=None,
     institution_id=None,
+    author_name=None,
+    institution_name=None,
     pareto_enabled=False,
     top_k=None,
     min_unique_researchers=None,
@@ -44,6 +46,22 @@ def rank_researchers(
                 for row in researcher_rows
                 if row.get("current_institution_id") == institution_id
             ]
+        # Author-name and institution-name text filters (mock data path).
+        if author_name:
+            author_name_lower = author_name.lower()
+            researcher_rows = [
+                row
+                for row in researcher_rows
+                if author_name_lower in (row.get("name") or "").lower()
+            ]
+        if institution_name:
+            institution_name_lower = institution_name.lower()
+            researcher_rows = [
+                row
+                for row in researcher_rows
+                if institution_name_lower
+                in (row.get("institution_name") or row.get("institution") or "").lower()
+            ]
         candidate_ids = [row["id"] for row in researcher_rows]
         q_scores, q_debug = compute_q_weighted_from_mock(
             query_text=query_text,
@@ -68,6 +86,8 @@ def rank_researchers(
             "filters": {
                 "region": region,
                 "institution_id": institution_id,
+                "author_name": author_name,
+                "institution_name": institution_name,
                 "start_year": start_year,
                 "end_year": end_year,
             },
@@ -107,6 +127,8 @@ def rank_researchers(
             researcher_ids=candidate_ids,
             region=region,
             institution_id=institution_id,
+            author_name=author_name,
+            institution_name=institution_name,
         )
         filtered_ids = {row["id"] for row in researcher_rows}
         q_scores = {
@@ -129,6 +151,8 @@ def rank_researchers(
             "filters": {
                 "region": region,
                 "institution_id": institution_id,
+                "author_name": author_name,
+                "institution_name": institution_name,
                 "start_year": start_year,
                 "end_year": end_year,
             },
@@ -138,13 +162,15 @@ def rank_researchers(
             "filtered_out_researchers": len(candidate_ids) - len(filtered_ids),
         }
         logging.info(
-            "[Search] query=%s before_filter=%s after_filter=%s returned=%s region=%s institution_id=%s",
+            "[Search] query=%s before_filter=%s after_filter=%s returned=%s region=%s institution_id=%s author_name=%s institution_name=%s",
             query_text,
             len(candidate_ids),
             len(filtered_ids),
             len(result["results"]),
             region,
             institution_id,
+            author_name,
+            institution_name,
         )
         return result
     finally:

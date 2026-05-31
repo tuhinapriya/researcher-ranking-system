@@ -9,7 +9,8 @@ dist/
 build/
 
 # ── Local data (never bake raw/cached data into the image) ───────────────────
-researcher-kb-pipeline/data/
+researcher-kb-pipeline/data/**
+!researcher-kb-pipeline/data/mock_ranking_data.json
 
 # ── Notebooks / dev files ─────────────────────────────────────────────────────
 **/*.ipynb

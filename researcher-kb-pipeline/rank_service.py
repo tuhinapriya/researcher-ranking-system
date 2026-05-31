@@ -1,9 +1,12 @@
 import logging
+from contextlib import asynccontextmanager
 from typing import Any
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field, model_validator
 
+import auth_db
+from auth_routes import router as auth_router
 from search import default_mock_data_file, rank_researchers
 
 logging.basicConfig(
@@ -13,13 +16,28 @@ logging.basicConfig(
 logger = logging.getLogger("rank_service")
 
 
-app = FastAPI(title="Researcher Ranking Service")
+@asynccontextmanager
+async def lifespan(application: FastAPI):
+    try:
+        auth_db.init_auth_tables()
+    except Exception as exc:  # pragma: no cover
+        logger.warning("auth table init failed (DB may not be configured): %s", exc)
+    yield
+
+
+app = FastAPI(title="Researcher Ranking Service", lifespan=lifespan)
+app.include_router(auth_router)
 
 
 class RankRequest(BaseModel):
     query: str = Field(..., min_length=1)
     region: str | None = None
     institution_id: str | None = None
+    # Text-based filters resolved at the DB layer (post-Pinecone).
+    # author_name: LIKE filter on researcher.name (used when frontend search_type=author).
+    # institution_name: LIKE filter on institution.name (used when frontend search_type=institution).
+    author_name: str | None = None
+    institution_name: str | None = None
     start_year: int | None = Field(default=None, ge=0)
     end_year: int | None = Field(default=None, ge=0)
     pareto_enabled: bool = False
@@ -139,10 +157,12 @@ def health_check() -> HealthResponse:
 )
 def rank(request: RankRequest) -> RankResponse:
     logger.info(
-        "rank_request query=%s region=%s institution_id=%s use_mock_data=%s",
+        "rank_request query=%s region=%s institution_id=%s author_name=%s institution_name=%s use_mock_data=%s",
         request.query,
         request.region,
         request.institution_id,
+        request.author_name,
+        request.institution_name,
         request.use_mock_data,
     )
     try:
@@ -150,6 +170,8 @@ def rank(request: RankRequest) -> RankResponse:
             query_text=request.query,
             region=request.region,
             institution_id=request.institution_id,
+            author_name=request.author_name,
+            institution_name=request.institution_name,
             start_year=request.start_year,
             end_year=request.end_year,
             pareto_enabled=request.pareto_enabled,

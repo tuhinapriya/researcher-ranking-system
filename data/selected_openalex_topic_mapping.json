@@ -1,0 +1,1648 @@
+{
+  "source_file": "data/openalex_topicid_topicnames.xlsx",
+  "raw_rows": 294,
+  "unique_topic_ids": 182,
+  "duplicate_rows_removed": 112,
+  "duplicate_topic_ids": [
+    "T10022",
+    "T10024",
+    "T10078",
+    "T10083",
+    "T10090",
+    "T10099",
+    "T10107",
+    "T10247",
+    "T10275",
+    "T10321",
+    "T10361",
+    "T10382",
+    "T10461",
+    "T10472",
+    "T10478",
+    "T10558",
+    "T10590",
+    "T10607",
+    "T10623",
+    "T10763",
+    "T10781",
+    "T10886",
+    "T11081",
+    "T11200",
+    "T11216",
+    "T11272",
+    "T11367",
+    "T11429",
+    "T11527",
+    "T11637",
+    "T11723",
+    "T11741",
+    "T11853",
+    "T11920",
+    "T12111",
+    "T12309",
+    "T12340",
+    "T12529",
+    "T12579",
+    "T12588",
+    "T12611",
+    "T12612",
+    "T12808",
+    "T13027",
+    "T13093",
+    "T13287",
+    "T13344",
+    "T13382",
+    "T13470",
+    "T13612",
+    "T13713",
+    "T13757",
+    "T13889",
+    "T14117",
+    "T14158",
+    "T14260",
+    "T14311",
+    "T14327",
+    "T14363",
+    "T14381",
+    "T14470",
+    "T14504"
+  ],
+  "topic_id_to_categories": {
+    "T10472": [
+      "Selective deposition",
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors",
+      "atomic layer deposition"
+    ],
+    "T10022": [
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T10099": [
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T10590": [
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T11853": [
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T11429": [
+      "High aspect ratio gapfill",
+      "Photonics",
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T10361": [
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T11637": [
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T10558": [
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T14117": [
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T10078": [
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T10247": [
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors",
+      "perovskites"
+    ],
+    "T10090": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T10275": [
+      "2D materials",
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T10461": [
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T10382": [
+      "Quantum computing",
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T10623": [
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductor processes",
+      "Semiconductors"
+    ],
+    "T11272": [
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T10781": [
+      "Etch chemistries",
+      "Real time plasma diagnostics",
+      "Semiconductor equipment",
+      "Semiconductors",
+      "etch processes"
+    ],
+    "T13889": [
+      "Selective deposition",
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T12111": [
+      "In situ wafer metrology",
+      "Semiconductor equipment",
+      "Semiconductors",
+      "artificial intelligence for semiconductors"
+    ],
+    "T12529": [
+      "Semiconductor devices",
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductor processes",
+      "Semiconductors"
+    ],
+    "T11216": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T12579": [
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T12612": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T12611": [
+      "Photonics",
+      "Semiconductor equipment",
+      "Semiconductor processes",
+      "Semiconductors"
+    ],
+    "T12309": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T13093": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T11920": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T10024": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T10321": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T14363": [
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T14158": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T14327": [
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors"
+    ],
+    "T14311": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T10607": [
+      "Semiconductor equipment",
+      "Semiconductor materials",
+      "Semiconductors",
+      "perovskites"
+    ],
+    "T14504": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T13757": [
+      "Semiconductor equipment",
+      "Semiconductors"
+    ],
+    "T10299": [
+      "Photonics"
+    ],
+    "T10666": [
+      "Photonics"
+    ],
+    "T11575": [
+      "Photonics"
+    ],
+    "T10846": [
+      "Photonics"
+    ],
+    "T10767": [
+      "Photonics"
+    ],
+    "T10988": [
+      "Photonics"
+    ],
+    "T11050": [
+      "Photonics"
+    ],
+    "T10657": [
+      "Photonics"
+    ],
+    "T10245": [
+      "Photonics"
+    ],
+    "T10205": [
+      "Photonics"
+    ],
+    "T10478": [
+      "Photonics",
+      "Quantum computing"
+    ],
+    "T11315": [
+      "Photonics"
+    ],
+    "T11414": [
+      "Photonics"
+    ],
+    "T11262": [
+      "Photonics"
+    ],
+    "T12510": [
+      "Photonics"
+    ],
+    "T11788": [
+      "Photonics"
+    ],
+    "T11723": [
+      "Photonics",
+      "Selective deposition"
+    ],
+    "T12442": [
+      "Photonics"
+    ],
+    "T10732": [
+      "Photonics"
+    ],
+    "T11797": [
+      "Photonics"
+    ],
+    "T11887": [
+      "Photonics"
+    ],
+    "T12466": [
+      "Photonics"
+    ],
+    "T11367": [
+      "Real time plasma diagnostics",
+      "radio frequency for plasma"
+    ],
+    "T12699": [
+      "Plasma science"
+    ],
+    "T10642": [
+      "Real time plasma diagnostics"
+    ],
+    "T10384": [
+      "Real time plasma diagnostics"
+    ],
+    "T10346": [
+      "Real time plasma diagnostics"
+    ],
+    "T12122": [
+      "Novel logic devices"
+    ],
+    "T12808": [
+      "Novel memory devices",
+      "ferro electric"
+    ],
+    "T10107": [
+      "ferro electric",
+      "perovskites"
+    ],
+    "T10886": [
+      "ferro electric",
+      "perovskites"
+    ],
+    "T11878": [
+      "ferro electric"
+    ],
+    "T11758": [
+      "ferro electric"
+    ],
+    "T11608": [
+      "ferro electric"
+    ],
+    "T12588": [
+      "Selective deposition",
+      "perovskites",
+      "pulsed laser deposition"
+    ],
+    "T12557": [
+      "perovskites"
+    ],
+    "T12155": [
+      "perovskites"
+    ],
+    "T12875": [
+      "perovskites"
+    ],
+    "T13249": [
+      "perovskites"
+    ],
+    "T10083": [
+      "Selective deposition",
+      "chemical layer deposition"
+    ],
+    "T11200": [
+      "Electroplating",
+      "electro chemical deposition"
+    ],
+    "T12340": [
+      "Electroplating",
+      "electro chemical deposition"
+    ],
+    "T12106": [
+      "Cleaning and surface treatments"
+    ],
+    "T13470": [
+      "Cleaning and surface treatments",
+      "Selective deposition"
+    ],
+    "T12161": [
+      "Cleaning and surface treatments"
+    ],
+    "T10016": [
+      "Cleaning and surface treatments"
+    ],
+    "T10513": [
+      "Cleaning and surface treatments"
+    ],
+    "T11401": [
+      "Cleaning and surface treatments"
+    ],
+    "T12078": [
+      "Cleaning and surface treatments"
+    ],
+    "T14479": [
+      "Cleaning and surface treatments"
+    ],
+    "T12064": [
+      "Cleaning and surface treatments"
+    ],
+    "T10938": [
+      "High kappa thermal conductivity materials"
+    ],
+    "T14382": [
+      "Selective deposition"
+    ],
+    "T10281": [
+      "Selective deposition"
+    ],
+    "T10783": [
+      "Selective deposition"
+    ],
+    "T10965": [
+      "Selective deposition"
+    ],
+    "T11651": [
+      "Selective deposition"
+    ],
+    "T11279": [
+      "Selective deposition"
+    ],
+    "T12091": [
+      "Selective deposition"
+    ],
+    "T10626": [
+      "Selective deposition"
+    ],
+    "T12350": [
+      "Selective deposition"
+    ],
+    "T11630": [
+      "Selective deposition"
+    ],
+    "T10488": [
+      "Advanced packaging"
+    ],
+    "T10460": [
+      "Advanced packaging"
+    ],
+    "T14055": [
+      "Advanced packaging"
+    ],
+    "T10333": [
+      "Advanced packaging"
+    ],
+    "T10473": [
+      "Advanced packaging"
+    ],
+    "T13748": [
+      "Advanced packaging"
+    ],
+    "T12971": [
+      "Advanced packaging"
+    ],
+    "T12583": [
+      "Advanced packaging"
+    ],
+    "T11527": [
+      "3D integration",
+      "Heterogeneous integration"
+    ],
+    "T13067": [
+      "3D integration"
+    ],
+    "T12698": [
+      "3D integration"
+    ],
+    "T10191": [
+      "Robotics"
+    ],
+    "T10586": [
+      "Robotics"
+    ],
+    "T10571": [
+      "Robotics"
+    ],
+    "T10653": [
+      "Robotics"
+    ],
+    "T10462": [
+      "Robotics"
+    ],
+    "T11486": [
+      "Robotics"
+    ],
+    "T10879": [
+      "Robotics"
+    ],
+    "T10868": [
+      "Robotics"
+    ],
+    "T11023": [
+      "Robotics"
+    ],
+    "T12784": [
+      "Robotics"
+    ],
+    "T10709": [
+      "Robotics"
+    ],
+    "T13382": [
+      "Equipment automation",
+      "Robotics"
+    ],
+    "T11615": [
+      "Robotics"
+    ],
+    "T14335": [
+      "Robotics"
+    ],
+    "T10040": [
+      "Robotics"
+    ],
+    "T13715": [
+      "Robotics"
+    ],
+    "T10510": [
+      "Robotics"
+    ],
+    "T10249": [
+      "Robotics"
+    ],
+    "T13287": [
+      "Equipment automation",
+      "Robotics"
+    ],
+    "T12128": [
+      "Robotics"
+    ],
+    "T10668": [
+      "Robotics"
+    ],
+    "T10776": [
+      "Robotics"
+    ],
+    "T10616": [
+      "Robotics"
+    ],
+    "T11174": [
+      "Robotics"
+    ],
+    "T12288": [
+      "Robotics"
+    ],
+    "T11737": [
+      "Robotics"
+    ],
+    "T10906": [
+      "Robotics"
+    ],
+    "T11814": [
+      "Robotics"
+    ],
+    "T10916": [
+      "Robotics"
+    ],
+    "T10533": [
+      "Robotics"
+    ],
+    "T11170": [
+      "Robotics"
+    ],
+    "T11749": [
+      "Robotics"
+    ],
+    "T11728": [
+      "Robotics"
+    ],
+    "T11687": [
+      "Robotics"
+    ],
+    "T11701": [
+      "Robotics"
+    ],
+    "T14163": [
+      "Robotics"
+    ],
+    "T12321": [
+      "Robotics"
+    ],
+    "T12053": [
+      "Robotics"
+    ],
+    "T13717": [
+      "Robotics"
+    ],
+    "T12782": [
+      "Robotics"
+    ],
+    "T12634": [
+      "Robotics"
+    ],
+    "T13312": [
+      "Robotics"
+    ],
+    "T12794": [
+      "Robotics"
+    ],
+    "T12899": [
+      "Robotics"
+    ],
+    "T13364": [
+      "Robotics"
+    ],
+    "T13904": [
+      "Robotics"
+    ],
+    "T14381": [
+      "Equipment automation",
+      "Robotics"
+    ],
+    "T13827": [
+      "Robotics"
+    ],
+    "T13964": [
+      "Robotics"
+    ],
+    "T13612": [
+      "Equipment automation",
+      "Robotics"
+    ],
+    "T14359": [
+      "Robotics"
+    ],
+    "T11192": [
+      "Robotics"
+    ],
+    "T13713": [
+      "Equipment automation",
+      "Robotics"
+    ],
+    "T13344": [
+      "Equipment automation",
+      "Fab automation"
+    ],
+    "T11741": [
+      "Equipment automation",
+      "Fab automation"
+    ],
+    "T11081": [
+      "Equipment automation",
+      "Fab automation"
+    ],
+    "T14470": [
+      "Equipment automation",
+      "Fab automation"
+    ],
+    "T10525": [
+      "Equipment automation"
+    ],
+    "T12190": [
+      "Equipment automation"
+    ],
+    "T12222": [
+      "Equipment automation"
+    ],
+    "T14512": [
+      "Equipment automation"
+    ],
+    "T12451": [
+      "Equipment automation"
+    ],
+    "T13681": [
+      "Equipment automation"
+    ],
+    "T10763": [
+      "Virtual twins",
+      "digital twins"
+    ],
+    "T13027": [
+      "Virtual twins",
+      "digital twins"
+    ],
+    "T14260": [
+      "Virtual twins",
+      "digital twins"
+    ],
+    "T10682": [
+      "Quantum computing"
+    ],
+    "T10612": [
+      "Quantum computing"
+    ],
+    "T13126": [
+      "Quantum computing"
+    ],
+    "T13182": [
+      "Quantum computing"
+    ],
+    "T10310": [
+      "Corrosion resistant coatings"
+    ]
+  },
+  "topic_id_to_names_seen": {
+    "T10472": [
+      "Semiconductor materials and devices"
+    ],
+    "T10022": [
+      "Semiconductor Quantum Structures and Devices"
+    ],
+    "T10099": [
+      "GaN-based semiconductor devices and materials"
+    ],
+    "T10590": [
+      "Chalcogenide Semiconductor Thin Films"
+    ],
+    "T11853": [
+      "Semiconductor materials and interfaces"
+    ],
+    "T11429": [
+      "Semiconductor Lasers and Optical Devices"
+    ],
+    "T10361": [
+      "Silicon Carbide Semiconductor Technologies"
+    ],
+    "T11637": [
+      "Advanced Semiconductor Detectors and Materials"
+    ],
+    "T10558": [
+      "Advancements in Semiconductor Devices and Circuit Design"
+    ],
+    "T14117": [
+      "Integrated Circuits and Semiconductor Failure Analysis"
+    ],
+    "T10078": [
+      "Advanced Photocatalysis Techniques"
+    ],
+    "T10247": [
+      "Perovskite Materials and Applications"
+    ],
+    "T10090": [
+      "ZnO doping and properties"
+    ],
+    "T10275": [
+      "2D Materials and Applications"
+    ],
+    "T10461": [
+      "Gas Sensing Nanomaterials and Sensors"
+    ],
+    "T10382": [
+      "Quantum and electron transport phenomena"
+    ],
+    "T10623": [
+      "Thin-Film Transistor Technologies"
+    ],
+    "T11272": [
+      "Nanowire Synthesis and Applications"
+    ],
+    "T10781": [
+      "Plasma Diagnostics and Applications"
+    ],
+    "T13889": [
+      "Advanced Materials and Semiconductor Technologies"
+    ],
+    "T12111": [
+      "Industrial Vision Systems and Defect Detection"
+    ],
+    "T12529": [
+      "Ga2O3 and related materials"
+    ],
+    "T11216": [
+      "Radiation Detection and Scintillator Technologies"
+    ],
+    "T12579": [
+      "Muon and positron interactions and applications"
+    ],
+    "T12612": [
+      "Strong Light-Matter Interactions"
+    ],
+    "T12611": [
+      "Neural Networks and Reservoir Computing"
+    ],
+    "T12309": [
+      "solar cell performance optimization"
+    ],
+    "T13093": [
+      "Electric Power Systems and Control"
+    ],
+    "T11920": [
+      "Pulsed Power Technology Applications"
+    ],
+    "T10024": [
+      "TiO2 Photocatalysis and Solar Cells"
+    ],
+    "T10321": [
+      "Quantum Dots Synthesis And Properties"
+    ],
+    "T14363": [
+      "Optical properties and cooling technologies in crystalline materials"
+    ],
+    "T14158": [
+      "Optical Systems and Laser Technology"
+    ],
+    "T14327": [
+      "Advanced Energy Technologies and Civil Engineering Innovations"
+    ],
+    "T14311": [
+      "Electrical and Electromagnetic Research"
+    ],
+    "T10607": [
+      "Magnetic and transport properties of perovskites and related materials"
+    ],
+    "T14504": [
+      "Diverse Academic Research Analysis"
+    ],
+    "T13757": [
+      "Graphic Design and Typography"
+    ],
+    "T10299": [
+      "Photonic and Optical Devices"
+    ],
+    "T10666": [
+      "Photonic Crystals and Applications"
+    ],
+    "T11575": [
+      "Nonlinear Photonic Systems"
+    ],
+    "T10846": [
+      "Photonic Crystal and Fiber Optics"
+    ],
+    "T10767": [
+      "Advanced Photonic Communication Systems"
+    ],
+    "T10988": [
+      "Advanced Fiber Laser Technologies"
+    ],
+    "T11050": [
+      "Photorefractive and Nonlinear Optics"
+    ],
+    "T10657": [
+      "Topological Materials and Phenomena"
+    ],
+    "T10245": [
+      "Metamaterials and Metasurfaces Applications"
+    ],
+    "T10205": [
+      "Advanced Fiber Optic Sensors"
+    ],
+    "T10478": [
+      "Diamond and Carbon-based Materials Research"
+    ],
+    "T11315": [
+      "Phase-change materials and chalcogenides"
+    ],
+    "T11414": [
+      "Quantum optics and atomic interactions"
+    ],
+    "T11262": [
+      "Quantum Mechanics and Non-Hermitian Physics"
+    ],
+    "T12510": [
+      "Magneto-Optical Properties and Applications"
+    ],
+    "T11788": [
+      "Nonlinear Optical Materials Studies"
+    ],
+    "T11723": [
+      "Optical Coatings and Gratings"
+    ],
+    "T12442": [
+      "Thermal Radiation and Cooling Technologies"
+    ],
+    "T10732": [
+      "Laser Material Processing Techniques"
+    ],
+    "T11797": [
+      "graph theory and CDMA systems"
+    ],
+    "T11887": [
+      "Quasicrystal Structures and Properties"
+    ],
+    "T12466": [
+      "Near-Field Optical Microscopy"
+    ],
+    "T11367": [
+      "Particle accelerators and beam dynamics"
+    ],
+    "T12699": [
+      "Electromagnetic Launch and Propulsion Technology"
+    ],
+    "T10642": [
+      "Plasma Applications and Diagnostics"
+    ],
+    "T10384": [
+      "Laser-Plasma Interactions and Diagnostics"
+    ],
+    "T10346": [
+      "Magnetic confinement fusion research"
+    ],
+    "T12122": [
+      "Physical Unclonable Functions (PUFs) and Hardware Security"
+    ],
+    "T12808": [
+      "Ferroelectric and Negative Capacitance Devices"
+    ],
+    "T10107": [
+      "Ferroelectric and Piezoelectric Materials"
+    ],
+    "T10886": [
+      "Multiferroics and related materials"
+    ],
+    "T11878": [
+      "Solid-state spectroscopy and crystallography"
+    ],
+    "T11758": [
+      "Organic and Molecular Conductors Research"
+    ],
+    "T11608": [
+      "Dielectric materials and actuators"
+    ],
+    "T12588": [
+      "Electronic and Structural Properties of Oxides"
+    ],
+    "T12557": [
+      "Inorganic Chemistry and Materials"
+    ],
+    "T12155": [
+      "Microwave Dielectric Ceramics Synthesis"
+    ],
+    "T12875": [
+      "Thermal Expansion and Ionic Conductivity"
+    ],
+    "T13249": [
+      "Dielectric properties of ceramics"
+    ],
+    "T10083": [
+      "Graphene research and applications"
+    ],
+    "T11200": [
+      "Electrodeposition and Electroless Coatings"
+    ],
+    "T12340": [
+      "Anodic Oxide Films and Nanostructures"
+    ],
+    "T12106": [
+      "Surface Treatment and Residual Stress"
+    ],
+    "T13470": [
+      "Surface Treatment and Coatings"
+    ],
+    "T12161": [
+      "Plant Surface Properties and Treatments"
+    ],
+    "T10016": [
+      "Adsorption and biosorption for pollutant removal"
+    ],
+    "T10513": [
+      "Natural Fiber Reinforced Composites"
+    ],
+    "T11401": [
+      "Minerals Flotation and Separation Techniques"
+    ],
+    "T12078": [
+      "Environmental remediation with nanomaterials"
+    ],
+    "T14479": [
+      "Freezing and Crystallization Processes"
+    ],
+    "T12064": [
+      "Intraperitoneal and Appendiceal Malignancies"
+    ],
+    "T10938": [
+      "Phase Change Materials Research"
+    ],
+    "T14382": [
+      "Electrophoretic Deposition in Materials Science"
+    ],
+    "T10281": [
+      "Advanced Battery Materials and Technologies"
+    ],
+    "T10783": [
+      "Additive Manufacturing and 3D Printing Technologies"
+    ],
+    "T10965": [
+      "Geological formations and processes"
+    ],
+    "T11651": [
+      "Inhalation and Respiratory Drug Delivery"
+    ],
+    "T11279": [
+      "Lanthanide and Transition Metal Complexes"
+    ],
+    "T12091": [
+      "Peatlands and Wetlands Ecology"
+    ],
+    "T10626": [
+      "High-Temperature Coating Behaviors"
+    ],
+    "T12350": [
+      "Particle Dynamics in Fluid Flows"
+    ],
+    "T11630": [
+      "Petroleum Processing and Analysis"
+    ],
+    "T10488": [
+      "Nanocomposite Films for Food Packaging"
+    ],
+    "T10460": [
+      "Electronic Packaging and Soldering Technologies"
+    ],
+    "T14055": [
+      "Consumer Packaging Perceptions and Trends"
+    ],
+    "T10333": [
+      "Meat and Animal Product Quality"
+    ],
+    "T10473": [
+      "Postharvest Quality and Shelf Life Management"
+    ],
+    "T13748": [
+      "Advanced Statistical Modeling Techniques"
+    ],
+    "T12971": [
+      "Material Properties and Processing"
+    ],
+    "T12583": [
+      "Food Waste Reduction and Sustainability"
+    ],
+    "T11527": [
+      "3D IC and TSV technologies"
+    ],
+    "T13067": [
+      "Geological Modeling and Analysis"
+    ],
+    "T12698": [
+      "3D Modeling in Geospatial Applications"
+    ],
+    "T10191": [
+      "Robotics and Sensor-Based Localization"
+    ],
+    "T10586": [
+      "Robotic Path Planning Algorithms"
+    ],
+    "T10571": [
+      "Robotic Mechanisms and Dynamics"
+    ],
+    "T10653": [
+      "Robot Manipulation and Learning"
+    ],
+    "T10462": [
+      "Reinforcement Learning in Robotics"
+    ],
+    "T11486": [
+      "Micro and Nano Robotics"
+    ],
+    "T10879": [
+      "Robotic Locomotion and Control"
+    ],
+    "T10868": [
+      "Soft Robotics and Applications"
+    ],
+    "T11023": [
+      "Prosthetics and Rehabilitation Robotics"
+    ],
+    "T12784": [
+      "Modular Robots and Swarm Intelligence"
+    ],
+    "T10709": [
+      "Social Robot Interaction and HRI"
+    ],
+    "T13382": [
+      "Robotics and Automated Systems"
+    ],
+    "T11615": [
+      "Control and Dynamics of Mobile Robots"
+    ],
+    "T14335": [
+      "Educational Robotics and Engineering"
+    ],
+    "T10040": [
+      "Adaptive Control of Nonlinear Systems"
+    ],
+    "T13715": [
+      "Power Line Inspection Robots"
+    ],
+    "T10510": [
+      "Stroke Rehabilitation and Recovery"
+    ],
+    "T10249": [
+      "Distributed Control Multi-Agent Systems"
+    ],
+    "T13287": [
+      "Robotic Process Automation Applications"
+    ],
+    "T12128": [
+      "AI in Service Interactions"
+    ],
+    "T10668": [
+      "Endometrial and Cervical Cancer Treatments"
+    ],
+    "T10776": [
+      "Spinal Fractures and Fixation Techniques"
+    ],
+    "T10616": [
+      "Smart Agriculture and AI"
+    ],
+    "T11174": [
+      "Pediatric Urology and Nephrology Studies"
+    ],
+    "T12288": [
+      "Optimization and Search Problems"
+    ],
+    "T11737": [
+      "Advanced Materials and Mechanics"
+    ],
+    "T10906": [
+      "AI-based Problem Solving and Planning"
+    ],
+    "T11814": [
+      "Advanced Manufacturing and Logistics Optimization"
+    ],
+    "T10916": [
+      "Surgical Simulation and Training"
+    ],
+    "T10533": [
+      "Teaching and Learning Programming"
+    ],
+    "T11170": [
+      "Biomimetic flight and propulsion mechanisms"
+    ],
+    "T11749": [
+      "Iterative Learning Control Systems"
+    ],
+    "T11728": [
+      "Thyroid and Parathyroid Surgery"
+    ],
+    "T11687": [
+      "Teleoperation and Haptic Systems"
+    ],
+    "T11701": [
+      "Space Satellite Systems and Control"
+    ],
+    "T14163": [
+      "Astronomical Observations and Instrumentation"
+    ],
+    "T12321": [
+      "Insect Pheromone Research and Control"
+    ],
+    "T12053": [
+      "Minimally Invasive Surgical Techniques"
+    ],
+    "T13717": [
+      "Advanced Algorithms and Applications"
+    ],
+    "T12782": [
+      "Assembly Line Balancing Optimization"
+    ],
+    "T12634": [
+      "Ureteral procedures and complications"
+    ],
+    "T13312": [
+      "Mechanical and Thermal Properties Analysis"
+    ],
+    "T12794": [
+      "Adaptive Dynamic Programming Control"
+    ],
+    "T12899": [
+      "Engineering and Technology Innovations"
+    ],
+    "T13364": [
+      "Digitalization, Law, and Regulation"
+    ],
+    "T13904": [
+      "Artificial Intelligence Applications"
+    ],
+    "T14381": [
+      "Psychiatry, Mental Health, Neuroscience"
+    ],
+    "T13827": [
+      "Mechatronics Education and Applications"
+    ],
+    "T13964": [
+      "Educational Technology and Optimization"
+    ],
+    "T13612": [
+      "Advanced Scientific and Engineering Studies"
+    ],
+    "T14359": [
+      "Wetland Management and Conservation"
+    ],
+    "T11192": [
+      "Underwater Vehicles and Communication Systems"
+    ],
+    "T13713": [
+      "Diverse Perspectives in Modern Studies"
+    ],
+    "T13344": [
+      "Industrial Automation and Control Systems"
+    ],
+    "T11741": [
+      "Flexible and Reconfigurable Manufacturing Systems"
+    ],
+    "T11081": [
+      "Advanced Control Systems Design"
+    ],
+    "T14470": [
+      "Advanced Data Processing Techniques"
+    ],
+    "T10525": [
+      "Human-Automation Interaction and Safety"
+    ],
+    "T12190": [
+      "Innovations in Concrete and Construction Materials"
+    ],
+    "T12222": [
+      "IoT-based Smart Home Systems"
+    ],
+    "T14512": [
+      "Technology and Human Factors in Education and Health"
+    ],
+    "T12451": [
+      "Smart Grid and Power Systems"
+    ],
+    "T13681": [
+      "Engineering and Information Technology"
+    ],
+    "T10763": [
+      "Digital Transformation in Industry"
+    ],
+    "T13027": [
+      "Applied Advanced Technologies"
+    ],
+    "T14260": [
+      "Impact of AI and Big Data on Business and Society"
+    ],
+    "T10682": [
+      "Quantum Computing Algorithms and Architecture"
+    ],
+    "T10612": [
+      "Magnetism in coordination complexes"
+    ],
+    "T13126": [
+      "Scientific Research and Discoveries"
+    ],
+    "T13182": [
+      "Quantum-Dot Cellular Automata"
+    ],
+    "T10310": [
+      "Corrosion Behavior and Inhibition"
+    ]
+  },
+  "bill_category_to_topic_ids": {
+    "2D materials": [
+      "T10275"
+    ],
+    "3D integration": [
+      "T11527",
+      "T13067",
+      "T12698"
+    ],
+    "Advanced packaging": [
+      "T10488",
+      "T10460",
+      "T14055",
+      "T10333",
+      "T10473",
+      "T13748",
+      "T12971",
+      "T12583"
+    ],
+    "Cleaning and surface treatments": [
+      "T12106",
+      "T13470",
+      "T12161",
+      "T10016",
+      "T10513",
+      "T11401",
+      "T12078",
+      "T14479",
+      "T12064"
+    ],
+    "Corrosion resistant coatings": [
+      "T10310"
+    ],
+    "Electroplating": [
+      "T11200",
+      "T12340"
+    ],
+    "Equipment automation": [
+      "T10525",
+      "T13344",
+      "T13287",
+      "T12190",
+      "T11741",
+      "T12222",
+      "T11081",
+      "T14470",
+      "T13382",
+      "T14512",
+      "T12451",
+      "T13681",
+      "T14381",
+      "T13612",
+      "T13713"
+    ],
+    "Etch chemistries": [
+      "T10781"
+    ],
+    "Fab automation": [
+      "T13344",
+      "T11741",
+      "T11081",
+      "T14470"
+    ],
+    "Heterogeneous integration": [
+      "T11527"
+    ],
+    "High aspect ratio gapfill": [
+      "T11429"
+    ],
+    "High kappa thermal conductivity materials": [
+      "T10938"
+    ],
+    "In situ wafer metrology": [
+      "T12111"
+    ],
+    "Novel logic devices": [
+      "T12122"
+    ],
+    "Novel memory devices": [
+      "T12808"
+    ],
+    "Photonics": [
+      "T10299",
+      "T10666",
+      "T11575",
+      "T10846",
+      "T10767",
+      "T10988",
+      "T11050",
+      "T10657",
+      "T10245",
+      "T10205",
+      "T10478",
+      "T11315",
+      "T11429",
+      "T11414",
+      "T12611",
+      "T11262",
+      "T12510",
+      "T11788",
+      "T11723",
+      "T12442",
+      "T10732",
+      "T11797",
+      "T11887",
+      "T12466"
+    ],
+    "Plasma science": [
+      "T12699"
+    ],
+    "Quantum computing": [
+      "T10682",
+      "T10382",
+      "T10478",
+      "T10612",
+      "T13126",
+      "T13182"
+    ],
+    "Real time plasma diagnostics": [
+      "T10781",
+      "T10642",
+      "T10384",
+      "T11367",
+      "T10346"
+    ],
+    "Robotics": [
+      "T10191",
+      "T10586",
+      "T10571",
+      "T10653",
+      "T10462",
+      "T11486",
+      "T10879",
+      "T10868",
+      "T11023",
+      "T12784",
+      "T10709",
+      "T13382",
+      "T11615",
+      "T14335",
+      "T10040",
+      "T13715",
+      "T10510",
+      "T10249",
+      "T13287",
+      "T12128",
+      "T10668",
+      "T10776",
+      "T10616",
+      "T11174",
+      "T12288",
+      "T11737",
+      "T10906",
+      "T11814",
+      "T10916",
+      "T10533",
+      "T11170",
+      "T11749",
+      "T11728",
+      "T11687",
+      "T11701",
+      "T14163",
+      "T12321",
+      "T12053",
+      "T13717",
+      "T12782",
+      "T12634",
+      "T13312",
+      "T12794",
+      "T12899",
+      "T13364",
+      "T13904",
+      "T14381",
+      "T13827",
+      "T13964",
+      "T13612",
+      "T14359",
+      "T11192",
+      "T13713"
+    ],
+    "Selective deposition": [
+      "T14382",
+      "T10083",
+      "T10472",
+      "T10281",
+      "T10783",
+      "T10965",
+      "T11651",
+      "T11279",
+      "T12588",
+      "T12091",
+      "T10626",
+      "T12350",
+      "T11723",
+      "T13470",
+      "T11630",
+      "T13889"
+    ],
+    "Semiconductor devices": [
+      "T10099",
+      "T10472",
+      "T10558",
+      "T10022",
+      "T11429",
+      "T10275",
+      "T10590",
+      "T14117",
+      "T10623",
+      "T10361",
+      "T11272",
+      "T12529",
+      "T13889"
+    ],
+    "Semiconductor equipment": [
+      "T10472",
+      "T10022",
+      "T10099",
+      "T10590",
+      "T11853",
+      "T11429",
+      "T10361",
+      "T11637",
+      "T10558",
+      "T14117",
+      "T10078",
+      "T10247",
+      "T10090",
+      "T10275",
+      "T10461",
+      "T10382",
+      "T10623",
+      "T11272",
+      "T10781",
+      "T13889",
+      "T12111",
+      "T12529",
+      "T11216",
+      "T12579",
+      "T12612",
+      "T12611",
+      "T12309",
+      "T13093",
+      "T11920",
+      "T10024",
+      "T10321",
+      "T14363",
+      "T14158",
+      "T14327",
+      "T14311",
+      "T10607",
+      "T14504",
+      "T13757"
+    ],
+    "Semiconductor materials": [
+      "T10472",
+      "T11853",
+      "T10099",
+      "T11637",
+      "T10022",
+      "T10623",
+      "T10078",
+      "T10247",
+      "T10275",
+      "T10590",
+      "T10461",
+      "T13889",
+      "T12579",
+      "T12529",
+      "T10361",
+      "T14327",
+      "T14363",
+      "T10607"
+    ],
+    "Semiconductor processes": [
+      "T10623",
+      "T12529",
+      "T12611"
+    ],
+    "Semiconductors": [
+      "T10472",
+      "T10022",
+      "T10099",
+      "T10590",
+      "T11853",
+      "T11429",
+      "T10361",
+      "T11637",
+      "T10558",
+      "T14117",
+      "T10078",
+      "T10247",
+      "T10090",
+      "T10275",
+      "T10461",
+      "T10382",
+      "T10623",
+      "T11272",
+      "T10781",
+      "T13889",
+      "T12111",
+      "T12529",
+      "T11216",
+      "T12579",
+      "T12612",
+      "T12611",
+      "T12309",
+      "T13093",
+      "T11920",
+      "T10024",
+      "T10321",
+      "T14363",
+      "T14158",
+      "T14327",
+      "T14311",
+      "T10607",
+      "T14504",
+      "T13757"
+    ],
+    "Virtual twins": [
+      "T10763",
+      "T13027",
+      "T14260"
+    ],
+    "artificial intelligence for semiconductors": [
+      "T12111"
+    ],
+    "atomic layer deposition": [
+      "T10472"
+    ],
+    "chemical layer deposition": [
+      "T10083"
+    ],
+    "digital twins": [
+      "T10763",
+      "T13027",
+      "T14260"
+    ],
+    "electro chemical deposition": [
+      "T11200",
+      "T12340"
+    ],
+    "etch processes": [
+      "T10781"
+    ],
+    "ferro electric": [
+      "T10107",
+      "T12808",
+      "T10886",
+      "T11878",
+      "T11758",
+      "T11608"
+    ],
+    "perovskites": [
+      "T10247",
+      "T10607",
+      "T10107",
+      "T10886",
+      "T12588",
+      "T12557",
+      "T12155",
+      "T12875",
+      "T13249"
+    ],
+    "pulsed laser deposition": [
+      "T12588"
+    ],
+    "radio frequency for plasma": [
+      "T11367"
+    ]
+  }
+}

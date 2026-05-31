@@ -10,6 +10,8 @@ class RankRequest(BaseModel):
     query: str = Field(..., min_length=1)
     region: str | None = None
     institution_id: str | None = None
+    author_name: str | None = None
+    institution_name: str | None = None
     start_year: int | None = Field(default=None, ge=0)
     end_year: int | None = Field(default=None, ge=0)
     pareto_enabled: bool = False
@@ -47,6 +49,8 @@ def api_rank(request: RankRequest):
             query_text=request.query,
             region=request.region,
             institution_id=request.institution_id,
+            author_name=request.author_name,
+            institution_name=request.institution_name,
             start_year=request.start_year,
             end_year=request.end_year,
             pareto_enabled=request.pareto_enabled,
