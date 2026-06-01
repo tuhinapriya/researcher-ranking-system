@@ -9,9 +9,14 @@ __pycache__/
 *.pyo
 *.ipynb
 
-# Large local assets not needed for ranking image build
+# Large local assets not needed for image builds
 bin/
 test_output.json
-researcher-kb-pipeline/data/raw/
-researcher-kb-pipeline/data/intermediate/
-researcher-kb-pipeline/data/knowledge_base.json
+# Local pipeline data (fetched at runtime in GCP)
+researcher-kb-pipeline/data/
+# Workspace data analysis files (not used in containers)
+data/
+# Frontend node_modules and build output (only needed for frontend build)
+Lam-research/node_modules/
+Lam-research/client/node_modules/
+Lam-research/dist/

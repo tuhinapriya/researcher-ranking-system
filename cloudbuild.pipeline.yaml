@@ -23,10 +23,13 @@ steps:
   # researcher-ranking service.  Secrets (DB_PASSWORD, PINECONE_API_KEY) are
   # read from Secret Manager at runtime via the same secret names.
   #
-  # Key env vars:
+  # All values are inlined (no shell variables) so Cloud Build's substitution
+  # engine has nothing to expand.
+  #
+  # Key env vars set on the job:
   #   TOPIC_IDS              — the 16 new CS/AI topics to ingest (run_job.py filter)
-  #   LIMIT                  — max NEW researchers to collect; 'all' = unlimited
-  #   MAX_COAUTHORS_TO_CHECK — coauthor depth limit (Stage 3b)
+  #   LIMIT                  — max NEW researchers to collect; set to 'all' for unlimited
+  #   MAX_COAUTHORS_TO_CHECK — coauthor depth limit (Stage 3b), 5 for initial run
   #   OPENALEX_CONTACT_EMAIL — service-account email for OpenAlex polite pool (~10 req/s)
   - name: gcr.io/cloud-builders/gcloud
     id: deploy-job
@@ -35,47 +38,25 @@ steps:
       - -c
       - |
         set -e
-        IMAGE="us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/pipeline-ingest:latest"
-        JOB="pipeline-ingest"
-        REGION="us-central1"
-        PROJECT="project-d84d7c5a-c91d-497b-b78"
-        SA="researcher-run-sa@project-d84d7c5a-c91d-497b-b78.iam.gserviceaccount.com"
-        SQL_CONN="project-d84d7c5a-c91d-497b-b78:us-central1:researcher-mysql"
-        TOPIC_IDS="T10089,T10025,T10017,T10302,T11823,T10019,T10048,T11099,T10031,T11446,T10186,T10128,T10232,T10312,T10146,T10154"
-
-        # Use ^##^ as separator to safely handle values that contain commas or slashes
-        ENV_VARS="^##^"
-        ENV_VARS+="DB_HOST=/cloudsql/${SQL_CONN}##"
-        ENV_VARS+="DB_USER=researcher_user##"
-        ENV_VARS+="DB_NAME=researcher_db##"
-        ENV_VARS+="DB_PORT=3306##"
-        ENV_VARS+="GOOGLE_CLOUD_PROJECT=${PROJECT}##"
-        ENV_VARS+="VERTEX_LOCATION=us-central1##"
-        ENV_VARS+="OPENALEX_CONTACT_EMAIL=researcher-run-sa@${PROJECT}.iam.gserviceaccount.com##"
-        ENV_VARS+="TOPIC_IDS=${TOPIC_IDS}##"
-        ENV_VARS+="MAX_COAUTHORS_TO_CHECK=5##"
-        ENV_VARS+="LIMIT=5000"
-
-        COMMON_FLAGS=(
-          --image="$IMAGE"
-          --region="$REGION"
-          --service-account="$SA"
-          --add-cloudsql-instances="$SQL_CONN"
+        echo "==> Creating/updating Cloud Run Job: pipeline-ingest"
+        DEPLOY_ARGS=(
+          --image=us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/pipeline-ingest:latest
+          --region=us-central1
+          --service-account=researcher-run-sa@project-d84d7c5a-c91d-497b-b78.iam.gserviceaccount.com
+          --add-cloudsql-instances=project-d84d7c5a-c91d-497b-b78:us-central1:researcher-mysql
           --memory=4Gi
           --cpu=2
           --task-timeout=86400
           --max-retries=0
-          --set-env-vars="$ENV_VARS"
-          --set-secrets="DB_PASSWORD=db-password:latest,PINECONE_API_KEY=pinecone-key:latest"
-          --project="$PROJECT"
+          --set-env-vars=^##^DB_HOST=/cloudsql/project-d84d7c5a-c91d-497b-b78:us-central1:researcher-mysql##DB_USER=researcher_user##DB_NAME=researcher_db##DB_PORT=3306##GOOGLE_CLOUD_PROJECT=project-d84d7c5a-c91d-497b-b78##VERTEX_LOCATION=us-central1##OPENALEX_CONTACT_EMAIL=researcher-run-sa@project-d84d7c5a-c91d-497b-b78.iam.gserviceaccount.com##TOPIC_IDS=T10089,T10025,T10017,T10302,T11823,T10019,T10048,T11099,T10031,T11446,T10186,T10128,T10232,T10312,T10146,T10154##MAX_COAUTHORS_TO_CHECK=5##LIMIT=5000
+          --set-secrets=DB_PASSWORD=db-password:latest,PINECONE_API_KEY=pinecone-key:latest
+          --project=project-d84d7c5a-c91d-497b-b78
         )
-
-        echo "==> Creating Cloud Run Job: $JOB"
-        if gcloud run jobs create "$JOB" "${COMMON_FLAGS[@]}" 2>/dev/null; then
+        if gcloud run jobs create pipeline-ingest "${DEPLOY_ARGS[@]}" 2>/dev/null; then
           echo "==> Job created."
         else
-          echo "==> Job already exists — updating."
-          gcloud run jobs update "$JOB" "${COMMON_FLAGS[@]}"
+          echo "==> Job exists, updating."
+          gcloud run jobs update pipeline-ingest "${DEPLOY_ARGS[@]}"
         fi
     waitFor: [push-pipeline-image]
 
