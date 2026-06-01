@@ -980,13 +980,28 @@ function AuthModal({ mode, onClose, onModeChange, onAuthenticated }: { mode?: Au
   const requestResetCode = async () => {
     setStatus("");
     const id = resetIdentifier.trim();
-    if (!id) { setStatus("Enter your email or phone number."); return; }
+    if (!id) { setStatus("Enter your email address."); return; }
     setLoading(true);
     try {
-      await apiRequest<unknown>("/api/auth/request-code", { method: "POST", body: JSON.stringify({ identifier: id }) });
-    } catch { /* swallow — never reveal whether account exists */ }
+      const res = await fetch("/api/auth/request-code", {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ identifier: id }),
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        if (res.status >= 500) {
+          // Infrastructure error (e.g. email service misconfigured) — surface it.
+          setStatus(data.error || "Could not send recovery email. Please try again later.");
+          setLoading(false);
+          return;
+        }
+        // 4xx — don't reveal whether account exists; fall through to success message.
+      }
+    } catch { /* network error — show generic message */ }
     setLoading(false);
-    setStatus("If an account exists, a recovery code has been sent.");
+    setStatus("If that email is registered, a recovery code has been sent. Check your inbox (and spam folder).");
     setResetStep("verify");
   };
   const verifyAndReset = async () => {
@@ -1037,16 +1052,15 @@ function AuthModal({ mode, onClose, onModeChange, onAuthenticated }: { mode?: Au
           <>
             {resetStep === "identify" ? (
               <>
-                <label className="text-xs text-slate-500">Email or phone number</label>
-                <input value={resetIdentifier} onChange={(e) => setResetIdentifier(e.target.value)} className={inputCls} placeholder="name@example.com or +1 650 555 0100" />
-                <p className="mt-1 text-[11px] text-slate-600">Phone: use international format — +1 (US/CA), +44 (UK), +49 (DE), +91 (IN), +81 (JP), etc.</p>
+                <label className="text-xs text-slate-500">Email address</label>
+                <input value={resetIdentifier} onChange={(e) => setResetIdentifier(e.target.value)} className={inputCls} placeholder="name@example.com" type="email" />
                 {status && <p className="mt-3 rounded-md border border-white/8 bg-black/20 px-3 py-2 text-xs text-slate-400">{status}</p>}
                 <button disabled={loading} onClick={requestResetCode} className="mt-4 w-full rounded-md bg-blue-600 px-3 py-2.5 text-sm font-semibold text-white hover:bg-blue-500 disabled:opacity-50">{loading ? "Sending..." : "Send recovery code"}</button>
                 <button onClick={() => onModeChange("login")} className="mt-3 w-full text-center text-xs text-slate-500 hover:text-slate-300">← Back to log in</button>
               </>
             ) : (
               <>
-                <p className="mb-3 text-xs text-slate-400">Enter the 6-digit code sent to <span className="text-slate-200">{resetIdentifier}</span> and choose a new password.</p>
+                <p className="mb-3 text-xs text-slate-400">Check your email — a 6-digit code was sent to <span className="text-slate-200">{resetIdentifier}</span>. It expires in 10 minutes. Also check your spam folder if it doesn't arrive.</p>
                 <label className="text-xs text-slate-500">Recovery code</label>
                 <input value={resetCode} onChange={(e) => setResetCode(e.target.value)} className={inputCls} placeholder="123456" maxLength={6} />
                 <label className={labelCls}>New password</label>

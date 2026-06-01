@@ -10,9 +10,11 @@ import logging
 import os
 import re
 import secrets
+import time
 import urllib.parse
 
 import requests as http_requests
+import resend as _resend
 from fastapi import APIRouter, Header, HTTPException, Request
 from pydantic import BaseModel
 
@@ -27,6 +29,14 @@ SHOW_DEV_CODE = os.environ.get("RESEARCH_AI_SHOW_DEV_CODE", "").lower() in (
     "true",
     "yes",
 )
+
+# ── Email delivery (Resend) ────────────────────────────────────────────────
+_RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
+_RESEND_FROM = os.environ.get("RESEND_FROM_ADDRESS", "")
+
+# ── OTP rate limiting (in-memory, per-identifier) ─────────────────────────
+_OTP_COOLDOWN_SECONDS = 60  # minimum seconds between code requests per address
+_otp_cooldown: dict[str, int] = {}  # identifier → last_request unix timestamp
 
 
 # ── Pydantic models ────────────────────────────────────────────────────────
@@ -132,6 +142,74 @@ def _validate_phone(raw: str | None) -> str | None:
     return cleaned
 
 
+# ── OTP helpers ───────────────────────────────────────────────────────────
+
+
+def _check_otp_rate_limit(identifier: str) -> None:
+    """Raise HTTP 429 if a code was requested within the cooldown window.
+
+    Also evicts stale entries (older than 5 min) to keep the dict bounded.
+    """
+    now = int(time.time())
+    last = _otp_cooldown.get(identifier, 0)
+    if now - last < _OTP_COOLDOWN_SECONDS:
+        wait = _OTP_COOLDOWN_SECONDS - (now - last)
+        raise HTTPException(
+            status_code=429,
+            detail=f"Please wait {wait} seconds before requesting another code.",
+        )
+    # Evict entries idle for >5 minutes to prevent unbounded growth.
+    cutoff = now - 300
+    for k in [k for k, v in _otp_cooldown.items() if v < cutoff]:
+        del _otp_cooldown[k]
+    _otp_cooldown[identifier] = now
+
+
+def _send_recovery_email(to_email: str, code: str) -> None:
+    """Deliver the 6-digit OTP to the user via Resend.
+
+    Raises HTTP 503 if RESEND_API_KEY / RESEND_FROM_ADDRESS are missing
+    or if delivery fails, so the caller never silently swallows a failure.
+    """
+    if not _RESEND_API_KEY or not _RESEND_FROM:
+        logger.error(
+            "RESEND_API_KEY or RESEND_FROM_ADDRESS env var is missing. "
+            "Set both on the Cloud Run service to enable email OTP delivery."
+        )
+        raise HTTPException(
+            status_code=503,
+            detail=(
+                "Email delivery is not configured on this server. "
+                "Please contact support."
+            ),
+        )
+    _resend.api_key = _RESEND_API_KEY
+    try:
+        _resend.Emails.send(
+            {
+                "from": _RESEND_FROM,
+                "to": [to_email],
+                "subject": "Your password recovery code",
+                "html": (
+                    "<div style='font-family:sans-serif;max-width:480px;margin:0 auto'>"
+                    "<p style='color:#1a1a2e;font-size:15px'>Your Research AI recovery code is:</p>"
+                    f"<p style='font-family:monospace;font-size:36px;letter-spacing:10px;"
+                    f"color:#1a1a2e;margin:16px 0'><strong>{code}</strong></p>"
+                    "<p style='color:#555;font-size:13px'>This code expires in <strong>10 minutes</strong>.</p>"
+                    "<p style='color:#888;font-size:12px'>If you did not request a password reset, "
+                    "you can safely ignore this email.</p>"
+                    "</div>"
+                ),
+            }
+        )
+    except Exception as exc:
+        logger.error("Resend delivery failed to %s: %s", to_email, exc)
+        raise HTTPException(
+            status_code=503,
+            detail="Could not send the recovery email. Please try again.",
+        )
+
+
 # ── Auth routes ────────────────────────────────────────────────────────────
 
 
@@ -139,13 +217,18 @@ def _validate_phone(raw: str | None) -> str | None:
 def request_code(body: RequestCodeBody):
     identifier = _normalize(body.identifier)
     if not identifier:
-        raise HTTPException(status_code=400, detail="Email or phone is required.")
+        raise HTTPException(status_code=400, detail="Email address is required.")
+    if identifier.startswith("+"):
+        # Phone OTP not yet implemented — guide the user clearly.
+        raise HTTPException(
+            status_code=400,
+            detail="Phone recovery is not yet available. Please use your email address.",
+        )
+    _check_otp_rate_limit(identifier)
     code = str(secrets.randbelow(900000) + 100000)  # 6-digit code
     auth_db.upsert_verification_code(identifier, code)
-    response: dict = {
-        "ok": True,
-        "message": "Verification code generated. In production, connect an email/SMS provider.",
-    }
+    _send_recovery_email(identifier, code)  # raises 503 on misconfiguration / failure
+    response: dict = {"ok": True}
     if SHOW_DEV_CODE:
         response["devCode"] = code
     return response
