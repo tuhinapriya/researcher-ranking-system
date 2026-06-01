@@ -43,7 +43,7 @@ steps:
           --image=us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/pipeline-ingest:latest
           --region=us-central1
           --service-account=researcher-run-sa@project-d84d7c5a-c91d-497b-b78.iam.gserviceaccount.com
-          --add-cloudsql-instances=project-d84d7c5a-c91d-497b-b78:us-central1:researcher-mysql
+          --set-cloudsql-instances=project-d84d7c5a-c91d-497b-b78:us-central1:researcher-mysql
           --memory=4Gi
           --cpu=2
           --task-timeout=86400
