@@ -19,7 +19,7 @@ researcher-kb-pipeline/data/intermediate/
 researcher-kb-pipeline/data/knowledge_base.json
 researcher-kb-pipeline/data/knowledge_base_summary.xlsx
 # Workspace data analysis files (not used in containers)
-data/
+/data/
 # Frontend node_modules and build output (only needed for frontend build)
 Lam-research/node_modules/
 Lam-research/client/node_modules/
