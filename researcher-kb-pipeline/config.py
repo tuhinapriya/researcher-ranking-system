@@ -20,7 +20,9 @@ S2_BASE = "https://api.semanticscholar.org/graph/v1"
 # ============================================================
 
 
-CONTACT_EMAIL = "your_email@example.com"
+CONTACT_EMAIL = os.environ.get("OPENALEX_CONTACT_EMAIL", "your_email@example.com")
+# ^ Set OPENALEX_CONTACT_EMAIL to a real address to use OpenAlex polite pool
+#   (~10 req/s instead of ~1 req/s for anonymous requests).
 
 
 HEADERS = {"User-Agent": f"researcher-kb-pipeline/0.1 (contact: {CONTACT_EMAIL})"}
@@ -244,6 +246,34 @@ CONCEPTS = [
     {"id": "T13126", "label": "Scientific Research and Discoveries"},
     {"id": "T13182", "label": "Quantum-Dot Cellular Automata"},
     {"id": "T10310", "label": "Corrosion Behavior and Inhibition"},
+    # ── Broad CS / AI topics added 2026-06-01 ──────────────────────────────
+    # Core AI/ML
+    {"id": "T10089", "label": "Machine Learning"},
+    {"id": "T10025", "label": "Deep Learning"},
+    {"id": "T10017", "label": "Computer Vision"},
+    {"id": "T10302", "label": "Natural Language Processing"},
+    {"id": "T11823", "label": "Large Language Models"},
+    {"id": "T10019", "label": "Generative Models and Generative AI"},
+    {"id": "T10048", "label": "Reinforcement Learning"},
+    {"id": "T11099", "label": "Explainable AI and Interpretable Machine Learning"},
+    # Data
+    {"id": "T10031", "label": "Data Science and Analytics"},
+    {"id": "T10338", "label": "Data Mining"},
+    {"id": "T10166", "label": "Knowledge Graphs and Semantic Web"},
+    {"id": "T10267", "label": "Information Retrieval"},
+    # Systems / Infrastructure
+    {"id": "T11446", "label": "Cybersecurity and Network Security"},
+    {"id": "T10186", "label": "Cloud Computing"},
+    {"id": "T10065", "label": "Distributed Systems"},
+    {"id": "T10128", "label": "Software Engineering"},
+    {"id": "T10232", "label": "Internet of Things"},
+    {"id": "T10058", "label": "Edge Computing and Federated Learning"},
+    # Human / Health
+    {"id": "T10312", "label": "Human Computer Interaction"},
+    {"id": "T10146", "label": "Healthcare AI and Clinical Machine Learning"},
+    {"id": "T10376", "label": "Biomedical Informatics"},
+    # Autonomous systems (robotics already covered; this adds broader autonomy)
+    {"id": "T10154", "label": "Autonomous Vehicles and Autonomous Systems"},
 ]
 
 # ============================================================
@@ -341,7 +371,8 @@ EMBED_MODEL = os.environ.get("EMBED_MODEL", "text-embedding-3-small")
 
 # Pinecone configuration (optional). If not using Pinecone, leave unset.
 PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY", "")
-PINECONE_INDEX = os.environ.get("PINECONE_INDEX", "researcher-papers")
+PINECONE_INDEX = os.environ.get("PINECONE_INDEX", "researcher-kb-index")
+# ^ Actual deployed index name is "researcher-kb-index" (serverless, AWS us-east-1, dim=768).
 
 # Batch sizes for embedding/upsert
 EMBED_BATCH_SIZE = int(os.environ.get("EMBED_BATCH_SIZE", "64"))
