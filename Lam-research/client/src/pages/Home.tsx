@@ -546,6 +546,47 @@ function normalizeLocation(region?: string | null, countryCode?: string | null):
   return r;
 }
 
+// Master list of ISO-3166-1 alpha-2 codes covering all research-active countries.
+// Shared between ALL_WORLD_COUNTRIES (dropdown display) and COUNTRY_ISO_BY_NAME
+// (reverse lookup used when sending the location filter to the backend).
+const _ALL_ISO_CODES = [
+  // Americas
+  "AG","AR","BB","BO","BR","BS","BZ","CA","CL","CO","CR","CU","DM",
+  "DO","EC","GD","GT","GY","HN","HT","JM","KN","LC","MX","NI","PA",
+  "PE","PR","PY","SR","SV","TT","US","UY","VC","VE",
+  // Europe
+  "AD","AL","AT","BA","BE","BG","BY","CH","CY","CZ","DE","DK","EE",
+  "ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU",
+  "LV","MC","MD","ME","MK","MT","NL","NO","PL","PT","RO","RS","RU",
+  "SE","SI","SK","SM","TR","UA","VA","XK",
+  // Asia-Pacific
+  "AE","AF","AM","AU","AZ","BD","BH","BN","BT","CN","FJ","GE","HK",
+  "ID","IL","IN","IQ","IR","JO","JP","KG","KH","KP","KR","KW","KZ",
+  "LA","LB","LK","MM","MN","MO","MV","MY","NP","NZ","OM","PG","PH",
+  "PK","PS","QA","SA","SG","SY","TH","TJ","TL","TM","TW","UZ","VN",
+  "YE",
+  // Africa
+  "AO","BF","BI","BJ","BW","CD","CF","CG","CI","CM","CV","DJ","DZ",
+  "EG","ER","ET","GA","GH","GM","GN","GQ","GW","KE","KM","LR","LS",
+  "LY","MA","MG","ML","MR","MU","MW","MZ","NA","NE","NG","RW","SC",
+  "SD","SL","SN","SO","SS","ST","SZ","TD","TG","TN","TZ","UG","ZA",
+  "ZM","ZW",
+];
+
+/** Sorted full-name list for the Location dropdown. */
+const ALL_WORLD_COUNTRIES: string[] = Array.from(
+  new Set(_ALL_ISO_CODES.map((c) => isoToCountryName(c)))
+).sort((a, b) => a.localeCompare(b));
+
+/**
+ * Reverse lookup: full English country name → ISO-3166-1 alpha-2 code.
+ * Used to convert the user-selected location label back to the ISO code
+ * that the backend SQL filter expects (institutions.country stores ISO-2).
+ */
+const COUNTRY_ISO_BY_NAME = new Map<string, string>(
+  _ALL_ISO_CODES.map((code) => [isoToCountryName(code), code])
+);
+
 
 function mapRankingResult(result: RankingApiResult, index: number, query: string, searchMode: SearchModeChoice, citationStartYear: number, citationEndYear: number): ResearcherRecord {
   const components = result.components || {};
@@ -635,12 +676,19 @@ function mapRankingResponse(response: RankingApiResponse, query: string, searchM
   };
 }
 
-async function fetchRankingResearchers(query: string, searchMode: SearchModeChoice, citationStartYear: number, citationEndYear: number, weights: Record<WeightKey, number>, signal: AbortSignal) {
+async function fetchRankingResearchers(query: string, searchMode: SearchModeChoice, citationStartYear: number, citationEndYear: number, weights: Record<WeightKey, number>, signal: AbortSignal, locationFilter?: string) {
   const searchFields =
     searchMode === "author" ? { search_type: "author", author_query: query } :
     searchMode === "institution" ? { search_type: "institution", institution_query: query } :
     searchMode === "topic" ? { search_type: "topic", topic_query: query } :
     { search_type: "default" };
+  // Convert the display name (e.g. "Germany") to the ISO-2 code ("DE") that the
+  // backend SQL filter expects. The backend RankRequest already accepts `region`
+  // and the db.py WHERE clause matches on institutions.country (ISO-2 stored).
+  const countryIso =
+    locationFilter && locationFilter !== "All"
+      ? (COUNTRY_ISO_BY_NAME.get(locationFilter) ?? undefined)
+      : undefined;
   const response = await apiRequest<RankingApiResponse>("/api/ranking/rank", {
     method: "POST",
     signal,
@@ -654,6 +702,7 @@ async function fetchRankingResearchers(query: string, searchMode: SearchModeChoi
       r_weight: weights.research,
       citation_start_year: citationStartYear,
       citation_end_year: citationEndYear,
+      ...(countryIso ? { region: countryIso } : {}),
     }),
   });
   const mapped = mapRankingResponse(response, query, searchMode, citationStartYear, citationEndYear);
@@ -1873,7 +1922,7 @@ export default function Home() {
     setSearchError("");
     setSearchMeta(undefined);
     setResearcherResults([]);
-    fetchRankingResearchers(activeQuery, searchMode, appliedYearRange.minYear, appliedYearRange.maxYear, filters.weights, controller.signal)
+    fetchRankingResearchers(activeQuery, searchMode, appliedYearRange.minYear, appliedYearRange.maxYear, filters.weights, controller.signal, filters.location)
       .then((result) => {
         setResearcherResults(result.researchers);
         setSearchMeta(result.meta);
@@ -1886,10 +1935,18 @@ export default function Home() {
         if (!controller.signal.aborted) setSearchLoading(false);
       });
     return () => controller.abort();
-  }, [activeQuery, searchMode, appliedYearRange.minYear, appliedYearRange.maxYear]);
-  const locations = useMemo(() => Array.from(new Set(researcherResults.map((researcher) => researcher.country).filter(Boolean))).sort().slice(0, 80), [researcherResults]);
+  }, [activeQuery, searchMode, appliedYearRange.minYear, appliedYearRange.maxYear, filters.location]);
+  const locations = ALL_WORLD_COUNTRIES;
   const scored = useMemo(() => {
-    const filtered = researcherResults.filter((researcher) => filters.location === "All" || researcher.country === filters.location);
+    // The backend already pre-filters by country (region param), so this is a
+    // safety-net for the transition frame while a new search is in flight.
+    // The endsWith check handles compound labels like "California, United States"
+    // matching the selected country "United States".
+    const filtered = researcherResults.filter((researcher) =>
+      filters.location === "All" ||
+      researcher.country === filters.location ||
+      researcher.country.endsWith(`, ${filters.location}`)
+    );
     const qNorm = normalizedMetricMap(filtered, (researcher) => researcher.queryRelevanceScore ?? researcher.relevanceScore ?? researcherNameMatchScore(researcher, activeQuery));
     const rNorm = normalizedMetricMap(filtered, (researcher) => researcher.recentCitations || 0, true);
     const base = filtered
