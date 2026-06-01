@@ -12,8 +12,12 @@ __pycache__/
 # Large local assets not needed for image builds
 bin/
 test_output.json
-# Local pipeline data (fetched at runtime in GCP)
-researcher-kb-pipeline/data/
+# Large local pipeline data (fetched at runtime in GCP)
+# Keep researcher-kb-pipeline/data/*.json (needed by Dockerfile.rank)
+researcher-kb-pipeline/data/raw/
+researcher-kb-pipeline/data/intermediate/
+researcher-kb-pipeline/data/knowledge_base.json
+researcher-kb-pipeline/data/knowledge_base_summary.xlsx
 # Workspace data analysis files (not used in containers)
 data/
 # Frontend node_modules and build output (only needed for frontend build)
