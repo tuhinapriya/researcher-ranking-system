@@ -53,6 +53,12 @@ class GoogleUpsertBody(BaseModel):
     picture: str | None = None
 
 
+class ResetPasswordBody(BaseModel):
+    identifier: str
+    code: str
+    new_password: str
+
+
 class SaveAiSettingsBody(BaseModel):
     provider: str = "gpt"
     apiBaseUrl: str = ""
@@ -140,6 +146,20 @@ def login(body: LoginBody):
     token = auth_db.create_session(raw["id"])
     user = auth_db._row_to_user(raw)
     return {"token": token, "user": user}
+
+
+@router.post("/auth/reset-password")
+def reset_password(body: ResetPasswordBody):
+    identifier = _normalize(body.identifier)
+    if not identifier or len(body.new_password) < 6:
+        raise HTTPException(
+            status_code=400,
+            detail="Identifier and password (≥6 chars) are required.",
+        )
+    if not auth_db.consume_verification_code(identifier, body.code.strip()):
+        raise HTTPException(status_code=400, detail="Invalid or expired recovery code.")
+    auth_db.update_password_hash(identifier, body.new_password)
+    return {"ok": True}
 
 
 @router.post("/auth/logout")

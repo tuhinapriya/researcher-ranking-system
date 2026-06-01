@@ -3,7 +3,7 @@ import { createServer } from "http";
 import path from "path";
 import { fileURLToPath } from "url";
 import { handleAiChatRequest } from "./ai";
-import { handleGetAiSettings, handleGetSaved, handleGoogleCallback, handleGoogleStart, handleLogin, handleLogout, handleMe, handleRegister, handleRequestCode, handleSaveAiSettings, handleSetSaved } from "./auth";
+import { handleGetAiSettings, handleGetSaved, handleGoogleCallback, handleGoogleStart, handleLogin, handleLogout, handleMe, handleRegister, handleRequestCode, handleResetPassword, handleSaveAiSettings, handleSetSaved, handleSupportTicket } from "./auth";
 import { handleRankingHealthRequest, handleRankingRankRequest } from "./ranking";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -28,6 +28,10 @@ async function startServer() {
 
   app.post("/api/auth/login", async (req, res) => {
     await handleLogin(req.body, res);
+  });
+
+  app.post("/api/auth/reset-password", async (req, res) => {
+    await handleResetPassword(req.body, res);
   });
 
   app.get("/api/auth/google/start", (req, res) => {
@@ -68,6 +72,10 @@ async function startServer() {
 
   app.post("/api/ranking/rank", async (req, res) => {
     await handleRankingRankRequest(req.body, res);
+  });
+
+  app.post("/api/support", async (req, res) => {
+    await handleSupportTicket(req.body, res);
   });
 
   app.get("/health", (_req, res) => {

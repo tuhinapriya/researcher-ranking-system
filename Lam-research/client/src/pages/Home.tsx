@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ArrowLeft, Bot, Bookmark, BookmarkCheck, ChevronDown, ExternalLink, FileText, MessageCircle, Moon, Search, Send, Settings, SlidersHorizontal, Sparkles, Sun, User, X } from "lucide-react";
+import { ArrowLeft, BookOpen, Bot, Bookmark, BookmarkCheck, ChevronDown, ExternalLink, FileText, MessageCircle, Moon, Search, Send, Settings, SlidersHorizontal, Sparkles, Sun, User, X } from "lucide-react";
 import { type ResearchPaper, type ResearcherRecord } from "@/lib/data";
 import { cn } from "@/lib/utils";
 
@@ -12,7 +12,7 @@ type SearchModeChoice = "auto" | "author" | "topic" | "institution";
 type ChatMessage = { role: "assistant" | "user"; content: string };
 type FloatingPosition = { x: number; y: number };
 type ThemeMode = "dark" | "light";
-type AuthMode = "login" | "register";
+type AuthMode = "login" | "register" | "reset";
 type CurrentUser = { id: string; identifier: string; createdAt: string };
 type ProviderKey = "gpt" | "gemini" | "claude" | "custom";
 type ApiKeyStorageChoice = "remember" | "forget";
@@ -964,12 +964,51 @@ function SettingsModal({ open, settings, onClose, onChange, user, serverAiSettin
 function AuthModal({ mode, onClose, onModeChange, onAuthenticated }: { mode?: AuthMode; onClose: () => void; onModeChange: (mode: AuthMode) => void; onAuthenticated: (user: CurrentUser) => void }) {
   const [identifier, setIdentifier] = useState("");
   const [password, setPassword] = useState("");
+  const [resetStep, setResetStep] = useState<"identify" | "verify">("identify");
+  const [resetIdentifier, setResetIdentifier] = useState("");
+  const [resetCode, setResetCode] = useState("");
+  const [resetPw, setResetPw] = useState("");
+  const [resetPwConfirm, setResetPwConfirm] = useState("");
   const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false);
   if (!mode) return null;
-  const title = mode === "login" ? "Log in" : "Create account";
+  const isReset = mode === "reset";
+  const title = isReset ? "Reset password" : mode === "login" ? "Log in" : "Create account";
+  const inputCls = "mt-1 w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 text-sm text-slate-100 outline-none placeholder:text-slate-600";
+  const labelCls = "mt-3 block text-xs text-slate-500";
+  const requestResetCode = async () => {
+    setStatus("");
+    const id = resetIdentifier.trim();
+    if (!id) { setStatus("Enter your email or phone number."); return; }
+    setLoading(true);
+    try {
+      await apiRequest<unknown>("/api/auth/request-code", { method: "POST", body: JSON.stringify({ identifier: id }) });
+    } catch { /* swallow — never reveal whether account exists */ }
+    setLoading(false);
+    setStatus("If an account exists, a recovery code has been sent.");
+    setResetStep("verify");
+  };
+  const verifyAndReset = async () => {
+    setStatus("");
+    if (resetPw.length < 6) return setStatus("Password must be at least 6 characters.");
+    if (resetPw !== resetPwConfirm) return setStatus("Passwords do not match.");
+    setLoading(true);
+    try {
+      await apiRequest<{ ok: boolean }>("/api/auth/reset-password", {
+        method: "POST",
+        body: JSON.stringify({ identifier: resetIdentifier.trim(), code: resetCode.trim(), new_password: resetPw }),
+      });
+      setStatus("Password updated. You can now log in.");
+      window.setTimeout(() => { onModeChange("login"); setResetStep("identify"); setStatus(""); }, 1800);
+    } catch (error) {
+      setStatus(error instanceof Error ? error.message : "Invalid or expired code.");
+    } finally {
+      setLoading(false);
+    }
+  };
   const submit = async () => {
     setLoading(true);
+    setStatus("");
     try {
       const url = mode === "login" ? "/api/auth/login" : "/api/auth/register";
       const result = await apiRequest<{ user: CurrentUser }>(url, { method: "POST", body: JSON.stringify({ identifier, password }) });
@@ -985,16 +1024,161 @@ function AuthModal({ mode, onClose, onModeChange, onAuthenticated }: { mode?: Au
     <div className="fixed inset-0 z-[80] flex items-center justify-center bg-black/60 px-4 backdrop-blur-sm">
       <div className="w-full max-w-[420px] rounded-lg border border-white/10 bg-[#080c14] p-5 shadow-2xl">
         <div className="mb-5 flex items-center justify-between"><h2 className="text-lg font-bold text-slate-100">{title}</h2><button onClick={onClose} className="rounded p-1 text-slate-500 hover:bg-white/8 hover:text-slate-100"><X className="h-5 w-5" /></button></div>
-        <div className="grid grid-cols-2 gap-2 rounded-md bg-black/20 p-1">
-          <button onClick={() => onModeChange("login")} className={cn("rounded px-3 py-2 text-sm", mode === "login" ? "bg-blue-600 text-white" : "text-slate-400")}>Log in</button>
-          <button onClick={() => onModeChange("register")} className={cn("rounded px-3 py-2 text-sm", mode === "register" ? "bg-blue-600 text-white" : "text-slate-400")}>Register</button>
+        {isReset ? (
+          <>
+            {resetStep === "identify" ? (
+              <>
+                <label className="text-xs text-slate-500">Email or phone number</label>
+                <input value={resetIdentifier} onChange={(e) => setResetIdentifier(e.target.value)} className={inputCls} placeholder="name@example.com or +1 650 555 0100" />
+                <p className="mt-1 text-[11px] text-slate-600">Phone: use international format — +1 (US/CA), +44 (UK), +49 (DE), +91 (IN), +81 (JP), etc.</p>
+                {status && <p className="mt-3 rounded-md border border-white/8 bg-black/20 px-3 py-2 text-xs text-slate-400">{status}</p>}
+                <button disabled={loading} onClick={requestResetCode} className="mt-4 w-full rounded-md bg-blue-600 px-3 py-2.5 text-sm font-semibold text-white hover:bg-blue-500 disabled:opacity-50">{loading ? "Sending..." : "Send recovery code"}</button>
+                <button onClick={() => onModeChange("login")} className="mt-3 w-full text-center text-xs text-slate-500 hover:text-slate-300">← Back to log in</button>
+              </>
+            ) : (
+              <>
+                <p className="mb-3 text-xs text-slate-400">Enter the 6-digit code sent to <span className="text-slate-200">{resetIdentifier}</span> and choose a new password.</p>
+                <label className="text-xs text-slate-500">Recovery code</label>
+                <input value={resetCode} onChange={(e) => setResetCode(e.target.value)} className={inputCls} placeholder="123456" maxLength={6} />
+                <label className={labelCls}>New password</label>
+                <input value={resetPw} onChange={(e) => setResetPw(e.target.value)} type="password" className={inputCls} placeholder="At least 6 characters" />
+                <label className={labelCls}>Confirm new password</label>
+                <input value={resetPwConfirm} onChange={(e) => setResetPwConfirm(e.target.value)} type="password" className={inputCls} placeholder="Repeat password" />
+                {status && <p className="mt-3 rounded-md border border-white/8 bg-black/20 px-3 py-2 text-xs text-slate-400">{status}</p>}
+                <button disabled={loading} onClick={verifyAndReset} className="mt-5 w-full rounded-md bg-blue-600 px-3 py-2.5 text-sm font-semibold text-white hover:bg-blue-500 disabled:opacity-50">{loading ? "Updating..." : "Reset password"}</button>
+                <button onClick={() => { setResetStep("identify"); setStatus(""); }} className="mt-3 w-full text-center text-xs text-slate-500 hover:text-slate-300">← Resend code</button>
+              </>
+            )}
+          </>
+        ) : (
+          <>
+            <div className="grid grid-cols-2 gap-2 rounded-md bg-black/20 p-1">
+              <button onClick={() => onModeChange("login")} className={cn("rounded px-3 py-2 text-sm", mode === "login" ? "bg-blue-600 text-white" : "text-slate-400")}>Log in</button>
+              <button onClick={() => onModeChange("register")} className={cn("rounded px-3 py-2 text-sm", mode === "register" ? "bg-blue-600 text-white" : "text-slate-400")}>Register</button>
+            </div>
+            <label className="text-xs text-slate-500">Email</label>
+            <input value={identifier} onChange={(event) => setIdentifier(event.target.value)} className={inputCls} placeholder="name@example.com" />
+            <label className={labelCls}>Password</label>
+            <input value={password} onChange={(event) => setPassword(event.target.value)} type="password" className={inputCls} placeholder="Password" />
+            {mode === "login" && (
+              <div className="mt-1 text-right"><button onClick={() => { setStatus(""); onModeChange("reset"); }} className="text-xs text-blue-400 hover:text-blue-300">Forgot password?</button></div>
+            )}
+            {status && <p className="mt-3 rounded-md border border-white/8 bg-black/20 px-3 py-2 text-xs text-slate-400">{status}</p>}
+            <button disabled={loading} onClick={submit} className="mt-5 w-full rounded-md bg-blue-600 px-3 py-2.5 text-sm font-semibold text-white hover:bg-blue-500 disabled:opacity-50">{loading ? "Working..." : mode === "login" ? "Log in" : "Create account"}</button>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function UserGuideModal({ onClose, onOpenSupport }: { onClose: () => void; onOpenSupport: () => void }) {
+  const Sec = ({ title, children }: { title: string; children: React.ReactNode }) => (
+    <div>
+      <h3 className="mb-1.5 text-xs font-bold uppercase tracking-[0.12em] text-blue-400">{title}</h3>
+      <div className="text-[13px] leading-6 text-slate-400">{children}</div>
+    </div>
+  );
+  return (
+    <div className="fixed inset-0 z-[80] flex items-center justify-center bg-black/60 px-4 backdrop-blur-sm">
+      <div className="flex max-h-[90vh] w-full max-w-[660px] flex-col rounded-xl border border-white/10 bg-[#080c14] shadow-2xl">
+        <div className="flex shrink-0 items-center justify-between border-b border-white/8 px-5 py-4">
+          <h2 className="flex items-center gap-2 text-lg font-bold text-slate-100"><BookOpen className="h-5 w-5 text-blue-400" />User Guide</h2>
+          <button onClick={onClose} className="rounded p-1 text-slate-500 hover:bg-white/8 hover:text-slate-100"><X className="h-5 w-5" /></button>
         </div>
-        <label className="text-xs text-slate-500">Email</label>
-        <input value={identifier} onChange={(event) => setIdentifier(event.target.value)} className="mt-1 w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 text-sm text-slate-100 outline-none placeholder:text-slate-600" placeholder="name@example.com" />
-        <label className="mt-3 block text-xs text-slate-500">Password</label>
-        <input value={password} onChange={(event) => setPassword(event.target.value)} type="password" className="mt-1 w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 text-sm text-slate-100 outline-none placeholder:text-slate-600" placeholder="Password" />
+        <div className="min-h-0 flex-1 space-y-5 overflow-y-auto px-5 py-5">
+          <Sec title="Searching Researchers">
+            Type a keyword and click <strong className="text-slate-300">Search</strong>. Use the <strong className="text-slate-300">mode selector</strong> to switch between <em>Topic</em> (finds researchers by subject area), <em>Author</em> (looks up by name), and <em>Institution</em> (filters by university or lab). Topic mode queries the semantic knowledge base; Author and Institution modes query the database directly.
+          </Sec>
+          <Sec title="Q — Query Relevance">
+            Q is a normalized score (0–100) measuring how well a researcher's published work matches your search query. A Q of 80 means the researcher is in the top fifth of the result set for topic fit. High Q → strong topical alignment.
+          </Sec>
+          <Sec title="R — Research Impact">
+            R counts citations received within the selected citation window (set by the year range filter). It reflects current influence rather than lifetime output. High R → active, recently-cited researcher.
+          </Sec>
+          <Sec title="Ranking Weights">
+            The <strong className="text-slate-300">Q / R sliders</strong> in the left panel let you balance topic relevance against citation impact. Drag Q higher to prioritize topic fit; drag R higher to prioritize recent influence. Weights are normalized so they always sum to 100%.
+          </Sec>
+          <Sec title="Location Filter">
+            Use the <strong className="text-slate-300">Location dropdown</strong> to restrict results to a specific country. The dropdown contains all worldwide countries and is available before running any search. Select a country, then run your search — only researchers affiliated with institutions in that country will be returned.
+          </Sec>
+          <Sec title="Citation Year Range">
+            The <strong className="text-slate-300">Year Range filter</strong> in the left panel sets the citation window for the R score. Narrowing the window to recent years highlights researchers who are actively publishing now.
+          </Sec>
+          <Sec title="Saving Researchers">
+            Click the <strong className="text-slate-300">bookmark icon</strong> on any researcher row to save them. Saved researchers appear in the <em>Saved</em> panel on the left regardless of what you search next. Log in to sync saved researchers across devices.
+          </Sec>
+          <Sec title="Researcher Details">
+            Click <strong className="text-slate-300">Details</strong> (or the row) to open the full profile: matched papers, scores, career timeline, and contact links. Use the ← arrow to return to results.
+          </Sec>
+          <Sec title="AI Summary">
+            Click the <strong className="text-slate-300">✦ sparkle icon</strong> on any researcher row to generate an AI-written research profile. The summary describes research interests, recent activities, notable publications, and topical relevance to your query. Requires an AI API key configured in Settings.
+          </Sec>
+          <Sec title="AI Search Assistant">
+            The <strong className="text-slate-300">AI Search Assistant</strong> panel (right sidebar) lets you ask free-text questions about the current result set — e.g. &ldquo;Which three researchers here are strongest for robotics?&rdquo; It uses the same AI key as AI Summary.
+          </Sec>
+          <div className="border-t border-white/8 pt-4">
+            <h3 className="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-blue-400">FAQ</h3>
+            <div className="space-y-3">
+              {([
+                ["Why is the Location dropdown empty on first load?", "It's not — the dropdown contains all worldwide countries and is populated before any search."],
+                ["Why do I get no results for a country filter?", "The backend filters by institution country code. If a researcher's institution isn't recorded with that code, they won't appear. Try searching without a location filter first."],
+                ["Are plain-text passwords stored?", "No. Passwords are hashed with bcrypt before storage. Plain-text passwords are never written to the database."],
+                ["How do I reset my password?", "On the Log in screen, click 'Forgot password?' and follow the on-screen steps to receive a recovery code by email or SMS."],
+                ["What AI providers are supported?", "OpenAI-compatible endpoints (GPT-4o, etc.), custom base URLs, and any model ID. Configure your provider and API key in Settings (gear icon)."],
+              ] as [string, string][]).map(([q, a]) => (
+                <div key={q}>
+                  <p className="text-[13px] font-semibold text-slate-300">{q}</p>
+                  <p className="mt-0.5 text-[12px] text-slate-500">{a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="flex shrink-0 items-center justify-between border-t border-white/8 px-5 py-4">
+          <p className="text-xs text-slate-500">Still need help? Describe your issue and we'll follow up.</p>
+          <button onClick={onOpenSupport} className="rounded-md bg-blue-600 px-4 py-2 text-xs font-semibold text-white hover:bg-blue-500">Contact Support</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SupportModal({ onClose }: { onClose: () => void }) {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
+  const submit = async () => {
+    if (!message.trim()) { setStatus("Please describe your issue."); return; }
+    setLoading(true);
+    try {
+      await apiRequest<{ ok: boolean }>("/api/support", { method: "POST", body: JSON.stringify({ name, email, message }) });
+      setStatus("Your message has been received. We'll follow up shortly.");
+    } catch {
+      setStatus("Could not send your message. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
+  const inputCls = "mt-1 w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 text-sm text-slate-100 outline-none placeholder:text-slate-600";
+  return (
+    <div className="fixed inset-0 z-[90] flex items-center justify-center bg-black/60 px-4 backdrop-blur-sm">
+      <div className="w-full max-w-[480px] rounded-xl border border-white/10 bg-[#080c14] p-5 shadow-2xl">
+        <div className="mb-4 flex items-center justify-between">
+          <h2 className="text-lg font-bold text-slate-100">Contact Support</h2>
+          <button onClick={onClose} className="rounded p-1 text-slate-500 hover:bg-white/8 hover:text-slate-100"><X className="h-5 w-5" /></button>
+        </div>
+        <p className="mb-4 text-sm text-slate-400">Describe your question or issue below and we'll get back to you.</p>
+        <label className="text-xs text-slate-500">Your name (optional)</label>
+        <input value={name} onChange={(e) => setName(e.target.value)} className={inputCls} placeholder="Jane Smith" />
+        <label className="mt-3 block text-xs text-slate-500">Email address (optional)</label>
+        <input value={email} onChange={(e) => setEmail(e.target.value)} className={inputCls} placeholder="jane@example.com" />
+        <label className="mt-3 block text-xs text-slate-500">How can we help?</label>
+        <textarea value={message} onChange={(e) => setMessage(e.target.value)} rows={4} className="mt-1 w-full resize-none rounded-md border border-white/10 bg-black/20 px-3 py-2 text-sm text-slate-100 outline-none placeholder:text-slate-600" placeholder="Describe your question or problem..." />
         {status && <p className="mt-3 rounded-md border border-white/8 bg-black/20 px-3 py-2 text-xs text-slate-400">{status}</p>}
-        <button disabled={loading} onClick={submit} className="mt-5 w-full rounded-md bg-blue-600 px-3 py-2.5 text-sm font-semibold text-white hover:bg-blue-500 disabled:opacity-50">{loading ? "Working..." : mode === "login" ? "Log in" : "Create account"}</button>
+        <button disabled={loading} onClick={submit} className="mt-5 w-full rounded-md bg-blue-600 px-3 py-2.5 text-sm font-semibold text-white hover:bg-blue-500 disabled:opacity-50">{loading ? "Sending..." : "Send message"}</button>
       </div>
     </div>
   );
@@ -1702,20 +1886,13 @@ function RankingBreakdown({ researcher, weights, compact = false }: { researcher
   );
 }
 
-function SideSummary({ researcher, isSaved, onToggleSave, onOpenDetail, list, query, settings, weights, loggedIn }: { researcher?: ResearcherRecord; isSaved: boolean; onToggleSave: () => void; onOpenDetail: () => void; list: ResearcherRecord[]; query: string; settings: AppSettings; weights: Record<WeightKey, number>; loggedIn?: boolean }) {
+function SideSummary({ list, query, settings, loggedIn, onOpenUserGuide }: { list: ResearcherRecord[]; query: string; settings: AppSettings; loggedIn?: boolean; onOpenUserGuide: () => void }) {
   return (
     <aside className="w-[var(--side-summary-width)] shrink-0 overflow-y-auto border-l border-white/8 bg-[#070a10] p-4">
-      {researcher ? (
-        <>
-          <div className="rounded-lg border border-white/8 bg-white/[0.025] p-3.5"><div className="flex items-start gap-3"><div className="flex h-12 w-12 items-center justify-center rounded-lg border border-blue-500/40 bg-blue-500/15 text-base font-bold text-blue-100">{researcher.initials || initials(researcher.name)}</div><div className="min-w-0"><h2 className="truncate font-bold text-slate-100">{researcher.name}</h2><AffiliationSummary researcher={researcher} className="text-xs text-slate-500" /><p className="mt-1 text-[10px] uppercase tracking-[0.12em] text-blue-300">{affiliationDisplay(researcher).country} - since {researcher.careerStartYear || "n/a"}</p><span title={researcher.matchReason || researcher.whyMatched} className="mt-2 inline-flex max-w-full rounded-full border border-cyan-400/20 bg-cyan-400/10 px-2 py-1 text-[10px] font-semibold text-cyan-200">{matchSourceLabel(researcher.matchSource)}</span></div></div><div className="mt-3 grid grid-cols-2 gap-2">{[["Q", Math.round(researcher.queryRelevanceNorm || 0), "text-emerald-300"], ["R", formatNumber(researcher.recentCitations || 0), "text-orange-300"]].map(([label, value, color]) => <div key={label} title={metricDescription(label as string)} className="rounded-md border border-white/8 bg-black/10 p-2"><div className={cn("font-mono text-lg font-extrabold", color as string)}>{value}</div><div className="text-[10px] text-slate-500">{label}</div></div>)}</div><div className="mt-3 flex gap-2"><button onClick={onToggleSave} className={cn("min-w-0 flex-1 rounded-md border border-white/8 py-2 text-xs hover:text-slate-100", isSaved ? "text-blue-300" : "text-slate-400")}>{isSaved ? <BookmarkCheck className="mr-1 inline h-3.5 w-3.5" /> : <Bookmark className="mr-1 inline h-3.5 w-3.5" />}{isSaved ? "Saved" : "Save"}</button><button onClick={onOpenDetail} className="rounded-md bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500">Details</button></div></div>
-          <div className="mt-3 rounded-lg border border-white/8 bg-white/[0.025] p-3.5"><h3 className="mb-2 text-xs font-bold uppercase tracking-[0.12em] text-slate-100">Research Topics</h3><div className="flex flex-wrap gap-2">{(researcher.topics.length ? researcher.topics : [researcher.primaryTopic]).slice(0, 4).map((topic) => <span key={topic} className="rounded-full bg-blue-500/15 px-2.5 py-1 text-[11px] font-semibold text-blue-100">{topic}</span>)}</div></div>
-        </>
-      ) : (
-        <div className="rounded-lg border border-white/8 bg-white/[0.025] p-4 text-sm text-slate-500">Select a researcher to inspect profile metrics, reliability hints, and returned backend fields.</div>
-      )}
-      <div className="mt-4">
-        <ResultsAiPanel list={list} query={query} settings={settings} researcher={researcher} loggedIn={loggedIn} />
-      </div>
+      <button onClick={onOpenUserGuide} className="mb-4 flex w-full items-center justify-center gap-2 rounded-md border border-white/10 bg-white/[0.025] px-3 py-2.5 text-xs font-semibold text-slate-300 hover:bg-white/[0.06] hover:text-slate-100">
+        <BookOpen className="h-3.5 w-3.5" />User Guide
+      </button>
+      <ResultsAiPanel list={list} query={query} settings={settings} loggedIn={loggedIn} />
     </aside>
   );
 }
@@ -1820,6 +1997,8 @@ export default function Home() {
   const [serverAiSettings, setServerAiSettings] = useState<ServerAiSettings | null>(null);
   const [aiSummaryResearcher, setAiSummaryResearcher] = useState<ResearcherRecord | undefined>();
   const [aiSummaryCache, setAiSummaryCache] = useState<Map<string, string>>(() => new Map());
+  const [userGuideOpen, setUserGuideOpen] = useState(false);
+  const [supportOpen, setSupportOpen] = useState(false);
   const [researcherResults, setResearcherResults] = useState<ResearcherRecord[]>([]);
   const [searchMeta, setSearchMeta] = useState<SearchMeta | undefined>();
   const [searchLoading, setSearchLoading] = useState(false);
@@ -2062,7 +2241,7 @@ export default function Home() {
           <ResearcherTable list={pagedResults} selected={selected} savedIds={savedIds} startRank={pageStart + 1} emptyState={emptyState} sort={tableSort} onSort={changeTableSort} onSelect={(researcher) => setSelectedId(researcher.id)} onOpenDetail={(researcher) => setDetailId(researcher.id)} onToggleSave={toggleSave} onAiSummary={(researcher) => setAiSummaryResearcher(researcher)} />
           <PaginationBar page={currentPage} total={resultList.length} onPageChange={setPage} />
         </section>
-        <SideSummary researcher={selected} isSaved={selected ? savedIds.has(selected.id) : false} onToggleSave={() => selected && toggleSave(selected.id)} onOpenDetail={() => selected && setDetailId(selected.id)} list={pagedResults} query={activeQuery} settings={settings} weights={filters.weights} loggedIn={Boolean(currentUser)} />
+        <SideSummary list={pagedResults} query={activeQuery} settings={settings} loggedIn={Boolean(currentUser)} onOpenUserGuide={() => setUserGuideOpen(true)} />
       </div>
     </main>
   );
@@ -2074,6 +2253,8 @@ export default function Home() {
       {aiSummaryResearcher && (
         <AiSummaryModal researcher={aiSummaryResearcher} query={activeQuery} settings={settings} loggedIn={Boolean(currentUser)} cache={aiSummaryCache} onClose={() => setAiSummaryResearcher(undefined)} onCache={(key, value) => setAiSummaryCache((prev) => new Map(prev).set(key, value))} />
       )}
+      {userGuideOpen && <UserGuideModal onClose={() => setUserGuideOpen(false)} onOpenSupport={() => { setUserGuideOpen(false); setSupportOpen(true); }} />}
+      {supportOpen && <SupportModal onClose={() => setSupportOpen(false)} />}
     </div>
   );
 }

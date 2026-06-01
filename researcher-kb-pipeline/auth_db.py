@@ -250,6 +250,30 @@ def check_password(raw_password: str, stored_hash: str) -> bool:
         return False
 
 
+def update_password_hash(identifier: str, new_password: str) -> bool:
+    """Hash new_password with bcrypt and update the stored hash.
+
+    Only updates accounts with provider='password' (not OAuth accounts).
+    Returns True if a row was updated, False if the account was not found.
+    """
+    new_hash = bcrypt.hashpw(new_password.encode("utf-8"), bcrypt.gensalt()).decode(
+        "utf-8"
+    )
+    conn = get_connection()
+    cur = conn.cursor()
+    try:
+        cur.execute(
+            "UPDATE app_users SET password_hash = %s WHERE identifier = %s AND provider = 'password'",
+            (new_hash, identifier),
+        )
+        updated = cur.rowcount > 0
+        conn.commit()
+        return updated
+    finally:
+        cur.close()
+        conn.close()
+
+
 def upsert_google_user(
     sub: str, email: str | None, name: str | None, picture: str | None
 ) -> dict:

@@ -218,3 +218,24 @@ export async function handleSetSaved(req: any, body: any, res: any) {
   const data = await r.json().catch(() => ({}));
   sendJson(res, r.status, data);
 }
+
+export async function handleResetPassword(body: any, res: any) {
+  const r = await backendCall("/auth/reset-password", { method: "POST", body: JSON.stringify(body) }).catch(() => null);
+  if (!r) return sendJson(res, 502, { error: "Backend unavailable." });
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) return sendJson(res, r.status, { error: data.detail || "Password reset failed." });
+  sendJson(res, 200, data);
+}
+
+export async function handleSupportTicket(body: any, res: any) {
+  // TODO: Connect to a ticketing/email service (SendGrid, Resend, Jira, Linear, etc.)
+  // For now, log to server console. Replace with actual notification logic before go-live.
+  const { name, email, message } = body || {};
+  console.log("[Support Ticket]", {
+    name: name || "(anonymous)",
+    email: email || "(no email)",
+    message: (message || "").slice(0, 2000),
+    ts: new Date().toISOString(),
+  });
+  sendJson(res, 200, { ok: true });
+}
