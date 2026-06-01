@@ -964,6 +964,7 @@ function SettingsModal({ open, settings, onClose, onChange, user, serverAiSettin
 function AuthModal({ mode, onClose, onModeChange, onAuthenticated }: { mode?: AuthMode; onClose: () => void; onModeChange: (mode: AuthMode) => void; onAuthenticated: (user: CurrentUser) => void }) {
   const [identifier, setIdentifier] = useState("");
   const [password, setPassword] = useState("");
+  const [phone, setPhone] = useState("");
   const [resetStep, setResetStep] = useState<"identify" | "verify">("identify");
   const [resetIdentifier, setResetIdentifier] = useState("");
   const [resetCode, setResetCode] = useState("");
@@ -1010,10 +1011,18 @@ function AuthModal({ mode, onClose, onModeChange, onAuthenticated }: { mode?: Au
     setLoading(true);
     setStatus("");
     try {
-      const url = mode === "login" ? "/api/auth/login" : "/api/auth/register";
-      const result = await apiRequest<{ user: CurrentUser }>(url, { method: "POST", body: JSON.stringify({ identifier, password }) });
-      onAuthenticated(result.user);
-      onClose();
+      if (mode === "register") {
+        const normalizedPhone = phone.replace(/[\s\-]/g, "");
+        if (!normalizedPhone) { setLoading(false); return setStatus("Mobile number is required for account recovery."); }
+        if (!/^\+[1-9]\d{6,14}$/.test(normalizedPhone)) { setLoading(false); return setStatus("Enter a valid international number, e.g. +1 650 555 0100 (US), +44 7700 900000 (UK), +91 98765 43210 (IN)."); }
+        const result = await apiRequest<{ user: CurrentUser }>("/api/auth/register", { method: "POST", body: JSON.stringify({ identifier, password, phone: normalizedPhone }) });
+        onAuthenticated(result.user);
+        onClose();
+      } else {
+        const result = await apiRequest<{ user: CurrentUser }>("/api/auth/login", { method: "POST", body: JSON.stringify({ identifier, password }) });
+        onAuthenticated(result.user);
+        onClose();
+      }
     } catch (error) {
       setStatus(error instanceof Error ? error.message : String(error));
     } finally {
@@ -1058,6 +1067,13 @@ function AuthModal({ mode, onClose, onModeChange, onAuthenticated }: { mode?: Au
             </div>
             <label className="text-xs text-slate-500">Email</label>
             <input value={identifier} onChange={(event) => setIdentifier(event.target.value)} className={inputCls} placeholder="name@example.com" />
+            {mode === "register" && (
+              <>
+                <label className={labelCls}>Mobile number <span className="text-red-400">*</span></label>
+                <input value={phone} onChange={(event) => setPhone(event.target.value)} className={inputCls} placeholder="+1 650 555 0100" type="tel" />
+                <p className="mt-1 text-[11px] text-slate-600">Required for account recovery. International format: +1 (US/CA), +44 (UK), +49 (DE), +91 (IN), +81 (JP), etc.</p>
+              </>
+            )}
             <label className={labelCls}>Password</label>
             <input value={password} onChange={(event) => setPassword(event.target.value)} type="password" className={inputCls} placeholder="Password" />
             {mode === "login" && (

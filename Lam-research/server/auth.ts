@@ -227,15 +227,13 @@ export async function handleResetPassword(body: any, res: any) {
   sendJson(res, 200, data);
 }
 
-export async function handleSupportTicket(body: any, res: any) {
-  // TODO: Connect to a ticketing/email service (SendGrid, Resend, Jira, Linear, etc.)
-  // For now, log to server console. Replace with actual notification logic before go-live.
-  const { name, email, message } = body || {};
-  console.log("[Support Ticket]", {
-    name: name || "(anonymous)",
-    email: email || "(no email)",
-    message: (message || "").slice(0, 2000),
-    ts: new Date().toISOString(),
-  });
-  sendJson(res, 200, { ok: true });
+export async function handleSupportTicket(body: any, req: any, res: any) {
+  // Proxy to the ranking/auth backend which persists the ticket in MySQL.
+  // Session token is forwarded so logged-in users get their user_id associated.
+  const token = getSessionToken(req);
+  const r = await backendCall("/support", { method: "POST", body: JSON.stringify(body) }, token ?? undefined).catch(() => null);
+  if (!r) return sendJson(res, 502, { error: "Could not reach support service. Please try again." });
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) return sendJson(res, r.status, { error: data.detail || "Could not save your support request." });
+  sendJson(res, 200, data);
 }

@@ -39,6 +39,13 @@ class RequestCodeBody(BaseModel):
 class RegisterBody(BaseModel):
     identifier: str
     password: str
+    phone: str | None = None
+
+
+class SupportTicketBody(BaseModel):
+    name: str = ""
+    email: str = ""
+    message: str
 
 
 class LoginBody(BaseModel):
@@ -100,6 +107,31 @@ def _require_session(x_session_token: str | None) -> dict:
     return user
 
 
+# E.164: + followed by 7–15 digits (first digit non-zero = no country code starting with 0)
+_E164_RE = re.compile(r"^\+[1-9]\d{6,14}$")
+
+
+def _validate_phone(raw: str | None) -> str | None:
+    """Strip spaces/dashes and validate E.164 format.
+
+    Returns the cleaned phone number, or None if raw is empty/None.
+    Raises HTTP 400 if the value is present but malformed.
+    """
+    if not raw:
+        return None
+    cleaned = raw.replace(" ", "").replace("-", "")
+    if not _E164_RE.match(cleaned):
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                "Mobile number must be in international format, e.g. "
+                "+1 650 555 0100 (US), +44 7700 900000 (UK), "
+                "+49 151 12345678 (DE), +91 98765 43210 (IN)."
+            ),
+        )
+    return cleaned
+
+
 # ── Auth routes ────────────────────────────────────────────────────────────
 
 
@@ -128,9 +160,18 @@ def register(body: RegisterBody):
             status_code=400,
             detail="Email and password (≥6 chars) are required.",
         )
+    phone = _validate_phone(body.phone)  # raises 400 if present but malformed
+    if not phone:
+        raise HTTPException(
+            status_code=400, detail="Mobile number is required for account recovery."
+        )
     if auth_db.get_user_by_identifier(identifier):
         raise HTTPException(status_code=409, detail="This account already exists.")
-    user = auth_db.create_password_user(identifier, password)
+    if auth_db.get_user_by_phone(phone):
+        raise HTTPException(
+            status_code=409, detail="This mobile number is already registered."
+        )
+    user = auth_db.create_password_user(identifier, password, phone)
     token = auth_db.create_session(user["id"])
     return {"token": token, "user": user}
 
@@ -188,6 +229,35 @@ def google_upsert(body: GoogleUpsertBody):
     user = auth_db.upsert_google_user(body.sub, body.email, body.name, body.picture)
     token = auth_db.create_session(user["id"])
     return {"token": token, "user": user}
+
+
+# ── Support tickets ────────────────────────────────────────────────────────
+
+
+@router.post("/support")
+def create_support_ticket(
+    body: SupportTicketBody,
+    x_session_token: str | None = Header(None),
+):
+    """Save a support ticket to the database.
+
+    Optionally associates the ticket with a logged-in user.
+    Never returns any user message content in the response.
+    """
+    if not body.message.strip():
+        raise HTTPException(status_code=400, detail="Message is required.")
+    user_id: str | None = None
+    if x_session_token:
+        user = auth_db.get_user_by_session(x_session_token)
+        if user:
+            user_id = user["id"]
+    ticket_id = auth_db.create_support_ticket(
+        message=body.message.strip(),
+        name=body.name.strip(),
+        email=body.email.strip(),
+        user_id=user_id,
+    )
+    return {"ok": True, "ticketId": ticket_id}
 
 
 # ── AI Settings ────────────────────────────────────────────────────────────

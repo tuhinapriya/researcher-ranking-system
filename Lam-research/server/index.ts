@@ -75,7 +75,7 @@ async function startServer() {
   });
 
   app.post("/api/support", async (req, res) => {
-    await handleSupportTicket(req.body, res);
+    await handleSupportTicket(req.body, req, res);
   });
 
   app.get("/health", (_req, res) => {

@@ -2,11 +2,12 @@
 Database layer for app-level auth, sessions, AI settings, and saved researchers.
 
 Tables (all created via init_auth_tables()):
-  app_users           — registered users (bcrypt password hash)
+  app_users           — registered users (bcrypt password hash, optional phone)
   app_sessions        — session tokens (14-day TTL by default)
   verification_codes  — short-lived OTP codes for registration
   user_ai_settings    — per-user AI provider / encrypted API key
   saved_researchers   — per-user list of saved researcher IDs
+  support_tickets     — user-submitted support requests
 """
 
 import logging
@@ -76,6 +77,35 @@ def init_auth_tables() -> None:
                 user_id       VARCHAR(36)  NOT NULL,
                 researcher_id VARCHAR(255) NOT NULL,
                 PRIMARY KEY (user_id, researcher_id)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+        """)
+        # ── Safe migrations for existing deployments ────────────────────────
+        # Add phone column if this is an upgrade from a pre-phone schema.
+        cur.execute(
+            "ALTER TABLE app_users ADD COLUMN IF NOT EXISTS " "phone VARCHAR(20) NULL"
+        )
+        # Add unique index on phone if it doesn't already exist.
+        cur.execute(
+            "SELECT COUNT(*) FROM information_schema.statistics "
+            "WHERE table_schema = DATABASE() "
+            "  AND table_name = 'app_users' "
+            "  AND index_name = 'idx_app_users_phone'"
+        )
+        if cur.fetchone()[0] == 0:  # regular (tuple) cursor
+            cur.execute(
+                "ALTER TABLE app_users ADD UNIQUE INDEX idx_app_users_phone (phone)"
+            )
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS support_tickets (
+                id         VARCHAR(36)   PRIMARY KEY,
+                user_id    VARCHAR(36)   NULL,
+                name       VARCHAR(255)  NOT NULL DEFAULT '',
+                email      VARCHAR(255)  NOT NULL DEFAULT '',
+                message    TEXT          NOT NULL,
+                status     VARCHAR(32)   NOT NULL DEFAULT 'open',
+                created_at DATETIME      NOT NULL,
+                INDEX idx_support_tickets_user   (user_id),
+                INDEX idx_support_tickets_status (status)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
         """)
         conn.commit()
@@ -215,7 +245,21 @@ def get_user_by_identifier(identifier: str) -> dict | None:
         conn.close()
 
 
-def create_password_user(identifier: str, password: str) -> dict:
+def get_user_by_phone(phone: str) -> dict | None:
+    """Return the raw user row for a given E.164 phone number, or None."""
+    conn = get_connection()
+    cur = conn.cursor(dictionary=True)
+    try:
+        cur.execute("SELECT * FROM app_users WHERE phone = %s", (phone,))
+        return cur.fetchone()
+    finally:
+        cur.close()
+        conn.close()
+
+
+def create_password_user(
+    identifier: str, password: str, phone: str | None = None
+) -> dict:
     """Hash password with bcrypt, insert user row, return public user dict."""
     password_hash = bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt()).decode(
         "utf-8"
@@ -226,8 +270,9 @@ def create_password_user(identifier: str, password: str) -> dict:
     cur = conn.cursor()
     try:
         cur.execute(
-            "INSERT INTO app_users (id, identifier, password_hash, created_at, provider) VALUES (%s, %s, %s, %s, %s)",
-            (user_id, identifier, password_hash, now, "password"),
+            "INSERT INTO app_users (id, identifier, password_hash, created_at, provider, phone) "
+            "VALUES (%s, %s, %s, %s, %s, %s)",
+            (user_id, identifier, password_hash, now, "password", phone or None),
         )
         conn.commit()
     finally:
@@ -253,6 +298,11 @@ def check_password(raw_password: str, stored_hash: str) -> bool:
 def update_password_hash(identifier: str, new_password: str) -> bool:
     """Hash new_password with bcrypt and update the stored hash.
 
+    Accepts both email identifiers and E.164 phone numbers: tries the
+    identifier column first, then falls back to the phone column so that
+    users who enter their phone number in the reset form are handled
+    correctly.
+
     Only updates accounts with provider='password' (not OAuth accounts).
     Returns True if a row was updated, False if the account was not found.
     """
@@ -263,9 +313,17 @@ def update_password_hash(identifier: str, new_password: str) -> bool:
     cur = conn.cursor()
     try:
         cur.execute(
-            "UPDATE app_users SET password_hash = %s WHERE identifier = %s AND provider = 'password'",
+            "UPDATE app_users SET password_hash = %s "
+            "WHERE identifier = %s AND provider = 'password'",
             (new_hash, identifier),
         )
+        if cur.rowcount == 0:
+            # Fallback: user entered their phone number instead of email
+            cur.execute(
+                "UPDATE app_users SET password_hash = %s "
+                "WHERE phone = %s AND provider = 'password'",
+                (new_hash, identifier),
+            )
         updated = cur.rowcount > 0
         conn.commit()
         return updated
@@ -469,3 +527,43 @@ def set_saved_researchers(user_id: str, ids: list[str]) -> list[str]:
         cur.close()
         conn.close()
     return unique_ids
+
+
+# ── Support tickets ────────────────────────────────────────────────────────
+
+
+def create_support_ticket(
+    message: str,
+    name: str = "",
+    email: str = "",
+    user_id: str | None = None,
+) -> str:
+    """Insert a support ticket and return its UUID.
+
+    Truncates fields to safe lengths before storage so the DB never receives
+    unbounded user input.  Does NOT log the message to avoid leaking PII.
+    """
+    ticket_id = str(uuid.uuid4())
+    now = datetime.now(timezone.utc).replace(tzinfo=None)
+    conn = get_connection()
+    cur = conn.cursor()
+    try:
+        cur.execute(
+            "INSERT INTO support_tickets "
+            "(id, user_id, name, email, message, status, created_at) "
+            "VALUES (%s, %s, %s, %s, %s, 'open', %s)",
+            (
+                ticket_id,
+                user_id,
+                name[:255],
+                email[:255],
+                message[:10000],
+                now,
+            ),
+        )
+        conn.commit()
+        logger.info("Support ticket created: id=%s user_id=%s", ticket_id, user_id)
+    finally:
+        cur.close()
+        conn.close()
+    return ticket_id
