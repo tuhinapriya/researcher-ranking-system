@@ -289,7 +289,7 @@ function AffiliationSummary({ researcher, className = "", noteClassName = "text-
 function metricDescription(label: string) {
   const normalized = label.toLowerCase();
   if (normalized.includes("query relevance") || normalized.includes("q relevance") || normalized === "q" || normalized.includes("q_norm")) return "Q_norm: query relevance normalized within the visible result set. Higher means this author matched the search intent more strongly.";
-  if (normalized.includes("research impact") || normalized.includes("r impact") || normalized === "r" || normalized.includes("r_norm") || normalized.includes("recent citation")) return "R_raw is citations received by matched papers during the selected citation year range. R_norm uses log(1 + R_raw), then normalizes within the result set.";
+  if (normalized.includes("research impact") || normalized.includes("r impact") || normalized === "r" || normalized.includes("r_norm") || normalized.includes("recent citation")) return "R_raw is the sum of citations received during the selected year range, drawn from per-paper yearly citation data (OpenAlex counts_by_year). Papers published before the range still contribute if they received citations within it. R_norm uses log(1 + R_raw), then normalizes within the result set. For papers not yet backfilled, R falls back to lifetime citations of papers published in the window.";
   if (normalized.includes("final")) return "Final Score = wQ * Q_norm + wR * R_norm. H-index is shown as profile context only.";
   if (normalized.includes("h-index") || normalized.includes("h profile") || normalized === "h") return "Profile-only h-index from the backend profile data. H=81 means the author has at least 81 works that each received at least 81 citations; it is not used in the default Q/R ranking.";
   if (normalized.includes("raw citation")) return "Total citation count from the backend profile data. This favors older and high-citation fields, so it is shown as context rather than used directly.";
@@ -314,7 +314,7 @@ function researcherContext(list: ResearcherRecord[]) {
   return list.slice(0, 12).map((researcher, index) => {
     const affiliation = affiliationDisplay(researcher);
     const current = affiliation.currentDiffers ? `; current institution: ${affiliation.current}` : "";
-    return `${index + 1}. ${researcher.name}; institution: ${affiliation.primary}${current}; topic: ${researcher.primaryTopic}; Q_norm: ${Math.round(researcher.queryRelevanceNorm || 0)}; R_raw citation-window citations: ${researcher.recentCitations || 0}; R_norm: ${Math.round(researcher.recentCitationImpactNorm || 0)}; final score: ${Math.round(researcher.finalScore || 0)}; profile-only H-index: ${researcher.hIndex}; lifetime citations: ${researcher.totalCitations}; works: ${researcher.totalWorks}`;
+    return `${index + 1}. ${researcher.name}; institution: ${affiliation.primary}${current}; topic: ${researcher.primaryTopic}; Q_norm: ${Math.round(researcher.queryRelevanceNorm || 0)}; R_raw citations received in window: ${researcher.recentCitations || 0}; R_norm: ${Math.round(researcher.recentCitationImpactNorm || 0)}; final score: ${Math.round(researcher.finalScore || 0)}; profile-only H-index: ${researcher.hIndex}; lifetime citations: ${researcher.totalCitations}; works: ${researcher.totalWorks}`;
   }).join("\n");
 }
 
@@ -787,7 +787,7 @@ function YearRangeSlider({ filters, setFilters }: { filters: Filters; setFilters
         <input aria-label="Minimum citation year" type="range" min={YEAR_MIN} max={YEAR_MAX} value={filters.minYear} className="year-range-input absolute inset-0 z-20 w-full" onChange={(event) => updateMin(Number(event.target.value))} />
         <input aria-label="Maximum citation year" type="range" min={YEAR_MIN} max={YEAR_MAX} value={filters.maxYear} className="year-range-input absolute inset-0 z-30 w-full" onChange={(event) => updateMax(Number(event.target.value))} />
       </div>
-      <p className="text-[10px] leading-4 text-slate-500">Counts citations received during this window, not publication years.</p>
+      <p className="text-[10px] leading-4 text-slate-500">R counts citations received during this window. Papers published before the range still contribute if they were cited within it.</p>
     </div>
   );
 }
@@ -964,7 +964,6 @@ function SettingsModal({ open, settings, onClose, onChange, user, serverAiSettin
 function AuthModal({ mode, onClose, onModeChange, onAuthenticated }: { mode?: AuthMode; onClose: () => void; onModeChange: (mode: AuthMode) => void; onAuthenticated: (user: CurrentUser) => void }) {
   const [identifier, setIdentifier] = useState("");
   const [password, setPassword] = useState("");
-  const [phone, setPhone] = useState("");
   const [resetStep, setResetStep] = useState<"identify" | "verify">("identify");
   const [resetIdentifier, setResetIdentifier] = useState("");
   const [resetCode, setResetCode] = useState("");
@@ -1027,10 +1026,7 @@ function AuthModal({ mode, onClose, onModeChange, onAuthenticated }: { mode?: Au
     setStatus("");
     try {
       if (mode === "register") {
-        const normalizedPhone = phone.replace(/[\s\-]/g, "");
-        if (!normalizedPhone) { setLoading(false); return setStatus("Mobile number is required for account recovery."); }
-        if (!/^\+[1-9]\d{6,14}$/.test(normalizedPhone)) { setLoading(false); return setStatus("Enter a valid international number, e.g. +1 650 555 0100 (US), +44 7700 900000 (UK), +91 98765 43210 (IN)."); }
-        const result = await apiRequest<{ user: CurrentUser }>("/api/auth/register", { method: "POST", body: JSON.stringify({ identifier, password, phone: normalizedPhone }) });
+        const result = await apiRequest<{ user: CurrentUser }>("/api/auth/register", { method: "POST", body: JSON.stringify({ identifier, password }) });
         onAuthenticated(result.user);
         onClose();
       } else {
@@ -1081,13 +1077,7 @@ function AuthModal({ mode, onClose, onModeChange, onAuthenticated }: { mode?: Au
             </div>
             <label className="text-xs text-slate-500">Email</label>
             <input value={identifier} onChange={(event) => setIdentifier(event.target.value)} className={inputCls} placeholder="name@example.com" />
-            {mode === "register" && (
-              <>
-                <label className={labelCls}>Mobile number <span className="text-red-400">*</span></label>
-                <input value={phone} onChange={(event) => setPhone(event.target.value)} className={inputCls} placeholder="+1 650 555 0100" type="tel" />
-                <p className="mt-1 text-[11px] text-slate-600">Required for account recovery. International format: +1 (US/CA), +44 (UK), +49 (DE), +91 (IN), +81 (JP), etc.</p>
-              </>
-            )}
+
             <label className={labelCls}>Password</label>
             <input value={password} onChange={(event) => setPassword(event.target.value)} type="password" className={inputCls} placeholder="Password" />
             {mode === "login" && (
@@ -1124,7 +1114,7 @@ function UserGuideModal({ onClose, onOpenSupport }: { onClose: () => void; onOpe
             Q is a normalized score (0–100) measuring how well a researcher's published work matches your search query. A Q of 80 means the researcher is in the top fifth of the result set for topic fit. High Q → strong topical alignment.
           </Sec>
           <Sec title="R — Research Impact">
-            R counts citations received within the selected citation window (set by the year range filter). It reflects current influence rather than lifetime output. High R → active, recently-cited researcher.
+            R is the sum of citations received during the selected year range, using per-paper yearly citation data from OpenAlex. A paper published before the range still contributes to R if it received citations within the window. High R → researcher whose work was actively cited during the selected period.
           </Sec>
           <Sec title="Ranking Weights">
             The <strong className="text-slate-300">Q / R sliders</strong> in the left panel let you balance topic relevance against citation impact. Drag Q higher to prioritize topic fit; drag R higher to prioritize recent influence. Weights are normalized so they always sum to 100%.
@@ -1133,7 +1123,7 @@ function UserGuideModal({ onClose, onOpenSupport }: { onClose: () => void; onOpe
             Use the <strong className="text-slate-300">Location dropdown</strong> to restrict results to a specific country. The dropdown contains all worldwide countries and is available before running any search. Select a country, then run your search — only researchers affiliated with institutions in that country will be returned.
           </Sec>
           <Sec title="Citation Year Range">
-            The <strong className="text-slate-300">Year Range filter</strong> in the left panel sets the citation window for the R score. Narrowing the window to recent years highlights researchers who are actively publishing now.
+            The <strong className="text-slate-300">Year Range filter</strong> in the left panel sets the citation window for R. R sums citations received in that window across all matched papers — including papers published before the window if they were cited within it. Narrowing the window to recent years highlights researchers who are actively receiving citations now.
           </Sec>
           <Sec title="Saving Researchers">
             Click the <strong className="text-slate-300">bookmark icon</strong> on any researcher row to save them. Saved researchers appear in the <em>Saved</em> panel on the left regardless of what you search next. Log in to sync saved researchers across devices.
@@ -1367,7 +1357,7 @@ function ChatFloatingButton({ query, settings, loggedIn }: { query: string; sett
 function ResultsAiPanel({ list, query, settings, researcher, loggedIn }: { list: ResearcherRecord[]; query: string; settings: AppSettings; researcher?: ResearcherRecord; loggedIn?: boolean }) {
   const [open, setOpen] = useState(false);
   const [draft, setDraft] = useState("");
-  const [customPrompt, setCustomPrompt] = useState("Create a concise research brief in the context of the current query. Compare breadth, depth, query fit, and recent citation-window impact. Recommend a short list for closer review. Do not mention LAM, funding, business intent, or any private organization.");
+  const [customPrompt, setCustomPrompt] = useState("Create a concise research brief in the context of the current query. Compare breadth, depth, query fit, and recent citation-window impact. Recommend a short list for closer review. Do not mention any funding source, business intent, or private organizational context.");
   const [promptOpen, setPromptOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -1381,7 +1371,7 @@ function ResultsAiPanel({ list, query, settings, researcher, loggedIn }: { list:
     try {
       const answer = await requestAiAnswer(settings, nextMessages, [
         `Current search query: ${query}`,
-        researcher ? `Currently highlighted researcher: ${researcher.name}; institution: ${affiliationDisplay(researcher).primary}; topic: ${researcher.primaryTopic}; Q_norm: ${Math.round(researcher.queryRelevanceNorm || 0)}; R_raw citation-window citations: ${researcher.recentCitations || 0}; R_norm: ${Math.round(researcher.recentCitationImpactNorm || 0)}; profile-only H-index: ${researcher.hIndex}; lifetime citations: ${researcher.totalCitations}.` : "",
+        researcher ? `Currently highlighted researcher: ${researcher.name}; institution: ${affiliationDisplay(researcher).primary}; topic: ${researcher.primaryTopic}; Q_norm: ${Math.round(researcher.queryRelevanceNorm || 0)}; R_raw citations received in window: ${researcher.recentCitations || 0}; R_norm: ${Math.round(researcher.recentCitationImpactNorm || 0)}; profile-only H-index: ${researcher.hIndex}; lifetime citations: ${researcher.totalCitations}.` : "",
         `Current page researchers:\n${researcherContext(list)}`,
       ].filter(Boolean).join("\n\n"), loggedIn);
       setMessages((prev) => [...prev, { role: "assistant", content: answer }]);
@@ -1723,7 +1713,7 @@ function ResearcherTable({
             <th className="w-[30%] border-b border-white/8 px-3 py-3">Researcher</th>
             <th className="w-[27%] border-b border-white/8 px-3 py-3">Institution</th>
             <th className="border-b border-white/8 px-3 py-3">{metricHeader("query", "Q", "Normalized query relevance within the visible result set.")}</th>
-            <th className="border-b border-white/8 px-3 py-3">{metricHeader("recentCitations", "R", "Citations received by matched papers during the selected citation year range.")}</th>
+            <th className="border-b border-white/8 px-3 py-3">{metricHeader("recentCitations", "R", "Citations received by matched papers during the selected year range (from per-paper yearly citation data).")}</th>
             <th className="border-b border-white/8 px-3 py-3">Actions</th>
           </tr>
         </thead>
@@ -1880,7 +1870,7 @@ function RankingBreakdown({ researcher, weights, compact = false }: { researcher
         <span className="font-mono text-sm font-extrabold text-blue-300">{Math.round(finalScore)}</span>
       </div>
       <p className="mt-2 text-[11px] leading-5 text-slate-500">
-        Final Score = wQ * Q_norm + wR * R_norm. R_raw = {formatNumber(researcher.recentCitations || 0)} citations received during {researcher.citationStartYear || "n/a"}-{researcher.citationEndYear || "n/a"}. H-index is shown separately and does not affect this score.
+        Final Score = wQ * Q_norm + wR * R_norm. R_raw = {formatNumber(researcher.recentCitations || 0)} (citations received during {researcher.citationStartYear || "n/a"}–{researcher.citationEndYear || "n/a"}). H-index is shown separately and does not affect this score.
       </p>
       <div className="mt-3 space-y-2.5">
         {items.map((item) => (
@@ -1954,7 +1944,7 @@ function DetailPage({ researcher, isSaved, user, weights, onToggleSave, onBack, 
           ))}
         </section>
         <section className="mt-6"><RankingBreakdown researcher={researcher} weights={weights} /></section>
-        <section className="mt-6 rounded-xl border border-white/8 bg-white/[0.025] p-6"><h2 className="mb-4 flex items-center gap-2 text-sm font-bold uppercase tracking-[0.12em]"><Sparkles className="h-4 w-4 text-blue-400" />AI Explanation</h2><p className="text-sm leading-7 text-slate-400">{researcher.name} is indexed as a {researcher.primaryTopic} researcher in {researcher.field || "computer science"}. For the current ranking, Q_norm is {Math.round(researcher.queryRelevanceNorm || 0)} and R_raw is {formatNumber(researcher.recentCitations || 0)} citations received by matched papers during {researcher.citationStartYear}-{researcher.citationEndYear}. Lifetime citations, total works, and H-index are shown as profile context only. The profile is linked to {affiliationDisplay(researcher).primary} and includes {researcher.collaborators.length} highlighted collaborators.</p><div className="mt-5 flex flex-wrap gap-2">{(researcher.topics.length ? researcher.topics : [researcher.primaryTopic]).slice(0, 6).map((topic) => <span key={topic} className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-semibold text-blue-200">{topic}</span>)}</div></section>
+        <section className="mt-6 rounded-xl border border-white/8 bg-white/[0.025] p-6"><h2 className="mb-4 flex items-center gap-2 text-sm font-bold uppercase tracking-[0.12em]"><Sparkles className="h-4 w-4 text-blue-400" />AI Explanation</h2><p className="text-sm leading-7 text-slate-400">{researcher.name} is indexed as a {researcher.primaryTopic} researcher in {researcher.field || "computer science"}. For the current ranking, Q_norm is {Math.round(researcher.queryRelevanceNorm || 0)} and R_raw is {formatNumber(researcher.recentCitations || 0)} (citations received during {researcher.citationStartYear}–{researcher.citationEndYear}). Lifetime citations, total works, and H-index are shown as profile context only. The profile is linked to {affiliationDisplay(researcher).primary} and includes {researcher.collaborators.length} highlighted collaborators.</p><div className="mt-5 flex flex-wrap gap-2">{(researcher.topics.length ? researcher.topics : [researcher.primaryTopic]).slice(0, 6).map((topic) => <span key={topic} className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-semibold text-blue-200">{topic}</span>)}</div></section>
         <section className="mt-6 rounded-xl border border-white/8 bg-white/[0.025] p-6"><h2 className="mb-4 text-sm font-bold uppercase tracking-[0.12em]">Contact & Links</h2><div className="grid gap-3 text-sm text-slate-400 sm:grid-cols-2"><div className="rounded-lg border border-white/8 bg-black/10 p-4"><div className="text-xs font-bold uppercase tracking-[0.12em] text-slate-500">{researcher.searchMode === "institution" ? "Matched institution" : "Institution"}</div><AffiliationSummary researcher={researcher} className="mt-2 text-slate-200" noteClassName="mt-1 text-xs text-cyan-300" /><div className="text-xs text-slate-500">{affiliationDisplay(researcher).country}</div></div><div className="rounded-lg border border-white/8 bg-black/10 p-4"><div className="text-xs font-bold uppercase tracking-[0.12em] text-slate-500">Direct Contact</div><div className="mt-2 text-slate-300">The backend profile does not provide email or phone fields.</div></div></div><div className="mt-4 flex flex-wrap gap-2">{researcher.authorUrl && <a href={researcher.authorUrl} target="_blank" rel="noreferrer" className="rounded-md bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500">Author Profile</a>}<a href={googleScholarUrl(researcher)} target="_blank" rel="noreferrer" className="rounded-md bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500">Google Scholar</a><a href={googleResearcherUrl(researcher)} target="_blank" rel="noreferrer" className="rounded-md bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500">Google Search</a></div></section>
         <section className="mt-6 rounded-xl border border-white/8 bg-white/[0.025] p-6">
           <h2 className="mb-4 text-sm font-bold uppercase tracking-[0.12em] text-slate-100">Source Data & Reliability</h2>
@@ -2078,6 +2068,62 @@ export default function Home() {
           return changed ? pruned : prev;
         });
         setSavedLoaded(true);
+
+        // Cross-device restore: fetch full profiles for any saved IDs that are
+        // not already in the local cache (e.g. on a new device).
+        const missingIds = Array.from(ids).filter((id) => {
+          try {
+            const raw = localStorage.getItem("saved_researcher_records");
+            if (!raw) return true;
+            const cached = new Map(JSON.parse(raw) as [string, ResearcherRecord][]);
+            return !cached.has(id);
+          } catch {
+            return true;
+          }
+        });
+        if (missingIds.length > 0) {
+          apiRequest<{ researchers: Array<{ id: string; name?: string; institution?: string; region?: string; total_works?: number; total_citations?: number; h_index?: number; i10_index?: number; years_active?: number; author_url?: string; country?: string }> }>(
+            "/api/researchers/lookup",
+            { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ids: missingIds }) }
+          )
+            .then((lookupResult) => {
+              setSavedResearcherCache((prev) => {
+                const updated = new Map(prev);
+                for (const profile of lookupResult.researchers) {
+                  if (!updated.has(profile.id)) {
+                    updated.set(profile.id, {
+                      id: profile.id,
+                      name: profile.name ?? profile.id,
+                      initials: (profile.name ?? "?").substring(0, 2).toUpperCase(),
+                      institution: profile.institution ?? "",
+                      institutionId: "",
+                      country: profile.country ?? profile.region ?? "",
+                      region: profile.region ?? "",
+                      totalWorks: profile.total_works ?? 0,
+                      totalCitations: profile.total_citations ?? 0,
+                      hIndex: profile.h_index ?? 0,
+                      i10Index: profile.i10_index ?? 0,
+                      careerStartYear: 0,
+                      yearsActive: profile.years_active ?? 0,
+                      qScore: 0,
+                      recencyScore: 0,
+                      compositeScore: 0,
+                      primaryTopic: "",
+                      topics: [],
+                      subfield: "",
+                      field: "",
+                      domain: "",
+                      authorUrl: profile.author_url,
+                      papers: [],
+                      collaborators: [],
+                    } satisfies ResearcherRecord);
+                  }
+                }
+                return updated;
+              });
+            })
+            .catch(() => { /* cross-device restore is best-effort */ });
+        }
       })
       .catch(() => undefined);
   }, [currentUser]);

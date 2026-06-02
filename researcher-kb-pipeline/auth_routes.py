@@ -244,16 +244,8 @@ def register(body: RegisterBody):
             detail="Email and password (≥6 chars) are required.",
         )
     phone = _validate_phone(body.phone)  # raises 400 if present but malformed
-    if not phone:
-        raise HTTPException(
-            status_code=400, detail="Mobile number is required for account recovery."
-        )
     if auth_db.get_user_by_identifier(identifier):
         raise HTTPException(status_code=409, detail="This account already exists.")
-    if auth_db.get_user_by_phone(phone):
-        raise HTTPException(
-            status_code=409, detail="This mobile number is already registered."
-        )
     user = auth_db.create_password_user(identifier, password, phone)
     token = auth_db.create_session(user["id"])
     return {"token": token, "user": user}
@@ -445,13 +437,13 @@ def _gemini_chat(
     context: str | None,
 ) -> str:
     model = model or "gemini-2.5-flash"
-    base_url = (base_url or "https://generativelanguage.googleapis.com/v1beta").rstrip(
-        "/"
-    )
-    prompt_parts = [_SYSTEM_PROMPT, context or ""] + [
-        f"{m.role}: {m.content}" for m in messages
-    ]
+    base_url = (base_url or "https://generativelanguage.googleapis.com/v1beta").rstrip("/")
+    prompt_parts = [_SYSTEM_PROMPT, context or ""] + [f"{m.role}: {m.content}" for m in messages]
     prompt = "\n\n".join(p for p in prompt_parts if p)
+
+    if not api_key:
+        raise ValueError("No API key provided for Gemini call.")
+
     resp = http_requests.post(
         f"{base_url}/models/{urllib.parse.quote(model, safe='')}:generateContent?key={urllib.parse.quote(api_key, safe='')}",
         headers={"Content-Type": "application/json"},
@@ -461,6 +453,7 @@ def _gemini_chat(
         },
         timeout=60,
     )
+
     resp.raise_for_status()
     parts = resp.json().get("candidates", [{}])[0].get("content", {}).get("parts", [])
     content = "".join(p.get("text", "") for p in parts)
@@ -523,33 +516,27 @@ def ai_chat(body: AiChatBody, x_session_token: str | None = Header(None)):
     provider = body.provider or "gpt"
     base_url = body.apiBaseUrl or ""
     model = (body.model or "").strip()
-    api_key = ""
 
-    # For authenticated users, only use their stored key — never accept a
-    # client-supplied key, which could be stale data from a previous user's session.
-    if x_session_token:
-        user = auth_db.get_user_by_session(x_session_token)
-        if user:
-            stored = auth_db.get_ai_settings(user["id"])
-            if not (stored and stored.get("apiKey")):
-                raise HTTPException(
-                    status_code=401,
-                    detail="No AI API key configured. Please add your API key in Settings.",
-                )
-            api_key = stored["apiKey"]
-            provider = body.provider or stored.get("provider", "gpt")
-            base_url = body.apiBaseUrl or stored.get("apiBaseUrl", "") or ""
-            model = model or stored.get("model", "")
+    # Strict policy: require authenticated user with a stored API key. No
+    # fallbacks, ADC, or client-supplied keys are allowed.
+    if not x_session_token:
+        raise HTTPException(status_code=401, detail="Authentication required. Please log in and add your API key in Settings.")
 
-    # Unauthenticated (BYOK): accept client-supplied key.
-    if not api_key:
-        api_key = (body.apiKey or "").strip()
+    user = auth_db.get_user_by_session(x_session_token)
+    if not user:
+        raise HTTPException(status_code=401, detail="Invalid session. Please log in.")
 
-    if not api_key:
+    stored = auth_db.get_ai_settings(user["id"])
+    if not (stored and stored.get("apiKey")):
         raise HTTPException(
             status_code=401,
             detail="No AI API key configured. Please add your API key in Settings.",
         )
+
+    api_key = stored["apiKey"]
+    provider = body.provider or stored.get("provider", "gpt")
+    base_url = body.apiBaseUrl or stored.get("apiBaseUrl", "") or ""
+    model = model or stored.get("model", "")
 
     try:
         if provider == "gemini":

@@ -28,7 +28,6 @@ from utils import (
     save_json,
 )
 
-
 # ------------------------------------------------------------------
 # Helpers
 # ------------------------------------------------------------------
@@ -151,6 +150,7 @@ def _process_papers(papers, concept_label, author_map, allowed_author_ids=None):
                 "doi": paper.get("doi"),
                 "year": paper.get("publication_year"),
                 "citations": paper.get("cited_by_count"),
+                "counts_by_year": paper.get("counts_by_year", []),
                 "author_position": author_position_text,
                 "author_position_num": f"{idx}/{total_authors}",
                 "is_corresponding": corresponding,

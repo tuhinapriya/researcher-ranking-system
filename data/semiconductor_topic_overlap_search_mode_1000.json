@@ -1,0 +1,245 @@
+{
+  "sample_size": 1000,
+  "resolutions": {
+    "Semiconductor": {
+      "mode": "search",
+      "topic_id": null,
+      "topic_name": null,
+      "works_count": null
+    },
+    "Semiconductor Equipment": {
+      "mode": "search",
+      "topic_id": null,
+      "topic_name": null,
+      "works_count": null
+    },
+    "Semiconductor Processes": {
+      "mode": "search",
+      "topic_id": null,
+      "topic_name": null,
+      "works_count": null
+    },
+    "Semiconductor Materials": {
+      "mode": "search",
+      "topic_id": null,
+      "topic_name": null,
+      "works_count": null
+    },
+    "Semiconductor Devices": {
+      "mode": "search",
+      "topic_id": null,
+      "topic_name": null,
+      "works_count": null
+    }
+  },
+  "totals": {
+    "Semiconductor": {
+      "total": 1000,
+      "unique": 228,
+      "redundancy_pct": 77.2
+    },
+    "Semiconductor Equipment": {
+      "total": 1000,
+      "unique": 837,
+      "redundancy_pct": 16.300000000000004
+    },
+    "Semiconductor Processes": {
+      "total": 1000,
+      "unique": 97,
+      "redundancy_pct": 90.3
+    },
+    "Semiconductor Materials": {
+      "total": 1000,
+      "unique": 71,
+      "redundancy_pct": 92.9
+    },
+    "Semiconductor Devices": {
+      "total": 1000,
+      "unique": 99,
+      "redundancy_pct": 90.10000000000001
+    }
+  },
+  "researcher_totals": {
+    "Semiconductor": {
+      "total": 4320,
+      "unique": 508,
+      "redundancy_pct": 88.24074074074075
+    },
+    "Semiconductor Equipment": {
+      "total": 6442,
+      "unique": 4831,
+      "redundancy_pct": 25.007761564731446
+    },
+    "Semiconductor Processes": {
+      "total": 5755,
+      "unique": 353,
+      "redundancy_pct": 93.86620330147699
+    },
+    "Semiconductor Materials": {
+      "total": 5386,
+      "unique": 233,
+      "redundancy_pct": 95.67396955068696
+    },
+    "Semiconductor Devices": {
+      "total": 5422,
+      "unique": 360,
+      "redundancy_pct": 93.3603836222796
+    }
+  },
+  "labels": [
+    "Semiconductor",
+    "Semiconductor Equipment",
+    "Semiconductor Processes",
+    "Semiconductor Materials",
+    "Semiconductor Devices"
+  ],
+  "overlap_count_matrix": [
+    [
+      1000.0,
+      72.0,
+      463.0,
+      590.0,
+      481.0
+    ],
+    [
+      72.0,
+      1000.0,
+      158.0,
+      102.0,
+      116.0
+    ],
+    [
+      463.0,
+      158.0,
+      1000.0,
+      638.0,
+      658.0
+    ],
+    [
+      590.0,
+      102.0,
+      638.0,
+      1000.0,
+      617.0
+    ],
+    [
+      481.0,
+      116.0,
+      658.0,
+      617.0,
+      1000.0
+    ]
+  ],
+  "overlap_pct_matrix_row_normalized": [
+    [
+      100.0,
+      7.2,
+      46.3,
+      59.0,
+      48.1
+    ],
+    [
+      7.2,
+      100.0,
+      15.8,
+      10.2,
+      11.6
+    ],
+    [
+      46.3,
+      15.8,
+      100.0,
+      63.8,
+      65.8
+    ],
+    [
+      59.0,
+      10.2,
+      63.8,
+      100.0,
+      61.7
+    ],
+    [
+      48.1,
+      11.6,
+      65.8,
+      61.7,
+      100.0
+    ]
+  ],
+  "researcher_overlap_count_matrix": [
+    [
+      4320.0,
+      761.0,
+      2815.0,
+      3131.0,
+      2613.0
+    ],
+    [
+      761.0,
+      6442.0,
+      1523.0,
+      1210.0,
+      1341.0
+    ],
+    [
+      2815.0,
+      1523.0,
+      5755.0,
+      4040.0,
+      4151.0
+    ],
+    [
+      3131.0,
+      1210.0,
+      4040.0,
+      5386.0,
+      3762.0
+    ],
+    [
+      2613.0,
+      1341.0,
+      4151.0,
+      3762.0,
+      5422.0
+    ]
+  ],
+  "researcher_overlap_pct_matrix_row_normalized": [
+    [
+      100.0,
+      17.61574074074074,
+      65.16203703703704,
+      72.47685185185185,
+      60.486111111111114
+    ],
+    [
+      11.813101521266688,
+      100.0,
+      23.641726171996275,
+      18.78298665010866,
+      20.816516609748525
+    ],
+    [
+      48.91398783666377,
+      26.463944396177236,
+      100.0,
+      70.19982623805386,
+      72.12858384013902
+    ],
+    [
+      58.13219457853695,
+      22.46565168956554,
+      75.00928332714444,
+      100.0,
+      69.84775343483105
+    ],
+    [
+      48.19254887495389,
+      24.732571007008485,
+      76.55846551088159,
+      69.38399114717816,
+      100.0
+    ]
+  ],
+  "recommendation": "\n=== Recommendation: Should 'Semiconductor' be kept? ===\n- Coverage of Semiconductor Equipment by Semiconductor: 7.20% (missed 928/1000 sampled papers)\n- Coverage of Semiconductor Processes by Semiconductor: 46.30% (missed 537/1000 sampled papers)\n- Coverage of Semiconductor Materials by Semiconductor: 59.00% (missed 410/1000 sampled papers)\n- Coverage of Semiconductor Devices by Semiconductor: 48.10% (missed 519/1000 sampled papers)\n- Conclusion: Semiconductor is not a reliable superset for all specific categories. Keep specific categories and consider Semiconductor optional."
+}

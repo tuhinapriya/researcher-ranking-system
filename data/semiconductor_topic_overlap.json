@@ -1,0 +1,144 @@
+{
+  "sample_size": 600,
+  "resolutions": {
+    "Semiconductor": {
+      "mode": "topic",
+      "topic_id": "T10472",
+      "topic_name": "Semiconductor materials and devices",
+      "works_count": 191263
+    },
+    "Semiconductor Equipment": {
+      "mode": "search",
+      "topic_id": null,
+      "topic_name": null,
+      "works_count": null
+    },
+    "Semiconductor Processes": {
+      "mode": "search",
+      "topic_id": null,
+      "topic_name": null,
+      "works_count": null
+    },
+    "Semiconductor Materials": {
+      "mode": "topic",
+      "topic_id": "T10099",
+      "topic_name": "GaN-based semiconductor devices and materials",
+      "works_count": 127216
+    },
+    "Semiconductor Devices": {
+      "mode": "topic",
+      "topic_id": "T10558",
+      "topic_name": "Advancements in Semiconductor Devices and Circuit Design",
+      "works_count": 86149
+    }
+  },
+  "totals": {
+    "Semiconductor": {
+      "total": 600,
+      "unique": 593,
+      "redundancy_pct": 1.1666666666666714
+    },
+    "Semiconductor Equipment": {
+      "total": 600,
+      "unique": 500,
+      "redundancy_pct": 16.666666666666664
+    },
+    "Semiconductor Processes": {
+      "total": 600,
+      "unique": 498,
+      "redundancy_pct": 17.000000000000004
+    },
+    "Semiconductor Materials": {
+      "total": 600,
+      "unique": 596,
+      "redundancy_pct": 0.666666666666671
+    },
+    "Semiconductor Devices": {
+      "total": 600,
+      "unique": 599,
+      "redundancy_pct": 0.16666666666667052
+    }
+  },
+  "labels": [
+    "Semiconductor",
+    "Semiconductor Equipment",
+    "Semiconductor Processes",
+    "Semiconductor Materials",
+    "Semiconductor Devices"
+  ],
+  "overlap_count_matrix": [
+    [
+      600.0,
+      3.0,
+      4.0,
+      0.0,
+      0.0
+    ],
+    [
+      3.0,
+      600.0,
+      95.0,
+      2.0,
+      0.0
+    ],
+    [
+      4.0,
+      95.0,
+      600.0,
+      2.0,
+      1.0
+    ],
+    [
+      0.0,
+      2.0,
+      2.0,
+      600.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      600.0
+    ]
+  ],
+  "overlap_pct_matrix_row_normalized": [
+    [
+      100.0,
+      0.5,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      100.0,
+      15.833333333333334,
+      0.3333333333333333,
+      0.0
+    ],
+    [
+      0.6666666666666666,
+      15.833333333333334,
+      100.0,
+      0.3333333333333333,
+      0.16666666666666666
+    ],
+    [
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      100.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.16666666666666666,
+      0.0,
+      100.0
+    ]
+  ],
+  "recommendation": "\n=== Recommendation: Should 'Semiconductor' be kept? ===\n- Coverage of Semiconductor Equipment by Semiconductor: 0.50% (missed 597/600 sampled papers)\n- Coverage of Semiconductor Processes by Semiconductor: 0.67% (missed 596/600 sampled papers)\n- Coverage of Semiconductor Materials by Semiconductor: 0.00% (missed 600/600 sampled papers)\n- Coverage of Semiconductor Devices by Semiconductor: 0.00% (missed 600/600 sampled papers)\n- Conclusion: Semiconductor is not a reliable superset for all specific categories. Keep specific categories and consider Semiconductor optional."
+}

@@ -38,7 +38,6 @@ from config import (
 )
 from utils import extract_institution_id, load_json, save_json
 
-
 INSTITUTION_SANITIZATION_RULES = {
     "id": {"required": True},
     "name": {"required": True},
@@ -396,6 +395,7 @@ def _build_profile(
                     "doi": p.get("doi"),
                     "year": p.get("year"),
                     "citations": p.get("citations"),
+                    "counts_by_year": p.get("counts_by_year", []),
                     "author_position": p.get("author_position"),
                     "abstract": p.get("abstract"),
                     "primary_topic": pt.get("topic") if pt else None,
@@ -522,7 +522,9 @@ def _upsert_researcher_bundle(cursor, researcher):
         return False
 
     upsert_researcher(cursor, sanitized_researcher)
-    logging.info("[Stage 4] Researcher row upserted for researcher_id=%s", researcher_id)
+    logging.info(
+        "[Stage 4] Researcher row upserted for researcher_id=%s", researcher_id
+    )
 
     upsert_papers(cursor, researcher_id, researcher.get("papers_by_concept", {}))
     upsert_topics(cursor, researcher_id, researcher.get("research_topics_granular", []))
@@ -593,7 +595,9 @@ def run(
     else:
         author_map = load_json(FIELD_AUTHOR_MAP_FILE)
         if not author_map:
-            print("[Stage 4] Error: field_author_map.json not found. Run Stage 2 first.")
+            print(
+                "[Stage 4] Error: field_author_map.json not found. Run Stage 2 first."
+            )
             return
     author_items = list(author_map.items())
     if limit:
@@ -606,7 +610,9 @@ def run(
                 idata = load_json(os.path.join(INSTITUTIONS_DIR, fname))
                 if idata:
                     institution_cache[inst_id] = idata
-    print(f"[Stage 4] Assembling knowledge base for {len(author_items)} researchers ...")
+    print(
+        f"[Stage 4] Assembling knowledge base for {len(author_items)} researchers ..."
+    )
     print(f"  Loaded {len(institution_cache)} institution profiles.")
     if region:
         print(

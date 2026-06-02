@@ -3,7 +3,7 @@ import { createServer } from "http";
 import path from "path";
 import { fileURLToPath } from "url";
 import { handleAiChatRequest } from "./ai";
-import { handleGetAiSettings, handleGetSaved, handleGoogleCallback, handleGoogleStart, handleLogin, handleLogout, handleMe, handleRegister, handleRequestCode, handleResetPassword, handleSaveAiSettings, handleSetSaved, handleSupportTicket } from "./auth";
+import { handleGetAiSettings, handleGetSaved, handleGoogleCallback, handleGoogleStart, handleLogin, handleLogout, handleMe, handleRegister, handleRequestCode, handleResetPassword, handleResearchersLookup, handleSaveAiSettings, handleSetSaved, handleSupportTicket } from "./auth";
 import { handleRankingHealthRequest, handleRankingRankRequest } from "./ranking";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -56,6 +56,10 @@ async function startServer() {
 
   app.put("/api/saved-researchers", async (req, res) => {
     await handleSetSaved(req, req.body, res);
+  });
+
+  app.post("/api/researchers/lookup", async (req, res) => {
+    await handleResearchersLookup(req, req.body, res);
   });
 
   app.get("/api/settings/ai", async (req, res) => {

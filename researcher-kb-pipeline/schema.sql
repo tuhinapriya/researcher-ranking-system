@@ -85,6 +85,22 @@ CREATE TABLE researcher_topics (
     INDEX idx_topics_topic (topic)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+-- Table: paper_citations_by_year
+-- Stores per-paper, per-year citation counts sourced from OpenAlex counts_by_year.
+-- OpenAlex provides approximately the 10 most recent years of history per paper.
+-- Papers not yet backfilled are simply absent; ranking falls back to lifetime citations.
+CREATE TABLE paper_citations_by_year (
+    paper_id VARCHAR(128) NOT NULL,
+    year SMALLINT NOT NULL,
+    cited_by_count INT DEFAULT 0 NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP NOT NULL,
+    PRIMARY KEY (paper_id, year),
+    FOREIGN KEY (paper_id) REFERENCES papers(id) ON DELETE CASCADE,
+    INDEX idx_pcby_year (year),
+    INDEX idx_pcby_paper_year (paper_id, year)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 -- Table: researcher_collaborations
 CREATE TABLE researcher_collaborations (
     researcher_id VARCHAR(128) NOT NULL,

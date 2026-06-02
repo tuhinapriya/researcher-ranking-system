@@ -8,6 +8,7 @@ from pydantic import BaseModel, Field, model_validator
 import auth_db
 from auth_routes import router as auth_router
 from search import default_mock_data_file, rank_researchers
+from db import fetch_researcher_ranking_rows, get_connection
 
 logging.basicConfig(
     level=logging.INFO,
@@ -201,3 +202,61 @@ def rank(request: RankRequest) -> RankResponse:
             status_code=_error_status_code(exc),
             detail=str(exc),
         ) from exc
+
+
+class ResearchersLookupRequest(BaseModel):
+    ids: list[str] = Field(..., min_length=1, max_length=200)
+
+
+class ResearcherProfileResponse(BaseModel):
+    id: str
+    name: str | None = None
+    institution: str | None = None
+    region: str | None = None
+    total_works: int | None = None
+    total_citations: int | None = None
+    h_index: int | None = None
+    i10_index: int | None = None
+    years_active: int | None = None
+    author_url: str | None = None
+    country: str | None = None
+
+
+class ResearchersLookupResponse(BaseModel):
+    researchers: list[ResearcherProfileResponse]
+
+
+@app.post(
+    "/researchers/lookup",
+    response_model=ResearchersLookupResponse,
+    responses={500: {"model": ErrorResponse}},
+)
+def researchers_lookup(request: ResearchersLookupRequest) -> ResearchersLookupResponse:
+    """Return basic profile data for a list of researcher IDs (used for cross-device saved-researcher restoration)."""
+    ids = request.ids[:100]  # Hard cap — defend against oversized requests
+    conn = get_connection()
+    try:
+        cursor = conn.cursor()
+        rows = fetch_researcher_ranking_rows(cursor, researcher_ids=ids)
+        profiles = [
+            ResearcherProfileResponse(
+                id=row["id"],
+                name=row.get("name"),
+                institution=row.get("institution_name") or row.get("institution"),
+                region=row.get("institution_region") or row.get("region"),
+                total_works=row.get("total_works"),
+                total_citations=row.get("total_citations"),
+                h_index=row.get("h_index"),
+                i10_index=row.get("i10_index"),
+                years_active=row.get("years_active"),
+                author_url=row.get("author_url"),
+                country=row.get("country") or row.get("institution_country"),
+            )
+            for row in rows
+        ]
+        return ResearchersLookupResponse(researchers=profiles)
+    except Exception as exc:
+        logger.exception("researchers_lookup_failed ids_count=%s", len(ids))
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+    finally:
+        conn.close()

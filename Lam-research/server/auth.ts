@@ -219,6 +219,15 @@ export async function handleSetSaved(req: any, body: any, res: any) {
   sendJson(res, r.status, data);
 }
 
+export async function handleResearchersLookup(req: any, body: any, res: any) {
+  const token = getSessionToken(req);
+  if (!token) return sendJson(res, 401, { error: "Login required." });
+  const r = await backendCall("/researchers/lookup", { method: "POST", body: JSON.stringify(body) }, token).catch(() => null);
+  if (!r) return sendJson(res, 502, { error: "Backend unavailable." });
+  const data = await r.json().catch(() => ({}));
+  sendJson(res, r.status, data);
+}
+
 export async function handleResetPassword(body: any, res: any) {
   const r = await backendCall("/auth/reset-password", { method: "POST", body: JSON.stringify(body) }).catch(() => null);
   if (!r) return sendJson(res, 502, { error: "Backend unavailable." });

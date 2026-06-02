@@ -8,5 +8,21 @@ steps:
       - us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ranking:latest
       - .
 
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ranking:latest
+
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - researcher-ranking
+      - --image=us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ranking:latest
+      - --region=us-central1
+      - --platform=managed
+      - --quiet
+
 images:
   - us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ranking:latest

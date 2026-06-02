@@ -235,6 +235,7 @@ def upsert_papers(cursor, researcher_id, papers_by_concept):
                     "citations": paper.get("citations", 0),
                     "concept": concept,
                     "abstract": abstract,
+                    "counts_by_year": paper.get("counts_by_year", []),
                     # embedding_id will be filled after embedding
                 }
             )
@@ -297,6 +298,19 @@ def upsert_papers(cursor, researcher_id, papers_by_concept):
             raise DatabaseUpsertError(
                 f"Paper upsert failed for paper_id={row['paper_id']}"
             ) from e
+        # Store per-year citation data when available (additive — does not
+        # affect existing paper rows if counts_by_year is empty).
+        if row.get("counts_by_year"):
+            try:
+                upsert_paper_citations_by_year(
+                    cursor, row["paper_id"], row["counts_by_year"]
+                )
+            except Exception as e:
+                logging.warning(
+                    "paper_citations_by_year upsert failed for paper_id=%s: %s",
+                    row["paper_id"],
+                    e,
+                )
     logging.info(
         "Paper upsert loop finished for researcher=%s total_papers=%s embedded=%s",
         researcher_id,
@@ -415,6 +429,75 @@ def fetch_researcher_ranking_rows(
     cursor.execute(sql, tuple(params))
     columns = [column[0] for column in cursor.description]
     return [dict(zip(columns, row)) for row in cursor.fetchall()]
+
+
+def upsert_paper_citations_by_year(cursor, paper_id, counts_by_year):
+    """
+    Insert or update per-year citation counts for a single paper.
+    counts_by_year is a list of {year: int, cited_by_count: int} dicts as
+    returned by the OpenAlex works API.  Safe to call with an empty list.
+    """
+    if not paper_id or not counts_by_year:
+        return
+    sql = """
+        INSERT INTO paper_citations_by_year (paper_id, year, cited_by_count)
+        VALUES (%s, %s, %s)
+        ON DUPLICATE KEY UPDATE cited_by_count = VALUES(cited_by_count)
+    """
+    rows = [
+        (paper_id, int(entry["year"]), int(entry.get("cited_by_count") or 0))
+        for entry in counts_by_year
+        if entry.get("year") is not None
+    ]
+    if rows:
+        cursor.executemany(sql, rows)
+
+
+def fetch_windowed_citations_for_papers(
+    cursor, paper_ids, start_year=None, end_year=None
+):
+    """
+    Return a dict {paper_id: windowed_citations} for every paper_id that has at
+    least one row in paper_citations_by_year.
+
+    windowed_citations is the sum of cited_by_count for years within
+    [start_year, end_year].  A paper in the table that received 0 citations
+    inside the window will have windowed_citations = 0.
+
+    Papers NOT present in the table are omitted entirely.  The caller should
+    treat missing entries as None (no data yet) and fall back to the lifetime-
+    citation approximation for those papers.
+    """
+    ids = [pid for pid in (paper_ids or []) if pid]
+    if not ids:
+        return {}
+
+    placeholders = ", ".join(["%s"] * len(ids))
+
+    # Build a conditional SUM so every paper in the table returns a row,
+    # even when no years fall within the requested window (result = 0).
+    if start_year is not None and end_year is not None:
+        case_expr = "CASE WHEN year >= %s AND year <= %s THEN cited_by_count ELSE 0 END"
+        case_params = [start_year, end_year]
+    elif start_year is not None:
+        case_expr = "CASE WHEN year >= %s THEN cited_by_count ELSE 0 END"
+        case_params = [start_year]
+    elif end_year is not None:
+        case_expr = "CASE WHEN year <= %s THEN cited_by_count ELSE 0 END"
+        case_params = [end_year]
+    else:
+        case_expr = "cited_by_count"
+        case_params = []
+
+    params = case_params + ids
+    sql = f"""
+        SELECT paper_id, COALESCE(SUM({case_expr}), 0) AS windowed_citations
+        FROM paper_citations_by_year
+        WHERE paper_id IN ({placeholders})
+        GROUP BY paper_id
+    """
+    cursor.execute(sql, tuple(params))
+    return {row[0]: int(row[1]) for row in cursor.fetchall()}
 
 
 def fetch_papers_by_ids(cursor, paper_ids):

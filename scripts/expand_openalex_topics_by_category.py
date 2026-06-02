@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Expand Lam categories into OpenAlex topic candidates.
+"""Expand research categories into OpenAlex topic candidates.
 
 This script discovers OpenAlex topics per category using multiple search phrases,
 then exports an Excel workbook with:

@@ -81,9 +81,11 @@ def init_auth_tables() -> None:
         """)
         # ── Safe migrations for existing deployments ────────────────────────
         # Add phone column if this is an upgrade from a pre-phone schema.
-        cur.execute(
-            "ALTER TABLE app_users ADD COLUMN IF NOT EXISTS " "phone VARCHAR(20) NULL"
-        )
+        # Use try/except for MySQL 5.7 compatibility (no IF NOT EXISTS on ADD COLUMN).
+        try:
+            cur.execute("ALTER TABLE app_users ADD COLUMN phone VARCHAR(20) NULL")
+        except Exception:
+            pass  # Column already exists
         # Add unique index on phone if it doesn't already exist.
         cur.execute(
             "SELECT COUNT(*) FROM information_schema.statistics "
@@ -92,9 +94,12 @@ def init_auth_tables() -> None:
             "  AND index_name = 'idx_app_users_phone'"
         )
         if cur.fetchone()[0] == 0:  # regular (tuple) cursor
-            cur.execute(
-                "ALTER TABLE app_users ADD UNIQUE INDEX idx_app_users_phone (phone)"
-            )
+            try:
+                cur.execute(
+                    "ALTER TABLE app_users ADD UNIQUE INDEX idx_app_users_phone (phone)"
+                )
+            except Exception:
+                pass  # Index already exists
         cur.execute("""
             CREATE TABLE IF NOT EXISTS support_tickets (
                 id         VARCHAR(36)   PRIMARY KEY,
@@ -269,11 +274,18 @@ def create_password_user(
     conn = get_connection()
     cur = conn.cursor()
     try:
-        cur.execute(
-            "INSERT INTO app_users (id, identifier, password_hash, created_at, provider, phone) "
-            "VALUES (%s, %s, %s, %s, %s, %s)",
-            (user_id, identifier, password_hash, now, "password", phone or None),
-        )
+        if phone:
+            cur.execute(
+                "INSERT INTO app_users (id, identifier, password_hash, created_at, provider, phone) "
+                "VALUES (%s, %s, %s, %s, %s, %s)",
+                (user_id, identifier, password_hash, now, "password", phone),
+            )
+        else:
+            cur.execute(
+                "INSERT INTO app_users (id, identifier, password_hash, created_at, provider) "
+                "VALUES (%s, %s, %s, %s, %s)",
+                (user_id, identifier, password_hash, now, "password"),
+            )
         conn.commit()
     finally:
         cur.close()

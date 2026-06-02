@@ -75,9 +75,7 @@ def _discover_concept(
     filter_parts = []
     use_query_mode = bool(query and query.strip())
     if use_query_mode:
-        print(
-            f"    Using query-based retrieval with search term '{query.strip()}'"
-        )
+        print(f"    Using query-based retrieval with search term '{query.strip()}'")
     else:
         if concept_id.startswith("T"):
             topic_filter = f"primary_topic.id:{concept_id}"
@@ -153,6 +151,7 @@ def _discover_concept(
                     "title": work.get("title"),
                     "publication_year": work.get("publication_year"),
                     "cited_by_count": work.get("cited_by_count"),
+                    "counts_by_year": work.get("counts_by_year", []),
                     "abstract": abstract,
                     "authorships": work.get("authorships", []),
                     "primary_topic": work.get("primary_topic"),
@@ -164,7 +163,9 @@ def _discover_concept(
                 f.write(json.dumps(record, ensure_ascii=False) + "\n")
                 batch_records.append(record)
                 total_fetched += 1
-            print(f"    Fetched paper batch {page_num} with {len(batch_records)} papers")
+            print(
+                f"    Fetched paper batch {page_num} with {len(batch_records)} papers"
+            )
             if on_page_fetched is not None:
                 on_page_fetched(
                     concept_id=concept_id,
@@ -181,7 +182,9 @@ def _discover_concept(
                 unique_before = len(author_map)
                 _process_papers(batch_records, concept_label, author_map)
                 new_unique = len(author_map) - unique_before
-                print(f"    Discovered {new_unique} new unique researchers in this batch")
+                print(
+                    f"    Discovered {new_unique} new unique researchers in this batch"
+                )
                 print(f"    Total unique researchers collected: {len(author_map)}")
             pages_fetched += 1
             print(f"    Processed {page_num} pages / {total_fetched} papers")

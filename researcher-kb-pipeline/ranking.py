@@ -16,7 +16,7 @@ from config import (
     TARGET_PAPERS_PER_RESEARCHER,
     TOP_K_PINECONE,
 )
-from db import fetch_papers_by_ids
+from db import fetch_papers_by_ids, fetch_windowed_citations_for_papers
 
 try:
     from config import R_WEIGHT
@@ -242,6 +242,29 @@ def _fetch_diverse_ranked_matches(
     return final_ranked_matches, debug_metadata
 
 
+def _hydrate_windowed_citations(ranked_matches, cursor, start_year, end_year):
+    """Add a 'windowed_citations' key to each ranked match using data from
+    paper_citations_by_year.
+
+    If a paper is present in paper_citations_by_year its windowed_citations will
+    be the sum of cited_by_count for years in [start_year, end_year] (may be 0).
+
+    If a paper is NOT yet in that table (not yet backfilled) windowed_citations
+    is left absent from the dict; _build_qr_details will fall back to the
+    publication-year approximation for those papers.
+    """
+    paper_ids = [m.get("paper_id") for m in ranked_matches if m.get("paper_id")]
+    if not paper_ids:
+        return
+    windowed = fetch_windowed_citations_for_papers(
+        cursor, paper_ids, start_year, end_year
+    )
+    for match in ranked_matches:
+        paper_id = match.get("paper_id")
+        if paper_id in windowed:
+            match["windowed_citations"] = windowed[paper_id]
+
+
 def _build_qr_details(
     ranked_matches,
     candidate_researcher_ids=None,
@@ -249,7 +272,24 @@ def _build_qr_details(
     start_year=None,
     end_year=None,
 ):
-    """Q = avg(top-N similarity. R = total citations from query-matched papers in the selected time range."""
+    """Build per-researcher Q and R scores from Pinecone-matched papers.
+
+    Q = average similarity of the researcher's top-N matched papers (padded with
+        zeros when fewer than top_n papers are available).
+
+    R = sum of citations received during [start_year, end_year] for matched
+        papers.  Two-tier computation:
+
+        Tier 1 (preferred): if the paper has a 'windowed_citations' key (set by
+          _hydrate_windowed_citations from paper_citations_by_year) that exact
+          per-year citation total is used.  A paper published BEFORE the window
+          still contributes if it received citations within the window.
+
+        Tier 2 (fallback): if a paper has no windowed_citations data yet (not
+          yet backfilled) the old approximation is used — the paper must have
+          been published within [start_year, end_year] and contributes its
+          lifetime citation count.
+    """
     allowed_ids = set(candidate_researcher_ids or [])
     per_researcher = defaultdict(list)
 
@@ -265,6 +305,7 @@ def _build_qr_details(
                 "title": match.get("title"),
                 "year": match.get("year"),
                 "citations": match.get("citations"),
+                "windowed_citations": match.get("windowed_citations"),
                 "similarity": float(match.get("similarity", 0.0) or 0.0),
             }
         )
@@ -286,12 +327,16 @@ def _build_qr_details(
 
         q_value = sum(scores) / top_n
 
-        range_matches = [
-            match
-            for match in sorted_matches
-            if _is_in_selected_year_range(match.get("year"), start_year, end_year)
-        ]
-        r_raw = sum(float(match.get("citations") or 0.0) for match in range_matches)
+        r_raw = 0.0
+        for match in sorted_matches:
+            windowed = match.get("windowed_citations")
+            if windowed is not None:
+                # Tier 1: exact per-year data — include regardless of pub year.
+                r_raw += float(windowed)
+            elif _is_in_selected_year_range(match.get("year"), start_year, end_year):
+                # Tier 2: fallback — use lifetime citations for papers published
+                # within the window that haven't been backfilled yet.
+                r_raw += float(match.get("citations") or 0.0)
 
         researcher_q_raw[researcher_id] = q_value
         researcher_r_raw[researcher_id] = r_raw
@@ -350,6 +395,7 @@ def compute_q_weighted(
     query_text,
     cursor,
     candidate_researcher_ids=None,
+    forced_researcher_ids=None,
     top_k=TOP_K_PINECONE,
     min_unique_researchers=MIN_UNIQUE_RESEARCHERS,
     max_top_k=MAX_TOP_K_PINECONE,
@@ -438,6 +484,46 @@ def compute_q_weighted(
                 "depth_enrichment_added_unique_matches": 0,
             }
         )
+
+    # For author/institution searches, ensure every DB-matched researcher has their
+    # papers fetched from Pinecone even if they were absent from the global semantic
+    # search results.  This prevents a researcher from being dropped solely because
+    # their paper abstracts are not the closest semantic match to the author/institution
+    # name string used as the query embedding.
+    if forced_researcher_ids:
+        already_covered = {
+            m["researcher_id"] for m in ranked_matches if m.get("researcher_id")
+        }
+        ids_needing_forced_enrichment = [
+            rid for rid in forced_researcher_ids if rid not in already_covered
+        ]
+        if ids_needing_forced_enrichment:
+            logging.info(
+                "[Ranking] Forced enrichment for %s researcher(s) missing from Pinecone global results",
+                len(ids_needing_forced_enrichment),
+            )
+            ranked_matches, forced_metadata = _enrich_ranked_matches_for_researchers(
+                query_embedding=query_embedding,
+                cursor=cursor,
+                ranked_matches=ranked_matches,
+                researcher_ids=ids_needing_forced_enrichment,
+                max_papers_per_researcher=max_papers_per_researcher,
+            )
+            debug_metadata["forced_enrichment_researcher_count"] = forced_metadata.get(
+                "depth_enriched_researcher_count", 0
+            )
+            debug_metadata["forced_enrichment_added_matches"] = forced_metadata.get(
+                "depth_enrichment_added_unique_matches", 0
+            )
+            debug_metadata["pinecone_match_count"] = len(ranked_matches)
+        else:
+            debug_metadata["forced_enrichment_researcher_count"] = 0
+            debug_metadata["forced_enrichment_added_matches"] = 0
+
+    # Hydrate each match with exact per-year citation data from MySQL so that
+    # _build_qr_details can use actual received-in-window citations instead of
+    # the lifetime-citation approximation.
+    _hydrate_windowed_citations(ranked_matches, cursor, start_year, end_year)
 
     qr_details = _build_qr_details(
         ranked_matches=ranked_matches,
