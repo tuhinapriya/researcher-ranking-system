@@ -24,6 +24,9 @@ logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
+# Demo user ID allowed to use ADC when no key stored
+DEMO_USER_ID = "d5a3b5dd-8c14-4765-8e04-40834555f086"
+
 SHOW_DEV_CODE = os.environ.get("RESEARCH_AI_SHOW_DEV_CODE", "").lower() in (
     "1",
     "true",
@@ -115,6 +118,32 @@ def _require_session(x_session_token: str | None) -> dict:
     if not user:
         raise HTTPException(status_code=401, detail="Session expired or invalid.")
     return user
+
+
+def _get_adc_access_token() -> str:
+    # Try metadata server (Cloud Run / GCE)
+    try:
+        resp = http_requests.get(
+            "http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token",
+            headers={"Metadata-Flavor": "Google"},
+            timeout=2,
+        )
+        if resp.status_code == 200:
+            return resp.json().get("access_token", "")
+    except Exception:
+        pass
+
+    # Fallback: try google.auth (useful for local dev with ADC)
+    try:
+        import google.auth
+        import google.auth.transport.requests
+
+        creds, _ = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
+        request = google.auth.transport.requests.Request()
+        creds.refresh(request)
+        return getattr(creds, "token", "") or ""
+    except Exception:
+        return ""
 
 
 # E.164: + followed by 7–15 digits (first digit non-zero = no country code starting with 0)
@@ -435,24 +464,38 @@ def _gemini_chat(
     base_url: str,
     messages: list[AiChatMessage],
     context: str | None,
+    access_token: str | None = None,
 ) -> str:
     model = model or "gemini-2.5-flash"
     base_url = (base_url or "https://generativelanguage.googleapis.com/v1beta").rstrip("/")
     prompt_parts = [_SYSTEM_PROMPT, context or ""] + [f"{m.role}: {m.content}" for m in messages]
     prompt = "\n\n".join(p for p in prompt_parts if p)
 
-    if not api_key:
-        raise ValueError("No API key provided for Gemini call.")
+    if access_token:
+        url = f"{base_url}/models/{urllib.parse.quote(model, safe='')}:generateContent"
+        headers = {"Content-Type": "application/json", "Authorization": f"Bearer {access_token}"}
+        resp = http_requests.post(
+            url,
+            headers=headers,
+            json={
+                "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0.3},
+            },
+            timeout=60,
+        )
+    else:
+        if not api_key:
+            raise ValueError("No API key provided for Gemini call.")
 
-    resp = http_requests.post(
-        f"{base_url}/models/{urllib.parse.quote(model, safe='')}:generateContent?key={urllib.parse.quote(api_key, safe='')}",
-        headers={"Content-Type": "application/json"},
-        json={
-            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": 0.3},
-        },
-        timeout=60,
-    )
+        resp = http_requests.post(
+            f"{base_url}/models/{urllib.parse.quote(model, safe='')}:generateContent?key={urllib.parse.quote(api_key, safe='')}",
+            headers={"Content-Type": "application/json"},
+            json={
+                "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0.3},
+            },
+            timeout=60,
+        )
 
     resp.raise_for_status()
     parts = resp.json().get("candidates", [{}])[0].get("content", {}).get("parts", [])
@@ -527,20 +570,37 @@ def ai_chat(body: AiChatBody, x_session_token: str | None = Header(None)):
         raise HTTPException(status_code=401, detail="Invalid session. Please log in.")
 
     stored = auth_db.get_ai_settings(user["id"])
-    if not (stored and stored.get("apiKey")):
-        raise HTTPException(
-            status_code=401,
-            detail="No AI API key configured. Please add your API key in Settings.",
-        )
 
-    api_key = stored["apiKey"]
-    provider = body.provider or stored.get("provider", "gpt")
-    base_url = body.apiBaseUrl or stored.get("apiBaseUrl", "") or ""
-    model = model or stored.get("model", "")
+    api_key = ""
+    access_token = None
+
+    if stored and stored.get("apiKey"):
+        api_key = stored["apiKey"]
+        provider = body.provider or stored.get("provider", "gpt")
+        base_url = body.apiBaseUrl or stored.get("apiBaseUrl", "") or ""
+        model = model or stored.get("model", "")
+    else:
+        # No stored API key. Allow ADC only for the official demo user id.
+        if user.get("id") == DEMO_USER_ID:
+            access_token = _get_adc_access_token()
+            if not access_token:
+                raise HTTPException(
+                    status_code=401,
+                    detail="No AI API key configured. Please add your API key in Settings.",
+                )
+            provider = body.provider or "gemini"
+            base_url = body.apiBaseUrl or ""
+            model = model or "gemini-2.5-flash"
+        else:
+            # Non-demo users must have a stored key
+            raise HTTPException(
+                status_code=401,
+                detail="No AI API key configured. Please add your API key in Settings.",
+            )
 
     try:
         if provider == "gemini":
-            answer = _gemini_chat(api_key, model, base_url, body.messages, body.context)
+            answer = _gemini_chat(api_key, model, base_url, body.messages, body.context, access_token=access_token)
         elif provider == "claude":
             answer = _claude_chat(api_key, model, base_url, body.messages, body.context)
         else:
