@@ -138,7 +138,9 @@ def _get_adc_access_token() -> str:
         import google.auth
         import google.auth.transport.requests
 
-        creds, _ = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
+        creds, _ = google.auth.default(
+            scopes=["https://www.googleapis.com/auth/cloud-platform"]
+        )
         request = google.auth.transport.requests.Request()
         creds.refresh(request)
         return getattr(creds, "token", "") or ""
@@ -467,13 +469,20 @@ def _gemini_chat(
     access_token: str | None = None,
 ) -> str:
     model = model or "gemini-2.5-flash"
-    base_url = (base_url or "https://generativelanguage.googleapis.com/v1beta").rstrip("/")
-    prompt_parts = [_SYSTEM_PROMPT, context or ""] + [f"{m.role}: {m.content}" for m in messages]
+    base_url = (base_url or "https://generativelanguage.googleapis.com/v1beta").rstrip(
+        "/"
+    )
+    prompt_parts = [_SYSTEM_PROMPT, context or ""] + [
+        f"{m.role}: {m.content}" for m in messages
+    ]
     prompt = "\n\n".join(p for p in prompt_parts if p)
 
     if access_token:
         url = f"{base_url}/models/{urllib.parse.quote(model, safe='')}:generateContent"
-        headers = {"Content-Type": "application/json", "Authorization": f"Bearer {access_token}"}
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {access_token}",
+        }
         resp = http_requests.post(
             url,
             headers=headers,
@@ -563,7 +572,10 @@ def ai_chat(body: AiChatBody, x_session_token: str | None = Header(None)):
     # Strict policy: require authenticated user with a stored API key. No
     # fallbacks, ADC, or client-supplied keys are allowed.
     if not x_session_token:
-        raise HTTPException(status_code=401, detail="Authentication required. Please log in and add your API key in Settings.")
+        raise HTTPException(
+            status_code=401,
+            detail="Authentication required. Please log in and add your API key in Settings.",
+        )
 
     user = auth_db.get_user_by_session(x_session_token)
     if not user:
@@ -600,7 +612,14 @@ def ai_chat(body: AiChatBody, x_session_token: str | None = Header(None)):
 
     try:
         if provider == "gemini":
-            answer = _gemini_chat(api_key, model, base_url, body.messages, body.context, access_token=access_token)
+            answer = _gemini_chat(
+                api_key,
+                model,
+                base_url,
+                body.messages,
+                body.context,
+                access_token=access_token,
+            )
         elif provider == "claude":
             answer = _claude_chat(api_key, model, base_url, body.messages, body.context)
         else:
