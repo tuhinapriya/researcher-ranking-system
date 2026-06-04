@@ -23,9 +23,6 @@ from db import (
 )
 
 
-import pandas as pd
-
-
 from config import (
     COAUTHORS_DIR,
     FIELD_AUTHOR_MAP_FILE,
@@ -265,6 +262,30 @@ def _build_profile(
                 "id": inst.get("id"),
             }
         )
+
+    # Fallback: if OpenAlex has no last_known_institutions, use institutions_seen
+    # collected during Stage 2/Stage 2 processing (papers-based). This ensures
+    # fallback ingestion flows that found institutions from authorship rows
+    # still populate researcher affiliation when the OA author profile lacks it.
+    if not current_institutions:
+        seen = field_data.get("institutions_seen") or {}
+        if seen:
+            logging.info(
+                "[Stage 4] Using institutions_seen fallback for author=%s (count=%s)",
+                author_id,
+                len(seen),
+            )
+            for inst_id, instinfo in seen.items():
+                current_institutions.append(
+                    {
+                        "name": instinfo.get("name"),
+                        "type": instinfo.get("type"),
+                        "country": instinfo.get("country"),
+                        "city": None,
+                        "region": None,
+                        "id": instinfo.get("id"),
+                    }
+                )
 
     affiliation_history = []
     for aff in oa.get("affiliations") or []:
@@ -583,6 +604,9 @@ def run(
     region=None,
     author_map_override=None,
     export_artifacts=True,
+    cancel_check=None,
+    start_index=0,
+    checkpoint_callback=None,
 ):
     """
     Assemble final knowledge_base.json + summary Excel.
@@ -602,6 +626,7 @@ def run(
     author_items = list(author_map.items())
     if limit:
         author_items = author_items[:limit]
+    start_index = max(0, min(int(start_index or 0), len(author_items)))
     institution_cache: dict[str, dict] = {}
     if os.path.isdir(INSTITUTIONS_DIR):
         for fname in os.listdir(INSTITUTIONS_DIR):
@@ -629,7 +654,12 @@ def run(
         cursor = conn.cursor()
         logging.info("[Stage 4] MySQL cursor created. Starting batch upserts.")
         batch = []
-        for idx, (author_id, field_data) in enumerate(author_items, 1):
+        for idx, (author_id, field_data) in enumerate(
+            author_items[start_index:],
+            start_index + 1,
+        ):
+            if cancel_check is not None and cancel_check():
+                raise RuntimeError("Stage 4 cancelled before DB/Pinecone writes")
             profile_data = load_json(os.path.join(PROFILES_DIR, f"{author_id}.json"))
             oa_profile = profile_data.get("openalex") if profile_data else None
             s2_profile = profile_data.get("semantic_scholar") if profile_data else None
@@ -645,6 +675,8 @@ def run(
             knowledge_base.append(researcher)
             batch.append(researcher)
             if len(batch) == 20:
+                if cancel_check is not None and cancel_check():
+                    raise RuntimeError("Stage 4 cancelled before DB/Pinecone writes")
                 try:
                     logging.info(
                         "[Stage 4] Processing full batch ending at index=%s batch_size=%s",
@@ -655,6 +687,8 @@ def run(
                         cursor, batch, inserted_researchers, skipped_researchers
                     )
                     _commit_transaction(conn)
+                    if checkpoint_callback is not None:
+                        checkpoint_callback(idx, len(author_items))
                     print(
                         f"[Stage 4] Batch committed ({idx} researchers processed, "
                         f"{inserted_researchers} inserted, {skipped_researchers} skipped)"
@@ -674,6 +708,8 @@ def run(
                 batch = []
         # Final commit for any remaining researchers
         if batch:
+            if cancel_check is not None and cancel_check():
+                raise RuntimeError("Stage 4 cancelled before DB/Pinecone writes")
             try:
                 logging.info(
                     "[Stage 4] Processing final batch size=%s total_researchers=%s",
@@ -684,6 +720,8 @@ def run(
                     cursor, batch, inserted_researchers, skipped_researchers
                 )
                 _commit_transaction(conn)
+                if checkpoint_callback is not None:
+                    checkpoint_callback(len(author_items), len(author_items))
                 print(
                     f"[Stage 4] Final batch committed ({len(author_items)} researchers processed, "
                     f"{inserted_researchers} inserted, {skipped_researchers} skipped)"
@@ -706,6 +744,8 @@ def run(
 
     rows = []
     if export_artifacts:
+        import pandas as pd
+
         # ----- Save JSON -----
         save_json(knowledge_base, KNOWLEDGE_BASE_FILE)
         print(
