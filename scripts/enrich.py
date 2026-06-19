@@ -60,19 +60,29 @@ def main():
 
             vectors = embeds.embed_texts(texts, model=cfg.EMBED_MODEL)
 
-            # prepare upsert tuples (id, vector, metadata)
+            # prepare upsert tuples (id, vector, metadata) — sanitize ids to be ASCII-safe
+            import importlib
+
+            utils = load_module(os.path.join(pkg_dir, "utils.py"), "phase1_utils")
+
             upsert_items: List[Tuple[str, List[float], Dict]] = []
+            sanitized_ids = []
             for pid, vec, paper in zip(ids, vectors, batch):
                 meta = {"title": paper.title or "", "year": paper.year or ""}
-                upsert_items.append((pid, vec, meta))
+                sanitized_pid = utils.sanitize_identifier(pid, fallback_prefix=None)
+                if sanitized_pid != pid:
+                    print(f"Sanitized legacy paper id: {pid} -> {sanitized_pid}")
+                upsert_items.append((sanitized_pid, vec, meta))
+                sanitized_ids.append((pid, sanitized_pid))
 
             embeds.pinecone_upsert(upsert_items, index_name=cfg.PINECONE_INDEX)
 
-            # mark embedding_id on success
-            for pid in ids:
-                p = session.get(models_mod.Paper, pid)
-                p.embedding_id = pid
-                session.merge(p)
+            # mark embedding_id on success (use sanitized id)
+            for original_pid, sanitized_pid in sanitized_ids:
+                p = session.get(models_mod.Paper, original_pid)
+                if p:
+                    p.embedding_id = sanitized_pid
+                    session.merge(p)
             session.commit()
             print(f"Upserted batch {i // batch_sz + 1} ({len(upsert_items)} vectors)")
 

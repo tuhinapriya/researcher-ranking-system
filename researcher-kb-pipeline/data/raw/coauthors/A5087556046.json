@@ -1,0 +1,98 @@
+{
+  "author_id": "A5087556046",
+  "total_recent_works_analysed": 113,
+  "total_unique_collaborators": 269,
+  "estimated_mentee_count": 4,
+  "likely_mentees": [
+    {
+      "name": "Gabrielle Roberts",
+      "id": "A5000770951",
+      "works_count": 17,
+      "shared_papers": 11
+    },
+    {
+      "name": "Chunyang Ding",
+      "id": "A5015630499",
+      "works_count": 9,
+      "shared_papers": 7
+    },
+    {
+      "name": "Kan-Heng Lee",
+      "id": "A5063695451",
+      "works_count": 10,
+      "shared_papers": 5
+    },
+    {
+      "name": "Fanghui Wan",
+      "id": "A5042773190",
+      "works_count": 17,
+      "shared_papers": 4
+    }
+  ],
+  "seniority_signals": {
+    "last_author_ratio": 0.41,
+    "corresponding_author_ratio": 0.08
+  },
+  "top_collaborators": [
+    {
+      "name": "Tanay Roy",
+      "id": "A5041478564",
+      "shared_papers": 26,
+      "same_institution": true
+    },
+    {
+      "name": "Srivatsan Chakram",
+      "id": "A5042375067",
+      "shared_papers": 21,
+      "same_institution": true
+    },
+    {
+      "name": "Ziqian Li",
+      "id": "A5089096717",
+      "shared_papers": 19,
+      "same_institution": true
+    },
+    {
+      "name": "Jonathan Simon",
+      "id": "A5062935341",
+      "shared_papers": 16,
+      "same_institution": true
+    },
+    {
+      "name": "Alexander Anferov",
+      "id": "A5000750187",
+      "shared_papers": 16,
+      "same_institution": true
+    },
+    {
+      "name": "Eliot Kapit",
+      "id": "A5087880949",
+      "shared_papers": 14,
+      "same_institution": true
+    },
+    {
+      "name": "Akash Dixit",
+      "id": "A5015221238",
+      "shared_papers": 13,
+      "same_institution": true
+    },
+    {
+      "name": "Kevin He",
+      "id": "A5065492536",
+      "shared_papers": 13,
+      "same_institution": true
+    },
+    {
+      "name": "Ankur Agrawal",
+      "id": "A5056879485",
+      "shared_papers": 13,
+      "same_institution": true
+    },
+    {
+      "name": "Brendan Saxberg",
+      "id": "A5081493713",
+      "shared_papers": 13,
+      "same_institution": true
+    }
+  ]
+}

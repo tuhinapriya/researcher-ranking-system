@@ -1,0 +1,966 @@
+{
+  "author_id": "A5087556046",
+  "openalex": {
+    "id": "https://openalex.org/A5087556046",
+    "orcid": "https://orcid.org/0000-0002-0012-3874",
+    "display_name": "David Schuster",
+    "raw_author_names": [
+      "D I Schuster",
+      "D. I. SCHUSTER",
+      "D. I. Schuster",
+      "D. Schuster",
+      "D.I Schuster",
+      "D.I. Schuster",
+      "D. I. Schuster",
+      "DAVID I. SCHUSTER",
+      "David I. Schuster",
+      "David Schuster",
+      "David Schuster I",
+      "Schuster David",
+      "Schuster, D. I.",
+      "Schuster, David",
+      "Schuster, David I",
+      "Schuster, David I."
+    ],
+    "full_name": "DAVID I. SCHUSTER",
+    "works_count": 278,
+    "cited_by_count": 27497,
+    "summary_stats": {
+      "2yr_mean_citedness": 10.10344827586207,
+      "h_index": 54,
+      "i10_index": 92
+    },
+    "ids": {
+      "openalex": "https://openalex.org/A5087556046",
+      "orcid": "https://orcid.org/0000-0002-0012-3874"
+    },
+    "affiliations": [
+      {
+        "institution": {
+          "id": "https://openalex.org/I114112103",
+          "ror": "https://ror.org/0304hq317",
+          "display_name": "Leibniz University Hannover",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114112103"
+          ]
+        },
+        "years": [
+          1989
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1306266525",
+          "ror": "https://ror.org/0171mag52",
+          "display_name": "Goddard Space Flight Center",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1306266525",
+            "https://openalex.org/I4210124779"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1311688040",
+          "ror": "https://ror.org/04mv4n011",
+          "display_name": "Amazon (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1311688040"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I1314696892",
+          "ror": "https://ror.org/020hgte69",
+          "display_name": "Fermi National Accelerator Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1314696892",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I4210114836"
+          ]
+        },
+        "years": [
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I132053463",
+          "ror": "https://ror.org/01r9htc13",
+          "display_name": "Université Libre de Bruxelles",
+          "country_code": "BE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I132053463"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I135117807",
+          "ror": "https://ror.org/00kybxq39",
+          "display_name": "Université de Sherbrooke",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135117807"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I145608581",
+          "ror": "https://ror.org/02dgjyy92",
+          "display_name": "University of Miami",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I145608581"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I150468666",
+          "ror": "https://ror.org/03czfpz43",
+          "display_name": "Emory University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        },
+        "years": [
+          2022
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I151746483",
+          "ror": "https://ror.org/01aff2v68",
+          "display_name": "University of Waterloo",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I151746483"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I159176309",
+          "ror": "https://ror.org/00g30e956",
+          "display_name": "Universität Hamburg",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I159176309"
+          ]
+        },
+        "years": [
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I193223587",
+          "ror": "https://ror.org/05trd4x28",
+          "display_name": "University of Trento",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I193223587"
+          ]
+        },
+        "years": [
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I194629146",
+          "ror": "https://ror.org/04dh2y609",
+          "display_name": "School of the Art Institute of Chicago",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I194629146"
+          ]
+        },
+        "years": [
+          2020,
+          2019
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I27804330",
+          "ror": "https://ror.org/05gq02987",
+          "display_name": "Brown University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27804330"
+          ]
+        },
+        "years": [
+          2001
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2799323385",
+          "ror": "https://ror.org/01rvn4p91",
+          "display_name": "Board of the Swiss Federal Institutes of Technology",
+          "country_code": "CH",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2799323385"
+          ]
+        },
+        "years": [
+          2007
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I2801935854",
+          "ror": "https://ror.org/05gzmn429",
+          "display_name": "SLAC National Accelerator Laboratory",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I2801935854",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2025,
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I32971472",
+          "ror": "https://ror.org/03v76x132",
+          "display_name": "Yale University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I32971472"
+          ]
+        },
+        "years": [
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I39422238",
+          "ror": "https://ror.org/02mpq6x41",
+          "display_name": "University of Illinois Chicago",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39422238"
+          ]
+        },
+        "years": [
+          2024,
+          2020,
+          2019,
+          2018,
+          2017
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I40347166",
+          "ror": "https://ror.org/024mw5h28",
+          "display_name": "University of Chicago",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I40347166"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2012,
+          2011
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210097878",
+          "ror": "https://ror.org/00zymfp03",
+          "display_name": "Electronics for Imaging (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210097878"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210112832",
+          "ror": "https://ror.org/01cf2sz15",
+          "display_name": "Institut des Sciences de la Terre",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I2802818602",
+            "https://openalex.org/I4210090127",
+            "https://openalex.org/I4210112832",
+            "https://openalex.org/I4210131494",
+            "https://openalex.org/I4210148025",
+            "https://openalex.org/I4210154111",
+            "https://openalex.org/I4210166444",
+            "https://openalex.org/I70900168",
+            "https://openalex.org/I899635006"
+          ]
+        },
+        "years": [
+          2024
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210137306",
+          "ror": "https://ror.org/03mtd9a03",
+          "display_name": "Stanford Medicine",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210137306",
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2023
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210144891",
+          "ror": "https://ror.org/03xec1444",
+          "display_name": "Science Systems and Applications (United States)",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210144891"
+          ]
+        },
+        "years": [
+          2016
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I4210158205",
+          "ror": "https://ror.org/04sms9203",
+          "display_name": "Aschaffenburg University of Applied Sciences",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210158205"
+          ]
+        },
+        "years": [
+          2025
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I57206974",
+          "ror": "https://ror.org/0190ak572",
+          "display_name": "New York University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        },
+        "years": [
+          2009
+        ]
+      },
+      {
+        "institution": {
+          "id": "https://openalex.org/I97018004",
+          "ror": "https://ror.org/00f54p054",
+          "display_name": "Stanford University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        "years": [
+          2025,
+          2024,
+          2023,
+          2022
+        ]
+      }
+    ],
+    "last_known_institutions": [
+      {
+        "id": "https://openalex.org/I2801935854",
+        "ror": "https://ror.org/05gzmn429",
+        "display_name": "SLAC National Accelerator Laboratory",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+          "https://openalex.org/I1330989302",
+          "https://openalex.org/I2801935854",
+          "https://openalex.org/I39565521",
+          "https://openalex.org/I97018004"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I40347166",
+        "ror": "https://ror.org/024mw5h28",
+        "display_name": "University of Chicago",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I40347166"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210097878",
+        "ror": "https://ror.org/00zymfp03",
+        "display_name": "Electronics for Imaging (United States)",
+        "country_code": "US",
+        "type": "company",
+        "lineage": [
+          "https://openalex.org/I4210097878"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I4210158205",
+        "ror": "https://ror.org/04sms9203",
+        "display_name": "Aschaffenburg University of Applied Sciences",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I4210158205"
+        ]
+      },
+      {
+        "id": "https://openalex.org/I97018004",
+        "ror": "https://ror.org/00f54p054",
+        "display_name": "Stanford University",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+          "https://openalex.org/I97018004"
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "count": 142,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10382",
+        "display_name": "Quantum and electron transport phenomena",
+        "count": 96,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "count": 88,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10425",
+        "display_name": "Cold Atom Physics and Bose-Einstein Condensates",
+        "count": 43,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11414",
+        "display_name": "Quantum optics and atomic interactions",
+        "count": 28,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "topic_share": [
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "value": 0.000562,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "value": 0.000499,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10382",
+        "display_name": "Quantum and electron transport phenomena",
+        "value": 0.0003205,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11414",
+        "display_name": "Quantum optics and atomic interactions",
+        "value": 0.0001831,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10425",
+        "display_name": "Cold Atom Physics and Bose-Einstein Condensates",
+        "value": 0.000163,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "x_concepts": [
+      {
+        "id": "121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "score": 0.9340180158615112
+      },
+      {
+        "id": "203087015",
+        "wikidata": "https://www.wikidata.org/wiki/Q378201",
+        "display_name": "Qubit",
+        "score": 0.9250835180282593
+      },
+      {
+        "id": "41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "score": 0.7905411720275879
+      },
+      {
+        "id": "84114770",
+        "wikidata": "https://www.wikidata.org/wiki/Q46344",
+        "display_name": "Quantum",
+        "score": 0.6454073786735535
+      },
+      {
+        "id": "62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "score": 0.6087585091590881
+      }
+    ],
+    "counts_by_year": [
+      {
+        "year": 1968,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1971,
+        "works_count": 3,
+        "oa_works_count": 0,
+        "cited_by_count": 47
+      },
+      {
+        "year": 1974,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 13
+      },
+      {
+        "year": 1978,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 73
+      },
+      {
+        "year": 1981,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 17
+      },
+      {
+        "year": 1982,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1983,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 25
+      },
+      {
+        "year": 1989,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 15
+      },
+      {
+        "year": 1992,
+        "works_count": 1,
+        "oa_works_count": 0,
+        "cited_by_count": 0
+      },
+      {
+        "year": 1999,
+        "works_count": 1,
+        "oa_works_count": 1,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2001,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 35
+      },
+      {
+        "year": 2003,
+        "works_count": 2,
+        "oa_works_count": 0,
+        "cited_by_count": 131
+      },
+      {
+        "year": 2004,
+        "works_count": 3,
+        "oa_works_count": 1,
+        "cited_by_count": 3764
+      },
+      {
+        "year": 2005,
+        "works_count": 4,
+        "oa_works_count": 3,
+        "cited_by_count": 1280
+      },
+      {
+        "year": 2006,
+        "works_count": 4,
+        "oa_works_count": 1,
+        "cited_by_count": 423
+      },
+      {
+        "year": 2007,
+        "works_count": 13,
+        "oa_works_count": 10,
+        "cited_by_count": 7261
+      },
+      {
+        "year": 2008,
+        "works_count": 5,
+        "oa_works_count": 3,
+        "cited_by_count": 1346
+      },
+      {
+        "year": 2009,
+        "works_count": 6,
+        "oa_works_count": 5,
+        "cited_by_count": 1474
+      },
+      {
+        "year": 2010,
+        "works_count": 12,
+        "oa_works_count": 5,
+        "cited_by_count": 1342
+      },
+      {
+        "year": 2011,
+        "works_count": 4,
+        "oa_works_count": 2,
+        "cited_by_count": 1125
+      },
+      {
+        "year": 2012,
+        "works_count": 5,
+        "oa_works_count": 1,
+        "cited_by_count": 110
+      },
+      {
+        "year": 2013,
+        "works_count": 2,
+        "oa_works_count": 1,
+        "cited_by_count": 80
+      },
+      {
+        "year": 2014,
+        "works_count": 9,
+        "oa_works_count": 2,
+        "cited_by_count": 58
+      },
+      {
+        "year": 2015,
+        "works_count": 6,
+        "oa_works_count": 2,
+        "cited_by_count": 440
+      },
+      {
+        "year": 2016,
+        "works_count": 13,
+        "oa_works_count": 3,
+        "cited_by_count": 1410
+      },
+      {
+        "year": 2017,
+        "works_count": 17,
+        "oa_works_count": 9,
+        "cited_by_count": 616
+      },
+      {
+        "year": 2018,
+        "works_count": 21,
+        "oa_works_count": 7,
+        "cited_by_count": 117
+      },
+      {
+        "year": 2019,
+        "works_count": 23,
+        "oa_works_count": 10,
+        "cited_by_count": 4800
+      },
+      {
+        "year": 2020,
+        "works_count": 28,
+        "oa_works_count": 11,
+        "cited_by_count": 331
+      },
+      {
+        "year": 2021,
+        "works_count": 18,
+        "oa_works_count": 9,
+        "cited_by_count": 254
+      },
+      {
+        "year": 2022,
+        "works_count": 20,
+        "oa_works_count": 14,
+        "cited_by_count": 431
+      },
+      {
+        "year": 2023,
+        "works_count": 18,
+        "oa_works_count": 13,
+        "cited_by_count": 183
+      },
+      {
+        "year": 2024,
+        "works_count": 19,
+        "oa_works_count": 19,
+        "cited_by_count": 243
+      },
+      {
+        "year": 2025,
+        "works_count": 10,
+        "oa_works_count": 9,
+        "cited_by_count": 50
+      }
+    ],
+    "display_name_alternatives": [
+      "D I Schuster",
+      "D. I. SCHUSTER",
+      "D. I. Schuster",
+      "D. Schuster",
+      "D.I Schuster",
+      "D.I. Schuster",
+      "D. I. Schuster",
+      "DAVID I. SCHUSTER",
+      "David I. Schuster",
+      "David Schuster",
+      "David Schuster I",
+      "Schuster David",
+      "Schuster, D. I.",
+      "Schuster, David",
+      "Schuster, David I",
+      "Schuster, David I."
+    ],
+    "block_key": "d schuster",
+    "works_api_url": "https://api.openalex.org/works?filter=author.id:A5087556046",
+    "updated_date": "2026-06-02T12:25:25",
+    "created_date": "2016-06-24T00:00:00"
+  },
+  "semantic_scholar": {
+    "authorId": "153012532",
+    "externalIds": {},
+    "url": "https://www.semanticscholar.org/author/153012532",
+    "name": "D. Schuster",
+    "affiliations": [],
+    "homepage": null,
+    "paperCount": 9,
+    "citationCount": 5,
+    "hIndex": 1
+  }
+}

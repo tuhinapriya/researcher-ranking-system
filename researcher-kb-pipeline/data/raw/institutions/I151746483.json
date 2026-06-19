@@ -30,12 +30,12 @@
       ]
     }
   ],
-  "works_count": 152933,
-  "cited_by_count": 9234689,
+  "works_count": 154326,
+  "cited_by_count": 9388425,
   "summary_stats": {
-    "2yr_mean_citedness": 3.858529648179064,
-    "h_index": 751,
-    "i10_index": 137782
+    "2yr_mean_citedness": 4.105715363850106,
+    "h_index": 761,
+    "i10_index": 139279
   },
   "ids": {
     "openalex": "https://openalex.org/I151746483",
@@ -83,129 +83,129 @@
   "counts_by_year": [
     {
       "year": 2026,
-      "works_count": 1696,
-      "oa_works_count": 1164,
-      "cited_by_count": 295
+      "works_count": 2732,
+      "oa_works_count": 1897,
+      "cited_by_count": 694
     },
     {
       "year": 2025,
-      "works_count": 6898,
-      "oa_works_count": 4339,
-      "cited_by_count": 14885
+      "works_count": 6945,
+      "oa_works_count": 4389,
+      "cited_by_count": 18379
     },
     {
       "year": 2024,
-      "works_count": 7253,
-      "oa_works_count": 4718,
-      "cited_by_count": 44358
+      "works_count": 7266,
+      "oa_works_count": 4730,
+      "cited_by_count": 48373
     },
     {
       "year": 2023,
-      "works_count": 7551,
-      "oa_works_count": 4621,
-      "cited_by_count": 75534
+      "works_count": 7558,
+      "oa_works_count": 4630,
+      "cited_by_count": 79507
     },
     {
       "year": 2022,
-      "works_count": 7324,
-      "oa_works_count": 4135,
-      "cited_by_count": 111293
+      "works_count": 7336,
+      "oa_works_count": 4149,
+      "cited_by_count": 115122
     },
     {
       "year": 2021,
-      "works_count": 7403,
-      "oa_works_count": 4185,
-      "cited_by_count": 155801
+      "works_count": 7427,
+      "oa_works_count": 4198,
+      "cited_by_count": 160251
     },
     {
       "year": 2020,
-      "works_count": 7286,
-      "oa_works_count": 3927,
-      "cited_by_count": 208126
+      "works_count": 7293,
+      "oa_works_count": 3929,
+      "cited_by_count": 212218
     },
     {
       "year": 2019,
-      "works_count": 6402,
-      "oa_works_count": 3047,
-      "cited_by_count": 199925
+      "works_count": 6411,
+      "oa_works_count": 3051,
+      "cited_by_count": 203182
     },
     {
       "year": 2018,
-      "works_count": 5698,
-      "oa_works_count": 2577,
-      "cited_by_count": 190505
+      "works_count": 5704,
+      "oa_works_count": 2575,
+      "cited_by_count": 193058
     },
     {
       "year": 2017,
-      "works_count": 5482,
-      "oa_works_count": 2306,
-      "cited_by_count": 194476
+      "works_count": 5491,
+      "oa_works_count": 2308,
+      "cited_by_count": 197082
     },
     {
       "year": 2016,
-      "works_count": 5143,
-      "oa_works_count": 1817,
-      "cited_by_count": 199536
+      "works_count": 5162,
+      "oa_works_count": 1826,
+      "cited_by_count": 202125
     },
     {
       "year": 2015,
-      "works_count": 5378,
-      "oa_works_count": 1735,
-      "cited_by_count": 189072
+      "works_count": 5383,
+      "oa_works_count": 1731,
+      "cited_by_count": 191654
     },
     {
       "year": 2014,
-      "works_count": 5026,
-      "oa_works_count": 1512,
-      "cited_by_count": 174675
+      "works_count": 5037,
+      "oa_works_count": 1513,
+      "cited_by_count": 176369
     },
     {
       "year": 2013,
-      "works_count": 4556,
-      "oa_works_count": 1375,
-      "cited_by_count": 169503
+      "works_count": 4563,
+      "oa_works_count": 1379,
+      "cited_by_count": 170799
     },
     {
       "year": 2012,
-      "works_count": 4415,
-      "oa_works_count": 1159,
-      "cited_by_count": 192610
+      "works_count": 4426,
+      "oa_works_count": 1162,
+      "cited_by_count": 194022
     },
     {
       "year": 2011,
-      "works_count": 4205,
-      "oa_works_count": 1045,
-      "cited_by_count": 172043
+      "works_count": 4209,
+      "oa_works_count": 1047,
+      "cited_by_count": 173252
     },
     {
       "year": 2010,
-      "works_count": 3930,
-      "oa_works_count": 994,
-      "cited_by_count": 156256
+      "works_count": 3939,
+      "oa_works_count": 996,
+      "cited_by_count": 157236
     }
   ],
   "roles": [
     {
       "role": "funder",
       "id": "https://openalex.org/F4320322676",
-      "works_count": 10322
+      "works_count": 10407
     },
     {
       "role": "institution",
       "id": "https://openalex.org/I151746483",
-      "works_count": 152933
+      "works_count": 154326
     },
     {
       "role": "publisher",
       "id": "https://openalex.org/P4310312927",
-      "works_count": 3398
+      "works_count": 3417
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10020",
       "display_name": "Quantum Information and Cryptography",
-      "count": 2077,
+      "count": 2091,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -223,7 +223,7 @@
     {
       "id": "https://openalex.org/T10682",
       "display_name": "Quantum Computing Algorithms and Architecture",
-      "count": 1807,
+      "count": 1817,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -239,27 +239,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10374",
-      "display_name": "Advanced Graph Theory Research",
-      "count": 1624,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1703",
-        "display_name": "Computational Theory and Mathematics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10095",
       "display_name": "Cosmology and Gravitation Theories",
-      "count": 1614,
+      "count": 1648,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
@@ -275,9 +257,27 @@
       }
     },
     {
+      "id": "https://openalex.org/T10374",
+      "display_name": "Advanced Graph Theory Research",
+      "count": 1632,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10025",
       "display_name": "Black Holes and Theoretical Physics",
-      "count": 1428,
+      "count": 1452,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
@@ -295,7 +295,7 @@
     {
       "id": "https://openalex.org/T10622",
       "display_name": "Quantum Mechanics and Applications",
-      "count": 1331,
+      "count": 1341,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
@@ -331,7 +331,7 @@
     {
       "id": "https://openalex.org/T10002",
       "display_name": "Advanced Chemical Physics Studies",
-      "count": 1314,
+      "count": 1316,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
@@ -349,7 +349,7 @@
     {
       "id": "https://openalex.org/T11130",
       "display_name": "Coding theory and cryptography",
-      "count": 1303,
+      "count": 1304,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -367,7 +367,7 @@
     {
       "id": "https://openalex.org/T10894",
       "display_name": "Groundwater flow and contamination studies",
-      "count": 1276,
+      "count": 1285,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
@@ -385,7 +385,7 @@
     {
       "id": "https://openalex.org/T10026",
       "display_name": "Galaxies: Formation, Evolution, Phenomena",
-      "count": 1200,
+      "count": 1243,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
@@ -394,6 +394,42 @@
       "field": {
         "id": "https://openalex.org/fields/31",
         "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10720",
+      "display_name": "Complexity and Algorithms in Graphs",
+      "count": 1175,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11797",
+      "display_name": "graph theory and CDMA systems",
+      "count": 1172,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
       },
       "domain": {
         "id": "https://openalex.org/domains/3",
@@ -419,45 +455,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10720",
-      "display_name": "Complexity and Algorithms in Graphs",
-      "count": 1167,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1703",
-        "display_name": "Computational Theory and Mathematics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11797",
-      "display_name": "graph theory and CDMA systems",
-      "count": 1165,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2208",
-        "display_name": "Electrical and Electronic Engineering"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10237",
       "display_name": "Cryptography and Data Security",
-      "count": 1155,
+      "count": 1164,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
@@ -475,7 +475,7 @@
     {
       "id": "https://openalex.org/T11567",
       "display_name": "semigroups and automata theory",
-      "count": 1136,
+      "count": 1141,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
@@ -491,9 +491,27 @@
       }
     },
     {
+      "id": "https://openalex.org/T10060",
+      "display_name": "Smoking Behavior and Cessation",
+      "count": 1120,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10018",
       "display_name": "Advancements in Battery Materials",
-      "count": 1097,
+      "count": 1107,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
@@ -527,27 +545,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10060",
-      "display_name": "Smoking Behavior and Cessation",
-      "count": 1052,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2737",
-        "display_name": "Physiology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10330",
       "display_name": "Hydrology and Watershed Management Studies",
-      "count": 1019,
+      "count": 1030,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2312",
@@ -565,7 +565,7 @@
     {
       "id": "https://openalex.org/T10260",
       "display_name": "Software Engineering Research",
-      "count": 1014,
+      "count": 1019,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
@@ -581,27 +581,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10010",
-      "display_name": "Obesity, Physical Activity, Diet",
-      "count": 1006,
-      "score": 0.9998999834060669,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11106",
       "display_name": "Data Management and Algorithms",
-      "count": 1003,
+      "count": 1006,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1711",
@@ -617,27 +599,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10996",
-      "display_name": "Computational Geometry and Mesh Generation",
-      "count": 994,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1704",
-        "display_name": "Computer Graphics and Computer-Aided Design"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10281",
       "display_name": "Advanced Battery Materials and Technologies",
-      "count": 991,
+      "count": 1001,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
@@ -651,13 +615,49 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T10997",
+      "display_name": "Ocular Surface and Contact Lens",
+      "count": 999,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10996",
+      "display_name": "Computational Geometry and Mesh Generation",
+      "count": 996,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1704",
+        "display_name": "Computer Graphics and Computer-Aided Design"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11693",
       "display_name": "Cryptography and Residue Arithmetic",
-      "value": 0.015945,
+      "value": 0.0157437,
       "subfield": {
         "id": "https://openalex.org/subfields/1710",
         "display_name": "Information Systems"
@@ -672,26 +672,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10682",
-      "display_name": "Quantum Computing Algorithms and Architecture",
-      "value": 0.0152883,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10720",
       "display_name": "Complexity and Algorithms in Graphs",
-      "value": 0.0151166,
+      "value": 0.0150693,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -706,9 +689,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T10682",
+      "display_name": "Quantum Computing Algorithms and Architecture",
+      "value": 0.0150345,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10374",
       "display_name": "Advanced Graph Theory Research",
-      "value": 0.014991,
+      "value": 0.0149734,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -725,7 +725,7 @@
     {
       "id": "https://openalex.org/T11567",
       "display_name": "semigroups and automata theory",
-      "value": 0.0137028,
+      "value": 0.0137057,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -742,7 +742,7 @@
     {
       "id": "https://openalex.org/T11329",
       "display_name": "Limits and Structures in Graph Theory",
-      "value": 0.0136162,
+      "value": 0.0136557,
       "subfield": {
         "id": "https://openalex.org/subfields/2607",
         "display_name": "Discrete Mathematics and Combinatorics"
@@ -757,26 +757,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11413",
-      "display_name": "Risk and Portfolio Optimization",
-      "value": 0.0117664,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1803",
-        "display_name": "Management Science and Operations Research"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/18",
-        "display_name": "Decision Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10996",
       "display_name": "Computational Geometry and Mesh Generation",
-      "value": 0.0117153,
+      "value": 0.0116831,
       "subfield": {
         "id": "https://openalex.org/subfields/1704",
         "display_name": "Computer Graphics and Computer-Aided Design"
@@ -791,43 +774,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11130",
-      "display_name": "Coding theory and cryptography",
-      "value": 0.0112016,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11793",
-      "display_name": "Recreation, Leisure, Wilderness Management",
-      "value": 0.0111087,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T11720",
-      "display_name": "Probability and Risk Models",
-      "value": 0.0110766,
+      "id": "https://openalex.org/T11413",
+      "display_name": "Risk and Portfolio Optimization",
+      "value": 0.0116553,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -842,9 +791,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T11720",
+      "display_name": "Probability and Risk Models",
+      "value": 0.0111638,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11130",
+      "display_name": "Coding theory and cryptography",
+      "value": 0.0111522,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11797",
       "display_name": "graph theory and CDMA systems",
-      "value": 0.0110691,
+      "value": 0.0110939,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -861,7 +844,7 @@
     {
       "id": "https://openalex.org/T10020",
       "display_name": "Quantum Information and Cryptography",
-      "value": 0.0108451,
+      "value": 0.0107638,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -876,9 +859,26 @@
       }
     },
     {
+      "id": "https://openalex.org/T11793",
+      "display_name": "Recreation, Leisure, Wilderness Management",
+      "value": 0.0107584,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11269",
       "display_name": "Algorithms and Data Compression",
-      "value": 0.0105912,
+      "value": 0.0106161,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -895,7 +895,7 @@
     {
       "id": "https://openalex.org/T10060",
       "display_name": "Smoking Behavior and Cessation",
-      "value": 0.0099442,
+      "value": 0.0097817,
       "subfield": {
         "id": "https://openalex.org/subfields/2737",
         "display_name": "Physiology"
@@ -912,7 +912,7 @@
     {
       "id": "https://openalex.org/T10894",
       "display_name": "Groundwater flow and contamination studies",
-      "value": 0.0096429,
+      "value": 0.0096622,
       "subfield": {
         "id": "https://openalex.org/subfields/2305",
         "display_name": "Environmental Engineering"
@@ -929,7 +929,7 @@
     {
       "id": "https://openalex.org/T12541",
       "display_name": "Graph Labeling and Dimension Problems",
-      "value": 0.0095769,
+      "value": 0.0095293,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -946,7 +946,7 @@
     {
       "id": "https://openalex.org/T12011",
       "display_name": "Insurance, Mortality, Demography, Risk Management",
-      "value": 0.0091349,
+      "value": 0.0090907,
       "subfield": {
         "id": "https://openalex.org/subfields/3317",
         "display_name": "Demography"
@@ -963,7 +963,7 @@
     {
       "id": "https://openalex.org/T10237",
       "display_name": "Cryptography and Data Security",
-      "value": 0.0089846,
+      "value": 0.0089223,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -980,7 +980,7 @@
     {
       "id": "https://openalex.org/T10948",
       "display_name": "Advanced Combinatorial Mathematics",
-      "value": 0.0089538,
+      "value": 0.0089081,
       "subfield": {
         "id": "https://openalex.org/subfields/2607",
         "display_name": "Discrete Mathematics and Combinatorics"
@@ -997,7 +997,7 @@
     {
       "id": "https://openalex.org/T12220",
       "display_name": "Quantum Electrodynamics and Casimir Effect",
-      "value": 0.0089223,
+      "value": 0.0088585,
       "subfield": {
         "id": "https://openalex.org/subfields/3107",
         "display_name": "Atomic and Molecular Physics, and Optics"
@@ -1014,7 +1014,7 @@
     {
       "id": "https://openalex.org/T13182",
       "display_name": "Quantum-Dot Cellular Automata",
-      "value": 0.0085542,
+      "value": 0.0084554,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -1031,7 +1031,7 @@
     {
       "id": "https://openalex.org/T10964",
       "display_name": "Wireless Communication Security Techniques",
-      "value": 0.0085004,
+      "value": 0.0084216,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
         "display_name": "Electrical and Electronic Engineering"
@@ -1048,7 +1048,7 @@
     {
       "id": "https://openalex.org/T13219",
       "display_name": "Mind wandering and attention",
-      "value": 0.0084205,
+      "value": 0.0082324,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -1063,26 +1063,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T11435",
-      "display_name": "Polynomial and algebraic computation",
-      "value": 0.0081488,
+      "id": "https://openalex.org/T10997",
+      "display_name": "Ocular Surface and Contact Lens",
+      "value": 0.008194,
       "subfield": {
-        "id": "https://openalex.org/subfields/1703",
-        "display_name": "Computational Theory and Mathematics"
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
       },
       "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     }
   ],
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I151746483",
-  "updated_date": "2026-04-12T05:59:47",
+  "updated_date": "2026-06-04T06:02:13",
   "created_date": "2016-06-24T00:00:00"
 }

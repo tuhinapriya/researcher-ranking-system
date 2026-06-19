@@ -1,3 +1,111 @@
+"""Utility helpers for stable, ASCII-safe identifier generation."""
+
+import hashlib
+import logging
+import re
+import unicodedata
+from typing import Optional
+
+
+def stable_hash(text: str, length: int = 12) -> str:
+    if text is None:
+        text = ""
+    return hashlib.sha1(text.encode("utf-8")).hexdigest()[:length]
+
+
+_SAFE_RE = re.compile(r"[^A-Za-z0-9_\-]")
+
+
+def sanitize_identifier(value: str, fallback_prefix: Optional[str] = None) -> str:
+    """Return an ASCII-only identifier by removing/normalizing characters.
+
+    Rules:
+    - Normalize Unicode (NFKD), strip diacritics
+    - Remove any character not in A-Za-z0-9_- (replace with empty string)
+    - If result is empty, return fallback_prefix + stable_hash(value)
+    - Log original and sanitized values at DEBUG level
+    """
+    if value is None:
+        value = ""
+    orig = str(value)
+    # Normalize and remove diacritics
+    normalized = unicodedata.normalize("NFKD", orig)
+    # Remove combining marks
+    normalized = "".join(
+        ch for ch in normalized if not unicodedata.category(ch).startswith("M")
+    )
+    # Encode-ascii by ignoring non-ascii then filter allowed chars
+    ascii_only = normalized.encode("ascii", "ignore").decode("ascii")
+    sanitized = _SAFE_RE.sub("", ascii_only)
+    if not sanitized:
+        # Fallback to stable hashed id
+        prefix = (fallback_prefix + "_") if fallback_prefix else "id_"
+        sanitized = f"{prefix}{stable_hash(orig)}"
+    if sanitized != orig:
+        logging.debug("sanitize_identifier: original=%r sanitized=%r", orig, sanitized)
+    return sanitized
+
+
+def safe_paper_id(researcher_id: str, paper: dict) -> str:
+    """Return a stable ASCII-safe paper id.
+
+    Prefer DOI when available (cleaned and sanitized). Otherwise use a hash
+    of stable paper attributes to produce reproducible id: <researcher>_<hash>.
+    """
+    doi = (paper.get("doi") or "") if paper else ""
+    if doi:
+        doi_clean = doi.replace("https://doi.org/", "")
+        return sanitize_identifier(doi_clean, fallback_prefix=researcher_id)
+
+    title = (paper.get("title") or "") if paper else ""
+    year = str(paper.get("year") or "") if paper else ""
+    venue = (paper.get("venue") or "") if paper else ""
+    source = "||".join([title, year, venue])
+    hashed = stable_hash(source)
+    return sanitize_identifier(
+        f"{researcher_id}_{hashed}", fallback_prefix=researcher_id
+    )
+
+
+def safe_embedding_id(researcher_id: str, paper_id: str) -> str:
+    """Return a stable embedding id derived from the paper id.
+
+    Guarantees ASCII hex characters and keeps mapping traceable.
+    """
+    base = f"{researcher_id}_{stable_hash(paper_id)}"
+    return sanitize_identifier(base, fallback_prefix=researcher_id)
+
+
+def is_ascii_safe_identifier(identifier: str) -> bool:
+    """Allow only ASCII alphanumeric, dash, and underscore in IDs."""
+    if not identifier:
+        return False
+    # must be ascii and match allowed set
+    try:
+        identifier.encode("ascii")
+    except Exception:
+        return False
+    return re.fullmatch(r"[A-Za-z0-9_\-]+", identifier) is not None
+
+
+def validate_and_filter_vectors(vectors: list) -> tuple[list, list]:
+    """Validate vector IDs; return (valid_vectors, invalid_ids).
+
+    This keeps invalid vectors from being sent to Pinecone and provides
+    a list of rejected ids for logging. Filtering is aggressive: any id
+    not matching the allowed charset is rejected.
+    """
+    valid = []
+    invalid = []
+    for v in vectors:
+        vid = v.get("id")
+        if vid and is_ascii_safe_identifier(vid):
+            valid.append(v)
+        else:
+            invalid.append(vid)
+    return valid, invalid
+
+
 """
 Shared utility functions for the pipeline.
 API helpers, abstract reconstruction, caching, JSON I/O.
@@ -14,7 +122,6 @@ import requests
 
 
 from config import HEADERS, OPENALEX_SLEEP, S2_BASE, S2_SLEEP, STALENESS_DAYS
-
 
 # ============================================================
 # API Helpers
@@ -70,7 +177,7 @@ def reconstruct_abstract(abstract_inverted_index):
     return text if text else None
 
 
-def fetch_s2_abstract(doi=None, title=None):
+def fetch_s2_abstract(doi=None, title=None, timeout=None):
     """
     Try Semantic Scholar for an abstract.
     1) DOI lookup  (best match)
@@ -79,14 +186,18 @@ def fetch_s2_abstract(doi=None, title=None):
     if doi:
         doi_clean = doi.replace("https://doi.org/", "").strip()
         url = f"{S2_BASE}/paper/DOI:{quote(doi_clean)}"
-        data = s2_get(url, params={"fields": "title,abstract,year"})
+        data = s2_get(
+            url, params={"fields": "title,abstract,year"}, timeout=timeout or 20
+        )
         if data:
             return data.get("abstract")
 
     if title:
         url = f"{S2_BASE}/paper/search"
         data = s2_get(
-            url, params={"query": title, "limit": 1, "fields": "title,abstract,year"}
+            url,
+            params={"query": title, "limit": 1, "fields": "title,abstract,year"},
+            timeout=timeout or 20,
         )
         if data:
             hits = data.get("data", [])

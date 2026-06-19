@@ -20,12 +20,12 @@
     "Universidad Stanford"
   ],
   "repositories": [],
-  "works_count": 515165,
-  "cited_by_count": 83514300,
+  "works_count": 521378,
+  "cited_by_count": 85351576,
   "summary_stats": {
-    "2yr_mean_citedness": 5.612691321908376,
-    "h_index": 2450,
-    "i10_index": 641124
+    "2yr_mean_citedness": 5.998122918187451,
+    "h_index": 2463,
+    "i10_index": 651426
   },
   "ids": {
     "openalex": "https://openalex.org/I97018004",
@@ -164,6 +164,14 @@
       "country_code": null,
       "type": "facility",
       "relationship": "child"
+    },
+    {
+      "id": "https://openalex.org/I4405266016",
+      "ror": "https://ror.org/04c524341",
+      "display_name": "Hopkins Marine Station",
+      "country_code": "US",
+      "type": "facility",
+      "relationship": "child"
     }
   ],
   "counts_by_year": [
@@ -181,129 +189,129 @@
     },
     {
       "year": 2026,
-      "works_count": 6579,
-      "oa_works_count": 4412,
-      "cited_by_count": 1172
+      "works_count": 10444,
+      "oa_works_count": 7142,
+      "cited_by_count": 2628
     },
     {
       "year": 2025,
-      "works_count": 25059,
-      "oa_works_count": 17289,
-      "cited_by_count": 54859
+      "works_count": 25337,
+      "oa_works_count": 17716,
+      "cited_by_count": 69738
     },
     {
       "year": 2024,
-      "works_count": 25496,
-      "oa_works_count": 18789,
-      "cited_by_count": 198842
+      "works_count": 25570,
+      "oa_works_count": 18880,
+      "cited_by_count": 219593
     },
     {
       "year": 2023,
-      "works_count": 25038,
-      "oa_works_count": 18820,
-      "cited_by_count": 340266
+      "works_count": 25113,
+      "oa_works_count": 18889,
+      "cited_by_count": 360522
     },
     {
       "year": 2022,
-      "works_count": 26413,
-      "oa_works_count": 19559,
-      "cited_by_count": 488784
+      "works_count": 26476,
+      "oa_works_count": 19597,
+      "cited_by_count": 506864
     },
     {
       "year": 2021,
-      "works_count": 25394,
-      "oa_works_count": 18281,
-      "cited_by_count": 644158
+      "works_count": 25454,
+      "oa_works_count": 18325,
+      "cited_by_count": 662453
     },
     {
       "year": 2020,
-      "works_count": 27111,
-      "oa_works_count": 19369,
-      "cited_by_count": 913215
+      "works_count": 27179,
+      "oa_works_count": 19417,
+      "cited_by_count": 932281
     },
     {
       "year": 2019,
-      "works_count": 21814,
-      "oa_works_count": 13938,
-      "cited_by_count": 969800
+      "works_count": 21894,
+      "oa_works_count": 13969,
+      "cited_by_count": 992838
     },
     {
       "year": 2018,
-      "works_count": 18823,
-      "oa_works_count": 10948,
-      "cited_by_count": 1041767
+      "works_count": 18899,
+      "oa_works_count": 10996,
+      "cited_by_count": 1060931
     },
     {
       "year": 2017,
-      "works_count": 17421,
-      "oa_works_count": 9613,
-      "cited_by_count": 1138748
+      "works_count": 17492,
+      "oa_works_count": 9665,
+      "cited_by_count": 1158544
     },
     {
       "year": 2016,
-      "works_count": 16448,
-      "oa_works_count": 9054,
-      "cited_by_count": 1142746
+      "works_count": 16559,
+      "oa_works_count": 9142,
+      "cited_by_count": 1167998
     },
     {
       "year": 2015,
-      "works_count": 15375,
-      "oa_works_count": 7487,
-      "cited_by_count": 1115963
+      "works_count": 15457,
+      "oa_works_count": 7544,
+      "cited_by_count": 1138631
     },
     {
       "year": 2014,
-      "works_count": 14591,
-      "oa_works_count": 6996,
-      "cited_by_count": 1058722
+      "works_count": 14660,
+      "oa_works_count": 7059,
+      "cited_by_count": 1075904
     },
     {
       "year": 2013,
-      "works_count": 14193,
-      "oa_works_count": 6611,
-      "cited_by_count": 1018293
+      "works_count": 14249,
+      "oa_works_count": 6646,
+      "cited_by_count": 1032384
     },
     {
       "year": 2012,
-      "works_count": 12867,
-      "oa_works_count": 5363,
-      "cited_by_count": 952497
+      "works_count": 12907,
+      "oa_works_count": 5386,
+      "cited_by_count": 962384
     },
     {
       "year": 2011,
-      "works_count": 12609,
-      "oa_works_count": 5218,
-      "cited_by_count": 1007605
+      "works_count": 12649,
+      "oa_works_count": 5233,
+      "cited_by_count": 1019612
     },
     {
       "year": 2010,
-      "works_count": 11255,
-      "oa_works_count": 4388,
-      "cited_by_count": 968671
+      "works_count": 11338,
+      "oa_works_count": 4420,
+      "cited_by_count": 979398
     }
   ],
   "roles": [
     {
       "role": "funder",
       "id": "https://openalex.org/F4320308507",
-      "works_count": 3844
+      "works_count": 3927
     },
     {
       "role": "institution",
       "id": "https://openalex.org/I97018004",
-      "works_count": 515165
+      "works_count": 521378
     },
     {
       "role": "publisher",
       "id": "https://openalex.org/P4310316103",
-      "works_count": 82
+      "works_count": 83
     }
   ],
   "topics": [
     {
       "id": "https://openalex.org/T10048",
       "display_name": "Particle physics theoretical and experimental studies",
-      "count": 5757,
+      "count": 5818,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
@@ -321,7 +329,7 @@
     {
       "id": "https://openalex.org/T11020",
       "display_name": "Immune Cell Function and Interaction",
-      "count": 4504,
+      "count": 4400,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
@@ -339,7 +347,7 @@
     {
       "id": "https://openalex.org/T10521",
       "display_name": "RNA and protein synthesis mechanisms",
-      "count": 4403,
+      "count": 4373,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
@@ -357,7 +365,7 @@
     {
       "id": "https://openalex.org/T10299",
       "display_name": "Photonic and Optical Devices",
-      "count": 4225,
+      "count": 4237,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
@@ -375,7 +383,7 @@
     {
       "id": "https://openalex.org/T10031",
       "display_name": "T-cell and B-cell Immunology",
-      "count": 4087,
+      "count": 4124,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
@@ -393,7 +401,7 @@
     {
       "id": "https://openalex.org/T11757",
       "display_name": "Seismic Waves and Analysis",
-      "count": 4082,
+      "count": 4104,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1908",
@@ -411,7 +419,7 @@
     {
       "id": "https://openalex.org/T10224",
       "display_name": "Quantum Chromodynamics and Particle Interactions",
-      "count": 3942,
+      "count": 3985,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
@@ -429,7 +437,7 @@
     {
       "id": "https://openalex.org/T10077",
       "display_name": "Neuroscience and Neuropharmacology Research",
-      "count": 3768,
+      "count": 3758,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2804",
@@ -447,7 +455,7 @@
     {
       "id": "https://openalex.org/T10581",
       "display_name": "Neural dynamics and brain function",
-      "count": 3737,
+      "count": 3710,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
@@ -463,27 +471,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10522",
-      "display_name": "Medical Imaging Techniques and Applications",
-      "count": 3706,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10472",
       "display_name": "Semiconductor materials and devices",
-      "count": 3643,
+      "count": 3649,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2208",
@@ -499,27 +489,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10378",
-      "display_name": "Advanced MRI Techniques and Applications",
-      "count": 3549,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2741",
-        "display_name": "Radiology, Nuclear Medicine and Imaging"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10360",
       "display_name": "Fluid Dynamics and Turbulent Flows",
-      "count": 3519,
+      "count": 3527,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2206",
@@ -535,9 +507,45 @@
       }
     },
     {
+      "id": "https://openalex.org/T10522",
+      "display_name": "Medical Imaging Techniques and Applications",
+      "count": 3466,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10378",
+      "display_name": "Advanced MRI Techniques and Applications",
+      "count": 3462,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11016",
       "display_name": "Monoclonal and Polyclonal Antibodies Research",
-      "count": 3377,
+      "count": 3312,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
@@ -555,7 +563,7 @@
     {
       "id": "https://openalex.org/T10015",
       "display_name": "Genomics and Phylogenetic Studies",
-      "count": 3272,
+      "count": 3274,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
@@ -573,7 +581,7 @@
     {
       "id": "https://openalex.org/T10878",
       "display_name": "CRISPR and Genetic Engineering",
-      "count": 3247,
+      "count": 3214,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
@@ -589,27 +597,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10185",
-      "display_name": "Lymphoma Diagnosis and Treatment",
-      "count": 3149,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10037",
       "display_name": "Physics of Superconductivity and Magnetism",
-      "count": 3095,
+      "count": 3104,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3104",
@@ -627,7 +617,7 @@
     {
       "id": "https://openalex.org/T10241",
       "display_name": "Functional Brain Connectivity Studies",
-      "count": 3079,
+      "count": 3094,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
@@ -643,27 +633,27 @@
       }
     },
     {
-      "id": "https://openalex.org/T11287",
-      "display_name": "Cancer Genomics and Diagnostics",
-      "count": 3054,
+      "id": "https://openalex.org/T10185",
+      "display_name": "Lymphoma Diagnosis and Treatment",
+      "count": 3079,
       "score": 1.0,
       "subfield": {
-        "id": "https://openalex.org/subfields/1306",
-        "display_name": "Cancer Research"
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
       },
       "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10580",
       "display_name": "Immunotherapy and Immune Responses",
-      "count": 3045,
+      "count": 3068,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
@@ -681,7 +671,7 @@
     {
       "id": "https://openalex.org/T10995",
       "display_name": "Methane Hydrates and Related Phenomena",
-      "count": 3009,
+      "count": 3019,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/2304",
@@ -697,27 +687,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11482",
-      "display_name": "RNA modifications and cancer",
-      "count": 2993,
-      "score": 1.0,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1312",
-        "display_name": "Molecular Biology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10095",
       "display_name": "Cosmology and Gravitation Theories",
-      "count": 2939,
+      "count": 2993,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
@@ -735,7 +707,7 @@
     {
       "id": "https://openalex.org/T10159",
       "display_name": "Ionosphere and magnetosphere dynamics",
-      "count": 2936,
+      "count": 2945,
       "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
@@ -749,13 +721,49 @@
         "id": "https://openalex.org/domains/3",
         "display_name": "Physical Sciences"
       }
+    },
+    {
+      "id": "https://openalex.org/T11491",
+      "display_name": "CAR-T cell therapy research",
+      "count": 2901,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11287",
+      "display_name": "Cancer Genomics and Diagnostics",
+      "count": 2897,
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
     }
   ],
   "topic_share": [
     {
       "id": "https://openalex.org/T11189",
       "display_name": "Transplantation: Methods and Outcomes",
-      "value": 0.0213143,
+      "value": 0.0213559,
       "subfield": {
         "id": "https://openalex.org/subfields/2746",
         "display_name": "Surgery"
@@ -772,7 +780,7 @@
     {
       "id": "https://openalex.org/T10261",
       "display_name": "Genetic Associations and Epidemiology",
-      "value": 0.0196925,
+      "value": 0.0193975,
       "subfield": {
         "id": "https://openalex.org/subfields/1311",
         "display_name": "Genetics"
@@ -789,7 +797,7 @@
     {
       "id": "https://openalex.org/T12101",
       "display_name": "Advanced Bandit Algorithms Research",
-      "value": 0.0192271,
+      "value": 0.0190788,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -806,7 +814,7 @@
     {
       "id": "https://openalex.org/T11182",
       "display_name": "Auction Theory and Applications",
-      "value": 0.0191599,
+      "value": 0.0190784,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -823,7 +831,7 @@
     {
       "id": "https://openalex.org/T11289",
       "display_name": "Single-cell and spatial transcriptomics",
-      "value": 0.0189809,
+      "value": 0.0187089,
       "subfield": {
         "id": "https://openalex.org/subfields/1312",
         "display_name": "Molecular Biology"
@@ -840,7 +848,7 @@
     {
       "id": "https://openalex.org/T11491",
       "display_name": "CAR-T cell therapy research",
-      "value": 0.0185164,
+      "value": 0.0186889,
       "subfield": {
         "id": "https://openalex.org/subfields/2730",
         "display_name": "Oncology"
@@ -857,7 +865,7 @@
     {
       "id": "https://openalex.org/T10843",
       "display_name": "Diversity and Career in Medicine",
-      "value": 0.0173311,
+      "value": 0.0177661,
       "subfield": {
         "id": "https://openalex.org/subfields/3318",
         "display_name": "Gender Studies"
@@ -874,7 +882,7 @@
     {
       "id": "https://openalex.org/T11090",
       "display_name": "Dark Matter and Cosmic Phenomena",
-      "value": 0.0173201,
+      "value": 0.0171998,
       "subfield": {
         "id": "https://openalex.org/subfields/3106",
         "display_name": "Nuclear and High Energy Physics"
@@ -889,26 +897,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T11612",
-      "display_name": "Stochastic Gradient Optimization Techniques",
-      "value": 0.0172343,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1702",
-        "display_name": "Artificial Intelligence"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/17",
-        "display_name": "Computer Science"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T10674",
       "display_name": "School Choice and Performance",
-      "value": 0.017064,
+      "value": 0.0169981,
       "subfield": {
         "id": "https://openalex.org/subfields/3304",
         "display_name": "Education"
@@ -925,7 +916,7 @@
     {
       "id": "https://openalex.org/T13718",
       "display_name": "Media Influence and Politics",
-      "value": 0.0170164,
+      "value": 0.0168943,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -940,26 +931,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T10991",
-      "display_name": "Game Theory and Voting Systems",
-      "value": 0.0163521,
+      "id": "https://openalex.org/T11612",
+      "display_name": "Stochastic Gradient Optimization Techniques",
+      "value": 0.0168155,
       "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
       },
       "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     {
       "id": "https://openalex.org/T10985",
       "display_name": "Sleep and Wakefulness Research",
-      "value": 0.0163141,
+      "value": 0.0166948,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -974,9 +965,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T10991",
+      "display_name": "Game Theory and Voting Systems",
+      "value": 0.0162939,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10845",
+      "display_name": "Advanced Causal Inference Techniques",
+      "value": 0.0156422,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T11031",
       "display_name": "Game Theory and Applications",
-      "value": 0.0157013,
+      "value": 0.0155492,
       "subfield": {
         "id": "https://openalex.org/subfields/1803",
         "display_name": "Management Science and Operations Research"
@@ -991,26 +1016,26 @@
       }
     },
     {
-      "id": "https://openalex.org/T10845",
-      "display_name": "Advanced Causal Inference Techniques",
-      "value": 0.0153009,
+      "id": "https://openalex.org/T10769",
+      "display_name": "BRCA gene mutations in cancer",
+      "value": 0.0153741,
       "subfield": {
-        "id": "https://openalex.org/subfields/2613",
-        "display_name": "Statistics and Probability"
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
       },
       "field": {
-        "id": "https://openalex.org/fields/26",
-        "display_name": "Mathematics"
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
       }
     },
     {
       "id": "https://openalex.org/T12056",
       "display_name": "Markov Chains and Monte Carlo Methods",
-      "value": 0.0152189,
+      "value": 0.0152086,
       "subfield": {
         "id": "https://openalex.org/subfields/2613",
         "display_name": "Statistics and Probability"
@@ -1025,26 +1050,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10316",
-      "display_name": "Sleep and related disorders",
-      "value": 0.0151219,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3205",
-        "display_name": "Experimental and Cognitive Psychology"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11303",
       "display_name": "Bayesian Modeling and Causal Inference",
-      "value": 0.0150169,
+      "value": 0.0148909,
       "subfield": {
         "id": "https://openalex.org/subfields/1702",
         "display_name": "Artificial Intelligence"
@@ -1061,7 +1069,7 @@
     {
       "id": "https://openalex.org/T10720",
       "display_name": "Complexity and Algorithms in Graphs",
-      "value": 0.015013,
+      "value": 0.0148769,
       "subfield": {
         "id": "https://openalex.org/subfields/1703",
         "display_name": "Computational Theory and Mathematics"
@@ -1078,7 +1086,7 @@
     {
       "id": "https://openalex.org/T12312",
       "display_name": "Culture, Economy, and Development Studies",
-      "value": 0.014873,
+      "value": 0.0148161,
       "subfield": {
         "id": "https://openalex.org/subfields/3317",
         "display_name": "Demography"
@@ -1093,43 +1101,9 @@
       }
     },
     {
-      "id": "https://openalex.org/T10185",
-      "display_name": "Lymphoma Diagnosis and Treatment",
-      "value": 0.014614,
-      "subfield": {
-        "id": "https://openalex.org/subfields/2734",
-        "display_name": "Pathology and Forensic Medicine"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
-      }
-    },
-    {
-      "id": "https://openalex.org/T10769",
-      "display_name": "BRCA gene mutations in cancer",
-      "value": 0.0145807,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1311",
-        "display_name": "Genetics"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/13",
-        "display_name": "Biochemistry, Genetics and Molecular Biology"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
-      }
-    },
-    {
       "id": "https://openalex.org/T11304",
       "display_name": "Advanced Neuroimaging Techniques and Applications",
-      "value": 0.0143777,
+      "value": 0.0147326,
       "subfield": {
         "id": "https://openalex.org/subfields/2741",
         "display_name": "Radiology, Nuclear Medicine and Imaging"
@@ -1144,9 +1118,43 @@
       }
     },
     {
+      "id": "https://openalex.org/T10185",
+      "display_name": "Lymphoma Diagnosis and Treatment",
+      "value": 0.0147245,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10316",
+      "display_name": "Sleep and related disorders",
+      "value": 0.0146045,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
       "id": "https://openalex.org/T10031",
       "display_name": "T-cell and B-cell Immunology",
-      "value": 0.0143481,
+      "value": 0.0144744,
       "subfield": {
         "id": "https://openalex.org/subfields/2403",
         "display_name": "Immunology"
@@ -1163,7 +1171,7 @@
     {
       "id": "https://openalex.org/T10241",
       "display_name": "Functional Brain Connectivity Studies",
-      "value": 0.0141548,
+      "value": 0.0143445,
       "subfield": {
         "id": "https://openalex.org/subfields/2805",
         "display_name": "Cognitive Neuroscience"
@@ -1181,6 +1189,6 @@
   "is_super_system": false,
   "status": "active",
   "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I97018004",
-  "updated_date": "2026-04-12T05:59:47",
+  "updated_date": "2026-06-04T06:02:13",
   "created_date": "2016-06-24T00:00:00"
 }

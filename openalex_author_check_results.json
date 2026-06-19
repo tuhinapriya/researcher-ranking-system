@@ -1,0 +1,128 @@
+{
+  "David Schuster": {
+    "author_id": "https://openalex.org/A5087556046",
+    "display_name": "David Schuster",
+    "works_count_reported_by_author": 272,
+    "works_count_sampled": 100,
+    "earliest_publication_year_sampled": 1971,
+    "latest_publication_year_sampled": 2025,
+    "has_any_2025_work_sampled": true,
+    "has_2025_work_tagged_quantum_in_concepts_sampled": true,
+    "candidate_search_results_count": 10,
+    "top_search_candidates": [
+      {
+        "id": "https://openalex.org/A5087556046",
+        "display_name": "David Schuster",
+        "works_count": 272
+      },
+      {
+        "id": "https://openalex.org/A5040880164",
+        "display_name": "David M. Schuster",
+        "works_count": 431
+      },
+      {
+        "id": "https://openalex.org/A5101998060",
+        "display_name": "David I. Schuster",
+        "works_count": 304
+      },
+      {
+        "id": "https://openalex.org/A5109040289",
+        "display_name": "David J. Schuster",
+        "works_count": 356
+      },
+      {
+        "id": "https://openalex.org/A5101677062",
+        "display_name": "David Schuster",
+        "works_count": 63
+      },
+      {
+        "id": "https://openalex.org/A5076145496",
+        "display_name": "David Schuster",
+        "works_count": 17
+      },
+      {
+        "id": "https://openalex.org/A5101998061",
+        "display_name": "David Schuster",
+        "works_count": 99
+      },
+      {
+        "id": "https://openalex.org/A5091280894",
+        "display_name": "DAVID C. SCHUSTER",
+        "works_count": 3
+      },
+      {
+        "id": "https://openalex.org/A5073150302",
+        "display_name": "Claudio David Schuster",
+        "works_count": 14
+      },
+      {
+        "id": "https://openalex.org/A5015887057",
+        "display_name": "David P. Schuster",
+        "works_count": 6
+      }
+    ]
+  },
+  "Jon Simon": {
+    "author_id": "https://openalex.org/A5108887845",
+    "display_name": "Jon Simon",
+    "works_count_reported_by_author": 1,
+    "works_count_sampled": 0,
+    "earliest_publication_year_sampled": null,
+    "latest_publication_year_sampled": null,
+    "has_any_2025_work_sampled": false,
+    "has_2025_work_tagged_quantum_in_concepts_sampled": false,
+    "candidate_search_results_count": 10,
+    "top_search_candidates": [
+      {
+        "id": "https://openalex.org/A5074447212",
+        "display_name": "Simon Jon McIlroy",
+        "works_count": 115
+      },
+      {
+        "id": "https://openalex.org/A5108887845",
+        "display_name": "Jon Simon",
+        "works_count": 1
+      },
+      {
+        "id": "https://openalex.org/A5087836892",
+        "display_name": "Jon Simon",
+        "works_count": 26
+      },
+      {
+        "id": "https://openalex.org/A5088796590",
+        "display_name": "Jon Simon",
+        "works_count": 2
+      },
+      {
+        "id": "https://openalex.org/A5009061841",
+        "display_name": "Jon Simon",
+        "works_count": 16
+      },
+      {
+        "id": "https://openalex.org/A5015648026",
+        "display_name": "Jon Simon Sager",
+        "works_count": 3
+      },
+      {
+        "id": "https://openalex.org/A5056404313",
+        "display_name": "J\u00f3n S\u00edmon Mark\u00fasson",
+        "works_count": 3
+      },
+      {
+        "id": "https://openalex.org/A5016631826",
+        "display_name": "Jon Ander Sim\u00f3n",
+        "works_count": 16
+      },
+      {
+        "id": "https://openalex.org/A5096876897",
+        "display_name": "Simon Jon Mcllroy",
+        "works_count": 1
+      },
+      {
+        "id": "https://openalex.org/A5056720921",
+        "display_name": "Jon Simon Stefanuca",
+        "works_count": 1
+      }
+    ]
+  }
+}

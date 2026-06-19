@@ -4,7 +4,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { handleAiChatRequest } from "./ai";
 import { handleGetAiSettings, handleGetSaved, handleGoogleCallback, handleGoogleStart, handleLogin, handleLogout, handleMe, handleRegister, handleRequestCode, handleResetPassword, handleResearchersLookup, handleSaveAiSettings, handleSetSaved, handleSupportTicket } from "./auth";
-import { handleRankingHealthRequest, handleRankingRankRequest } from "./ranking";
+import { handleRankingFallbackIngestRequest, handleRankingFallbackJobCancelRequest, handleRankingFallbackJobStartRequest, handleRankingFallbackJobStatusRequest, handleRankingHealthRequest, handleRankingRankRequest } from "./ranking";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -76,6 +76,22 @@ async function startServer() {
 
   app.post("/api/ranking/rank", async (req, res) => {
     await handleRankingRankRequest(req.body, res);
+  });
+
+  app.post("/api/ranking/fallback-ingest", async (req, res) => {
+    await handleRankingFallbackIngestRequest(req.body, res);
+  });
+
+  app.post("/api/ranking/fallback-ingest/jobs", async (req, res) => {
+    await handleRankingFallbackJobStartRequest(req.body, res);
+  });
+
+  app.get("/api/ranking/fallback-ingest/jobs/:jobId", async (req, res) => {
+    await handleRankingFallbackJobStatusRequest(req.params.jobId, res);
+  });
+
+  app.post("/api/ranking/fallback-ingest/jobs/:jobId/cancel", async (req, res) => {
+    await handleRankingFallbackJobCancelRequest(req.params.jobId, res);
   });
 
   app.post("/api/support", async (req, res) => {

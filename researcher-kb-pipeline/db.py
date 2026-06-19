@@ -189,6 +189,7 @@ def upsert_papers(cursor, researcher_id, papers_by_concept):
     import logging
     import embeddings
     import pinecone_client
+    import utils
 
     sql = """
         INSERT INTO papers (
@@ -203,20 +204,21 @@ def upsert_papers(cursor, researcher_id, papers_by_concept):
     metadata_list = []
     paper_rows = []
     total_papers = 0
+    # Map paper_id -> embedding_id (populated only for papers with abstracts)
+    embedding_id_map = {}
     for concept, papers in papers_by_concept.items():
         for paper in papers:
             total_papers += 1
-            paper_id = (
-                paper.get("doi") or f"{researcher_id}_{paper.get('title','')[:32]}"
-            )
-            paper_id = paper_id.replace("https://doi.org/", "") if paper_id else None
+            paper_id = utils.safe_paper_id(researcher_id, paper)
             title = paper.get("title")
             abstract = paper.get("abstract")
             text_for_embed = None
             if abstract:
                 text_for_embed = (title or "") + " " + abstract
                 texts_to_embed.append(text_for_embed)
-                embedding_ids.append(paper_id)
+                # Embedding id derived from paper id — stable and ASCII-safe
+                safe_embedding_id = utils.safe_embedding_id(researcher_id, paper_id)
+                embedding_ids.append(safe_embedding_id)
                 metadata_list.append(
                     {
                         "researcher_id": researcher_id,
@@ -224,6 +226,8 @@ def upsert_papers(cursor, researcher_id, papers_by_concept):
                         "year": paper.get("year"),
                     }
                 )
+                # Track mapping from paper_id -> embedding id
+                embedding_id_map[paper_id] = safe_embedding_id
             paper_rows.append(
                 {
                     "paper_id": paper_id,
@@ -254,25 +258,41 @@ def upsert_papers(cursor, researcher_id, papers_by_concept):
                     "metadata": metadata_list[idx],
                 }
             )
-    # Upsert to Pinecone in batch
+    # Validate vector ids and filter invalid ones to avoid Pinecone 400 errors
     if pinecone_vectors:
-        try:
-            pinecone_client.upsert_vectors(pinecone_vectors)
-            logging.info(
-                "Pinecone upsert succeeded for researcher=%s vectors=%s",
+        valid_vectors, invalid_ids = utils.validate_and_filter_vectors(pinecone_vectors)
+        if invalid_ids:
+            logging.warning(
+                "Filtered out %s invalid Pinecone vector ids for researcher=%s: %s",
+                len(invalid_ids),
                 researcher_id,
-                len(pinecone_vectors),
+                invalid_ids,
             )
-        except Exception as e:
-            logging.error(f"Pinecone upsert failed: {e}")
-            raise PineconeUpsertError(
-                f"Pinecone upsert failed for researcher={researcher_id}"
-            ) from e
+
+        if valid_vectors:
+            try:
+                pinecone_client.upsert_vectors(valid_vectors)
+                logging.info(
+                    "Pinecone upsert succeeded for researcher=%s vectors=%s",
+                    researcher_id,
+                    len(valid_vectors),
+                )
+            except Exception as e:
+                logging.error("Pinecone upsert failed: %s", e)
+        else:
+            logging.info(
+                "No valid Pinecone vectors to upsert for researcher=%s after filtering",
+                researcher_id,
+            )
     # Map paper_id to embedding_id for successful embeddings
+    # Only keep mapping entries for embeddings that were actually produced
+    successful_embedding_ids = {
+        embedding_ids[i] for i, emb in enumerate(embeddings_list) if emb is not None
+    }
     embedding_id_map = {
-        embedding_ids[i]: embedding_ids[i]
-        for i, emb in enumerate(embeddings_list)
-        if emb is not None
+        pid: eid
+        for pid, eid in embedding_id_map.items()
+        if eid in successful_embedding_ids
     }
     # Insert all papers, set embedding_id if available
     for row in paper_rows:
@@ -416,10 +436,15 @@ def fetch_researcher_ranking_rows(
         params.append(institution_id)
 
     if author_name:
-        clauses.append("LOWER(r.name) LIKE LOWER(%s)")
-        params.append(f"%{author_name}%")
+        # Match all whitespace-separated tokens in the provided author_name so
+        # queries like "Andrew Ng" also match stored names like "Andrew Y. Ng".
+        tokens = [t for t in author_name.split() if t]
+        for tok in tokens:
+            clauses.append("LOWER(r.name) LIKE LOWER(%s)")
+            params.append(f"%{tok}%")
 
     if institution_name:
+        # For institution_name keep the simple LIKE behaviour.
         clauses.append("LOWER(COALESCE(i.name, '')) LIKE LOWER(%s)")
         params.append(f"%{institution_name}%")
 
@@ -509,16 +534,22 @@ def fetch_papers_by_ids(cursor, paper_ids):
         return {}
 
     placeholders = ", ".join(["%s"] * len(ids))
+    # Also check embedding_id so callers that pass embedding ids (from
+    # Pinecone vector ids) can be resolved to the canonical paper row. We
+    # return a mapping keyed by both the paper `id` and the `embedding_id`
+    # when present to simplify lookups.
     sql = f"""
-        SELECT id, researcher_id, title, year, citations, abstract, venue, concept
+        SELECT id, researcher_id, title, year, citations, abstract, venue, concept, embedding_id
         FROM papers
-        WHERE id IN ({placeholders})
+        WHERE id IN ({placeholders}) OR embedding_id IN ({placeholders})
     """
-    cursor.execute(sql, tuple(ids))
+    # pass the ids twice for the two IN clauses
+    params = tuple(ids + ids)
+    cursor.execute(sql, params)
 
     rows = {}
     for row in cursor.fetchall():
-        rows[row[0]] = {
+        paper_dict = {
             "id": row[0],
             "researcher_id": row[1],
             "title": row[2],
@@ -528,4 +559,10 @@ def fetch_papers_by_ids(cursor, paper_ids):
             "venue": row[6],
             "concept": row[7],
         }
+        # Key by canonical id
+        rows[row[0]] = paper_dict
+        # Also key by embedding_id so callers supplying embedding ids resolve
+        emb = row[8]
+        if emb:
+            rows[str(emb)] = paper_dict
     return rows

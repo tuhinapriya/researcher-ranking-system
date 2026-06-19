@@ -2,6 +2,7 @@ import json
 import mysql.connector
 from mysql.connector import Error
 from datetime import datetime
+import utils as _utils
 
 DB_CONFIG = {
     "host": "localhost",
@@ -105,12 +106,7 @@ def main():
         papers_by_concept = researcher.get("papers_by_concept", {})
         for concept, papers in papers_by_concept.items():
             for paper in papers:
-                paper_id = (
-                    paper.get("doi") or f"{researcher_id}_{paper.get('title','')[:32]}"
-                )
-                paper_id = (
-                    paper_id.replace("https://doi.org/", "") if paper_id else None
-                )
+                paper_id = _utils.safe_paper_id(researcher_id, paper)
                 title = paper.get("title")
                 year = paper.get("year")
                 venue = paper.get("venue")

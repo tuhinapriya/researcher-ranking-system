@@ -17,6 +17,7 @@ def rank_researchers(
     institution_id=None,
     author_name=None,
     institution_name=None,
+    fallback_researcher_ids=None,
     pareto_enabled=False,
     top_k=None,
     min_unique_researchers=None,
@@ -94,12 +95,29 @@ def rank_researchers(
             "candidate_researchers_before_filter": len(candidate_ids),
             "candidate_researchers_after_filter": len(filtered_rows),
             "returned_researchers": len(result["results"]),
+            "candidate_ids_sample": candidate_ids[:50],
         }
         return result
 
     conn = get_connection()
     try:
         cursor = conn.cursor()
+
+        # Normalize short acronym queries using config ACRONYM_MAP to avoid
+        # ambiguous semantic embeddings for very short all-caps inputs.
+        try:
+            from config import ACRONYM_MAP
+
+            qstr = (query_text or "").strip()
+            if qstr and qstr.isalpha() and len(qstr) <= 4:
+                up = qstr.upper()
+                if up in ACRONYM_MAP:
+                    logging.info("[Search] Expanding acronym %s -> %s", up, ACRONYM_MAP[up])
+                    # Replace the query text (also show expansion in debug later)
+                    query_text = ACRONYM_MAP[up]
+        except Exception:
+            # Be resilient if config or mapping missing
+            pass
 
         # ── DB-first candidate resolution for author/institution mode ───────────
         # When the user is searching by author name or institution name the query
@@ -111,7 +129,37 @@ def rank_researchers(
         # are retrieved from Pinecone via per-researcher metadata-filter queries.
         forced_researcher_ids = None
         pre_fetched_researcher_rows = None
-        if author_name or institution_name:
+        fallback_researcher_ids = [
+            researcher_id
+            for researcher_id in (fallback_researcher_ids or [])
+            if researcher_id
+        ]
+        if fallback_researcher_ids:
+            pre_fetched_researcher_rows = fetch_researcher_ranking_rows(
+                cursor,
+                researcher_ids=fallback_researcher_ids,
+                region=region,
+                institution_id=institution_id,
+            )
+            # If DB has rows for these fallback ids use them; otherwise
+            # treat the fallback ids as authoritative and create minimal
+            # placeholder rows so they aren't dropped after Pinecone scoring.
+            if pre_fetched_researcher_rows:
+                forced_researcher_ids = [
+                    row["id"] for row in pre_fetched_researcher_rows
+                ]
+            else:
+                forced_researcher_ids = list(fallback_researcher_ids)
+                pre_fetched_researcher_rows = [
+                    {"id": researcher_id, "name": author_name}
+                    for researcher_id in fallback_researcher_ids
+                ]
+            logging.info(
+                "[Search] Fallback exact-id lookup: ids=%s found=%s",
+                len(fallback_researcher_ids),
+                len(forced_researcher_ids),
+            )
+        elif author_name or institution_name:
             pre_fetched_researcher_rows = fetch_researcher_ranking_rows(
                 cursor,
                 author_name=author_name,
@@ -204,6 +252,7 @@ def rank_researchers(
             "candidate_researchers_after_filter": len(filtered_ids),
             "returned_researchers": len(result["results"]),
             "filtered_out_researchers": candidates_before - len(filtered_ids),
+            "candidate_ids_sample": list(q_scores.keys())[:50],
         }
         logging.info(
             "[Search] query=%s before_filter=%s after_filter=%s returned=%s region=%s institution_id=%s author_name=%s institution_name=%s",

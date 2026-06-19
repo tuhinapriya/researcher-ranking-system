@@ -276,6 +276,13 @@ CONCEPTS = [
     {"id": "T10154", "label": "Autonomous Vehicles and Autonomous Systems"},
 ]
 
+# Short acronym -> expanded phrase map used to normalize user queries for
+# common domain acronyms (helps with short ambiguous queries like "HBM").
+# Add entries as needed for other domain-specific acronyms.
+ACRONYM_MAP = {
+    "HBM": "Human Brain Mapping",
+}
+
 # ============================================================
 # Pagination & Limits
 # ============================================================

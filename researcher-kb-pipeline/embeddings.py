@@ -28,13 +28,32 @@ def get_embeddings_batch(texts):
     if not _embedding_model:
         logging.error("Vertex AI embedding model not initialized.")
         return [None] * len(texts)
+
+    import time
+
     results = []
     for i in range(0, len(texts), BATCH_SIZE):
         batch = texts[i : i + BATCH_SIZE]
-        try:
-            batch_embeddings = _embedding_model.get_embeddings(batch)
-            results.extend([emb.values for emb in batch_embeddings])
-        except Exception as e:
-            logging.error(f"Vertex AI embedding batch failed: {e}")
+        # Retry transient connection errors a few times with backoff
+        max_retries = 3
+        delay = 1.0
+        success = False
+        for attempt in range(1, max_retries + 1):
+            try:
+                batch_embeddings = _embedding_model.get_embeddings(batch)
+                results.extend([emb.values for emb in batch_embeddings])
+                success = True
+                break
+            except Exception as e:
+                logging.error(
+                    "Vertex AI embedding batch failed (attempt %s/%s): %s",
+                    attempt,
+                    max_retries,
+                    e,
+                )
+                if attempt < max_retries:
+                    time.sleep(delay)
+                    delay *= 2
+        if not success:
             results.extend([None] * len(batch))
     return results

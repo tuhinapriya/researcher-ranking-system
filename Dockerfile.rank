@@ -23,6 +23,12 @@ COPY researcher-kb-pipeline/db.py /app/db.py
 COPY researcher-kb-pipeline/embeddings.py /app/embeddings.py
 COPY researcher-kb-pipeline/pinecone_client.py /app/pinecone_client.py
 COPY researcher-kb-pipeline/config.py /app/config.py
+COPY researcher-kb-pipeline/fallback_ingest.py /app/fallback_ingest.py
+COPY researcher-kb-pipeline/stage2_extract.py /app/stage2_extract.py
+COPY researcher-kb-pipeline/stage3_enrich.py /app/stage3_enrich.py
+COPY researcher-kb-pipeline/stage4_assemble.py /app/stage4_assemble.py
+COPY researcher-kb-pipeline/utils.py /app/utils.py
+COPY researcher-kb-pipeline/link_verifier.py /app/link_verifier.py
 RUN mkdir -p /app/data
 COPY researcher-kb-pipeline/data/mock_ranking_data.json /app/data/mock_ranking_data.json
 

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, BookOpen, Bot, Bookmark, BookmarkCheck, ChevronDown, ExternalLink, FileText, MessageCircle, Moon, Search, Send, Settings, SlidersHorizontal, Sparkles, Sun, User, X } from "lucide-react";
 import { type ResearchPaper, type ResearcherRecord } from "@/lib/data";
 import { cn } from "@/lib/utils";
@@ -9,6 +9,13 @@ type ChartMode = "q-r" | "q-h" | "r-h";
 type TableSortKey = "rank" | "query" | "hIndex" | "recentCitations";
 type SortDirection = "asc" | "desc";
 type SearchModeChoice = "auto" | "author" | "topic" | "institution";
+type FallbackSearchType = "researcher" | "institution" | "topic";
+type FallbackUiState =
+  | { mode: "idle" }
+  | { mode: "countdown"; seconds: number; query: string; searchType: FallbackSearchType }
+  | { mode: "running"; jobId: string; message: string; currentStep: string; steps: FallbackJobStep[] }
+  | { mode: "failed"; message: string; query: string; searchType: FallbackSearchType }
+  | { mode: "cancelled"; message: string };
 type ChatMessage = { role: "assistant" | "user"; content: string };
 type FloatingPosition = { x: number; y: number };
 type ThemeMode = "dark" | "light";
@@ -27,6 +34,10 @@ type SearchMeta = {
   sourceLabel?: string;
   citationStartYear?: number;
   citationEndYear?: number;
+  fallbackAvailable?: boolean;
+  fallbackType?: string;
+  originalQuery?: string;
+  fallbackSearchType?: FallbackSearchType;
 };
 type ResearchersResponse = { query: string; meta: SearchMeta; researchers: ResearcherRecord[] };
 type RankingTopPaper = {
@@ -63,7 +74,43 @@ type RankingApiResponse = {
   results?: RankingApiResult[];
   pareto?: unknown;
   debug?: Record<string, unknown>;
+  results_found?: boolean;
+  fallback_available?: boolean;
+  fallback_type?: string;
+  original_query?: string;
+  search_type?: FallbackSearchType;
+  ingestion_status?: "complete" | "partial" | string;
 };
+type FallbackJobStep = { id: string; label: string; status: "pending" | "active" | "complete" | "failed" | "cancelled" };
+type FallbackJobStartResponse = { job_id: string; status: string; current_step: string; message: string };
+type FallbackJobStatusResponse = {
+  job_id: string;
+  status: "queued" | "running" | "complete" | "failed" | "cancelled" | "interrupted";
+  current_step: string;
+  message: string;
+  steps: FallbackJobStep[];
+  result?: RankingApiResponse | null;
+  error?: string | null;
+};
+type PersistedFallbackJob = {
+  jobId: string;
+  query: string;
+  searchType: FallbackSearchType;
+  searchMode: SearchModeChoice;
+  citationStartYear: number;
+  citationEndYear: number;
+};
+const FALLBACK_JOB_STORAGE_KEY = "fallback_ingest_job";
+const FALLBACK_LOCAL_STEPS: FallbackJobStep[] = [
+  { id: "searching_local", label: "Searching local database", status: "complete" },
+  { id: "no_local_results", label: "No local results found", status: "complete" },
+];
+const FALLBACK_PENDING_STEPS: FallbackJobStep[] = [
+  { id: "fetching_entity", label: "Fetching researcher/institution/topic information", status: "pending" },
+  { id: "importing_metadata", label: "Importing publications and metadata", status: "pending" },
+  { id: "processing_ranking", label: "Processing and ranking results", status: "pending" },
+  { id: "complete", label: "Showing updated results", status: "pending" },
+];
 
 interface Filters {
   weights: Record<WeightKey, number>;
@@ -88,6 +135,7 @@ interface AppSettings {
   rememberApiKey: boolean;
   savedApiKeys: Partial<Record<ProviderKey, string>>;
   apiKeyStorageChoice: Partial<Record<ProviderKey, ApiKeyStorageChoice>>;
+  savedResearchersPersistence?: "session" | "permanent";
 }
 
 const DEFAULT_QUERY = "quantum computing algorithms";
@@ -114,6 +162,7 @@ const defaultAppSettings: AppSettings = {
   rememberApiKey: false,
   savedApiKeys: {},
   apiKeyStorageChoice: {},
+  savedResearchersPersistence: "session",
 };
 const modelPresets: Record<ProviderKey, ModelPreset[]> = {
   gpt: [
@@ -661,6 +710,9 @@ function mapRankingResult(result: RankingApiResult, index: number, query: string
 
 function mapRankingResponse(response: RankingApiResponse, query: string, searchMode: SearchModeChoice, citationStartYear: number, citationEndYear: number): ResearchersResponse {
   const researchers = (response.results || []).map((result, index) => mapRankingResult(result, index, query, searchMode, citationStartYear, citationEndYear));
+  const fallbackSearchType =
+    response.search_type ||
+    (searchMode === "author" ? "researcher" : searchMode === "institution" ? "institution" : "topic");
   return {
     query,
     meta: {
@@ -671,6 +723,10 @@ function mapRankingResponse(response: RankingApiResponse, query: string, searchM
       sourceLabel: "Ranking backend",
       citationStartYear,
       citationEndYear,
+      fallbackAvailable: Boolean(response.fallback_available),
+      fallbackType: response.fallback_type,
+      originalQuery: response.original_query || query,
+      fallbackSearchType,
     },
     researchers,
   };
@@ -706,8 +762,129 @@ async function fetchRankingResearchers(query: string, searchMode: SearchModeChoi
     }),
   });
   const mapped = mapRankingResponse(response, query, searchMode, citationStartYear, citationEndYear);
-  if (mapped.researchers.length === 0) throw new Error("Ranking backend returned no researchers.");
+  if (mapped.researchers.length === 0 && !mapped.meta.fallbackAvailable) throw new Error("Ranking backend returned no researchers.");
   return mapped;
+}
+
+async function fetchFallbackIngestResearchers(query: string, searchType: "researcher" | "institution" | "topic", searchMode: SearchModeChoice, citationStartYear: number, citationEndYear: number, signal: AbortSignal) {
+  const response = await apiRequest<RankingApiResponse>("/api/ranking/fallback-ingest", {
+    method: "POST",
+    signal,
+    body: JSON.stringify({
+      query,
+      search_type: searchType,
+    }),
+  });
+  const mapped = mapRankingResponse(response, query, searchMode, citationStartYear, citationEndYear);
+  if (mapped.researchers.length === 0) throw new Error("OpenAlex ingestion completed, but no researchers matched the original search.");
+  return mapped;
+}
+
+async function startFallbackIngestJob(query: string, searchType: FallbackSearchType, signal?: AbortSignal) {
+  return apiRequest<FallbackJobStartResponse>("/api/ranking/fallback-ingest/jobs", {
+    method: "POST",
+    signal,
+    body: JSON.stringify({
+      query,
+      search_type: searchType,
+    }),
+  });
+}
+
+async function fetchFallbackIngestJob(jobId: string, signal?: AbortSignal) {
+  return apiRequest<FallbackJobStatusResponse>(`/api/ranking/fallback-ingest/jobs/${encodeURIComponent(jobId)}`, {
+    method: "GET",
+    signal,
+  });
+}
+
+async function cancelFallbackIngestJob(jobId: string, signal?: AbortSignal) {
+  return apiRequest<{ job_id: string; status: string; message: string }>(`/api/ranking/fallback-ingest/jobs/${encodeURIComponent(jobId)}/cancel`, {
+    method: "POST",
+    signal,
+    body: "{}",
+  });
+}
+
+function fallbackSearchTypeLabel(searchType?: FallbackSearchType) {
+  if (searchType === "researcher") return "researcher";
+  if (searchType === "institution") return "institution";
+  if (searchType === "topic") return "topic";
+  return "record";
+}
+
+function safeFallbackMessage(message?: string | null, searchType?: FallbackSearchType) {
+  if (!message) return "The expanded search could not finish. Please try again.";
+  const normalized = message.toLowerCase();
+  if (normalized.includes("traceback") || normalized.includes("exception") || normalized.includes("errno") || normalized.includes("failed to fetch")) {
+    return "The expanded search could not finish. Please try again.";
+  }
+  if (normalized.includes("no matching openalex entity")) {
+    return `No matching ${fallbackSearchTypeLabel(searchType)} was found in OpenAlex.`;
+  }
+  if (normalized.includes("no openalex works") || normalized.includes("no eligible education-institution researchers")) {
+    return "OpenAlex did not return importable publications for this search.";
+  }
+  if (normalized.includes("fallback ingestion failed") || normalized.includes("openalex lookup failed")) {
+    return "The expanded search could not finish. Please try again.";
+  }
+  return message;
+}
+
+function readPersistedFallbackJob(): PersistedFallbackJob | null {
+  try {
+    const raw = localStorage.getItem(FALLBACK_JOB_STORAGE_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw) as Partial<PersistedFallbackJob>;
+    if (!parsed.jobId || !parsed.query || !parsed.searchType) return null;
+    return {
+      jobId: parsed.jobId,
+      query: parsed.query,
+      searchType: parsed.searchType,
+      searchMode: parsed.searchMode || "auto",
+      citationStartYear: parsed.citationStartYear || YEAR_MIN,
+      citationEndYear: parsed.citationEndYear || YEAR_MAX,
+    };
+  } catch {
+    return null;
+  }
+}
+
+function writePersistedFallbackJob(job: PersistedFallbackJob) {
+  try {
+    localStorage.setItem(FALLBACK_JOB_STORAGE_KEY, JSON.stringify(job));
+  } catch { /* ignore storage failures */ }
+}
+
+function clearPersistedFallbackJob() {
+  try {
+    localStorage.removeItem(FALLBACK_JOB_STORAGE_KEY);
+  } catch { /* ignore storage failures */ }
+}
+
+function fallbackUiSteps(jobSteps?: FallbackJobStep[]): FallbackJobStep[] {
+  if (!jobSteps || jobSteps.length === 0) {
+    return [...FALLBACK_LOCAL_STEPS, ...FALLBACK_PENDING_STEPS];
+  }
+  const statusById = new Map(jobSteps.map((step) => [step.id, step.status]));
+  const importingStatuses = [
+    statusById.get("fetching_works"),
+    statusById.get("importing_metadata"),
+  ].filter(Boolean) as FallbackJobStep["status"][];
+  const importingStatus: FallbackJobStep["status"] =
+    importingStatuses.includes("failed") ? "failed" :
+    importingStatuses.includes("active") ? "active" :
+    importingStatuses.includes("complete") ? "complete" :
+    importingStatuses.includes("cancelled") ? "cancelled" :
+    "pending";
+
+  return [
+    ...FALLBACK_LOCAL_STEPS,
+    ...FALLBACK_PENDING_STEPS.map((step) => {
+      if (step.id === "importing_metadata") return { ...step, status: importingStatus };
+      return { ...step, status: statusById.get(step.id) || step.status };
+    }),
+  ];
 }
 
 function normalizedMetricMap(list: ResearcherRecord[], valueFor: (researcher: ResearcherRecord) => number, logScale = false) {
@@ -913,6 +1090,14 @@ function SettingsModal({ open, settings, onClose, onChange, user, serverAiSettin
                 </button>
               </div>
             )}
+          </section>
+          <section className="rounded-lg border border-white/8 bg-white/[0.025] p-4">
+            <h3 className="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-slate-300">Saved Researchers</h3>
+            <div className="text-sm text-slate-400">Choose how saved researchers persist across sessions.</div>
+            <div className="mt-3 space-y-2">
+              <label className="flex items-center gap-2 text-sm"><input type="radio" name="saved_persistence" checked={settings.savedResearchersPersistence === "session"} onChange={() => onChange({ ...settings, savedResearchersPersistence: "session" })} />Keep for this session only (cleared at logout)</label>
+              <label className="flex items-center gap-2 text-sm"><input type="radio" name="saved_persistence" checked={settings.savedResearchersPersistence === "permanent"} onChange={() => onChange({ ...settings, savedResearchersPersistence: "permanent" })} />Save permanently (persist across logins)</label>
+            </div>
           </section>
           <section className="rounded-lg border border-white/8 bg-white/[0.025] p-4">
             <h3 className="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-slate-300">Appearance</h3>
@@ -1513,9 +1698,9 @@ function ParetoChart({ list, selected, rankMap, mode, onModeChange, onSelect }: 
           const radius = 2.2 + Math.min(7, (researcher.finalScore || 0) / 14);
           const color = isSelected ? "#67e8f9" : isTop ? "#facc15" : isFrontier ? "#34d399" : "#60a5fa";
           return (
-            <g key={researcher.id} onClick={() => onSelect(researcher)}>
+            <g key={researcher.id} className="cursor-pointer" onClick={() => onSelect(researcher)}>
               <circle cx={p.x} cy={p.y} r={isSelected ? radius + 1.5 : radius} fill={color} opacity={isSelected || isTop || isFrontier ? 0.88 : 0.34} stroke={isFrontier || isSelected ? "#22d3ee" : "transparent"} strokeWidth={isSelected ? 2 : 1}>
-                <title>{rankMap.get(researcher.id) ?? index + 1}. {researcher.name}</title>
+                <title>{`${rankMap.get(researcher.id) ?? index + 1}. ${researcher.name}\nQ: ${Math.round(researcher.queryRelevanceNorm || 0)} · R: ${Math.round(researcher.recentCitationImpactNorm || 0)}`}</title>
               </circle>
               {(rankMap.get(researcher.id) ?? index + 1) <= 10 || isSelected ? <text x={p.x} y={p.y + 2.2} textAnchor="middle" fontSize="7" fontWeight="700" fill="#020617">{rankMap.get(researcher.id) ?? index + 1}</text> : null}
             </g>
@@ -1554,6 +1739,7 @@ function AiSummaryModal({
   const [summary, setSummary] = useState<string>(() => cache.get(cacheKey) || "");
   const [loading, setLoading] = useState(() => !cache.has(cacheKey));
   const [error, setError] = useState("");
+  const [verifiedLinks, setVerifiedLinks] = useState<Array<{url: string; label: string}>>([]);
 
   useEffect(() => {
     if (cache.has(cacheKey)) return;
@@ -1563,9 +1749,40 @@ function AiSummaryModal({
       ? `Describe the research interests, activities, results, research group, capabilities, expertise, impact, and overall caliber of ${researcher.name} at ${institution} in the area of ${query}. Provide a concise single-screen summary suitable for technical decision makers. Include primary research areas, recent activities, notable publications or achievements, laboratory or group information, technical capabilities, relevance to the search topic, and an assessment of influence and caliber. Include links to relevant online sources whenever possible.`
       : `Describe the research interests, activities, results, research group, capabilities, expertise, impact, and overall caliber of ${researcher.name} in the area of ${query}. Provide a concise single-screen summary suitable for technical decision makers. Include primary research areas, recent activities, notable publications or achievements, laboratory or group information, technical capabilities, relevance to the search topic, and an assessment of influence and caliber. Include links to relevant online sources whenever possible.`;
     requestAiAnswer(settings, [{ role: "user", content: prompt }], undefined, loggedIn)
-      .then((answer) => {
-        setSummary(answer);
-        onCache(cacheKey, answer);
+      .then(async (answer) => {
+        // Sanitize AI output: convert any HTML anchors to markdown, strip other tags
+        const convertAnchors = (s: string) => s.replace(/<a\s+[^>]*href=["']([^"']+)["'][^>]*>(.*?)<\/a>/gi, (m, href, text) => {
+          return `[${text}](${href})`;
+        });
+        const stripTags = (s: string) => convertAnchors(s).replace(/<[^>]+>/g, "");
+        const clean = stripTags(answer);
+        setSummary(clean);
+        onCache(cacheKey, clean);
+
+        // Gather candidate links: explicit profile fields + any URLs found in the cleaned answer
+        const candidates = new Set<string>();
+        if (researcher.authorUrl) candidates.add(researcher.authorUrl);
+        if (researcher.googleUrl) candidates.add(researcher.googleUrl);
+        if (researcher.scholarUrl) candidates.add(researcher.scholarUrl);
+        // extract bare URLs from text
+        const urlRegex = /(https?:\/\/[^\s)]+)/g;
+        let m: RegExpExecArray | null;
+        while ((m = urlRegex.exec(clean))) {
+          if (m[1]) candidates.add(m[1]);
+        }
+
+        if (candidates.size > 0) {
+          try {
+            const body = { links: Array.from(candidates), name: researcher.name, institution };
+            const res = await apiRequest<{ verified: Array<{ url: string; label: string }> }>("/api/ai/verify-links", { method: "POST", body: JSON.stringify(body) });
+            setVerifiedLinks(res.verified || []);
+          } catch (err) {
+            // verification failed — clear links
+            setVerifiedLinks([]);
+          }
+        } else {
+          setVerifiedLinks([]);
+        }
       })
       .catch((err) => setError(err instanceof Error ? err.message : String(err)))
       .finally(() => setLoading(false));
@@ -1595,7 +1812,44 @@ function AiSummaryModal({
           ) : error ? (
             <div className="rounded-md border border-red-500/20 bg-red-500/10 px-4 py-3 text-sm text-red-300">{error}</div>
           ) : (
-            <p className="whitespace-pre-wrap text-sm leading-7 text-slate-300">{summary}</p>
+            (() => {
+              // Summary text has been sanitized server-side in the frontend before
+              // caching. We still escape and then linkify markdown and bare URLs.
+              const escapeHtml = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+              const linkify = (s: string) => {
+                let out = escapeHtml(s);
+                // markdown [text](url)
+                out = out.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noreferrer noopener" class="text-blue-300 hover:underline">$1</a>');
+                // bare URLs
+                out = out.replace(/(https?:\/\/[^\s)]+)/g, '<a href="$1" target="_blank" rel="noreferrer noopener" class="text-blue-300 hover:underline">$1</a>');
+                // preserve line breaks
+                out = out.replace(/\n/g, "<br/>\n");
+                return out;
+              };
+              const summaryHtml = summary ? linkify(summary) : "";
+
+              return (
+                <div>
+                  <div className="text-sm leading-7 text-slate-300" dangerouslySetInnerHTML={{ __html: summaryHtml }} />
+                  <div className="mt-4 pt-3 border-t border-white/6 text-sm">
+                    <h3 className="text-xs font-semibold text-slate-300">Relevant Online Sources</h3>
+                    <div className="mt-2">
+                      {verifiedLinks.length > 0 ? (
+                        <ul className="space-y-2">
+                          {verifiedLinks.map((l) => (
+                            <li key={l.url}>
+                              <a href={l.url} target="_blank" rel="noreferrer noopener" className="text-blue-300 hover:underline">{l.label || l.url}</a>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <div className="text-slate-500">No verified online sources found.</div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              );
+            })()
           )}
         </div>
       </div>
@@ -1630,27 +1884,9 @@ function LandingPage({ query, setQuery, onSearch, history, searchMode, setSearch
   );
 }
 
-function FilterRail({ filters, setFilters, locations, selected, savedResearchers, rankMap, onSelect }: { filters: Filters; setFilters: (filters: Filters) => void; locations: string[]; selected?: ResearcherRecord; savedResearchers: ResearcherRecord[]; rankMap: Map<string, number>; onSelect: (researcher: ResearcherRecord) => void }) {
+function FilterRail({ filters, setFilters, locations, selected, rankMap, onSelect, onRemoveSaved }: { filters: Filters; setFilters: (filters: Filters) => void; locations: string[]; selected?: ResearcherRecord; rankMap: Map<string, number>; onSelect: (researcher: ResearcherRecord) => void; onRemoveSaved: (id: string) => void }) {
   return (
     <aside className="w-[var(--filter-rail-width)] shrink-0 overflow-y-auto border-r border-white/8 bg-[#070a10] px-5 py-5">
-      <Section id="saved" title={`Saved Researchers (${savedResearchers.length})`} filters={filters} setFilters={setFilters}>
-        <div className="mb-3 space-y-1">
-          {savedResearchers.length === 0 ? (
-            <p className="rounded-md border border-white/8 bg-white/[0.025] px-3 py-2 text-xs text-slate-500">No saved researchers yet.</p>
-          ) : (
-            savedResearchers.map((researcher) => (
-              <button
-                key={researcher.id}
-                onClick={() => onSelect(researcher)}
-                className={cn("flex w-full items-center gap-2 rounded-md px-2 py-2 text-left text-xs hover:bg-white/[0.04]", selected?.id === researcher.id ? "bg-blue-500/15 text-blue-100" : "text-slate-400")}
-              >
-                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-500/20 text-[9px] font-bold text-blue-200">{researcher.initials || initials(researcher.name)}</span>
-                <span className="min-w-0 flex-1 truncate">{researcher.name}</span>
-              </button>
-            ))
-          )}
-        </div>
-      </Section>
       <div className="mb-4 flex items-center justify-between"><h2 className="text-xs font-bold uppercase tracking-[0.16em] text-slate-300">Filters</h2><SlidersHorizontal className="h-3.5 w-3.5 text-slate-500" /></div>
       <Section id="ranking" title="Ranking Weights" filters={filters} setFilters={setFilters}>
         <div className="space-y-3">
@@ -1679,6 +1915,7 @@ function ResearcherTable({
   savedIds,
   startRank,
   emptyState,
+  emptyAction,
   sort,
   onSort,
   onSelect,
@@ -1691,6 +1928,7 @@ function ResearcherTable({
   savedIds: Set<string>;
   startRank: number;
   emptyState: string;
+  emptyAction?: ReactNode;
   sort: { key: TableSortKey; direction: SortDirection };
   onSort: (key: TableSortKey) => void;
   onSelect: (researcher: ResearcherRecord) => void;
@@ -1718,7 +1956,7 @@ function ResearcherTable({
           </tr>
         </thead>
         <tbody>{list.length === 0 ? (
-          <tr><td colSpan={6} className="px-6 py-16 text-center text-sm text-slate-500">{emptyState}</td></tr>
+          <tr><td colSpan={6} className="px-6 py-16 text-center text-sm text-slate-500"><div className="flex flex-col items-center gap-3">{emptyState}{emptyAction}</div></td></tr>
         ) : list.map((researcher, index) => {
           const rank = startRank + index;
           const affiliation = affiliationDisplay(researcher);
@@ -1752,6 +1990,54 @@ function ResearcherTable({
           );
         })}</tbody>
       </table>
+    </div>
+  );
+}
+
+function FallbackProgressPanel({
+  state,
+  onCancel,
+  onRetry,
+}: {
+  state: FallbackUiState;
+  onCancel: () => void;
+  onRetry: () => void;
+}) {
+  if (state.mode === "idle") return null;
+  if (state.mode === "cancelled") {
+    return <div className="rounded-md border border-white/8 bg-white/[0.03] px-4 py-3 text-xs text-slate-400">{state.message}</div>;
+  }
+  if (state.mode === "failed") {
+    return (
+      <div className="flex flex-col items-center gap-3 rounded-md border border-red-500/20 bg-red-500/10 px-4 py-3 text-xs text-red-100">
+        <span>{state.message}</span>
+        <button type="button" onClick={onRetry} className="rounded-md bg-red-500/80 px-3 py-2 font-semibold text-white hover:bg-red-500">Retry OpenAlex search</button>
+      </div>
+    );
+  }
+  if (state.mode === "countdown") {
+    return (
+      <div className="flex flex-col items-center gap-3 rounded-md border border-blue-500/20 bg-blue-500/10 px-4 py-3 text-xs text-blue-100">
+        <span>No local results found. Expanding search...</span>
+        <span>Starting OpenAlex search in {state.seconds} {state.seconds === 1 ? "second" : "seconds"}...</span>
+        <button type="button" onClick={onCancel} className="rounded-md border border-white/12 px-3 py-2 font-semibold text-slate-100 hover:bg-white/8">Cancel</button>
+      </div>
+    );
+  }
+  return (
+    <div className="w-full max-w-md rounded-md border border-blue-500/20 bg-blue-500/10 px-4 py-3 text-left text-xs text-blue-100">
+      <div className="mb-3 flex items-center justify-between gap-3">
+        <span>{state.message}</span>
+        <button type="button" onClick={onCancel} className="rounded-md border border-white/12 px-3 py-1.5 font-semibold text-slate-100 hover:bg-white/8">Cancel</button>
+      </div>
+      <div className="grid gap-2">
+        {state.steps.map((step) => (
+          <div key={step.id} className="flex items-center gap-2">
+            <span className={cn("h-2 w-2 rounded-full", step.status === "complete" ? "bg-emerald-400" : step.status === "active" ? "bg-blue-300" : step.status === "failed" ? "bg-red-400" : step.status === "cancelled" ? "bg-slate-400" : "bg-white/20")} />
+            <span className={cn(step.status === "pending" && "text-blue-100/50")}>{step.label}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -1906,13 +2192,55 @@ function RankingBreakdown({ researcher, weights, compact = false }: { researcher
   );
 }
 
-function SideSummary({ list, query, settings, loggedIn, onOpenUserGuide }: { list: ResearcherRecord[]; query: string; settings: AppSettings; loggedIn?: boolean; onOpenUserGuide: () => void }) {
+function SideSummary({
+  list,
+  query,
+  settings,
+  loggedIn,
+  onOpenUserGuide,
+  savedResearchers,
+  selected,
+  rankMap,
+  onSelect,
+  onRemoveSaved,
+}: {
+  list: ResearcherRecord[];
+  query: string;
+  settings: AppSettings;
+  loggedIn?: boolean;
+  onOpenUserGuide: () => void;
+  savedResearchers?: ResearcherRecord[];
+  selected?: ResearcherRecord | undefined;
+  rankMap?: Map<string, number>;
+  onSelect?: (r: ResearcherRecord) => void;
+  onRemoveSaved?: (id: string) => void;
+}) {
   return (
     <aside className="w-[var(--side-summary-width)] shrink-0 overflow-y-auto border-l border-white/8 bg-[#070a10] p-4">
       <button onClick={onOpenUserGuide} className="mb-4 flex w-full items-center justify-center gap-2 rounded-md border border-white/10 bg-white/[0.025] px-3 py-2.5 text-xs font-semibold text-slate-300 hover:bg-white/[0.06] hover:text-slate-100">
-        <BookOpen className="h-3.5 w-3.5" />User Guide
+        <BookOpen className="h-3.5 w-3.5 text-cyan-300" />User Guide
       </button>
+      {/* Saved Researchers moved to right panel to reduce left-column crowding */}
+      <div className="mb-4">
+        <h3 className="mb-2 text-xs font-bold uppercase tracking-[0.12em] text-slate-300">Saved Researchers ({savedResearchers?.length ?? 0})</h3>
+        {(!savedResearchers || savedResearchers.length === 0) ? (
+          <div className="rounded-md border border-white/8 bg-white/[0.025] px-3 py-2 text-xs text-slate-500">No saved researchers yet.</div>
+        ) : (
+          <div className="space-y-2">
+            {savedResearchers.map((r) => (
+              <div key={r.id} className={cn("flex items-center justify-between gap-2 rounded-md px-2 py-1 text-xs", selected?.id === r.id ? "bg-blue-500/15 text-blue-100" : "text-slate-400") }>
+                <button onClick={() => onSelect?.(r)} className="min-w-0 flex-1 text-left truncate">{r.name}</button>
+                <button onClick={(e) => { e.stopPropagation(); onRemoveSaved?.(r.id); }} className="ml-2 rounded p-1 text-slate-500 hover:bg-white/6 hover:text-red-400">Remove</button>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
       <ResultsAiPanel list={list} query={query} settings={settings} loggedIn={loggedIn} />
+      <div className="mt-4">
+        <h3 className="mb-2 text-xs font-bold uppercase tracking-[0.12em] text-slate-300">Q-vs-R (Top 10)</h3>
+        <ParetoChart list={list} selected={selected} rankMap={rankMap ?? new Map()} mode={"q-r"} onModeChange={() => {}} onSelect={(r) => onSelect?.(r)} />
+      </div>
     </aside>
   );
 }
@@ -1997,6 +2325,7 @@ export default function Home() {
   const [filters, setFilters] = useState<Filters>(defaultFilters);
   const [selectedId, setSelectedId] = useState<string | undefined>();
   const [detailId, setDetailId] = useState<string | undefined>();
+  const [showOnlyId, setShowOnlyId] = useState<string | undefined>();
   const [savedIds, setSavedIds] = useState<Set<string>>(() => new Set());
   const [savedLoaded, setSavedLoaded] = useState(false);
   const [savedResearcherCache, setSavedResearcherCache] = useState<Map<string, ResearcherRecord>>(() => {
@@ -2022,9 +2351,15 @@ export default function Home() {
   const [researcherResults, setResearcherResults] = useState<ResearcherRecord[]>([]);
   const [searchMeta, setSearchMeta] = useState<SearchMeta | undefined>();
   const [searchLoading, setSearchLoading] = useState(false);
+  const [fallbackLoading, setFallbackLoading] = useState(false);
+  const [fallbackState, setFallbackState] = useState<FallbackUiState>({ mode: "idle" });
   const [searchError, setSearchError] = useState("");
   const [appliedYearRange, setAppliedYearRange] = useState({ minYear: defaultFilters.minYear, maxYear: defaultFilters.maxYear });
   const [tableSort, setTableSort] = useState<{ key: TableSortKey; direction: SortDirection }>({ key: "rank", direction: "asc" });
+  const fallbackCountdownTimerRef = useRef<number | undefined>(undefined);
+  const fallbackPollTimerRef = useRef<number | undefined>(undefined);
+  const fallbackCancelPendingRef = useRef(false);
+  const fallbackRecoveryRef = useRef(false);
   useEffect(() => {
     persistSettings(settings);
   }, [settings]);
@@ -2172,15 +2507,32 @@ export default function Home() {
   }, [savedIds, currentUser, savedLoaded]);
   useEffect(() => {
     if (!activeQuery) return;
-    const controller = new AbortController();
-    setSearchLoading(true);
+    if (fallbackRecoveryRef.current) {
+      fallbackRecoveryRef.current = false;
+      return;
+    }
     setSearchError("");
     setSearchMeta(undefined);
     setResearcherResults([]);
-    fetchRankingResearchers(activeQuery, searchMode, appliedYearRange.minYear, appliedYearRange.maxYear, filters.weights, controller.signal, filters.location)
+    const localQuery = activeQuery;
+    const controller = new AbortController();
+    setSearchLoading(true);
+    fetchRankingResearchers(localQuery, searchMode, appliedYearRange.minYear, appliedYearRange.maxYear, filters.weights, controller.signal, filters.location)
       .then((result) => {
+        // Guard against out-of-order responses: only apply results for the
+        // most recent activeQuery. This prevents an earlier slow response from
+        // overwriting a newer search's results and producing recycled lists.
+        if (localQuery !== activeQuery) return;
         setResearcherResults(result.researchers);
         setSearchMeta(result.meta);
+        if (result.researchers.length === 0 && result.meta.fallbackAvailable && result.meta.fallbackSearchType) {
+          setFallbackState({
+            mode: "countdown",
+            seconds: 3,
+            query: result.meta.originalQuery || activeQuery,
+            searchType: result.meta.fallbackSearchType,
+          });
+        }
       })
       .catch((error) => {
         if (controller.signal.aborted) return;
@@ -2189,7 +2541,11 @@ export default function Home() {
       .finally(() => {
         if (!controller.signal.aborted) setSearchLoading(false);
       });
-    return () => controller.abort();
+    return () => {
+      controller.abort();
+      if (fallbackCountdownTimerRef.current) window.clearInterval(fallbackCountdownTimerRef.current);
+      if (fallbackPollTimerRef.current) window.clearInterval(fallbackPollTimerRef.current);
+    };
   }, [activeQuery, searchMode, appliedYearRange.minYear, appliedYearRange.maxYear, filters.location]);
   const locations = ALL_WORLD_COUNTRIES;
   const scored = useMemo(() => {
@@ -2228,34 +2584,341 @@ export default function Home() {
     });
   }, [scored, tableSort]);
   const resultList = sortedScored.map((item) => item.researcher);
-  const totalPages = Math.max(1, Math.ceil(resultList.length / PAGE_SIZE));
+  // If the UI is in "show only" mode (user clicked a saved researcher), build
+  // a single-item list from the available sources so the main table shows only
+  // that researcher while keeping the saved panel on the right.
+  const displayedResultList = showOnlyId
+    ? (() => {
+        const found = resultList.find((r) => r.id === showOnlyId) || researcherResults.find((r) => r.id === showOnlyId) || savedResearcherCache.get(showOnlyId);
+        return found ? [found] : [];
+      })()
+    : resultList;
+  const totalPages = Math.max(1, Math.ceil(displayedResultList.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages - 1);
   const pageStart = currentPage * PAGE_SIZE;
-  const pagedResults = resultList.slice(pageStart, pageStart + PAGE_SIZE);
-  const selected = resultList.find((researcher) => researcher.id === selectedId) ?? pagedResults[0] ?? resultList[0];
+  const pagedResults = displayedResultList.slice(pageStart, pageStart + PAGE_SIZE);
+  const selected = resultList.find((researcher) => researcher.id === selectedId)
+    ?? pagedResults.find((r) => r.id === selectedId)
+    ?? researcherResults.find((researcher) => researcher.id === selectedId)
+    ?? (selectedId ? savedResearcherCache.get(selectedId) : undefined)
+    ?? pagedResults[0]
+    ?? resultList[0];
   const detail = resultList.find((researcher) => researcher.id === detailId) ?? researcherResults.find((researcher) => researcher.id === detailId);
   // Saved panel is driven entirely from the cache (localStorage-backed) so it
   // never depends on which search is currently active. The opportunistic-caching
   // effect above fills gaps for researchers loaded from the server on login.
   const savedResearchers = Array.from(savedIds).map((id) => savedResearcherCache.get(id)).filter((r): r is ResearcherRecord => Boolean(r));
   const rankMap = new Map(resultList.map((researcher, index) => [researcher.id, index + 1]));
-  const runSearch = (nextQuery?: string) => { const value = (nextQuery ?? query).trim() || DEFAULT_QUERY; setQuery(value); setActiveQuery(value); setSelectedId(undefined); setPage(0); setFilters((prev) => ({ ...prev, pool: "pool" })); if (settings.searchHistory) setSearchHistory((prev) => [value, ...prev.filter((item) => item.toLowerCase() !== value.toLowerCase())].slice(0, 10)); };
+  const startRankForTable = showOnlyId ? (rankMap.get(showOnlyId) ?? 1) : (pageStart + 1);
+  // Helper to select a researcher by id. If the full profile is not present in
+  // any in-memory list, fetch it from the backend lookup endpoint and cache it
+  // so clicking saved researchers (or chart points) always shows full details.
+  const selectResearcherById = async (id: string) => {
+    if (!id) return;
+    // Already present in current results or cache?
+    const inResults = researcherResults.find((r) => r.id === id) || resultList.find((r) => r.id === id);
+    if (inResults) {
+      setSelectedId(id);
+      return;
+    }
+    const cached = savedResearcherCache.get(id);
+    if (cached) {
+      setSelectedId(id);
+      return;
+    }
+    try {
+      const lookupResult = await apiRequest<{ researchers: any[] }>(
+        "/api/researchers/lookup",
+        { method: "POST", body: JSON.stringify({ ids: [id] }) }
+      );
+      const profile = lookupResult.researchers && lookupResult.researchers[0];
+      if (profile) {
+        const record: ResearcherRecord = {
+          id: profile.id,
+          name: profile.name ?? profile.id,
+          initials: (profile.name ?? "?").substring(0, 2).toUpperCase(),
+          institution: profile.institution ?? "",
+          institutionId: "",
+          country: profile.country ?? profile.region ?? "",
+          region: profile.region ?? "",
+          totalWorks: profile.total_works ?? 0,
+          totalCitations: profile.total_citations ?? 0,
+          hIndex: profile.h_index ?? 0,
+          i10Index: profile.i10_index ?? 0,
+          careerStartYear: 0,
+          yearsActive: profile.years_active ?? 0,
+          qScore: 0,
+          recencyScore: 0,
+          compositeScore: 0,
+          primaryTopic: profile.primary_topic ?? "",
+          topics: profile.topics ?? [],
+          subfield: profile.subfield ?? "",
+          field: profile.field ?? "",
+          domain: profile.domain ?? "",
+          authorUrl: profile.author_url,
+          papers: profile.papers ?? [],
+          collaborators: profile.collaborators ?? [],
+        } as ResearcherRecord;
+        setSavedResearcherCache((prev) => {
+          const updated = new Map(prev);
+          updated.set(id, record);
+          return updated;
+        });
+      }
+    } catch (err) {
+      /* best-effort: still select id so UI can attempt to load */
+    } finally {
+      setSelectedId(id);
+    }
+  };
+
+  // Select and filter the main results view to only show this researcher.
+  const selectOnlyResearcherById = async (id: string) => {
+    await selectResearcherById(id);
+    setShowOnlyId(id);
+    // move to first page to ensure the single result is visible
+    setPage(0);
+  };
+  const runSearch = (nextQuery?: string) => {
+    const value = (nextQuery ?? query).trim() || DEFAULT_QUERY;
+    // Clear any single-item "show only" filter when starting a new search
+    setShowOnlyId(undefined);
+    setQuery(value);
+    setActiveQuery(value);
+    setSelectedId(undefined);
+    setPage(0);
+    setFilters((prev) => ({ ...prev, pool: "pool" }));
+    if (settings.searchHistory)
+      setSearchHistory((prev) => [value, ...prev.filter((item) => item.toLowerCase() !== value.toLowerCase())].slice(0, 10));
+  };
+  const handleFallbackJobStatus = (
+    status: FallbackJobStatusResponse,
+    fallbackQuery: string,
+    fallbackSearchType: FallbackSearchType,
+    citationStartYear = appliedYearRange.minYear,
+    citationEndYear = appliedYearRange.maxYear,
+  ) => {
+    if (status.status === "complete") {
+      if (fallbackPollTimerRef.current) window.clearInterval(fallbackPollTimerRef.current);
+      clearPersistedFallbackJob();
+      setFallbackLoading(false);
+      const partialIngestion = status.result?.ingestion_status === "partial";
+      setFallbackState({
+        mode: "running",
+        jobId: status.job_id,
+        currentStep: "complete",
+        message: partialIngestion ? "Showing updated results. Some records could not be imported." : "Showing updated results",
+        steps: fallbackUiSteps(status.steps),
+      });
+      if (!status.result) {
+        setFallbackState({ mode: "failed", query: fallbackQuery, searchType: fallbackSearchType, message: "The expanded search finished, but no updated results were returned." });
+        return;
+      }
+      const mapped = mapRankingResponse(status.result, fallbackQuery, searchMode, citationStartYear, citationEndYear);
+      if (mapped.researchers.length === 0) {
+        setFallbackState({ mode: "failed", query: fallbackQuery, searchType: fallbackSearchType, message: "The expanded search finished, but no researchers matched the original search." });
+        return;
+      }
+      setResearcherResults(mapped.researchers);
+      setSearchMeta({ ...mapped.meta, fallbackAvailable: false });
+      setSearchError("");
+      setPage(0);
+      window.setTimeout(() => setFallbackState({ mode: "idle" }), partialIngestion ? 4500 : 1200);
+      return;
+    }
+    if (status.status === "failed") {
+      if (fallbackPollTimerRef.current) window.clearInterval(fallbackPollTimerRef.current);
+      clearPersistedFallbackJob();
+      setFallbackLoading(false);
+      setFallbackState({ mode: "failed", query: fallbackQuery, searchType: fallbackSearchType, message: safeFallbackMessage(status.message || status.error, fallbackSearchType) });
+      return;
+    }
+    if (status.status === "interrupted") {
+      if (fallbackPollTimerRef.current) window.clearInterval(fallbackPollTimerRef.current);
+      clearPersistedFallbackJob();
+      setFallbackLoading(false);
+      setFallbackState({ mode: "failed", query: fallbackQuery, searchType: fallbackSearchType, message: "Search expansion was interrupted. You can retry it." });
+      return;
+    }
+    if (status.status === "cancelled") {
+      if (fallbackPollTimerRef.current) window.clearInterval(fallbackPollTimerRef.current);
+      clearPersistedFallbackJob();
+      setFallbackLoading(false);
+      setFallbackState({ mode: "cancelled", message: "Search expansion cancelled." });
+      return;
+    }
+    setFallbackState({
+      mode: "running",
+      jobId: status.job_id,
+      currentStep: status.current_step,
+      message: safeFallbackMessage(status.message, fallbackSearchType),
+      steps: fallbackUiSteps(status.steps),
+    });
+  };
+  const pollFallbackJob = (
+    jobId: string,
+    fallbackQuery: string,
+    fallbackSearchType: FallbackSearchType,
+    citationStartYear = appliedYearRange.minYear,
+    citationEndYear = appliedYearRange.maxYear,
+  ) => {
+    fetchFallbackIngestJob(jobId)
+      .then((status) => handleFallbackJobStatus(status, fallbackQuery, fallbackSearchType, citationStartYear, citationEndYear))
+      .catch((error) => {
+        if (fallbackPollTimerRef.current) window.clearInterval(fallbackPollTimerRef.current);
+        clearPersistedFallbackJob();
+        setFallbackLoading(false);
+        setFallbackState({ mode: "failed", query: fallbackQuery, searchType: fallbackSearchType, message: safeFallbackMessage(error instanceof Error ? error.message : String(error), fallbackSearchType) });
+      });
+  };
+  const startFallbackJob = (fallbackQuery: string, fallbackSearchType: FallbackSearchType) => {
+    if (!fallbackQuery || fallbackLoading) return;
+    const controller = new AbortController();
+    fallbackCancelPendingRef.current = false;
+    if (fallbackCountdownTimerRef.current) window.clearInterval(fallbackCountdownTimerRef.current);
+    if (fallbackPollTimerRef.current) window.clearInterval(fallbackPollTimerRef.current);
+    setFallbackLoading(true);
+    setSearchError("");
+    setFallbackState({
+      mode: "running",
+      jobId: "",
+      currentStep: "queued",
+      message: "Preparing fallback search...",
+      steps: fallbackUiSteps(),
+    });
+    startFallbackIngestJob(fallbackQuery, fallbackSearchType, controller.signal)
+      .then((job) => {
+        if (fallbackCancelPendingRef.current) {
+          cancelFallbackIngestJob(job.job_id).catch(() => undefined);
+          clearPersistedFallbackJob();
+          setFallbackLoading(false);
+          setFallbackState({ mode: "cancelled", message: "Search expansion cancelled." });
+          return;
+        }
+        writePersistedFallbackJob({
+          jobId: job.job_id,
+          query: fallbackQuery,
+          searchType: fallbackSearchType,
+          searchMode,
+          citationStartYear: appliedYearRange.minYear,
+          citationEndYear: appliedYearRange.maxYear,
+        });
+        setFallbackState((prev) => prev.mode === "running" ? { ...prev, jobId: job.job_id, currentStep: job.current_step, message: safeFallbackMessage(job.message) } : prev);
+        const poll = () => {
+          pollFallbackJob(job.job_id, fallbackQuery, fallbackSearchType);
+        };
+        poll();
+        fallbackPollTimerRef.current = window.setInterval(poll, 1500);
+      })
+      .catch((error) => {
+        if (fallbackCancelPendingRef.current) return;
+        setFallbackLoading(false);
+        setFallbackState({ mode: "failed", query: fallbackQuery, searchType: fallbackSearchType, message: safeFallbackMessage(error instanceof Error ? error.message : String(error), fallbackSearchType) });
+      });
+  };
+  const runFallbackIngest = () => {
+    const fallbackQuery = searchMeta?.originalQuery || activeQuery;
+    const fallbackSearchType = searchMeta?.fallbackSearchType;
+    if (!fallbackQuery || !fallbackSearchType) return;
+    startFallbackJob(fallbackQuery, fallbackSearchType);
+  };
+  const cancelFallbackWorkflow = () => {
+    fallbackCancelPendingRef.current = true;
+    if (fallbackCountdownTimerRef.current) window.clearInterval(fallbackCountdownTimerRef.current);
+    if (fallbackPollTimerRef.current) window.clearInterval(fallbackPollTimerRef.current);
+    const runningJobId = fallbackState.mode === "running" ? fallbackState.jobId : "";
+    if (runningJobId) {
+      cancelFallbackIngestJob(runningJobId).catch(() => undefined);
+    }
+    clearPersistedFallbackJob();
+    setFallbackLoading(false);
+    setFallbackState({ mode: "cancelled", message: "Search expansion cancelled." });
+    setSearchMeta(undefined);
+    setResearcherResults([]);
+  };
+  const retryFallbackWorkflow = () => {
+    if (fallbackState.mode !== "failed") return;
+    startFallbackJob(fallbackState.query, fallbackState.searchType);
+  };
+  useEffect(() => {
+    const persisted = readPersistedFallbackJob();
+    if (!persisted) return;
+    fallbackRecoveryRef.current = true;
+    setQuery(persisted.query);
+    setActiveQuery(persisted.query);
+    setSearchMode(persisted.searchMode);
+    setAppliedYearRange({ minYear: persisted.citationStartYear, maxYear: persisted.citationEndYear });
+    setFallbackLoading(true);
+    setSearchError("");
+    setFallbackState({
+      mode: "running",
+      jobId: persisted.jobId,
+      currentStep: "queued",
+      message: "Resuming search expansion...",
+      steps: fallbackUiSteps(),
+    });
+    const poll = () => pollFallbackJob(
+      persisted.jobId,
+      persisted.query,
+      persisted.searchType,
+      persisted.citationStartYear,
+      persisted.citationEndYear,
+    );
+    poll();
+    fallbackPollTimerRef.current = window.setInterval(poll, 1500);
+    return () => {
+      if (fallbackPollTimerRef.current) window.clearInterval(fallbackPollTimerRef.current);
+    };
+  }, []);
+  const fallbackCountdownKey = fallbackState.mode === "countdown" ? `${fallbackState.query}::${fallbackState.searchType}` : "";
+  useEffect(() => {
+    if (fallbackState.mode !== "countdown") return;
+    if (fallbackCountdownTimerRef.current) window.clearInterval(fallbackCountdownTimerRef.current);
+    let remaining = 3;
+    fallbackCountdownTimerRef.current = window.setInterval(() => {
+      remaining -= 1;
+      if (remaining <= 0) {
+        if (fallbackCountdownTimerRef.current) window.clearInterval(fallbackCountdownTimerRef.current);
+        startFallbackJob(fallbackState.query, fallbackState.searchType);
+        return;
+      }
+      setFallbackState((prev) => prev.mode === "countdown" && prev.query === fallbackState.query && prev.searchType === fallbackState.searchType ? { ...prev, seconds: remaining } : prev);
+    }, 1000);
+    return () => {
+      if (fallbackCountdownTimerRef.current) window.clearInterval(fallbackCountdownTimerRef.current);
+    };
+  }, [fallbackCountdownKey]);
   const changeTableSort = (key: TableSortKey) => {
     setTableSort((prev) => (prev.key === key ? { key, direction: prev.direction === "desc" ? "asc" : "desc" } : { key, direction: key === "rank" ? "asc" : "desc" }));
     setPage(0);
   };
   const toggleSave = (id: string) => {
     const alreadySaved = savedIds.has(id);
-    setSavedIds((prev) => {
-      const next = new Set(prev);
-      if (prev.has(id)) next.delete(id); else next.add(id);
-      return next;
-    });
+    const next = new Set(savedIds);
+    if (alreadySaved) next.delete(id); else next.add(id);
+    setSavedIds(next);
     if (!alreadySaved) {
-      const researcher = resultList.find((r) => r.id === id) ?? researcherResults.find((r) => r.id === id);
+      const researcher = resultList.find((r) => r.id === id) ?? researcherResults.find((r) => r.id === id) ?? savedResearcherCache.get(id);
       if (researcher) setSavedResearcherCache((prev) => new Map(prev).set(id, researcher));
     } else {
-      setSavedResearcherCache((prev) => { const next = new Map(prev); next.delete(id); return next; });
+      setSavedResearcherCache((prev) => { const n = new Map(prev); n.delete(id); return n; });
+    }
+    // Sync to server when logged in (best-effort)
+    if (currentUser) {
+      apiRequest<{ savedIds: string[] }>("/api/saved-researchers", { method: "PUT", body: JSON.stringify({ savedIds: Array.from(next) }) }).catch(() => {});
+    } else {
+      // Persist local cache for non-logged-in users according to settings
+      try { localStorage.setItem("saved_researcher_records", JSON.stringify(Array.from(savedResearcherCache.entries()))); } catch {}
+    }
+  };
+
+  const removeSavedResearcher = (id: string) => {
+    const next = new Set(savedIds);
+    next.delete(id);
+    setSavedIds(next);
+    setSavedResearcherCache((prev) => { const n = new Map(prev); n.delete(id); return n; });
+    if (currentUser) {
+      apiRequest<{ savedIds: string[] }>("/api/saved-researchers", { method: "PUT", body: JSON.stringify({ savedIds: Array.from(next) }) }).catch(() => {});
     }
   };
   const logout = async () => {
@@ -2265,7 +2928,10 @@ export default function Home() {
     setSavedLoaded(false);
     // Clear researcher cache for this user so the next user doesn't see stale data.
     setSavedResearcherCache(new Map());
-    localStorage.removeItem("saved_researcher_records");
+    // Respect user preference for persistence; if session-only, remove local storage.
+    if (settings.savedResearchersPersistence === "session") {
+      try { localStorage.removeItem("saved_researcher_records"); } catch {}
+    }
     setServerAiSettings(null);
     // Clear API key state and strip it from localStorage so the next user starts clean.
     setSettings((prev) => {
@@ -2285,7 +2951,9 @@ export default function Home() {
   const historyForSearch = settings.searchHistory ? searchHistory : [];
   const requestedSearchSource = "ranking backend";
   const displayedSearchSource = searchMeta?.sourceLabel || requestedSearchSource;
-  const emptyState = searchError || (searchLoading ? `Searching ${requestedSearchSource}...` : `No researchers found for this query from ${displayedSearchSource}.`);
+  const fallbackCanRun = Boolean(searchMeta?.fallbackAvailable && !searchLoading && !searchError);
+  const emptyState = searchError || (fallbackLoading ? "Fetching from OpenAlex..." : searchLoading ? `Searching ${requestedSearchSource}...` : `No researchers found for this query from ${displayedSearchSource}.`);
+  const emptyAction = fallbackCanRun ? <button type="button" onClick={runFallbackIngest} disabled={fallbackLoading} className="inline-flex items-center gap-2 rounded-md bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-60"><Search className="h-3.5 w-3.5" />{fallbackLoading ? "Fetching..." : "Fetch from OpenAlex"}</button> : undefined;
   const interfaceScale = Math.min(125, Math.max(80, Number(settings.interfaceScale) || 100));
   const uiScale = interfaceScale / 100;
   const appScaleStyle = {
@@ -2305,19 +2973,29 @@ export default function Home() {
     <main className="flex h-screen flex-col overflow-hidden bg-[#05070b] text-slate-100">
       <header className="flex h-14 shrink-0 items-center gap-4 border-b border-white/8 bg-[#070a10] px-4"><button className="flex items-center gap-2 text-sm font-bold" onClick={() => { setActiveQuery(""); setDetailId(undefined); }}><span className="flex h-7 w-7 items-center justify-center rounded-md bg-blue-600"><Sparkles className="h-4 w-4" /></span>ResearchAI</button><SearchInputWithHistory query={query} setQuery={setQuery} onSearch={runSearch} history={historyForSearch} searchMode={searchMode} setSearchMode={setSearchMode} compact /><button onClick={() => runSearch()} className="rounded-full bg-blue-600 px-5 py-2 text-xs font-semibold text-white hover:bg-blue-500">Search</button><div className="ml-auto"><TopActions user={currentUser} onLogout={logout} onOpenSettings={() => setSettingsOpen(true)} onOpenAuth={setAuthMode} /></div></header>
       <div className="flex min-h-0 flex-1">
-        <FilterRail filters={filters} setFilters={setFilters} locations={locations} selected={selected} savedResearchers={savedResearchers} rankMap={rankMap} onSelect={(researcher) => setSelectedId(researcher.id)} />
+        <FilterRail filters={filters} setFilters={setFilters} locations={locations} selected={selected} /* savedResearchers moved to right summary */ rankMap={rankMap} onSelect={(researcher) => selectResearcherById(researcher.id)} onRemoveSaved={removeSavedResearcher} />
         <section className="flex min-w-0 flex-1 flex-col">
           <div className="flex h-12 shrink-0 items-center justify-between border-b border-white/8 bg-[#070a10] px-4">
             <div className="text-sm text-slate-400">Results for <span className="font-bold text-slate-100">"{activeQuery}"</span></div>
+              {showOnlyId && (
+                <div className="ml-4">
+                  <button onClick={() => { setShowOnlyId(undefined); setSelectedId(undefined); }} className="rounded-md border border-white/10 bg-white/[0.02] px-3 py-1 text-xs text-slate-200 hover:bg-white/[0.04]">← Back to all results</button>
+                </div>
+              )}
             <div className="flex items-center gap-2 text-[11px] text-slate-500">
-              <span>{searchLoading ? `Searching ${requestedSearchSource}...` : `${resultList.length} researchers`}</span>
+              <span>{searchLoading || fallbackLoading ? (fallbackLoading ? "Fetching from OpenAlex..." : `Searching ${requestedSearchSource}...`) : `${resultList.length} researchers`}</span>
               {!searchLoading && searchMeta?.sourceLabel && <span className="rounded bg-white/5 px-2 py-1 text-[10px] text-slate-500">{searchMeta.sourceLabel}</span>}
             </div>
           </div>
-          <ResearcherTable list={pagedResults} selected={selected} savedIds={savedIds} startRank={pageStart + 1} emptyState={emptyState} sort={tableSort} onSort={changeTableSort} onSelect={(researcher) => setSelectedId(researcher.id)} onOpenDetail={(researcher) => setDetailId(researcher.id)} onToggleSave={toggleSave} onAiSummary={(researcher) => setAiSummaryResearcher(researcher)} />
+          {fallbackState.mode !== "idle" && (
+            <div className="flex shrink-0 justify-center border-b border-white/8 bg-[#070a10] px-4 py-3">
+              <FallbackProgressPanel state={fallbackState} onCancel={cancelFallbackWorkflow} onRetry={retryFallbackWorkflow} />
+            </div>
+          )}
+          <ResearcherTable list={pagedResults} selected={selected} savedIds={savedIds} startRank={pageStart + 1} emptyState={emptyState} emptyAction={emptyAction} sort={tableSort} onSort={changeTableSort} onSelect={(researcher) => setSelectedId(researcher.id)} onOpenDetail={(researcher) => setDetailId(researcher.id)} onToggleSave={toggleSave} onAiSummary={(researcher) => setAiSummaryResearcher(researcher)} />
           <PaginationBar page={currentPage} total={resultList.length} onPageChange={setPage} />
         </section>
-        <SideSummary list={pagedResults} query={activeQuery} settings={settings} loggedIn={Boolean(currentUser)} onOpenUserGuide={() => setUserGuideOpen(true)} />
+        <SideSummary list={pagedResults} query={activeQuery} settings={settings} loggedIn={Boolean(currentUser)} savedResearchers={savedResearchers} rankMap={rankMap} selected={selected} onSelect={(r) => selectOnlyResearcherById(r.id)} onRemoveSaved={removeSavedResearcher} onOpenUserGuide={() => setUserGuideOpen(true)} />
       </div>
     </main>
   );

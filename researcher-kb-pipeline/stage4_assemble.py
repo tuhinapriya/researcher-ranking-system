@@ -270,21 +270,36 @@ def _build_profile(
     if not current_institutions:
         seen = field_data.get("institutions_seen") or {}
         if seen:
-            logging.info(
-                "[Stage 4] Using institutions_seen fallback for author=%s (count=%s)",
-                author_id,
-                len(seen),
-            )
-            for inst_id, instinfo in seen.items():
-                current_institutions.append(
-                    {
-                        "name": instinfo.get("name"),
-                        "type": instinfo.get("type"),
-                        "country": instinfo.get("country"),
-                        "city": None,
-                        "region": None,
-                        "id": instinfo.get("id"),
-                    }
+            # Only apply the institutions_seen fallback when the OpenAlex
+            # profile is missing explicit last_known_institutions AND the
+            # OpenAlex display name aligns with the field_data name. This
+            # avoids attributing institutions collected from similarly-named
+            # authors (name collisions) to the wrong researcher.
+            oa_name = (oa.get("display_name") or "").strip().lower()
+            fd_name = (field_data.get("name") or "").strip().lower()
+            if oa_name and fd_name and (oa_name in fd_name or fd_name in oa_name):
+                logging.info(
+                    "[Stage 4] Using institutions_seen fallback for author=%s (count=%s)",
+                    author_id,
+                    len(seen),
+                )
+                for inst_id, instinfo in seen.items():
+                    current_institutions.append(
+                        {
+                            "name": instinfo.get("name"),
+                            "type": instinfo.get("type"),
+                            "country": instinfo.get("country"),
+                            "city": None,
+                            "region": None,
+                            "id": instinfo.get("id"),
+                        }
+                    )
+            else:
+                logging.warning(
+                    "[Stage 4] Skipping institutions_seen fallback for author=%s due to name mismatch oa=%r fd=%r",
+                    author_id,
+                    oa_name,
+                    fd_name,
                 )
 
     affiliation_history = []
@@ -496,12 +511,35 @@ def _upsert_researcher_bundle(cursor, researcher):
             institution_name,
         )
         if sanitized_institution:
-            upsert_institution(cursor, sanitized_institution)
-            logging.info(
-                "[Stage 4] Institution upserted for researcher_id=%s institution_id=%s",
-                researcher_id,
-                sanitized_institution.get("id"),
-            )
+            # Persist institution in its own committed transaction so later
+            # paper/vector failures do not roll back the institution row.
+            try:
+                conn2 = get_connection()
+                cur2 = conn2.cursor()
+                upsert_institution(cur2, sanitized_institution)
+                conn2.commit()
+                logging.info(
+                    "[Stage 4] Institution upserted (committed) for researcher_id=%s institution_id=%s",
+                    researcher_id,
+                    sanitized_institution.get("id"),
+                )
+            except Exception as e:
+                logging.exception(
+                    "[Stage 4] Institution upsert (separate commit) failed for researcher_id=%s: %s",
+                    researcher_id,
+                    e,
+                )
+                # If we couldn't persist institution, drop it to avoid FK issues
+                sanitized_institution = None
+            finally:
+                try:
+                    cur2.close()
+                except Exception:
+                    pass
+                try:
+                    conn2.close()
+                except Exception:
+                    pass
     else:
         logging.warning(
             "[Stage 4] No current institution found for researcher_id=%s",
@@ -542,10 +580,34 @@ def _upsert_researcher_bundle(cursor, researcher):
     if not sanitized_researcher:
         return False
 
-    upsert_researcher(cursor, sanitized_researcher)
-    logging.info(
-        "[Stage 4] Researcher row upserted for researcher_id=%s", researcher_id
-    )
+    # Persist researcher in its own committed transaction so researcher rows
+    # are durable even if later paper/vector/topic upserts fail and are
+    # rolled back in the main batch transaction.
+    try:
+        conn2 = get_connection()
+        cur2 = conn2.cursor()
+        upsert_researcher(cur2, sanitized_researcher)
+        conn2.commit()
+        logging.info(
+            "[Stage 4] Researcher row upserted (committed) for researcher_id=%s",
+            researcher_id,
+        )
+    except Exception as e:
+        logging.exception(
+            "[Stage 4] Researcher upsert (separate commit) failed for researcher_id=%s: %s",
+            researcher_id,
+            e,
+        )
+        return False
+    finally:
+        try:
+            cur2.close()
+        except Exception:
+            pass
+        try:
+            conn2.close()
+        except Exception:
+            pass
 
     upsert_papers(cursor, researcher_id, researcher.get("papers_by_concept", {}))
     upsert_topics(cursor, researcher_id, researcher.get("research_topics_granular", []))

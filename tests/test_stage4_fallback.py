@@ -60,4 +60,6 @@ def test_stage4_institutions_seen_fallback(monkeypatch):
     inst = current[0]
     assert inst.get("name"), "Institution name must not be empty"
     # country may be provided by institutions_seen; ensure non-empty if present
-    assert inst.get("country") is not None and str(inst.get("country")).strip() != "", "Institution country must not be empty"
+    assert (
+        inst.get("country") is not None and str(inst.get("country")).strip() != ""
+    ), "Institution country must not be empty"

@@ -2,8 +2,12 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field, model_validator
 
 from search import default_mock_data_file, rank_researchers
+from auth_routes import router as auth_router
 
 app = FastAPI(title="Researcher Ranking API")
+
+# Include auth and related routes so the API exposes /auth/* and other endpoints
+app.include_router(auth_router)
 
 
 class RankRequest(BaseModel):
@@ -43,6 +47,7 @@ def health_check():
 
 
 @app.post("/api/rank")
+@app.post("/rank")
 def api_rank(request: RankRequest):
     try:
         return rank_researchers(
@@ -70,3 +75,53 @@ def api_rank(request: RankRequest):
         )
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+class RebuildRequest(BaseModel):
+    author_id: str
+
+
+@app.post("/admin/rebuild-researcher")
+def admin_rebuild(req: RebuildRequest):
+    """Admin-only: rebuild a single researcher profile and upsert into DB.
+
+    This uses the existing profile JSON under data/raw/profiles and the
+    field_author_map.json entry to reconstruct and upsert the researcher row.
+    """
+    try:
+        import stage4_assemble as s4
+        from config import PROFILES_DIR, FIELD_AUTHOR_MAP_FILE
+        from utils import load_json
+        from db import get_connection
+
+        author_id = req.author_id
+        author_key = author_id
+        field_map = load_json(FIELD_AUTHOR_MAP_FILE) or {}
+        field_data = field_map.get(author_key)
+        if not field_data:
+            raise HTTPException(status_code=404, detail="author field data missing")
+
+        profile_path = PROFILES_DIR + f"/{author_key}.json"
+        profile = load_json(profile_path) or {}
+        oa_profile = profile.get("openalex")
+        s2_profile = profile.get("semantic_scholar")
+        coauth = load_json(s4.COAUTHORS_DIR + f"/{author_key}.json") or {}
+
+        # Build profile and upsert using stage4 helpers
+        institution_cache = {}
+        researcher = s4._build_profile(author_key, field_data, oa_profile, s2_profile, coauth, institution_cache)
+
+        conn = get_connection()
+        cur = conn.cursor()
+        try:
+            # Use internal upsert bundle to persist researcher + related rows
+            s4._upsert_researcher_bundle(cur, researcher)
+            conn.commit()
+        finally:
+            cur.close()
+            conn.close()
+        return {"status": "ok", "author_id": author_key}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e)) from e

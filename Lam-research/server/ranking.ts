@@ -4,6 +4,7 @@ type JsonResponse = {
 };
 
 const DEFAULT_RANKING_TIMEOUT_MS = 30000;
+const DEFAULT_FALLBACK_INGEST_TIMEOUT_MS = 180000;
 const DEFAULT_Q_WEIGHT = 0.7;
 const DEFAULT_R_WEIGHT = 0.3;
 
@@ -16,14 +17,14 @@ function rankingApiBaseUrl() {
   return process.env.RANKING_API_URL?.trim().replace(/\/+$/, "") || "";
 }
 
-async function fetchRankingService(pathname: string, init: RequestInit = {}) {
+async function fetchRankingService(pathname: string, init: RequestInit = {}, timeoutMs = DEFAULT_RANKING_TIMEOUT_MS) {
   const baseUrl = rankingApiBaseUrl();
   if (!baseUrl) {
     throw new Error("RANKING_API_URL is not configured.");
   }
 
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), DEFAULT_RANKING_TIMEOUT_MS);
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
   try {
     const headers = new Headers(init.headers);
     headers.set("Accept", "application/json");
@@ -120,6 +121,23 @@ function normalizeRankRequest(body: unknown) {
   return request;
 }
 
+function normalizeFallbackIngestRequest(body: unknown) {
+  const request = body && typeof body === "object" ? { ...(body as Record<string, unknown>) } : {};
+  if (typeof request.query !== "string" || !request.query.trim()) {
+    throw new Error("Fallback ingest request requires a non-empty query.");
+  }
+  request.query = request.query.trim();
+  const rawSearchType = typeof request.search_type === "string" ? request.search_type : "";
+  const searchType = rawSearchType === "author" ? "researcher" : rawSearchType;
+  if (!["researcher", "institution", "topic"].includes(searchType)) {
+    throw new Error("Fallback ingest request requires search_type researcher, institution, or topic.");
+  }
+  return {
+    query: request.query,
+    search_type: searchType,
+  };
+}
+
 function rankingProxyErrorStatus(error: unknown) {
   const message = error instanceof Error ? error.message : String(error);
   if (message.includes("non-empty query") || message.toLowerCase().includes("ranking weight")) return 400;
@@ -148,6 +166,62 @@ export async function handleRankingRankRequest(body: unknown, res: JsonResponse)
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(request),
+    });
+    const data = await readJson(upstream);
+    jsonResponse(res, upstream.ok ? 200 : upstream.status, data);
+  } catch (error) {
+    jsonResponse(res, rankingProxyErrorStatus(error), { error: error instanceof Error ? error.message : String(error) });
+  }
+}
+
+export async function handleRankingFallbackIngestRequest(body: unknown, res: JsonResponse) {
+  try {
+    const request = normalizeFallbackIngestRequest(body);
+    const upstream = await fetchRankingService("/search/fallback-ingest", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(request),
+    }, DEFAULT_FALLBACK_INGEST_TIMEOUT_MS);
+    const data = await readJson(upstream);
+    jsonResponse(res, upstream.ok ? 200 : upstream.status, data);
+  } catch (error) {
+    jsonResponse(res, rankingProxyErrorStatus(error), { error: error instanceof Error ? error.message : String(error) });
+  }
+}
+
+export async function handleRankingFallbackJobStartRequest(body: unknown, res: JsonResponse) {
+  try {
+    const request = normalizeFallbackIngestRequest(body);
+    const upstream = await fetchRankingService("/search/fallback-ingest/jobs", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(request),
+    });
+    const data = await readJson(upstream);
+    jsonResponse(res, upstream.ok ? 200 : upstream.status, data);
+  } catch (error) {
+    jsonResponse(res, rankingProxyErrorStatus(error), { error: error instanceof Error ? error.message : String(error) });
+  }
+}
+
+export async function handleRankingFallbackJobStatusRequest(jobId: string, res: JsonResponse) {
+  try {
+    if (!jobId.trim()) throw new Error("Fallback job id is required.");
+    const upstream = await fetchRankingService(`/search/fallback-ingest/jobs/${encodeURIComponent(jobId.trim())}`);
+    const data = await readJson(upstream);
+    jsonResponse(res, upstream.ok ? 200 : upstream.status, data);
+  } catch (error) {
+    jsonResponse(res, rankingProxyErrorStatus(error), { error: error instanceof Error ? error.message : String(error) });
+  }
+}
+
+export async function handleRankingFallbackJobCancelRequest(jobId: string, res: JsonResponse) {
+  try {
+    if (!jobId.trim()) throw new Error("Fallback job id is required.");
+    const upstream = await fetchRankingService(`/search/fallback-ingest/jobs/${encodeURIComponent(jobId.trim())}/cancel`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: "{}",
     });
     const data = await readJson(upstream);
     jsonResponse(res, upstream.ok ? 200 : upstream.status, data);

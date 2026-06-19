@@ -19,6 +19,7 @@ from fastapi import APIRouter, Header, HTTPException, Request
 from pydantic import BaseModel
 
 import auth_db
+import link_verifier
 
 logger = logging.getLogger(__name__)
 
@@ -104,6 +105,12 @@ class AiChatBody(BaseModel):
     context: str | None = None
 
 
+class VerifyLinksBody(BaseModel):
+    links: list[str]
+    name: str | None = None
+    institution: str | None = None
+
+
 # ── Auth helpers ───────────────────────────────────────────────────────────
 
 
@@ -121,7 +128,34 @@ def _require_session(x_session_token: str | None) -> dict:
 
 
 def _get_adc_access_token() -> str:
-    # Try metadata server (Cloud Run / GCE)
+    # Prefer google.auth to obtain an OAuth access token with the
+    # cloud-platform scope (works for Cloud Run, GKE, and local ADC).
+    try:
+        import google.auth
+        import google.auth.transport.requests
+
+        logger.info("ADC: google.auth available, attempting default credentials")
+        creds, _ = google.auth.default(
+            scopes=[
+                "https://www.googleapis.com/auth/cloud-platform",
+                "https://www.googleapis.com/auth/generative-language",
+            ],
+        )
+        request = google.auth.transport.requests.Request()
+        try:
+            creds.refresh(request)
+            token = getattr(creds, "token", "") or ""
+            if token:
+                logger.info("ADC: google.auth refresh succeeded; token present")
+                return token
+            else:
+                logger.info("ADC: google.auth refresh succeeded; token empty")
+        except Exception as e:
+            logger.info("ADC: google.auth refresh failed: %s", str(e))
+    except Exception as e:
+        logger.info("ADC: google.auth import/default failed: %s", str(e))
+
+    # Fallback: try metadata server (Cloud Run / GCE)
     try:
         resp = http_requests.get(
             "http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token",
@@ -129,23 +163,14 @@ def _get_adc_access_token() -> str:
             timeout=2,
         )
         if resp.status_code == 200:
+            logger.info("ADC: metadata server token fetched (status 200)")
             return resp.json().get("access_token", "")
-    except Exception:
-        pass
+        else:
+            logger.info("ADC: metadata server returned status %s", resp.status_code)
+    except Exception as e:
+        logger.info("ADC: metadata server token fetch failed: %s", str(e))
 
-    # Fallback: try google.auth (useful for local dev with ADC)
-    try:
-        import google.auth
-        import google.auth.transport.requests
-
-        creds, _ = google.auth.default(
-            scopes=["https://www.googleapis.com/auth/cloud-platform"]
-        )
-        request = google.auth.transport.requests.Request()
-        creds.refresh(request)
-        return getattr(creds, "token", "") or ""
-    except Exception:
-        return ""
+    return ""
 
 
 # E.164: + followed by 7–15 digits (first digit non-zero = no country code starting with 0)
@@ -472,19 +497,94 @@ def _gemini_chat(
     base_url = (base_url or "https://generativelanguage.googleapis.com/v1beta").rstrip(
         "/"
     )
+    # Preserve the incoming model string for matching and avoid altering
+    # the canonical model identifier returned by ListModels. Do NOT strip
+    # suffixes like '-flash' because ListModels names are authoritative.
+    requested_model = model or ""
     prompt_parts = [_SYSTEM_PROMPT, context or ""] + [
         f"{m.role}: {m.content}" for m in messages
     ]
     prompt = "\n\n".join(p for p in prompt_parts if p)
 
     if access_token:
-        url = f"{base_url}/models/{urllib.parse.quote(model, safe='')}:generateContent"
+        # When using ADC (service account access token) for the demo user,
+        # query the Generative Language ModelService to find a model that
+        # actually supports `generateContent` in this project/region. Use
+        # the model `name` returned by the API (often `models/...`) which
+        # is safe to call directly.
         headers = {
             "Content-Type": "application/json",
             "Authorization": f"Bearer {access_token}",
         }
+        try:
+            list_url = f"{base_url}/models"
+            logger.info("Generativelanguage ListModels request: url=%s", list_url)
+            list_resp = http_requests.get(list_url, headers=headers, timeout=10)
+            models_json = list_resp.json() if list_resp.status_code == 200 else {}
+            candidates = models_json.get("models", []) if isinstance(models_json, dict) else []
+        except Exception as e:
+            logger.info("Generativelanguage ListModels failed: %s", str(e))
+            candidates = []
+
+        # Prefer an explicit model that contains the original requested
+        # model string (exact match), then prefer any model that contains
+        # 'gemini' and advertises a generate-like method. If none found,
+        # fall back to the incoming `model` value (normalized later).
+        found_model_name = None
+        for m in candidates:
+            name = m.get("name", "") or ""
+            disp = (m.get("displayName") or "").lower()
+            # Accept several possible field names returned by different
+            # API versions: 'supportedMethods', 'supported_methods',
+            # and 'supportedGenerationMethods'. Lowercase for comparison.
+            methods = (
+                m.get("supportedMethods")
+                or m.get("supported_methods")
+                or m.get("supportedGenerationMethods")
+                or m.get("supported_generation_methods")
+                or []
+            )
+            methods = [str(x).lower() for x in methods]
+            # Consider any method mentioning 'generate' as a candidate.
+            if any("generate" in mm for mm in methods):
+                # Prefer exact matches to the original requested model string
+                if requested_model and requested_model.lower() in name.lower():
+                    found_model_name = name
+                    break
+                # Prefer gemini models when available
+                if "gemini" in name.lower() or "gemini" in disp:
+                    found_model_name = name
+                    break
+                if not found_model_name:
+                    found_model_name = name
+
+        # If we found a model name from the ListModels response, use it.
+        # Otherwise, fall back to the incoming `model` parameter.
+        if found_model_name:
+            model_name_to_call = found_model_name
+        else:
+            # ensure model is in the form 'models/...' for the generateContent path
+            if model and model.startswith("models/"):
+                model_name_to_call = model
+            elif model:
+                model_name_to_call = f"models/{model.lstrip('/') }"
+            else:
+                # No model found via ListModels and no model was supplied.
+                # Do NOT fall back to hard-coded models (eg. text-bison).
+                raise ValueError(
+                    "No Gemini model found via ListModels and no model supplied. "
+                    "Call /debug/list-models to inspect available models for ADC."
+                )
+
+        try:
+            logger.info("Generativelanguage ADC request: chosen_model=%r base_url=%r", model_name_to_call, base_url)
+        except Exception:
+            logger.info("Generativelanguage ADC request unreadable")
+        # Use the same request shape as the Generativelanguage generateContent
+        # call so the Vertex `:generateContent` endpoint receives the prompt
+        # and generation config. Keep temperature low for deterministic output.
         resp = http_requests.post(
-            url,
+            f"{base_url}/{model_name_to_call}:generateContent" if not model_name_to_call.startswith(base_url) else f"{model_name_to_call}:generateContent",
             headers=headers,
             json={
                 "contents": [{"role": "user", "parts": [{"text": prompt}]}],
@@ -492,12 +592,26 @@ def _gemini_chat(
             },
             timeout=60,
         )
+        # If the model isn't available for this API version (404), log a
+        # clear diagnostic and allow the error to be raised so callers can
+        # see the precise provider response. Do NOT fall back to other
+        # models here — fallbacks risk calling unsupported APIs.
+        if resp.status_code == 404:
+            try:
+                logger.info("Generativelanguage model %s not found for generateContent; status=404", model_name_to_call)
+            except Exception:
+                pass
+        # Log Vertex response for diagnostics (helps surface detailed error bodies)
+        try:
+            logger.info("Vertex generateContent response: %s %s", resp.status_code, resp.text)
+        except Exception:
+            logger.info("Vertex generateContent response unreadable")
     else:
         if not api_key:
             raise ValueError("No API key provided for Gemini call.")
-
+        url = f"{base_url}/models/{urllib.parse.quote(model, safe='')}:generateContent?key={urllib.parse.quote(api_key, safe='')}"
         resp = http_requests.post(
-            f"{base_url}/models/{urllib.parse.quote(model, safe='')}:generateContent?key={urllib.parse.quote(api_key, safe='')}",
+            url,
             headers={"Content-Type": "application/json"},
             json={
                 "contents": [{"role": "user", "parts": [{"text": prompt}]}],
@@ -506,9 +620,48 @@ def _gemini_chat(
             timeout=60,
         )
 
-    resp.raise_for_status()
-    parts = resp.json().get("candidates", [{}])[0].get("content", {}).get("parts", [])
-    content = "".join(p.get("text", "") for p in parts)
+        # Log the request URL (safe) for diagnostics when provider returns errors.
+        try:
+            logger.info("Gemini generateContent request url: %s", url)
+        except Exception:
+            pass
+
+    try:
+        resp.raise_for_status()
+    except Exception as exc:
+        # Surface provider error bodies for easier debugging.
+        try:
+            body_text = resp.text
+        except Exception:
+            body_text = "(unreadable response body)"
+        raise ValueError(f"Gemini provider error: {body_text}") from exc
+    resp_json = resp.json()
+    # Try several response shapes: generativelanguage (`candidates`),
+    # Vertex predict (`predictions`), or a simple string
+    content = ""
+    if isinstance(resp_json, dict):
+        if "candidates" in resp_json:
+            parts = (
+                resp_json.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+            )
+            content = "".join(p.get("text", "") for p in parts)
+        elif "predictions" in resp_json and isinstance(
+            resp_json.get("predictions"), list
+        ):
+            p0 = resp_json.get("predictions", [None])[0]
+            if isinstance(p0, dict):
+                content = p0.get("content") or p0.get("output") or p0.get("text") or ""
+            elif isinstance(p0, str):
+                content = p0
+        else:
+            # Fallback: stringify the response body (useful for debugging)
+            content = str(resp_json)
+    elif isinstance(resp_json, list) and resp_json:
+        first = resp_json[0]
+        if isinstance(first, dict):
+            content = first.get("content") or first.get("text") or ""
+        elif isinstance(first, str):
+            content = first
     if not content:
         raise ValueError("Gemini response did not include text.")
     return content
@@ -626,10 +779,128 @@ def ai_chat(body: AiChatBody, x_session_token: str | None = Header(None)):
             answer = _openai_chat(api_key, model, base_url, body.messages, body.context)
         return {"answer": answer}
     except http_requests.HTTPError as exc:
+        # Try to parse provider error body for clearer mapping.
         try:
-            detail = exc.response.json().get("error", {}).get("message") or str(exc)
+            err_json = exc.response.json()
+            detail_msg = err_json.get("error", {}).get("message") or str(exc)
+            err_status = err_json.get("error", {}).get("status") or ""
+            err_code = err_json.get("error", {}).get("code")
         except Exception:
-            detail = str(exc)
-        raise HTTPException(status_code=502, detail=detail)
+            detail_msg = str(exc)
+            err_status = ""
+            err_code = None
+
+        detail_lower = detail_msg.lower() if isinstance(detail_msg, str) else ""
+        billing_depleted = (
+            "prepay" in detail_lower
+            or "credit" in detail_lower
+            or "billing" in detail_lower
+            or "payment" in detail_lower
+        )
+        rate_or_quota_limited = (
+            err_code == 429
+            or err_status == "RESOURCE_EXHAUSTED"
+            or "rate limit" in detail_lower
+            or "too many requests" in detail_lower
+            or "quota" in detail_lower
+            or "resource_exhausted" in detail_lower
+        )
+
+        # Distinguish exhausted billing from generic rate/quota throttling.
+        if billing_depleted:
+            raise HTTPException(
+                status_code=402,
+                detail=(
+                    "AI provider billing exhausted: project prepay credits are depleted. "
+                    "Manage billing and add credits at https://ai.studio/projects to resume demo."
+                ),
+            ) from exc
+
+        if rate_or_quota_limited:
+            raise HTTPException(
+                status_code=429,
+                detail=(
+                    "AI provider rate limit or quota reached. "
+                    "Please retry shortly, switch model/provider, or verify quota in your provider console."
+                ),
+            ) from exc
+
+        raise HTTPException(status_code=502, detail=detail_msg) from exc
     except Exception as exc:
-        raise HTTPException(status_code=400, detail=str(exc))
+        msg = str(exc)
+        msg_lower = msg.lower()
+        if "prepay" in msg_lower or "credit" in msg_lower or "billing" in msg_lower or "payment" in msg_lower:
+            raise HTTPException(
+                status_code=402,
+                detail=(
+                    "AI provider billing exhausted: project prepay credits are depleted. "
+                    "Manage billing and add credits at https://ai.studio/projects to resume demo."
+                ),
+            )
+        if "resource_exhausted" in msg_lower or "rate limit" in msg_lower or "too many requests" in msg_lower or "quota" in msg_lower:
+            raise HTTPException(
+                status_code=429,
+                detail=(
+                    "AI provider rate limit or quota reached. "
+                    "Please retry shortly, switch model/provider, or verify quota in your provider console."
+                ),
+            )
+        raise HTTPException(status_code=400, detail=msg)
+
+
+@router.post("/ai/verify-links")
+def verify_links(body: VerifyLinksBody):
+    """
+    Verify that candidate links are live and plausibly about the requested
+    researcher/institution. Returns a list of verified links with optional
+    simple label (hostname or provided snippet).
+    This endpoint is intentionally permissive (no auth) because link
+    verification requires no privileged access.
+    """
+    # Use the robust verifier implemented in link_verifier.py. This applies
+    # multiple signals (provider patterns, title/meta, JSON-LD, URL patterns,
+    # affiliation tokens) and returns only high-confidence matches.
+    if not body.links:
+        return {"verified": []}
+
+    # The verifier expects raw links and will normalize scheme where needed.
+    try:
+        results = link_verifier.verify_and_rank(body.links, body.name, body.institution, threshold=0.75)
+    except Exception as exc:
+        logger.exception("link_verifier failed: %s", exc)
+        return {"verified": []}
+
+    # Convert to the previous response shape but include a confidence score.
+    verified = []
+    for r in results:
+        verified.append({"url": r.get("url"), "label": r.get("label"), "score": r.get("score")})
+    return {"verified": verified}
+
+
+@router.get("/debug/list-models")
+def debug_list_models(x_session_token: str | None = Header(None)):
+    """Return the raw Generative Language ModelService ListModels output.
+
+    Restricted to the demo user so it can be called from the frontend for
+    diagnostics when ADC is in use.
+    """
+    user = _require_session(x_session_token)
+    if user.get("id") != DEMO_USER_ID:
+        raise HTTPException(status_code=403, detail="Forbidden")
+
+    access_token = _get_adc_access_token()
+    if not access_token:
+        raise HTTPException(status_code=401, detail="No ADC access token available.")
+
+    base_url = "https://generativelanguage.googleapis.com/v1beta"
+    headers = {"Authorization": f"Bearer {access_token}", "Content-Type": "application/json"}
+    try:
+        resp = http_requests.get(f"{base_url}/models", headers=headers, timeout=10)
+        try:
+            body = resp.json()
+        except Exception:
+            body = resp.text
+        return {"status_code": resp.status_code, "body": body}
+    except Exception as exc:
+        logger.exception("debug_list_models failed: %s", exc)
+        raise HTTPException(status_code=500, detail=str(exc))
