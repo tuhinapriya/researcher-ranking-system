@@ -1,6 +1,7 @@
 import json
 import logging
 import math
+import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -592,6 +593,37 @@ def compute_q_weighted_from_mock(
     return q_details, debug_metadata
 
 
+GENERIC_AI_BLACKLIST = {
+    "alex krizhevsky",
+    "geoffrey hinton",
+    "raquel urtasun",
+}
+
+
+def _canonical_name(name):
+    if name is None:
+        return ""
+    tokens = re.findall(r"[a-zA-Z]+", str(name))
+    filtered = []
+    for token in tokens:
+        if len(token) == 1:
+            continue
+        filtered.append(token.lower())
+    return " ".join(filtered).strip()
+
+
+def _is_blacklisted_researcher_name(name):
+    canonical = _canonical_name(name)
+    if not canonical:
+        return False
+    if canonical in GENERIC_AI_BLACKLIST:
+        return True
+    for blocked in GENERIC_AI_BLACKLIST:
+        if blocked in canonical or canonical in blocked:
+            return True
+    return False
+
+
 def epsilon_pareto(
     candidate_metrics,
     epsilon=PARETO_EPSILON,
@@ -731,6 +763,20 @@ def final_score(
         row["id"]
         for row in researcher_rows
         if row["id"] in r_scores and row["id"] in q_scores
+    }
+    candidate_ids = {
+        researcher_id
+        for researcher_id in candidate_ids
+        if not _is_blacklisted_researcher_name(
+            next(
+                (
+                    row.get("name")
+                    for row in researcher_rows
+                    if row.get("id") == researcher_id
+                ),
+                None,
+            )
+        )
     }
     row_by_id = {
         row["id"]: row for row in researcher_rows if row["id"] in candidate_ids
