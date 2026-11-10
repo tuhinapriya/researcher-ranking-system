@@ -2,6 +2,7 @@ import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, BookOpen, Bot, Bookmark, BookmarkCheck, ChevronDown, ExternalLink, FileText, MessageCircle, Moon, Search, Send, Settings, SlidersHorizontal, Sparkles, Sun, User, X } from "lucide-react";
 import { buildAiSummaryDirectSourceLinks, buildAiSummaryFallbackSearchLinks, buildAiSummaryPrompt, normalizeAiSummaryText, normalizeSummaryLinks, parseAiSummaryBlocks, sortSummaryLinksByPriority, stripAiSummarySourceSectionText, stripSummarySourceSection, tokenizeAiSummaryInline } from "@/lib/ai-summary";
 import { type ResearchPaper, type ResearcherRecord } from "@/lib/data";
+import { formatInstitutionDisplay } from "@/lib/institution";
 import { cn } from "@/lib/utils";
 
 type WeightKey = "query" | "research";
@@ -675,7 +676,7 @@ function mapRankingResult(result: RankingApiResult, index: number, query: string
   const primaryTopic = result.reason?.highlights?.[0] || topPaper?.title || "Backend-ranked match";
   const matchedPaperCount = finiteNumber(result.contribution?.matched_paper_count, papers.length);
   const startYear = papers.map((paper) => paper.year).filter(Boolean).sort((a, b) => a - b)[0] || YEAR_MAX;
-  const institution = result.institution || "Unknown institution";
+  const institution = formatInstitutionDisplay(result.institution, result.region, result.country_code);
   const region = result.region || "";
   return {
     id: result.researcher_id || `ranking-${index}-${normalizeIdentityText(name)}`,
