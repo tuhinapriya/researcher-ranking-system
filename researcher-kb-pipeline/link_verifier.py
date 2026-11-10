@@ -19,6 +19,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+from urllib.parse import unquote_plus, urlsplit
 from typing import Dict, List, Tuple
 
 import requests
@@ -28,13 +29,49 @@ logger = logging.getLogger(__name__)
 
 # Known provider regexes (highly indicative)
 KNOWN_PROVIDERS = {
+    "paperlantern": re.compile(r"paperlantern\.ai", re.I),
+    "openalex": re.compile(r"openalex\.org", re.I),
     "orcid": re.compile(r"orcid.org", re.I),
-    "google_scholar": re.compile(r"scholar.google\.(com|[a-z]{2,3})/citations", re.I),
-    "semantic_scholar": re.compile(r"semanticscholar.org/author", re.I),
+    "google_scholar": re.compile(r"scholar.google\.(com|[a-z]{2,3})/(citations|scholar)", re.I),
+    "semantic_scholar": re.compile(r"semanticscholar.org/(author|search)", re.I),
+    "base": re.compile(r"(base-search\.net|baseresearch\.org)", re.I),
+    "core": re.compile(r"core\.ac\.uk", re.I),
+    "science_gov": re.compile(r"science\.gov", re.I),
+    "baidu_scholar": re.compile(r"xueshu\.baidu\.com", re.I),
+    "wikipedia": re.compile(r"wikipedia\.org", re.I),
     "researchgate": re.compile(r"researchgate.net/profile", re.I),
     "academia": re.compile(r"academia.edu", re.I),
-    "university_profile": re.compile(r"/faculty|/people|/staff|/person/|/~", re.I),
+    "university_profile": re.compile(r"profiles\.stanford\.edu|slac\.stanford\.edu|\.stanford\.edu|/faculty|/people|/staff|/person/|/~", re.I),
 }
+
+# Trusted academic sources should clear the verifier without requiring the page
+# to be richly annotated. We still require a live HTTP response, but we allow a
+# much higher provider baseline so clean profile URLs do not get rejected.
+PROVIDER_BASE_SCORES = {
+    "paperlantern": 0.6,
+    "openalex": 0.6,
+    "orcid": 0.8,
+    "google_scholar": 0.8,
+    "semantic_scholar": 0.78,
+    "base": 0.58,
+    "core": 0.58,
+    "science_gov": 0.55,
+    "baidu_scholar": 0.55,
+    "wikipedia": 0.52,
+    "researchgate": 0.65,
+    "academia": 0.6,
+    "university_profile": 0.45,
+}
+
+NEGATIVE_PAGE_RE = re.compile(
+    r"\b("
+    r"no results|no result found|no matches found|no matches|nothing found|zero results|0 results|found 0 results|"
+    r"not found|page not found|invalid profile|invalid author|couldn't find|could not find|unable to find|does not exist|404|"
+    r"captcha|unusual traffic|access denied|security check|detector|human verification|verify you are human|"
+    r"javascript required|enable javascript|one moment|please wait while we verify|challenge"
+    r")\b",
+    re.I,
+)
 
 
 def _clean(text: str) -> str:
@@ -70,10 +107,8 @@ def _title_and_meta(soup: BeautifulSoup) -> Tuple[str, str]:
 
 
 def _url_name_signal(url: str, name_tokens: List[str]) -> float:
-    path = re.sub(r"^https?://", "", url, flags=re.I).split("/", 1)
-    if len(path) < 2:
-        return 0.0
-    slug = path[1].lower()
+    parsed = urlsplit(url)
+    slug = " ".join(part for part in (parsed.path, unquote_plus(parsed.query), unquote_plus(parsed.fragment)) if part).lower()
     score = 0.0
     # require at least last name present
     last = name_tokens[-1] if name_tokens else ""
@@ -87,14 +122,18 @@ def _url_name_signal(url: str, name_tokens: List[str]) -> float:
     return score
 
 
-def _provider_signal(url: str) -> float:
+def _provider_kind(url: str) -> str | None:
     for name, rx in KNOWN_PROVIDERS.items():
         if rx.search(url):
-            # ORCID / Google Scholar are very strong signals
-            if name in ("orcid", "google_scholar"):
-                return 0.5
-            return 0.25
-    return 0.0
+            return name
+    return None
+
+
+def _provider_signal(url: str) -> Tuple[float, str | None]:
+    kind = _provider_kind(url)
+    if not kind:
+        return 0.0, None
+    return PROVIDER_BASE_SCORES.get(kind, 0.0), kind
 
 
 def score_link(url: str, name: str | None, institution: str | None, timeout: int = 8) -> Tuple[float, Dict]:
@@ -116,23 +155,42 @@ def score_link(url: str, name: str | None, institution: str | None, timeout: int
         details["status_code"] = resp.status_code
         return 0.0, details
 
+    final_url = getattr(resp, "url", url) or url
+    details["final_url"] = final_url
+
     html = resp.text or ""
     soup = BeautifulSoup(html, "html.parser")
 
     name_clean = _clean(name or "")
     inst_clean = _clean(institution or "")
     name_tokens = [t for t in re.split(r"\s+", name_clean) if t]
+    html_clean = _clean(html)
+
+    final_host = urlsplit(final_url).hostname or ""
+    final_host = final_host.lower()
+    if final_host.startswith("wappass.baidu.com") or "captcha" in final_url.lower() or "detector" in final_url.lower():
+        details["negative_page"] = True
+        details["score_raw"] = 0.0
+        details["score"] = 0.0
+        return 0.0, details
 
     # provider signal
-    provider = _provider_signal(url)
+    provider, provider_kind = _provider_signal(url)
     if provider:
         details["provider_signal"] = provider
+        details["provider_kind"] = provider_kind
         score += provider
 
     # title and meta
     title, desc = _title_and_meta(soup)
     details["title"] = title
     details["meta_desc"] = desc
+
+    if NEGATIVE_PAGE_RE.search(title) or NEGATIVE_PAGE_RE.search(desc) or NEGATIVE_PAGE_RE.search(html_clean):
+        details["negative_page"] = True
+        details["score_raw"] = 0.0
+        details["score"] = 0.0
+        return 0.0, details
 
     # exact full-name in title/meta
     if name_clean and name_clean in title:
@@ -170,7 +228,7 @@ def score_link(url: str, name: str | None, institution: str | None, timeout: int
         pass
 
     # affiliation token anywhere in page
-    if inst_clean and inst_clean and inst_clean in _clean(html):
+    if inst_clean and inst_clean in html_clean:
         details.setdefault("signals", {})["page_affiliation"] = True
         score += 0.06
 
@@ -179,6 +237,23 @@ def score_link(url: str, name: str | None, institution: str | None, timeout: int
     if url_sig:
         details.setdefault("signals", {})["url_pattern"] = url_sig
         score += url_sig
+
+    # Trusted provider adjustments:
+    # - ORCID / Google Scholar / Semantic Scholar should pass if they resolve,
+    #   even when the HTML is thin or partially dynamic.
+    # - Stanford / SLAC / lab / academic websites still need some page-level
+    #   corroboration to avoid over-accepting unrelated pages on the same host.
+    if provider_kind in ("orcid", "google_scholar", "semantic_scholar", "paperlantern", "openalex", "base", "core", "wikipedia"):
+        score = max(score, PROVIDER_BASE_SCORES[provider_kind])
+    elif provider_kind in ("science_gov", "baidu_scholar"):
+        if score < 0.95:
+            details["negative_page"] = True
+            details["score_raw"] = 0.0
+            details["score"] = 0.0
+            return 0.0, details
+    elif provider_kind == "university_profile":
+        if score >= 0.7:
+            score = max(score, 0.75)
 
     # clamp
     final = min(1.0, score)
@@ -190,9 +265,9 @@ def score_link(url: str, name: str | None, institution: str | None, timeout: int
 def verify_and_rank(links: List[str], name: str | None, institution: str | None, threshold: float = 0.75) -> List[Dict]:
     """Verify candidate links and return the top verified links above threshold.
 
-    Strategy: score each candidate, sort by score desc, return only the top
-    link(s) that meet the confidence `threshold`. Prefer returning a single
-    high-quality link rather than many marginal ones.
+    Strategy: score each candidate, sort by score desc, and return every link
+    that clears the confidence `threshold`, up to a small fixed cap so the UI
+    stays concise.
     """
     scored: List[Tuple[float, str, Dict]] = []
     for url in links:
@@ -212,9 +287,9 @@ def verify_and_rank(links: List[str], name: str | None, institution: str | None,
     if not scored:
         return results
 
-    # choose the top result if it exceeds threshold
-    top_score, top_url, top_details = scored[0]
-    if top_score >= threshold:
-        label = re.sub(r"^https?://", "", top_url).split("/")[0]
-        results.append({"url": top_url, "label": label, "score": round(top_score, 3), "details": top_details})
+    for score, url, details in scored[:5]:
+        if score < threshold:
+            continue
+        label = re.sub(r"^https?://", "", url).split("/")[0]
+        results.append({"url": url, "label": label, "score": round(score, 3), "details": details})
     return results

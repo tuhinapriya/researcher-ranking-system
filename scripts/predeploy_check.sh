@@ -6,10 +6,16 @@ set -euo pipefail
 
 REQUIRED_SECRETS=("pinecone-key" "db-password")
 MISSING=()
+PROJECT_ID="${PROJECT_ID:-$(gcloud config get-value project 2>/dev/null || true)}"
 
 echo "Running pre-deploy checks for required secrets..."
+if [ -z "${PROJECT_ID}" ] || [ "${PROJECT_ID}" = "(unset)" ] || [ "${PROJECT_ID}" = "None" ]; then
+  echo "ERROR: PROJECT_ID is not set and no default gcloud project is configured."
+  exit 1
+fi
+
 for s in "${REQUIRED_SECRETS[@]}"; do
-  if ! gcloud secrets describe "$s" --format="value(name)" >/dev/null 2>&1; then
+  if ! gcloud secrets describe "$s" --project="$PROJECT_ID" --format="value(name)" >/dev/null 2>&1; then
     echo "ERROR: required secret '$s' not found in Secret Manager"
     MISSING+=("$s")
   else

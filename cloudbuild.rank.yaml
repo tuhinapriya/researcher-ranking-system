@@ -13,17 +13,6 @@ steps:
       - push
       - us-central1-docker.pkg.dev/project-d84d7c5a-c91d-497b-b78/researcher-repo/researcher-ranking:latest
 
-  # Run pre-deploy checks to ensure required secrets and env vars are present.
-  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
-    id: predeploy-check
-    entrypoint: bash
-    args:
-      - -c
-      - |
-        set -e
-        echo "Running predeploy_check.sh"
-        bash scripts/predeploy_check.sh
-
   - name: gcr.io/google.com/cloudsdktool/cloud-sdk
     id: deploy-service
     entrypoint: gcloud

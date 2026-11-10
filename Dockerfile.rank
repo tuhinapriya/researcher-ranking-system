@@ -31,5 +31,7 @@ COPY researcher-kb-pipeline/utils.py /app/utils.py
 COPY researcher-kb-pipeline/link_verifier.py /app/link_verifier.py
 RUN mkdir -p /app/data
 COPY researcher-kb-pipeline/data/mock_ranking_data.json /app/data/mock_ranking_data.json
+COPY researcher-kb-pipeline/data/raw/profiles /app/data/raw/profiles
+COPY researcher-kb-pipeline/data/raw/institutions /app/data/raw/institutions
 
 CMD ["sh", "-c", "python -m uvicorn rank_service:app --host 0.0.0.0 --port ${PORT:-8080}"]

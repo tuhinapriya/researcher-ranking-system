@@ -15,6 +15,11 @@ test_output.json
 # Large local pipeline data (fetched at runtime in GCP)
 # Keep researcher-kb-pipeline/data/*.json (needed by Dockerfile.rank)
 researcher-kb-pipeline/data/raw/
+!researcher-kb-pipeline/data/raw/
+!researcher-kb-pipeline/data/raw/profiles/
+!researcher-kb-pipeline/data/raw/profiles/**
+!researcher-kb-pipeline/data/raw/institutions/
+!researcher-kb-pipeline/data/raw/institutions/**
 researcher-kb-pipeline/data/intermediate/
 researcher-kb-pipeline/data/knowledge_base.json
 researcher-kb-pipeline/data/knowledge_base_summary.xlsx

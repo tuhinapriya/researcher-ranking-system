@@ -3,6 +3,7 @@ import json
 import os
 from contextlib import asynccontextmanager
 from datetime import datetime, timedelta
+from pathlib import Path
 from threading import Lock, Thread
 from typing import Any, Literal
 from uuid import uuid4
@@ -1180,10 +1181,84 @@ class ResearcherProfileResponse(BaseModel):
     years_active: int | None = None
     author_url: str | None = None
     country: str | None = None
+    orcid_url: str | None = None
+    semantic_scholar_url: str | None = None
+    semantic_scholar_homepage: str | None = None
+    institution_homepage: str | None = None
+    trusted_links: list[dict[str, str]] | None = None
 
 
 class ResearchersLookupResponse(BaseModel):
     researchers: list[ResearcherProfileResponse]
+
+
+_RAW_PROFILE_DIR = Path(__file__).resolve().parent / "data" / "raw" / "profiles"
+
+
+def _read_raw_profile(researcher_id: str) -> dict[str, Any]:
+    if not researcher_id:
+        return {}
+    profile_path = _RAW_PROFILE_DIR / f"{researcher_id}.json"
+    if not profile_path.exists():
+        return {}
+    try:
+        with profile_path.open("r", encoding="utf-8") as handle:
+            return json.load(handle)
+    except Exception:
+        logger.exception("failed_to_read_raw_profile researcher_id=%s", researcher_id)
+        return {}
+
+
+def _trusted_links_from_profile(row: dict[str, Any]) -> list[dict[str, str]]:
+    links: list[dict[str, str]] = []
+    seen: set[str] = set()
+
+    def add(url: str | None, label: str):
+        clean = (url or "").strip()
+        if not clean or clean in seen:
+            return
+        seen.add(clean)
+        links.append({"url": clean, "label": label})
+
+    add(row.get("author_url"), "Author Profile")
+    add(row.get("orcid_url"), "ORCID")
+    add(row.get("semantic_scholar_url"), "Semantic Scholar")
+    add(row.get("semantic_scholar_homepage"), "Personal Website")
+    add(row.get("institution_homepage"), "Institution Website")
+
+    for link in row.get("trusted_links") or []:
+        if isinstance(link, dict):
+            add(link.get("url"), link.get("label") or "Website")
+
+    return links
+
+
+def _raw_profile_metadata(researcher_id: str) -> dict[str, Any]:
+    profile = _read_raw_profile(researcher_id)
+    openalex = profile.get("openalex") or {}
+    semantic_scholar = profile.get("semantic_scholar") or {}
+
+    author_url = openalex.get("id") or profile.get("author_id")
+    orcid_url = openalex.get("orcid")
+    semantic_scholar_url = semantic_scholar.get("url")
+    semantic_scholar_homepage = semantic_scholar.get("homepage")
+
+    metadata = {
+        "author_url": author_url,
+        "orcid_url": orcid_url,
+        "semantic_scholar_url": semantic_scholar_url,
+        "semantic_scholar_homepage": semantic_scholar_homepage,
+        "trusted_links": _trusted_links_from_profile(
+            {
+                "author_url": author_url,
+                "orcid_url": orcid_url,
+                "semantic_scholar_url": semantic_scholar_url,
+                "semantic_scholar_homepage": semantic_scholar_homepage,
+                "institution_homepage": None,
+            }
+        ),
+    }
+    return {key: value for key, value in metadata.items() if value}
 
 
 @app.post(
@@ -1198,22 +1273,30 @@ def researchers_lookup(request: ResearchersLookupRequest) -> ResearchersLookupRe
     try:
         cursor = conn.cursor()
         rows = fetch_researcher_ranking_rows(cursor, researcher_ids=ids)
-        profiles = [
-            ResearcherProfileResponse(
-                id=row["id"],
-                name=row.get("name"),
-                institution=row.get("institution_name") or row.get("institution"),
-                region=row.get("institution_region") or row.get("region"),
-                total_works=row.get("total_works"),
-                total_citations=row.get("total_citations"),
-                h_index=row.get("h_index"),
-                i10_index=row.get("i10_index"),
-                years_active=row.get("years_active"),
-                author_url=row.get("author_url"),
-                country=row.get("country") or row.get("institution_country"),
+        profiles = []
+        for row in rows:
+            raw_meta = _raw_profile_metadata(row.get("id"))
+            merged = {**row, **raw_meta}
+            profiles.append(
+                ResearcherProfileResponse(
+                    id=merged["id"],
+                    name=merged.get("name"),
+                    institution=merged.get("institution_name") or merged.get("institution"),
+                    region=merged.get("institution_region") or merged.get("region"),
+                    total_works=merged.get("total_works"),
+                    total_citations=merged.get("total_citations"),
+                    h_index=merged.get("h_index"),
+                    i10_index=merged.get("i10_index"),
+                    years_active=merged.get("years_active"),
+                    author_url=merged.get("author_url"),
+                    country=merged.get("country") or merged.get("institution_country"),
+                    orcid_url=merged.get("orcid_url"),
+                    semantic_scholar_url=merged.get("semantic_scholar_url"),
+                    semantic_scholar_homepage=merged.get("semantic_scholar_homepage"),
+                    institution_homepage=merged.get("institution_homepage"),
+                    trusted_links=merged.get("trusted_links"),
+                )
             )
-            for row in rows
-        ]
         return ResearchersLookupResponse(researchers=profiles)
     except Exception as exc:
         logger.exception("researchers_lookup_failed ids_count=%s", len(ids))

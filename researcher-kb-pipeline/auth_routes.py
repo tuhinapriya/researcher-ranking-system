@@ -718,50 +718,58 @@ def ai_chat(body: AiChatBody, x_session_token: str | None = Header(None)):
             status_code=400, detail="At least one chat message is required."
         )
 
-    provider = body.provider or "gpt"
-    base_url = body.apiBaseUrl or ""
-    model = (body.model or "").strip()
+    user = auth_db.get_user_by_session(x_session_token) if x_session_token else None
+    stored = auth_db.get_ai_settings(user["id"]) if user else None
 
-    # Strict policy: require authenticated user with a stored API key. No
-    # fallbacks, ADC, or client-supplied keys are allowed.
-    if not x_session_token:
-        raise HTTPException(
-            status_code=401,
-            detail="Authentication required. Please log in and add your API key in Settings.",
-        )
-
-    user = auth_db.get_user_by_session(x_session_token)
-    if not user:
-        raise HTTPException(status_code=401, detail="Invalid session. Please log in.")
-
-    stored = auth_db.get_ai_settings(user["id"])
+    provider = body.provider or ((stored.get("provider") or "gpt") if stored else "gpt")
+    base_url = body.apiBaseUrl or ((stored.get("apiBaseUrl") or "") if stored else "") or ""
+    model = (body.model or "").strip() or ((stored.get("model") or "") if stored else "")
+    client_api_key = (body.apiKey or "").strip()
 
     api_key = ""
     access_token = None
+    credential_path = "REJECTED"
 
     if stored and stored.get("apiKey"):
         api_key = stored["apiKey"]
-        provider = body.provider or stored.get("provider", "gpt")
-        base_url = body.apiBaseUrl or stored.get("apiBaseUrl", "") or ""
-        model = model or stored.get("model", "")
-    else:
-        # No stored API key. Allow ADC only for the official demo user id.
-        if user.get("id") == DEMO_USER_ID:
-            access_token = _get_adc_access_token()
-            if not access_token:
-                raise HTTPException(
-                    status_code=401,
-                    detail="No AI API key configured. Please add your API key in Settings.",
-                )
-            provider = body.provider or "gemini"
-            base_url = body.apiBaseUrl or ""
-            model = model or "gemini-2.5-flash"
-        else:
-            # Non-demo users must have a stored key
+        credential_path = "STORED_KEY"
+    elif client_api_key:
+        # BYOK path: the browser provides the provider key just for this request.
+        api_key = client_api_key
+        credential_path = "BYOK_KEY"
+    elif user and user.get("id") == DEMO_USER_ID:
+        # Demo account may use ADC when no key is stored or supplied.
+        credential_path = "DEMO_ADC"
+        access_token = _get_adc_access_token()
+        if not access_token:
             raise HTTPException(
                 status_code=401,
                 detail="No AI API key configured. Please add your API key in Settings.",
             )
+        provider = body.provider or "gemini"
+        project_id = (
+            os.environ.get("GOOGLE_CLOUD_PROJECT")
+            or os.environ.get("GCP_PROJECT")
+            or "project-d84d7c5a-c91d-497b-b78"
+        )
+        location = os.environ.get("VERTEX_LOCATION") or "us-central1"
+        base_url = (
+            f"https://{location}-aiplatform.googleapis.com/v1/projects/"
+            f"{project_id}/locations/{location}/publishers/google"
+        )
+        model = model or "gemini-2.5-flash"
+    else:
+        raise HTTPException(
+            status_code=401,
+            detail="No AI API key configured. Please add your API key in Settings.",
+        )
+
+    logger.info(
+        "[ai/chat] credential path selected: %s provider=%s model=%s",
+        credential_path,
+        provider,
+        model or "",
+    )
 
     try:
         if provider == "gemini":

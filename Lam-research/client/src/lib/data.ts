@@ -55,6 +55,10 @@ export interface ResearcherRecord {
   authorUrl?: string;
   googleUrl?: string;
   scholarUrl?: string;
+  orcidUrl?: string;
+  semanticScholarUrl?: string;
+  semanticScholarHomepage?: string;
+  institutionHomepage?: string;
   coAuthorCount?: number;
   coAuthorIds?: string[];
   papers: ResearchPaper[];

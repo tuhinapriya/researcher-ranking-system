@@ -11,6 +11,11 @@ build/
 # ── Local data (never bake raw/cached data into the image) ───────────────────
 researcher-kb-pipeline/data/**
 !researcher-kb-pipeline/data/mock_ranking_data.json
+!researcher-kb-pipeline/data/raw/
+!researcher-kb-pipeline/data/raw/profiles/
+!researcher-kb-pipeline/data/raw/profiles/**
+!researcher-kb-pipeline/data/raw/institutions/
+!researcher-kb-pipeline/data/raw/institutions/**
 
 # ── Notebooks / dev files ─────────────────────────────────────────────────────
 **/*.ipynb

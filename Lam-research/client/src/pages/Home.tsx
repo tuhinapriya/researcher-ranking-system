@@ -1,5 +1,6 @@
 import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, BookOpen, Bot, Bookmark, BookmarkCheck, ChevronDown, ExternalLink, FileText, MessageCircle, Moon, Search, Send, Settings, SlidersHorizontal, Sparkles, Sun, User, X } from "lucide-react";
+import { buildAiSummaryDirectSourceLinks, buildAiSummaryFallbackSearchLinks, buildAiSummaryPrompt, normalizeAiSummaryText, normalizeSummaryLinks, parseAiSummaryBlocks, sortSummaryLinksByPriority, stripAiSummarySourceSectionText, stripSummarySourceSection, tokenizeAiSummaryInline } from "@/lib/ai-summary";
 import { type ResearchPaper, type ResearcherRecord } from "@/lib/data";
 import { cn } from "@/lib/utils";
 
@@ -16,7 +17,7 @@ type FallbackUiState =
   | { mode: "running"; jobId: string; message: string; currentStep: string; steps: FallbackJobStep[] }
   | { mode: "failed"; message: string; query: string; searchType: FallbackSearchType }
   | { mode: "cancelled"; message: string };
-type ChatMessage = { role: "assistant" | "user"; content: string };
+type ChatMessage = { role: "assistant" | "user" | "system"; content: string };
 type FloatingPosition = { x: number; y: number };
 type ThemeMode = "dark" | "light";
 type AuthMode = "login" | "register" | "reset";
@@ -38,6 +39,24 @@ type SearchMeta = {
   fallbackType?: string;
   originalQuery?: string;
   fallbackSearchType?: FallbackSearchType;
+};
+type ResearcherLookupProfile = {
+  id: string;
+  name?: string | null;
+  institution?: string | null;
+  region?: string | null;
+  total_works?: number | null;
+  total_citations?: number | null;
+  h_index?: number | null;
+  i10_index?: number | null;
+  years_active?: number | null;
+  author_url?: string | null;
+  country?: string | null;
+  orcid_url?: string | null;
+  semantic_scholar_url?: string | null;
+  semantic_scholar_homepage?: string | null;
+  institution_homepage?: string | null;
+  trusted_links?: Array<{ url: string; label?: string }> | null;
 };
 type ResearchersResponse = { query: string; meta: SearchMeta; researchers: ResearcherRecord[] };
 type RankingTopPaper = {
@@ -1740,53 +1759,160 @@ function AiSummaryModal({
   const [loading, setLoading] = useState(() => !cache.has(cacheKey));
   const [error, setError] = useState("");
   const [verifiedLinks, setVerifiedLinks] = useState<Array<{url: string; label: string}>>([]);
+  const [verifyingSources, setVerifyingSources] = useState(false);
+  const [researcherLookup, setResearcherLookup] = useState<ResearcherLookupProfile | null>(null);
+  const visibleSummaryText = useMemo(() => stripAiSummarySourceSectionText(summary), [summary]);
+  const summaryBlocks = useMemo(() => parseAiSummaryBlocks(visibleSummaryText), [visibleSummaryText]);
+  const visibleSummaryBlocks = useMemo(() => stripSummarySourceSection(summaryBlocks), [summaryBlocks]);
+  const displayLinks = useMemo(() => sortSummaryLinksByPriority(normalizeSummaryLinks(verifiedLinks)), [verifiedLinks]);
+  const directSourceLinks = useMemo(
+    () => buildAiSummaryDirectSourceLinks(summary, researcher, researcherLookup),
+    [researcher, researcherLookup, summary],
+  );
+  const fallbackSourceLinks = useMemo(
+    () => buildAiSummaryFallbackSearchLinks(researcher.name, institution, query),
+    [institution, query, researcher.name],
+  );
+  const sourceCandidatesAvailable = directSourceLinks.length > 0 || fallbackSourceLinks.length > 0;
+  const allowedSummaryLinkUrls = useMemo(() => new Set(displayLinks.map((link) => link.url)), [displayLinks]);
+  const renderInline = (text: string) =>
+    tokenizeAiSummaryInline(text).map((token, index) => {
+      if (token.type !== "link") {
+        return <span key={index}>{token.text}</span>;
+      }
+
+      const normalizedHref = token.href.trim();
+      if (allowedSummaryLinkUrls.has(normalizedHref)) {
+        return (
+          <a key={`${token.href}-${index}`} href={token.href} target="_blank" rel="noreferrer noopener" className="text-blue-300 hover:underline">
+            {token.text}
+          </a>
+        );
+      }
+
+      if (token.text.trim() && token.text.trim() !== normalizedHref) {
+        return <span key={index}>{token.text}</span>;
+      }
+
+      return null;
+    });
 
   useEffect(() => {
-    if (cache.has(cacheKey)) return;
+    let cancelled = false;
+    setResearcherLookup(null);
+
+    apiRequest<{ researchers: ResearcherLookupProfile[] }>(
+      "/api/researchers/lookup",
+      { method: "POST", body: JSON.stringify({ ids: [researcher.id] }) }
+    )
+      .then((result) => {
+        if (cancelled) return;
+        setResearcherLookup(result.researchers?.[0] ?? null);
+      })
+      .catch(() => {
+        if (!cancelled) setResearcherLookup(null);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [researcher.id]);
+
+  useEffect(() => {
+    let cancelled = false;
+    setVerifiedLinks([]);
+    setVerifyingSources(true);
+
+    const cachedSummary = cache.get(cacheKey);
+    if (cachedSummary) {
+      setSummary(cachedSummary);
+      setLoading(false);
+      setError("");
+    }
+
+    const verifyCandidates = async (links: Array<{ url: string; label?: string }>) => {
+      if (!links.length) return [];
+      const body = { links: Array.from(new Set(links.map((link) => link.url))), name: researcher.name, institution };
+      const res = await apiRequest<{ verified: Array<{ url: string; label: string }> }>("/api/ai/verify-links", { method: "POST", body: JSON.stringify(body) });
+      return res.verified || [];
+    };
+
+    (async () => {
+      try {
+        const directVerified = await verifyCandidates(directSourceLinks);
+        if (cancelled) return;
+        if (directVerified.length > 0 || fallbackSourceLinks.length === 0) {
+          setVerifiedLinks(directVerified);
+          setVerifyingSources(false);
+          return;
+        }
+
+        const fallbackVerified = await verifyCandidates(fallbackSourceLinks);
+        if (!cancelled) {
+          setVerifiedLinks(fallbackVerified);
+          setVerifyingSources(false);
+        }
+      } catch {
+        if (!cancelled) {
+          setVerifiedLinks([]);
+          setVerifyingSources(false);
+        }
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [cacheKey, directSourceLinks, fallbackSourceLinks, institution, researcher.name]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const cachedSummary = cache.get(cacheKey);
+    if (cachedSummary) {
+      setSummary(cachedSummary);
+      setLoading(false);
+      setError("");
+      return () => {
+        cancelled = true;
+      };
+    }
+
     setLoading(true);
     setError("");
-    const prompt = institution
-      ? `Describe the research interests, activities, results, research group, capabilities, expertise, impact, and overall caliber of ${researcher.name} at ${institution} in the area of ${query}. Provide a concise single-screen summary suitable for technical decision makers. Include primary research areas, recent activities, notable publications or achievements, laboratory or group information, technical capabilities, relevance to the search topic, and an assessment of influence and caliber. Include links to relevant online sources whenever possible.`
-      : `Describe the research interests, activities, results, research group, capabilities, expertise, impact, and overall caliber of ${researcher.name} in the area of ${query}. Provide a concise single-screen summary suitable for technical decision makers. Include primary research areas, recent activities, notable publications or achievements, laboratory or group information, technical capabilities, relevance to the search topic, and an assessment of influence and caliber. Include links to relevant online sources whenever possible.`;
-    requestAiAnswer(settings, [{ role: "user", content: prompt }], undefined, loggedIn)
-      .then(async (answer) => {
-        // Sanitize AI output: convert any HTML anchors to markdown, strip other tags
-        const convertAnchors = (s: string) => s.replace(/<a\s+[^>]*href=["']([^"']+)["'][^>]*>(.*?)<\/a>/gi, (m, href, text) => {
-          return `[${text}](${href})`;
-        });
-        const stripTags = (s: string) => convertAnchors(s).replace(/<[^>]+>/g, "");
-        const clean = stripTags(answer);
+    const prompt = buildAiSummaryPrompt(researcher.name, institution, query);
+    const systemPrompt = [
+      "You write concise academic researcher summaries.",
+      "Use exactly the Bill Lee section headings in the user prompt, in that order.",
+      "Do not rename the headings, do not add an extra title, and do not include a sources section or raw URLs.",
+      "Keep each section short and factual.",
+    ].join(" ");
+    requestAiAnswer(
+      settings,
+      [
+        { role: "system", content: systemPrompt },
+        { role: "user", content: prompt },
+      ],
+      undefined,
+      loggedIn,
+    )
+      .then((answer) => {
+        const clean = normalizeAiSummaryText(answer);
+        if (cancelled) return;
         setSummary(clean);
         onCache(cacheKey, clean);
-
-        // Gather candidate links: explicit profile fields + any URLs found in the cleaned answer
-        const candidates = new Set<string>();
-        if (researcher.authorUrl) candidates.add(researcher.authorUrl);
-        if (researcher.googleUrl) candidates.add(researcher.googleUrl);
-        if (researcher.scholarUrl) candidates.add(researcher.scholarUrl);
-        // extract bare URLs from text
-        const urlRegex = /(https?:\/\/[^\s)]+)/g;
-        let m: RegExpExecArray | null;
-        while ((m = urlRegex.exec(clean))) {
-          if (m[1]) candidates.add(m[1]);
-        }
-
-        if (candidates.size > 0) {
-          try {
-            const body = { links: Array.from(candidates), name: researcher.name, institution };
-            const res = await apiRequest<{ verified: Array<{ url: string; label: string }> }>("/api/ai/verify-links", { method: "POST", body: JSON.stringify(body) });
-            setVerifiedLinks(res.verified || []);
-          } catch (err) {
-            // verification failed — clear links
-            setVerifiedLinks([]);
-          }
-        } else {
-          setVerifiedLinks([]);
-        }
       })
-      .catch((err) => setError(err instanceof Error ? err.message : String(err)))
-      .finally(() => setLoading(false));
-  }, [cacheKey]); // eslint-disable-line react-hooks/exhaustive-deps
+      .catch((err) => {
+        if (!cancelled) setError(err instanceof Error ? err.message : String(err));
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [cacheKey, institution, loggedIn, onCache, query, researcher.name, settings]);
 
   return (
     <div className="fixed inset-0 z-[80] flex items-center justify-center bg-black/60 px-4 backdrop-blur-sm">
@@ -1813,40 +1939,60 @@ function AiSummaryModal({
             <div className="rounded-md border border-red-500/20 bg-red-500/10 px-4 py-3 text-sm text-red-300">{error}</div>
           ) : (
             (() => {
-              // Summary text has been sanitized server-side in the frontend before
-              // caching. We still escape and then linkify markdown and bare URLs.
-              const escapeHtml = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-              const linkify = (s: string) => {
-                let out = escapeHtml(s);
-                // markdown [text](url)
-                out = out.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noreferrer noopener" class="text-blue-300 hover:underline">$1</a>');
-                // bare URLs
-                out = out.replace(/(https?:\/\/[^\s)]+)/g, '<a href="$1" target="_blank" rel="noreferrer noopener" class="text-blue-300 hover:underline">$1</a>');
-                // preserve line breaks
-                out = out.replace(/\n/g, "<br/>\n");
-                return out;
-              };
-              const summaryHtml = summary ? linkify(summary) : "";
-
               return (
                 <div>
-                  <div className="text-sm leading-7 text-slate-300" dangerouslySetInnerHTML={{ __html: summaryHtml }} />
-                  <div className="mt-4 pt-3 border-t border-white/6 text-sm">
-                    <h3 className="text-xs font-semibold text-slate-300">Relevant Online Sources</h3>
-                    <div className="mt-2">
-                      {verifiedLinks.length > 0 ? (
+                  <div className="space-y-4 text-sm leading-7 text-slate-300">
+                    {visibleSummaryBlocks.map((block, blockIndex) => {
+                      if (block.type === "heading") {
+                        return (
+                          <h4 key={blockIndex} className="text-sm font-semibold text-slate-100">
+                            {block.text}
+                          </h4>
+                        );
+                      }
+
+                      if (block.type === "list") {
+                        return (
+                          <ul key={blockIndex} className="space-y-2">
+                            {block.items.map((item, itemIndex) => (
+                              <li key={`${blockIndex}-${itemIndex}`} className="flex gap-2">
+                                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-300/70" />
+                                <span>{renderInline(item)}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        );
+                      }
+
+                      return <p key={blockIndex}>{renderInline(block.text)}</p>;
+                    })}
+                  </div>
+                  {displayLinks.length > 0 ? (
+                    <div className="mt-4 border-t border-white/6 pt-3 text-sm">
+                      <h3 className="text-xs font-semibold text-slate-300">Relevant Online Sources</h3>
+                      <div className="mt-2">
                         <ul className="space-y-2">
-                          {verifiedLinks.map((l) => (
+                          {displayLinks.map((l) => (
                             <li key={l.url}>
-                              <a href={l.url} target="_blank" rel="noreferrer noopener" className="text-blue-300 hover:underline">{l.label || l.url}</a>
+                              <a href={l.url} target="_blank" rel="noreferrer noopener" className="text-blue-300 hover:underline">
+                                {l.label || l.url}
+                              </a>
                             </li>
                           ))}
                         </ul>
-                      ) : (
-                        <div className="text-slate-500">No verified online sources found.</div>
-                      )}
+                      </div>
                     </div>
-                  </div>
+                  ) : verifyingSources && sourceCandidatesAvailable ? (
+                    <div className="mt-4 border-t border-white/6 pt-3 text-sm">
+                      <h3 className="text-xs font-semibold text-slate-300">Relevant Online Sources</h3>
+                      <p className="mt-2 text-xs text-slate-500">Verifying source links...</p>
+                    </div>
+                  ) : sourceCandidatesAvailable ? (
+                    <div className="mt-4 border-t border-white/6 pt-3 text-sm">
+                      <h3 className="text-xs font-semibold text-slate-300">Relevant Online Sources</h3>
+                      <p className="mt-2 text-xs text-slate-500">No verified online sources found.</p>
+                    </div>
+                  ) : null}
                 </div>
               );
             })()
