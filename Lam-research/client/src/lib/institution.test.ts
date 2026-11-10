@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { formatInstitutionDisplay } from './institution';
+import { formatInstitutionDisplay, formatResearcherInstitutionLabel } from './institution';
 
 describe('formatInstitutionDisplay', () => {
   it('keeps the real institution when present', () => {
@@ -14,5 +14,10 @@ describe('formatInstitutionDisplay', () => {
   it('avoids the misleading unknown message when the institution is blank', () => {
     expect(formatInstitutionDisplay('Unknown institution', null, 'US')).toBe('United States');
     expect(formatInstitutionDisplay('unknown', 'California', null)).toBe('California');
+  });
+
+  it('uses the same location-aware fallback in the researcher label display', () => {
+    expect(formatResearcherInstitutionLabel('', 'California', 'United States')).toBe('California, United States');
+    expect(formatResearcherInstitutionLabel('Unknown institution', 'Baden-Württemberg', 'Germany')).toBe('Baden-Württemberg, Germany');
   });
 });

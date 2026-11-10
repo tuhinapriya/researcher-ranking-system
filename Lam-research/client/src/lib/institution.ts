@@ -46,3 +46,11 @@ export function formatInstitutionDisplay(
 
   return 'Institution unavailable';
 }
+
+export function formatResearcherInstitutionLabel(
+  institution?: string | null,
+  region?: string | null,
+  country?: string | null,
+): string {
+  return formatInstitutionDisplay(institution, region, country);
+}

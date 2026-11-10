@@ -2,7 +2,7 @@ import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, BookOpen, Bot, Bookmark, BookmarkCheck, ChevronDown, ExternalLink, FileText, MessageCircle, Moon, Search, Send, Settings, SlidersHorizontal, Sparkles, Sun, User, X } from "lucide-react";
 import { buildAiSummaryDirectSourceLinks, buildAiSummaryFallbackSearchLinks, buildAiSummaryPrompt, normalizeAiSummaryText, normalizeSummaryLinks, parseAiSummaryBlocks, sortSummaryLinksByPriority, stripAiSummarySourceSectionText, stripSummarySourceSection, tokenizeAiSummaryInline } from "@/lib/ai-summary";
 import { type ResearchPaper, type ResearcherRecord } from "@/lib/data";
-import { formatInstitutionDisplay } from "@/lib/institution";
+import { formatInstitutionDisplay, formatResearcherInstitutionLabel } from "@/lib/institution";
 import { cn } from "@/lib/utils";
 
 type WeightKey = "query" | "research";
@@ -1924,7 +1924,7 @@ function AiSummaryModal({
               <Sparkles className="h-4 w-4 text-cyan-300" />
               AI Summary
             </h2>
-            <p className="mt-0.5 text-xs text-slate-500">{researcher.name} · {institution || "Unknown institution"} · {query}</p>
+            <p className="mt-0.5 text-xs text-slate-500">{researcher.name} · {formatResearcherInstitutionLabel(researcher.institution, researcher.region, researcher.country)} · {query}</p>
           </div>
           <button onClick={onClose} className="rounded p-1 text-slate-500 hover:bg-white/8 hover:text-slate-100">
             <X className="h-5 w-5" />
